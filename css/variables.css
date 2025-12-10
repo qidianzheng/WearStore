@@ -1,0 +1,92 @@
+/* css/variables.css */
+:root {
+  /* 基础尺寸与布局变量 */
+  --gap-size: 12px;
+  --nav-element-height: 44px;
+  --radius-lg: 16px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 浅色主题 (默认) */
+:root,
+[data-theme="light"] {
+  --primary-color: #059669;
+  --primary-hover: #047857;
+  --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  --glass-bg: rgba(255, 255, 255, 0.95);
+  --card-glass: rgba(255, 255, 255, 0.9);
+  --border-color: rgba(255, 255, 255, 0.8);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --text-main: #1f2937;
+  --text-secondary: #4b5563;
+  --modal-bg: #ffffff;
+  --input-bg: #f3f4f6;
+  --input-border: #d1d5db;
+  --input-text: #1f2937;
+  --input-placeholder: #9ca3af;
+  --detail-bg: #f8fafc;
+  --screenshot-border: #e5e7eb;
+  --incompat-bg: #cbd5e1;
+  --incompat-border: #94a3b8;
+  --warning-text: #ef4444;
+  --warning-bg: #fef2f2;
+  --menu-item-bg: #f3f4f6;
+  --menu-item-border: #e5e7eb;
+  --menu-separator-color: #e5e7eb;
+  --version-btn-bg: #ffffff;
+  --version-btn-border: #059669;
+  --version-btn-text: #059669;
+  --version-btn-active-bg: #059669;
+  --version-btn-active-text: #ffffff;
+  --icon-sun: #f59e0b;
+  --icon-normal: #4b5563;
+  --icon-gold: #f59e0b;
+
+  /* 滚动条 - 浅色 */
+  --scrollbar-track: transparent;
+  --scrollbar-thumb: #cbd5e1;
+  --scrollbar-thumb-hover: #94a3b8;
+}
+
+/* 深色主题 */
+[data-theme="dark"] {
+  color-scheme: dark;
+  /* 启用浏览器原生深色控件 */
+  --primary-color: #10b981;
+  --primary-hover: #34d399;
+  --bg-gradient: linear-gradient(135deg, #020617 0%, #0f172a 100%);
+  --glass-bg: rgba(30, 41, 59, 0.95);
+  --card-glass: #1e293b;
+  --border-color: rgba(255, 255, 255, 0.15);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  --text-main: #f8fafc;
+  --text-secondary: #94a3b8;
+  --modal-bg: #1e293b;
+  --input-bg: #0f172a;
+  --input-border: #334155;
+  --input-text: #ffffff;
+  --input-placeholder: rgba(255, 255, 255, 0.8);
+  --detail-bg: #0f172a;
+  --screenshot-border: #334155;
+  --incompat-bg: #334155;
+  --incompat-border: #475569;
+  --warning-text: #f87171;
+  --warning-bg: rgba(239, 68, 68, 0.1);
+  --menu-item-bg: #0f172a;
+  --menu-item-border: #334155;
+  --menu-separator-color: #334155;
+  --version-btn-bg: rgba(255, 255, 255, 0.05);
+  --version-btn-border: rgba(255, 255, 255, 0.1);
+  --version-btn-text: #e2e8f0;
+  --version-btn-active-bg: #10b981;
+  --version-btn-active-text: #ffffff;
+  --icon-normal: #94a3b8;
+  --icon-gold: #fbbf24;
+
+  /* 滚动条 - 深色 */
+  --scrollbar-track: transparent;
+  --scrollbar-thumb: #334155;
+  --scrollbar-thumb-hover: #475569;
+}

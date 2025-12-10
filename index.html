@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WearStore，WearOS，手表软件">
+  <title>WearStore - 找到心动的手表软件</title>
+  <!-- 引入样式 -->
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- ================= 导航栏 ================= -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand logo" onclick="window.location.reload()">
+        <img src="./assets/WearStore.png" alt="Logo" class="logo-img">
+        <span class="logo-text">WearStore</span>
+      </a>
+
+      <div class="search-container">
+        <input type="text" id="searchInput" class="search-box" placeholder="搜索应用..." autocomplete="off">
+        <span class="material-symbols-rounded search-btn-icon" id="searchBtn">search</span>
+        <!-- 搜索联想列表容器 -->
+        <div id="searchSuggestions" class="search-suggestions"></div>
+      </div>
+
+      <button id="menuBtn" class="menu-btn" title="打开菜单">
+        <span class="material-symbols-rounded">menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ================= 主内容区 ================= -->
+  <div class="container">
+    <div class="cards-grid" id="cardsContainer">
+      <!-- JS 动态生成应用卡片 -->
+    </div>
+  </div>
+
+  <!-- ================= 页脚 ================= -->
+  <footer class="site-footer">
+    <div class="footer-line-1">WearStore</div>
+    <div class="footer-line-2">
+      本站资源收集于网络，仅供学习交流。<br>
+      如有侵权请联系dzq8719@gmail.com
+    </div>
+  </footer>
+
+  <!-- ================= 弹窗区域 (全屏覆盖) ================= -->
+
+  <!-- 1. 菜单弹窗 -->
+  <div class="modal-overlay" id="menuModalOverlay">
+    <div class="modal">
+      <div class="menu-modal-layout">
+        <div class="menu-header">
+          菜单
+          <span class="material-symbols-rounded unified-close-btn menu-header-close-btn"
+            id="closeMenuModal">close</span>
+        </div>
+        <div class="menu-content">
+          <!-- 顶部功能按钮网格 (2x2) -->
+          <div class="menu-top-grid">
+            <!-- 安卓版本 -->
+            <div class="menu-action-card" id="menuVersionTrigger">
+              <span class="material-symbols-rounded menu-action-icon color-primary">android</span>
+              <div class="menu-action-text-group">
+                <span class="menu-action-label">安卓版本</span>
+                <span class="menu-action-sub" id="menuVersionText">未选择</span>
+              </div>
+            </div>
+            <!-- 主题切换 -->
+            <div class="menu-action-card" id="menuThemeToggle">
+              <span class="material-symbols-rounded menu-action-icon color-normal theme-icon">brightness_5</span>
+              <div class="menu-action-text-group">
+                <span class="menu-action-label">日/夜间模式</span>
+                <span class="menu-action-sub">切换外观</span>
+              </div>
+            </div>
+            <!-- 最新上架 -->
+            <div class="menu-action-card" id="newArrivalsBtn">
+              <span class="material-symbols-rounded menu-action-icon color-gold">new_releases</span>
+              <div class="menu-action-text-group">
+                <span class="menu-action-label">最新上架</span>
+                <span class="menu-action-sub">查看新入库</span>
+              </div>
+            </div>
+            <!-- 最近更新 -->
+            <div class="menu-action-card" id="recentUpdatesBtn">
+              <span class="material-symbols-rounded menu-action-icon" style="color: #3b82f6;">update</span>
+              <div class="menu-action-text-group">
+                <span class="menu-action-label">最近更新</span>
+                <span class="menu-action-sub">查看版本升级</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-separator"></div>
+
+          <!-- 分类列表区域 -->
+          <div class="menu-section">
+            <h3 style="font-size:1rem; color:var(--text-secondary); margin-bottom:10px;">分类浏览</h3>
+            <div class="menu-category-grid" id="menuCategoryGrid">
+              <!-- JS 动态生成分类按钮 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. 分类/列表通用窗口 -->
+  <div class="modal-overlay" id="categoryWindowOverlay">
+    <div class="modal">
+      <div class="dev-modal-layout">
+        <div class="window-header">
+          <span id="categoryWindowTitle">列表名称</span>
+          <span class="material-symbols-rounded unified-close-btn header-close-img" id="categoryCloseBtn">close</span>
+        </div>
+        <div class="dev-content">
+          <div class="cards-grid" id="categoryAppsContainer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. 开发者应用窗口 -->
+  <div class="modal-overlay" id="devModalOverlay">
+    <div class="modal">
+      <div class="dev-modal-layout">
+        <div class="window-header">
+          <span id="devModalTitle">开发者名称</span>
+          <span class="material-symbols-rounded unified-close-btn header-close-img"
+            onclick="document.getElementById('devModalOverlay').classList.remove('active')">close</span>
+        </div>
+        <div class="dev-content">
+          <div class="cards-grid" id="devAppsContainer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. 欢迎/版本选择弹窗 -->
+  <div class="modal-overlay" id="welcomeModalOverlay">
+    <div class="modal">
+      <div class="welcome-content">
+        <h2>请选择您的手表 Android 版本</h2>
+        <div class="version-grid" id="versionGrid"></div>
+        <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 15px;">您可以在菜单中随时更改</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 引入主程序 -->
+  <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
