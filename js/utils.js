@@ -1,6 +1,6 @@
 /* js/utils.js */
 
-export const DEFAULT_ICON = "./assets/WearStore.png";
+export const DEFAULT_ICON = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzEwYjk4MSI+PHBhdGggZD0iTTE3LjUyIDkuNDhsMS4zOC0yLjM5YS41MS41MSAwIDAgMSAuNzItLjE4LjUxLjUxIDAgMCAxIC4xOC43MmwtMS4zOSAyLjQxQTEwIDEwIDAgMCAxIDIyIDE1djFjMCAxLjQ2LS40IDIuODItMS4xIDRIMUMuMSAyMCAzIDE4LjU0IDMgMTd2LTFhMTAgMTAgMCAwIDEgNC41OS04bC0xLjM5LTIuNDFhLjUyLjUyIDAgMCAxIC45LS41NGwxLjM4IDIuMzlhOS44NiA5Ljg2IDAgMCAxIDkuMDQgMHpNOCAxNWExIDEgMCAxIDAgMCAyIDEgMSAwIDAgMCAwLTJ6bTggMWExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDJ6Ii8+PC9zdmc+";
 
 export const apiMap = {
   14: "4.0", 15: "4.0.3", 16: "4.1", 17: "4.2", 18: "4.3",
@@ -30,26 +30,25 @@ export function isAppCompatible(app, userApi) {
 }
 
 export function getBestMatchVersion(app, userApi) {
-  // 1. 提取主版本的链接和密码 (作为后备)
+  // 1. 提取主版本的链接 (作为后备)
   const mainDownloadUrl = app.downloadUrl || app.realPath || "";
   const mainPassword = app.password || "";
 
-  // 2. 构造主版本对象
+  // 2. 构造所有版本列表
   let allVersions = [
     {
       version: app.version,
-      code: parseInt(app.code || 0), // 确保是数字
+      code: parseInt(app.code || 0),
       size: app.size,
       minSdk: parseInt(app.minSdk || 0),
       downloadUrl: mainDownloadUrl,
-      password: mainPassword
+      password: mainPassword,
+      isRecommended: app.isRecommended === true // 新增：读取推荐标记
     }
   ];
 
-  // 3. 处理历史版本
   if (app.historyVersion && app.historyVersion.length > 0) {
     app.historyVersion.forEach(v => {
-      // 回退机制：如果历史版本没有链接，借用主版本链接
       let vUrl = v.downloadUrl || v.realPath || "";
       if (vUrl === "") vUrl = mainDownloadUrl;
 
@@ -58,26 +57,34 @@ export function getBestMatchVersion(app, userApi) {
 
       allVersions.push({
         version: v.version,
-        code: parseInt(v.code || 0), // 确保是数字
+        code: parseInt(v.code || 0),
         size: v.size,
         minSdk: parseInt(v.minSdk || 0),
         downloadUrl: vUrl,
-        password: vPwd
+        password: vPwd,
+        isRecommended: v.isRecommended === true // 新增：读取推荐标记
       });
     });
   }
 
-  // 如果用户没选版本，默认返回最新的（通常是第一个）
   if (!userApi || userApi === 0) return allVersions[0];
 
-  // 4. 筛选出所有兼容的版本
+  // 3. 筛选出兼容的版本
   const compatibleVersions = allVersions.filter(v => userApi >= v.minSdk);
 
   if (compatibleVersions.length === 0) return null;
 
-  // 5. 关键修改：按 code (版本号) 倒序排列
-  // 逻辑：只要能在我的系统上运行，我要最新的那个版本，而不是 minSdk 最高的那个。
-  compatibleVersions.sort((a, b) => b.code - a.code);
+  // 4. 核心修改：排序逻辑
+  // 优先级：推荐版本 > 版本号大 > 版本号小
+  compatibleVersions.sort((a, b) => {
+    // 如果 a 是推荐的，b 不是，a 排前面 (-1)
+    if (a.isRecommended && !b.isRecommended) return -1;
+    // 如果 b 是推荐的，a 不是，b 排前面 (1)
+    if (!a.isRecommended && b.isRecommended) return 1;
+
+    // 如果都没推荐，或者都推荐了，则按 Code 倒序 (新版在前)
+    return b.code - a.code;
+  });
 
   return compatibleVersions[0];
 }

@@ -779,6 +779,9 @@ body {
   font-size: 0.8rem;
   color: var(--text-secondary);
   margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
 
 .detail-value {
@@ -786,6 +789,27 @@ body {
   font-weight: 600;
   color: var(--text-main);
   word-break: break-all;
+}
+
+/* 修改：推荐标签样式微调 */
+.badge-recommend {
+  display: inline-flex;
+  /* 改为 inline-flex 以便居中文字 */
+  align-items: center;
+  justify-content: center;
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--icon-gold);
+  font-size: 0.7rem;
+  /* 稍微调小一点，适配 Label 区域 */
+  padding: 1px 5px;
+  border-radius: 4px;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  font-weight: normal;
+  /* 标签文字不需要太粗 */
+  line-height: 1;
+  /* margin-left 和 vertical-align 可以去掉了，由 flex gap 控制 */
+  position: relative;
+  top: 1px;
 }
 
 .section-title {
@@ -806,8 +830,10 @@ body {
   display: flex;
   gap: 15px;
   overflow-x: auto;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
   padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 20px;
   scrollbar-width: thin;
   scroll-behavior: smooth;
   width: 100%;
@@ -1153,4 +1179,20 @@ img.image-error::after {
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+/* --- 推荐版本标签样式 --- */
+.badge-recommend {
+  display: inline-block;
+  background: rgba(245, 158, 11, 0.15);
+  /* 浅金色背景 */
+  color: var(--icon-gold);
+  /* 金色文字 */
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 6px;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  margin-left: 6px;
+  vertical-align: text-bottom;
+  font-weight: 600;
 }

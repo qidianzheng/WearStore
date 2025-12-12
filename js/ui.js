@@ -29,17 +29,14 @@ export function createCard(app, onClickCallback) {
 
 // 渲染应用详情弹窗
 export function renderAppModal(app) {
-  // 1. 防止双重弹窗
   const existingModal = document.querySelector(`.modal-overlay[data-package="${app.package}"]`);
   if (existingModal) return;
 
-  // 2. 获取版本数据
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
   const bestVer = getBestMatchVersion(app, userApi);
   const isCompat = !!bestVer;
   const displayData = isCompat ? bestVer : app;
 
-  // 3. 更新 URL Hash
   if (window.location.hash !== `#app=${app.package}`) {
     window.location.hash = `app=${app.package}`;
   }
@@ -50,7 +47,6 @@ export function renderAppModal(app) {
   modalOverlay.style.zIndex = globalZIndex;
   modalOverlay.setAttribute('data-package', app.package);
 
-  // 4. 准备数据
   const screenshotsHtml = (app.screenshots || []).map(src =>
     `<img src="${escapeHtml(src)}" class="screenshot" loading="lazy" onerror="handleImgError(this)">`
   ).join('');
@@ -59,6 +55,9 @@ export function renderAppModal(app) {
     `<div class="modal-warning-row"><div class="compat-warning-box">此应用不兼容您的手表 (Android ${apiMap[userApi] || userApi})</div></div>` : '';
 
   let dlUrl = displayData.downloadUrl;
+  const downloadAction = (dlUrl && dlUrl !== '')
+    ? `window.open('${escapeHtml(dlUrl)}', '_blank')`
+    : `alert('暂无下载链接或文件路径配置错误')`;
 
   const devText = app.developer ? escapeHtml(app.developer) : '未知开发者';
   const minSdkNum = displayData.minSdk || displayData.minSDK || 0;
@@ -66,7 +65,6 @@ export function renderAppModal(app) {
   const displayCode = displayData.code ? String(displayData.code) : '';
   const displaySize = displayData.size || '未知';
 
-  // 密码逻辑
   const pwd = displayData.password || app.password;
   const passwordHtml = pwd ?
     `<div class="password-box" title="点击复制密码" id="copyPwdBtn">
@@ -74,13 +72,14 @@ export function renderAppModal(app) {
        <span>密码: ${escapeHtml(pwd)}</span>
      </div>` : '';
 
-  // 版本号显示格式：版本 (Code)
+  // 1. 生成纯净的版本号字符串 (不带标签)
   const fullVersionString = displayCode ? `${escapeHtml(displayVer)} (${escapeHtml(displayCode)})` : escapeHtml(displayVer);
 
-  // 5. 构建 HTML
+  // 2. 单独生成推荐标签 HTML
+  const recommendBadge = displayData.isRecommended ? `<span class="badge-recommend">推荐</span>` : '';
+
   modalOverlay.innerHTML = `
         <div class="modal">
-            <!-- 头部 -->
             <div class="modal-new-header">
                 <img class="modal-new-icon" src="${escapeHtml(app.icon)}" onerror="handleImgError(this)">
                 <div class="modal-new-info">
@@ -94,10 +93,8 @@ export function renderAppModal(app) {
                 </div>
             </div>
 
-            <!-- 警告 -->
             ${compatWarning}
 
-            <!-- 操作栏 -->
             <div class="modal-action-bar">
                 <div class="btn-download-rect" id="downloadBtn">
                     <span class="material-symbols-rounded">download</span>
@@ -109,11 +106,15 @@ export function renderAppModal(app) {
                 </div>
             </div>
 
-            <!-- 详细内容 -->
             <div class="modal-content">
                 <div class="section-title" style="margin-top: 0;">详细信息</div>
                 <div class="detail-grid" style="margin-top: 10px;">
-                    <div class="detail-item"><span class="detail-label">版本</span><span class="detail-value">${fullVersionString}</span></div>
+                    <!-- 修改这里：将 recommendBadge 放在 detail-label 里 -->
+                    <div class="detail-item">
+                        <span class="detail-label">版本 ${recommendBadge}</span>
+                        <span class="detail-value">${fullVersionString}</span>
+                    </div>
+                    
                     <div class="detail-item"><span class="detail-label">大小</span><span class="detail-value">${escapeHtml(displaySize)}</span></div>
                     <div class="detail-item"><span class="detail-label">最低兼容</span><span class="detail-value">Android ${apiMap[minSdkNum] || minSdkNum}+</span></div>
                     <div class="detail-item"><span class="detail-label">包名</span><span class="detail-value" style="font-size: 0.85rem; word-break: break-all;">${escapeHtml(app.package)}</span></div>
@@ -123,6 +124,7 @@ export function renderAppModal(app) {
                 <p style="color: var(--text-secondary); line-height: 1.6;">${escapeHtml(app.description || '暂无描述')}</p>
 
                 <div class="section-title">应用截图</div>
+                
                 <div class="screenshots-wrapper">
                     <button class="scroll-btn left"><span class="material-symbols-rounded">chevron_left</span></button>
                     <div class="screenshots-container">
@@ -134,19 +136,15 @@ export function renderAppModal(app) {
         </div>
     `;
 
-  // --- 事件绑定 ---
-
-  // 1. 下载逻辑 (强力防盗链版)
+  // --- 保持后续事件绑定逻辑不变 ---
   const downloadBtn = modalOverlay.querySelector('#downloadBtn');
   downloadBtn.onclick = () => {
     if (dlUrl && dlUrl.trim() !== '') {
       let finalUrl = dlUrl.trim();
-
-      // 创建临时 A 标签点击，绕过 Referrer 检查
       const link = document.createElement('a');
       link.href = finalUrl;
       link.target = '_blank';
-      link.rel = 'noreferrer noopener'; // 关键
+      link.rel = 'noreferrer noopener';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -155,7 +153,6 @@ export function renderAppModal(app) {
     }
   };
 
-  // 2. 密码复制逻辑
   const pwdBtn = modalOverlay.querySelector('#copyPwdBtn');
   if (pwdBtn) {
     pwdBtn.onclick = () => {
@@ -165,7 +162,6 @@ export function renderAppModal(app) {
     };
   }
 
-  // 3. 关闭逻辑
   const closeBtn = modalOverlay.querySelector('.close-btn-img');
   const closeFunc = () => {
     modalOverlay.classList.remove('active');
@@ -178,7 +174,6 @@ export function renderAppModal(app) {
   closeBtn.onclick = closeFunc;
   modalOverlay.onclick = (e) => { if (e.target === modalOverlay) closeFunc(); };
 
-  // 4. 开发者跳转
   modalOverlay.querySelector('#modalDevLink').onclick = () => {
     if (app.developer) {
       closeFunc();
@@ -187,7 +182,6 @@ export function renderAppModal(app) {
     }
   };
 
-  // 5. 分享
   modalOverlay.querySelector('#shareBtn').onclick = () => {
     const url = window.location.href;
     navigator.clipboard.writeText(url).then(() => {
@@ -197,7 +191,6 @@ export function renderAppModal(app) {
     });
   };
 
-  // 6. 截图滚动
   const scrollContainer = modalOverlay.querySelector('.screenshots-container');
   const leftBtn = modalOverlay.querySelector('.scroll-btn.left');
   const rightBtn = modalOverlay.querySelector('.scroll-btn.right');

@@ -232,7 +232,7 @@
   },
   {
     "id": 3148843923,
-    "name": "QQ手表版",
+    "name": "QQ",
     "package": "com.tencent.qqlite",
     "version": "9.0.7",
     "code": 2563,
@@ -992,7 +992,8 @@
         "minSdk": 24,
         "size": "19.02 MB",
         "downloadUrl": "https://wwatc.lanzoub.com/iDz973dgee0b",
-        "password": "7jva"
+        "password": "7jva",
+        "isRecommended": true
       }
     ]
   },
