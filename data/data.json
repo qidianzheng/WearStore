@@ -72,6 +72,102 @@
     "historyVersion": []
   },
   {
+    "id": 242460072,
+    "name": "Calculator",
+    "package": "apps.r.calculator",
+    "version": "8.4.0",
+    "code": 240084010,
+    "minSdk": 25,
+    "size": "7.29 MB",
+    "isMod": false,
+    "icon": "assets/images/calculator/calculator_icon.webp",
+    "screenshots": [
+      "assets/images/calculator/calculator_1.webp",
+      "assets/images/calculator/calculator_2.webp",
+      "assets/images/calculator/calculator_3.webp"
+    ],
+    "addedTime": 1765598223171,
+    "updateTime": "2025-12-13",
+    "description": "一款功能强大的全能型手表计算器，适配 Wear OS。不仅能进行基础运算和科学计算，还支持实时绘图、多进制转换、复数运算和历史记录，通过精心设计的交互界面，满足移动场景下的复杂数学需求。",
+    "category": "生活服务",
+    "keywords": [
+      "计算器",
+      "科学计算器",
+      "进制转换",
+      "历史记录",
+      "Wear OS",
+      "手表计算器",
+      "scientific calculator",
+      "jisuanqi"
+    ],
+    "downloadUrl": "https://easylink.cc/banoks",
+    "developer": "Prometheus Interactive LLC",
+    "password": "",
+    "historyVersion": []
+  },
+  {
+    "id": 4197461945,
+    "name": "Calender",
+    "package": "com.h3r3t1c.litewearcalendar",
+    "version": "2.3.5",
+    "code": 16,
+    "minSdk": 28,
+    "size": "1.92 MB",
+    "isMod": false,
+    "icon": "assets/images/calender/calender_icon.webp",
+    "screenshots": [
+      "assets/images/calender/calender_1.webp"
+    ],
+    "addedTime": 1765598223423,
+    "updateTime": "2025-12-13",
+    "description": "一款专为 Wear OS 设计的完全独立、可高度自定义的本地日历应用。无需连接手机即可运行，可自由定制颜色与视图，支持滑动和表冠快速切换月份，提供简洁无广告的腕上日期管理体验。",
+    "category": "生活服务",
+    "keywords": [
+      "日历",
+      "本地日历",
+      "月历"
+    ],
+    "downloadUrl": "https://easylink.cc/t7tif5",
+    "developer": "Thomas Otero",
+    "password": "",
+    "historyVersion": []
+  },
+  {
+    "id": 1815786370,
+    "name": "Finger Gun - Motion Games",
+    "package": "com.MustBeFun.FingerGunMotionGame",
+    "version": "0.3.0",
+    "code": 16,
+    "minSdk": 24,
+    "size": "20.10 MB",
+    "isMod": false,
+    "icon": "assets/images/fingergunmotiongames/fingergunmotiongames_icon.webp",
+    "screenshots": [
+      "assets/images/fingergunmotiongames/fingergunmotiongames_1.webp",
+      "assets/images/fingergunmotiongames/fingergunmotiongames_2.webp"
+    ],
+    "addedTime": 1765598223481,
+    "updateTime": "2025-12-13",
+    "description": "一款创新的体感互动游戏合集，将智能手表变为虚拟玩具。通过挥动手臂即可体验虚拟钓鱼、挥鞭、拍打和射击等多种趣味游戏，配有逼真音效，是工作学习之余与家人朋友放松互动、释放压力的新奇选择。",
+    "category": "影音娱乐",
+    "keywords": [
+      "体感游戏",
+      "动作游戏",
+      "虚拟钓鱼",
+      "手指枪",
+      "运动控制",
+      "放松解压",
+      "聚会游戏",
+      "wear os game",
+      "tigan youxi",
+      "空气手枪"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iZQID3di4iif",
+    "developer": "Must Be Fun",
+    "password": "1kod",
+    "historyVersion": []
+  },
+  {
     "id": 1923047377,
     "name": "Gboard",
     "package": "com.google.android.inputmethod.latin",
@@ -992,8 +1088,7 @@
         "minSdk": 24,
         "size": "19.02 MB",
         "downloadUrl": "https://wwatc.lanzoub.com/iDz973dgee0b",
-        "password": "7jva",
-        "isRecommended": true
+        "password": "7jva"
       }
     ]
   },
