@@ -34,6 +34,38 @@
     "historyVersion": []
   },
   {
+    "id": 2631434659,
+    "name": "Alti-Barometer",
+    "package": "com.lucaboscolomeneguolo.altimeterbarometer",
+    "version": "1.16",
+    "code": 16,
+    "minSdk": 26,
+    "size": "4.15 MB",
+    "isMod": false,
+    "icon": "assets/images/altibarometer/altibarometer_icon.webp",
+    "screenshots": [
+      "assets/images/altibarometer/altibarometer_1.webp",
+      "assets/images/altibarometer/altibarometer_2.webp",
+      "assets/images/altibarometer/altibarometer_3.webp"
+    ],
+    "addedTime": 1765637583438,
+    "updateTime": "2025-12-13",
+    "description": "一款专业的腕上气压高度计工具，实时显示气压与海拔数据，提供6小时趋势图与风暴预警，支持自动/手动校准，是户外活动与天气观察的得力助手。",
+    "category": "生活服务",
+    "keywords": [
+      "气压计",
+      "高度计",
+      "海拔",
+      "风暴预警",
+      "户外工具",
+      "qiyaji"
+    ],
+    "downloadUrl": "https://easylink.cc/dk5u6b",
+    "developer": "calugj",
+    "password": "",
+    "historyVersion": []
+  },
+  {
     "id": 2450138162,
     "name": "AnExplorer",
     "package": "dev.dworks.apps.anexplorer",
@@ -69,6 +101,41 @@
     "downloadUrl": "https://wwatc.lanzoub.com/iWwBr3d51a3g",
     "developer": "DWorkS",
     "password": "8rgu",
+    "historyVersion": []
+  },
+  {
+    "id": 2071024316,
+    "name": "Animals",
+    "package": "com.turtlepaw.cats",
+    "version": "1.3",
+    "code": 14,
+    "minSdk": 30,
+    "size": "28.49 MB",
+    "isMod": false,
+    "icon": "assets/images/animals/animals_icon.webp",
+    "screenshots": [
+      "assets/images/animals/animals_1.webp",
+      "assets/images/animals/animals_2.webp",
+      "assets/images/animals/animals_3.webp"
+    ],
+    "addedTime": 1765637584084,
+    "updateTime": "2025-12-13",
+    "description": "一款在WearOS手表上展示可爱猫咪与兔子图片的治愈系应用，可以收藏心仪的照片，未来支持离线查看，让每次抬腕都收获美好心情。",
+    "category": "影音娱乐",
+    "keywords": [
+      "宠物图片",
+      "猫咪",
+      "兔子",
+      "治愈",
+      "萌宠",
+      "收藏",
+      "chongwu",
+      "zhiyu"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iCrsE3djyjcb",
+    "developer": "Beaverfy",
+    "password": "29nb",
+    "contributor": "清漓染CHR.",
     "historyVersion": []
   },
   {
@@ -165,6 +232,38 @@
     "downloadUrl": "https://wwatc.lanzoub.com/iZQID3di4iif",
     "developer": "Must Be Fun",
     "password": "1kod",
+    "historyVersion": []
+  },
+  {
+    "id": 3427502732,
+    "name": "Flattery",
+    "package": "com.agronick.launcher",
+    "version": "0.0.13",
+    "code": 13,
+    "minSdk": 28,
+    "size": "12.89 MB",
+    "isMod": false,
+    "icon": "assets/images/flattery/flattery_icon.webp",
+    "screenshots": [
+      "assets/images/flattery/flattery_1.webp",
+      "assets/images/flattery/flattery_2.webp"
+    ],
+    "addedTime": 1765637584808,
+    "updateTime": "2025-12-13",
+    "description": "一款将WearOS手表启动器界面设计成类似Apple Watch风格的桌面应用，为用户提供不同的视觉与交互体验。",
+    "category": "系统工具",
+    "keywords": [
+      "启动器",
+      "桌面",
+      "模仿苹果",
+      "Apple Watch风格",
+      "launcher",
+      "qidongqi",
+      "界面美化"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iaXI13djzaof",
+    "developer": "Kyle Agronick",
+    "password": "hxz3",
     "historyVersion": []
   },
   {
@@ -289,6 +388,39 @@
     "historyVersion": []
   },
   {
+    "id": 911191573,
+    "name": "Lunch",
+    "package": "com.dudu.wearlauncher",
+    "version": "1.1.5-Stable",
+    "code": 10,
+    "minSdk": 23,
+    "size": "2.96 MB",
+    "isMod": false,
+    "icon": "assets/images/lunch/lunch_icon.webp",
+    "screenshots": [
+      "assets/images/lunch/lunch_1.webp",
+      "assets/images/lunch/lunch_2.webp",
+      "assets/images/lunch/lunch_3.webp",
+      "assets/images/lunch/lunch_4.webp",
+      "assets/images/lunch/lunch_5.webp"
+    ],
+    "addedTime": 1765637588128,
+    "updateTime": "2025-12-13",
+    "description": "一款轻量、开源且高度自定义的手表桌面启动器，界面简洁，功能丰富，是首个支持自定义表盘的第三方WearOS启动器，并支持隐藏应用与图标包。",
+    "category": "系统工具",
+    "keywords": [
+      "启动器",
+      "自定义表盘",
+      "轻量桌面",
+      "zidingyi biaopan",
+      "qidongqi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/icN1m3djzayf",
+    "developer": "dudu",
+    "password": "eeh7",
+    "historyVersion": []
+  },
+  {
     "id": 1172735685,
     "name": "Microsoft Outlook",
     "package": "com.microsoft.office.outlook",
@@ -324,6 +456,37 @@
     "downloadUrl": "https://wwatc.lanzoub.com/iag5l3dd8kad",
     "developer": "微软（中国）有限公司",
     "password": "cy3b",
+    "historyVersion": []
+  },
+  {
+    "id": 873978632,
+    "name": "Mini Web Browser",
+    "package": "com.somyac.watch.browser",
+    "version": "1.0.9",
+    "code": 12,
+    "minSdk": 28,
+    "size": "87.63 MB",
+    "isMod": false,
+    "icon": "assets/images/miniwebbrowser/miniwebbrowser_icon.webp",
+    "screenshots": [
+      "assets/images/miniwebbrowser/miniwebbrowser_1.webp",
+      "assets/images/miniwebbrowser/miniwebbrowser_2.webp"
+    ],
+    "addedTime": 1765637589094,
+    "updateTime": "2025-12-13",
+    "description": "一款专为WearOS设备优化的小型网页浏览器，无需手机辅助即可独立上网搜索，在LTE手表上更能脱离手机使用，满足腕上紧急信息查询需求。",
+    "category": "系统工具",
+    "keywords": [
+      "手表浏览器",
+      "网页浏览",
+      "独立上网",
+      "搜索",
+      "WearOS浏览器",
+      "liulanqi"
+    ],
+    "downloadUrl": "https://www.123865.com/s/MGfbTd-1FFa3",
+    "developer": "Somyac",
+    "password": "",
     "historyVersion": []
   },
   {
@@ -394,7 +557,7 @@
     ],
     "addedTime": 1764730690904,
     "updateTime": "2025-12-03",
-    "description": "QQ音乐手表版2.0全新升级，带来焕然一新的视觉设计与更便捷的交互。独家打造精细分龄的青少年专属曲库，支持歌曲搜索、最近播放等核心功能，播放界面能随歌变色，为全年龄段用户提供律动十足的腕上音乐体验。",
+    "description": "拥有海量正版曲库的音乐娱乐平台。不仅提供高品质音乐与智能歌单推荐，更依托腾讯生态，拥有如周杰伦等众多明星歌曲的独家版权，是音乐爱好者的听歌首选。",
     "category": "影音娱乐",
     "keywords": [
       "企鹅",

@@ -47,37 +47,29 @@
   color: #3b82f6;
 }
 
-/* 效率办公 */
 .color-red {
   color: #ef4444;
 }
 
-/* 健康运动 */
 .color-green {
   color: #10b981;
 }
 
-/* 通讯社交 */
 .color-purple {
   color: #8b5cf6;
 }
 
-/* 影音娱乐 */
 .color-orange {
   color: #f59e0b;
 }
 
-/* 学习充电 */
 .color-cyan {
   color: #06b6d4;
 }
 
-/* 生活服务 */
 .color-slate {
   color: #64748b;
 }
-
-/* 系统工具 */
 
 /* --- 2. 全局基础样式 --- */
 * {
@@ -87,7 +79,6 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   -webkit-tap-highlight-color: transparent;
   font-weight: 400;
-  /* 修复字体过粗 */
 }
 
 body {
@@ -403,11 +394,12 @@ body {
   opacity: 1;
 }
 
-/* 不兼容提示卡片 */
+/* --- 不兼容提示卡片 (已优化阴影) --- */
 .incompatible-card {
   grid-column: 1 / -1;
   background: var(--incompat-bg);
-  border: 1px solid var(--incompat-border);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  /* 更轻的边框 */
   border-radius: var(--radius-lg);
   padding: 20px;
   display: flex;
@@ -416,6 +408,7 @@ body {
   cursor: default;
   margin-bottom: 20px;
   animation: fadeIn 0.3s ease;
+  box-shadow: none;
 }
 
 @keyframes fadeIn {
@@ -533,10 +526,9 @@ body {
   padding: 0;
 }
 
-/* PC端对齐逻辑：背景铺满，内容居中 */
+/* PC端对齐逻辑 */
 @media (min-width: 1280px) {
 
-  /* 头部区域 */
   .modal-new-header,
   .window-header,
   .menu-header {
@@ -544,13 +536,11 @@ body {
     padding-right: calc((100% - 1280px) / 2 + 20px) !important;
   }
 
-  /* 操作栏 */
   .modal-action-bar {
     padding-left: calc((100% - 1280px) / 2 + 20px) !important;
     padding-right: calc((100% - 1280px) / 2 + 20px) !important;
   }
 
-  /* 内容区域 */
   .modal-content,
   .dev-content,
   .menu-content {
@@ -564,6 +554,11 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     width: 100%;
+  }
+
+  .modal-warning-row {
+    padding-left: calc((100% - 1280px) / 2 + 20px) !important;
+    padding-right: calc((100% - 1280px) / 2 + 20px) !important;
   }
 }
 
@@ -651,13 +646,6 @@ body {
 /* 警告信息 */
 .modal-warning-row {
   padding: 0 20px 10px 20px;
-}
-
-@media (min-width: 1280px) {
-  .modal-warning-row {
-    padding-left: calc((100% - 1280px) / 2 + 20px) !important;
-    padding-right: calc((100% - 1280px) / 2 + 20px) !important;
-  }
 }
 
 .compat-warning-box {
@@ -791,23 +779,19 @@ body {
   word-break: break-all;
 }
 
-/* 修改：推荐标签样式微调 */
+/* 推荐标签样式 */
 .badge-recommend {
   display: inline-flex;
-  /* 改为 inline-flex 以便居中文字 */
   align-items: center;
   justify-content: center;
   background: rgba(245, 158, 11, 0.15);
   color: var(--icon-gold);
   font-size: 0.7rem;
-  /* 稍微调小一点，适配 Label 区域 */
   padding: 1px 5px;
   border-radius: 4px;
   border: 1px solid rgba(245, 158, 11, 0.3);
   font-weight: normal;
-  /* 标签文字不需要太粗 */
   line-height: 1;
-  /* margin-left 和 vertical-align 可以去掉了，由 flex gap 控制 */
   position: relative;
   top: 1px;
 }
@@ -830,13 +814,23 @@ body {
   display: flex;
   gap: 15px;
   overflow-x: auto;
-  padding-bottom: 30px;
   padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 20px;
+  padding-bottom: 30px;
+  /* 增加底部空间防止显示不全 */
   scrollbar-width: thin;
   scroll-behavior: smooth;
   width: 100%;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+
+/* 伪元素撑开右侧空白 */
+.screenshots-container::after {
+  content: "";
+  display: block;
+  width: 20px;
+  flex-shrink: 0;
+  height: 1px;
 }
 
 .screenshot {
@@ -847,7 +841,6 @@ body {
 
 .scroll-btn {
   display: flex;
-  /* 默认显示 */
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -1179,20 +1172,4 @@ img.image-error::after {
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
-}
-
-/* --- 推荐版本标签样式 --- */
-.badge-recommend {
-  display: inline-block;
-  background: rgba(245, 158, 11, 0.15);
-  /* 浅金色背景 */
-  color: var(--icon-gold);
-  /* 金色文字 */
-  font-size: 0.75rem;
-  padding: 2px 6px;
-  border-radius: 6px;
-  border: 1px solid rgba(245, 158, 11, 0.3);
-  margin-left: 6px;
-  vertical-align: text-bottom;
-  font-weight: 600;
 }

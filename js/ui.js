@@ -3,14 +3,12 @@ import { escapeHtml, isAppCompatible, getBestMatchVersion, apiMap, DEFAULT_ICON 
 
 let globalZIndex = 1350;
 
-// 全局图片错误处理
 window.handleImgError = function (img) {
   img.onerror = null;
   img.src = DEFAULT_ICON;
   img.classList.add('image-error');
 };
 
-// 创建应用卡片
 export function createCard(app, onClickCallback) {
   const card = document.createElement('div');
   card.className = 'card';
@@ -27,7 +25,6 @@ export function createCard(app, onClickCallback) {
   return card;
 }
 
-// 渲染应用详情弹窗
 export function renderAppModal(app) {
   const existingModal = document.querySelector(`.modal-overlay[data-package="${app.package}"]`);
   if (existingModal) return;
@@ -55,9 +52,6 @@ export function renderAppModal(app) {
     `<div class="modal-warning-row"><div class="compat-warning-box">此应用不兼容您的手表 (Android ${apiMap[userApi] || userApi})</div></div>` : '';
 
   let dlUrl = displayData.downloadUrl;
-  const downloadAction = (dlUrl && dlUrl !== '')
-    ? `window.open('${escapeHtml(dlUrl)}', '_blank')`
-    : `alert('暂无下载链接或文件路径配置错误')`;
 
   const devText = app.developer ? escapeHtml(app.developer) : '未知开发者';
   const minSdkNum = displayData.minSdk || displayData.minSDK || 0;
@@ -72,11 +66,23 @@ export function renderAppModal(app) {
        <span>密码: ${escapeHtml(pwd)}</span>
      </div>` : '';
 
-  // 1. 生成纯净的版本号字符串 (不带标签)
-  const fullVersionString = displayCode ? `${escapeHtml(displayVer)} (${escapeHtml(displayCode)})` : escapeHtml(displayVer);
+  // 版本显示格式
+  let fullVersionString = displayCode ? `${escapeHtml(displayVer)} (${escapeHtml(displayCode)})` : escapeHtml(displayVer);
+  if (displayData.isRecommended) {
+    fullVersionString += ` <span class="badge-recommend">推荐</span>`;
+  }
 
-  // 2. 单独生成推荐标签 HTML
-  const recommendBadge = displayData.isRecommended ? `<span class="badge-recommend">推荐</span>` : '';
+  // --- 新增：投稿人逻辑 ---
+  const contributorName = app.contributor;
+  const contributorHtml = contributorName ?
+    `<div class="detail-item">
+          <span class="detail-label">
+              <span class="material-symbols-rounded" style="font-size:14px; color:var(--primary-color);">favorite</span> 
+              投稿
+          </span>
+          <span class="detail-value">${escapeHtml(contributorName)}</span>
+      </div>` : '';
+  // -----------------------
 
   modalOverlay.innerHTML = `
         <div class="modal">
@@ -109,15 +115,17 @@ export function renderAppModal(app) {
             <div class="modal-content">
                 <div class="section-title" style="margin-top: 0;">详细信息</div>
                 <div class="detail-grid" style="margin-top: 10px;">
-                    <!-- 修改这里：将 recommendBadge 放在 detail-label 里 -->
                     <div class="detail-item">
-                        <span class="detail-label">版本 ${recommendBadge}</span>
+                        <span class="detail-label">版本</span>
                         <span class="detail-value">${fullVersionString}</span>
                     </div>
-                    
                     <div class="detail-item"><span class="detail-label">大小</span><span class="detail-value">${escapeHtml(displaySize)}</span></div>
                     <div class="detail-item"><span class="detail-label">最低兼容</span><span class="detail-value">Android ${apiMap[minSdkNum] || minSdkNum}+</span></div>
-                    <div class="detail-item"><span class="detail-label">包名</span><span class="detail-value" style="font-size: 0.85rem; word-break: break-all;">${escapeHtml(app.package)}</span></div>
+                    
+                    <!-- 投稿人显示在这里 -->
+                    ${contributorHtml}
+
+                    <div class="detail-item" style="grid-column: 1 / -1;"><span class="detail-label">包名</span><span class="detail-value" style="font-size: 0.85rem; word-break: break-all;">${escapeHtml(app.package)}</span></div>
                 </div>
 
                 <div class="section-title">应用简介</div>
@@ -136,7 +144,7 @@ export function renderAppModal(app) {
         </div>
     `;
 
-  // --- 保持后续事件绑定逻辑不变 ---
+  // 事件绑定
   const downloadBtn = modalOverlay.querySelector('#downloadBtn');
   downloadBtn.onclick = () => {
     if (dlUrl && dlUrl.trim() !== '') {
@@ -209,7 +217,6 @@ export function renderAppModal(app) {
   setTimeout(() => modalOverlay.classList.add('active'), 10);
 }
 
-// 渲染列表
 export function renderCardList(apps, container) {
   container.innerHTML = '';
   if (apps.length === 0) {
@@ -221,12 +228,22 @@ export function renderCardList(apps, container) {
   });
 }
 
-// 渲染不兼容提示卡片
+// --- 渲染不兼容提示卡片 (已更新逻辑) ---
 export function renderIncompatibleCard(app, container) {
   container.innerHTML = '';
-  const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
-  const reqVer = apiMap[app.minSdk] || app.minSdk;
-  const userVer = apiMap[userApi] || userApi;
+
+  // 1. 遍历所有版本，寻找绝对最低的 minSdk
+  let lowestMinSdk = parseInt(app.minSdk || 999);
+  if (app.historyVersion && app.historyVersion.length > 0) {
+    app.historyVersion.forEach(v => {
+      const vSdk = parseInt(v.minSdk || 999);
+      if (vSdk < lowestMinSdk) {
+        lowestMinSdk = vSdk;
+      }
+    });
+  }
+
+  const reqVer = apiMap[lowestMinSdk] || lowestMinSdk;
 
   const card = document.createElement('div');
   card.className = 'incompatible-card';
@@ -235,7 +252,7 @@ export function renderIncompatibleCard(app, container) {
         <div class="incompatible-content">
             <div class="incompatible-title">在找“${escapeHtml(app.name)}”吗？</div>
             <div class="incompatible-reason">
-                WearStore 未向您提供此应用，原因是它需要 Android ${reqVer}+，而您是 Android ${userVer}。
+                WearStore未向您提供此应用，您需要 Android ${reqVer}+ 才能使用此应用
             </div>
         </div>
     `;
