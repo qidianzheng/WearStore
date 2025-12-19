@@ -196,6 +196,19 @@ body {
   transition: opacity 0.2s;
 }
 
+.clear-btn-icon {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-size: 20px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  z-index: 2;
+}
+
 .search-btn-icon:hover {
   opacity: 1;
   color: var(--primary-color);
@@ -354,7 +367,7 @@ body {
 
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   gap: var(--gap-size);
 }
 
@@ -511,8 +524,7 @@ body {
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
-  transform: translateY(20px);
+  transition: opacity 0.25s ease-in-out;
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -520,7 +532,6 @@ body {
 .modal-overlay.active {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
 }
 
 /* 模态框本体 */
@@ -539,6 +550,8 @@ body {
   box-shadow: none;
   margin: 0 !important;
   padding: 0 !important;
+  transition: none !important;
+  transform: none !important;
 }
 
 .menu-modal-layout,
@@ -1310,4 +1323,23 @@ img.image-error::after {
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+/* 当模态框正在关闭时 (即没有 active 类，但还在 DOM 中) */
+.modal-overlay:not(.active) * {
+  /* 1. 强制禁止所有子元素产生任何动画 */
+  transition: none !important;
+  /* 2. 强制禁止鼠标交互，防止二次点击 */
+  pointer-events: none !important;
+}
+
+/* 确保遮罩层本身的淡出动画不受影响 */
+.modal-overlay {
+  /* 这里的 opacity 动画必须保留，这是唯一的动画 */
+  transition: opacity 0.25s ease-out !important;
+}
+
+/* 优化：让遮罩层背景色稍微深一点，遮盖底下的内容，减少视觉干扰 */
+.modal-overlay {
+  background: var(--modal-bg) !important;
 }

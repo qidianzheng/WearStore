@@ -428,7 +428,7 @@ class FuseIndex {
                 value: item
               });
             });
-          } else ;
+          } else;
         }
         record.$[keyIndex] = subRecords;
       } else if (isString(value) && !isBlank(value)) {
@@ -869,7 +869,7 @@ class BaseMatch {
   static isSingleMatch(pattern) {
     return getMatch(pattern, this.singleRegex)
   }
-  search(/*text*/) {}
+  search(/*text*/) { }
 }
 
 function getMatch(pattern, exp) {

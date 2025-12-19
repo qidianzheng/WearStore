@@ -9,6 +9,7 @@ const elements = {
   searchInput: document.getElementById('searchInput'),
   searchBtn: document.getElementById('searchBtn'),
   searchSuggestions: document.getElementById('searchSuggestions'),
+  clearSearchBtn: document.getElementById('clearSearchBtn'),
 
   menuBtn: document.getElementById('menuBtn'),
   menuModal: document.getElementById('menuModalOverlay'),
@@ -30,18 +31,19 @@ const elements = {
   devModal: document.getElementById('devModalOverlay'),
   devAppsContainer: document.getElementById('devAppsContainer'),
   devModalTitle: document.getElementById('devModalTitle'),
-  // 新增：开发者窗口关闭按钮
   devModalCloseBtn: document.querySelector('#devModalOverlay .header-close-img'),
 };
 
 let allApps = [];
 let globalZIndex = 1300;
 let fuse;
+let homeAppsCache = null;
 
 async function init() {
-  initTheme();
+  initTheme(); // 🔥 这一步逻辑已更新
   allApps = await fetchApps();
   window.allApps = allApps;
+
   initFuse();
   checkHashLink();
   checkUserVersion();
@@ -69,16 +71,40 @@ function initFuse() {
 
 function bindEvents() {
   elements.searchBtn.onclick = performSearch;
+
   elements.searchInput.onkeyup = (e) => {
     if (e.key === 'Enter') {
       elements.searchSuggestions.classList.remove('active');
       performSearch();
     }
   };
-  elements.searchInput.addEventListener('input', (e) => showSuggestions(e.target.value.trim()));
+
+  elements.searchInput.addEventListener('input', (e) => {
+    const val = e.target.value;
+    if (val.trim().length > 0) {
+      if (elements.clearSearchBtn) elements.clearSearchBtn.style.display = 'block';
+    } else {
+      if (elements.clearSearchBtn) elements.clearSearchBtn.style.display = 'none';
+      renderRandomHome();
+    }
+    showSuggestions(val.trim());
+  });
+
   elements.searchInput.addEventListener('focus', (e) => {
     if (e.target.value.trim() !== '') showSuggestions(e.target.value.trim());
   });
+
+  if (elements.clearSearchBtn) {
+    elements.clearSearchBtn.onclick = (e) => {
+      e.preventDefault();
+      elements.searchInput.value = '';
+      elements.clearSearchBtn.style.display = 'none';
+      elements.searchSuggestions.classList.remove('active');
+      elements.searchInput.focus();
+      renderRandomHome();
+    };
+  }
+
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.search-container')) {
       elements.searchSuggestions.classList.remove('active');
@@ -96,6 +122,7 @@ function bindEvents() {
   };
 
   elements.menuThemeToggle.onclick = toggleTheme;
+
   elements.menuVersionTrigger.onclick = () => {
     elements.welcomeModal.style.zIndex = ++globalZIndex + 10;
     elements.welcomeModal.classList.add('active');
@@ -113,19 +140,14 @@ function bindEvents() {
     openDevWindow(e.detail);
   });
 
-  // 🔥 新增：开发者窗口关闭逻辑 (修复滑动失效问题)
   if (elements.devModalCloseBtn) {
     elements.devModalCloseBtn.onclick = () => {
       elements.devModal.classList.remove('active');
-
-      // 检查底下是否还有其他窗口（比如应用详情页）
-      // 如果有，就保持 overflow: hidden，否则恢复滚动
       setTimeout(() => {
         const activeModals = document.querySelectorAll('.modal-overlay.active');
         if (activeModals.length === 0) {
           document.body.style.overflow = '';
         }
-        // 如果还有 modal，说明是在详情页之上打开的，不需要做任何操作，保持 hidden 即可
       }, 300);
     };
   }
@@ -133,11 +155,71 @@ function bindEvents() {
   window.addEventListener('hashchange', checkHashLink);
 }
 
+// --- 🔥 修复：主题初始化与系统监听 ---
+function initTheme() {
+  const stored = localStorage.getItem('theme');
+  const systemQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+  // 1. 定义应用主题的函数
+  const apply = (theme) => {
+    document.documentElement.setAttribute('data-theme', theme);
+    updateThemeIcon(theme);
+  };
+
+  // 2. 初始判断
+  if (stored) {
+    // 如果用户手动设置过，优先使用存储的值
+    apply(stored);
+  } else {
+    // 如果没设置过，跟随系统
+    apply(systemQuery.matches ? 'dark' : 'light');
+  }
+
+  // 3. 实时监听系统变化
+  // 只有在用户没有手动设置过主题时，才自动跟随系统变化
+  try {
+    systemQuery.addEventListener('change', (e) => {
+      if (!localStorage.getItem('theme')) {
+        apply(e.matches ? 'dark' : 'light');
+      }
+    });
+  } catch (e) {
+    // 兼容旧浏览器
+    systemQuery.addListener((e) => {
+      if (!localStorage.getItem('theme')) {
+        apply(e.matches ? 'dark' : 'light');
+      }
+    });
+  }
+}
+
+// --- 🔥 修复：切换主题逻辑 ---
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+
+  document.documentElement.setAttribute('data-theme', next);
+
+  // 一旦用户手动点击，就写入 localStorage，意味着“我不再想跟随系统了，我要强制这个模式”
+  localStorage.setItem('theme', next);
+
+  updateThemeIcon(next);
+}
+
+function updateThemeIcon(theme) {
+  const icon = document.querySelector('.theme-icon');
+  if (icon) {
+    icon.textContent = theme === 'dark' ? 'brightness_5' : 'dark_mode';
+    icon.style.color = theme === 'dark' ? 'var(--icon-sun)' : 'var(--icon-normal)';
+  }
+}
+
+// --- 列表逻辑保持不变 ---
 function openNewArrivals() {
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
   let sorted = [...allApps].filter(a => isAppCompatible(a, userApi));
   sorted.sort((a, b) => (b.addedTime || 0) - (a.addedTime || 0));
-  openCategoryList("最新上架", sorted.slice(0, 20));
+  openCategoryList("最新上架", sorted.slice(0, 12));
 }
 
 function openRecentUpdates() {
@@ -148,7 +230,7 @@ function openRecentUpdates() {
     const dateB = new Date(b.updateTime || 0);
     return dateB - dateA;
   });
-  openCategoryList("最近更新", sorted.slice(0, 20));
+  openCategoryList("最近更新", sorted.slice(0, 12));
 }
 
 function showSuggestions(term) {
@@ -175,6 +257,7 @@ function showSuggestions(term) {
         </div>
     `).join('');
   elements.searchSuggestions.classList.add('active');
+
   Array.from(elements.searchSuggestions.children).forEach(el => {
     el.onclick = () => {
       const pkg = el.getAttribute('data-package');
@@ -183,6 +266,7 @@ function showSuggestions(term) {
         renderAppModal(app);
         elements.searchSuggestions.classList.remove('active');
         elements.searchInput.value = app.name;
+        if (elements.clearSearchBtn) elements.clearSearchBtn.style.display = 'block';
       }
     };
   });
@@ -212,6 +296,7 @@ function performSearch() {
   } else if (incompatible.length > 0) {
     const bestMatch = incompatible[0];
     const appName = bestMatch.name;
+
     const nameMatchRatio = term.length / appName.length;
     const isLiterallySame = appName.toLowerCase() === term.toLowerCase();
 
@@ -229,13 +314,8 @@ function checkHashLink() {
   const hash = window.location.hash;
   if (hash.startsWith('#app=')) {
     const pkgName = hash.split('=')[1];
-
-    // 🔥 新增：检查页面上是否已经有这个包名的窗口 (无论是否 active)
-    // 如果有，说明是 ui.js 刚刚创建的，不需要再重新打开了
     const existingModal = document.querySelector(`.modal-overlay[data-package="${pkgName}"]`);
-    if (existingModal) {
-      return;
-    }
+    if (existingModal) return;
 
     const target = allApps.find(a => a.package === pkgName);
     if (target) renderAppModal(target);
@@ -301,14 +381,25 @@ function openCategoryList(title, appList) {
   elements.categoryWindowTitle.textContent = title;
   renderCardList(appList, elements.categoryAppsContainer);
   elements.categoryWindow.classList.add('active');
-  elements.categoryWindow.style.zIndex = ++globalZIndex;
+
+  let maxZ = 1300;
+  document.querySelectorAll('.modal-overlay').forEach(el => {
+    const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
+    if (z > maxZ) maxZ = z;
+  });
+  elements.categoryWindow.style.zIndex = maxZ + 10;
 }
 
 function renderRandomHome() {
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
-  let visible = allApps.filter(a => isAppCompatible(a, userApi));
-  visible.sort(() => 0.5 - Math.random());
-  renderCardList(visible.slice(0, 30), elements.container);
+
+  if (!homeAppsCache) {
+    let visible = allApps.filter(a => isAppCompatible(a, userApi));
+    visible.sort(() => 0.5 - Math.random());
+    homeAppsCache = visible.slice(0, 32);
+  }
+
+  renderCardList(homeAppsCache, elements.container);
 }
 
 function updateVersionTextInMenu() {
@@ -317,33 +408,10 @@ function updateVersionTextInMenu() {
   else elements.menuVersionText.textContent = '点击选择';
 }
 
-function initTheme() {
-  const stored = localStorage.getItem('theme');
-  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const theme = stored || (systemDark ? 'dark' : 'light');
-  document.documentElement.setAttribute('data-theme', theme);
-  updateThemeIcon(theme);
-}
-
-function toggleTheme() {
-  const current = document.documentElement.getAttribute('data-theme');
-  const next = current === 'dark' ? 'light' : 'dark';
-  document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('theme', next);
-  updateThemeIcon(next);
-}
-
-function updateThemeIcon(theme) {
-  const icon = document.querySelector('.theme-icon');
-  if (icon) {
-    icon.textContent = theme === 'dark' ? 'brightness_5' : 'dark_mode';
-    icon.style.color = theme === 'dark' ? 'var(--icon-sun)' : 'var(--icon-normal)';
-  }
-}
-
 function checkUserVersion() {
   const savedApi = localStorage.getItem('userApiLevel');
   elements.versionGrid.innerHTML = '';
+
   for (let i = 14; i <= 36; i++) {
     const btn = document.createElement('div');
     btn.className = `version-btn ${savedApi == i ? 'selected' : ''}`;
@@ -351,7 +419,10 @@ function checkUserVersion() {
     btn.onclick = () => {
       localStorage.setItem('userApiLevel', i);
       elements.welcomeModal.classList.remove('active');
+
+      homeAppsCache = null;
       renderRandomHome();
+
       if (elements.searchInput.value) performSearch();
       Array.from(elements.versionGrid.children).forEach(b => b.classList.remove('selected'));
       btn.classList.add('selected');
@@ -363,7 +434,6 @@ function checkUserVersion() {
   updateVersionTextInMenu();
 }
 
-// --- 修复核心：计算最高 Z-Index，确保开发者窗口在最上层 ---
 function openDevWindow(detail) {
   const name = typeof detail === 'string' ? detail : detail.name;
   const type = typeof detail === 'string' ? 'original' : detail.type;
@@ -380,20 +450,14 @@ function openDevWindow(detail) {
 
   renderCardList(filteredApps, elements.devAppsContainer);
 
-  // 🔥 计算当前最大 Z-Index
-  const allOverlays = document.querySelectorAll('.modal-overlay');
   let maxZ = 1300;
-  allOverlays.forEach(el => {
-    // 获取计算样式中的 z-index
+  document.querySelectorAll('.modal-overlay').forEach(el => {
     const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
     if (z > maxZ) maxZ = z;
   });
 
-  // 确保盖在所有窗口上面
   elements.devModal.style.zIndex = maxZ + 10;
   elements.devModal.classList.add('active');
-
-  // 强制锁定滚动
   document.body.style.overflow = 'hidden';
 }
 

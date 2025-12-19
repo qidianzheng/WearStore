@@ -1,14 +1,14 @@
 /* js/ui.js */
 import { escapeHtml, isAppCompatible, getBestMatchVersion, apiMap, DEFAULT_ICON } from './utils.js';
 
-let globalZIndex = 1350;
-
+// 全局图片错误处理
 window.handleImgError = function (img) {
   img.onerror = null;
   img.src = DEFAULT_ICON;
   img.classList.add('image-error');
 };
 
+// 创建应用卡片
 export function createCard(app, onClickCallback) {
   const card = document.createElement('div');
   card.className = 'card';
@@ -21,39 +21,57 @@ export function createCard(app, onClickCallback) {
         </div>
         <span class="material-symbols-rounded card-action-icon color-primary">arrow_forward</span>
     `;
-  card.onclick = () => onClickCallback(app);
+  card.onclick = () => {
+    onClickCallback(app);
+  };
   return card;
 }
 
+// 渲染应用详情弹窗 (核心逻辑)
 export function renderAppModal(app) {
-  // 1. 防重检查
-  const allModals = document.querySelectorAll('.modal-overlay');
-  if (allModals.length > 0) {
-    const topModal = allModals[allModals.length - 1];
-    if (topModal.getAttribute('data-id') == app.id) {
-      return;
-    }
+
+  // --- 1. 获取所有当前激活的窗口 (包括开发者窗口、菜单等) ---
+  const allActiveModals = Array.from(document.querySelectorAll('.modal-overlay.active'));
+
+  // 按 z-index 排序，找出现实中叠在最上面的那个
+  allActiveModals.sort((a, b) => {
+    const zA = parseInt(window.getComputedStyle(a).zIndex) || 0;
+    const zB = parseInt(window.getComputedStyle(b).zIndex) || 0;
+    return zA - zB;
+  });
+
+  const topModal = allActiveModals[allActiveModals.length - 1];
+
+  // --- 2. 防抖检查 ---
+  // 只有当“最顶层”窗口就是当前要打开的这个 APP 时，才拦截 (防止双击)
+  // 如果最顶层是开发者窗口 (无 data-id)，或者其他 APP，则允许打开
+  if (topModal && topModal.getAttribute('data-id') == app.id) {
+    return;
   }
 
-  // 2. 数据准备
+  // --- 3. 计算新窗口的 Z-Index ---
+  // 找出当前所有窗口中最大的 Z-Index，在此基础上 +10
+  let maxZ = 1300; // 默认基准
+  if (topModal) {
+    maxZ = parseInt(window.getComputedStyle(topModal).zIndex) || 1300;
+  }
+  const newZIndex = maxZ + 10;
+
+  // --- 4. 准备数据 ---
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
   const bestVer = getBestMatchVersion(app, userApi);
   const isCompat = !!bestVer;
   const displayData = isCompat ? bestVer : app;
 
-  // ⚠️ 注意：这里删除了更新 Hash 的代码，移到最后面去了！
+  // 更新 Hash (永远指向最新的顶层应用)
+  if (window.location.hash !== `#app=${app.package}`) {
+    window.location.hash = `app=${app.package}`;
+  }
 
-  // 3. 计算层级
-  let currentMaxZ = globalZIndex;
-  document.querySelectorAll('.modal-overlay').forEach(el => {
-    const z = parseInt(el.style.zIndex) || 0;
-    if (z > currentMaxZ) currentMaxZ = z;
-  });
-  globalZIndex = currentMaxZ + 2;
-
+  // 创建 DOM
   const modalOverlay = document.createElement('div');
   modalOverlay.className = 'modal-overlay';
-  modalOverlay.style.zIndex = globalZIndex;
+  modalOverlay.style.zIndex = newZIndex;
   modalOverlay.setAttribute('data-id', app.id);
   modalOverlay.setAttribute('data-package', app.package);
 
@@ -62,7 +80,7 @@ export function renderAppModal(app) {
   ).join('');
 
   const compatWarning = !isCompat ?
-    `<div class="modal-warning-row"><div class="compat-warning-box">此应用无法在您的手表上使用，您需要 Android ${apiMap[displayData.minSdk] || displayData.minSdk}+ 才能使用此应用</div></div>` : '';
+    `<div class="modal-warning-row"><div class="compat-warning-box">WearStore未向您提供此应用，您需要 Android ${apiMap[displayData.minSdk] || displayData.minSdk}+ 才能使用此应用</div></div>` : '';
 
   let dlUrl = displayData.downloadUrl;
 
@@ -71,8 +89,8 @@ export function renderAppModal(app) {
   const displayVer = displayData.version || '未知';
   const displayCode = displayData.code ? String(displayData.code) : '';
   const displaySize = displayData.size || '未知';
-
   const pwd = displayData.password || app.password;
+
   const passwordHtml = pwd ?
     `<div class="password-box" title="点击复制密码" id="copyPwdBtn">
        <span class="material-symbols-rounded" style="font-size:16px">key</span>
@@ -91,6 +109,7 @@ export function renderAppModal(app) {
           <span style="font-size:0.95rem; font-weight:600; color:var(--text-main);">${escapeHtml(contributorName)}</span>
       </div>` : '';
 
+  // 开发者信息 HTML
   const devName = app.developer ? escapeHtml(app.developer) : '未知开发者';
   const modName = app.modAuthor ? escapeHtml(app.modAuthor) : null;
   let devInfoHtml = '';
@@ -105,6 +124,7 @@ export function renderAppModal(app) {
     devInfoHtml = `<span class="author-link" data-name="${devName}" data-type="original">${devName}</span>`;
   }
 
+  // 推荐应用 HTML
   let recommendHtml = '';
   if (window.allApps) {
     let targetApp = null;
@@ -134,6 +154,7 @@ export function renderAppModal(app) {
     }
   }
 
+  // --- 构建 DOM ---
   modalOverlay.innerHTML = `
         <div class="modal">
             <div class="modal-fixed-top">
@@ -184,7 +205,9 @@ export function renderAppModal(app) {
         </div>
     `;
 
-  // 事件绑定...
+  // --- 事件绑定 ---
+
+  // 1. 推荐应用跳转 (堆叠模式：直接 renderAppModal，不 remove 当前)
   const recommendArea = modalOverlay.querySelector('#recommendClickArea');
   if (recommendArea) {
     recommendArea.onclick = () => {
@@ -194,33 +217,44 @@ export function renderAppModal(app) {
       } else if (app.recommendPackage && window.allApps) {
         nextApp = window.allApps.find(a => a.package === app.recommendPackage && a.id !== app.id);
       }
-      if (nextApp) renderAppModal(nextApp);
+      if (nextApp) {
+        renderAppModal(nextApp); // 递归调用，产生新的上层窗口
+      }
     };
   }
 
+  // 2. 关闭逻辑 (只销毁顶层，自动露底)
   const closeBtn = modalOverlay.querySelector('.close-btn-img');
   const closeFunc = () => {
-    modalOverlay.classList.remove('active');
+    modalOverlay.classList.remove('active'); // 动画
     setTimeout(() => {
-      modalOverlay.remove();
-      const remainingModals = document.querySelectorAll('.modal-overlay.active');
+      modalOverlay.remove(); // 销毁 DOM
+
+      // 检查这时候谁是顶层
+      const remainingModals = Array.from(document.querySelectorAll('.modal-overlay.active'))
+        .sort((a, b) => (parseInt(a.style.zIndex) || 0) - (parseInt(b.style.zIndex) || 0));
+
       if (remainingModals.length > 0) {
-        const topModal = remainingModals[remainingModals.length - 1];
-        const pkg = topModal.getAttribute('data-package');
+        const newTopModal = remainingModals[remainingModals.length - 1];
+        const pkg = newTopModal.getAttribute('data-package');
+
+        // 恢复 URL Hash 到现在看到的这个窗口
         if (pkg) {
-          // 静默更新 URL，不触发 hashchange
           history.replaceState(null, null, `#app=${pkg}`);
         } else {
+          // 如果下面是开发者窗口(无pkg)，清空 Hash
           history.replaceState(null, null, ' ');
         }
       } else {
+        // 全关完了，回主页
         history.replaceState(null, null, ' ');
         document.body.style.overflow = '';
       }
-    }, 300);
+    }, 250);
   };
   closeBtn.onclick = closeFunc;
 
+  // 3. 下载
   const downloadBtn = modalOverlay.querySelector('#downloadBtn');
   downloadBtn.onclick = () => {
     if (dlUrl && dlUrl.trim() !== '') {
@@ -245,6 +279,7 @@ export function renderAppModal(app) {
     };
   }
 
+  // 4. 开发者点击 (堆叠模式，不关闭详情页，触发 main.js 开新窗)
   const authorLinks = modalOverlay.querySelectorAll('.author-link');
   authorLinks.forEach(link => {
     link.onclick = (e) => {
@@ -278,13 +313,11 @@ export function renderAppModal(app) {
     scrollContainer.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">暂无截图</span>';
   }
 
-  // --- 🔥 关键修改：先把窗口加入 DOM，再改 URL ---
   document.body.appendChild(modalOverlay);
   document.body.style.overflow = 'hidden';
   setTimeout(() => modalOverlay.classList.add('active'), 10);
 
-  // 🔥 移到最后：现在才更新 URL，此时 DOM 里已经有窗口了
-  // 这样 main.js 里的监听器触发时，能检测到 "existingModal"，从而停止执行
+  // 必须把更新 Hash 放在最后，确保 DOM 已经存在，防止 checkHashLink 重复触发
   if (window.location.hash !== `#app=${app.package}`) {
     window.location.hash = `app=${app.package}`;
   }
