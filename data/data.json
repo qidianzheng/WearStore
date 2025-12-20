@@ -15,7 +15,7 @@
       "assets/images/aida64/aida64_4.webp"
     ],
     "addedTime": 1764730653800,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-10",
     "description": "强大的硬件信息检测工具，可详细查看手表的CPU、电池、传感器、存储等实时状态与系统参数。",
     "category": "系统工具",
     "keywords": [
@@ -79,7 +79,7 @@
       "assets/images/altibarometermod/altibarometermod_3.webp"
     ],
     "addedTime": 1765876622922,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-10",
     "description": "一款专业的腕上气压高度计工具，实时显示气压与海拔数据，提供6小时趋势图与风暴预警，支持自动/手动校准，是户外活动与天气观察的得力助手。",
     "category": "生活服务",
     "keywords": [
@@ -149,7 +149,7 @@
       "assets/images/animals/animals_3.webp"
     ],
     "addedTime": 1765637584084,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "一款在WearOS手表上展示可爱猫咪与兔子图片的治愈系应用，可以收藏心仪的照片，未来支持离线查看，让每次抬腕都收获美好心情。",
     "category": "影音娱乐",
     "keywords": [
@@ -184,7 +184,7 @@
       "assets/images/cpuinfo/cpuinfo_4.webp"
     ],
     "addedTime": 1765876624103,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "一款专业的设备硬件与系统信息检测工具，可详细监控CPU、GPU、内存、电池、传感器等核心组件的实时状态与温度，并支持应用管理，适合需要深入了解设备运行状况的用户。",
     "category": "系统工具",
     "keywords": [
@@ -217,7 +217,7 @@
       "assets/images/calculator/calculator_3.webp"
     ],
     "addedTime": 1765598223171,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "一款功能强大的全能型手表计算器，适配 Wear OS。不仅能进行基础运算和科学计算，还支持实时绘图、多进制转换、复数运算和历史记录，通过精心设计的交互界面，满足移动场景下的复杂数学需求。",
     "category": "生活服务",
     "keywords": [
@@ -248,7 +248,7 @@
       "assets/images/calender/calender_1.webp"
     ],
     "addedTime": 1765598223423,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "一款专为 Wear OS 设计的完全独立、可高度自定义的本地日历应用。无需连接手机即可运行，可自由定制颜色与视图，支持滑动和表冠快速切换月份，提供简洁无广告的腕上日期管理体验。",
     "category": "生活服务",
     "keywords": [
@@ -275,7 +275,7 @@
       "assets/images/fingergunmotiongames/fingergunmotiongames_2.webp"
     ],
     "addedTime": 1765598223481,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "一款创新的体感互动游戏合集，将智能手表变为虚拟玩具。通过挥动手臂即可体验虚拟钓鱼、挥鞭、拍打和射击等多种趣味游戏，配有逼真音效，是工作学习之余与家人朋友放松互动、释放压力的新奇选择。",
     "category": "影音娱乐",
     "keywords": [
@@ -309,7 +309,7 @@
       "assets/images/flattery/flattery_2.webp"
     ],
     "addedTime": 1765637584808,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "一款将WearOS手表启动器界面设计成类似Apple Watch风格的桌面应用，为用户提供不同的视觉与交互体验。",
     "category": "系统工具",
     "keywords": [
@@ -343,7 +343,7 @@
       "assets/images/gboard/gboard_5.webp"
     ],
     "addedTime": 1764730668065,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-11",
     "description": "由 Google 出品的智能输入键盘，支持滑行、语音、手写等多种高效输入方式，并深度整合翻译、表情包与 GIF 搜索功能，输入体验快速且强大。",
     "category": "效率办公",
     "keywords": [
@@ -419,7 +419,7 @@
       "assets/images/kapture/kapture_2.webp"
     ],
     "addedTime": 1765876629541,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-17",
     "description": "一款适用于Android及Wear OS的开源屏幕录像机，支持自定义录制参数、同步录制麦克风音频，并提供Wi-Fi分享、视频管理等功能，满足从创作到分享的录制需求。",
     "category": "系统工具",
     "keywords": [
@@ -454,7 +454,7 @@
       "assets/images/keep/keep_5.webp"
     ],
     "addedTime": 1764730669419,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-11",
     "description": "你的全能运动伙伴。提供从增肌、减脂到瑜伽、跑步的海量专业课程，智能定制训练计划。独创的线上赛事与实体奖牌激励体系，让坚持充满成就感，助你科学实现健身目标。",
     "category": "健康运动",
     "keywords": [
@@ -491,7 +491,7 @@
       "assets/images/launcher3dwearos/launcher3dwearos_2.webp"
     ],
     "addedTime": 1765876630018,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-11",
     "description": "一款为Wear OS设备设计的3D立体视觉启动器，支持通过手势拖动、缩放来自定义图标布局与大小，并能隐藏应用，提供新颖的腕上桌面交互体验。",
     "category": "系统工具",
     "keywords": [
@@ -526,7 +526,7 @@
       "assets/images/lunch/lunch_5.webp"
     ],
     "addedTime": 1765637588128,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "一款轻量、开源且高度自定义的手表桌面启动器，界面简洁，功能丰富，是首个支持自定义表盘的第三方WearOS启动器，并支持隐藏应用与图标包。",
     "category": "系统工具",
     "keywords": [
@@ -558,7 +558,7 @@
       "assets/images/microsoftoutlook/microsoftoutlook_5.webp"
     ],
     "addedTime": 1764730676424,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-11",
     "description": "微软官方邮箱与日历应用，智能管理多个邮箱账户，聚焦重要邮件，并深度集成日程与办公功能。",
     "category": "效率办公",
     "keywords": [
@@ -592,7 +592,7 @@
       "assets/images/miniwebbrowser/miniwebbrowser_2.webp"
     ],
     "addedTime": 1765637589094,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "一款专为WearOS设备优化的小型网页浏览器，无需手机辅助即可独立上网搜索，在LTE手表上更能脱离手机使用，满足腕上紧急信息查询需求。",
     "category": "系统工具",
     "keywords": [
@@ -695,7 +695,7 @@
       "assets/images/qq/qq_5.webp"
     ],
     "addedTime": 1764730689784,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "腾讯QQ官方推出的智能手表版，让你在腕上也能便捷登录，随时查看和回复QQ消息，并支持语音及视频通话，保持社交连接不断线。",
     "category": "通讯社交",
     "keywords": [
@@ -743,7 +743,7 @@
       "assets/images/qqyinle/qqyinle_4.webp"
     ],
     "addedTime": 1764730690904,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "拥有海量正版曲库的音乐娱乐平台。不仅提供高品质音乐与智能歌单推荐，更依托腾讯生态，拥有如周杰伦等众多明星歌曲的独家版权，是音乐爱好者的听歌首选。",
     "category": "影音娱乐",
     "keywords": [
@@ -796,7 +796,7 @@
       "assets/images/rewearbili/rewearbili_5.webp"
     ],
     "addedTime": 1764730691645,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-11",
     "description": "一款高度自定义的第三方B站手表客户端，支持将搜索、历史、缓存等核心功能设为首页快捷入口。集成了动态、番剧、视频播放（支持后台听视频）及评论互动，带来便捷且个性化的腕上刷站体验。",
     "category": "影音娱乐",
     "keywords": [
@@ -859,7 +859,7 @@
       "assets/images/todolist/todolist_3.webp"
     ],
     "addedTime": 1764730696372,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "简洁高效的待办事项管理工具，支持跨平台同步、智能提醒与日历视图，助您井井有条地规划工作与生活。",
     "category": "效率办公",
     "keywords": [
@@ -923,7 +923,7 @@
       "assets/images/wearmouse/wearmouse_3.webp"
     ],
     "addedTime": 1764730701790,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-13",
     "description": "一款可将 Wear OS 智能手表变为通用蓝牙鼠标的应用。它支持空中鼠标、触控板等多种操控模式，兼容 Windows、macOS、Linux、Android TV 等系统，无需在受控设备安装额外软件，适合演示、娱乐等远程控制场景。",
     "category": "系统工具",
     "keywords": [
@@ -965,7 +965,7 @@
       "assets/images/wowmouse/wowmouse_5.webp"
     ],
     "addedTime": 1764730704602,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-13",
     "description": "由 Doublepoint 公司开发的手势控制应用，能将安卓智能手表或 Apple Watch 变为高精度的空中鼠标。其特色在于利用微手势识别技术，不仅支持控制电脑，还能作为 AR/VR 设备的交互控制器，提供沉浸式操控体验。",
     "category": "系统工具",
     "keywords": [
@@ -995,7 +995,7 @@
       "assets/images/yoyorichang/yoyorichang_1.webp"
     ],
     "addedTime": 1764730705847,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-13",
     "description": "一个治愈系习惯养成助手。通过可爱的小狐狸伙伴和玫瑰花养成机制，温柔陪伴你完成每日打卡、专注计时。在沉浸式的虚拟自习室里，与好友一起专注学习成长。",
     "category": "效率办公",
     "keywords": [
@@ -1066,7 +1066,7 @@
       "assets/images/sanxingjiankangjianceqi/sanxingjiankangjianceqi_2.webp"
     ],
     "addedTime": 1764730721065,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-13",
     "description": "三星健康应用，专为 Galaxy Watch 设计。其血压监测功能需配合臂式血压计定期校准，可记录静息状态下的血压与脉搏趋势；移动心电图功能可录制单通道心电图，用于提示房颤（AFib）或窦性心律，结果供参考，不可作为独立临床诊断依据。",
     "category": "健康运动",
     "keywords": [
@@ -1097,7 +1097,7 @@
       "assets/images/sanxingliulanqi/sanxingliulanqi_5.webp"
     ],
     "addedTime": 1764730726372,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-13",
     "description": "让您在智能手表上也能便捷浏览网页，适配小屏幕，支持搜索与书签，满足临时的信息查询需求。",
     "category": "系统工具",
     "keywords": [
@@ -1167,7 +1167,7 @@
       "assets/images/kemikuxue/kemikuxue_3.webp"
     ],
     "addedTime": 1764730727608,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-13",
     "description": "专为手表设计的便携学习工具，内置从小学到职业的丰富词书，支持离线刷题与查词，利用碎片时间充电。",
     "category": "学习充电",
     "keywords": [
@@ -1202,7 +1202,7 @@
       "assets/images/liangwanbofangqi/liangwanbofangqi_5.webp"
     ],
     "addedTime": 1764730728028,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-13",
     "description": "专为安卓手表打造的强大本地视频播放器，首创丰富手势操控，支持多种格式与无损平移，带来极致观影体验。",
     "category": "影音娱乐",
     "keywords": [
@@ -1230,7 +1230,7 @@
       "assets/images/fenghuangfm/fenghuangfm_1.webp"
     ],
     "addedTime": 1764730728317,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-13",
     "description": "高品质的音频内容平台。汇聚新闻解读、财经分析、历史故事和有声读物等精品节目，满足你在通勤、居家等场景下的伴随性收听需求，用声音拓展认知与想象。",
     "category": "影音娱乐",
     "keywords": [
@@ -1262,7 +1262,7 @@
       "assets/images/fenghuangxinwen/fenghuangxinwen_1.webp"
     ],
     "addedTime": 1764730729017,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-13",
     "description": "兼具全球视野与深度的资讯平台。提供快速、权威的时事热点报道，尤其在军事、财经和国际新闻领域见解独到。传承凤凰品牌基因，为用户带来有品质的新闻内容。",
     "category": "生活服务",
     "keywords": [
@@ -1299,7 +1299,7 @@
       "assets/images/bilizhongduan/bilizhongduan_5.webp"
     ],
     "addedTime": 1764730732767,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "一款专为智能手表及低配置设备打造的轻量级第三方B站客户端。界面简洁无广告，支持扫码登录同步收藏与历史记录，并可根据手表屏幕自定义界面，提供流畅的移动观影体验。",
     "category": "影音娱乐",
     "keywords": [
@@ -1332,7 +1332,7 @@
       "assets/images/ximalaya/ximalaya_5.webp"
     ],
     "addedTime": 1764730734274,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "喜马拉雅官方手表应用，提供海量有声书、播客、相声评书及课程节目。无论是通勤路上、运动间隙还是睡前时光，都能让你在手表上便捷收听，畅享音频内容。",
     "category": "影音娱乐",
     "keywords": [
@@ -1432,7 +1432,7 @@
       "assets/images/mojitianqi/mojitianqi_5.webp"
     ],
     "addedTime": 1764730736293,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "墨迹天气官方手表版，提供精准天气预报、分钟级降水雷达、台风路径及生活指数，并支持地震预警，是您腕上的智慧天气助手。",
     "category": "生活服务",
     "keywords": [
@@ -1512,7 +1512,7 @@
       "assets/images/dazhongdianping/dazhongdianping_1.webp"
     ],
     "addedTime": 1764730736374,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "发现城市美好生活的指南。基于海量真实用户评价，帮你找美食、订酒店、发现玩乐景点。丰富的团购优惠和“必吃榜”等权威榜单，让你轻松决策，享受高性价比体验。",
     "category": "生活服务",
     "keywords": [
@@ -1549,7 +1549,7 @@
       "assets/images/weixin/weixin_5.webp"
     ],
     "addedTime": 1764730739684,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "微信官方智能手表客户端，支持在手表上查看消息、快捷回复、进行支付及查看动态，让重要的社交与生活服务不离手腕。",
     "category": "通讯社交",
     "keywords": [
@@ -1611,7 +1611,7 @@
       "assets/images/sougoushurufa/sougoushurufa_2.webp"
     ],
     "addedTime": 1764730745299,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "专为手表优化的智能输入工具，支持语音、手写及精美皮肤，在小屏幕上也能实现高效流畅的文字输入。",
     "category": "效率办公",
     "keywords": [
@@ -1649,7 +1649,7 @@
       "assets/images/zhifubao/zhifubao_2.webp"
     ],
     "addedTime": 1764730745541,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "支付宝官方手表应用，支持出示付款码、乘车码进行支付与出行，并可查看账单，让移动支付体验更加便捷。",
     "category": "生活服务",
     "keywords": [
@@ -1751,7 +1751,7 @@
       "assets/images/didaqingdan/didaqingdan_2.webp"
     ],
     "addedTime": 1764730751607,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-11",
     "description": "强大的GTD时间管理工具。以待办清单、日历视图和番茄钟为核心，帮你清晰规划任务、高效专注执行。支持多平台同步和团队协作，是管理个人日程与团队项目的得力助手。",
     "category": "效率办公",
     "keywords": [
@@ -1856,7 +1856,7 @@
       "assets/images/baiduditu/baiduditu_5.webp"
     ],
     "addedTime": 1764730757721,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "更懂生活的智能导航。提供精准的实时公交、路况和路线规划，其核心优势在于深度整合生活服务，并搭载强大的 “小度”语音助手，让你动动嘴就能查路线、搜美食。",
     "category": "生活服务",
     "keywords": [
@@ -1900,7 +1900,7 @@
       "assets/images/baidushurufa/baidushurufa_2.webp"
     ],
     "addedTime": 1764730758857,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "百度输入法针对智能手表优化的版本，支持语音、手写、拼音等多种输入方式，并内置智能助手与表情，提升小屏输入效率。",
     "category": "效率办公",
     "keywords": "",
@@ -1926,7 +1926,7 @@
       "assets/images/jianyiluyinji/jianyiluyinji_5.webp"
     ],
     "addedTime": 1764730759544,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "专为手表设计的轻便录音工具，高品质录制会议、课堂或灵感瞬间，并支持快速分享，随时随地留存重要声音。",
     "category": "效率办公",
     "keywords": [
@@ -1957,7 +1957,7 @@
       "assets/images/miwu/miwu_4.webp"
     ],
     "addedTime": 1764730760130,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "第三方手表版米家控制中心，支持直接操控灯具、空调等智能设备，让家居控制抬腕可得。",
     "category": "生活服务",
     "keywords": [
@@ -1990,7 +1990,7 @@
       "assets/images/wangyiyunyinle/wangyiyunyinle_5.webp"
     ],
     "addedTime": 1764730761496,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "网易云音乐官方手表版，同步账号歌单与个性化推荐，支持播放控制与歌词显示，在腕间延续独特的音乐社区体验。",
     "category": "影音娱乐",
     "keywords": [
@@ -2023,7 +2023,7 @@
       "assets/images/wanshangbili/wanshangbili_5.webp"
     ],
     "addedTime": 1764730763176,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "一款专为智能手表设计的第三方B站客户端，集成了动态、推荐、番剧、直播等核心内容浏览功能，支持搜索、评论互动与离线缓存，可与“腕上视频”应用联动播放，让你在方寸屏幕间随时刷看B站。",
     "category": "影音娱乐",
     "keywords": [
@@ -2056,7 +2056,7 @@
       "assets/images/wanshangxiaozhitiao/wanshangxiaozhitiao_5.webp"
     ],
     "addedTime": 1764730763837,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "一款手表端的文本阅读器，支持自定义字体背景，优化小屏阅读体验，适合在通勤时阅读小说或文档。",
     "category": "学习充电",
     "keywords": [
@@ -2089,7 +2089,7 @@
       "assets/images/wanshangshipin/wanshangshipin_4.webp"
     ],
     "addedTime": 1764730764860,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "一款专为智能手表设计的视频播放器，支持播放本地视频与网络URL视频，并可设置弹幕。它与‘腕上哔哩’、‘腕上小纸条’等应用深度联动，共同构建腕上的移动视听与阅读体验。",
     "category": "影音娱乐",
     "keywords": [
@@ -2122,7 +2122,7 @@
       "assets/images/wantingbitmap/wantingbitmap_5.webp"
     ],
     "addedTime": 1764730766025,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "一款极具创意的像素复古风格本地音乐播放器，将界面设计为电子小方块，用独特的怀旧视觉呈现音乐播放。",
     "category": "影音娱乐",
     "keywords": [
@@ -2152,7 +2152,7 @@
       "assets/images/wannengjingling/wannengjingling_3.webp"
     ],
     "addedTime": 1764730767167,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "集成多家主流AI模型的腕上智能助手，支持对话、答疑、写作辅助与联网搜索，随时随地获取智慧帮助。",
     "category": "学习充电",
     "keywords": [
@@ -2217,7 +2217,7 @@
       "assets/images/wanjiantuku/wanjiantuku_3.webp"
     ],
     "addedTime": 1764730768077,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "专为手表优化的图片浏览应用，支持高清加载与手势缩放，可便捷查看手机同步或本地保存的照片。",
     "category": "系统工具",
     "keywords": [
@@ -2249,7 +2249,7 @@
       "assets/images/wanjianfanyi/wanjianfanyi_4.webp"
     ],
     "addedTime": 1764730769281,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "多功能手表翻译工具，支持多语种互译、离线查词，部分集成AI，是您腕上的随行翻译官。",
     "category": "学习充电",
     "keywords": [
@@ -2298,7 +2298,7 @@
       "assets/images/xichuangzhu/xichuangzhu_5.webp"
     ],
     "addedTime": 1764730771527,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "致力于传承中华优秀传统文化的平台，提供百万诗词文库、创作社区与学习工具，让古典诗意融入现代生活。",
     "category": "学习充电",
     "keywords": [
@@ -2340,7 +2340,7 @@
       "assets/images/xunfeishurufashoubiaoban/xunfeishurufashoubiaoban_4.webp"
     ],
     "addedTime": 1764730772323,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "主打高效语音输入的利器，支持23种方言与中英混输，语音转文字精准快捷，彻底解放手表端的输入体验。",
     "category": "效率办公",
     "keywords": [
@@ -2380,7 +2380,7 @@
       "assets/images/kuwoyinle/kuwoyinle_3.webp"
     ],
     "addedTime": 1764730774626,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "酷我音乐官方手表应用，畅听海量歌曲、有声小说、儿童内容及热门综艺原声，满足多样化的音频娱乐需求。",
     "category": "影音娱乐",
     "keywords": [
@@ -2429,7 +2429,7 @@
       "assets/images/kugougainianban/kugougainianban_5.webp"
     ],
     "addedTime": 1764730775002,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "酷狗音乐推出的年轻化、社交化版本。主打清爽简约的无广告体验和创新的 “一起听”、“音乐社区” 等社交功能，通过个性化的视觉皮肤，为年轻用户打造与众不同的音乐空间。",
     "category": "影音娱乐",
     "keywords": [
@@ -2472,7 +2472,7 @@
       "assets/images/qianji/qianji_2.webp"
     ],
     "addedTime": 1764730776250,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "一款纯粹无广告的个人记账App，专注清晰记录每一笔收支，提供多维度统计与预算管理，让消费与资产一目了然。",
     "category": "效率办公",
     "keywords": [
@@ -2516,7 +2516,7 @@
       "assets/images/ruiduyingyu/ruiduyingyu_5.webp"
     ],
     "addedTime": 1764730776679,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-12",
     "description": "手表上的英语学习助手，覆盖多阶段词库，结合智能复习算法与可视化进度，助力高效掌握词汇。",
     "category": "学习充电",
     "keywords": [
@@ -2559,7 +2559,7 @@
       "assets/images/lingduyinle/lingduyinle_5.webp"
     ],
     "addedTime": 1764730777137,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-10",
     "description": "一款专注于本地音乐播放的手表应用，支持多种音频格式、歌词显示与强大的自定义功能，提供纯净的离线听歌体验。",
     "category": "影音娱乐",
     "keywords": [
@@ -2592,7 +2592,7 @@
       "assets/images/gaodeditu/gaodeditu_5.webp"
     ],
     "addedTime": 1764730777683,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-10",
     "description": "国民级的专业导航App。以精准的驾车导航和实时路况为核心，聚合全网打车平台，提供高性价比出行选择。创新的 “扫街榜” 基于真实出行数据，帮你发现周边热门好店。",
     "category": "生活服务",
     "keywords": [
