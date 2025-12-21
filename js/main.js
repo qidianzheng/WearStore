@@ -40,7 +40,7 @@ let fuse;
 let homeAppsCache = null;
 
 async function init() {
-  initTheme(); // 🔥 这一步逻辑已更新
+  initTheme();
   allApps = await fetchApps();
   window.allApps = allApps;
 
@@ -69,16 +69,30 @@ function initFuse() {
   fuse = new Fuse(allApps, options);
 }
 
-function bindEvents() {
-  elements.searchBtn.onclick = performSearch;
+// 🔥 新增：通用关闭辅助函数 (修复滚动条失效的核心)
+function closeStaticModal(modalElement) {
+  modalElement.classList.remove('active');
 
+  // 延迟 250ms 等动画结束 (与 CSS 保持一致)
+  setTimeout(() => {
+    // 检查页面上是否还有其他激活的弹窗
+    const activeModals = document.querySelectorAll('.modal-overlay.active');
+    if (activeModals.length === 0) {
+      // 只有当所有弹窗都关了，才恢复滚动
+      document.body.style.overflow = '';
+    }
+  }, 250);
+}
+
+function bindEvents() {
+  // 1. 搜索
+  elements.searchBtn.onclick = performSearch;
   elements.searchInput.onkeyup = (e) => {
     if (e.key === 'Enter') {
       elements.searchSuggestions.classList.remove('active');
       performSearch();
     }
   };
-
   elements.searchInput.addEventListener('input', (e) => {
     const val = e.target.value;
     if (val.trim().length > 0) {
@@ -89,11 +103,9 @@ function bindEvents() {
     }
     showSuggestions(val.trim());
   });
-
   elements.searchInput.addEventListener('focus', (e) => {
     if (e.target.value.trim() !== '') showSuggestions(e.target.value.trim());
   });
-
   if (elements.clearSearchBtn) {
     elements.clearSearchBtn.onclick = (e) => {
       e.preventDefault();
@@ -104,122 +116,60 @@ function bindEvents() {
       renderRandomHome();
     };
   }
-
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.search-container')) {
       elements.searchSuggestions.classList.remove('active');
     }
   });
 
+  // 2. 菜单 (修复逻辑)
   elements.menuBtn.onclick = () => {
     updateVersionTextInMenu();
     elements.menuModal.classList.add('active');
     elements.menuModal.style.zIndex = ++globalZIndex;
+    document.body.style.overflow = 'hidden'; // 打开时锁死
   };
-  elements.closeMenuModal.onclick = () => elements.menuModal.classList.remove('active');
+  // 关闭时使用通用函数
+  elements.closeMenuModal.onclick = () => closeStaticModal(elements.menuModal);
   elements.menuModal.onclick = (e) => {
-    if (e.target === elements.menuModal) elements.menuModal.classList.remove('active');
+    if (e.target === elements.menuModal) closeStaticModal(elements.menuModal);
   };
 
   elements.menuThemeToggle.onclick = toggleTheme;
-
   elements.menuVersionTrigger.onclick = () => {
     elements.welcomeModal.style.zIndex = ++globalZIndex + 10;
     elements.welcomeModal.classList.add('active');
+    document.body.style.overflow = 'hidden';
   };
 
   elements.newArrivalsBtn.onclick = openNewArrivals;
   elements.recentUpdatesBtn.onclick = openRecentUpdates;
 
-  elements.categoryCloseBtn.onclick = () => elements.categoryWindow.classList.remove('active');
+  // 3. 分类窗口 (修复逻辑)
+  elements.categoryCloseBtn.onclick = () => closeStaticModal(elements.categoryWindow);
+  // 只有点击遮罩空白处才关闭，防止误触内容
   elements.categoryWindow.onclick = (e) => {
-    if (e.target === elements.categoryWindow) elements.categoryWindow.classList.remove('active');
+    if (e.target === elements.categoryWindow) closeStaticModal(elements.categoryWindow);
   };
 
+  // 4. 开发者窗口 (修复逻辑)
   window.addEventListener('open-dev-modal', (e) => {
     openDevWindow(e.detail);
   });
 
   if (elements.devModalCloseBtn) {
-    elements.devModalCloseBtn.onclick = () => {
-      elements.devModal.classList.remove('active');
-      setTimeout(() => {
-        const activeModals = document.querySelectorAll('.modal-overlay.active');
-        if (activeModals.length === 0) {
-          document.body.style.overflow = '';
-        }
-      }, 300);
-    };
+    elements.devModalCloseBtn.onclick = () => closeStaticModal(elements.devModal);
   }
 
+  // 5. 路由
   window.addEventListener('hashchange', checkHashLink);
 }
 
-// --- 🔥 修复：主题初始化与系统监听 ---
-function initTheme() {
-  const stored = localStorage.getItem('theme');
-  const systemQuery = window.matchMedia('(prefers-color-scheme: dark)');
-
-  // 1. 定义应用主题的函数
-  const apply = (theme) => {
-    document.documentElement.setAttribute('data-theme', theme);
-    updateThemeIcon(theme);
-  };
-
-  // 2. 初始判断
-  if (stored) {
-    // 如果用户手动设置过，优先使用存储的值
-    apply(stored);
-  } else {
-    // 如果没设置过，跟随系统
-    apply(systemQuery.matches ? 'dark' : 'light');
-  }
-
-  // 3. 实时监听系统变化
-  // 只有在用户没有手动设置过主题时，才自动跟随系统变化
-  try {
-    systemQuery.addEventListener('change', (e) => {
-      if (!localStorage.getItem('theme')) {
-        apply(e.matches ? 'dark' : 'light');
-      }
-    });
-  } catch (e) {
-    // 兼容旧浏览器
-    systemQuery.addListener((e) => {
-      if (!localStorage.getItem('theme')) {
-        apply(e.matches ? 'dark' : 'light');
-      }
-    });
-  }
-}
-
-// --- 🔥 修复：切换主题逻辑 ---
-function toggleTheme() {
-  const current = document.documentElement.getAttribute('data-theme');
-  const next = current === 'dark' ? 'light' : 'dark';
-
-  document.documentElement.setAttribute('data-theme', next);
-
-  // 一旦用户手动点击，就写入 localStorage，意味着“我不再想跟随系统了，我要强制这个模式”
-  localStorage.setItem('theme', next);
-
-  updateThemeIcon(next);
-}
-
-function updateThemeIcon(theme) {
-  const icon = document.querySelector('.theme-icon');
-  if (icon) {
-    icon.textContent = theme === 'dark' ? 'brightness_5' : 'dark_mode';
-    icon.style.color = theme === 'dark' ? 'var(--icon-sun)' : 'var(--icon-normal)';
-  }
-}
-
-// --- 列表逻辑保持不变 ---
 function openNewArrivals() {
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
   let sorted = [...allApps].filter(a => isAppCompatible(a, userApi));
   sorted.sort((a, b) => (b.addedTime || 0) - (a.addedTime || 0));
-  openCategoryList("最新上架", sorted.slice(0, 12));
+  openCategoryList("最新上架", sorted.slice(0, 16));
 }
 
 function openRecentUpdates() {
@@ -230,7 +180,7 @@ function openRecentUpdates() {
     const dateB = new Date(b.updateTime || 0);
     return dateB - dateA;
   });
-  openCategoryList("最近更新", sorted.slice(0, 12));
+  openCategoryList("最近更新", sorted.slice(0, 16));
 }
 
 function showSuggestions(term) {
@@ -310,15 +260,73 @@ function performSearch() {
   }
 }
 
+// --- 路由核心逻辑：处理浏览器的前进/后退 ---
 function checkHashLink() {
   const hash = window.location.hash;
+
+  // 获取当前所有已打开的应用窗口 (按层级排序)
+  const activeModals = Array.from(document.querySelectorAll('.modal-overlay.active'))
+    .sort((a, b) => (parseInt(a.style.zIndex) || 0) - (parseInt(b.style.zIndex) || 0));
+
+  const topModal = activeModals.length > 0 ? activeModals[activeModals.length - 1] : null;
+
+  // 情况 1: URL 变回了主页 (空 hash)
+  if (!hash || hash === '#') {
+    // 如果当前有打开的窗口，说明用户按了返回键 -> 依次关闭所有窗口
+    if (activeModals.length > 0) {
+      // 倒序关闭所有应用弹窗 (保留菜单等非应用弹窗的话需要加判断，这里假设全是应用)
+      // 过滤掉 data-package 属性不存在的(比如开发者窗口)，或者全部关闭看你需求
+      // 这里我们选择：只关闭带有 data-package 的应用详情页
+      activeModals.forEach(modal => {
+        if (modal.hasAttribute('data-package')) {
+          modal.classList.remove('active');
+          setTimeout(() => modal.remove(), 300);
+        }
+      });
+      document.body.style.overflow = '';
+    }
+    return;
+  }
+
+  // 情况 2: URL 变成了某个应用的包名 (#app=xxx)
   if (hash.startsWith('#app=')) {
     const pkgName = hash.split('=')[1];
-    const existingModal = document.querySelector(`.modal-overlay[data-package="${pkgName}"]`);
-    if (existingModal) return;
 
+    // 2.1 检查当前顶层窗口是否已经是这个应用
+    if (topModal && topModal.getAttribute('data-package') === pkgName) {
+      return; // 已经是它了，不用动 (防止重复触发)
+    }
+
+    // 2.2 检查是否是“返回上一层”的操作
+    // 如果当前顶层窗口是 B，但 URL 变成了 A (A在B底下)
+    // 那么我们需要关闭 B，露出 A
+    if (activeModals.length > 1) {
+      const previousModal = activeModals[activeModals.length - 2];
+      if (previousModal && previousModal.getAttribute('data-package') === pkgName) {
+        // 用户按了返回键，回到了上一层应用
+        // 关闭顶层 (B)
+        topModal.classList.remove('active');
+        setTimeout(() => topModal.remove(), 300);
+        return;
+      }
+    }
+
+    // 2.3 如果既不是当前，也不是上一层，说明是“新打开”或者“深层链接”
+    // 检查 DOM 里是否已经有这个包名的窗口 (在堆叠的下层)
+    const existingInStack = document.querySelector(`.modal-overlay[data-package="${pkgName}"]`);
+
+    if (existingInStack) {
+      // 如果它已经在堆叠里了，但不是最顶层（极其罕见的情况），
+      // 这里通常不需要做特殊处理，或者可以把它提上来。
+      // 简单处理：不做操作，等待用户继续返回。
+      return;
+    }
+
+    // 2.4 如果 DOM 里完全没有，说明是全新打开 (比如刷新页面、分享链接进入)
     const target = allApps.find(a => a.package === pkgName);
-    if (target) renderAppModal(target);
+    if (target) {
+      renderAppModal(target);
+    }
   }
 }
 
@@ -380,14 +388,17 @@ function populateMenuCategories() {
 function openCategoryList(title, appList) {
   elements.categoryWindowTitle.textContent = title;
   renderCardList(appList, elements.categoryAppsContainer);
-  elements.categoryWindow.classList.add('active');
 
+  // 打开时也计算最大层级
   let maxZ = 1300;
   document.querySelectorAll('.modal-overlay').forEach(el => {
     const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
     if (z > maxZ) maxZ = z;
   });
+
+  elements.categoryWindow.classList.add('active');
   elements.categoryWindow.style.zIndex = maxZ + 10;
+  document.body.style.overflow = 'hidden'; // 🔥 确保打开时锁定
 }
 
 function renderRandomHome() {
@@ -406,6 +417,52 @@ function updateVersionTextInMenu() {
   const api = localStorage.getItem('userApiLevel');
   if (api && apiMap[api]) elements.menuVersionText.textContent = `Android ${apiMap[api]}`;
   else elements.menuVersionText.textContent = '点击选择';
+}
+
+function initTheme() {
+  const stored = localStorage.getItem('theme');
+  const systemQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+  const apply = (theme) => {
+    document.documentElement.setAttribute('data-theme', theme);
+    updateThemeIcon(theme);
+  };
+
+  if (stored) {
+    apply(stored);
+  } else {
+    apply(systemQuery.matches ? 'dark' : 'light');
+  }
+
+  try {
+    systemQuery.addEventListener('change', (e) => {
+      if (!localStorage.getItem('theme')) {
+        apply(e.matches ? 'dark' : 'light');
+      }
+    });
+  } catch (e) {
+    systemQuery.addListener((e) => {
+      if (!localStorage.getItem('theme')) {
+        apply(e.matches ? 'dark' : 'light');
+      }
+    });
+  }
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  updateThemeIcon(next);
+}
+
+function updateThemeIcon(theme) {
+  const icon = document.querySelector('.theme-icon');
+  if (icon) {
+    icon.textContent = theme === 'dark' ? 'brightness_5' : 'dark_mode';
+    icon.style.color = theme === 'dark' ? 'var(--icon-sun)' : 'var(--icon-normal)';
+  }
 }
 
 function checkUserVersion() {
@@ -427,10 +484,20 @@ function checkUserVersion() {
       Array.from(elements.versionGrid.children).forEach(b => b.classList.remove('selected'));
       btn.classList.add('selected');
       updateVersionTextInMenu();
+
+      // 关闭版本选择窗口后恢复滚动 (如果它下面没有其他窗口)
+      // 这里因为版本选择是强制的/或者从菜单打开的，通常需要检查
+      setTimeout(() => {
+        const activeModals = document.querySelectorAll('.modal-overlay.active');
+        if (activeModals.length === 0) document.body.style.overflow = '';
+      }, 300);
     };
     elements.versionGrid.appendChild(btn);
   }
-  if (!savedApi) elements.welcomeModal.classList.add('active');
+  if (!savedApi) {
+    elements.welcomeModal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
   updateVersionTextInMenu();
 }
 

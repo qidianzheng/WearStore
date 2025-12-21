@@ -47,7 +47,7 @@
       "assets/images/altibarometer/altibarometer_3.webp"
     ],
     "addedTime": 1765637583438,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-11",
     "description": "一款专业的腕上气压高度计工具，实时显示气压与海拔数据，提供6小时趋势图与风暴预警，支持自动/手动校准，是户外活动与天气观察的得力助手。",
     "category": "生活服务",
     "keywords": [
@@ -114,7 +114,7 @@
       "assets/images/anexplorer/anexplorer_5.webp"
     ],
     "addedTime": 1764730656931,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-11",
     "description": "AnExplorer是一款采用Material You设计的全能文件管理器。它不仅能在手机、平板本地高效管理文件，更独具匠心地支持直接管理您的手表（Wear OS）、电视（Android TV）、汽车（Android Auto）乃至VR设备上的存储，并通过Wi-Fi、网络存储和云服务实现无缝的跨设备文件传输与同步，是管理所有Android生态设备的统一文件管理中心。",
     "category": "系统工具",
     "keywords": [
@@ -625,7 +625,7 @@
       "assets/images/navmusic/navmusic_5.webp"
     ],
     "addedTime": 1765876632379,
-    "updateTime": "2025-12-18",
+    "updateTime": "2025-12-15",
     "description": "一款专注于离线音乐播放的WearOS应用，界面简洁，支持通过Wi-Fi快速传输歌曲、显示动态播放界面与专辑封面，适合运动时脱离手机独立使用。",
     "category": "影音娱乐",
     "keywords": [
@@ -909,6 +909,56 @@
     "historyVersion": []
   },
   {
+    "id": 1431795403,
+    "name": "Voice Notebook",
+    "package": "com.voicenotebook.voicenotebook",
+    "version": "1.1.4",
+    "code": 400,
+    "minSdk": 28,
+    "size": "0.99 MB",
+    "icon": "assets/images/voicenotebook/voicenotebook_icon.webp",
+    "screenshots": [
+      "assets/images/voicenotebook/voicenotebook_1.webp",
+      "assets/images/voicenotebook/voicenotebook_2.webp",
+      "assets/images/voicenotebook/voicenotebook_3.webp"
+    ],
+    "addedTime": 1766329357492,
+    "updateTime": "2025-12-21",
+    "description": "一款功能强大的语音转文字笔记应用，支持在线/离线识别、自动标点、云同步及与Google服务集成。可通过语音快速记录想法、撰写文本，并与聋哑人士顺畅沟通。",
+    "category": "效率办公",
+    "keywords": [
+      "语音转文字",
+      "语音笔记",
+      "听写",
+      "实时转写",
+      "语音输入",
+      "speech to text",
+      "yuyin biji",
+      "yuyin shuru"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i36ni3e6ussf",
+    "developer": "Yuri Khramov",
+    "password": "66u4",
+    "historyVersion": [
+      {
+        "version": "1.1.3",
+        "code": 393,
+        "minSdk": 28,
+        "size": "0.99 MB",
+        "downloadUrl": "",
+        "password": ""
+      },
+      {
+        "version": "1.1.2",
+        "code": 382,
+        "minSdk": 28,
+        "size": "0.97 MB",
+        "downloadUrl": "",
+        "password": ""
+      }
+    ]
+  },
+  {
     "id": 376759802,
     "name": "WearMouse",
     "package": "com.ginkage.wearmouse",
@@ -1016,6 +1066,46 @@
     "developer": "重庆路西法科技有限公司",
     "password": "3j4h",
     "historyVersion": []
+  },
+  {
+    "id": 1422108563,
+    "name": "zizhi",
+    "package": "com.watchfacestudio.zizhi",
+    "version": "1.4",
+    "code": 10000004,
+    "minSdk": 34,
+    "size": "0.14 MB",
+    "icon": "assets/images/zizhi/zizhi_icon.webp",
+    "screenshots": [
+      "assets/images/zizhi/zizhi_1.webp"
+    ],
+    "addedTime": 1766329358518,
+    "updateTime": "2025-12-21",
+    "description": "一款高度模仿 CCwatch galaxy lite 设计风格的表盘应用，特别优化了息屏显示，加入了数字时间与更美观的样式，追求简约精致的腕上视觉效果。",
+    "category": "表盘美化",
+    "keywords": [
+      "表盘",
+      "自定义表盘",
+      "息屏显示",
+      "简约风格",
+      "仿制表盘",
+      "watch face",
+      "biaopan",
+      "xiping sheji"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i0UOt3e6utzi",
+    "developer": "奥特曼曼特奥",
+    "password": "7a06",
+    "historyVersion": [
+      {
+        "version": "1.2",
+        "code": 10000003,
+        "minSdk": 30,
+        "size": "5.17 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/i8YpY3e6utxg",
+        "password": "67bc"
+      }
+    ]
   },
   {
     "id": 3516612477,
@@ -1283,6 +1373,41 @@
     "historyVersion": []
   },
   {
+    "id": 4260657947,
+    "name": "咪咕音乐",
+    "package": "com.fzbosun.watch.migumusic",
+    "version": "3.5.5",
+    "code": 355,
+    "minSdk": 19,
+    "size": "5.70 MB",
+    "icon": "assets/images/miguyinle/miguyinle_icon.webp",
+    "screenshots": [
+      "assets/images/miguyinle/miguyinle_1.webp",
+      "assets/images/miguyinle/miguyinle_2.webp",
+      "assets/images/miguyinle/miguyinle_3.webp",
+      "assets/images/miguyinle/miguyinle_4.webp",
+      "assets/images/miguyinle/miguyinle_5.webp"
+    ],
+    "addedTime": 1766329363769,
+    "updateTime": "2025-12-21",
+    "description": "咪咕音乐官方应用，提供海量正版曲库、精选场景歌单、沉浸式极光音效与视频彩铃等特色功能，并支持‘一起听’、云包厢等社交互动，打造全方位的音乐娱乐体验。",
+    "category": "影音娱乐",
+    "keywords": [
+      "听歌",
+      "音效",
+      "视频彩铃",
+      "一起听",
+      "演唱会直播",
+      "migu music",
+      "yinyue bofang",
+      "gequ"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i50Aw3e6uv2h",
+    "developer": "咪咕音乐有限公司",
+    "password": "gn6y",
+    "historyVersion": []
+  },
+  {
     "id": 2578654920,
     "name": "哔哩终端",
     "package": "com.RobinNotBad.BiliClient",
@@ -1416,6 +1541,36 @@
     ]
   },
   {
+    "id": 915603875,
+    "name": "噪音",
+    "package": "com.db.watch.aw",
+    "version": "1.1",
+    "code": 100002,
+    "minSdk": 15,
+    "size": "9.31 MB",
+    "icon": "assets/images/zaoyin/zaoyin_icon.webp",
+    "screenshots": [
+      "assets/images/zaoyin/zaoyin_1.webp"
+    ],
+    "addedTime": 1766329366522,
+    "updateTime": "2025-12-21",
+    "description": "一款仿Apple Watch风格的噪音监测应用，支持后台持续监测环境音量，并在噪音过高时主动发出提醒，帮助你保护听力健康。",
+    "category": "健康运动",
+    "keywords": [
+      "分贝检测",
+      "听力保护",
+      "环境音量",
+      "健康提醒",
+      "noise monitor",
+      "zaoyin jiance",
+      "jiankang"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iPbVC3e6upod",
+    "developer": "皓洋",
+    "password": "d84k",
+    "historyVersion": []
+  },
+  {
     "id": 1685698201,
     "name": "墨迹天气",
     "package": "com.moji.wear",
@@ -1533,6 +1688,39 @@
     "historyVersion": []
   },
   {
+    "id": 3900502068,
+    "name": "小米Watch2录音机",
+    "package": "com.xiaomi.recorder",
+    "version": "2024061105.dev.rel",
+    "code": 1,
+    "minSdk": 26,
+    "size": "2.81 MB",
+    "icon": "assets/images/xiaomiwatch2luyinji/xiaomiwatch2luyinji_icon.webp",
+    "screenshots": [
+      "assets/images/xiaomiwatch2luyinji/xiaomiwatch2luyinji_1.webp",
+      "assets/images/xiaomiwatch2luyinji/xiaomiwatch2luyinji_2.webp",
+      "assets/images/xiaomiwatch2luyinji/xiaomiwatch2luyinji_3.webp",
+      "assets/images/xiaomiwatch2luyinji/xiaomiwatch2luyinji_4.webp"
+    ],
+    "addedTime": 1766329368344,
+    "updateTime": "2025-12-21",
+    "description": "小米官方出品的简洁录音应用，操作简单，支持快速录音、播放、管理和云端同步，满足会议、灵感等场景的即时录音需求。",
+    "category": "效率办公",
+    "keywords": [
+      "录音",
+      "语音备忘录",
+      "录音管理",
+      "云端同步",
+      "voice recorder",
+      "luyin",
+      "luyin gongju"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iih1r3e6uswj",
+    "developer": "北京小米移动软件有限公司",
+    "password": "74np",
+    "historyVersion": []
+  },
+  {
     "id": 3818728573,
     "name": "微信",
     "package": "com.tencent.mm",
@@ -1561,6 +1749,39 @@
     "downloadUrl": "https://easylink.cc/7ao5nq",
     "developer": "深圳市腾讯计算机系统有限公司",
     "password": "",
+    "historyVersion": []
+  },
+  {
+    "id": 2329128181,
+    "name": "微风天气",
+    "package": "wind.fun.weather",
+    "version": "1.2",
+    "code": 2,
+    "minSdk": 30,
+    "size": "6.81 MB",
+    "icon": "assets/images/weifengtianqi/weifengtianqi_icon.webp",
+    "screenshots": [
+      "assets/images/weifengtianqi/weifengtianqi_1.webp",
+      "assets/images/weifengtianqi/weifengtianqi_2.webp",
+      "assets/images/weifengtianqi/weifengtianqi_3.webp"
+    ],
+    "addedTime": 1766329368664,
+    "updateTime": "2025-12-21",
+    "description": "一款设计简洁的独立天气应用，分屏清晰展示当天天气概览、小时级预报与未来5天趋势，特别包含风速、能见度等摄影师关注的指标，满足不同场景的出行与规划需求。",
+    "category": "生活服务",
+    "keywords": [
+      "天气预报",
+      "小时预报",
+      "天气趋势",
+      "空气质量",
+      "简洁设计",
+      "weather app",
+      "tianqi yubao",
+      "jianjie tianqi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iJO353e6uora",
+    "developer": "流沙风起",
+    "password": "a79d",
     "historyVersion": []
   },
   {
@@ -2366,6 +2587,40 @@
     ]
   },
   {
+    "id": 3766972943,
+    "name": "起源云笔记",
+    "package": "xyz.osdn.ocloudnote",
+    "version": "ver1.0",
+    "code": 1,
+    "minSdk": 7,
+    "size": "6.70 MB",
+    "icon": "assets/images/qiyuanyunbiji/qiyuanyunbiji_icon.webp",
+    "screenshots": [
+      "assets/images/qiyuanyunbiji/qiyuanyunbiji_1.webp",
+      "assets/images/qiyuanyunbiji/qiyuanyunbiji_2.webp",
+      "assets/images/qiyuanyunbiji/qiyuanyunbiji_3.webp",
+      "assets/images/qiyuanyunbiji/qiyuanyunbiji_4.webp",
+      "assets/images/qiyuanyunbiji/qiyuanyunbiji_5.webp"
+    ],
+    "addedTime": 1766329384553,
+    "updateTime": "2025-12-21",
+    "description": "一款小巧轻便的云端笔记应用，界面优雅，支持多端同步与隐私保护，在手表上也能便捷地记录和查看笔记。",
+    "category": "效率办公",
+    "keywords": [
+      "云笔记",
+      "同步",
+      "多端同步",
+      "隐私保护",
+      "cloud notes",
+      "biji",
+      "yunduan tongbu"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iYeys3e6ut4h",
+    "developer": "LouisonH",
+    "password": "du52",
+    "historyVersion": []
+  },
+  {
     "id": 276307138,
     "name": "酷我音乐",
     "package": "cn.kuwo.wearplayer",
@@ -2579,10 +2834,10 @@
     "id": 2345455891,
     "name": "高德地图",
     "package": "com.autonavi.minimap.watch",
-    "version": "1.1.0",
-    "code": 1100,
+    "version": "1.1.1",
+    "code": 1101,
     "minSdk": 26,
-    "size": "12.97 MB",
+    "size": "15.68 MB",
     "icon": "assets/images/gaodeditu/gaodeditu_icon.webp",
     "screenshots": [
       "assets/images/gaodeditu/gaodeditu_1.webp",
@@ -2592,7 +2847,7 @@
       "assets/images/gaodeditu/gaodeditu_5.webp"
     ],
     "addedTime": 1764730777683,
-    "updateTime": "2025-12-10",
+    "updateTime": "2025-12-21",
     "description": "国民级的专业导航App。以精准的驾车导航和实时路况为核心，聚合全网打车平台，提供高性价比出行选择。创新的 “扫街榜” 基于真实出行数据，帮你发现周边热门好店。",
     "category": "生活服务",
     "keywords": [
@@ -2606,9 +2861,18 @@
       "map",
       "高得"
     ],
-    "downloadUrl": "https://easylink.cc/jnezja",
+    "downloadUrl": "https://wwatc.lanzoub.com/iMQYD3e6vope",
     "developer": "北京高德图强科技有限公司",
-    "password": "",
-    "historyVersion": []
+    "password": "5d24",
+    "historyVersion": [
+      {
+        "version": "1.1.0",
+        "code": 1100,
+        "minSdk": 26,
+        "size": "12.97 MB",
+        "downloadUrl": "https://easylink.cc/jnezja",
+        "password": ""
+      }
+    ]
   }
 ]
