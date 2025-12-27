@@ -1,6 +1,6 @@
 /* js/utils.js */
 
-export const DEFAULT_ICON = "./assets/WearStore.png";
+export const DEFAULT_ICON = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzEwYjk4MSI+PHBhdGggZD0iTTE3LjUyIDkuNDhsMS4zOC0yLjM5YS41MS41MSAwIDAgMSAuNzItLjE4LjUxLjUxIDAgMCAxIC4xOC43MmwtMS4zOSAyLjQxQTEwIDEwIDAgMCAxIDIyIDE1djFjMCAxLjQ2LS40IDIuODItMS4xIDRIMUMuMSAyMCAzIDE4LjU0IDMgMTd2LTFhMTAgMTAgMCAwIDEgNC41OS04bC0xLjM5LTIuNDFhLjUyLjUyIDAgMCAxIC45LS41NGwxLjM4IDIuMzlhOS44NiA5Ljg2IDAgMCAxIDkuMDQgMHpNOCAxNWExIDEgMCAxIDAgMCAyIDEgMSAwIDAgMCAwLTJ6bTggMWExIDEgMCAxIDAgMC0yIDEgMSAwIDAgMCAwIDJ6Ii8+PC9zdmc+";
 
 export const apiMap = {
   14: "4.0", 15: "4.0.3", 16: "4.1", 17: "4.2", 18: "4.3",
@@ -30,11 +30,10 @@ export function isAppCompatible(app, userApi) {
 }
 
 export function getBestMatchVersion(app, userApi) {
-  // 1. 提取主版本的链接 (作为后备)
+  // 1. 提取主版本链接/密码
   const mainDownloadUrl = app.downloadUrl || app.realPath || "";
   const mainPassword = app.password || "";
 
-  // 2. 构造所有版本列表
   let allVersions = [
     {
       version: app.version,
@@ -43,7 +42,7 @@ export function getBestMatchVersion(app, userApi) {
       minSdk: parseInt(app.minSdk || 0),
       downloadUrl: mainDownloadUrl,
       password: mainPassword,
-      isRecommended: app.isRecommended === true // 新增：读取推荐标记
+      isRecommended: app.isRecommended === true
     }
   ];
 
@@ -62,27 +61,21 @@ export function getBestMatchVersion(app, userApi) {
         minSdk: parseInt(v.minSdk || 0),
         downloadUrl: vUrl,
         password: vPwd,
-        isRecommended: v.isRecommended === true // 新增：读取推荐标记
+        isRecommended: v.isRecommended === true
       });
     });
   }
 
   if (!userApi || userApi === 0) return allVersions[0];
 
-  // 3. 筛选出兼容的版本
   const compatibleVersions = allVersions.filter(v => userApi >= v.minSdk);
 
   if (compatibleVersions.length === 0) return null;
 
-  // 4. 核心修改：排序逻辑
-  // 优先级：推荐版本 > 版本号大 > 版本号小
+  // 排序：推荐优先 > code 大优先
   compatibleVersions.sort((a, b) => {
-    // 如果 a 是推荐的，b 不是，a 排前面 (-1)
     if (a.isRecommended && !b.isRecommended) return -1;
-    // 如果 b 是推荐的，a 不是，b 排前面 (1)
     if (!a.isRecommended && b.isRecommended) return 1;
-
-    // 如果都没推荐，或者都推荐了，则按 Code 倒序 (新版在前)
     return b.code - a.code;
   });
 

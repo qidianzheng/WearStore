@@ -1,3 +1,4 @@
+/* css/variables.css */
 :root {
   /* 基础尺寸与布局变量 */
   --gap-size: 12px;
@@ -10,6 +11,7 @@
 :root,
 [data-theme="light"] {
   color-scheme: light;
+  /* 强制浏览器使用浅色控件 */
 
   --primary-color: #059669;
   --primary-hover: #047857;
@@ -53,6 +55,7 @@
 /* 深色主题 */
 [data-theme="dark"] {
   color-scheme: dark;
+  /* 强制浏览器使用深色控件 */
 
   --primary-color: #10b981;
   --primary-hover: #34d399;

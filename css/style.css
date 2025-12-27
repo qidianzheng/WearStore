@@ -3,7 +3,6 @@
 /* =========================================
    1. 字体与图标配置
    ========================================= */
-/* 图标字体 (本地加载) */
 @font-face {
   font-family: 'Material Symbols Rounded';
   font-style: normal;
@@ -11,7 +10,6 @@
   src: url('../assets/fonts/MaterialSymbolsRounded.woff2') format('woff2');
 }
 
-/* 图标通用类 */
 .material-symbols-rounded {
   font-family: 'Material Symbols Rounded';
   font-weight: normal;
@@ -34,7 +32,6 @@
   user-select: none;
 }
 
-/* 颜色辅助类 */
 .color-primary {
   color: var(--primary-color);
 }
@@ -91,11 +88,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* 移除 MiSans，使用系统默认字体栈 */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   -webkit-tap-highlight-color: transparent;
-  /* 强制正常字重 */
   font-weight: 400;
+  /* 强制正常字重 */
 }
 
 body {
@@ -196,6 +192,12 @@ body {
   transition: opacity 0.2s;
 }
 
+.search-btn-icon:hover {
+  opacity: 1;
+  color: var(--primary-color);
+}
+
+/* 清除按钮 */
 .clear-btn-icon {
   position: absolute;
   right: 40px;
@@ -209,9 +211,9 @@ body {
   z-index: 2;
 }
 
-.search-btn-icon:hover {
+.clear-btn-icon:hover {
   opacity: 1;
-  color: var(--primary-color);
+  color: var(--warning-text);
 }
 
 .menu-btn {
@@ -367,6 +369,7 @@ body {
 
 .cards-grid {
   display: grid;
+  /* 调整为 270px 确保能放下4列 */
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   gap: var(--gap-size);
 }
@@ -444,7 +447,7 @@ body {
   margin-bottom: 20px;
   animation: fadeIn 0.3s ease;
   box-shadow: none;
-  /* 扁平化，去除阴影 */
+  /* 扁平化 */
 }
 
 @keyframes fadeIn {
@@ -511,7 +514,7 @@ body {
 }
 
 /* =========================================
-   6. 模态框 (Modal) 通用框架 (全屏版)
+   6. 模态框 (Modal) 通用框架 (动画修复版)
    ========================================= */
 
 .modal-overlay {
@@ -522,16 +525,17 @@ body {
   align-items: flex-start;
   justify-content: center;
   z-index: 1000;
+
+  /* 关闭状态 */
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.25s ease-in-out;
+  pointer-events: none;
+
+  /* 关键：分步过渡 */
+  transition: opacity 0.3s ease, visibility 0.3s step-end;
+
   padding: 0 !important;
   margin: 0 !important;
-}
-
-.modal-overlay.active {
-  opacity: 1;
-  visibility: visible;
 }
 
 /* 模态框本体 */
@@ -550,8 +554,34 @@ body {
   box-shadow: none;
   margin: 0 !important;
   padding: 0 !important;
+
+  /* 关闭状态：缩小 */
+  transform: scale(0.96);
+  opacity: 0;
+
+  transition: transform 0.3s cubic-bezier(0.3, 0, 0, 1), opacity 0.2s ease;
+}
+
+/* 激活状态 */
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+
+  transition: opacity 0.3s ease, visibility 0s step-start;
+}
+
+.modal-overlay.active .modal {
+  transform: scale(1);
+  opacity: 1;
+
+  transition: transform 0.3s cubic-bezier(0.1, 0.9, 0.2, 1), opacity 0.3s ease;
+}
+
+/* 冻结内部动画 (防止关闭闪烁) */
+.modal-overlay:not(.active) * {
   transition: none !important;
-  transform: none !important;
+  pointer-events: none !important;
 }
 
 .menu-modal-layout,
@@ -565,10 +595,9 @@ body {
   padding: 0;
 }
 
-/* PC端对齐核心逻辑 */
+/* PC端对齐逻辑 */
 @media (min-width: 1280px) {
 
-  /* 头部区域 */
   .modal-new-header,
   .window-header,
   .menu-header {
@@ -576,13 +605,11 @@ body {
     padding-right: calc((100% - 1280px) / 2 + 20px) !important;
   }
 
-  /* 操作栏 */
   .modal-action-bar {
     padding-left: calc((100% - 1280px) / 2 + 20px) !important;
     padding-right: calc((100% - 1280px) / 2 + 20px) !important;
   }
 
-  /* 滚动内容区域 */
   .modal-content,
   .dev-content,
   .menu-content {
@@ -634,7 +661,6 @@ body {
   margin: 0 !important;
   border-radius: 0 !important;
 
-  /* 修复菜单标题居中问题 */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -666,19 +692,16 @@ body {
   margin-bottom: 6px;
 }
 
-/* 开发者名称容器 */
 .modal-new-dev {
   font-size: 1rem;
   color: var(--text-secondary);
-  /* 内部包含 author-link */
 }
 
-/* 新增：作者链接样式 */
 .author-link {
   color: var(--primary-color);
   cursor: pointer;
   font-weight: 600;
-  transition: opacity 0.2s;
+  transition: opacity 0.25s;
   text-decoration: none;
 }
 
@@ -836,7 +859,6 @@ body {
   flex-direction: column;
   gap: 4px;
   cursor: pointer;
-  /* 增加小手 */
 }
 
 .recommend-title {
@@ -906,10 +928,11 @@ body {
 }
 
 .detail-value {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--text-main);
   word-break: break-all;
+  line-height: 1.4;
 }
 
 /* 推荐标签 */
@@ -976,6 +999,8 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  margin-top: -15px;
+  /* 修正位置 */
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -1020,29 +1045,13 @@ body {
 /* =========================================
    8. 菜单弹窗特有样式
    ========================================= */
-/* 修复：强制标题居中，关闭按钮右侧绝对定位 */
-.menu-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-
-  padding: 25px 20px 15px 20px;
-  background: var(--modal-bg);
-  border-bottom: 1px solid var(--border-color);
-  color: var(--text-main);
-  font-size: 1.3rem;
-  font-weight: 700;
-  width: 100%;
-}
-
 .menu-header-close-btn {
   position: absolute;
   right: 20px;
   top: 50%;
   transform: translateY(-50%);
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .menu-content {
@@ -1162,13 +1171,24 @@ body {
   justify-content: center;
   position: relative;
 
-  padding: 25px 20px 15px 20px;
-  background: var(--primary-color);
-  color: white;
-  text-align: center;
-  font-size: 1.2rem;
-  font-weight: 700;
+  /* 布局与留白 */
   width: 100%;
+  padding: 25px 20px 15px 20px;
+  box-sizing: border-box;
+  max-width: none !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+
+  /* 🔥 核心修复：强制加上颜色 */
+  background: var(--primary-color) !important;
+  /* 绿色背景 */
+  color: white !important;
+  /* 白色文字 */
+
+  /* 确保在内容之上 */
+  z-index: 2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* 加一点投影，更有层次感 */
 }
 
 .header-close-img {
@@ -1182,7 +1202,6 @@ body {
 
 .header-close-img:hover {
   opacity: 1;
-  color: white;
 }
 
 .dev-content {
@@ -1191,6 +1210,8 @@ body {
   background: var(--input-bg);
   flex-grow: 1;
   box-sizing: border-box;
+  width: 100%;
+  /* 确保填满 */
 }
 
 /* =========================================
@@ -1325,21 +1346,77 @@ img.image-error::after {
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
 }
 
-/* 当模态框正在关闭时 (即没有 active 类，但还在 DOM 中) */
-.modal-overlay:not(.active) * {
-  /* 1. 强制禁止所有子元素产生任何动画 */
-  transition: none !important;
-  /* 2. 强制禁止鼠标交互，防止二次点击 */
-  pointer-events: none !important;
+/* =========================================
+   13. 全局消息提示 (Toast)
+   ========================================= */
+.toast-container {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2100;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  pointer-events: none;
 }
 
-/* 确保遮罩层本身的淡出动画不受影响 */
-.modal-overlay {
-  /* 这里的 opacity 动画必须保留，这是唯一的动画 */
-  transition: opacity 0.25s ease-out !important;
+.toast {
+  background: var(--modal-bg);
+  border: 1px solid var(--primary-color);
+  color: var(--text-main);
+  padding: 10px 16px;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 180px;
+  max-width: 90vw;
+  pointer-events: auto;
+
+  animation: toastSlideDown 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: opacity 0.3s, transform 0.3s;
 }
 
-/* 优化：让遮罩层背景色稍微深一点，遮盖底下的内容，减少视觉干扰 */
-.modal-overlay {
-  background: var(--modal-bg) !important;
+.toast-icon {
+  color: var(--primary-color);
+  font-size: 22px;
+}
+
+.toast-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  flex-grow: 1;
+  white-space: nowrap;
+}
+
+.toast-close {
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-size: 18px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  display: flex;
+}
+
+.toast-close:hover {
+  opacity: 1;
+}
+
+.toast.hiding {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+@keyframes toastSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

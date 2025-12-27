@@ -22,10 +22,9 @@
       "硬件检测",
       "系统信息",
       "传感器",
-      "监控",
-      "diagnostics",
-      "检测",
-      "处理器"
+      "处理器",
+      "电池",
+      "内存"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iNHrM3d57khg",
     "password": "brma",
@@ -56,7 +55,8 @@
       "海拔",
       "风暴预警",
       "户外工具",
-      "qiyaji"
+      "haibaqiyaji",
+      "海拔气压计"
     ],
     "downloadUrl": "https://easylink.cc/dk5u6b",
     "password": "",
@@ -88,7 +88,8 @@
       "海拔",
       "风暴预警",
       "户外工具",
-      "qiyaji"
+      "haibaqiyaji",
+      "海拔气压计"
     ],
     "downloadUrl": "https://easylink.cc/3vl723",
     "password": "",
@@ -101,10 +102,10 @@
     "id": 2450138162,
     "name": "AnExplorer",
     "package": "dev.dworks.apps.anexplorer",
-    "version": "5.8.9",
-    "code": 58902,
+    "version": "5.9.2",
+    "code": 59202,
     "minSdk": 25,
-    "size": "24.37 MB",
+    "size": "47.46 MB",
     "icon": "assets/images/anexplorer/anexplorer_icon.webp",
     "screenshots": [
       "assets/images/anexplorer/anexplorer_1.webp",
@@ -114,25 +115,32 @@
       "assets/images/anexplorer/anexplorer_5.webp"
     ],
     "addedTime": 1764730656931,
-    "updateTime": "2025-12-11",
+    "updateTime": "2025-12-27",
     "description": "AnExplorer是一款采用Material You设计的全能文件管理器。它不仅能在手机、平板本地高效管理文件，更独具匠心地支持直接管理您的手表（Wear OS）、电视（Android TV）、汽车（Android Auto）乃至VR设备上的存储，并通过Wi-Fi、网络存储和云服务实现无缝的跨设备文件传输与同步，是管理所有Android生态设备的统一文件管理中心。",
     "category": "系统工具",
     "keywords": [
       "文件管理器",
-      "Material You",
       "跨设备管理",
-      "WearOS",
-      "电视盒子",
       "WiFi快传",
       "网络存储",
       "explorer",
       "file manager",
-      "AnXplorer"
+      "视频",
+      "音乐"
     ],
-    "downloadUrl": "https://wwatc.lanzoub.com/iWwBr3d51a3g",
-    "password": "8rgu",
+    "downloadUrl": "https://wwatc.lanzoub.com/iA91P3eo500h",
+    "password": "gvcb",
     "developer": "DWorkS",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "5.8.9",
+        "code": 58902,
+        "minSdk": 25,
+        "size": "24.37 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/iWwBr3d51a3g",
+        "password": "8rgu"
+      }
+    ]
   },
   {
     "id": 2071024316,
@@ -159,8 +167,7 @@
       "治愈",
       "萌宠",
       "收藏",
-      "chongwu",
-      "zhiyu"
+      "chongwu"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iCrsE3djyjcb",
     "password": "29nb",
@@ -194,8 +201,7 @@
       "温度监控",
       "传感器数据",
       "应用管理",
-      "device info",
-      "jiankong gongju"
+      "device info"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iZFaN3dv7zvg",
     "password": "bvar",
@@ -225,8 +231,6 @@
       "科学计算器",
       "进制转换",
       "历史记录",
-      "Wear OS",
-      "手表计算器",
       "scientific calculator",
       "jisuanqi"
     ],
@@ -286,8 +290,6 @@
       "运动控制",
       "放松解压",
       "聚会游戏",
-      "wear os game",
-      "tigan youxi",
       "空气手枪"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iZQID3di4iif",
@@ -318,8 +320,7 @@
       "模仿苹果",
       "Apple Watch风格",
       "launcher",
-      "qidongqi",
-      "界面美化"
+      "qidongqi"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iaXI13djzaof",
     "password": "hxz3",
@@ -351,13 +352,9 @@
       "输入法",
       "滑行输入",
       "语音输入",
-      "手写",
       "Google翻译",
-      "GIF搜索",
       "多语言",
-      "Gboard",
-      "google keyboard",
-      "jianguo shurufa"
+      "google keyboard"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iU8wu3dd84fc",
     "password": "36ap",
@@ -423,14 +420,10 @@
     "description": "一款适用于Android及Wear OS的开源屏幕录像机，支持自定义录制参数、同步录制麦克风音频，并提供Wi-Fi分享、视频管理等功能，满足从创作到分享的录制需求。",
     "category": "系统工具",
     "keywords": [
-      "屏幕录制",
-      "录像机",
       "麦克风录音",
-      "开源应用",
       "WiFi分享",
       "视频管理",
-      "screen recorder",
-      "kaifang luiping"
+      "screen recorder"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/isqOv3dw4u6j",
     "password": "4nr4",
@@ -469,7 +462,6 @@
       "burn",
       "奖牌",
       "帕梅拉",
-      "kepp",
       "锻炼"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/igwLU3d5b0kd",
@@ -496,9 +488,7 @@
     "category": "系统工具",
     "keywords": [
       "3D启动器",
-      "立体桌面",
       "自定义布局",
-      "手势交互",
       "图标管理",
       "launcher",
       "3D shijue",
@@ -534,7 +524,10 @@
       "自定义表盘",
       "轻量桌面",
       "zidingyi biaopan",
-      "qidongqi"
+      "qidongqi",
+      "线性视图",
+      "宫格视图",
+      "气泡视图"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/icN1m3djzayf",
     "password": "eeh7",
@@ -564,14 +557,9 @@
     "keywords": [
       "微软邮箱",
       "电子邮件",
-      "日历",
       "办公",
-      "重点收件箱",
-      "Exchange",
       "Gmail",
-      "outlook",
-      "microsoft",
-      "youtuke"
+      "email"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iag5l3dd8kad",
     "password": "cy3b",
@@ -599,8 +587,7 @@
       "手表浏览器",
       "网页浏览",
       "独立上网",
-      "搜索",
-      "WearOS浏览器",
+      "搜索引擎",
       "liulanqi"
     ],
     "downloadUrl": "https://www.123865.com/s/MGfbTd-1FFa3",
@@ -668,10 +655,7 @@
       "跨设备",
       "扫码快传",
       "WiFi互传",
-      "安装包",
-      "文件管理",
-      "kuaisu chuanshu",
-      "shebei hubu"
+      "文件管理"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iiP0k3dv81if",
     "password": "4c3h",
@@ -755,7 +739,8 @@
       "周杰伦",
       "jay",
       "mp3",
-      "listen"
+      "listen",
+      "qqyinyue"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iNKsg3d5apda",
     "password": "burx",
@@ -806,7 +791,8 @@
       "看视频",
       "bilibili",
       "第三方b站",
-      "自定义首页"
+      "自定义首页",
+      "听视频"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iGtvf3d5asyj",
     "password": "g5fp",
@@ -836,8 +822,7 @@
       "快速记录",
       "表盘磁贴",
       "密码备忘",
-      "biji",
-      "suiji beiwang"
+      "biji"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ix93o3dw8ioj",
     "password": "eruj",
@@ -895,13 +880,8 @@
     "category": "系统工具",
     "keywords": [
       "蜂窝启动器",
-      "流畅动画",
-      "省电优化",
-      "完整显示",
-      "桌面管理",
-      "honeycomb launcher",
-      "liuchang donghua",
-      "zhuomian youhua"
+      "tqidong",
+      "apple watch"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iuTtV3dv81uh",
     "password": "c5uj",
@@ -932,31 +912,12 @@
       "听写",
       "实时转写",
       "语音输入",
-      "speech to text",
-      "yuyin biji",
-      "yuyin shuru"
+      "speech to text"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i36ni3e6ussf",
     "password": "66u4",
     "developer": "Yuri Khramov",
-    "historyVersion": [
-      {
-        "version": "1.1.3",
-        "code": 393,
-        "minSdk": 28,
-        "size": "0.99 MB",
-        "downloadUrl": "",
-        "password": ""
-      },
-      {
-        "version": "1.1.2",
-        "code": 382,
-        "minSdk": 28,
-        "size": "0.97 MB",
-        "downloadUrl": "",
-        "password": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 376759802,
@@ -980,7 +941,6 @@
       "手表鼠标",
       "空中鼠标",
       "遥控",
-      "ppt",
       "蓝牙",
       "远程控制"
     ],
@@ -1022,9 +982,7 @@
       "手表鼠标",
       "空中鼠标",
       "遥控",
-      "ppt",
       "蓝牙",
-      "wear mouse",
       "远程控制"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iWOTl3d57luf",
@@ -1059,7 +1017,7 @@
       "habit",
       "focus",
       "小日常",
-      "uu日常",
+      "yoyorichang",
       "治愈"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/izc6T3d5atef",
@@ -1085,13 +1043,8 @@
     "category": "表盘美化",
     "keywords": [
       "表盘",
-      "自定义表盘",
-      "息屏显示",
       "简约风格",
-      "仿制表盘",
-      "watch face",
-      "biaopan",
-      "xiping sheji"
+      "biaopan"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i0UOt3e6utzi",
     "password": "7a06",
@@ -1133,9 +1086,9 @@
       "FTP传输",
       "手机互传",
       "多媒体查看",
-      "wear os文件",
       "file manager",
-      "wenjian guanli"
+      "wenjian guanli",
+      "wanwenguanli"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i0umj3dw8a9g",
     "password": "1z8d",
@@ -1162,7 +1115,11 @@
     "keywords": [
       "血压",
       "睡眠呼吸暂停",
-      "心电图"
+      "心电图",
+      "samsung health monitor",
+      "shm mod",
+      "samsung",
+      "dante63"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/io0Z03d9d6mh",
     "password": "an9q",
@@ -1194,7 +1151,10 @@
       "网页浏览",
       "上网",
       "browser",
-      "腕上冲浪"
+      "腕上冲浪",
+      "samsung",
+      "samsung internet",
+      "sanxingliulanqi"
     ],
     "downloadUrl": "https://www.123865.com/s/MGfbTd-jMFa3",
     "password": "",
@@ -1263,12 +1223,11 @@
     "keywords": [
       "背单词",
       "英语学习",
-      "刷题",
       "词书",
       "离线",
       "study",
-      "单词",
-      "学习"
+      "hankemi",
+      "kemikuxue"
     ],
     "downloadUrl": "https://easylink.cc/vvr6ur",
     "password": "",
@@ -1300,7 +1259,8 @@
       "手势控制",
       "缩放平移",
       "本地视频",
-      "player"
+      "player",
+      "liangwanbofangqi"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i5w673d5at2d",
     "password": "6xw5",
@@ -1332,7 +1292,8 @@
       "评书",
       "fm",
       "radio",
-      "audio"
+      "audio",
+      "fenghuangfm"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iicjA3d5aqkd",
     "password": "c6d3",
@@ -1361,11 +1322,8 @@
       "热点",
       "军事",
       "财经",
-      "ifeng",
       "news",
-      "香港",
-      "卫视",
-      "风凰"
+      "fenghuangxinwen"
     ],
     "downloadUrl": "https://easylink.cc/hixgxr",
     "password": "",
@@ -1397,10 +1355,10 @@
       "音效",
       "视频彩铃",
       "一起听",
-      "演唱会直播",
       "migu music",
       "yinyue bofang",
-      "gequ"
+      "gequ",
+      "miguyinyue"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i50Aw3e6uv2h",
     "password": "gn6y",
@@ -1433,7 +1391,8 @@
       "弹幕",
       "看视频",
       "bilibili",
-      "第三方b站"
+      "第三方b站",
+      "bilizhongduan"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ilP1j3d5aqpi",
     "password": "434f",
@@ -1465,8 +1424,7 @@
       "课程",
       "播客",
       "相声",
-      "ximalaya",
-      "喜马"
+      "ximalaya"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iRKpf3d5aqcf",
     "password": "2n82",
@@ -1524,21 +1482,12 @@
       "目标打卡",
       "健康助手",
       "drink water",
-      "yinshui tixing"
+      "heshuitixing"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iO2Z53dv8bhe",
     "password": "9nns",
     "developer": "广东欢太科技有限公司",
-    "historyVersion": [
-      {
-        "version": "1.0.0",
-        "code": 10000,
-        "minSdk": 27,
-        "size": "2.04 MB",
-        "downloadUrl": "",
-        "password": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 915603875,
@@ -1563,7 +1512,8 @@
       "健康提醒",
       "noise monitor",
       "zaoyin jiance",
-      "jiankang"
+      "jiankang",
+      "zaoyin"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iPbVC3e6upod",
     "password": "d84k",
@@ -1595,7 +1545,8 @@
       "空气质量",
       "温度",
       "weather",
-      "天气应用"
+      "天气应用",
+      "mojitianqi"
     ],
     "downloadUrl": "https://easylink.cc/j59tys",
     "password": "",
@@ -1680,7 +1631,8 @@
       "探店",
       "必吃榜",
       "food",
-      "meishi"
+      "meishi",
+      "dazhongdianping"
     ],
     "downloadUrl": "https://easylink.cc/fc64n5",
     "password": "",
@@ -1708,12 +1660,10 @@
     "category": "效率办公",
     "keywords": [
       "录音",
-      "语音备忘录",
       "录音管理",
       "云端同步",
       "voice recorder",
-      "luyin",
-      "luyin gongju"
+      "luyin"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iih1r3e6uswj",
     "password": "74np",
@@ -1744,7 +1694,8 @@
       "聊天",
       "支付",
       "wechat",
-      "即时通讯"
+      "即时通讯",
+      "weixin"
     ],
     "downloadUrl": "https://easylink.cc/7ao5nq",
     "password": "",
@@ -1775,9 +1726,10 @@
       "天气趋势",
       "空气质量",
       "简洁设计",
-      "weather app",
+      "weather",
       "tianqi yubao",
-      "jianjie tianqi"
+      "jianjie tianqi",
+      "weifengtianqi"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iJO353e6uora",
     "password": "a79d",
@@ -1811,7 +1763,8 @@
       "腾讯音乐",
       "audiobook",
       "tingshu",
-      "yousheng shuji"
+      "yousheng shuji",
+      "lanrentingshu"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iU5Yq3eca0yj",
     "password": "bjaq",
@@ -1869,7 +1822,8 @@
         "minSdk": 24,
         "size": "19.02 MB",
         "downloadUrl": "https://wwatc.lanzoub.com/iDz973dgee0b",
-        "password": "7jva"
+        "password": "7jva",
+        "isRecommended": true
       }
     ]
   },
@@ -1891,10 +1845,11 @@
     "description": "支付宝官方手表应用，支持出示付款码、乘车码进行支付与出行，并可查看账单，让移动支付体验更加便捷。",
     "category": "生活服务",
     "keywords": [
-      "扫码",
       "出行",
       "alipay",
-      "移动支付"
+      "移动支付",
+      "zhifubao",
+      "乘车码"
     ],
     "downloadUrl": "https://easylink.cc/7wnafx",
     "password": "",
@@ -1918,7 +1873,7 @@
     ],
     "addedTime": 1765876653288,
     "updateTime": "2025-12-18",
-    "description": "一款专为Wear OS设计的现代化笔记应用，支持文本编辑、隐私加密、与手机双向同步及丰富的个性化显示设置，是腕上高效的随身记录工具。",
+    "description": "一款专为手表设计的现代化笔记应用，支持文本编辑、隐私加密、与手机双向同步及丰富的个性化显示设置，是腕上高效的随身记录工具。",
     "category": "效率办公",
     "keywords": [
       "笔记应用",
@@ -2003,7 +1958,7 @@
       "schedule",
       "计划",
       "提醒",
-      "嘀嗒"
+      "didaqingdan"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iDHpL3d59xze",
     "password": "g3jq",
@@ -2031,12 +1986,12 @@
     "category": "生活服务",
     "keywords": [
       "天气预报",
-      "桌面小部件",
       "空气质量",
       "PM2.5",
       "自动定位",
       "weather",
-      "tianqi"
+      "tianqi",
+      "hupo"
     ],
     "downloadUrl": "https://easylink.cc/7s3n9b",
     "password": "",
@@ -2108,21 +2063,13 @@
       "map",
       "ditu",
       "摆渡",
-      "街景"
+      "街景",
+      "baidu"
     ],
     "downloadUrl": "https://easylink.cc/9q8ibn",
     "password": "",
     "developer": "北京百度网讯科技有限公司",
-    "historyVersion": [
-      {
-        "version": "1.3.9",
-        "code": 15,
-        "minSdk": 24,
-        "size": "46.45 MB",
-        "downloadUrl": "",
-        "password": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 3406633228,
@@ -2141,7 +2088,11 @@
     "updateTime": "2025-12-12",
     "description": "百度输入法针对智能手表优化的版本，支持语音、手写、拼音等多种输入方式，并内置智能助手与表情，提升小屏输入效率。",
     "category": "效率办公",
-    "keywords": "",
+    "keywords": [
+      "baidu",
+      "手写",
+      "语音输入"
+    ],
     "downloadUrl": "https://wwatc.lanzoub.com/iWCbv3d9efbg",
     "password": "4uav",
     "developer": "百度在线网络技术（北京）有限公司",
@@ -2172,7 +2123,8 @@
       "会议记录",
       "语音备忘录",
       "recorder",
-      "录音笔"
+      "录音笔",
+      "easy voice recorder"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iWLAw3d5a4md",
     "password": "czci",
@@ -2204,7 +2156,9 @@
       "手表控制",
       "智能设备",
       "智能家居",
-      "米家手表版"
+      "米家手表版",
+      "miwu",
+      "米居"
     ],
     "downloadUrl": "https://easylink.cc/5q1aej",
     "password": "",
@@ -2237,7 +2191,8 @@
       "推荐",
       "歌单",
       "163",
-      "网抑云"
+      "网抑云",
+      "wangyiyun"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i3UIr3d5apuh",
     "password": "51yi",
@@ -2270,7 +2225,8 @@
       "弹幕",
       "看视频",
       "bilibili",
-      "第三方b站"
+      "第三方b站",
+      "wanshangbili"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ikEyL3d5aqzi",
     "password": "hvnk",
@@ -2304,7 +2260,8 @@
       "阅读器",
       "txt",
       "看书",
-      "电子书"
+      "电子书",
+      "xiaozhitiao"
     ],
     "downloadUrl": "https://easylink.cc/4y9av6",
     "password": "",
@@ -2336,7 +2293,7 @@
       "b站",
       "联动",
       "bilibili",
-      "腕上"
+      "腕上哔哩"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i6iRe3d5at8j",
     "password": "b4p8",
@@ -2400,45 +2357,13 @@
       "通义千问",
       "deepseek",
       "豆包",
-      "ai"
+      "ai",
+      "wannengjingling"
     ],
     "downloadUrl": "https://easylink.cc/n369sd",
     "password": "",
     "developer": "Chongqing Nurl Technology Co., Ltd.,",
-    "historyVersion": [
-      {
-        "version": "1.4.1",
-        "code": 2038,
-        "minSdk": 23,
-        "size": "40.46 MB",
-        "downloadUrl": "",
-        "password": ""
-      },
-      {
-        "version": "1.3.9",
-        "code": 2036,
-        "minSdk": 23,
-        "size": "40.43 MB",
-        "downloadUrl": "",
-        "password": ""
-      },
-      {
-        "version": "1.3.8",
-        "code": 2033,
-        "minSdk": 23,
-        "size": "40.32 MB",
-        "downloadUrl": "",
-        "password": ""
-      },
-      {
-        "version": "1.3.6",
-        "code": 2029,
-        "minSdk": 23,
-        "size": "39.83 MB",
-        "downloadUrl": "",
-        "password": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 2451868623,
@@ -2495,29 +2420,13 @@
       "查词",
       "多语言",
       "translate",
-      "在线翻译"
+      "在线翻译",
+      "fanyi"
     ],
     "downloadUrl": "https://easylink.cc/qgdzvd",
     "password": "",
     "developer": "gohj99",
-    "historyVersion": [
-      {
-        "version": "2.0-cn",
-        "code": 11,
-        "minSdk": 26,
-        "size": "14.49 MB",
-        "downloadUrl": "",
-        "password": ""
-      },
-      {
-        "version": "1.2-cn",
-        "code": 3,
-        "minSdk": 28,
-        "size": "13.02 MB",
-        "downloadUrl": "",
-        "password": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 1383817928,
@@ -2546,21 +2455,13 @@
       "学习",
       "赏析",
       "古诗词",
-      "诗词库"
+      "诗词库",
+      "xichuangzhu"
     ],
     "downloadUrl": "https://easylink.cc/lc8g37",
     "password": "",
     "developer": "北京西窗文化传媒有限公司",
-    "historyVersion": [
-      {
-        "version": "1.2",
-        "code": 102,
-        "minSdk": 24,
-        "size": "5.56 MB",
-        "downloadUrl": "",
-        "password": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 880898319,
@@ -2587,21 +2488,13 @@
       "手写",
       "语音转文字",
       "ifly",
-      "一分钟400字"
+      "一分钟400字",
+      "xunfei"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ivYxK3d5a48j",
     "password": "7ik1",
     "developer": "合肥科讯创想软件开发有限公司",
-    "historyVersion": [
-      {
-        "version": "9.0.9133",
-        "code": 9133,
-        "minSdk": 19,
-        "size": "12.00 MB",
-        "downloadUrl": "",
-        "password": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 3766972943,
@@ -2630,7 +2523,7 @@
       "隐私保护",
       "cloud notes",
       "biji",
-      "yunduan tongbu"
+      "qiyuanyun"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iYeys3e6ut4h",
     "password": "du52",
@@ -2705,30 +2598,15 @@
     "description": "酷狗音乐推出的年轻化、社交化版本。主打清爽简约的无广告体验和创新的 “一起听”、“音乐社区” 等社交功能，通过个性化的视觉皮肤，为年轻用户打造与众不同的音乐空间。",
     "category": "影音娱乐",
     "keywords": [
-      "概念",
       "lite",
-      "社交",
-      "一起听",
-      "皮肤",
       "清爽",
-      "无广告",
-      "简约",
-      "hello",
-      "酷苟"
+      "kugou",
+      "music"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iHq0M3d5ax8d",
     "password": "h4cs",
     "developer": "广州酷狗计算机科技有限公司",
-    "historyVersion": [
-      {
-        "version": "2.3.52",
-        "code": 10233,
-        "minSdk": 19,
-        "size": "11.07 MB",
-        "downloadUrl": "",
-        "password": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 1672401475,
@@ -2755,7 +2633,8 @@
       "纯粹",
       "bill",
       "记账软件",
-      "消费统计"
+      "消费统计",
+      "qianji"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iTZWj3d59z5g",
     "password": "3jjt",
@@ -2798,21 +2677,13 @@
       "雅思",
       "词汇",
       "english",
-      "背单词"
+      "背单词",
+      "ruiduyingyu"
     ],
     "downloadUrl": "https://easylink.cc/xwx311",
     "password": "",
     "developer": "Chongqing Nurl Technology Co., Ltd.,",
-    "historyVersion": [
-      {
-        "version": "1.0.0",
-        "code": 1,
-        "minSdk": 23,
-        "size": "35.10 MB",
-        "downloadUrl": "",
-        "password": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 3424507333,
@@ -2840,7 +2711,8 @@
       "歌词",
       "蓝牙控制",
       "music player",
-      "听歌"
+      "听歌",
+      "zeromusic"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/itEDB3d5atcd",
     "password": "7nsw",
@@ -2876,7 +2748,7 @@
       "志玲",
       "出行",
       "map",
-      "高得"
+      "gaode"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iMQYD3e6vope",
     "password": "5d24",

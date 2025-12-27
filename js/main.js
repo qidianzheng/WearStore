@@ -69,30 +69,26 @@ function initFuse() {
   fuse = new Fuse(allApps, options);
 }
 
-// 🔥 新增：通用关闭辅助函数 (修复滚动条失效的核心)
 function closeStaticModal(modalElement) {
   modalElement.classList.remove('active');
-
-  // 延迟 250ms 等动画结束 (与 CSS 保持一致)
   setTimeout(() => {
-    // 检查页面上是否还有其他激活的弹窗
     const activeModals = document.querySelectorAll('.modal-overlay.active');
     if (activeModals.length === 0) {
-      // 只有当所有弹窗都关了，才恢复滚动
       document.body.style.overflow = '';
     }
-  }, 250);
+  }, 300);
 }
 
 function bindEvents() {
-  // 1. 搜索
   elements.searchBtn.onclick = performSearch;
+
   elements.searchInput.onkeyup = (e) => {
     if (e.key === 'Enter') {
       elements.searchSuggestions.classList.remove('active');
       performSearch();
     }
   };
+
   elements.searchInput.addEventListener('input', (e) => {
     const val = e.target.value;
     if (val.trim().length > 0) {
@@ -103,9 +99,11 @@ function bindEvents() {
     }
     showSuggestions(val.trim());
   });
+
   elements.searchInput.addEventListener('focus', (e) => {
     if (e.target.value.trim() !== '') showSuggestions(e.target.value.trim());
   });
+
   if (elements.clearSearchBtn) {
     elements.clearSearchBtn.onclick = (e) => {
       e.preventDefault();
@@ -116,26 +114,26 @@ function bindEvents() {
       renderRandomHome();
     };
   }
+
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.search-container')) {
       elements.searchSuggestions.classList.remove('active');
     }
   });
 
-  // 2. 菜单 (修复逻辑)
   elements.menuBtn.onclick = () => {
     updateVersionTextInMenu();
     elements.menuModal.classList.add('active');
     elements.menuModal.style.zIndex = ++globalZIndex;
-    document.body.style.overflow = 'hidden'; // 打开时锁死
+    document.body.style.overflow = 'hidden';
   };
-  // 关闭时使用通用函数
   elements.closeMenuModal.onclick = () => closeStaticModal(elements.menuModal);
   elements.menuModal.onclick = (e) => {
     if (e.target === elements.menuModal) closeStaticModal(elements.menuModal);
   };
 
   elements.menuThemeToggle.onclick = toggleTheme;
+
   elements.menuVersionTrigger.onclick = () => {
     elements.welcomeModal.style.zIndex = ++globalZIndex + 10;
     elements.welcomeModal.classList.add('active');
@@ -145,14 +143,11 @@ function bindEvents() {
   elements.newArrivalsBtn.onclick = openNewArrivals;
   elements.recentUpdatesBtn.onclick = openRecentUpdates;
 
-  // 3. 分类窗口 (修复逻辑)
   elements.categoryCloseBtn.onclick = () => closeStaticModal(elements.categoryWindow);
-  // 只有点击遮罩空白处才关闭，防止误触内容
   elements.categoryWindow.onclick = (e) => {
     if (e.target === elements.categoryWindow) closeStaticModal(elements.categoryWindow);
   };
 
-  // 4. 开发者窗口 (修复逻辑)
   window.addEventListener('open-dev-modal', (e) => {
     openDevWindow(e.detail);
   });
@@ -161,7 +156,6 @@ function bindEvents() {
     elements.devModalCloseBtn.onclick = () => closeStaticModal(elements.devModal);
   }
 
-  // 5. 路由
   window.addEventListener('hashchange', checkHashLink);
 }
 
@@ -169,7 +163,7 @@ function openNewArrivals() {
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
   let sorted = [...allApps].filter(a => isAppCompatible(a, userApi));
   sorted.sort((a, b) => (b.addedTime || 0) - (a.addedTime || 0));
-  openCategoryList("最新上架", sorted.slice(0, 16));
+  openCategoryList("最新上架", sorted.slice(0, 15));
 }
 
 function openRecentUpdates() {
@@ -180,7 +174,7 @@ function openRecentUpdates() {
     const dateB = new Date(b.updateTime || 0);
     return dateB - dateA;
   });
-  openCategoryList("最近更新", sorted.slice(0, 16));
+  openCategoryList("最近更新", sorted.slice(0, 15));
 }
 
 function showSuggestions(term) {
@@ -228,30 +222,64 @@ function performSearch() {
 
   if (!term) { renderRandomHome(); return; }
 
+  // 1. Fuse 搜索
   const fuseResults = fuse.search(term);
-  const allMatches = fuseResults.map(r => r.item);
+
+  if (fuseResults.length === 0) {
+    renderCardList([], elements.container);
+    return;
+  }
+
+  // --- 🔥 核心修复：精准命中抢占逻辑 ---
+
+  const topResult = fuseResults[0]; // 拿出匹配度最高的那个
+  const topItem = topResult.item;
+
+  // 如果第一名是不兼容的
+  if (!isAppCompatible(topItem, userApi)) {
+    const appName = topItem.name.toLowerCase();
+    const input = term.toLowerCase();
+
+    // 判断是否为“精准搜索”
+    // 条件：输入内容 和 应用名字 完全一样
+    // (或者你可以放宽一点：input.length / appName.length > 0.9)
+    const isExactMatch = appName === input;
+
+    if (isExactMatch) {
+      // 用户指名道姓要找这个不兼容的软件，
+      // 所以直接显示不兼容提示，忽略后面那些“凑数”的兼容软件
+      renderIncompatibleCard(topItem, elements.container);
+      return; // 🔥 结束函数，不再往下走
+    }
+  }
+  // ------------------------------------
+
+  // 2. 常规逻辑 (泛搜索)
   const compatible = [];
   const incompatible = [];
 
-  allMatches.forEach(app => {
-    if (isAppCompatible(app, userApi)) {
-      compatible.push(app);
+  fuseResults.forEach(result => {
+    if (isAppCompatible(result.item, userApi)) {
+      compatible.push(result.item);
     } else {
-      incompatible.push(app);
+      incompatible.push(result.item);
     }
   });
 
+  // 3. 决策显示
   if (compatible.length > 0) {
+    // 搜 "mouse" 时，WowMouse(不兼容)不是全名匹配，所以没被上面拦截
+    // 这里就会优先显示 WearMouse(兼容)
     renderCardList(compatible, elements.container);
   } else if (incompatible.length > 0) {
-    const bestMatch = incompatible[0];
-    const appName = bestMatch.name;
-
+    // 兜底：如果兼容列表为空，再看剩下的不兼容里有没有匹配度还可以的
+    const bestBadMatch = incompatible[0];
+    const appName = bestBadMatch.name;
     const nameMatchRatio = term.length / appName.length;
     const isLiterallySame = appName.toLowerCase() === term.toLowerCase();
 
     if (isLiterallySame || nameMatchRatio >= 0.4) {
-      renderIncompatibleCard(bestMatch, elements.container);
+      renderIncompatibleCard(bestBadMatch, elements.container);
     } else {
       renderCardList([], elements.container);
     }
@@ -260,23 +288,18 @@ function performSearch() {
   }
 }
 
-// --- 路由核心逻辑：处理浏览器的前进/后退 ---
 function checkHashLink() {
   const hash = window.location.hash;
 
   // 获取当前所有已打开的应用窗口 (按层级排序)
   const activeModals = Array.from(document.querySelectorAll('.modal-overlay.active'))
-    .sort((a, b) => (parseInt(a.style.zIndex) || 0) - (parseInt(b.style.zIndex) || 0));
+    .sort((a, b) => (parseInt(window.getComputedStyle(a).zIndex) || 0) - (parseInt(window.getComputedStyle(b).zIndex) || 0));
 
   const topModal = activeModals.length > 0 ? activeModals[activeModals.length - 1] : null;
 
   // 情况 1: URL 变回了主页 (空 hash)
   if (!hash || hash === '#') {
-    // 如果当前有打开的窗口，说明用户按了返回键 -> 依次关闭所有窗口
     if (activeModals.length > 0) {
-      // 倒序关闭所有应用弹窗 (保留菜单等非应用弹窗的话需要加判断，这里假设全是应用)
-      // 过滤掉 data-package 属性不存在的(比如开发者窗口)，或者全部关闭看你需求
-      // 这里我们选择：只关闭带有 data-package 的应用详情页
       activeModals.forEach(modal => {
         if (modal.hasAttribute('data-package')) {
           modal.classList.remove('active');
@@ -292,37 +315,25 @@ function checkHashLink() {
   if (hash.startsWith('#app=')) {
     const pkgName = hash.split('=')[1];
 
-    // 2.1 检查当前顶层窗口是否已经是这个应用
     if (topModal && topModal.getAttribute('data-package') === pkgName) {
-      return; // 已经是它了，不用动 (防止重复触发)
+      return;
     }
 
-    // 2.2 检查是否是“返回上一层”的操作
-    // 如果当前顶层窗口是 B，但 URL 变成了 A (A在B底下)
-    // 那么我们需要关闭 B，露出 A
     if (activeModals.length > 1) {
       const previousModal = activeModals[activeModals.length - 2];
       if (previousModal && previousModal.getAttribute('data-package') === pkgName) {
-        // 用户按了返回键，回到了上一层应用
-        // 关闭顶层 (B)
+        // 返回上一层
         topModal.classList.remove('active');
         setTimeout(() => topModal.remove(), 300);
         return;
       }
     }
 
-    // 2.3 如果既不是当前，也不是上一层，说明是“新打开”或者“深层链接”
-    // 检查 DOM 里是否已经有这个包名的窗口 (在堆叠的下层)
     const existingInStack = document.querySelector(`.modal-overlay[data-package="${pkgName}"]`);
-
     if (existingInStack) {
-      // 如果它已经在堆叠里了，但不是最顶层（极其罕见的情况），
-      // 这里通常不需要做特殊处理，或者可以把它提上来。
-      // 简单处理：不做操作，等待用户继续返回。
       return;
     }
 
-    // 2.4 如果 DOM 里完全没有，说明是全新打开 (比如刷新页面、分享链接进入)
     const target = allApps.find(a => a.package === pkgName);
     if (target) {
       renderAppModal(target);
@@ -389,16 +400,17 @@ function openCategoryList(title, appList) {
   elements.categoryWindowTitle.textContent = title;
   renderCardList(appList, elements.categoryAppsContainer);
 
-  // 打开时也计算最大层级
+  // 计算最大层级
   let maxZ = 1300;
-  document.querySelectorAll('.modal-overlay').forEach(el => {
+  const allOverlays = document.querySelectorAll('.modal-overlay');
+  allOverlays.forEach(el => {
     const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
     if (z > maxZ) maxZ = z;
   });
 
   elements.categoryWindow.classList.add('active');
   elements.categoryWindow.style.zIndex = maxZ + 10;
-  document.body.style.overflow = 'hidden'; // 🔥 确保打开时锁定
+  document.body.style.overflow = 'hidden';
 }
 
 function renderRandomHome() {
@@ -407,7 +419,7 @@ function renderRandomHome() {
   if (!homeAppsCache) {
     let visible = allApps.filter(a => isAppCompatible(a, userApi));
     visible.sort(() => 0.5 - Math.random());
-    homeAppsCache = visible.slice(0, 32);
+    homeAppsCache = visible.slice(0, 30);
   }
 
   renderCardList(homeAppsCache, elements.container);
@@ -485,8 +497,6 @@ function checkUserVersion() {
       btn.classList.add('selected');
       updateVersionTextInMenu();
 
-      // 关闭版本选择窗口后恢复滚动 (如果它下面没有其他窗口)
-      // 这里因为版本选择是强制的/或者从菜单打开的，通常需要检查
       setTimeout(() => {
         const activeModals = document.querySelectorAll('.modal-overlay.active');
         if (activeModals.length === 0) document.body.style.overflow = '';
@@ -518,7 +528,8 @@ function openDevWindow(detail) {
   renderCardList(filteredApps, elements.devAppsContainer);
 
   let maxZ = 1300;
-  document.querySelectorAll('.modal-overlay').forEach(el => {
+  const allOverlays = document.querySelectorAll('.modal-overlay');
+  allOverlays.forEach(el => {
     const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
     if (z > maxZ) maxZ = z;
   });
