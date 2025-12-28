@@ -1,7 +1,9 @@
-/* js/ui.js */
 import { escapeHtml, isAppCompatible, getBestMatchVersion, apiMap, DEFAULT_ICON } from './utils.js';
 
 let globalZIndex = 1350;
+
+// 导航栈
+const appNavigationStack = [];
 
 window.handleImgError = function (img) {
   img.onerror = null;
@@ -9,40 +11,7 @@ window.handleImgError = function (img) {
   img.classList.add('image-error');
 };
 
-// Toast Notification
-function showToast(message, type = 'success') {
-  const container = document.getElementById('toast-container');
-  if (!container) return;
-
-  const toast = document.createElement('div');
-  toast.className = 'toast';
-
-  const iconName = type === 'error' ? 'error' : 'check_circle';
-  const iconColor = type === 'error' ? '#ef4444' : 'var(--primary-color)';
-
-  toast.innerHTML = `
-        <span class="material-symbols-rounded toast-icon" style="color:${iconColor}">${iconName}</span>
-        <span class="toast-text">${escapeHtml(message)}</span>
-        <span class="material-symbols-rounded toast-close">close</span>
-    `;
-
-  const closeBtn = toast.querySelector('.toast-close');
-  closeBtn.onclick = () => removeToast(toast);
-  container.appendChild(toast);
-
-  const autoCloseTimer = setTimeout(() => {
-    removeToast(toast);
-  }, 5000);
-
-  function removeToast(el) {
-    clearTimeout(autoCloseTimer);
-    el.classList.add('hiding');
-    el.addEventListener('transitionend', () => {
-      if (el.parentElement) el.remove();
-    });
-  }
-}
-
+// 创建应用卡片
 export function createCard(app, onClickCallback) {
   const card = document.createElement('div');
   card.className = 'card';
@@ -55,33 +24,24 @@ export function createCard(app, onClickCallback) {
         </div>
         <span class="material-symbols-rounded card-action-icon color-primary">arrow_forward</span>
     `;
-  card.onclick = () => onClickCallback(app);
+  card.onclick = () => {
+    appNavigationStack.length = 0;
+    onClickCallback(app);
+  };
   return card;
 }
 
+// 渲染应用详情弹窗
 export function renderAppModal(app) {
-  // 1. 获取所有当前激活的窗口
-  const allActiveModals = Array.from(document.querySelectorAll('.modal-overlay.active'));
-  allActiveModals.sort((a, b) => {
-    const zA = parseInt(window.getComputedStyle(a).zIndex) || 0;
-    const zB = parseInt(window.getComputedStyle(b).zIndex) || 0;
-    return zA - zB;
-  });
-  const topModal = allActiveModals[allActiveModals.length - 1];
-
-  // 2. 防抖检查
-  if (topModal && topModal.getAttribute('data-id') == app.id) {
-    return;
+  // 1. 防重检查
+  const allModals = Array.from(document.querySelectorAll('.modal-overlay'));
+  if (allModals.length > 0) {
+    allModals.sort((a, b) => (parseInt(a.style.zIndex) || 0) - (parseInt(b.style.zIndex) || 0));
+    const topModal = allModals[allModals.length - 1];
+    if (topModal.getAttribute('data-id') == app.id) return;
   }
 
-  // 3. 计算 Z-Index
-  let maxZ = 1300;
-  if (topModal) {
-    maxZ = parseInt(window.getComputedStyle(topModal).zIndex) || 1300;
-  }
-  const newZIndex = maxZ + 10;
-
-  // 4. 数据准备
+  // 2. 数据准备
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
   const bestVer = getBestMatchVersion(app, userApi);
   const isCompat = !!bestVer;
@@ -91,9 +51,17 @@ export function renderAppModal(app) {
     window.location.hash = `app=${app.package}`;
   }
 
+  // 计算层级
+  let currentMaxZ = globalZIndex;
+  document.querySelectorAll('.modal-overlay').forEach(el => {
+    const z = parseInt(el.style.zIndex) || 0;
+    if (z > currentMaxZ) currentMaxZ = z;
+  });
+  globalZIndex = currentMaxZ + 2;
+
   const modalOverlay = document.createElement('div');
   modalOverlay.className = 'modal-overlay';
-  modalOverlay.style.zIndex = newZIndex;
+  modalOverlay.style.zIndex = globalZIndex;
   modalOverlay.setAttribute('data-id', app.id);
   modalOverlay.setAttribute('data-package', app.package);
 
@@ -102,7 +70,7 @@ export function renderAppModal(app) {
   ).join('');
 
   const compatWarning = !isCompat ?
-    `<div class="modal-warning-row"><div class="compat-warning-box">WearStore未向您提供此应用，您需要 Android ${apiMap[displayData.minSdk] || displayData.minSdk}+ 才能使用此应用</div></div>` : '';
+    `<div class="modal-warning-row"><div class="compat-warning-box">此应用无法在您的手表上使用，您需要 Android ${apiMap[displayData.minSdk] || displayData.minSdk}+ 才能使用此应用</div></div>` : '';
 
   let dlUrl = displayData.downloadUrl;
 
@@ -133,47 +101,72 @@ export function renderAppModal(app) {
 
   const devName = app.developer ? escapeHtml(app.developer) : '未知开发者';
   const modName = app.modAuthor ? escapeHtml(app.modAuthor) : null;
-  let devInfoHtml = '';
-  if (modName) {
-    devInfoHtml = `
-        <span class="author-link" data-name="${devName}" data-type="original">${devName}</span>
-        <span style="color:var(--text-secondary); font-size:0.9em; font-weight:400;">
-            (由 <span class="author-link" data-name="${modName}" data-type="mod">${modName}</span> 修改)
-        </span>
-      `;
-  } else {
-    devInfoHtml = `<span class="author-link" data-name="${devName}" data-type="original">${devName}</span>`;
-  }
+  let devInfoHtml = modName ?
+    `<span class="author-link" data-name="${devName}" data-type="original">${devName}</span>
+       <span style="color:var(--text-secondary); font-size:0.9em; font-weight:400;">
+           (由 <span class="author-link" data-name="${modName}" data-type="mod">${modName}</span> 修改)
+       </span>` :
+    `<span class="author-link" data-name="${devName}" data-type="original">${devName}</span>`;
 
+  // --- 多应用推荐逻辑 ---
   let recommendHtml = '';
   if (window.allApps) {
-    let targetApp = null;
-    if (app.recommendId) {
-      targetApp = window.allApps.find(a => a.id === app.recommendId);
-    } else if (app.recommendPackage) {
-      targetApp = window.allApps.find(a => a.package === app.recommendPackage && a.id !== app.id);
+    let targetApps = [];
+
+    // 1. 优先读取 recommendIds 数组
+    if (app.recommendIds && Array.isArray(app.recommendIds)) {
+      // 根据 ID 列表找到所有应用对象
+      targetApps = window.allApps.filter(a => app.recommendIds.includes(a.id));
+      // 按数组里的顺序排序
+      targetApps.sort((a, b) => app.recommendIds.indexOf(a.id) - app.recommendIds.indexOf(b.id));
+    }
+    // 2. 兼容旧的 recommendId (单数)
+    else if (app.recommendId) {
+      const t = window.allApps.find(a => a.id === app.recommendId);
+      if (t) targetApps.push(t);
+    }
+    // 3. 兼容包名查找 (自动查找同包名其他应用，排除自己)
+    else if (app.recommendPackage) {
+      targetApps = window.allApps.filter(a => a.package === app.recommendPackage && a.id !== app.id);
     }
 
-    if (targetApp) {
-      const reason = app.recommendReason ? ` - ${app.recommendReason}` : '';
-      const sizeInfo = targetApp.size ? ` (${targetApp.size})` : '';
-      const displayText = `${targetApp.name}${reason}${sizeInfo}`;
+    // 4. 生成列表 HTML
+    if (targetApps.length > 0) {
+      recommendHtml += `<div class="recommend-container">`; // 外层容器
 
-      recommendHtml = `
-            <div class="recommend-card">
-                <div class="recommend-icon-wrapper">
-                    <span class="material-symbols-rounded" style="font-size:20px; color:var(--text-secondary);">info</span>
+      targetApps.forEach((targetApp, index) => {
+        let reasonText = '';
+        if (targetApps.length === 1 && app.recommendReason) {
+          reasonText = ` - ${app.recommendReason}`;
+        }
+        const sizeInfo = targetApp.size ? ` (${targetApp.size})` : '';
+        const displayText = `${targetApp.name}${reasonText}${sizeInfo}`;
+
+        // 生成单个卡片，注意加上 data-target-id
+        recommendHtml += `
+                <div class="recommend-card">
+                    <div class="recommend-icon-wrapper">
+                        <span class="material-symbols-rounded" style="font-size:20px; color:var(--text-secondary);">info</span>
+                    </div>
+                    <div class="recommend-content recommend-click-item" data-target-id="${targetApp.id}">
+                        <div class="recommend-title">类似应用</div>
+                        <div class="recommend-desc">${escapeHtml(displayText)}</div>
+                        <div class="recommend-btn">查看</div>
+                    </div>
                 </div>
-                <div class="recommend-content" id="recommendClickArea">
-                    <div class="recommend-title">有类似应用</div>
-                    <div class="recommend-desc">${escapeHtml(displayText)}</div>
-                    <div class="recommend-btn">查看</div>
-                </div>
-            </div>
-          `;
+              `;
+
+        // 如果不是最后一个，加分割线
+        if (index < targetApps.length - 1) {
+          recommendHtml += `<div class="recommend-divider"></div>`;
+        }
+      });
+
+      recommendHtml += `</div>`;
     }
   }
 
+  // --- 构建 DOM ---
   modalOverlay.innerHTML = `
         <div class="modal">
             <div class="modal-fixed-top">
@@ -210,7 +203,7 @@ export function renderAppModal(app) {
                     <div class="detail-item"><span class="detail-label">大小</span><span class="detail-value">${escapeHtml(displaySize)}</span></div>
                     <div class="detail-item"><span class="detail-label">最低兼容</span><span class="detail-value">Android ${apiMap[minSdkNum] || minSdkNum}+</span></div>
                     <div class="detail-item"><span class="detail-label">应用分类</span><span class="detail-value">${catText}</span></div>
-                    <div class="detail-item" style="grid-column: 1 / -1;"><span class="detail-label">包名</span><span class="detail-value">${escapeHtml(app.package)}</span></div>
+                    <div class="detail-item" style="grid-column: 1 / -1;"><span class="detail-label">包名</span><span class="detail-value" style="font-size: 0.85rem; word-break: break-all;">${escapeHtml(app.package)}</span></div>
                 </div>
                 <div class="section-title">应用简介</div>
                 <p style="color: var(--text-secondary); line-height: 1.6;">${escapeHtml(app.description || '暂无描述')}</p>
@@ -226,18 +219,15 @@ export function renderAppModal(app) {
 
   // --- 事件绑定 ---
 
-  const recommendArea = modalOverlay.querySelector('#recommendClickArea');
-  if (recommendArea) {
-    recommendArea.onclick = () => {
-      let nextApp = null;
-      if (app.recommendId && window.allApps) {
-        nextApp = window.allApps.find(a => a.id === app.recommendId);
-      } else if (app.recommendPackage && window.allApps) {
-        nextApp = window.allApps.find(a => a.package === app.recommendPackage && a.id !== app.id);
-      }
-      if (nextApp) renderAppModal(nextApp);
+  // 批量绑定推荐点击事件
+  const recommendItems = modalOverlay.querySelectorAll('.recommend-click-item');
+  recommendItems.forEach(item => {
+    item.onclick = () => {
+      const targetId = parseInt(item.getAttribute('data-target-id'));
+      const targetApp = window.allApps.find(a => a.id === targetId);
+      if (targetApp) renderAppModal(targetApp);
     };
-  }
+  });
 
   const closeBtn = modalOverlay.querySelector('.close-btn-img');
   const closeFunc = () => {
@@ -259,7 +249,7 @@ export function renderAppModal(app) {
         history.replaceState(null, null, ' ');
         document.body.style.overflow = '';
       }
-    }, 300);
+    }, 250);
   };
   closeBtn.onclick = closeFunc;
 
@@ -327,6 +317,30 @@ export function renderAppModal(app) {
 
   if (window.location.hash !== `#app=${app.package}`) {
     window.location.hash = `app=${app.package}`;
+  }
+}
+
+// Toast
+function showToast(message, type = 'success') {
+  const container = document.getElementById('toast-container');
+  if (!container) return;
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  const iconName = type === 'error' ? 'error' : 'check_circle';
+  const iconColor = type === 'error' ? '#ef4444' : 'var(--primary-color)';
+  toast.innerHTML = `
+        <span class="material-symbols-rounded toast-icon" style="color:${iconColor}">${iconName}</span>
+        <span class="toast-text">${escapeHtml(message)}</span>
+        <span class="material-symbols-rounded toast-close">close</span>
+    `;
+  const closeBtn = toast.querySelector('.toast-close');
+  closeBtn.onclick = () => removeToast(toast);
+  container.appendChild(toast);
+  const autoCloseTimer = setTimeout(() => removeToast(toast), 5000);
+  function removeToast(el) {
+    clearTimeout(autoCloseTimer);
+    el.classList.add('hiding');
+    el.addEventListener('transitionend', () => { if (el.parentElement) el.remove(); });
   }
 }
 

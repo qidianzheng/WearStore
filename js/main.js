@@ -1,4 +1,3 @@
-/* js/main.js */
 import { fetchApps } from './data.js';
 import { renderCardList, renderAppModal, renderIncompatibleCard } from './ui.js';
 import { isAppCompatible, apiMap, escapeHtml } from './utils.js';
@@ -230,9 +229,9 @@ function performSearch() {
     return;
   }
 
-  // --- 🔥 核心修复：精准命中抢占逻辑 ---
+  // --- 精准命中抢占逻辑 ---
 
-  const topResult = fuseResults[0]; // 拿出匹配度最高的那个
+  const topResult = fuseResults[0];
   const topItem = topResult.item;
 
   // 如果第一名是不兼容的
@@ -242,14 +241,12 @@ function performSearch() {
 
     // 判断是否为“精准搜索”
     // 条件：输入内容 和 应用名字 完全一样
-    // (或者你可以放宽一点：input.length / appName.length > 0.9)
     const isExactMatch = appName === input;
 
     if (isExactMatch) {
       // 用户指名道姓要找这个不兼容的软件，
-      // 所以直接显示不兼容提示，忽略后面那些“凑数”的兼容软件
       renderIncompatibleCard(topItem, elements.container);
-      return; // 🔥 结束函数，不再往下走
+      return;
     }
   }
   // ------------------------------------

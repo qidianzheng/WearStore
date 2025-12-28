@@ -1,6 +1,6 @@
 [
   {
-    "id": 453514208,
+    "id": 3609522688,
     "name": "AIDA64",
     "package": "com.finalwire.aida64",
     "version": "2.11",
@@ -32,7 +32,7 @@
     "historyVersion": []
   },
   {
-    "id": 2631434659,
+    "id": 957358489,
     "name": "Alti-Barometer",
     "package": "com.lucaboscolomeneguolo.altimeterbarometer",
     "version": "1.16",
@@ -62,10 +62,12 @@
     "password": "",
     "developer": "calugj",
     "historyVersion": [],
-    "recommendId": 2424457918
+    "recommendIds": [
+      2056030808
+    ]
   },
   {
-    "id": 2424457918,
+    "id": 2056030808,
     "name": "Alti-Barometer汉化版",
     "package": "com.lucaboscolomeneguolo.altimeterbarometer",
     "version": "233V2",
@@ -95,11 +97,13 @@
     "password": "",
     "developer": "calugj",
     "historyVersion": [],
-    "recommendId": 2631434659,
+    "recommendIds": [
+      957358489
+    ],
     "modAuthor": "稽佬233"
   },
   {
-    "id": 2450138162,
+    "id": 447281565,
     "name": "AnExplorer",
     "package": "dev.dworks.apps.anexplorer",
     "version": "5.9.2",
@@ -112,7 +116,10 @@
       "assets/images/anexplorer/anexplorer_2.webp",
       "assets/images/anexplorer/anexplorer_3.webp",
       "assets/images/anexplorer/anexplorer_4.webp",
-      "assets/images/anexplorer/anexplorer_5.webp"
+      "assets/images/anexplorer/anexplorer_5.webp",
+      "assets/images/anexplorer/anexplorer_6.webp",
+      "assets/images/anexplorer/anexplorer_7.webp",
+      "assets/images/anexplorer/anexplorer_8.webp"
     ],
     "addedTime": 1764730656931,
     "updateTime": "2025-12-27",
@@ -143,7 +150,7 @@
     ]
   },
   {
-    "id": 2071024316,
+    "id": 4101756128,
     "name": "Animals",
     "package": "com.turtlepaw.cats",
     "version": "1.3",
@@ -176,7 +183,7 @@
     "contributor": "清漓染CHR."
   },
   {
-    "id": 2433197555,
+    "id": 268010413,
     "name": "CPU Info",
     "package": "com.kgurgul.cpuinfo",
     "version": "6.4.0",
@@ -209,7 +216,7 @@
     "historyVersion": []
   },
   {
-    "id": 242460072,
+    "id": 1789130077,
     "name": "Calculator",
     "package": "apps.r.calculator",
     "version": "8.4.0",
@@ -240,7 +247,7 @@
     "historyVersion": []
   },
   {
-    "id": 4197461945,
+    "id": 4293648661,
     "name": "Calender",
     "package": "com.h3r3t1c.litewearcalendar",
     "version": "2.3.5",
@@ -266,7 +273,7 @@
     "historyVersion": []
   },
   {
-    "id": 1815786370,
+    "id": 19735701,
     "name": "Finger Gun - Motion Games",
     "package": "com.MustBeFun.FingerGunMotionGame",
     "version": "0.3.0",
@@ -298,7 +305,7 @@
     "historyVersion": []
   },
   {
-    "id": 3427502732,
+    "id": 1685273433,
     "name": "Flattery",
     "package": "com.agronick.launcher",
     "version": "0.0.13",
@@ -328,7 +335,7 @@
     "historyVersion": []
   },
   {
-    "id": 1923047377,
+    "id": 3834050182,
     "name": "Gboard",
     "package": "com.google.android.inputmethod.latin",
     "version": "4.1.07.773081532-release-armeabi-v7a",
@@ -403,7 +410,7 @@
     ]
   },
   {
-    "id": 743646418,
+    "id": 169292971,
     "name": "Kapture - 屏幕录制",
     "package": "dev.dect.kapture",
     "version": "1.0.0",
@@ -431,7 +438,7 @@
     "historyVersion": []
   },
   {
-    "id": 3539462973,
+    "id": 1107269450,
     "name": "Keep",
     "package": "com.gotokeep.androidwear",
     "version": "1.2.2",
@@ -444,7 +451,8 @@
       "assets/images/keep/keep_2.webp",
       "assets/images/keep/keep_3.webp",
       "assets/images/keep/keep_4.webp",
-      "assets/images/keep/keep_5.webp"
+      "assets/images/keep/keep_5.webp",
+      "assets/images/keep/keep_6.webp"
     ],
     "addedTime": 1764730669419,
     "updateTime": "2025-12-11",
@@ -470,7 +478,7 @@
     "historyVersion": []
   },
   {
-    "id": 1933284581,
+    "id": 1432542173,
     "name": "Launcher 3D Wear OS",
     "package": "angel.gabaldon.launcher3dwearos",
     "version": "1.9",
@@ -500,7 +508,7 @@
     "historyVersion": []
   },
   {
-    "id": 911191573,
+    "id": 3305117968,
     "name": "Lunch",
     "package": "com.dudu.wearlauncher",
     "version": "1.1.5-Stable",
@@ -513,7 +521,8 @@
       "assets/images/lunch/lunch_2.webp",
       "assets/images/lunch/lunch_3.webp",
       "assets/images/lunch/lunch_4.webp",
-      "assets/images/lunch/lunch_5.webp"
+      "assets/images/lunch/lunch_5.webp",
+      "assets/images/lunch/lunch_6.webp"
     ],
     "addedTime": 1765637588128,
     "updateTime": "2025-12-15",
@@ -535,7 +544,7 @@
     "historyVersion": []
   },
   {
-    "id": 1172735685,
+    "id": 4153928598,
     "name": "Microsoft Outlook",
     "package": "com.microsoft.office.outlook",
     "version": "5.2544.1",
@@ -567,7 +576,7 @@
     "historyVersion": []
   },
   {
-    "id": 873978632,
+    "id": 1275279526,
     "name": "Mini Web Browser",
     "package": "com.somyac.watch.browser",
     "version": "1.0.9",
@@ -596,7 +605,46 @@
     "historyVersion": []
   },
   {
-    "id": 693846152,
+    "id": 286136756,
+    "name": "NWearQQ",
+    "package": "com.tencent.qqlite",
+    "version": [
+      "最终版2-已去签"
+    ],
+    "code": 2465,
+    "minSdk": 21,
+    "size": "37.31 MB",
+    "icon": "assets/images/nwearqq/nwearqq_icon.webp",
+    "screenshots": [
+      "assets/images/nwearqq/nwearqq_1.webp",
+      "assets/images/nwearqq/nwearqq_2.webp",
+      "assets/images/nwearqq/nwearqq_3.webp",
+      "assets/images/nwearqq/nwearqq_4.webp",
+      "assets/images/nwearqq/nwearqq_5.webp"
+    ],
+    "addedTime": 1764730689784,
+    "updateTime": "2025-12-28",
+    "description": "一款基于 QQ 手表版 9.0.3 的修改版应用，由开发者 爅峫 制作。在官方版本基础上，主要变化为启用黑色背景，并可能潜藏其他功能调整，为用户提供不同的视觉与使用体验。",
+    "category": "通讯社交",
+    "keywords": [
+      "聊天",
+      "即时通讯",
+      "社交",
+      "扣扣",
+      "视频通话"
+    ],
+    "downloadUrl": "https://easylink.cc/m5d7qk",
+    "password": "",
+    "developer": "深圳市腾讯计算机系统有限公司",
+    "historyVersion": [],
+    "recommendIds": [
+      2388747650,
+      464807094
+    ],
+    "modAuthor": "爅峫"
+  },
+  {
+    "id": 1517120418,
     "name": "NavMusic",
     "package": "com.turndapage.navmusic",
     "version": "2.7.1",
@@ -631,7 +679,7 @@
     "historyVersion": []
   },
   {
-    "id": 2622328131,
+    "id": 2534632284,
     "name": "Next快传",
     "package": "wear.next.transfer",
     "version": "1.2.1",
@@ -663,8 +711,8 @@
     "historyVersion": []
   },
   {
-    "id": 3148843923,
-    "name": "QQ",
+    "id": 2388747650,
+    "name": "QQ手表版",
     "package": "com.tencent.qqlite",
     "version": "9.0.7",
     "code": 2563,
@@ -676,7 +724,8 @@
       "assets/images/qq/qq_2.webp",
       "assets/images/qq/qq_3.webp",
       "assets/images/qq/qq_4.webp",
-      "assets/images/qq/qq_5.webp"
+      "assets/images/qq/qq_5.webp",
+      "assets/images/qq/qq_6.webp"
     ],
     "addedTime": 1764730689784,
     "updateTime": "2025-12-12",
@@ -709,10 +758,51 @@
         "downloadUrl": "",
         "password": ""
       }
+    ],
+    "recommendIds": [
+      286136756,
+      464807094
     ]
   },
   {
-    "id": 2076887669,
+    "id": 464807094,
+    "name": "QQPro",
+    "package": "com.tencent.qqlite",
+    "version": "1.5.1",
+    "code": 2465,
+    "minSdk": 21,
+    "size": "38.11 MB",
+    "icon": "assets/images/qqpro/qqpro_icon.webp",
+    "screenshots": [
+      "assets/images/qqpro/qqpro_1.webp",
+      "assets/images/qqpro/qqpro_2.webp",
+      "assets/images/qqpro/qqpro_3.webp",
+      "assets/images/qqpro/qqpro_4.webp",
+      "assets/images/qqpro/qqpro_5.webp"
+    ],
+    "addedTime": 1764730689784,
+    "updateTime": "2025-12-28",
+    "description": "一款基于 NWear-QQ 最终版 2 的修改版 QQ 手表应用，由开发者 pumpkin 制作。最显著的改变是采用了黑色背景主题，并可能包含更多功能增强与优化，具体改进等待用户探索发现。",
+    "category": "通讯社交",
+    "keywords": [
+      "聊天",
+      "即时通讯",
+      "社交",
+      "扣扣",
+      "视频通话"
+    ],
+    "downloadUrl": "https://easylink.cc/nl7fly",
+    "password": "",
+    "developer": "深圳市腾讯计算机系统有限公司",
+    "historyVersion": [],
+    "recommendIds": [
+      2388747650,
+      286136756
+    ],
+    "modAuthor": "pumpkin"
+  },
+  {
+    "id": 4222932537,
     "name": "QQ音乐",
     "package": "com.tencent.qqmusicwatch",
     "version": "2.0.4",
@@ -765,7 +855,7 @@
     ]
   },
   {
-    "id": 2899239152,
+    "id": 1401200399,
     "name": "Re-WearBili",
     "package": "cn.spacexc.wearbili.remake",
     "version": "Atlas",
@@ -778,7 +868,10 @@
       "assets/images/rewearbili/rewearbili_2.webp",
       "assets/images/rewearbili/rewearbili_3.webp",
       "assets/images/rewearbili/rewearbili_4.webp",
-      "assets/images/rewearbili/rewearbili_5.webp"
+      "assets/images/rewearbili/rewearbili_5.webp",
+      "assets/images/rewearbili/rewearbili_6.webp",
+      "assets/images/rewearbili/rewearbili_7.webp",
+      "assets/images/rewearbili/rewearbili_8.webp"
     ],
     "addedTime": 1764730691645,
     "updateTime": "2025-12-11",
@@ -800,7 +893,7 @@
     "historyVersion": []
   },
   {
-    "id": 110129121,
+    "id": 4251679535,
     "name": "Simple Memo",
     "package": "com.studio1a23.simplenote",
     "version": "1.0.5",
@@ -830,7 +923,7 @@
     "historyVersion": []
   },
   {
-    "id": 568037525,
+    "id": 857372679,
     "name": "To-Do List",
     "package": "todolist.scheduleplanner.dailyplanner.todo.reminders",
     "version": "1.01.19.0725.1",
@@ -862,7 +955,7 @@
     "historyVersion": []
   },
   {
-    "id": 2187229519,
+    "id": 1731581567,
     "name": "T启动",
     "package": "com.tanxi.tlauncher",
     "version": "2.1",
@@ -889,7 +982,7 @@
     "historyVersion": []
   },
   {
-    "id": 1431795403,
+    "id": 2329231388,
     "name": "Voice Notebook",
     "package": "com.voicenotebook.voicenotebook",
     "version": "1.1.4",
@@ -920,7 +1013,7 @@
     "historyVersion": []
   },
   {
-    "id": 376759802,
+    "id": 806735725,
     "name": "WearMouse",
     "package": "com.ginkage.wearmouse",
     "version": "1.28",
@@ -959,7 +1052,7 @@
     ]
   },
   {
-    "id": 1627041301,
+    "id": 2224556128,
     "name": "WowMouse",
     "package": "io.port6.watchbridge",
     "version": "1.2.1",
@@ -972,7 +1065,10 @@
       "assets/images/wowmouse/wowmouse_2.webp",
       "assets/images/wowmouse/wowmouse_3.webp",
       "assets/images/wowmouse/wowmouse_4.webp",
-      "assets/images/wowmouse/wowmouse_5.webp"
+      "assets/images/wowmouse/wowmouse_5.webp",
+      "assets/images/wowmouse/wowmouse_6.webp",
+      "assets/images/wowmouse/wowmouse_7.webp",
+      "assets/images/wowmouse/wowmouse_8.webp"
     ],
     "addedTime": 1764730704602,
     "updateTime": "2025-12-13",
@@ -991,7 +1087,7 @@
     "historyVersion": []
   },
   {
-    "id": 340314796,
+    "id": 3816311160,
     "name": "YoYo日常",
     "package": "com.qiliaokj.yoyowatch",
     "version": "2.4.3",
@@ -1026,7 +1122,7 @@
     "historyVersion": []
   },
   {
-    "id": 1422108563,
+    "id": 1513667669,
     "name": "zizhi",
     "package": "com.watchfacestudio.zizhi",
     "version": "1.4",
@@ -1061,7 +1157,7 @@
     ]
   },
   {
-    "id": 3516612477,
+    "id": 3586248562,
     "name": "万文管理",
     "package": "com.cjy.wearplay",
     "version": "5.0.6",
@@ -1096,7 +1192,7 @@
     "historyVersion": []
   },
   {
-    "id": 1399679285,
+    "id": 1863848067,
     "name": "三星健康监测器修改版",
     "package": "com.samsung.android.shealthmonitors",
     "version": "1.4.1.006.dante63",
@@ -1128,7 +1224,7 @@
     "modAuthor": "Dante63"
   },
   {
-    "id": 3691009115,
+    "id": 5318692,
     "name": "三星浏览器",
     "package": "com.sec.android.app.sbrowser",
     "version": "5.0.00.9",
@@ -1203,7 +1299,7 @@
     ]
   },
   {
-    "id": 1981331394,
+    "id": 2295614091,
     "name": "克米酷学",
     "package": "com.hankmi.costu",
     "version": "4.5.250725_daliy",
@@ -1235,7 +1331,7 @@
     "historyVersion": []
   },
   {
-    "id": 3617102895,
+    "id": 3712132702,
     "name": "凉腕播放器",
     "package": "com.aliangmaker.media",
     "version": "5.1.0",
@@ -1268,7 +1364,7 @@
     "historyVersion": []
   },
   {
-    "id": 2877685625,
+    "id": 3577110921,
     "name": "凤凰FM",
     "package": "com.renben.watch",
     "version": "1.0.4",
@@ -1301,7 +1397,7 @@
     "historyVersion": []
   },
   {
-    "id": 3421482001,
+    "id": 2867714101,
     "name": "凤凰新闻",
     "package": "com.ifeng.news.watch",
     "version": "1.0",
@@ -1331,7 +1427,7 @@
     "historyVersion": []
   },
   {
-    "id": 4260657947,
+    "id": 3166253700,
     "name": "咪咕音乐",
     "package": "com.fzbosun.watch.migumusic",
     "version": "3.5.5",
@@ -1366,7 +1462,7 @@
     "historyVersion": []
   },
   {
-    "id": 2578654920,
+    "id": 2913175280,
     "name": "哔哩终端",
     "package": "com.RobinNotBad.BiliClient",
     "version": "2.9.3-fix",
@@ -1400,7 +1496,7 @@
     "historyVersion": []
   },
   {
-    "id": 2089842941,
+    "id": 1450106876,
     "name": "喜马拉雅",
     "package": "com.ximalayaos.wear.common",
     "version": "3.2.0.0",
@@ -1413,7 +1509,8 @@
       "assets/images/ximalaya/ximalaya_2.webp",
       "assets/images/ximalaya/ximalaya_3.webp",
       "assets/images/ximalaya/ximalaya_4.webp",
-      "assets/images/ximalaya/ximalaya_5.webp"
+      "assets/images/ximalaya/ximalaya_5.webp",
+      "assets/images/ximalaya/ximalaya_6.webp"
     ],
     "addedTime": 1764730734274,
     "updateTime": "2025-12-15",
@@ -1457,7 +1554,7 @@
     ]
   },
   {
-    "id": 2081831534,
+    "id": 3625576686,
     "name": "喝水提醒",
     "package": "com.heytap.wearable.waterreminder2",
     "version": "3.0.6_bd47848_240410",
@@ -1490,7 +1587,7 @@
     "historyVersion": []
   },
   {
-    "id": 915603875,
+    "id": 1430084048,
     "name": "噪音",
     "package": "com.db.watch.aw",
     "version": "1.1",
@@ -1521,7 +1618,7 @@
     "historyVersion": []
   },
   {
-    "id": 1685698201,
+    "id": 2796637367,
     "name": "墨迹天气",
     "package": "com.moji.wear",
     "version": "1.4.6",
@@ -1571,7 +1668,7 @@
     ]
   },
   {
-    "id": 3877342314,
+    "id": 584120387,
     "name": "多功能计算器",
     "package": "com.jee.calc",
     "version": "1.8.1",
@@ -1584,7 +1681,8 @@
       "assets/images/duogongnengjisuanqi/duogongnengjisuanqi_2.webp",
       "assets/images/duogongnengjisuanqi/duogongnengjisuanqi_3.webp",
       "assets/images/duogongnengjisuanqi/duogongnengjisuanqi_4.webp",
-      "assets/images/duogongnengjisuanqi/duogongnengjisuanqi_5.webp"
+      "assets/images/duogongnengjisuanqi/duogongnengjisuanqi_5.webp",
+      "assets/images/duogongnengjisuanqi/duogongnengjisuanqi_6.webp"
     ],
     "addedTime": 1765876651553,
     "updateTime": "2025-12-18",
@@ -1606,7 +1704,7 @@
     "historyVersion": []
   },
   {
-    "id": 914545979,
+    "id": 1018851020,
     "name": "大众点评",
     "package": "com.dianping.v1",
     "version": "1.0.2",
@@ -1640,7 +1738,7 @@
     "historyVersion": []
   },
   {
-    "id": 3900502068,
+    "id": 3936481631,
     "name": "小米Watch2录音机",
     "package": "com.xiaomi.recorder",
     "version": "2024061105.dev.rel",
@@ -1671,7 +1769,7 @@
     "historyVersion": []
   },
   {
-    "id": 3818728573,
+    "id": 2395269569,
     "name": "微信",
     "package": "com.tencent.mm",
     "version": "7.0.6",
@@ -1703,7 +1801,7 @@
     "historyVersion": []
   },
   {
-    "id": 2329128181,
+    "id": 3499036122,
     "name": "微风天气",
     "package": "wind.fun.weather",
     "version": "1.2",
@@ -1737,7 +1835,7 @@
     "historyVersion": []
   },
   {
-    "id": 2421654370,
+    "id": 2612609453,
     "name": "懒人听书",
     "package": "bubei.tingshu.wear",
     "version": "2.5.0",
@@ -1789,7 +1887,7 @@
     ]
   },
   {
-    "id": 3861703451,
+    "id": 828016250,
     "name": "搜狗输入法",
     "package": "com.sogou.ime.wear",
     "version": "3.3.5.2307071528",
@@ -1822,13 +1920,12 @@
         "minSdk": 24,
         "size": "19.02 MB",
         "downloadUrl": "https://wwatc.lanzoub.com/iDz973dgee0b",
-        "password": "7jva",
-        "isRecommended": true
+        "password": "7jva"
       }
     ]
   },
   {
-    "id": 957725387,
+    "id": 3626207781,
     "name": "支付宝",
     "package": "com.eg.android.AlipayGphone",
     "version": "10.6.6.230926",
@@ -1857,7 +1954,7 @@
     "historyVersion": []
   },
   {
-    "id": 2604715400,
+    "id": 4075175165,
     "name": "汉克米笔记",
     "package": "com.hankmi.noteplus",
     "version": "25.5.26",
@@ -1900,7 +1997,7 @@
     ]
   },
   {
-    "id": 3898396776,
+    "id": 411471366,
     "name": "海拔气压计",
     "package": "com.lite.barometer",
     "version": "1.0",
@@ -1931,7 +2028,7 @@
     "historyVersion": []
   },
   {
-    "id": 389456584,
+    "id": 1476383144,
     "name": "滴答清单",
     "package": "cn.ticktick.task.wear",
     "version": "1.1",
@@ -1966,7 +2063,7 @@
     "historyVersion": []
   },
   {
-    "id": 501582173,
+    "id": 2679800963,
     "name": "琥珀天气",
     "package": "com.amberweather.watch",
     "version": "2.0.9_release",
@@ -1999,7 +2096,7 @@
     "historyVersion": []
   },
   {
-    "id": 2160343164,
+    "id": 137963304,
     "name": "电子宠物机",
     "package": "com.peggy_cat_hw.phonegt",
     "version": "1.15",
@@ -2033,7 +2130,7 @@
     "historyVersion": []
   },
   {
-    "id": 794878871,
+    "id": 2591205332,
     "name": "百度地图",
     "package": "com.baidu.BaiduMap.watch",
     "version": "1.4.4",
@@ -2046,7 +2143,8 @@
       "assets/images/baiduditu/baiduditu_2.webp",
       "assets/images/baiduditu/baiduditu_3.webp",
       "assets/images/baiduditu/baiduditu_4.webp",
-      "assets/images/baiduditu/baiduditu_5.webp"
+      "assets/images/baiduditu/baiduditu_5.webp",
+      "assets/images/baiduditu/baiduditu_6.webp"
     ],
     "addedTime": 1764730757721,
     "updateTime": "2025-12-12",
@@ -2072,7 +2170,7 @@
     "historyVersion": []
   },
   {
-    "id": 3406633228,
+    "id": 4162809214,
     "name": "百度输入法",
     "package": "com.baidu.input_hwwatch",
     "version": "9.3.12.377",
@@ -2099,7 +2197,7 @@
     "historyVersion": []
   },
   {
-    "id": 3529486762,
+    "id": 4195018046,
     "name": "简易录音机",
     "package": "com.coffeebeanventures.easyvoicerecorder",
     "version": "2.9.4",
@@ -2132,7 +2230,7 @@
     "historyVersion": []
   },
   {
-    "id": 1335511507,
+    "id": 2322513248,
     "name": "米屋",
     "package": "com.github.miwu",
     "version": "2.0.8",
@@ -2166,7 +2264,7 @@
     "historyVersion": []
   },
   {
-    "id": 3872577592,
+    "id": 883623822,
     "name": "网易云音乐",
     "package": "com.netease.cloudmusic.watch",
     "version": "3.0.39",
@@ -2200,7 +2298,7 @@
     "historyVersion": []
   },
   {
-    "id": 1883886485,
+    "id": 1841659035,
     "name": "腕上哔哩",
     "package": "cn.luern0313.wristbilibili",
     "version": "4.5.2",
@@ -2234,7 +2332,7 @@
     "historyVersion": []
   },
   {
-    "id": 195745229,
+    "id": 2625337913,
     "name": "腕上小纸条",
     "package": "com.stl.wristNotes",
     "version": "2.00",
@@ -2269,7 +2367,7 @@
     "historyVersion": []
   },
   {
-    "id": 3160097371,
+    "id": 2653482018,
     "name": "腕上视频",
     "package": "cn.luern0313.wristvideoplayer",
     "version": "1.6.5",
@@ -2301,7 +2399,7 @@
     "historyVersion": []
   },
   {
-    "id": 1811428918,
+    "id": 1461142732,
     "name": "腕听Bitmap",
     "package": "com.hankmi.wearmusic.bitmap",
     "version": "24.5.24",
@@ -2333,7 +2431,7 @@
     "historyVersion": []
   },
   {
-    "id": 3502687047,
+    "id": 3007516849,
     "name": "腕能精灵",
     "package": "com.nurl.wristwizard",
     "version": "1.4.2",
@@ -2366,7 +2464,7 @@
     "historyVersion": []
   },
   {
-    "id": 2451868623,
+    "id": 348211852,
     "name": "腕间图库",
     "package": "cc.chenhe.weargallery",
     "version": "v6.3.2",
@@ -2397,7 +2495,7 @@
     "historyVersion": []
   },
   {
-    "id": 2209233799,
+    "id": 887279956,
     "name": "腕间翻译",
     "package": "com.gohj99.weartranslator",
     "version": "2.4-cn",
@@ -2429,7 +2527,7 @@
     "historyVersion": []
   },
   {
-    "id": 1383817928,
+    "id": 870072141,
     "name": "西窗烛",
     "package": "com.xcz.watch",
     "version": "1.7",
@@ -2442,7 +2540,8 @@
       "assets/images/xichuangzhu/xichuangzhu_2.webp",
       "assets/images/xichuangzhu/xichuangzhu_3.webp",
       "assets/images/xichuangzhu/xichuangzhu_4.webp",
-      "assets/images/xichuangzhu/xichuangzhu_5.webp"
+      "assets/images/xichuangzhu/xichuangzhu_5.webp",
+      "assets/images/xichuangzhu/xichuangzhu_6.webp"
     ],
     "addedTime": 1764730771527,
     "updateTime": "2025-12-12",
@@ -2464,7 +2563,7 @@
     "historyVersion": []
   },
   {
-    "id": 880898319,
+    "id": 2030103256,
     "name": "讯飞输入法手表版",
     "package": "com.iflytek.inputmethod.wear.oppo",
     "version": "9.0.9161",
@@ -2497,7 +2596,7 @@
     "historyVersion": []
   },
   {
-    "id": 3766972943,
+    "id": 509899979,
     "name": "起源云笔记",
     "package": "xyz.osdn.ocloudnote",
     "version": "ver1.0",
@@ -2531,7 +2630,7 @@
     "historyVersion": []
   },
   {
-    "id": 276307138,
+    "id": 3956258557,
     "name": "酷我音乐",
     "package": "cn.kuwo.wearplayer",
     "version": "2.4.2",
@@ -2578,7 +2677,7 @@
     ]
   },
   {
-    "id": 255534998,
+    "id": 2081935439,
     "name": "酷狗概念版",
     "package": "com.kugou.android.watch.lite",
     "version": "2.4.5",
@@ -2591,7 +2690,8 @@
       "assets/images/kugougainianban/kugougainianban_2.webp",
       "assets/images/kugougainianban/kugougainianban_3.webp",
       "assets/images/kugougainianban/kugougainianban_4.webp",
-      "assets/images/kugougainianban/kugougainianban_5.webp"
+      "assets/images/kugougainianban/kugougainianban_5.webp",
+      "assets/images/kugougainianban/kugougainianban_6.webp"
     ],
     "addedTime": 1764730775002,
     "updateTime": "2025-12-12",
@@ -2609,7 +2709,7 @@
     "historyVersion": []
   },
   {
-    "id": 1672401475,
+    "id": 2736263233,
     "name": "钱迹",
     "package": "com.litangtech.qianji.watchand",
     "version": "2.0",
@@ -2651,7 +2751,7 @@
     ]
   },
   {
-    "id": 2896645752,
+    "id": 2470192553,
     "name": "锐度英语",
     "package": "com.nurl.sharpenglish",
     "version": "1.1.0",
@@ -2664,7 +2764,8 @@
       "assets/images/ruiduyingyu/ruiduyingyu_2.webp",
       "assets/images/ruiduyingyu/ruiduyingyu_3.webp",
       "assets/images/ruiduyingyu/ruiduyingyu_4.webp",
-      "assets/images/ruiduyingyu/ruiduyingyu_5.webp"
+      "assets/images/ruiduyingyu/ruiduyingyu_5.webp",
+      "assets/images/ruiduyingyu/ruiduyingyu_6.webp"
     ],
     "addedTime": 1764730776679,
     "updateTime": "2025-12-12",
@@ -2686,7 +2787,7 @@
     "historyVersion": []
   },
   {
-    "id": 3424507333,
+    "id": 84101276,
     "name": "零度音乐",
     "package": "ml.sky233.zero.music",
     "version": "2.2.1-DX",
@@ -2699,7 +2800,8 @@
       "assets/images/lingduyinle/lingduyinle_2.webp",
       "assets/images/lingduyinle/lingduyinle_3.webp",
       "assets/images/lingduyinle/lingduyinle_4.webp",
-      "assets/images/lingduyinle/lingduyinle_5.webp"
+      "assets/images/lingduyinle/lingduyinle_5.webp",
+      "assets/images/lingduyinle/lingduyinle_6.webp"
     ],
     "addedTime": 1764730777137,
     "updateTime": "2025-12-10",
@@ -2720,7 +2822,7 @@
     "historyVersion": []
   },
   {
-    "id": 2345455891,
+    "id": 1721875872,
     "name": "高德地图",
     "package": "com.autonavi.minimap.watch",
     "version": "1.1.1",
@@ -2733,7 +2835,8 @@
       "assets/images/gaodeditu/gaodeditu_2.webp",
       "assets/images/gaodeditu/gaodeditu_3.webp",
       "assets/images/gaodeditu/gaodeditu_4.webp",
-      "assets/images/gaodeditu/gaodeditu_5.webp"
+      "assets/images/gaodeditu/gaodeditu_5.webp",
+      "assets/images/gaodeditu/gaodeditu_6.webp"
     ],
     "addedTime": 1764730777683,
     "updateTime": "2025-12-21",
