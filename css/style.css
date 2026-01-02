@@ -1,3 +1,5 @@
+/* css/style.css */
+
 /* =========================================
    1. 字体与图标配置
    ========================================= */
@@ -42,7 +44,6 @@
   color: var(--icon-normal);
 }
 
-/* 分类专用颜色 */
 .color-blue {
   color: #3b82f6;
 }
@@ -86,7 +87,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* 使用系统默认字体栈 */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   -webkit-tap-highlight-color: transparent;
   font-weight: 400;
@@ -369,6 +369,12 @@ body {
   gap: var(--gap-size);
 }
 
+.simplified-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: var(--gap-size);
+}
+
 .card {
   background: var(--card-glass);
   border: 1px solid var(--border-color);
@@ -403,12 +409,19 @@ body {
   min-width: 0;
 }
 
+/* 🔥 修复 7: 应用名称太长自动隐藏，不换行 */
 .card-title {
   font-size: 1.05rem;
   font-weight: 600;
   color: var(--text-main);
   margin-bottom: 4px;
   line-height: 1.4;
+  white-space: nowrap;
+  /* 强制不换行 */
+  overflow: hidden;
+  /* 超出隐藏 */
+  text-overflow: ellipsis;
+  /* 显示省略号 */
 }
 
 .card-dev-name {
@@ -426,6 +439,55 @@ body {
 .card:hover .card-action-icon {
   transform: translateX(3px);
   opacity: 1;
+}
+
+/* 🔥 修复 1: 历史版本简易卡片样式 (无图标，上下布局) */
+.history-simple-card {
+  background: var(--card-glass);
+  /* 统一卡片背景 */
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  /* 左右居中 */
+  justify-content: space-between;
+  /* 箭头靠右 */
+  gap: 12px;
+  box-shadow: var(--shadow-md);
+  /* 统一阴影 */
+  min-height: 70px;
+}
+
+.history-simple-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border-color: var(--primary-color);
+}
+
+.history-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  /* 配合文字截断 */
+}
+
+.history-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.history-ver {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
 }
 
 /* 不兼容提示卡片 */
@@ -508,8 +570,9 @@ body {
 }
 
 /* =========================================
-   6. 模态框 (Modal) 通用框架 (动画重构版)
+   6. 模态框 (Modal) 通用框架
    ========================================= */
+
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -526,7 +589,6 @@ body {
   margin: 0 !important;
 }
 
-/* 模态框本体 */
 .modal {
   background: var(--modal-bg);
   color: var(--text-main);
@@ -536,23 +598,17 @@ body {
   max-height: none !important;
   border-radius: 0 !important;
   border: none !important;
-
-  /* 🔥 关键：必须设置 flex 布局，才能让 content 滚动 */
   display: flex;
   flex-direction: column;
-
   overflow: hidden;
   box-shadow: none;
   margin: 0 !important;
   padding: 0 !important;
-
-  /* 缩放动画 */
   transform: scale(0.96);
   opacity: 0;
   transition: transform 0.3s cubic-bezier(0.3, 0, 0, 1), opacity 0.2s ease;
 }
 
-/* 激活状态 */
 .modal-overlay.active {
   opacity: 1;
   visibility: visible;
@@ -582,10 +638,8 @@ body {
   padding: 0;
 }
 
-/* PC端对齐逻辑 */
 @media (min-width: 1280px) {
 
-  /* 头部区域 */
   .modal-new-header,
   .window-header,
   .menu-header {
@@ -593,13 +647,11 @@ body {
     padding-right: calc((100% - 1280px) / 2 + 20px) !important;
   }
 
-  /* 操作栏 */
   .modal-action-bar {
     padding-left: calc((100% - 1280px) / 2 + 20px) !important;
     padding-right: calc((100% - 1280px) / 2 + 20px) !important;
   }
 
-  /* 内容区域 */
   .modal-content,
   .dev-content,
   .menu-content {
@@ -619,13 +671,17 @@ body {
     padding-left: calc((100% - 1280px) / 2 + 20px) !important;
     padding-right: calc((100% - 1280px) / 2 + 20px) !important;
   }
+
+  .recommend-container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
 
 /* =========================================
-   7. 新版应用详情页布局重构 (修复滚动版)
+   7. 新版应用详情页
    ========================================= */
 
-/* 头部固定容器 */
 .modal-fixed-top {
   flex-shrink: 0;
   width: 100%;
@@ -634,7 +690,6 @@ body {
   position: relative;
 }
 
-/* 头部内容 */
 .modal-new-header {
   display: flex;
   align-items: center;
@@ -646,7 +701,6 @@ body {
   box-sizing: border-box;
 }
 
-/* 通用头部 */
 .window-header,
 .menu-header {
   width: 100%;
@@ -659,6 +713,10 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+
+  /* 🔥 修复 3: 标题字大一点 */
+  font-size: 1.5rem !important;
+  font-weight: 700;
 }
 
 .modal-new-icon {
@@ -729,7 +787,6 @@ body {
   color: var(--warning-text);
 }
 
-/* 警告信息 */
 .modal-warning-row {
   padding: 0 20px 10px 20px;
 }
@@ -746,7 +803,6 @@ body {
   border: 1px solid var(--warning-text);
 }
 
-/* 操作栏 */
 .modal-action-bar {
   display: flex;
   align-items: center;
@@ -821,18 +877,24 @@ body {
   color: var(--primary-color);
 }
 
-/*  详情内容滚动区  */
 .modal-content {
   flex-grow: 1;
   min-height: 0;
   overflow-y: auto;
-
+  /* 🔥 修复 5: 隐藏详情页滚动条 (但保留功能) */
+  scrollbar-width: none;
+  /* Firefox */
   padding: 15px 20px 25px 20px;
   width: 100%;
   box-sizing: border-box;
 }
 
-/* 推荐应用列表 (容器版) */
+/* Chrome/Edge 隐藏滚动条 */
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* 推荐应用列表 */
 .recommend-container {
   margin: 0 0 15px 0;
   background: var(--menu-item-bg);
@@ -840,13 +902,6 @@ body {
   border: 1px solid var(--border-color);
   overflow: hidden;
   animation: fadeIn 0.3s ease;
-}
-
-@media (min-width: 1280px) {
-  .recommend-container {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
 }
 
 .recommend-card {
@@ -970,6 +1025,16 @@ body {
   top: 1px;
 }
 
+/* 应用简介文本 */
+.app-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-top: 10px;
+}
+
 .section-title {
   font-size: 1.2rem;
   font-weight: 700;
@@ -990,11 +1055,16 @@ body {
   overflow-x: auto;
   padding-top: 5px;
   padding-bottom: 30px;
-  scrollbar-width: thin;
   scroll-behavior: smooth;
   width: 100%;
   padding-left: 5px;
   padding-right: 20px;
+
+  scrollbar-width: none;
+}
+
+.screenshots-container::-webkit-scrollbar {
+  display: none;
 }
 
 .screenshots-container::after {
@@ -1014,10 +1084,8 @@ body {
 .scroll-btn {
   display: flex;
   position: absolute;
-  top: 50%;
+  top: 165px;
   transform: translateY(-50%);
-  margin-top: -15px;
-  /* 修正位置 */
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -1180,10 +1248,9 @@ body {
 }
 
 /* =========================================
-   9. 窗口头部
+   9. 窗口头部 (修复 2: 恢复样式，确保和历史窗口一致)
    ========================================= */
 .window-header {
-  /* 强制显示主题色 */
   background: var(--primary-color) !important;
   color: white !important;
   z-index: 2;

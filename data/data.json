@@ -183,6 +183,39 @@
     "contributor": "清漓染CHR."
   },
   {
+    "id": 3881380835,
+    "name": "BodyTemperature",
+    "package": "com.t1ckt0ck.bodytemperature",
+    "version": "1.2.1",
+    "code": 12,
+    "minSdk": 30,
+    "size": "7.46 MB",
+    "icon": "assets/images/bodytemperature/bodytemperature_icon.webp",
+    "screenshots": [
+      "assets/images/bodytemperature/bodytemperature_1.webp",
+      "assets/images/bodytemperature/bodytemperature_2.webp",
+      "assets/images/bodytemperature/bodytemperature_3.webp"
+    ],
+    "addedTime": 1767280547247,
+    "updateTime": "2026-01-01",
+    "description": "一款专为 Galaxy Watch 5 及以后系列设计的体温测量应用，可调用手表内置温度传感器，提供默认、皮肤和手腕三种测量模式（后两种为实验性校准模式）。",
+    "category": "健康运动",
+    "keywords": [
+      "体温测量",
+      "健康监测",
+      "Galaxy Watch",
+      "传感器",
+      "温度计",
+      "health monitoring",
+      "tiwen",
+      "shengwu chuangan"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iOxBf3f0rmzi",
+    "password": "ccic",
+    "developer": "Tick Tock",
+    "historyVersion": []
+  },
+  {
     "id": 268010413,
     "name": "CPU Info",
     "package": "com.kgurgul.cpuinfo",
@@ -923,6 +956,36 @@
     "historyVersion": []
   },
   {
+    "id": 2279850563,
+    "name": "Swirl Launcher for Wear OS",
+    "package": "design.swirl.wearlauncher",
+    "version": "1.1.1",
+    "code": 20,
+    "minSdk": 23,
+    "size": "1.40 MB",
+    "icon": "assets/images/swirllauncherforwearos/swirllauncherforwearos_icon.webp",
+    "screenshots": [
+      "assets/images/swirllauncherforwearos/swirllauncherforwearos_1.webp",
+      "assets/images/swirllauncherforwearos/swirllauncherforwearos_2.webp",
+      "assets/images/swirllauncherforwearos/swirllauncherforwearos_3.webp",
+      "assets/images/swirllauncherforwearos/swirllauncherforwearos_4.webp",
+      "assets/images/swirllauncherforwearos/swirllauncherforwearos_5.webp"
+    ],
+    "addedTime": 1767280564928,
+    "updateTime": "2026-01-01",
+    "description": "一款采用独特“旋转（Swirl）”交互方式的 Wear OS 启动器。应用图标以动态圆盘形式流转，通过点击或旋转表冠即可快速定位和启动应用，为小屏操作带来新颖体验。",
+    "category": "系统工具",
+    "keywords": [
+      "旋转启动器",
+      "动态启动器",
+      "qidongqi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i0g9k3f0r1eb",
+    "password": "ajh2",
+    "developer": "Swirl Design",
+    "historyVersion": []
+  },
+  {
     "id": 857372679,
     "name": "To-Do List",
     "package": "todolist.scheduleplanner.dailyplanner.todo.reminders",
@@ -1013,6 +1076,34 @@
     "historyVersion": []
   },
   {
+    "id": 1171572150,
+    "name": "WearFiles",
+    "package": "com.dertefter.wearfiles",
+    "version": "1.5.4",
+    "code": 24,
+    "minSdk": 28,
+    "size": "12.85 MB",
+    "icon": "assets/images/wearfiles/wearfiles_icon.webp",
+    "screenshots": [
+      "assets/images/wearfiles/wearfiles_1.webp",
+      "assets/images/wearfiles/wearfiles_2.webp",
+      "assets/images/wearfiles/wearfiles_3.webp",
+      "assets/images/wearfiles/wearfiles_4.webp"
+    ],
+    "addedTime": 1767280565881,
+    "updateTime": "2026-01-01",
+    "description": "一款简洁的开源文件管理器，专为 Wear OS 设计。支持基本的文件查看、删除、复制粘贴操作，并可置顶常用文件/文件夹。使用前需通过ADB手动授予文件权限。",
+    "category": "系统工具",
+    "keywords": [
+      "文件管理",
+      "wenjianguanli"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/is03j3f0r34d",
+    "password": "dmbp",
+    "developer": "Dertefter Labs",
+    "historyVersion": []
+  },
+  {
     "id": 806735725,
     "name": "WearMouse",
     "package": "com.ginkage.wearmouse",
@@ -1087,6 +1178,37 @@
     "historyVersion": []
   },
   {
+    "id": 1844708303,
+    "name": "WristWeb",
+    "package": "angel.gabaldon.wristweb",
+    "version": "3.3",
+    "code": 26,
+    "minSdk": 26,
+    "size": "136.72 MB",
+    "icon": "assets/images/wristweb/wristweb_icon.webp",
+    "screenshots": [
+      "assets/images/wristweb/wristweb_1.webp",
+      "assets/images/wristweb/wristweb_2.webp",
+      "assets/images/wristweb/wristweb_3.webp",
+      "assets/images/wristweb/wristweb_4.webp"
+    ],
+    "addedTime": 1767280566244,
+    "updateTime": "2026-01-01",
+    "description": "一款为 Wear OS 智能手表优化的网页浏览器。界面适配小屏幕，支持语音输入网址、捏合缩放、收藏夹和桌面模式切换，满足腕上紧急信息查询需求。",
+    "category": "系统工具",
+    "keywords": [
+      "浏览器",
+      "网页浏览",
+      "browser",
+      "liulanqi",
+      "yuyin sousuo"
+    ],
+    "downloadUrl": "https://www.123912.com/s/MGfbTd-xOFa3",
+    "password": "",
+    "developer": "Ángel Gabaldón",
+    "historyVersion": []
+  },
+  {
     "id": 3816311160,
     "name": "YoYo日常",
     "package": "com.qiliaokj.yoyowatch",
@@ -1119,6 +1241,39 @@
     "downloadUrl": "https://wwatc.lanzoub.com/izc6T3d5atef",
     "password": "3j4h",
     "developer": "重庆路西法科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3438485975,
+    "name": "myWear File Explorer",
+    "package": "com.mrs.wear_file_explorer",
+    "version": "2.4.5",
+    "code": 121,
+    "minSdk": 26,
+    "size": "14.43 MB",
+    "icon": "assets/images/mywearfileexplorer/mywearfileexplorer_icon.webp",
+    "screenshots": [
+      "assets/images/mywearfileexplorer/mywearfileexplorer_1.webp",
+      "assets/images/mywearfileexplorer/mywearfileexplorer_2.webp",
+      "assets/images/mywearfileexplorer/mywearfileexplorer_3.webp",
+      "assets/images/mywearfileexplorer/mywearfileexplorer_4.webp",
+      "assets/images/mywearfileexplorer/mywearfileexplorer_5.webp"
+    ],
+    "addedTime": 1767280567141,
+    "updateTime": "2026-01-01",
+    "description": "一款专为 Wear OS 设备设计的文件管理器，支持在手表上创建、查看、编辑、复制、移动和删除文件及文件夹，并能与手机互传文件（注意 Wear OS 4 的系统限制）。",
+    "category": "系统工具",
+    "keywords": [
+      "文件管理",
+      "文件管理器",
+      "文件传输",
+      "文本编辑",
+      "wenjian chuanshu",
+      "guanliqi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/ioG5R3f0r17e",
+    "password": "6s88",
+    "developer": "Marcelo R. dos Santos",
     "historyVersion": []
   },
   {
@@ -1155,6 +1310,41 @@
         "password": "67bc"
       }
     ]
+  },
+  {
+    "id": 1000782090,
+    "name": "‎Complications Suite",
+    "package": "com.weartools.weekdayutccomp",
+    "version": "3.9.2-wear",
+    "code": 10020392,
+    "minSdk": 27,
+    "size": "5.90 MB",
+    "icon": "assets/images/complicationssuite/complicationssuite_icon.webp",
+    "screenshots": [
+      "assets/images/complicationssuite/complicationssuite_1.webp",
+      "assets/images/complicationssuite/complicationssuite_2.webp",
+      "assets/images/complicationssuite/complicationssuite_3.webp",
+      "assets/images/complicationssuite/complicationssuite_4.webp",
+      "assets/images/complicationssuite/complicationssuite_5.webp"
+    ],
+    "addedTime": 1767280567619,
+    "updateTime": "2026-01-01",
+    "description": "一款为 Wear OS 表盘提供丰富自定义复杂功能的扩展应用，包含活动启动器、加密货币价格、月相、自定义目标等数十种默认表盘不具备的增强型信息组件。",
+    "category": "系统工具",
+    "keywords": [
+      "表盘复杂功能",
+      "自定义组件",
+      "信息扩展",
+      "月相",
+      "自定义文本",
+      "watch face complications",
+      "zidingyi",
+      "fuzagongneng"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i8uvM3f0qz5a",
+    "password": "d59d",
+    "developer": "amoledwatchfaces™",
+    "historyVersion": []
   },
   {
     "id": 3586248562,
@@ -1221,7 +1411,8 @@
     "password": "an9q",
     "developer": "三星电子株式会社",
     "historyVersion": [],
-    "modAuthor": "Dante63"
+    "modAuthor": "Dante63",
+    "phoneLink": "https://pan.baidu.com/s/1J_hKXgfMEoV7RVvugm5w1A?pwd=fds9 "
   },
   {
     "id": 5318692,
@@ -1769,6 +1960,38 @@
     "historyVersion": []
   },
   {
+    "id": 2649732600,
+    "name": "小轻阅",
+    "package": "com.nurl.litepoetry",
+    "version": "1.1.1",
+    "code": 15,
+    "minSdk": 23,
+    "size": "28.96 MB",
+    "icon": "assets/images/xiaoqingyue/xiaoqingyue_icon.webp",
+    "screenshots": [
+      "assets/images/xiaoqingyue/xiaoqingyue_1.webp",
+      "assets/images/xiaoqingyue/xiaoqingyue_2.webp"
+    ],
+    "addedTime": 1767280576927,
+    "updateTime": "2026-01-01",
+    "description": "一款专为手表打造的诗词歌赋学习应用，拥有海量的诗文库，并提供翻译和注释，是腕上的便携式诗文百科与学习工具。",
+    "category": "学习充电",
+    "keywords": [
+      "诗词",
+      "诗文库",
+      "学习工具",
+      "国学",
+      "古文",
+      "poetry",
+      "shici",
+      "xuexi gongju"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i9cXE3f0s43e",
+    "password": "buxd",
+    "developer": "重庆努优尔科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 2395269569,
     "name": "微信",
     "package": "com.tencent.mm",
@@ -1798,6 +2021,70 @@
     "downloadUrl": "https://easylink.cc/7ao5nq",
     "password": "",
     "developer": "深圳市腾讯计算机系统有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 866099760,
+    "name": "微信支付",
+    "package": "com.tencent.wxpay.watch",
+    "version": "1.1.4",
+    "code": 114,
+    "minSdk": 19,
+    "size": "9.02 MB",
+    "icon": "assets/images/weixinzhifu/weixinzhifu_icon.webp",
+    "screenshots": [
+      "assets/images/weixinzhifu/weixinzhifu_1.webp",
+      "assets/images/weixinzhifu/weixinzhifu_2.webp",
+      "assets/images/weixinzhifu/weixinzhifu_3.webp",
+      "assets/images/weixinzhifu/weixinzhifu_4.webp",
+      "assets/images/weixinzhifu/weixinzhifu_5.webp"
+    ],
+    "addedTime": 1767193132067,
+    "updateTime": "2025-12-31",
+    "description": "微信官方支付应用的手表版本，支持在腕上便捷查看零钱、使用付款码支付、扫描二维码领取红包及查看账单，是日常出行的轻量化支付工具。",
+    "category": "生活服务",
+    "keywords": [
+      "付款码",
+      "移动支付",
+      "红包",
+      "账单",
+      "wechat pay",
+      "zhifu",
+      "lingqian"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i9tn63exnkgf",
+    "password": "b51f",
+    "developer": "深圳市腾讯计算机系统有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 2411203233,
+    "name": "微博",
+    "package": "com.sina.weibo.watch",
+    "version": "1.0.0",
+    "code": 1,
+    "minSdk": 17,
+    "size": "1.83 MB",
+    "icon": "assets/images/weibo/weibo_icon.webp",
+    "screenshots": [
+      "assets/images/weibo/weibo_1.webp",
+      "assets/images/weibo/weibo_2.webp",
+      "assets/images/weibo/weibo_3.webp"
+    ],
+    "addedTime": 1767193132379,
+    "updateTime": "2025-12-31",
+    "description": "微博官方智能手表客户端，让你在腕间即可浏览热搜榜、关注明星大V动态、查看短视频和参与超话社区互动，随时随地发现新鲜事。",
+    "category": "通讯社交",
+    "keywords": [
+      "社交媒体",
+      "热搜榜",
+      "明星动态",
+      "weibo",
+      "reshoubang"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iIMM73exocbi",
+    "password": "3hs5",
+    "developer": "北京微梦创科网络技术有限公司",
     "historyVersion": []
   },
   {
@@ -1832,6 +2119,36 @@
     "downloadUrl": "https://wwatc.lanzoub.com/iJO353e6uora",
     "password": "a79d",
     "developer": "流沙风起",
+    "historyVersion": []
+  },
+  {
+    "id": 55939888,
+    "name": "快递100",
+    "package": "com.heytap.wearable.expressassistant",
+    "version": "1.0.1_1b7b8d1_210603",
+    "code": 10001,
+    "minSdk": 24,
+    "size": "1.30 MB",
+    "icon": "assets/images/kuaidi100/kuaidi100_icon.webp",
+    "screenshots": [
+      "assets/images/kuaidi100/kuaidi100_1.webp"
+    ],
+    "addedTime": 1767280578056,
+    "updateTime": "2026-01-01",
+    "description": "快递物流一站式服务平台的手表版。支持快速查询全球快递单号、实时跟踪物流地图轨迹，并能便捷下单寄件，是腕上的快递管家。",
+    "category": "生活服务",
+    "keywords": [
+      "快递查询",
+      "物流跟踪",
+      "寄快递",
+      "单号查询",
+      "kuaidi100",
+      "wuliu",
+      "cha kuaidi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iKv7P3f0rtwh",
+    "password": "f7gh",
+    "developer": "深圳前海百递网络有限公司",
     "historyVersion": []
   },
   {
@@ -1887,20 +2204,122 @@
     ]
   },
   {
+    "id": 609676067,
+    "name": "抬腕听歌",
+    "package": "com.hankmi.wearmusic",
+    "version": "22.12.06",
+    "code": 524,
+    "minSdk": 19,
+    "size": "0.62 MB",
+    "icon": "assets/images/taiwantingge/taiwantingge_icon.webp",
+    "screenshots": [
+      "assets/images/taiwantingge/taiwantingge_1.webp",
+      "assets/images/taiwantingge/taiwantingge_2.webp",
+      "assets/images/taiwantingge/taiwantingge_3.webp",
+      "assets/images/taiwantingge/taiwantingge_4.webp",
+      "assets/images/taiwantingge/taiwantingge_5.webp",
+      "assets/images/taiwantingge/taiwantingge_6.webp"
+    ],
+    "addedTime": 1767280578907,
+    "updateTime": "2026-01-01",
+    "description": "一款设计经典的手表本地音乐播放器，支持播放列表管理、逐句歌词显示，并有像素风格版本可选，是脱离手机独立听歌的选择。",
+    "category": "影音娱乐",
+    "keywords": [
+      "音乐播放器",
+      "本地音乐",
+      "歌词显示",
+      "像素风",
+      "music player",
+      "bendi yinyue",
+      "geci"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/ivRas3f0seqh",
+    "password": "ecbw",
+    "developer": "汉克米",
+    "historyVersion": []
+  },
+  {
+    "id": 61020259,
+    "name": "抬腕看图",
+    "package": "com.hankmi.picture.wear",
+    "version": "22.8.26",
+    "code": 86,
+    "minSdk": 21,
+    "size": "0.56 MB",
+    "icon": "assets/images/taiwankantu/taiwankantu_icon.webp",
+    "screenshots": [
+      "assets/images/taiwankantu/taiwankantu_1.webp",
+      "assets/images/taiwankantu/taiwankantu_2.webp",
+      "assets/images/taiwankantu/taiwankantu_3.webp"
+    ],
+    "addedTime": 1767280578924,
+    "updateTime": "2026-01-01",
+    "description": "一款专为手表设计的轻量化图库应用，采用HKMI UI 3设计，支持相册分类管理和存储空间清理，方便浏览和管理手表中的图片。",
+    "category": "系统工具",
+    "keywords": [
+      "图库",
+      "图片浏览",
+      "相册管理",
+      "存储清理",
+      "watch gallery",
+      "tuku",
+      "xiangce"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iOaOo3f0r38h",
+    "password": "3iit",
+    "developer": "汉克米",
+    "historyVersion": []
+  },
+  {
+    "id": 1132929581,
+    "name": "抬腕视频",
+    "package": "com.hankmi.media",
+    "version": "23.01.09",
+    "code": 10,
+    "minSdk": 23,
+    "size": "16.60 MB",
+    "icon": "assets/images/taiwanshipin/taiwanshipin_icon.webp",
+    "screenshots": [
+      "assets/images/taiwanshipin/taiwanshipin_1.webp",
+      "assets/images/taiwanshipin/taiwanshipin_2.webp",
+      "assets/images/taiwanshipin/taiwanshipin_3.webp",
+      "assets/images/taiwanshipin/taiwanshipin_4.webp",
+      "assets/images/taiwanshipin/taiwanshipin_5.webp",
+      "assets/images/taiwanshipin/taiwanshipin_6.webp"
+    ],
+    "addedTime": 1767280578957,
+    "updateTime": "2026-01-01",
+    "description": "一款功能齐全的手表本地视频播放器，支持播放从浏览器、QQ等渠道保存的视频，具备进度记忆、倍速播放、硬解和循环模式等专业播放功能。",
+    "category": "影音娱乐",
+    "keywords": [
+      "视频播放器",
+      "本地视频",
+      "倍速播放",
+      "进度记忆",
+      "video player",
+      "shipin bofang",
+      "bendi shipin"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i0SSu3f0sene",
+    "password": "a1jk",
+    "developer": "汉克米",
+    "historyVersion": []
+  },
+  {
     "id": 828016250,
     "name": "搜狗输入法",
     "package": "com.sogou.ime.wear",
-    "version": "3.3.5.2307071528",
-    "code": 43,
-    "minSdk": 19,
-    "size": "18.82 MB",
+    "version": "3.2.4.2509260948",
+    "code": 44,
+    "minSdk": 24,
+    "size": "22.95 MB",
     "icon": "assets/images/sougoushurufa/sougoushurufa_icon.webp",
     "screenshots": [
       "assets/images/sougoushurufa/sougoushurufa_1.webp",
       "assets/images/sougoushurufa/sougoushurufa_2.webp"
     ],
     "addedTime": 1764730745299,
-    "updateTime": "2025-12-15",
+    "updateTime": "2025-12-31",
     "description": "专为手表优化的智能输入工具，支持语音、手写及精美皮肤，在小屏幕上也能实现高效流畅的文字输入。",
     "category": "效率办公",
     "keywords": [
@@ -1910,10 +2329,18 @@
       "sogou",
       "语音"
     ],
-    "downloadUrl": "https://wwatc.lanzoub.com/iXJMI3d5a00h",
-    "password": "ebvu",
+    "downloadUrl": "https://wwatc.lanzoub.com/i4qVJ3exorbi",
+    "password": "2ehe",
     "developer": "北京搜狗信息服务有限公司",
     "historyVersion": [
+      {
+        "version": "3.3.5.2307071528",
+        "code": 43,
+        "minSdk": 19,
+        "size": "18.82 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/iXJMI3d5a00h",
+        "password": "ebvu"
+      },
       {
         "version": "3.2.0.2404181130",
         "code": 37,
@@ -1952,6 +2379,82 @@
     "password": "",
     "developer": "支付宝（杭州）信息技术有限公司",
     "historyVersion": []
+  },
+  {
+    "id": 1333474249,
+    "name": "星露谷物语风格表盘",
+    "package": "com.watchfacestudio.stardewlike",
+    "version": "1.5",
+    "code": 10000008,
+    "minSdk": 34,
+    "size": "11.67 MB",
+    "icon": "assets/images/xinglouguwuyufenggebiaopan/xinglouguwuyufenggebiaopan_icon.webp",
+    "screenshots": [
+      "assets/images/xinglouguwuyufenggebiaopan/xinglouguwuyufenggebiaopan_1.webp",
+      "assets/images/xinglouguwuyufenggebiaopan/xinglouguwuyufenggebiaopan_2.webp",
+      "assets/images/xinglouguwuyufenggebiaopan/xinglouguwuyufenggebiaopan_3.webp"
+    ],
+    "addedTime": 1767193135243,
+    "updateTime": "2025-12-31",
+    "description": "一款深受《星露谷物语》启发的自制像素风表盘，内置多款壁纸，支持AOD息屏、天气季节感知、月相显示及智能宠物互动，将游戏情怀与实用功能结合。",
+    "category": "表盘美化",
+    "keywords": [
+      "xinglugu",
+      "biaopan",
+      "表盘"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/icjLP3exoexc",
+    "password": "hq6f",
+    "developer": "西瓜发电机xg",
+    "historyVersion": []
+  },
+  {
+    "id": 3836853831,
+    "name": "比亚迪",
+    "package": "com.byd.revolution.watchkitapp",
+    "version": "2.6.0",
+    "code": 470,
+    "minSdk": 27,
+    "size": "39.29 MB",
+    "icon": "assets/images/biyadi/biyadi_icon.webp",
+    "screenshots": [
+      "assets/images/biyadi/biyadi_1.webp",
+      "assets/images/biyadi/biyadi_2.webp"
+    ],
+    "addedTime": 1767193136730,
+    "updateTime": "2025-12-31",
+    "description": "比亚迪汽车用户服务与智慧互联。\n比亚迪App是为手表用户打造的一款手表钥匙应用。通过比亚迪App，为手表用户提供车况实时数据、远程车控和近场蓝牙车控等多项服务，给手表用户带来更加智能、便利、无忧的用车体验。可将手机App更新至相应版本及以上(比亚迪：4.0.0（鸿蒙）/9.0.0（安卓和iOS）、比亚迪王朝：8.7.0、比亚迪海洋：2.7.0、腾势汽车：3.3.5、方程豹汽车:3.2.0、仰望汽车：3.4.0）以便扫码登录进行使用。",
+    "category": "生活服务",
+    "keywords": [
+      "汽车互联",
+      "手表车钥匙",
+      "远程控车",
+      "车况查看",
+      "BYD",
+      "cheliang kongzhi",
+      "yaochi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i1VQN3exo0mh",
+    "password": "4dbg",
+    "developer": "比亚迪汽车工业有限公司",
+    "historyVersion": [
+      {
+        "version": "2.4.0",
+        "code": 450,
+        "minSdk": 27,
+        "size": "38.35 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/ih1th3exnw1c",
+        "password": "e5ct"
+      },
+      {
+        "version": "2.1.0",
+        "code": 420,
+        "minSdk": 27,
+        "size": "38.29 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/iuU7E3exnrsj",
+        "password": "9evt"
+      }
+    ]
   },
   {
     "id": 4075175165,
@@ -2298,6 +2801,66 @@
     "historyVersion": []
   },
   {
+    "id": 1968955834,
+    "name": "腕上启动器",
+    "package": "com.kelei.launcherforwearosv2",
+    "version": "5.0",
+    "code": 1,
+    "minSdk": 25,
+    "size": "19.49 MB",
+    "icon": "assets/images/wanshangqidongqi/wanshangqidongqi_icon.webp",
+    "screenshots": [
+      "assets/images/wanshangqidongqi/wanshangqidongqi_1.webp",
+      "assets/images/wanshangqidongqi/wanshangqidongqi_2.webp",
+      "assets/images/wanshangqidongqi/wanshangqidongqi_3.webp"
+    ],
+    "addedTime": 1767280589594,
+    "updateTime": "2026-01-01",
+    "description": "一款可替换系统默认桌面的 Wear OS 第三方启动器，支持用户自定义主题颜色和内存清理等功能，旨在提供更个性化的腕上主屏体验。",
+    "category": "系统工具",
+    "keywords": [
+      "内存清理",
+      "launcher",
+      "neicun qingli"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/imAe03f0r52d",
+    "password": "87pg",
+    "developer": "Ke Lei",
+    "historyVersion": []
+  },
+  {
+    "id": 2920462814,
+    "name": "腕上周期表",
+    "package": "com.irregular.wear.elements.re",
+    "version": "2.0",
+    "code": 100010,
+    "minSdk": 14,
+    "size": "4.31 MB",
+    "icon": "assets/images/wanshangzhouqibiao/wanshangzhouqibiao_icon.webp",
+    "screenshots": [
+      "assets/images/wanshangzhouqibiao/wanshangzhouqibiao_1.webp",
+      "assets/images/wanshangzhouqibiao/wanshangzhouqibiao_2.webp",
+      "assets/images/wanshangzhouqibiao/wanshangzhouqibiao_3.webp"
+    ],
+    "addedTime": 1767193144707,
+    "updateTime": "2025-12-31",
+    "description": "一款为智能手表深度优化的化学元素周期表工具，支持即时查询元素详情、按类别筛选、学习模式及个性化设置，是化学学习者与科研工作者的腕上知识库。",
+    "category": "学习充电",
+    "keywords": [
+      "化学",
+      "学习工具",
+      "元素查询",
+      "科学",
+      "chemistry",
+      "periodic table",
+      "huaxue xuexi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iszES3exoa3i",
+    "password": "c7j7",
+    "developer": "irregular",
+    "historyVersion": []
+  },
+  {
     "id": 1841659035,
     "name": "腕上哔哩",
     "package": "cn.luern0313.wristbilibili",
@@ -2460,7 +3023,7 @@
     ],
     "downloadUrl": "https://easylink.cc/n369sd",
     "password": "",
-    "developer": "Chongqing Nurl Technology Co., Ltd.,",
+    "developer": "重庆努优尔科技有限公司",
     "historyVersion": []
   },
   {
@@ -2630,6 +3193,39 @@
     "historyVersion": []
   },
   {
+    "id": 2551996793,
+    "name": "起源阅读",
+    "package": "xyz.osdn.bookreader",
+    "version": "v1.9修复版",
+    "code": 41,
+    "minSdk": 21,
+    "size": "13.05 MB",
+    "icon": "assets/images/qiyuanyuedu/qiyuanyuedu_icon.webp",
+    "screenshots": [
+      "assets/images/qiyuanyuedu/qiyuanyuedu_1.webp",
+      "assets/images/qiyuanyuedu/qiyuanyuedu_2.webp",
+      "assets/images/qiyuanyuedu/qiyuanyuedu_3.webp",
+      "assets/images/qiyuanyuedu/qiyuanyuedu_4.webp"
+    ],
+    "addedTime": 1767280593512,
+    "updateTime": "2026-01-01",
+    "description": "一款手表端的轻量级小说阅读器，支持在线搜索和阅读网络文学作品，也可从本地导入文本文件，方便在通勤等碎片时间进行阅读。",
+    "category": "学习充电",
+    "keywords": [
+      "小说阅读器",
+      "在线阅读",
+      "本地导入",
+      "文本阅读",
+      "reading app",
+      "yueduqi",
+      "xiaoshuo"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i3ED83f0s15i",
+    "password": "9cje",
+    "developer": "LouisonH",
+    "historyVersion": []
+  },
+  {
     "id": 3956258557,
     "name": "酷我音乐",
     "package": "cn.kuwo.wearplayer",
@@ -2709,6 +3305,38 @@
     "historyVersion": []
   },
   {
+    "id": 2463721091,
+    "name": "酷狗音乐",
+    "package": "com.kugou.android.watch",
+    "version": "1.0.0.4",
+    "code": 1004,
+    "minSdk": 25,
+    "size": "22.52 MB",
+    "icon": "assets/images/kugouyinle/kugouyinle_icon.webp",
+    "screenshots": [
+      "assets/images/kugouyinle/kugouyinle_1.webp",
+      "assets/images/kugouyinle/kugouyinle_2.webp",
+      "assets/images/kugouyinle/kugouyinle_3.webp"
+    ],
+    "addedTime": 1766933897332,
+    "updateTime": "2025-12-28",
+    "description": "酷狗音乐，是一款集听歌、K歌、音乐视频于一体的多功能TV端应用，为音乐、K歌爱好者量身定制。海量庞大曲库、沉浸式播放音效、K歌智能评分系统，让热爱音乐的你得心应手，享受更高品质的大屏K歌和音乐体验。",
+    "category": "影音娱乐",
+    "keywords": [
+      "听歌",
+      "音乐播放器",
+      "曲库",
+      "音效",
+      "kugou",
+      "yinyue",
+      "gequ"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i9VO13exok1g",
+    "password": "6gmd",
+    "developer": "广州酷狗计算机科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 2736263233,
     "name": "钱迹",
     "package": "com.litangtech.qianji.watchand",
@@ -2783,7 +3411,7 @@
     ],
     "downloadUrl": "https://easylink.cc/xwx311",
     "password": "",
-    "developer": "Chongqing Nurl Technology Co., Ltd.,",
+    "developer": "重庆努优尔科技有限公司",
     "historyVersion": []
   },
   {

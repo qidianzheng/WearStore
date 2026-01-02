@@ -1,17 +1,15 @@
+/* js/ui.js */
 import { escapeHtml, isAppCompatible, getBestMatchVersion, apiMap, DEFAULT_ICON } from './utils.js';
 
 let globalZIndex = 1350;
 
-// 导航栈
-const appNavigationStack = [];
-
+// 全局图片错误处理
 window.handleImgError = function (img) {
   img.onerror = null;
   img.src = DEFAULT_ICON;
   img.classList.add('image-error');
 };
 
-// 创建应用卡片
 export function createCard(app, onClickCallback) {
   const card = document.createElement('div');
   card.className = 'card';
@@ -24,37 +22,148 @@ export function createCard(app, onClickCallback) {
         </div>
         <span class="material-symbols-rounded card-action-icon color-primary">arrow_forward</span>
     `;
-  card.onclick = () => {
-    appNavigationStack.length = 0;
-    onClickCallback(app);
-  };
+  card.onclick = () => onClickCallback(app);
   return card;
 }
 
-// 渲染应用详情弹窗
-export function renderAppModal(app) {
-  // 1. 防重检查
-  const allModals = Array.from(document.querySelectorAll('.modal-overlay'));
-  if (allModals.length > 0) {
-    allModals.sort((a, b) => (parseInt(a.style.zIndex) || 0) - (parseInt(b.style.zIndex) || 0));
-    const topModal = allModals[allModals.length - 1];
-    if (topModal.getAttribute('data-id') == app.id) return;
+// 历史版本简易卡片
+function createHistoryCard(appVersionData, onClickCallback) {
+  const card = document.createElement('div');
+  card.className = 'history-simple-card';
+
+  card.innerHTML = `
+        <div class="history-content">
+            <div class="history-name">${escapeHtml(appVersionData.name)}</div>
+            <div class="history-ver">${escapeHtml(appVersionData.version)} <span style="opacity:0.6">| ${escapeHtml(appVersionData.size || '未知')}</span></div>
+        </div>
+        <span class="material-symbols-rounded card-action-icon color-primary">arrow_forward</span>
+    `;
+  card.onclick = () => onClickCallback(appVersionData);
+  return card;
+}
+
+// 打开历史版本窗口 (支持堆叠)
+function openHistoryModal(rootApp) {
+  let allVersions = [];
+
+  // 主版本
+  allVersions.push({
+    ...rootApp,
+    isSpecificVersion: true
+  });
+
+  // 历史版本
+  if (rootApp.historyVersion && rootApp.historyVersion.length > 0) {
+    rootApp.historyVersion.forEach(v => {
+      allVersions.push({
+        ...rootApp,
+        version: v.version,
+        code: v.code,
+        size: v.size,
+        minSdk: v.minSdk,
+        downloadUrl: v.downloadUrl,
+        password: v.password,
+        isRecommended: v.isRecommended,
+        isSpecificVersion: true
+      });
+    });
   }
 
-  // 2. 数据准备
+  // 排序
+  allVersions.sort((a, b) => (parseInt(b.code) || 0) - (parseInt(a.code) || 0));
+
+  // 计算层级
+  let maxZ = 1300;
+  document.querySelectorAll('.modal-overlay').forEach(el => {
+    const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
+    if (z > maxZ) maxZ = z;
+  });
+  const newZIndex = maxZ + 2;
+
+  // 动态创建
+  const modalOverlay = document.createElement('div');
+  modalOverlay.className = 'modal-overlay';
+  modalOverlay.style.zIndex = newZIndex;
+
+  // 🔥 修复关键：给历史窗口也加上 data-package
+  // 这样当历史窗口在顶层时，URL Hash 依然是 #app=com.xxx，不会变成空白，防止状态丢失
+  modalOverlay.setAttribute('data-package', rootApp.package);
+  modalOverlay.setAttribute('data-type', 'history');
+
+  modalOverlay.innerHTML = `
+    <div class="modal">
+      <div class="dev-modal-layout">
+        <div class="window-header">
+          <span id="historyModalTitle">历史版本 - ${escapeHtml(rootApp.name)}</span>
+          <span class="material-symbols-rounded unified-close-btn header-close-img">close</span>
+        </div>
+        <div class="dev-content">
+          <div class="simplified-grid" id="historyAppsContainer_Dynamic"></div>
+        </div>
+      </div>
+    </div>
+    `;
+
+  const container = modalOverlay.querySelector('#historyAppsContainer_Dynamic');
+  allVersions.forEach(verApp => {
+    const card = createHistoryCard(verApp, (target) => {
+      // 点击历史项，直接堆叠打开新窗口
+      renderAppModal(target);
+    });
+    container.appendChild(card);
+  });
+
+  const closeBtn = modalOverlay.querySelector('.header-close-img');
+  const closeFunc = () => {
+    modalOverlay.classList.remove('active');
+    setTimeout(() => {
+      modalOverlay.remove();
+
+      // 关闭后恢复上一层的 Hash
+      const remainingModals = Array.from(document.querySelectorAll('.modal-overlay.active'))
+        .sort((a, b) => (parseInt(window.getComputedStyle(a).zIndex) || 0) - (parseInt(window.getComputedStyle(b).zIndex) || 0));
+
+      if (remainingModals.length > 0) {
+        const topModal = remainingModals[remainingModals.length - 1];
+        const pkg = topModal.getAttribute('data-package');
+        if (pkg) history.replaceState(null, null, `#app=${pkg}`);
+        else history.replaceState(null, null, ' ');
+      } else {
+        history.replaceState(null, null, ' ');
+        document.body.style.overflow = '';
+      }
+    }, 300);
+  };
+  closeBtn.onclick = closeFunc;
+
+  document.body.appendChild(modalOverlay);
+  document.body.style.overflow = 'hidden';
+  setTimeout(() => modalOverlay.classList.add('active'), 10);
+}
+
+// 渲染应用详情页
+export function renderAppModal(app) {
+  // 🔥 核心修改：移除所有防重检查
+  // 只要调用，就无脑弹窗，实现无限堆叠
+
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
-  const bestVer = getBestMatchVersion(app, userApi);
-  const isCompat = !!bestVer;
-  const displayData = isCompat ? bestVer : app;
+
+  let displayData = app;
+  if (!app.isSpecificVersion) {
+    const bestVer = getBestMatchVersion(app, userApi);
+    displayData = bestVer ? bestVer : app;
+  }
+
+  const isCompat = (userApi === 0) || (userApi >= (parseInt(displayData.minSdk) || 0));
 
   if (window.location.hash !== `#app=${app.package}`) {
     window.location.hash = `app=${app.package}`;
   }
 
   // 计算层级
-  let currentMaxZ = globalZIndex;
+  let currentMaxZ = 1300;
   document.querySelectorAll('.modal-overlay').forEach(el => {
-    const z = parseInt(el.style.zIndex) || 0;
+    const z = parseInt(window.getComputedStyle(el).zIndex) || 0;
     if (z > currentMaxZ) currentMaxZ = z;
   });
   globalZIndex = currentMaxZ + 2;
@@ -64,13 +173,14 @@ export function renderAppModal(app) {
   modalOverlay.style.zIndex = globalZIndex;
   modalOverlay.setAttribute('data-id', app.id);
   modalOverlay.setAttribute('data-package', app.package);
+  modalOverlay.setAttribute('data-code', displayData.code || '');
 
   const screenshotsHtml = (app.screenshots || []).map(src =>
     `<img src="${escapeHtml(src)}" class="screenshot" loading="lazy" onerror="handleImgError(this)">`
   ).join('');
 
   const compatWarning = !isCompat ?
-    `<div class="modal-warning-row"><div class="compat-warning-box">此应用无法在您的手表上使用，您需要 Android ${apiMap[displayData.minSdk] || displayData.minSdk}+ 才能使用此应用</div></div>` : '';
+    `<div class="modal-warning-row"><div class="compat-warning-box">WearStore未向您提供此应用，您需要 Android ${apiMap[displayData.minSdk] || displayData.minSdk}+ 才能使用此应用</div></div>` : '';
 
   let dlUrl = displayData.downloadUrl;
 
@@ -85,6 +195,12 @@ export function renderAppModal(app) {
     `<div class="password-box" title="点击复制密码" id="copyPwdBtn">
        <span class="material-symbols-rounded" style="font-size:16px">key</span>
        <span>密码: ${escapeHtml(pwd)}</span>
+     </div>` : '';
+
+  const phoneLink = app.phoneLink;
+  const phoneHtml = phoneLink ?
+    `<div class="btn-icon-square" id="phoneBtn" title="下载手机配套应用">
+       <span class="material-symbols-rounded">smartphone</span>
      </div>` : '';
 
   const fullVersionString = displayCode ? `${escapeHtml(displayVer)} (${escapeHtml(displayCode)})` : escapeHtml(displayVer);
@@ -108,46 +224,29 @@ export function renderAppModal(app) {
        </span>` :
     `<span class="author-link" data-name="${devName}" data-type="original">${devName}</span>`;
 
-  // --- 多应用推荐逻辑 ---
   let recommendHtml = '';
   if (window.allApps) {
     let targetApps = [];
-
-    // 1. 优先读取 recommendIds 数组
     if (app.recommendIds && Array.isArray(app.recommendIds)) {
-      // 根据 ID 列表找到所有应用对象
       targetApps = window.allApps.filter(a => app.recommendIds.includes(a.id));
-      // 按数组里的顺序排序
       targetApps.sort((a, b) => app.recommendIds.indexOf(a.id) - app.recommendIds.indexOf(b.id));
-    }
-    // 2. 兼容旧的 recommendId (单数)
-    else if (app.recommendId) {
+    } else if (app.recommendId) {
       const t = window.allApps.find(a => a.id === app.recommendId);
       if (t) targetApps.push(t);
-    }
-    // 3. 兼容包名查找 (自动查找同包名其他应用，排除自己)
-    else if (app.recommendPackage) {
+    } else if (app.recommendPackage) {
       targetApps = window.allApps.filter(a => a.package === app.recommendPackage && a.id !== app.id);
     }
 
-    // 4. 生成列表 HTML
     if (targetApps.length > 0) {
-      recommendHtml += `<div class="recommend-container">`; // 外层容器
-
+      recommendHtml += `<div class="recommend-container">`;
       targetApps.forEach((targetApp, index) => {
         let reasonText = '';
-        if (targetApps.length === 1 && app.recommendReason) {
-          reasonText = ` - ${app.recommendReason}`;
-        }
+        if (targetApps.length === 1 && app.recommendReason) reasonText = ` - ${app.recommendReason}`;
         const sizeInfo = targetApp.size ? ` (${targetApp.size})` : '';
         const displayText = `${targetApp.name}${reasonText}${sizeInfo}`;
-
-        // 生成单个卡片，注意加上 data-target-id
         recommendHtml += `
                 <div class="recommend-card">
-                    <div class="recommend-icon-wrapper">
-                        <span class="material-symbols-rounded" style="font-size:20px; color:var(--text-secondary);">info</span>
-                    </div>
+                    <div class="recommend-icon-wrapper"><span class="material-symbols-rounded" style="font-size:20px; color:var(--text-secondary);">info</span></div>
                     <div class="recommend-content recommend-click-item" data-target-id="${targetApp.id}">
                         <div class="recommend-title">类似应用</div>
                         <div class="recommend-desc">${escapeHtml(displayText)}</div>
@@ -155,18 +254,12 @@ export function renderAppModal(app) {
                     </div>
                 </div>
               `;
-
-        // 如果不是最后一个，加分割线
-        if (index < targetApps.length - 1) {
-          recommendHtml += `<div class="recommend-divider"></div>`;
-        }
+        if (index < targetApps.length - 1) recommendHtml += `<div class="recommend-divider"></div>`;
       });
-
       recommendHtml += `</div>`;
     }
   }
 
-  // --- 构建 DOM ---
   modalOverlay.innerHTML = `
         <div class="modal">
             <div class="modal-fixed-top">
@@ -189,6 +282,10 @@ export function renderAppModal(app) {
                         <span>下载</span>
                     </div>
                     ${passwordHtml}
+                    ${phoneHtml}
+                    <div class="btn-icon-square" id="historyBtn" title="历史版本">
+                        <span class="material-symbols-rounded">history</span>
+                    </div>
                     <div class="btn-icon-square" id="shareBtn" title="复制链接">
                         <span class="material-symbols-rounded">share</span>
                     </div>
@@ -206,7 +303,7 @@ export function renderAppModal(app) {
                     <div class="detail-item" style="grid-column: 1 / -1;"><span class="detail-label">包名</span><span class="detail-value" style="font-size: 0.85rem; word-break: break-all;">${escapeHtml(app.package)}</span></div>
                 </div>
                 <div class="section-title">应用简介</div>
-                <p style="color: var(--text-secondary); line-height: 1.6;">${escapeHtml(app.description || '暂无描述')}</p>
+                <p class="app-description">${escapeHtml(app.description || '暂无描述')}</p>
                 <div class="section-title">应用截图</div>
                 <div class="screenshots-wrapper">
                     <button class="scroll-btn left"><span class="material-symbols-rounded">chevron_left</span></button>
@@ -219,7 +316,6 @@ export function renderAppModal(app) {
 
   // --- 事件绑定 ---
 
-  // 批量绑定推荐点击事件
   const recommendItems = modalOverlay.querySelectorAll('.recommend-click-item');
   recommendItems.forEach(item => {
     item.onclick = () => {
@@ -229,27 +325,52 @@ export function renderAppModal(app) {
     };
   });
 
+  modalOverlay.querySelector('#historyBtn').onclick = () => {
+    if (window.allApps) {
+      const rootApp = window.allApps.find(a => a.id === app.id) ||
+        window.allApps.find(a => a.package === app.package && a.historyVersion);
+      if (rootApp) openHistoryModal(rootApp);
+    }
+  };
+
+  if (phoneHtml) {
+    modalOverlay.querySelector('#phoneBtn').onclick = () => {
+      const link = document.createElement('a');
+      link.href = phoneLink;
+      link.target = '_blank';
+      link.rel = 'noreferrer noopener';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
+  }
+
   const closeBtn = modalOverlay.querySelector('.close-btn-img');
   const closeFunc = () => {
     modalOverlay.classList.remove('active');
     setTimeout(() => {
       modalOverlay.remove();
+
+      // 关闭后，寻找剩下的最顶层窗口，恢复 Hash
       const remainingModals = Array.from(document.querySelectorAll('.modal-overlay.active'))
         .sort((a, b) => (parseInt(window.getComputedStyle(a).zIndex) || 0) - (parseInt(window.getComputedStyle(b).zIndex) || 0));
 
       if (remainingModals.length > 0) {
         const topModal = remainingModals[remainingModals.length - 1];
+        // 获取包名，历史窗口现在也有包名了，所以逻辑统一
         const pkg = topModal.getAttribute('data-package');
         if (pkg) {
           history.replaceState(null, null, `#app=${pkg}`);
         } else {
+          // 如果是开发者窗口(无pkg)，清空
           history.replaceState(null, null, ' ');
         }
       } else {
+        // 全部关闭，回主页
         history.replaceState(null, null, ' ');
         document.body.style.overflow = '';
       }
-    }, 250);
+    }, 300);
   };
   closeBtn.onclick = closeFunc;
 
@@ -314,10 +435,6 @@ export function renderAppModal(app) {
   document.body.appendChild(modalOverlay);
   document.body.style.overflow = 'hidden';
   setTimeout(() => modalOverlay.classList.add('active'), 10);
-
-  if (window.location.hash !== `#app=${app.package}`) {
-    window.location.hash = `app=${app.package}`;
-  }
 }
 
 // Toast

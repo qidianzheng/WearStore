@@ -3,15 +3,15 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+
   <title>WearStore - 发现心动的手表软件</title>
   <meta name="description" content="WearStore是一个为WearOS手表提供第三方应用的软件商店，旨在帮您充分发掘并利用手表的潜能">
   <meta name="description" content="WearStore,WearOS,手表软件,三星手表,手表商店">
-  <link rel="icon" href="./assets/WearStore.png">
-  <!-- 引入样式 -->
   <link rel="stylesheet" href="./css/variables.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./assets/WearStore.png">
 </head>
 
 <body>
@@ -27,7 +27,6 @@
         <input type="text" id="searchInput" class="search-box" placeholder="搜索应用..." autocomplete="off">
         <span class="material-symbols-rounded clear-btn-icon" id="clearSearchBtn" style="display: none;">cancel</span>
         <span class="material-symbols-rounded search-btn-icon" id="searchBtn">search</span>
-        <!-- 搜索联想列表容器 -->
         <div id="searchSuggestions" class="search-suggestions"></div>
       </div>
 
@@ -39,21 +38,22 @@
 
   <!-- ================= 主内容区 ================= -->
   <div class="container">
-    <div class="cards-grid" id="cardsContainer">
-      <!-- JS 动态生成应用卡片 -->
-    </div>
+    <div class="cards-grid" id="cardsContainer"></div>
   </div>
-  <div id="toast-container" class="toast-container"></div>
+
   <!-- ================= 页脚 ================= -->
   <footer class="site-footer">
     <div class="footer-line-1">WearStore</div>
     <div class="footer-line-2">
       本站资源收集于网络，仅供学习交流。<br>
-      如有侵权请联系dzq8719@gmail.com
+      软件侵权、意见反馈、软件投稿请联系dzq8719@gmail.com
     </div>
   </footer>
 
-  <!-- ================= 弹窗区域 (全屏覆盖) ================= -->
+  <!-- ================= Toast ================= -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- ================= 弹窗区域 ================= -->
 
   <!-- 1. 菜单弹窗 -->
   <div class="modal-overlay" id="menuModalOverlay">
@@ -65,9 +65,7 @@
             id="closeMenuModal">close</span>
         </div>
         <div class="menu-content">
-          <!-- 顶部功能按钮网格 (2x2) -->
           <div class="menu-top-grid">
-            <!-- 安卓版本 -->
             <div class="menu-action-card" id="menuVersionTrigger">
               <span class="material-symbols-rounded menu-action-icon color-primary">android</span>
               <div class="menu-action-text-group">
@@ -75,7 +73,6 @@
                 <span class="menu-action-sub" id="menuVersionText">未选择</span>
               </div>
             </div>
-            <!-- 主题切换 -->
             <div class="menu-action-card" id="menuThemeToggle">
               <span class="material-symbols-rounded menu-action-icon color-normal theme-icon">brightness_5</span>
               <div class="menu-action-text-group">
@@ -83,7 +80,6 @@
                 <span class="menu-action-sub">切换外观</span>
               </div>
             </div>
-            <!-- 最新上架 -->
             <div class="menu-action-card" id="newArrivalsBtn">
               <span class="material-symbols-rounded menu-action-icon color-gold">new_releases</span>
               <div class="menu-action-text-group">
@@ -91,7 +87,6 @@
                 <span class="menu-action-sub">查看新入库</span>
               </div>
             </div>
-            <!-- 最近更新 -->
             <div class="menu-action-card" id="recentUpdatesBtn">
               <span class="material-symbols-rounded menu-action-icon" style="color: #3b82f6;">update</span>
               <div class="menu-action-text-group">
@@ -100,15 +95,10 @@
               </div>
             </div>
           </div>
-
           <div class="menu-separator"></div>
-
-          <!-- 分类列表区域 -->
           <div class="menu-section">
             <h3 style="font-size:1rem; color:var(--text-secondary); margin-bottom:10px;">分类浏览</h3>
-            <div class="menu-category-grid" id="menuCategoryGrid">
-              <!-- JS 动态生成分类按钮 -->
-            </div>
+            <div class="menu-category-grid" id="menuCategoryGrid"></div>
           </div>
         </div>
       </div>
@@ -136,8 +126,7 @@
       <div class="dev-modal-layout">
         <div class="window-header">
           <span id="devModalTitle">开发者名称</span>
-          <span class="material-symbols-rounded unified-close-btn header-close-img"
-            onclick="document.getElementById('devModalOverlay').classList.remove('active')">close</span>
+          <span class="material-symbols-rounded unified-close-btn header-close-img">close</span>
         </div>
         <div class="dev-content">
           <div class="cards-grid" id="devAppsContainer"></div>
@@ -146,7 +135,7 @@
     </div>
   </div>
 
-  <!-- 4. 欢迎/版本选择弹窗 -->
+  <!-- 5. 欢迎/版本选择弹窗 -->
   <div class="modal-overlay" id="welcomeModalOverlay">
     <div class="modal">
       <div class="welcome-content">
@@ -157,7 +146,6 @@
     </div>
   </div>
 
-  <!-- 引入主程序 -->
   <script type="module" src="./js/main.js"></script>
 </body>
 
