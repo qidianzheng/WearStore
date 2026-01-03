@@ -1,5 +1,3 @@
-/* css/style.css */
-
 /* =========================================
    1. 字体与图标配置
    ========================================= */
@@ -44,6 +42,7 @@
   color: var(--icon-normal);
 }
 
+/* 分类专用颜色 */
 .color-blue {
   color: #3b82f6;
 }
@@ -409,7 +408,6 @@ body {
   min-width: 0;
 }
 
-/* 🔥 修复 7: 应用名称太长自动隐藏，不换行 */
 .card-title {
   font-size: 1.05rem;
   font-weight: 600;
@@ -417,16 +415,17 @@ body {
   margin-bottom: 4px;
   line-height: 1.4;
   white-space: nowrap;
-  /* 强制不换行 */
   overflow: hidden;
-  /* 超出隐藏 */
   text-overflow: ellipsis;
-  /* 显示省略号 */
 }
 
 .card-dev-name {
   font-size: 0.85rem;
   color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2;
 }
 
 .card-action-icon {
@@ -441,10 +440,8 @@ body {
   opacity: 1;
 }
 
-/* 🔥 修复 1: 历史版本简易卡片样式 (无图标，上下布局) */
 .history-simple-card {
   background: var(--card-glass);
-  /* 统一卡片背景 */
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
   padding: 16px;
@@ -452,12 +449,9 @@ body {
   transition: var(--transition);
   display: flex;
   align-items: center;
-  /* 左右居中 */
   justify-content: space-between;
-  /* 箭头靠右 */
   gap: 12px;
   box-shadow: var(--shadow-md);
-  /* 统一阴影 */
   min-height: 70px;
 }
 
@@ -471,23 +465,23 @@ body {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
   min-width: 0;
-  /* 配合文字截断 */
 }
 
 .history-name {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--text-main);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: normal;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .history-ver {
-  font-size: 0.85rem;
-  color: var(--text-secondary);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-main);
 }
 
 /* 不兼容提示卡片 */
@@ -570,7 +564,7 @@ body {
 }
 
 /* =========================================
-   6. 模态框 (Modal) 通用框架
+   6. 模态框 (Modal)
    ========================================= */
 
 .modal-overlay {
@@ -713,9 +707,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-
-  /* 🔥 修复 3: 标题字大一点 */
-  font-size: 1.5rem !important;
+  font-size: 1.15rem !important;
   font-weight: 700;
 }
 
@@ -737,7 +729,7 @@ body {
 }
 
 .modal-new-title {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 700;
   color: var(--text-main);
   line-height: 1.2;
@@ -848,7 +840,7 @@ body {
   background: var(--menu-item-bg);
   border: 1px solid var(--input-border);
   border-radius: 10px;
-  color: var(--text-secondary);
+  color: var(--text-main);
   font-size: 0.85rem;
   user-select: text;
   cursor: pointer;
@@ -881,20 +873,16 @@ body {
   flex-grow: 1;
   min-height: 0;
   overflow-y: auto;
-  /* 🔥 修复 5: 隐藏详情页滚动条 (但保留功能) */
-  scrollbar-width: none;
-  /* Firefox */
   padding: 15px 20px 25px 20px;
   width: 100%;
   box-sizing: border-box;
+  scrollbar-width: none;
 }
 
-/* Chrome/Edge 隐藏滚动条 */
 .modal-content::-webkit-scrollbar {
   display: none;
 }
 
-/* 推荐应用列表 */
 .recommend-container {
   margin: 0 0 15px 0;
   background: var(--menu-item-bg);
@@ -958,7 +946,6 @@ body {
   text-decoration: underline;
 }
 
-/* 投稿人卡片 */
 .contributor-card {
   display: flex;
   align-items: center;
@@ -992,23 +979,23 @@ body {
 }
 
 .detail-label {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--text-secondary);
   margin-bottom: 4px;
   display: flex;
   align-items: center;
   gap: 3px;
+  opacity: 0.8;
 }
 
 .detail-value {
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 1.05rem;
+  font-weight: 500;
   color: var(--text-main);
   word-break: break-all;
   line-height: 1.4;
 }
 
-/* 推荐标签 */
 .badge-recommend {
   display: inline-flex;
   align-items: center;
@@ -1025,16 +1012,6 @@ body {
   top: 1px;
 }
 
-/* 应用简介文本 */
-.app-description {
-  color: var(--text-secondary);
-  line-height: 1.6;
-  font-size: 0.95rem;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  margin-top: 10px;
-}
-
 .section-title {
   font-size: 1.2rem;
   font-weight: 700;
@@ -1042,7 +1019,6 @@ body {
   color: var(--text-main);
 }
 
-/* 截图 */
 .screenshots-wrapper {
   position: relative;
   display: flex;
@@ -1055,11 +1031,11 @@ body {
   overflow-x: auto;
   padding-top: 5px;
   padding-bottom: 30px;
+  scrollbar-width: thin;
   scroll-behavior: smooth;
   width: 100%;
   padding-left: 5px;
   padding-right: 20px;
-
   scrollbar-width: none;
 }
 
@@ -1127,9 +1103,6 @@ body {
   }
 }
 
-/* =========================================
-   8. 菜单弹窗特有样式
-   ========================================= */
 .menu-header-close-btn {
   position: absolute;
   right: 20px;
@@ -1247,9 +1220,6 @@ body {
   font-size: 0.95rem;
 }
 
-/* =========================================
-   9. 窗口头部 (修复 2: 恢复样式，确保和历史窗口一致)
-   ========================================= */
 .window-header {
   background: var(--primary-color) !important;
   color: white !important;
@@ -1281,9 +1251,6 @@ body {
   width: 100%;
 }
 
-/* =========================================
-   10. 欢迎页
-   ========================================= */
 .welcome-content {
   text-align: center;
   padding: 30px;
@@ -1356,9 +1323,6 @@ body {
   }
 }
 
-/* =========================================
-   11. 杂项
-   ========================================= */
 .no-result-tip {
   grid-column: 1 / -1;
   text-align: center;
@@ -1383,9 +1347,6 @@ img.image-error::after {
   color: var(--text-secondary);
 }
 
-/* =========================================
-   12. 全局滚动条美化
-   ========================================= */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -1413,9 +1374,6 @@ img.image-error::after {
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
 }
 
-/* =========================================
-   13. 全局消息提示 (Toast)
-   ========================================= */
 .toast-container {
   position: fixed;
   top: 30px;

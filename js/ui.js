@@ -1,9 +1,10 @@
-/* js/ui.js */
 import { escapeHtml, isAppCompatible, getBestMatchVersion, apiMap, DEFAULT_ICON } from './utils.js';
 
 let globalZIndex = 1350;
 
-// 全局图片错误处理
+// 导航栈
+const appNavigationStack = [];
+
 window.handleImgError = function (img) {
   img.onerror = null;
   img.src = DEFAULT_ICON;
@@ -22,19 +23,22 @@ export function createCard(app, onClickCallback) {
         </div>
         <span class="material-symbols-rounded card-action-icon color-primary">arrow_forward</span>
     `;
-  card.onclick = () => onClickCallback(app);
+  card.onclick = () => {
+    appNavigationStack.length = 0;
+    onClickCallback(app);
+  };
   return card;
 }
 
-// 历史版本简易卡片
 function createHistoryCard(appVersionData, onClickCallback) {
   const card = document.createElement('div');
   card.className = 'history-simple-card';
+  const codeStr = appVersionData.code ? ` (${appVersionData.code})` : '';
 
   card.innerHTML = `
         <div class="history-content">
             <div class="history-name">${escapeHtml(appVersionData.name)}</div>
-            <div class="history-ver">${escapeHtml(appVersionData.version)} <span style="opacity:0.6">| ${escapeHtml(appVersionData.size || '未知')}</span></div>
+            <div class="history-ver">${escapeHtml(appVersionData.version)}${codeStr}</div>
         </div>
         <span class="material-symbols-rounded card-action-icon color-primary">arrow_forward</span>
     `;
@@ -42,7 +46,7 @@ function createHistoryCard(appVersionData, onClickCallback) {
   return card;
 }
 
-// 打开历史版本窗口 (支持堆叠)
+// 打开历史版本窗口 
 function openHistoryModal(rootApp) {
   let allVersions = [];
 
@@ -80,13 +84,9 @@ function openHistoryModal(rootApp) {
   });
   const newZIndex = maxZ + 2;
 
-  // 动态创建
   const modalOverlay = document.createElement('div');
   modalOverlay.className = 'modal-overlay';
   modalOverlay.style.zIndex = newZIndex;
-
-  // 🔥 修复关键：给历史窗口也加上 data-package
-  // 这样当历史窗口在顶层时，URL Hash 依然是 #app=com.xxx，不会变成空白，防止状态丢失
   modalOverlay.setAttribute('data-package', rootApp.package);
   modalOverlay.setAttribute('data-type', 'history');
 
@@ -94,7 +94,7 @@ function openHistoryModal(rootApp) {
     <div class="modal">
       <div class="dev-modal-layout">
         <div class="window-header">
-          <span id="historyModalTitle">历史版本 - ${escapeHtml(rootApp.name)}</span>
+          <span id="historyModalTitle">历史版本</span>
           <span class="material-symbols-rounded unified-close-btn header-close-img">close</span>
         </div>
         <div class="dev-content">
@@ -107,7 +107,6 @@ function openHistoryModal(rootApp) {
   const container = modalOverlay.querySelector('#historyAppsContainer_Dynamic');
   allVersions.forEach(verApp => {
     const card = createHistoryCard(verApp, (target) => {
-      // 点击历史项，直接堆叠打开新窗口
       renderAppModal(target);
     });
     container.appendChild(card);
@@ -119,7 +118,6 @@ function openHistoryModal(rootApp) {
     setTimeout(() => {
       modalOverlay.remove();
 
-      // 关闭后恢复上一层的 Hash
       const remainingModals = Array.from(document.querySelectorAll('.modal-overlay.active'))
         .sort((a, b) => (parseInt(window.getComputedStyle(a).zIndex) || 0) - (parseInt(window.getComputedStyle(b).zIndex) || 0));
 
@@ -143,8 +141,7 @@ function openHistoryModal(rootApp) {
 
 // 渲染应用详情页
 export function renderAppModal(app) {
-  // 🔥 核心修改：移除所有防重检查
-  // 只要调用，就无脑弹窗，实现无限堆叠
+  // 无条件弹窗，支持堆叠
 
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
 
@@ -160,7 +157,6 @@ export function renderAppModal(app) {
     window.location.hash = `app=${app.package}`;
   }
 
-  // 计算层级
   let currentMaxZ = 1300;
   document.querySelectorAll('.modal-overlay').forEach(el => {
     const z = parseInt(window.getComputedStyle(el).zIndex) || 0;
@@ -350,27 +346,19 @@ export function renderAppModal(app) {
     modalOverlay.classList.remove('active');
     setTimeout(() => {
       modalOverlay.remove();
-
-      // 关闭后，寻找剩下的最顶层窗口，恢复 Hash
       const remainingModals = Array.from(document.querySelectorAll('.modal-overlay.active'))
         .sort((a, b) => (parseInt(window.getComputedStyle(a).zIndex) || 0) - (parseInt(window.getComputedStyle(b).zIndex) || 0));
 
       if (remainingModals.length > 0) {
         const topModal = remainingModals[remainingModals.length - 1];
-        // 获取包名，历史窗口现在也有包名了，所以逻辑统一
         const pkg = topModal.getAttribute('data-package');
-        if (pkg) {
-          history.replaceState(null, null, `#app=${pkg}`);
-        } else {
-          // 如果是开发者窗口(无pkg)，清空
-          history.replaceState(null, null, ' ');
-        }
+        if (pkg) history.replaceState(null, null, `#app=${pkg}`);
+        else history.replaceState(null, null, ' ');
       } else {
-        // 全部关闭，回主页
         history.replaceState(null, null, ' ');
         document.body.style.overflow = '';
       }
-    }, 300);
+    }, 250);
   };
   closeBtn.onclick = closeFunc;
 
@@ -435,9 +423,12 @@ export function renderAppModal(app) {
   document.body.appendChild(modalOverlay);
   document.body.style.overflow = 'hidden';
   setTimeout(() => modalOverlay.classList.add('active'), 10);
+
+  if (window.location.hash !== `#app=${app.package}`) {
+    window.location.hash = `app=${app.package}`;
+  }
 }
 
-// Toast
 function showToast(message, type = 'success') {
   const container = document.getElementById('toast-container');
   if (!container) return;
@@ -489,7 +480,7 @@ export function renderIncompatibleCard(app, container) {
         <div class="incompatible-content">
             <div class="incompatible-title">在找“${escapeHtml(app.name)}”吗？</div>
             <div class="incompatible-reason">
-                WearStore 未向您提供此应用，您需要 Android ${reqVer}+ 才能使用此应用
+                此应用无法在您的手表上使用，您需要 Android ${reqVer}+ 才能使用此应用
             </div>
         </div>
     `;
