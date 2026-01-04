@@ -990,7 +990,7 @@ body {
 
 .detail-value {
   font-size: 1.05rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-main);
   word-break: break-all;
   line-height: 1.4;
@@ -1017,6 +1017,15 @@ body {
   font-weight: 700;
   margin: 20px 0 10px 0;
   color: var(--text-main);
+}
+
+.app-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-top: 10px;
 }
 
 .screenshots-wrapper {
