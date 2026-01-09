@@ -162,7 +162,7 @@ function openNewArrivals() {
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
   let sorted = [...allApps].filter(a => isAppCompatible(a, userApi));
   sorted.sort((a, b) => (b.addedTime || 0) - (a.addedTime || 0));
-  openCategoryList("最新上架", sorted.slice(0, 15));
+  openCategoryList("最新上架", sorted.slice(0, 45));
 }
 
 function openRecentUpdates() {
@@ -173,7 +173,7 @@ function openRecentUpdates() {
     const dateB = new Date(b.updateTime || 0);
     return dateB - dateA;
   });
-  openCategoryList("最近更新", sorted.slice(0, 15));
+  openCategoryList("最近更新", sorted.slice(0, 45));
 }
 
 function showSuggestions(term) {
@@ -308,7 +308,7 @@ function checkHashLink() {
     return;
   }
 
-  // 情况 2: URL 变成了某个应用的包名 (#app=xxx)
+  // 情况 2: URL 变成了某个应用的包名
   if (hash.startsWith('#app=')) {
     const pkgName = hash.split('=')[1];
 

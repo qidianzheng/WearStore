@@ -1,3 +1,4 @@
+/* js/ui.js */
 import { escapeHtml, isAppCompatible, getBestMatchVersion, apiMap, DEFAULT_ICON } from './utils.js';
 
 let globalZIndex = 1350;
@@ -30,15 +31,15 @@ export function createCard(app, onClickCallback) {
   return card;
 }
 
+// 历史版本简易卡片
 function createHistoryCard(appVersionData, onClickCallback) {
   const card = document.createElement('div');
   card.className = 'history-simple-card';
-  const codeStr = appVersionData.code ? ` (${appVersionData.code})` : '';
 
   card.innerHTML = `
         <div class="history-content">
             <div class="history-name">${escapeHtml(appVersionData.name)}</div>
-            <div class="history-ver">${escapeHtml(appVersionData.version)}${codeStr}</div>
+            <div class="history-ver">${escapeHtml(appVersionData.version)} <span style="opacity:0.6">| ${escapeHtml(appVersionData.size || '未知')}</span></div>
         </div>
         <span class="material-symbols-rounded card-action-icon color-primary">arrow_forward</span>
     `;
@@ -46,7 +47,7 @@ function createHistoryCard(appVersionData, onClickCallback) {
   return card;
 }
 
-// 打开历史版本窗口 
+// 打开历史版本窗口
 function openHistoryModal(rootApp) {
   let allVersions = [];
 
@@ -73,10 +74,8 @@ function openHistoryModal(rootApp) {
     });
   }
 
-  // 排序
   allVersions.sort((a, b) => (parseInt(b.code) || 0) - (parseInt(a.code) || 0));
 
-  // 计算层级
   let maxZ = 1300;
   document.querySelectorAll('.modal-overlay').forEach(el => {
     const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
@@ -176,7 +175,7 @@ export function renderAppModal(app) {
   ).join('');
 
   const compatWarning = !isCompat ?
-    `<div class="modal-warning-row"><div class="compat-warning-box">WearStore未向您提供此应用，您需要 Android ${apiMap[displayData.minSdk] || displayData.minSdk}+ 才能使用此应用</div></div>` : '';
+    `<div class="modal-warning-row"><div class="compat-warning-box">此应用无法在您的手表上使用，您需要 Android ${apiMap[displayData.minSdk] || displayData.minSdk}+ 才能使用此应用</div></div>` : '';
 
   let dlUrl = displayData.downloadUrl;
 
@@ -290,6 +289,10 @@ export function renderAppModal(app) {
             <div class="modal-content">
                 ${recommendHtml}
                 ${contributorHtml}
+                
+                <div class="section-title">应用简介</div>
+                <p class="app-description">${escapeHtml(app.description || '暂无描述')}</p>
+
                 <div class="section-title">详细信息</div>
                 <div class="detail-grid">
                     <div class="detail-item"><span class="detail-label">版本 ${recommendBadge}</span><span class="detail-value">${fullVersionString}</span></div>
@@ -298,8 +301,7 @@ export function renderAppModal(app) {
                     <div class="detail-item"><span class="detail-label">应用分类</span><span class="detail-value">${catText}</span></div>
                     <div class="detail-item" style="grid-column: 1 / -1;"><span class="detail-label">包名</span><span class="detail-value" style="font-size: 0.85rem; word-break: break-all;">${escapeHtml(app.package)}</span></div>
                 </div>
-                <div class="section-title">应用简介</div>
-                <p class="app-description">${escapeHtml(app.description || '暂无描述')}</p>
+
                 <div class="section-title">应用截图</div>
                 <div class="screenshots-wrapper">
                     <button class="scroll-btn left"><span class="material-symbols-rounded">chevron_left</span></button>
@@ -311,7 +313,6 @@ export function renderAppModal(app) {
     `;
 
   // --- 事件绑定 ---
-
   const recommendItems = modalOverlay.querySelectorAll('.recommend-click-item');
   recommendItems.forEach(item => {
     item.onclick = () => {
@@ -455,7 +456,7 @@ function showToast(message, type = 'success') {
 export function renderCardList(apps, container) {
   container.innerHTML = '';
   if (apps.length === 0) {
-    container.innerHTML = '<div class="no-result-tip">未找到适合您手表的应用。</div>';
+    container.innerHTML = '<div class="no-result-tip">暂无任何应用</div>';
     return;
   }
   apps.forEach(app => {
@@ -480,7 +481,7 @@ export function renderIncompatibleCard(app, container) {
         <div class="incompatible-content">
             <div class="incompatible-title">在找“${escapeHtml(app.name)}”吗？</div>
             <div class="incompatible-reason">
-                此应用无法在您的手表上使用，您需要 Android ${reqVer}+ 才能使用此应用
+                WearStore 未向您提供此应用，您需要 Android ${reqVer}+ 才能使用此应用
             </div>
         </div>
     `;

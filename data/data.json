@@ -32,41 +32,6 @@
     "historyVersion": []
   },
   {
-    "id": 957358489,
-    "name": "Alti-Barometer",
-    "package": "com.lucaboscolomeneguolo.altimeterbarometer",
-    "version": "1.16",
-    "code": 16,
-    "minSdk": 26,
-    "size": "4.15 MB",
-    "icon": "assets/images/altibarometer/altibarometer_icon.webp",
-    "screenshots": [
-      "assets/images/altibarometer/altibarometer_1.webp",
-      "assets/images/altibarometer/altibarometer_2.webp",
-      "assets/images/altibarometer/altibarometer_3.webp"
-    ],
-    "addedTime": 1765637583438,
-    "updateTime": "2025-12-11",
-    "description": "一款专业的腕上气压高度计工具，实时显示气压与海拔数据，提供6小时趋势图与风暴预警，支持自动/手动校准，是户外活动与天气观察的得力助手。",
-    "category": "生活服务",
-    "keywords": [
-      "气压计",
-      "高度计",
-      "海拔",
-      "风暴预警",
-      "户外工具",
-      "haibaqiyaji",
-      "海拔气压计"
-    ],
-    "downloadUrl": "https://easylink.cc/dk5u6b",
-    "password": "",
-    "developer": "calugj",
-    "historyVersion": [],
-    "recommendIds": [
-      2056030808
-    ]
-  },
-  {
     "id": 2056030808,
     "name": "Alti-Barometer汉化版",
     "package": "com.lucaboscolomeneguolo.altimeterbarometer",
@@ -97,9 +62,6 @@
     "password": "",
     "developer": "calugj",
     "historyVersion": [],
-    "recommendIds": [
-      957358489
-    ],
     "modAuthor": "稽佬233"
   },
   {
@@ -181,6 +143,39 @@
     "developer": "Beaverfy",
     "historyVersion": [],
     "contributor": "清漓染CHR."
+  },
+  {
+    "id": 690513863,
+    "name": "BiliZepam",
+    "package": "com.huanli233.bilizepam.compose",
+    "version": "0.2.06e693e4d",
+    "code": 1223,
+    "minSdk": 21,
+    "size": "35.30 MB",
+    "icon": "assets/images/bilizepam/bilizepam_icon.webp",
+    "screenshots": [
+      "assets/images/bilizepam/bilizepam_1.webp",
+      "assets/images/bilizepam/bilizepam_2.webp",
+      "assets/images/bilizepam/bilizepam_3.webp",
+      "assets/images/bilizepam/bilizepam_4.webp"
+    ],
+    "addedTime": 1767927067178,
+    "updateTime": "2026-01-09",
+    "description": "一款使用 Compose 开发、重度适配 WearOS 及圆屏的第三方 B 站客户端，采用 Material 3 设计，请注意其在低性能设备上可能卡顿。",
+    "category": "影音娱乐",
+    "keywords": [
+      "哔哩哔哩",
+      "第三方客户端",
+      "Compose开发",
+      "Material 3",
+      "圆屏适配",
+      "bilibili",
+      "b站"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/irwY33fnqs0b",
+    "password": "468t",
+    "developer": "huanli233",
+    "historyVersion": []
   },
   {
     "id": 3881380835,
@@ -443,6 +438,70 @@
     ]
   },
   {
+    "id": 3222795145,
+    "name": "HarmonyOS 39",
+    "package": "com.watchfacestudio.Test_49918877911193163637002657408812",
+    "version": "1.0.0",
+    "code": 17,
+    "minSdk": 28,
+    "size": "11.11 MB",
+    "icon": "assets/images/harmonyos39/harmonyos39_icon.webp",
+    "screenshots": [
+      "assets/images/harmonyos39/harmonyos39_1.webp"
+    ],
+    "addedTime": 1767927071103,
+    "updateTime": "2026-01-09",
+    "description": "一款高度还原 HarmonyOS 开机动画与视觉风格的表盘，采用 HarmonyOS Sans 字体，充满华为设计元素。",
+    "category": "表盘美化",
+    "keywords": [
+      "鸿蒙表盘",
+      "HarmonyOS",
+      "动态表盘",
+      "华为风格",
+      "开机动画",
+      "watch face",
+      "hongmeng"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iuXJS3fnq40h",
+    "password": "84ko",
+    "developer": "Cyber明日香",
+    "historyVersion": []
+  },
+  {
+    "id": 2098883575,
+    "name": "IT之家",
+    "package": "com.ruanmei.ithome.watch",
+    "version": "9.20",
+    "code": 2512221,
+    "minSdk": 30,
+    "size": "30.53 MB",
+    "icon": "assets/images/itzhijia/itzhijia_icon.webp",
+    "screenshots": [
+      "assets/images/itzhijia/itzhijia_1.webp",
+      "assets/images/itzhijia/itzhijia_2.webp",
+      "assets/images/itzhijia/itzhijia_3.webp",
+      "assets/images/itzhijia/itzhijia_4.webp"
+    ],
+    "addedTime": 1767927071589,
+    "updateTime": "2026-01-09",
+    "description": "快速全面客观的科技资讯\nIT之家官方手表客户端，提供快速、全面、客观的IT业界与数码产品资讯，满足腕上清爽阅读的需求。",
+    "category": "生活服务",
+    "keywords": [
+      "科技资讯",
+      "数码新闻",
+      "腕上阅读",
+      "ithome",
+      "keji",
+      "zixun",
+      "yuedu",
+      "itzhijia"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i1Dj23fnrd4b",
+    "password": "8gmb",
+    "developer": "青岛软媒网络科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 169292971,
     "name": "Kapture - 屏幕录制",
     "package": "dev.dect.kapture",
@@ -471,44 +530,45 @@
     "historyVersion": []
   },
   {
-    "id": 1107269450,
+    "id": 2526547291,
     "name": "Keep",
-    "package": "com.gotokeep.androidwear",
-    "version": "1.2.2",
-    "code": 6431,
-    "minSdk": 23,
-    "size": "19.60 MB",
+    "package": "com.gotokeep.keep",
+    "version": "8.6.40",
+    "code": 32312,
+    "minSdk": 25,
+    "size": "32.64 MB",
     "icon": "assets/images/keep/keep_icon.webp",
     "screenshots": [
       "assets/images/keep/keep_1.webp",
       "assets/images/keep/keep_2.webp",
       "assets/images/keep/keep_3.webp",
-      "assets/images/keep/keep_4.webp",
-      "assets/images/keep/keep_5.webp",
-      "assets/images/keep/keep_6.webp"
+      "assets/images/keep/keep_4.webp"
     ],
-    "addedTime": 1764730669419,
-    "updateTime": "2025-12-11",
-    "description": "你的全能运动伙伴。提供从增肌、减脂到瑜伽、跑步的海量专业课程，智能定制训练计划。独创的线上赛事与实体奖牌激励体系，让坚持充满成就感，助你科学实现健身目标。",
+    "addedTime": 1767927072817,
+    "updateTime": "2026-01-09",
+    "description": "健康运动居家健身首选APP\nKeep 官方手表应用，支持心率监测指导跑步、骑行、健身等课程训练，并可独立开启户外运动，让燃脂更高效。",
     "category": "健康运动",
     "keywords": [
-      "健身",
-      "运动",
-      "跑步",
-      "瑜伽",
-      "跳绳",
-      "减肥",
-      "fitness",
-      "yoga",
-      "burn",
-      "奖牌",
-      "帕梅拉",
-      "锻炼"
+      "运动健身",
+      "心率监测",
+      "跑步课程",
+      "独立运动",
+      "jian shen",
+      "xinlv"
     ],
-    "downloadUrl": "https://wwatc.lanzoub.com/igwLU3d5b0kd",
-    "password": "5w67",
+    "downloadUrl": "https://wwatc.lanzoub.com/ilsDm3fnu1cf",
+    "password": "7nbn",
     "developer": "北京卡路里科技有限公司",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.2.2",
+        "code": 6431,
+        "minSdk": 23,
+        "size": "19.60 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/igwLU3d5b0kd",
+        "password": "5w67"
+      }
+    ]
   },
   {
     "id": 1432542173,
@@ -638,6 +698,36 @@
     "historyVersion": []
   },
   {
+    "id": 644365911,
+    "name": "Minimal Analog Watch Face",
+    "package": "com.watchfacestudio.minimalanalogdsladex",
+    "version": "1.5.0",
+    "code": 10000015,
+    "minSdk": 33,
+    "size": "1.52 MB",
+    "icon": "assets/images/minimalanalogwatchface/minimalanalogwatchface_icon.webp",
+    "screenshots": [
+      "assets/images/minimalanalogwatchface/minimalanalogwatchface_1.webp"
+    ],
+    "addedTime": 1767927073974,
+    "updateTime": "2026-01-09",
+    "description": "一款专为 Wear OS 设备设计的极简风格模拟指针表盘，追求干净纯粹的视觉体验。",
+    "category": "表盘美化",
+    "keywords": [
+      "极简表盘",
+      "模拟指针",
+      "简约",
+      "经典风格",
+      "minimal watch face",
+      "jianyue",
+      "zhizhen"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iWSzB3fnq1la",
+    "password": "15bf",
+    "developer": "Dsladex",
+    "historyVersion": []
+  },
+  {
     "id": 286136756,
     "name": "NWearQQ",
     "package": "com.tencent.qqlite",
@@ -741,6 +831,34 @@
     "downloadUrl": "https://wwatc.lanzoub.com/iiP0k3dv81if",
     "password": "4c3h",
     "developer": "无源流沙",
+    "historyVersion": [],
+    "phoneLink": "https://pan.baidu.com/s/10H7bYCRBjgjCxni2k94NkQ?pwd=e78t"
+  },
+  {
+    "id": 670180534,
+    "name": "Origin 39",
+    "package": "com.watchfacestudio.Test_49918877911193167344921671017666",
+    "version": "1.0.0",
+    "code": 126,
+    "minSdk": 28,
+    "size": "3.96 MB",
+    "icon": "assets/images/origin39/origin39_icon.webp",
+    "screenshots": [
+      "assets/images/origin39/origin39_1.webp"
+    ],
+    "addedTime": 1767927075629,
+    "updateTime": "2026-01-09",
+    "description": "一款灵感源于 Android 12 时钟小组件的多彩数据表盘，支持切换多种颜色，并实时显示电量、心率、温度等多种信息，可自定义四个角落的快捷功能。",
+    "category": "表盘美化",
+    "keywords": [
+      "多彩表盘",
+      "数据展示",
+      "Android 12风格",
+      "zidingyi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iia5f3fnq52f",
+    "password": "dfr3",
+    "developer": "Cyber明日香",
     "historyVersion": []
   },
   {
@@ -876,6 +994,14 @@
         "size": "12.43 MB",
         "downloadUrl": "",
         "password": ""
+      },
+      {
+        "version": "1.1.0.9",
+        "code": 4,
+        "minSdk": 23,
+        "size": "11.24 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/iuvbE3fnxwre",
+        "password": "g8ot"
       },
       {
         "version": "1.1.0.0",
@@ -1045,6 +1171,36 @@
     "historyVersion": []
   },
   {
+    "id": 1569774101,
+    "name": "UltraPro",
+    "package": "com.spwatches.ultrapro",
+    "version": "1.0.3",
+    "code": 10000003,
+    "minSdk": 30,
+    "size": "0.98 MB",
+    "icon": "assets/images/ultrapro/ultrapro_icon.webp",
+    "screenshots": [
+      "assets/images/ultrapro/ultrapro_1.webp"
+    ],
+    "addedTime": 1767927082411,
+    "updateTime": "2026-01-09",
+    "description": "一款支持 8 个可自定义复杂功能并拥有夜间模式的模拟指针表盘。",
+    "category": "表盘美化",
+    "keywords": [
+      "模拟表盘",
+      "复杂功能",
+      "自定义组件",
+      "夜间模式",
+      "analog watch",
+      "fuzagongneng",
+      "yejian"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iml4O3fnq59c",
+    "password": "9o6e",
+    "developer": "",
+    "historyVersion": []
+  },
+  {
     "id": 2329231388,
     "name": "Voice Notebook",
     "package": "com.voicenotebook.voicenotebook",
@@ -1079,10 +1235,10 @@
     "id": 1171572150,
     "name": "WearFiles",
     "package": "com.dertefter.wearfiles",
-    "version": "1.5.4",
-    "code": 24,
+    "version": "1.5.6",
+    "code": 26,
     "minSdk": 28,
-    "size": "12.85 MB",
+    "size": "5.35 MB",
     "icon": "assets/images/wearfiles/wearfiles_icon.webp",
     "screenshots": [
       "assets/images/wearfiles/wearfiles_1.webp",
@@ -1091,17 +1247,26 @@
       "assets/images/wearfiles/wearfiles_4.webp"
     ],
     "addedTime": 1767280565881,
-    "updateTime": "2026-01-01",
+    "updateTime": "2026-01-09",
     "description": "一款简洁的开源文件管理器，专为 Wear OS 设计。支持基本的文件查看、删除、复制粘贴操作，并可置顶常用文件/文件夹。使用前需通过ADB手动授予文件权限。",
     "category": "系统工具",
     "keywords": [
       "文件管理",
       "wenjianguanli"
     ],
-    "downloadUrl": "https://wwatc.lanzoub.com/is03j3f0r34d",
-    "password": "dmbp",
+    "downloadUrl": "https://wwatc.lanzoub.com/i4rM53fnymng",
+    "password": "c8xz",
     "developer": "Dertefter Labs",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.5.4",
+        "code": 24,
+        "minSdk": 28,
+        "size": "12.85 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/is03j3f0r34d",
+        "password": "dmbp"
+      }
+    ]
   },
   {
     "id": 806735725,
@@ -1141,6 +1306,39 @@
         "password": "hhqb"
       }
     ]
+  },
+  {
+    "id": 621271442,
+    "name": "WearNote",
+    "package": "cn.wearbbs.note",
+    "version": "2.0",
+    "code": 5,
+    "minSdk": 25,
+    "size": "3.96 MB",
+    "icon": "assets/images/wearnote/wearnote_icon.webp",
+    "screenshots": [
+      "assets/images/wearnote/wearnote_1.webp",
+      "assets/images/wearnote/wearnote_2.webp",
+      "assets/images/wearnote/wearnote_3.webp",
+      "assets/images/wearnote/wearnote_4.webp",
+      "assets/images/wearnote/wearnote_5.webp",
+      "assets/images/wearnote/wearnote_6.webp"
+    ],
+    "addedTime": 1767927083222,
+    "updateTime": "2026-01-09",
+    "description": "一款专为“小天才”系列儿童手表定制的笔记应用，支持创建和重命名笔记。",
+    "category": "效率办公",
+    "keywords": [
+      "小天才笔记",
+      "儿童手表",
+      "笔记软件",
+      "biji",
+      "ertong shoubia"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i1RRI3fnw3sf",
+    "password": "cx0u",
+    "developer": "JackuXL",
+    "historyVersion": []
   },
   {
     "id": 2224556128,
@@ -1241,6 +1439,37 @@
     "downloadUrl": "https://wwatc.lanzoub.com/izc6T3d5atef",
     "password": "3j4h",
     "developer": "重庆路西法科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3482930519,
+    "name": "bell_ross",
+    "package": "com.watchfacestudio.bell_ross",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "1.10 MB",
+    "icon": "assets/images/bellross/bellross_icon.webp",
+    "screenshots": [
+      "assets/images/bellross/bellross_1.webp"
+    ],
+    "addedTime": 1767927083802,
+    "updateTime": "2026-01-09",
+    "description": "一款灵感源自 Bell & Ross Desert Type 手表的复刻表盘，支持在步数（左）和电量（右）进度圈上设置快捷功能。",
+    "category": "表盘美化",
+    "keywords": [
+      "Bell & Ross",
+      "复刻表盘",
+      "军表风格",
+      "快捷入口",
+      "进度圈",
+      "watch face",
+      "junbiao",
+      "fuke"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/imP8n3fnq1qf",
+    "password": "hb8p",
+    "developer": "",
     "historyVersion": []
   },
   {
@@ -1490,6 +1719,80 @@
     ]
   },
   {
+    "id": 2154840233,
+    "name": "两步路",
+    "package": "com.tbulu.watch",
+    "version": "1.4.20",
+    "code": 98,
+    "minSdk": 27,
+    "size": "61.23 MB",
+    "icon": "assets/images/liangbulu/liangbulu_icon.webp",
+    "screenshots": [
+      "assets/images/liangbulu/liangbulu_1.webp",
+      "assets/images/liangbulu/liangbulu_2.webp",
+      "assets/images/liangbulu/liangbulu_3.webp"
+    ],
+    "addedTime": 1767927089241,
+    "updateTime": "2026-01-09",
+    "description": "玩户外，就上两步路\n户外助手“两步路”的手表版，支持无网络情况下记录轨迹、进行轨迹导航、查看队友位置及海拔趋势，是户外徒步与探险的可靠工具。",
+    "category": "健康运动",
+    "keywords": [
+      "户外徒步",
+      "轨迹记录",
+      "轨迹导航",
+      "海拔图",
+      "liangbulu",
+      "huwai",
+      "gujii"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/icOiF3fnutfg",
+    "password": "5c6a",
+    "developer": "深圳市两步路信息技术有限公司",
+    "historyVersion": [
+      {
+        "version": "1.1.9",
+        "code": 34,
+        "minSdk": 26,
+        "size": "46.12 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/iR3113fnukkh",
+        "password": "bpgu"
+      }
+    ]
+  },
+  {
+    "id": 923218798,
+    "name": "云听",
+    "package": "com.ytwatch.cnr.watch",
+    "version": "2.0.1.410",
+    "code": 410,
+    "minSdk": 19,
+    "size": "18.96 MB",
+    "icon": "assets/images/yunting/yunting_icon.webp",
+    "screenshots": [
+      "assets/images/yunting/yunting_1.webp",
+      "assets/images/yunting/yunting_2.webp",
+      "assets/images/yunting/yunting_3.webp",
+      "assets/images/yunting/yunting_4.webp"
+    ],
+    "addedTime": 1767927089521,
+    "updateTime": "2026-01-09",
+    "description": "中央广播电视总台声音新媒体平台\n中央广播电视总台官方声音平台“云听”的手表版，聚合广播电台、精品有声书与热点资讯，提供高品质音频内容。",
+    "category": "影音娱乐",
+    "keywords": [
+      "广播",
+      "有声书",
+      "央视音频",
+      "新闻资讯",
+      "yunting",
+      "guangbo",
+      "yousheng"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iy2WO3fnqujc",
+    "password": "6uf5",
+    "developer": "央广云听文化传媒有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 2295614091,
     "name": "克米酷学",
     "package": "com.hankmi.costu",
@@ -1618,6 +1921,103 @@
     "historyVersion": []
   },
   {
+    "id": 2229082534,
+    "name": "台铃智能",
+    "package": "com.tailg.intelligencewearandroid",
+    "version": "1.1.3",
+    "code": 13,
+    "minSdk": 30,
+    "size": "63.09 MB",
+    "icon": "assets/images/tailingzhineng/tailingzhineng_icon.webp",
+    "screenshots": [
+      "assets/images/tailingzhineng/tailingzhineng_1.webp",
+      "assets/images/tailingzhineng/tailingzhineng_2.webp",
+      "assets/images/tailingzhineng/tailingzhineng_3.webp"
+    ],
+    "addedTime": 1767927090840,
+    "updateTime": "2026-01-09",
+    "description": "智能骑行省电跑更远\n台铃电动车官方手表控制应用，支持启动/熄火、打开座垫、车辆定位与管理，实现智能骑行。",
+    "category": "生活服务",
+    "keywords": [
+      "台铃电动车",
+      "智能车控",
+      "车辆定位",
+      "电动车",
+      "tailing",
+      "diandongche",
+      "cheliang kongzhi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/ipNgC3fnrrlc",
+    "password": "edtc",
+    "developer": "台铃科技股份有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 2794076916,
+    "name": "同花顺",
+    "package": "com.hexin.plat.android.wearable",
+    "version": "1.3",
+    "code": 4,
+    "minSdk": 26,
+    "size": "2.90 MB",
+    "icon": "assets/images/tonghuashun/tonghuashun_icon.webp",
+    "screenshots": [
+      "assets/images/tonghuashun/tonghuashun_1.webp",
+      "assets/images/tonghuashun/tonghuashun_2.webp"
+    ],
+    "addedTime": 1767927091435,
+    "updateTime": "2026-01-09",
+    "description": "股市行情，轻松掌握\n同花顺官方手表应用，提供自选股、实时行情与持仓盈亏查询，支持股价预警，助力投资者把握股市动态。",
+    "category": "生活服务",
+    "keywords": [
+      "股票",
+      "股市行情",
+      "自选股",
+      "股价预警",
+      "tonghuashun",
+      "gupiao",
+      "hangqing"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iaPc73fnrrqh",
+    "password": "2x6d",
+    "developer": "浙江同花顺云软件有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 25667787,
+    "name": "咕咚",
+    "package": "com.codoon.gps",
+    "version": "1.0.19",
+    "code": 23,
+    "minSdk": 23,
+    "size": "15.54 MB",
+    "icon": "assets/images/gudong/gudong_icon.webp",
+    "screenshots": [
+      "assets/images/gudong/gudong_1.webp",
+      "assets/images/gudong/gudong_2.webp",
+      "assets/images/gudong/gudong_3.webp",
+      "assets/images/gudong/gudong_4.webp",
+      "assets/images/gudong/gudong_5.webp"
+    ],
+    "addedTime": 1767927091810,
+    "updateTime": "2026-01-09",
+    "description": "要运动，用咕咚!\n咕咚官方手表应用，支持独立进行跑步、骑行、健走等多种运动，记录轨迹与心率，提供语音播报和自动暂停功能，实现脱离手机运动。",
+    "category": "健康运动",
+    "keywords": [
+      "跑步",
+      "骑行",
+      "独立运动",
+      "轨迹记录",
+      "gudong",
+      "paobu",
+      "duxing yundong"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/ickBA3fnu3ni",
+    "password": "3py5",
+    "developer": "成都乐动信息技术有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 3166253700,
     "name": "咪咕音乐",
     "package": "com.fzbosun.watch.migumusic",
@@ -1691,9 +2091,9 @@
     "name": "喜马拉雅",
     "package": "com.ximalayaos.wear.common",
     "version": "3.2.0.0",
-    "code": 79,
+    "code": 80,
     "minSdk": 25,
-    "size": "6.92 MB",
+    "size": "6.97 MB",
     "icon": "assets/images/ximalaya/ximalaya_icon.webp",
     "screenshots": [
       "assets/images/ximalaya/ximalaya_1.webp",
@@ -1704,7 +2104,7 @@
       "assets/images/ximalaya/ximalaya_6.webp"
     ],
     "addedTime": 1764730734274,
-    "updateTime": "2025-12-15",
+    "updateTime": "2026-01-09",
     "description": "喜马拉雅官方手表应用，提供海量有声书、播客、相声评书及课程节目。无论是通勤路上、运动间隙还是睡前时光，都能让你在手表上便捷收听，畅享音频内容。",
     "category": "影音娱乐",
     "keywords": [
@@ -1714,10 +2114,18 @@
       "相声",
       "ximalaya"
     ],
-    "downloadUrl": "https://wwatc.lanzoub.com/iRKpf3d5aqcf",
-    "password": "2n82",
-    "developer": "上海喜马拉雅科技有限公司",
+    "downloadUrl": "https://wwatc.lanzoub.com/ixNj13fny01c",
+    "password": "fmm3",
+    "developer": "小雅智能平台（深圳）有限公司",
     "historyVersion": [
+      {
+        "version": "3.2.0.0",
+        "code": 79,
+        "minSdk": 25,
+        "size": "6.92 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/iRKpf3d5aqcf",
+        "password": "2n82"
+      },
       {
         "version": "3.0.0.1",
         "code": 74,
@@ -1926,6 +2334,172 @@
     "downloadUrl": "https://easylink.cc/fc64n5",
     "password": "",
     "developer": "互诚信息技术（上海）有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 2878587065,
+    "name": "天国拯救",
+    "package": "com.watchfacestudio.kingdomcomedeliveranceii",
+    "version": "1.0.1",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "1.59 MB",
+    "icon": "assets/images/tianguozhengjiubiaopan/tianguozhengjiubiaopan_icon.webp",
+    "screenshots": [
+      "assets/images/tianguozhengjiubiaopan/tianguozhengjiubiaopan_1.webp"
+    ],
+    "addedTime": 1767927095727,
+    "updateTime": "2026-01-09",
+    "description": "一款自制、灵感来源于游戏《天国：拯救》的复古风格表盘，支持基础信息和AOD息屏显示。",
+    "category": "表盘美化",
+    "keywords": [
+      "游戏表盘",
+      "复古风格",
+      "自制表盘",
+      "Kingdom Come",
+      "youxi",
+      "fugu fengge"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/in7r03fnq6hg",
+    "password": "aj7f",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
+    "id": 1137275107,
+    "name": "好球",
+    "package": "com.eros.harwatch.badminton",
+    "version": "1.6.0",
+    "code": 160,
+    "minSdk": 26,
+    "size": "52.65 MB",
+    "icon": "assets/images/haoqiu/haoqiu_icon.webp",
+    "screenshots": [
+      "assets/images/haoqiu/haoqiu_1.webp",
+      "assets/images/haoqiu/haoqiu_2.webp",
+      "assets/images/haoqiu/haoqiu_3.webp"
+    ],
+    "addedTime": 1767927096019,
+    "updateTime": "2026-01-09",
+    "description": "一款专为羽毛球运动设计的分析应用，通过智能手表记录杀球、高远球等动作的挥拍速度，生成专业运动分析报告与趋势图表。",
+    "category": "健康运动",
+    "keywords": [
+      "羽毛球",
+      "运动分析",
+      "挥拍速度",
+      "杀球记录",
+      "数据统计",
+      "badminton",
+      "yumaoqiu",
+      "fenxi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/it4Ot3fnue2d",
+    "password": "8v9d",
+    "developer": "苏州好球科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3995807092,
+    "name": "守望先锋：离去",
+    "package": "com.watchfacestudio.overwatch2EN",
+    "version": "1.2.0",
+    "code": 10,
+    "minSdk": 28,
+    "size": "4.88 MB",
+    "icon": "assets/images/shouwangxianfengliqu/shouwangxianfengliqu_icon.webp",
+    "screenshots": [
+      "assets/images/shouwangxianfengliqu/shouwangxianfengliqu_1.webp"
+    ],
+    "addedTime": 1767927096364,
+    "updateTime": "2026-01-09",
+    "description": "一款以游戏《守望先锋》UI风格为灵感设计的个性化表盘。",
+    "category": "表盘美化",
+    "keywords": [
+      "守望先锋",
+      "游戏表盘",
+      "Overwatch风格",
+      "主题表盘",
+      "watch face",
+      "youxi biaopan",
+      "zhuti"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iny433fnq62b",
+    "password": "cp8e",
+    "developer": "吔車",
+    "historyVersion": []
+  },
+  {
+    "id": 2554211328,
+    "name": "对讲",
+    "package": "com.jzone.ppt.o61",
+    "version": "1.0.74",
+    "code": 74,
+    "minSdk": 25,
+    "size": "7.46 MB",
+    "icon": "assets/images/duijiang/duijiang_icon.webp",
+    "screenshots": [
+      "assets/images/duijiang/duijiang_1.webp",
+      "assets/images/duijiang/duijiang_2.webp",
+      "assets/images/duijiang/duijiang_3.webp",
+      "assets/images/duijiang/duijiang_4.webp"
+    ],
+    "addedTime": 1767927097287,
+    "updateTime": "2026-01-09",
+    "description": "一款依托公网对讲技术的专业级实时对讲应用，支持低延迟高清语音通话与历史语音回溯，保障团队沟通效率与隐私安全。",
+    "category": "通讯社交",
+    "keywords": [
+      "公网对讲",
+      "实时对讲",
+      "团队通讯",
+      "语音通话",
+      "历史回溯",
+      "duijiang",
+      "tuandui goutong",
+      "yuyin"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iWaMw3fnwgte",
+    "password": "b1e8",
+    "developer": "无锡捷中科技有限公司",
+    "historyVersion": [
+      {
+        "version": "1.0.69",
+        "code": 69,
+        "minSdk": 25,
+        "size": "7.46 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/ivl8b3fnwcqh",
+        "password": "h9n0"
+      }
+    ]
+  },
+  {
+    "id": 4232323806,
+    "name": "小牛电动",
+    "package": "com.niu.cloud.weara",
+    "version": "1.1.2",
+    "code": 12,
+    "minSdk": 26,
+    "size": "6.47 MB",
+    "icon": "assets/images/xiaoniudiandong/xiaoniudiandong_icon.webp",
+    "screenshots": [
+      "assets/images/xiaoniudiandong/xiaoniudiandong_1.webp",
+      "assets/images/xiaoniudiandong/xiaoniudiandong_2.webp",
+      "assets/images/xiaoniudiandong/xiaoniudiandong_3.webp"
+    ],
+    "addedTime": 1767927097722,
+    "updateTime": "2026-01-09",
+    "description": "互联科技，打造个性化出行体验\n小牛电动官方手表应用，用于连接和控制智能电动车，实现便捷的车辆操作与管理。",
+    "category": "生活服务",
+    "keywords": [
+      "电动车",
+      "智能车控",
+      "车辆管理",
+      "niu electric",
+      "diandongche",
+      "kongzhi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iJzWN3fnrtbe",
+    "password": "5hoj",
+    "developer": "北京牛电科技有限责任公司",
     "historyVersion": []
   },
   {
@@ -2152,6 +2726,38 @@
     "historyVersion": []
   },
   {
+    "id": 3525068323,
+    "name": "悦跑圈",
+    "package": "co.runner.app",
+    "version": "2.11.0",
+    "code": 30,
+    "minSdk": 26,
+    "size": "13.33 MB",
+    "icon": "assets/images/yuepaoquan/yuepaoquan_icon.webp",
+    "screenshots": [
+      "assets/images/yuepaoquan/yuepaoquan_1.webp",
+      "assets/images/yuepaoquan/yuepaoquan_2.webp",
+      "assets/images/yuepaoquan/yuepaoquan_3.webp"
+    ],
+    "addedTime": 1767927099295,
+    "updateTime": "2026-01-09",
+    "description": "跑步计步运动健身专业软件\n悦跑圈官方手表应用，专注于跑步运动，支持独立记录跑步数据、提供专业训练指导，并可参与线上赛事活动。",
+    "category": "健康运动",
+    "keywords": [
+      "跑步",
+      "计步",
+      "跑步记录",
+      "线上马拉松",
+      "yuepaoquan",
+      "paobu",
+      "jilu"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iTeV13fnuwaj",
+    "password": "6qqz",
+    "developer": "广州悦跑信息科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 2612609453,
     "name": "懒人听书",
     "package": "bubei.tingshu.wear",
@@ -2306,6 +2912,47 @@
     "historyVersion": []
   },
   {
+    "id": 590954406,
+    "name": "掌上公交",
+    "package": "com.mygolbs.mybuswatch",
+    "version": "3.1.6",
+    "code": 316,
+    "minSdk": 25,
+    "size": "34.16 MB",
+    "icon": "assets/images/zhangshanggongjiao/zhangshanggongjiao_icon.webp",
+    "screenshots": [
+      "assets/images/zhangshanggongjiao/zhangshanggongjiao_1.webp",
+      "assets/images/zhangshanggongjiao/zhangshanggongjiao_2.webp",
+      "assets/images/zhangshanggongjiao/zhangshanggongjiao_3.webp"
+    ],
+    "addedTime": 1767927101464,
+    "updateTime": "2026-01-09",
+    "description": "公交实时到离站查询\n掌上公交”官方手表应用，支持全国400+城市实时公交到站查询、线路规划与扫码乘车，是腕上的公交出行管家。",
+    "category": "生活服务",
+    "keywords": [
+      "实时公交",
+      "公交查询",
+      "扫码乘车",
+      "出行规划",
+      "bus tracker",
+      "gongjiao",
+      "chaxun"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i8t3e3fns2re",
+    "password": "dj3i",
+    "developer": "厦门搜谷信息科技有限公司",
+    "historyVersion": [
+      {
+        "version": "1.0.3",
+        "code": 103,
+        "minSdk": 25,
+        "size": "34.15 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/ixaj03fnrzwb",
+        "password": "37ar"
+      }
+    ]
+  },
+  {
     "id": 828016250,
     "name": "搜狗输入法",
     "package": "com.sogou.ime.wear",
@@ -2340,6 +2987,14 @@
         "size": "18.82 MB",
         "downloadUrl": "https://wwatc.lanzoub.com/iXJMI3d5a00h",
         "password": "ebvu"
+      },
+      {
+        "version": "3.2.4.2506062051",
+        "code": 42,
+        "minSdk": 24,
+        "size": "20.98 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/itZFH3fnzk0h",
+        "password": "bs5g"
       },
       {
         "version": "3.2.0.2404181130",
@@ -2381,6 +3036,71 @@
     "historyVersion": []
   },
   {
+    "id": 3030937724,
+    "name": "新浪新闻",
+    "package": "com.sina.news.watch",
+    "version": "0.0.5",
+    "code": 20251210,
+    "minSdk": 24,
+    "size": "3.59 MB",
+    "icon": "assets/images/xinlangxinwen/xinlangxinwen_icon.webp",
+    "screenshots": [
+      "assets/images/xinlangxinwen/xinlangxinwen_1.webp",
+      "assets/images/xinlangxinwen/xinlangxinwen_2.webp",
+      "assets/images/xinlangxinwen/xinlangxinwen_3.webp"
+    ],
+    "addedTime": 1767927103702,
+    "updateTime": "2026-01-09",
+    "description": "资讯头条看不断，财经娱乐全掌握\n新浪新闻官方手表客户端，提供全球要闻、体育财经、娱乐社会等多领域资讯，支持个性化订阅与离线阅读。",
+    "category": "生活服务",
+    "keywords": [
+      "新闻资讯",
+      "头条要闻",
+      "个性化订阅",
+      "sina news",
+      "xinwen",
+      "zixun"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/ipP6L3fnrtha",
+    "password": "6dtj",
+    "developer": "北京新浪互联信息服务有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3938204406,
+    "name": "新牛津英汉双解大词典",
+    "package": "com.haidii.wear.oxford_necdict_17001",
+    "version": "3.0.300",
+    "code": 148,
+    "minSdk": 16,
+    "size": "29.87 MB",
+    "icon": "assets/images/xinniujinyinghanshuangjiedacidian/xinniujinyinghanshuangjiedacidian_icon.webp",
+    "screenshots": [
+      "assets/images/xinniujinyinghanshuangjiedacidian/xinniujinyinghanshuangjiedacidian_1.webp",
+      "assets/images/xinniujinyinghanshuangjiedacidian/xinniujinyinghanshuangjiedacidian_2.webp",
+      "assets/images/xinniujinyinghanshuangjiedacidian/xinniujinyinghanshuangjiedacidian_3.webp",
+      "assets/images/xinniujinyinghanshuangjiedacidian/xinniujinyinghanshuangjiedacidian_4.webp",
+      "assets/images/xinniujinyinghanshuangjiedacidian/xinniujinyinghanshuangjiedacidian_5.webp"
+    ],
+    "addedTime": 1767927104103,
+    "updateTime": "2026-01-09",
+    "description": "智能查单词，每日学单词\n新牛津英汉双解大词典官方手表应用，收录海量词条与教材词汇，支持智能查询与每日单词学习，是权威的腕上词典工具。",
+    "category": "学习充电",
+    "keywords": [
+      "英汉词典",
+      "查单词",
+      "背单词",
+      "学习工具",
+      "oxford dictionary",
+      "cidian",
+      "xuexi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iP0ff3fnwzih",
+    "password": "8awp",
+    "developer": "上海海笛数字出版科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 1333474249,
     "name": "星露谷物语风格表盘",
     "package": "com.watchfacestudio.stardewlike",
@@ -2406,6 +3126,35 @@
     "downloadUrl": "https://wwatc.lanzoub.com/icjLP3exoexc",
     "password": "hq6f",
     "developer": "西瓜发电机xg",
+    "historyVersion": []
+  },
+  {
+    "id": 1323315513,
+    "name": "极氪",
+    "package": "com.zeekrlife.mobile.wearoppoos",
+    "version": "1.2",
+    "code": 3,
+    "minSdk": 27,
+    "size": "12.78 MB",
+    "icon": "assets/images/jike/jike_icon.webp",
+    "screenshots": [],
+    "addedTime": 1767927104513,
+    "updateTime": "2026-01-09",
+    "description": "极氪官方智能手表车联应用，支持系统级无感车控。实现靠近车辆自动解锁、离车自动落锁，并可通过手表远程控制车门、空调、车窗、后备箱及鸣笛寻车。",
+    "category": "生活服务",
+    "keywords": [
+      "车联合作",
+      "无感解锁",
+      "远程控车",
+      "手表车钥匙",
+      "智能车控",
+      "jike",
+      "che kong",
+      "wugan"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iWTnM3fns4sh",
+    "password": "725f",
+    "developer": "浙江极氪智能科技有限公司",
     "historyVersion": []
   },
   {
@@ -2531,38 +3280,106 @@
     "historyVersion": []
   },
   {
+    "id": 96739318,
+    "name": "深蓝汽车",
+    "package": "deepal.com.cn.watch",
+    "version": "1.0.2",
+    "code": 1002,
+    "minSdk": 24,
+    "size": "23.34 MB",
+    "icon": "assets/images/shenlanqiche/shenlanqiche_icon.webp",
+    "screenshots": [
+      "assets/images/shenlanqiche/shenlanqiche_1.webp",
+      "assets/images/shenlanqiche/shenlanqiche_2.webp",
+      "assets/images/shenlanqiche/shenlanqiche_3.webp"
+    ],
+    "addedTime": 1767927106511,
+    "updateTime": "2026-01-09",
+    "description": "科技深蓝，先达未来\n深蓝汽车官方手表应用，车主可通过手表远程查看车辆续航、锁车状态，并控制车门、车窗、空调及后备箱。",
+    "category": "生活服务",
+    "keywords": [
+      "汽车互联",
+      "远程车控",
+      "车况查询",
+      "shenlan auto",
+      "chekong",
+      "yuancheng"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iRNXM3fnrlyj",
+    "password": "4kx8",
+    "developer": "深蓝汽车科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 1476383144,
     "name": "滴答清单",
     "package": "cn.ticktick.task.wear",
-    "version": "1.1",
-    "code": 2,
-    "minSdk": 23,
-    "size": "13.17 MB",
+    "version": "1.8",
+    "code": 8,
+    "minSdk": 24,
+    "size": "53.01 MB",
     "icon": "assets/images/didaqingdan/didaqingdan_icon.webp",
     "screenshots": [
       "assets/images/didaqingdan/didaqingdan_1.webp",
       "assets/images/didaqingdan/didaqingdan_2.webp"
     ],
     "addedTime": 1764730751607,
-    "updateTime": "2025-12-11",
-    "description": "强大的GTD时间管理工具。以待办清单、日历视图和番茄钟为核心，帮你清晰规划任务、高效专注执行。支持多平台同步和团队协作，是管理个人日程与团队项目的得力助手。",
+    "updateTime": "2026-01-09",
+    "description": "一款专注于时间管理与日程提醒的待办事项清单应用，支持多平台同步与智能识别，可帮你制定计划、设置提醒，是高效办公生活的得力助手。",
     "category": "效率办公",
     "keywords": [
-      "待办",
-      "日程",
-      "番茄钟",
-      "备忘录",
+      "待办事项",
+      "时间管理",
+      "日程提醒",
       "GTD",
-      "todo",
-      "list",
-      "schedule",
-      "计划",
-      "提醒",
-      "didaqingdan"
+      "任务清单",
+      "多平台同步",
+      "日程管理",
+      "dida",
+      "daiban"
     ],
-    "downloadUrl": "https://wwatc.lanzoub.com/iDHpL3d59xze",
-    "password": "g3jq",
+    "downloadUrl": "https://wwatc.lanzoub.com/ilaLV3fnzf8f",
+    "password": "426c",
     "developer": "杭州随笔记网络技术有限公司",
+    "historyVersion": [
+      {
+        "version": "1.1",
+        "code": 2,
+        "minSdk": 23,
+        "size": "13.17 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/iDHpL3d59xze",
+        "password": "g3jq"
+      }
+    ]
+  },
+  {
+    "id": 4025407749,
+    "name": "澎湃新闻",
+    "package": "cn.thepaper.paper.android.watch",
+    "version": "1.0.1",
+    "code": 101,
+    "minSdk": 30,
+    "size": "15.84 MB",
+    "icon": "assets/images/pengpaixinwen/pengpaixinwen_icon.webp",
+    "screenshots": [
+      "assets/images/pengpaixinwen/pengpaixinwen_1.webp",
+      "assets/images/pengpaixinwen/pengpaixinwen_2.webp"
+    ],
+    "addedTime": 1767927110723,
+    "updateTime": "2026-01-09",
+    "description": "专注时政与思想的新闻资讯全媒体平台\n澎湃新闻官方手表客户端，专注提供时政要闻与深度思想内容，支持在腕间浏览高品质原创资讯。",
+    "category": "生活服务",
+    "keywords": [
+      "时政新闻",
+      "深度报道",
+      "原创资讯",
+      "thepaper",
+      "xinwen",
+      "shizheng"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iFMma3fnrkpe",
+    "password": "4bwq",
+    "developer": "上海东方报业有限公司",
     "historyVersion": []
   },
   {
@@ -2636,10 +3453,10 @@
     "id": 2591205332,
     "name": "百度地图",
     "package": "com.baidu.BaiduMap.watch",
-    "version": "1.4.4",
-    "code": 20,
+    "version": "1.4.6",
+    "code": 22,
     "minSdk": 24,
-    "size": "46.72 MB",
+    "size": "47.46 MB",
     "icon": "assets/images/baiduditu/baiduditu_icon.webp",
     "screenshots": [
       "assets/images/baiduditu/baiduditu_1.webp",
@@ -2650,27 +3467,33 @@
       "assets/images/baiduditu/baiduditu_6.webp"
     ],
     "addedTime": 1764730757721,
-    "updateTime": "2025-12-12",
-    "description": "更懂生活的智能导航。提供精准的实时公交、路况和路线规划，其核心优势在于深度整合生活服务，并搭载强大的 “小度”语音助手，让你动动嘴就能查路线、搜美食。",
+    "updateTime": "2026-01-09",
+    "description": "百度地图官方手表应用，支持在手表端独立使用步行与骑行导航，提供多种路线方案，并支持实时定位查询，让出行更便捷。",
     "category": "生活服务",
     "keywords": [
-      "度娘",
-      "小度",
-      "导航",
-      "公交",
-      "路线",
-      "打车",
-      "GPS",
-      "map",
-      "ditu",
-      "摆渡",
-      "街景",
-      "baidu"
+      "步行导航",
+      "骑行导航",
+      "实时定位",
+      "出行",
+      "独立导航",
+      "地图",
+      "baidu map",
+      "daohang",
+      "ditu"
     ],
-    "downloadUrl": "https://easylink.cc/9q8ibn",
-    "password": "",
+    "downloadUrl": "https://wwatc.lanzoub.com/ia5SD3fo0dgh",
+    "password": "d71x",
     "developer": "北京百度网讯科技有限公司",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.4.4",
+        "code": 20,
+        "minSdk": 24,
+        "size": "46.72 MB",
+        "downloadUrl": "https://easylink.cc/9q8ibn",
+        "password": ""
+      }
+    ]
   },
   {
     "id": 4162809214,
@@ -2784,16 +3607,17 @@
     ],
     "addedTime": 1764730761496,
     "updateTime": "2025-12-12",
-    "description": "网易云音乐官方手表版，同步账号歌单与个性化推荐，支持播放控制与歌词显示，在腕间延续独特的音乐社区体验。",
+    "description": "网易云音乐官方手表应用，提供个性推荐、运动歌单和会员曲库，支持离线畅听与无损音质，是腕上的高品质音乐伴侣。",
     "category": "影音娱乐",
     "keywords": [
-      "云音乐",
-      "听歌",
-      "推荐",
-      "歌单",
-      "163",
-      "网抑云",
-      "wangyiyun"
+      "音乐推荐",
+      "运动歌单",
+      "会员曲库",
+      "无损音质",
+      "离线畅听",
+      "netease cloud music",
+      "ge dan",
+      "tuijian"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i3UIr3d5apuh",
     "password": "51yi",
@@ -2994,6 +3818,35 @@
     "historyVersion": []
   },
   {
+    "id": 3874738606,
+    "name": "腕有引力",
+    "package": "com.incall.incallwatch",
+    "version": "1.1.0",
+    "code": 110,
+    "minSdk": 26,
+    "size": "21.08 MB",
+    "icon": "assets/images/wanyouyinli/wanyouyinli_icon.webp",
+    "screenshots": [],
+    "addedTime": 1767927119380,
+    "updateTime": "2026-01-09",
+    "description": "长安汽车官方手表控车应用，支持远程解闭锁、开关空调、寻车、车辆定位等功能，为车主提供便捷的无钥匙出行体验。",
+    "category": "生活服务",
+    "keywords": [
+      "长安汽车",
+      "手表控车",
+      "远程车控",
+      "车辆定位",
+      "无钥匙",
+      "changan auto",
+      "chekong",
+      "xun che"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i8MIx3fnrssf",
+    "password": "fr1q",
+    "developer": "重庆长安汽车股份有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 3007516849,
     "name": "腕能精灵",
     "package": "com.nurl.wristwizard",
@@ -3090,6 +3943,102 @@
     "historyVersion": []
   },
   {
+    "id": 2884761579,
+    "name": "航旅纵横",
+    "package": "com.umetrip.android.msky.app",
+    "version": "1.4.1",
+    "code": 17,
+    "minSdk": 24,
+    "size": "10.35 MB",
+    "icon": "assets/images/hanglvzongheng/hanglvzongheng_icon.webp",
+    "screenshots": [
+      "assets/images/hanglvzongheng/hanglvzongheng_1.webp",
+      "assets/images/hanglvzongheng/hanglvzongheng_2.webp"
+    ],
+    "addedTime": 1767927120435,
+    "updateTime": "2026-01-09",
+    "description": "航旅纵横，伴你出行每一程\n中国民航官方出行的航旅纵横手表版，提供权威的航班动态、电子登机牌、值机选座及行程自动导入服务，是差旅人士的腕上出行助手。",
+    "category": "生活服务",
+    "keywords": [
+      "航班查询",
+      "电子登机牌",
+      "值机选座",
+      "差旅出行",
+      "hanglv",
+      "hangban",
+      "chuxing"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iLocQ3fnrfji",
+    "password": "6bkb",
+    "developer": "中航信移动科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 1193721720,
+    "name": "薄荷健康",
+    "package": "com.boohee.xiaomiapplication",
+    "version": "1.0.1",
+    "code": 2,
+    "minSdk": 23,
+    "size": "7.19 MB",
+    "icon": "assets/images/baohejiankang/baohejiankang_icon.webp",
+    "screenshots": [
+      "assets/images/baohejiankang/baohejiankang_1.webp",
+      "assets/images/baohejiankang/baohejiankang_2.webp",
+      "assets/images/baohejiankang/baohejiankang_3.webp"
+    ],
+    "addedTime": 1767927120801,
+    "updateTime": "2026-01-09",
+    "description": "科学的减肥健身方案\n薄荷健康官方手表应用，专注于科学减肥与健康管理，支持记录饮食、体重、体围等数据，并与手机App同步。",
+    "category": "健康运动",
+    "keywords": [
+      "减肥",
+      "热量计算",
+      "健康记录",
+      "体脂管理",
+      "bohe jiankang",
+      "jian fei",
+      "jilu"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i5wKs3fnu25e",
+    "password": "6djq",
+    "developer": "上海薄荷健康科技股份有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3271829326,
+    "name": "行者",
+    "package": "com.imxingzhe.watch",
+    "version": "1.1.2",
+    "code": 201708101,
+    "minSdk": 21,
+    "size": "3.25 MB",
+    "icon": "assets/images/hangzhe/hangzhe_icon.webp",
+    "screenshots": [
+      "assets/images/hangzhe/hangzhe_1.webp",
+      "assets/images/hangzhe/hangzhe_2.webp",
+      "assets/images/hangzhe/hangzhe_3.webp",
+      "assets/images/hangzhe/hangzhe_4.webp"
+    ],
+    "addedTime": 1767927121169,
+    "updateTime": "2026-01-09",
+    "description": "专为户外运动爱好者打造的工具\n行者户外助手手表版，专注于骑行、徒步等户外运动，提供轨迹记录、路书导航、队伍位置共享与海拔数据等功能。",
+    "category": "健康运动",
+    "keywords": [
+      "户外骑行",
+      "轨迹记录",
+      "路书导航",
+      "海拔曲线",
+      "xingzhe",
+      "huwai",
+      "qixing"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/ijviM3fnutxe",
+    "password": "at2y",
+    "developer": "上海大不自多信息科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 870072141,
     "name": "西窗烛",
     "package": "com.xcz.watch",
@@ -3108,21 +4057,53 @@
     ],
     "addedTime": 1764730771527,
     "updateTime": "2025-12-12",
-    "description": "致力于传承中华优秀传统文化的平台，提供百万诗词文库、创作社区与学习工具，让古典诗意融入现代生活。",
+    "description": "一款专注于中华古诗词学习的应用，提供按朝代、作者、地域检索的海量文库，以及诗词赏析与音频，是传统文化的腕上学习平台。",
     "category": "学习充电",
     "keywords": [
-      "诗词",
+      "古诗词",
       "国学",
       "传统文化",
-      "学习",
-      "赏析",
-      "古诗词",
-      "诗词库",
-      "xichuangzhu"
+      "诗词学习",
+      "诗文库",
+      "xichuangzhu",
+      "shi ci",
+      "xuexi"
     ],
     "downloadUrl": "https://easylink.cc/lc8g37",
     "password": "",
     "developer": "北京西窗文化传媒有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3702102768,
+    "name": "计算器",
+    "package": "com.blueeve.wearcalculator",
+    "version": "1.2.2",
+    "code": 122,
+    "minSdk": 30,
+    "size": "21.17 MB",
+    "icon": "assets/images/jisuanqi/jisuanqi_icon.webp",
+    "screenshots": [
+      "assets/images/jisuanqi/jisuanqi_1.webp",
+      "assets/images/jisuanqi/jisuanqi_2.webp",
+      "assets/images/jisuanqi/jisuanqi_3.webp"
+    ],
+    "addedTime": 1767927121982,
+    "updateTime": "2026-01-09",
+    "description": "简单界面完整能用的圆表计算器\n一款专为小米手表等圆屏设备适配的计算器，界面简洁，支持普通与科学计算两种模式，通过滑动切换。",
+    "category": "生活服务",
+    "keywords": [
+      "计算器",
+      "科学计算",
+      "圆屏适配",
+      "小米手表",
+      "calculator",
+      "jisuanqi",
+      "kexue jisuan"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iaIgB3fnrjqj",
+    "password": "ctrc",
+    "developer": "BlueEve",
     "historyVersion": []
   },
   {
@@ -3156,6 +4137,36 @@
     "downloadUrl": "https://wwatc.lanzoub.com/ivYxK3d5a48j",
     "password": "7ik1",
     "developer": "合肥科讯创想软件开发有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 2689091104,
+    "name": "賢將與河童 搖曳於夏",
+    "package": "com.sawawatchface.natsuiro",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "11.19 MB",
+    "icon": "assets/images/xianjiangyuhetongyaoyeyuxia/xianjiangyuhetongyaoyeyuxia_icon.webp",
+    "screenshots": [
+      "assets/images/xianjiangyuhetongyaoyeyuxia/xianjiangyuhetongyaoyeyuxia_1.webp"
+    ],
+    "addedTime": 1767927122536,
+    "updateTime": "2026-01-09",
+    "description": "一款以“賢將與河童 搖曳於夏”为主题设计的个性化表盘。",
+    "category": "表盘美化",
+    "keywords": [
+      "主题表盘",
+      "个性化",
+      "二次元",
+      "动漫风格",
+      "watch face",
+      "zhuti biaopan",
+      "dongman"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iKZdS3fnq7je",
+    "password": "363h",
+    "developer": "",
     "historyVersion": []
   },
   {
@@ -3196,10 +4207,10 @@
     "id": 2551996793,
     "name": "起源阅读",
     "package": "xyz.osdn.bookreader",
-    "version": "v1.9修复版",
+    "version": "v1.9",
     "code": 41,
     "minSdk": 21,
-    "size": "13.05 MB",
+    "size": "13.25 MB",
     "icon": "assets/images/qiyuanyuedu/qiyuanyuedu_icon.webp",
     "screenshots": [
       "assets/images/qiyuanyuedu/qiyuanyuedu_1.webp",
@@ -3229,10 +4240,10 @@
     "id": 3956258557,
     "name": "酷我音乐",
     "package": "cn.kuwo.wearplayer",
-    "version": "2.4.2",
-    "code": 242,
-    "minSdk": 19,
-    "size": "9.38 MB",
+    "version": "2.4.3",
+    "code": 243,
+    "minSdk": 26,
+    "size": "9.24 MB",
     "icon": "assets/images/kuwoyinle/kuwoyinle_icon.webp",
     "screenshots": [
       "assets/images/kuwoyinle/kuwoyinle_1.webp",
@@ -3240,20 +4251,31 @@
       "assets/images/kuwoyinle/kuwoyinle_3.webp"
     ],
     "addedTime": 1764730774626,
-    "updateTime": "2025-12-12",
-    "description": "酷我音乐官方手表应用，畅听海量歌曲、有声小说、儿童内容及热门综艺原声，满足多样化的音频娱乐需求。",
+    "updateTime": "2026-01-09",
+    "description": "酷我音乐官方手表应用，依托腾讯音乐海量曲库，提供飙升榜、新歌榜等精选歌单，畅听正版音乐、小说与相声等内容。",
     "category": "影音娱乐",
     "keywords": [
       "听歌",
-      "小说",
-      "综艺",
-      "无损",
-      "kuwo"
+      "音乐播放器",
+      "精选歌单",
+      "海量曲库",
+      "小说相声",
+      "kuwo",
+      "yinyue",
+      "gequ"
     ],
-    "downloadUrl": "https://wwatc.lanzoub.com/itxQb3d9e2if",
-    "password": "avun",
+    "downloadUrl": "https://wwatc.lanzoub.com/ixvei3fnxyyd",
+    "password": "aj48",
     "developer": "北京酷我科技有限公司",
     "historyVersion": [
+      {
+        "version": "2.4.2",
+        "code": 242,
+        "minSdk": 19,
+        "size": "9.38 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/itxQb3d9e2if",
+        "password": "avun"
+      },
       {
         "version": "2.2.4",
         "code": 224,
@@ -3340,34 +4362,41 @@
     "id": 2736263233,
     "name": "钱迹",
     "package": "com.litangtech.qianji.watchand",
-    "version": "2.0",
-    "code": 27,
+    "version": "2.3",
+    "code": 32,
     "minSdk": 25,
-    "size": "4.42 MB",
+    "size": "4.15 MB",
     "icon": "assets/images/qianji/qianji_icon.webp",
     "screenshots": [
       "assets/images/qianji/qianji_1.webp",
       "assets/images/qianji/qianji_2.webp"
     ],
     "addedTime": 1764730776250,
-    "updateTime": "2025-12-12",
-    "description": "一款纯粹无广告的个人记账App，专注清晰记录每一笔收支，提供多维度统计与预算管理，让消费与资产一目了然。",
+    "updateTime": "2026-01-09",
+    "description": "一款秉持“无广告、无开屏、无理财”理念的极简记账应用，专注个人收支记录，让每一笔消费清晰明了。",
     "category": "效率办公",
     "keywords": [
       "记账",
+      "个人理财",
       "收支管理",
-      "资产",
+      "极简",
       "无广告",
-      "纯粹",
-      "bill",
-      "记账软件",
-      "消费统计",
-      "qianji"
+      "qianji",
+      "jizhang",
+      "licai"
     ],
-    "downloadUrl": "https://wwatc.lanzoub.com/iTZWj3d59z5g",
-    "password": "3jjt",
+    "downloadUrl": "https://wwatc.lanzoub.com/iRHx23fnzg1e",
+    "password": "1ssy",
     "developer": "西安李唐科技有限公司",
     "historyVersion": [
+      {
+        "version": "2.0",
+        "code": 27,
+        "minSdk": 25,
+        "size": "4.42 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/iTZWj3d59z5g",
+        "password": "3jjt"
+      },
       {
         "version": "1.4",
         "code": 5,
@@ -3412,6 +4441,39 @@
     "downloadUrl": "https://easylink.cc/xwx311",
     "password": "",
     "developer": "重庆努优尔科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 2408453376,
+    "name": "雅迪智行",
+    "package": "com.yadea.wear",
+    "version": "1.0.0",
+    "code": 100,
+    "minSdk": 26,
+    "size": "52.91 MB",
+    "icon": "assets/images/yadizhihang/yadizhihang_icon.webp",
+    "screenshots": [
+      "assets/images/yadizhihang/yadizhihang_1.webp",
+      "assets/images/yadizhihang/yadizhihang_2.webp",
+      "assets/images/yadizhihang/yadizhihang_3.webp",
+      "assets/images/yadizhihang/yadizhihang_4.webp"
+    ],
+    "addedTime": 1767927126244,
+    "updateTime": "2026-01-09",
+    "description": "智慧骑行，乐享生活\n雅迪电动车官方智能出行应用，支持通过手表进行车辆操控、状态查询与位置管理，提升用车安全与便捷性。",
+    "category": "生活服务",
+    "keywords": [
+      "雅迪电动车",
+      "智能车控",
+      "车辆状态",
+      "位置管理",
+      "yadea",
+      "diandongche",
+      "chuxing"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iJmc53fnrxif",
+    "password": "60jx",
+    "developer": "雅迪科技集团有限公司",
     "historyVersion": []
   },
   {
