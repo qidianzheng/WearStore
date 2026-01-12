@@ -162,7 +162,7 @@ function openNewArrivals() {
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
   let sorted = [...allApps].filter(a => isAppCompatible(a, userApi));
   sorted.sort((a, b) => (b.addedTime || 0) - (a.addedTime || 0));
-  openCategoryList("最新上架", sorted.slice(0, 45));
+  openCategoryList("最新上架", sorted.slice(0, 25));
 }
 
 function openRecentUpdates() {
@@ -173,7 +173,7 @@ function openRecentUpdates() {
     const dateB = new Date(b.updateTime || 0);
     return dateB - dateA;
   });
-  openCategoryList("最近更新", sorted.slice(0, 45));
+  openCategoryList("最近更新", sorted.slice(0, 25));
 }
 
 function showSuggestions(term) {
