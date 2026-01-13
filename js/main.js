@@ -10,6 +10,7 @@ const elements = {
   searchSuggestions: document.getElementById('searchSuggestions'),
   clearSearchBtn: document.getElementById('clearSearchBtn'),
 
+  // 菜单相关
   menuBtn: document.getElementById('menuBtn'),
   menuModal: document.getElementById('menuModalOverlay'),
   closeMenuModal: document.getElementById('closeMenuModal'),
@@ -18,8 +19,10 @@ const elements = {
   menuVersionText: document.getElementById('menuVersionText'),
   newArrivalsBtn: document.getElementById('newArrivalsBtn'),
   recentUpdatesBtn: document.getElementById('recentUpdatesBtn'),
+  serviceBtn: document.getElementById('serviceBtn'),
   menuCategoryGrid: document.getElementById('menuCategoryGrid'),
 
+  // 窗口相关
   categoryWindow: document.getElementById('categoryWindowOverlay'),
   categoryAppsContainer: document.getElementById('categoryAppsContainer'),
   categoryWindowTitle: document.getElementById('categoryWindowTitle'),
@@ -120,6 +123,7 @@ function bindEvents() {
     }
   });
 
+  // 菜单相关
   elements.menuBtn.onclick = () => {
     updateVersionTextInMenu();
     elements.menuModal.classList.add('active');
@@ -142,6 +146,27 @@ function bindEvents() {
   elements.newArrivalsBtn.onclick = openNewArrivals;
   elements.recentUpdatesBtn.onclick = openRecentUpdates;
 
+  // 综合服务按钮逻辑
+  if (elements.serviceBtn) {
+    //  问卷链接 
+    const serviceUrl = "https://wj.qq.com/s2/25513095/8cde/";
+
+    elements.serviceBtn.onclick = () => {
+      if (!serviceUrl || serviceUrl.includes("your-form-url")) {
+        alert("请在 js/main.js 中配置服务链接");
+        return;
+      }
+      const link = document.createElement('a');
+      link.href = serviceUrl;
+      link.target = '_blank';
+      link.rel = 'noreferrer noopener';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
+  }
+
+  // 窗口关闭
   elements.categoryCloseBtn.onclick = () => closeStaticModal(elements.categoryWindow);
   elements.categoryWindow.onclick = (e) => {
     if (e.target === elements.categoryWindow) closeStaticModal(elements.categoryWindow);
@@ -221,7 +246,6 @@ function performSearch() {
 
   if (!term) { renderRandomHome(); return; }
 
-  // 1. Fuse 搜索
   const fuseResults = fuse.search(term);
 
   if (fuseResults.length === 0) {
@@ -229,29 +253,22 @@ function performSearch() {
     return;
   }
 
-  // --- 精准命中抢占逻辑 ---
-
   const topResult = fuseResults[0];
   const topItem = topResult.item;
 
-  // 如果第一名是不兼容的
+  // 智能不兼容判断 (抢占式)
   if (!isAppCompatible(topItem, userApi)) {
     const appName = topItem.name.toLowerCase();
     const input = term.toLowerCase();
 
-    // 判断是否为“精准搜索”
-    // 条件：输入内容 和 应用名字 完全一样
     const isExactMatch = appName === input;
 
     if (isExactMatch) {
-      // 用户指名道姓要找这个不兼容的软件，
       renderIncompatibleCard(topItem, elements.container);
       return;
     }
   }
-  // ------------------------------------
 
-  // 2. 常规逻辑 (泛搜索)
   const compatible = [];
   const incompatible = [];
 
@@ -263,20 +280,17 @@ function performSearch() {
     }
   });
 
-  // 3. 决策显示
   if (compatible.length > 0) {
-    // 搜 "mouse" 时，WowMouse(不兼容)不是全名匹配，所以没被上面拦截
-    // 这里就会优先显示 WearMouse(兼容)
     renderCardList(compatible, elements.container);
   } else if (incompatible.length > 0) {
-    // 兜底：如果兼容列表为空，再看剩下的不兼容里有没有匹配度还可以的
-    const bestBadMatch = incompatible[0];
-    const appName = bestBadMatch.name;
+    const bestMatch = incompatible[0];
+    const appName = bestMatch.name;
+
     const nameMatchRatio = term.length / appName.length;
     const isLiterallySame = appName.toLowerCase() === term.toLowerCase();
 
     if (isLiterallySame || nameMatchRatio >= 0.4) {
-      renderIncompatibleCard(bestBadMatch, elements.container);
+      renderIncompatibleCard(bestMatch, elements.container);
     } else {
       renderCardList([], elements.container);
     }
@@ -288,13 +302,11 @@ function performSearch() {
 function checkHashLink() {
   const hash = window.location.hash;
 
-  // 获取当前所有已打开的应用窗口 (按层级排序)
   const activeModals = Array.from(document.querySelectorAll('.modal-overlay.active'))
     .sort((a, b) => (parseInt(window.getComputedStyle(a).zIndex) || 0) - (parseInt(window.getComputedStyle(b).zIndex) || 0));
 
   const topModal = activeModals.length > 0 ? activeModals[activeModals.length - 1] : null;
 
-  // 情况 1: URL 变回了主页 (空 hash)
   if (!hash || hash === '#') {
     if (activeModals.length > 0) {
       activeModals.forEach(modal => {
@@ -308,7 +320,6 @@ function checkHashLink() {
     return;
   }
 
-  // 情况 2: URL 变成了某个应用的包名
   if (hash.startsWith('#app=')) {
     const pkgName = hash.split('=')[1];
 
@@ -319,7 +330,6 @@ function checkHashLink() {
     if (activeModals.length > 1) {
       const previousModal = activeModals[activeModals.length - 2];
       if (previousModal && previousModal.getAttribute('data-package') === pkgName) {
-        // 返回上一层
         topModal.classList.remove('active');
         setTimeout(() => topModal.remove(), 300);
         return;
@@ -397,10 +407,8 @@ function openCategoryList(title, appList) {
   elements.categoryWindowTitle.textContent = title;
   renderCardList(appList, elements.categoryAppsContainer);
 
-  // 计算最大层级
   let maxZ = 1300;
-  const allOverlays = document.querySelectorAll('.modal-overlay');
-  allOverlays.forEach(el => {
+  document.querySelectorAll('.modal-overlay').forEach(el => {
     const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
     if (z > maxZ) maxZ = z;
   });
@@ -525,8 +533,7 @@ function openDevWindow(detail) {
   renderCardList(filteredApps, elements.devAppsContainer);
 
   let maxZ = 1300;
-  const allOverlays = document.querySelectorAll('.modal-overlay');
-  allOverlays.forEach(el => {
+  document.querySelectorAll('.modal-overlay').forEach(el => {
     const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
     if (z > maxZ) maxZ = z;
   });
