@@ -482,6 +482,9 @@ body {
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--text-main);
+  word-break: break-all;
+  line-height: 1.2;
+  margin-top: 2px;
 }
 
 /* 不兼容提示卡片 */

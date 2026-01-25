@@ -1,5 +1,65 @@
 [
   {
+    "id": 2597816725,
+    "name": "2048",
+    "package": "com.fastsoft.game2048w",
+    "version": "2.8",
+    "code": 28,
+    "minSdk": 20,
+    "size": "0.04 MB",
+    "icon": "assets/images/2048/2048_icon.webp",
+    "screenshots": [
+      "assets/images/2048/2048_1.webp"
+    ],
+    "addedTime": 1769240147335,
+    "updateTime": "2026-01-24",
+    "description": "一款经典的 2048 数字合并益智游戏，专为 Wear OS 智能手表优化，体积小巧无广告，支持在手机和手表上同步安装运行。",
+    "category": "影音娱乐",
+    "keywords": [
+      "益智游戏",
+      "数字合并",
+      "youxi",
+      "game"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iYXsT3gzba8j",
+    "password": "cy8n",
+    "developer": "fast-soft",
+    "historyVersion": []
+  },
+  {
+    "id": 1961311035,
+    "name": "AD Nothing Dots Basics",
+    "package": "com.albuquerquedesign.addigital002basic",
+    "version": "1.5",
+    "code": 10000024,
+    "minSdk": 33,
+    "size": "0.25 MB",
+    "icon": "assets/images/adnothingdotsbasics/adnothingdotsbasics_icon.webp",
+    "screenshots": [
+      "assets/images/adnothingdotsbasics/adnothingdotsbasics_1.webp"
+    ],
+    "addedTime": 1769240147362,
+    "updateTime": "2026-01-24",
+    "description": "一款采用 LED 点阵风格的 Wear OS 表盘，支持自定义7个复杂功能、多种颜色和AOD息屏样式，设计简约且具科技感。",
+    "category": "表盘美化",
+    "keywords": [
+      "LED风格"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iZFyu3gz467c",
+    "password": "gbnh",
+    "developer": "Albuquerque Design",
+    "historyVersion": [
+      {
+        "version": "3.5",
+        "code": 10000018,
+        "minSdk": 30,
+        "size": "0.30 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/iarhh3gz469e",
+        "password": "fqtr"
+      }
+    ]
+  },
+  {
     "id": 3609522688,
     "name": "AIDA64",
     "package": "com.finalwire.aida64",
@@ -89,9 +149,8 @@
     "category": "系统工具",
     "keywords": [
       "文件管理器",
-      "跨设备管理",
       "WiFi快传",
-      "网络存储",
+      "存储",
       "explorer",
       "file manager",
       "视频",
@@ -108,6 +167,40 @@
         "size": "24.37 MB",
         "downloadUrl": "https://wwatc.lanzoub.com/iWwBr3d51a3g",
         "password": "8rgu"
+      }
+    ]
+  },
+  {
+    "id": 829834691,
+    "name": "Analog Watch Face-WF1",
+    "package": "com.analogwatch.watchface.wearos.wear.classiwatchface.wf1.freewatchface",
+    "version": "2.0.0",
+    "code": 10000002,
+    "minSdk": 33,
+    "size": "0.32 MB",
+    "icon": "assets/images/analogwatchfacewf1/analogwatchfacewf1_icon.webp",
+    "screenshots": [
+      "assets/images/analogwatchfacewf1/analogwatchfacewf1_1.webp"
+    ],
+    "addedTime": 1769240149001,
+    "updateTime": "2026-01-24",
+    "description": "一款优雅的经典指针式表盘，清晰展示心率、步数、电量、日期等健康与实用信息，支持息屏显示和点击测量心率。",
+    "category": "表盘美化",
+    "keywords": [
+      "健康信息",
+      "心率步数"
+    ],
+    "downloadUrl": "",
+    "password": "",
+    "developer": "jigu watchface",
+    "historyVersion": [
+      {
+        "version": "1.0.0",
+        "code": 10000001,
+        "minSdk": 30,
+        "size": "0.29 MB",
+        "downloadUrl": "",
+        "password": ""
       }
     ]
   },
@@ -133,9 +226,7 @@
       "宠物图片",
       "猫咪",
       "兔子",
-      "治愈",
       "萌宠",
-      "收藏",
       "chongwu"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iCrsE3djyjcb",
@@ -143,6 +234,105 @@
     "developer": "Beaverfy",
     "historyVersion": [],
     "contributor": "清漓染CHR."
+  },
+  {
+    "id": 337984293,
+    "name": "Anime flowers",
+    "package": "com.watchfacestudio.animeflowers",
+    "version": "1.1.0",
+    "code": 10000008,
+    "minSdk": 30,
+    "size": "2.38 MB",
+    "icon": "assets/images/animeflowers/animeflowers_icon.webp",
+    "screenshots": [
+      "assets/images/animeflowers/animeflowers_1.webp"
+    ],
+    "addedTime": 1769240149085,
+    "updateTime": "2026-01-24",
+    "description": "一款以动漫花卉为主题的 Wear OS 表盘，提供多种背景和指针颜色选择，支持多语言和AOD息屏，设计注重续航优化。",
+    "category": "表盘美化",
+    "keywords": [
+      "动漫表盘",
+      "花卉主题",
+      "AOD息屏",
+      "huahui"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i5hbb3gz464j",
+    "password": "9pvo",
+    "developer": "Iv Watchface",
+    "historyVersion": []
+  },
+  {
+    "id": 2763815218,
+    "name": "Athlete 2 Lite",
+    "package": "com.amoledwatchfaces.athlete2lite",
+    "version": "1.1.9-wff2",
+    "code": 10020019,
+    "minSdk": 34,
+    "size": "0.44 MB",
+    "icon": "assets/images/athlete2lite/athlete2lite_icon.webp",
+    "screenshots": [
+      "assets/images/athlete2lite/athlete2lite_1.webp"
+    ],
+    "addedTime": 1769240149137,
+    "updateTime": "2026-01-24",
+    "description": "一款专为运动爱好者设计的 Wear OS 表盘（轻量版），采用渐变色进度条动态显示步数与电量，支持5个自定义复杂功能和独特的低功耗息屏模式。",
+    "category": "表盘美化",
+    "keywords": [
+      "运动表盘",
+      "低功耗AOD",
+      "yundong"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iAmmo3gz461g",
+    "password": "6r1b",
+    "developer": "amoledwatchfaces™",
+    "historyVersion": []
+  },
+  {
+    "id": 1216509200,
+    "name": "BOTW",
+    "package": "com.watchfacestudio.botw",
+    "version": "2.0.0",
+    "code": 1,
+    "minSdk": 28,
+    "size": "43.21 MB",
+    "icon": "assets/images/botw/botw_icon.webp",
+    "screenshots": [
+      "assets/images/botw/botw_1.webp"
+    ],
+    "addedTime": 1769240149447,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/idzYZ3gz45ze",
+    "password": "hbvj",
+    "developer": "",
+    "historyVersion": []
+  },
+  {
+    "id": 1105753540,
+    "name": "Big Apple",
+    "package": "com.sparkine.mwf.bigapple",
+    "version": "1.0.3.0",
+    "code": 5,
+    "minSdk": 33,
+    "size": "0.08 MB",
+    "icon": "assets/images/bigapple/bigapple_icon.webp",
+    "screenshots": [
+      "assets/images/bigapple/bigapple_1.webp"
+    ],
+    "addedTime": 1769240149458,
+    "updateTime": "2026-01-24",
+    "description": "一款为大屏 Wear OS 手表设计的大胆极简表盘，提供3种样式和50多种精选配色方案，信息一目了然，兼顾续航与个性表达。",
+    "category": "表盘美化",
+    "keywords": [
+      "大字体"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iSc4x3gz444h",
+    "password": "fzm9",
+    "developer": "Sparkine Labs",
+    "historyVersion": []
   },
   {
     "id": 690513863,
@@ -165,10 +355,6 @@
     "category": "影音娱乐",
     "keywords": [
       "哔哩哔哩",
-      "第三方客户端",
-      "Compose开发",
-      "Material 3",
-      "圆屏适配",
       "bilibili",
       "b站"
     ],
@@ -198,16 +384,60 @@
     "keywords": [
       "体温测量",
       "健康监测",
-      "Galaxy Watch",
       "传感器",
       "温度计",
-      "health monitoring",
-      "tiwen",
-      "shengwu chuangan"
+      "tiwen"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iOxBf3f0rmzi",
     "password": "ccic",
     "developer": "Tick Tock",
+    "historyVersion": []
+  },
+  {
+    "id": 158350757,
+    "name": "CCWatch Galaxy Lite",
+    "package": "com.ccwatch.ccgalaxy2",
+    "version": "1.0.0",
+    "code": 1,
+    "minSdk": 28,
+    "size": "3.39 MB",
+    "icon": "assets/images/ccwatchgalaxylite/ccwatchgalaxylite_icon.webp",
+    "screenshots": [
+      "assets/images/ccwatchgalaxylite/ccwatchgalaxylite_1.webp"
+    ],
+    "addedTime": 1769240150111,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iuOui3gz442f",
+    "password": "4o5d",
+    "developer": "",
+    "historyVersion": []
+  },
+  {
+    "id": 1377558027,
+    "name": "CMF Analog",
+    "package": "com.sparkine.mwf.cmfanalog",
+    "version": "1.0.3.0",
+    "code": 5,
+    "minSdk": 33,
+    "size": "0.14 MB",
+    "icon": "assets/images/cmfanalog/cmfanalog_icon.webp",
+    "screenshots": [
+      "assets/images/cmfanalog/cmfanalog_1.webp"
+    ],
+    "addedTime": 1769240150125,
+    "updateTime": "2026-01-24",
+    "description": "一款兼具复古感与现代感的极简指针表盘，提供2种样式、20多种配色和3个可配置的复杂功能区域，设计干净且省电。",
+    "category": "表盘美化",
+    "keywords": [
+      "复古表盘",
+      "极简指针"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iEf663gz43wj",
+    "password": "3pe9",
+    "developer": "Sparkine Labs",
     "historyVersion": []
   },
   {
@@ -323,16 +553,135 @@
       "咖啡计时",
       "手冲咖啡",
       "法压壶",
-      "开源",
       "冲泡工具",
-      "brew timer",
       "kafei",
-      "jishi"
+      "jishi",
+      "coffee"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iJF943fyoz8f",
     "password": "6foo",
     "developer": "Leon Omelan",
     "historyVersion": []
+  },
+  {
+    "id": 895391818,
+    "name": "Concentric",
+    "package": "com.watchfacedesigns.Concentric",
+    "version": "1.2.2",
+    "code": 10000025,
+    "minSdk": 34,
+    "size": "0.79 MB",
+    "icon": "assets/images/concentric/concentric_icon.webp",
+    "screenshots": [
+      "assets/images/concentric/concentric_1.webp"
+    ],
+    "addedTime": 1769240151058,
+    "updateTime": "2026-01-24",
+    "description": "一款开源的数字风格 Wear OS 表盘，具有丰富的自定义选项，包括多种色彩主题、刻度样式、AOD模式，并支持5个复杂功能。",
+    "category": "表盘美化",
+    "keywords": [
+      "数字表盘",
+      "同心圆设计",
+      "shuzi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iOXKU3gz43pc",
+    "password": "6eds",
+    "developer": "Luka Kilic - Watch Faces",
+    "historyVersion": [
+      {
+        "version": "1.2.0",
+        "code": 10000022,
+        "minSdk": 33,
+        "size": "0.79 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/ig8fA3gz43vi",
+        "password": "90fk"
+      }
+    ]
+  },
+  {
+    "id": 3718019256,
+    "name": "DOS Style Watch face",
+    "package": "de.mindfabrik.watchface.android.dos",
+    "version": "1.5.8",
+    "code": 10000158,
+    "minSdk": 33,
+    "size": "0.15 MB",
+    "icon": "assets/images/dosstylewatchface/dosstylewatchface_icon.webp",
+    "screenshots": [
+      "assets/images/dosstylewatchface/dosstylewatchface_1.webp"
+    ],
+    "addedTime": 1769240151063,
+    "updateTime": "2026-01-24",
+    "description": "一款致敬早期命令行操作系统的怀旧风格表盘，以DOS界面样式显示时间与日期，支持12/24小时制和经典显示器配色（白、绿、橙红）。",
+    "category": "表盘美化",
+    "keywords": [
+      "命令行表盘",
+      "电脑主题",
+      "极客风",
+      "jike"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i3kEW3gz43mj",
+    "password": "eo71",
+    "developer": "MindFabrik UG (haftungsbeschränkt)",
+    "historyVersion": []
+  },
+  {
+    "id": 1687911058,
+    "name": "EXP02",
+    "package": "com.sixty9design.exp02",
+    "version": "1.0.5",
+    "code": 10000005,
+    "minSdk": 30,
+    "size": "0.58 MB",
+    "icon": "assets/images/exp02/exp02_icon.webp",
+    "screenshots": [
+      "assets/images/exp02/exp02_1.webp"
+    ],
+    "addedTime": 1769240151080,
+    "updateTime": "2026-01-24",
+    "description": "一款提供高度自定义元素的 Wear OS 表盘，拥有30种配色组合，可显示步数、日期、电量和1个复杂功能，支持用户创造个性化的设计组合。",
+    "category": "表盘美化",
+    "keywords": [
+      "步数电量"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iQoDy3gz43li",
+    "password": "4buh",
+    "developer": "69 Design",
+    "historyVersion": []
+  },
+  {
+    "id": 702273118,
+    "name": "Embassy 3: Minimal Watch Face",
+    "package": "com.exdwatchface.embassy3_minimal",
+    "version": "1.0.3",
+    "code": 10000003,
+    "minSdk": 33,
+    "size": "0.31 MB",
+    "icon": "assets/images/embassy3minimalwatchface/embassy3minimalwatchface_icon.webp",
+    "screenshots": [
+      "assets/images/embassy3minimalwatchface/embassy3minimalwatchface_1.webp"
+    ],
+    "addedTime": 1769240151091,
+    "updateTime": "2026-01-24",
+    "description": "一款体现优雅简洁主义的现代数字表盘，支持12/24小时制、日期显示、AM/PM指示器，并提供10种颜色预设与一个自定义快捷入口。",
+    "category": "表盘美化",
+    "keywords": [
+      "极简数字表盘",
+      "现代设计"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/isycH3gz43eb",
+    "password": "6cys",
+    "developer": "Executive Design Watch Face",
+    "historyVersion": [
+      {
+        "version": "1.0.0",
+        "code": 10000001,
+        "minSdk": 30,
+        "size": "0.36 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/iF71q3gz43if",
+        "password": "cewz"
+      }
+    ]
   },
   {
     "id": 1538194292,
@@ -350,13 +699,7 @@
     "updateTime": "2026-01-12",
     "description": "一款灵感源自 Google FORM 设计大会字体的独特表盘，以优雅的排版和动画为 Wear OS 手表带来兼具艺术美感与功能性的视觉体验。",
     "category": "表盘美化",
-    "keywords": [
-      "设计感",
-      "排版艺术",
-      "动画效果",
-      "watch face",
-      "ziti biaopan"
-    ],
+    "keywords": [],
     "downloadUrl": "https://wwatc.lanzoub.com/iPaWd3fypxyf",
     "password": "4ct7",
     "developer": "Roman Nurik",
@@ -386,10 +729,8 @@
       "应用磁贴",
       "自定义图标",
       "快捷方式",
-      "表盘工具",
       "quick launch",
-      "kuaisu qidong",
-      "citie"
+      "kuaisu qidong"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iZPXb3fyo0re",
     "password": "9bnb",
@@ -415,13 +756,11 @@
     "description": "一款创新的体感互动游戏合集，将智能手表变为虚拟玩具。通过挥动手臂即可体验虚拟钓鱼、挥鞭、拍打和射击等多种趣味游戏，配有逼真音效，是工作学习之余与家人朋友放松互动、释放压力的新奇选择。",
     "category": "影音娱乐",
     "keywords": [
-      "体感游戏",
       "动作游戏",
       "虚拟钓鱼",
       "手指枪",
       "运动控制",
       "放松解压",
-      "聚会游戏",
       "空气手枪"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iZQID3di4iif",
@@ -460,6 +799,33 @@
     "historyVersion": []
   },
   {
+    "id": 2193154985,
+    "name": "Galaxy Watch Face",
+    "package": "com.primedesign.galaxywatchface",
+    "version": "1.0.6",
+    "code": 10000008,
+    "minSdk": 30,
+    "size": "12.38 MB",
+    "icon": "assets/images/galaxywatchface/galaxywatchface_icon.webp",
+    "screenshots": [
+      "assets/images/galaxywatchface/galaxywatchface_1.webp"
+    ],
+    "addedTime": 1769240151380,
+    "updateTime": "2026-01-24",
+    "description": "一款以旋转银河为主题的 Wear OS 表盘，将宇宙的浩瀚之美置于腕间。时间以优雅的弧形跨越星系，充满诗意与视觉震撼。",
+    "category": "表盘美化",
+    "keywords": [
+      "银河表盘",
+      "星空主题",
+      "宇宙风格",
+      "yuzhou"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iRGDa3gz43da",
+    "password": "amny",
+    "developer": "Prime Design",
+    "historyVersion": []
+  },
+  {
     "id": 3834050182,
     "name": "Gboard",
     "package": "com.google.android.inputmethod.latin",
@@ -484,7 +850,6 @@
       "输入法",
       "滑行输入",
       "语音输入",
-      "Google翻译",
       "多语言",
       "google keyboard"
     ],
@@ -492,38 +857,6 @@
     "password": "36ap",
     "developer": "Google LLC",
     "historyVersion": [
-      {
-        "version": "4.1.05.773081532-release-armeabi-v7a",
-        "code": 1511811,
-        "minSdk": 30,
-        "size": "27.50 MB",
-        "downloadUrl": "",
-        "password": ""
-      },
-      {
-        "version": "4.0.07.728736861-release-armeabi-v7a",
-        "code": 1274721,
-        "minSdk": 30,
-        "size": "26.90 MB",
-        "downloadUrl": "",
-        "password": ""
-      },
-      {
-        "version": "3.0.05.701584717-release-armeabi-v7a",
-        "code": 1113771,
-        "minSdk": 30,
-        "size": "26.65 MB",
-        "downloadUrl": "",
-        "password": ""
-      },
-      {
-        "version": "3.0.05.658283724-release-armeabi-v7a",
-        "code": 894291,
-        "minSdk": 30,
-        "size": "27.01 MB",
-        "downloadUrl": "",
-        "password": ""
-      },
       {
         "version": "2.0.00.369319503-release-armeabi-v7a",
         "code": 138657,
@@ -533,6 +866,35 @@
         "password": "35ud"
       }
     ]
+  },
+  {
+    "id": 3666590425,
+    "name": "GoogleCalculator",
+    "package": "com.google.android.calculator",
+    "version": "7.34410489",
+    "code": 73000322,
+    "minSdk": 23,
+    "size": "0.49 MB",
+    "icon": "assets/images/googlecalculator/googlecalculator_icon.webp",
+    "screenshots": [
+      "assets/images/googlecalculator/googlecalculator_1.webp",
+      "assets/images/googlecalculator/googlecalculator_2.webp"
+    ],
+    "addedTime": 1769240154457,
+    "updateTime": "2026-01-24",
+    "description": "一款基于经典谷歌计算器视觉风格进行现代化重制的计算器应用，旨在为 Wear OS 设备提供更清新、一致的视觉体验。",
+    "category": "生活服务",
+    "keywords": [
+      "谷歌计算器",
+      "界面重制",
+      "现代化设计",
+      "jisuanqi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/idwD23gzaf7c",
+    "password": "9kpj",
+    "developer": "Google LLC",
+    "historyVersion": [],
+    "modAuthor": "KardchCode"
   },
   {
     "id": 3222795145,
@@ -552,11 +914,8 @@
     "category": "表盘美化",
     "keywords": [
       "鸿蒙表盘",
-      "HarmonyOS",
-      "动态表盘",
       "华为风格",
       "开机动画",
-      "watch face",
       "hongmeng"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iuXJS3fnq40h",
@@ -616,8 +975,6 @@
     "description": "一款适用于Android及Wear OS的开源屏幕录像机，支持自定义录制参数、同步录制麦克风音频，并提供Wi-Fi分享、视频管理等功能，满足从创作到分享的录制需求。",
     "category": "系统工具",
     "keywords": [
-      "麦克风录音",
-      "WiFi分享",
       "视频管理",
       "screen recorder"
     ],
@@ -650,8 +1007,7 @@
       "心率监测",
       "跑步课程",
       "独立运动",
-      "jian shen",
-      "xinlv"
+      "jian shen"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ilsDm3fnu1cf",
     "password": "7nbn",
@@ -683,7 +1039,7 @@
     "updateTime": "2026-01-12",
     "description": "",
     "category": "表盘美化",
-    "keywords": "",
+    "keywords": [],
     "downloadUrl": "https://wwatc.lanzoub.com/iadGz3g1dpdc",
     "password": "i4yi",
     "developer": "",
@@ -709,11 +1065,9 @@
     "category": "系统工具",
     "keywords": [
       "3D启动器",
-      "自定义布局",
       "图标管理",
-      "launcher",
-      "3D shijue",
-      "zidingyi zhutuo"
+      "立体",
+      "球体"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iWAqd3dv80sj",
     "password": "7kk6",
@@ -744,8 +1098,6 @@
     "keywords": [
       "启动器",
       "自定义表盘",
-      "轻量桌面",
-      "zidingyi biaopan",
       "qidongqi",
       "线性视图",
       "宫格视图",
@@ -755,6 +1107,40 @@
     "password": "eeh7",
     "developer": "dudu",
     "historyVersion": []
+  },
+  {
+    "id": 4098625699,
+    "name": "Material Islands",
+    "package": "com.hippotech.materialislands",
+    "version": "0.62",
+    "code": 62,
+    "minSdk": 21,
+    "size": "2.15 MB",
+    "icon": "assets/images/materialislands/materialislands_icon.webp",
+    "screenshots": [
+      "assets/images/materialislands/materialislands_1.webp",
+      "assets/images/materialislands/materialislands_2.webp",
+      "assets/images/materialislands/materialislands_3.webp"
+    ],
+    "addedTime": 1769240156526,
+    "updateTime": "2026-01-24",
+    "description": "一款受Material Design启发的极简动态岛屿主题表盘，壁纸会随时间缓慢变化，设计注重低功耗与视觉美感。",
+    "category": "表盘美化",
+    "keywords": [
+      "动态岛屿表盘",
+      "Material Design",
+      "低功耗",
+      "随时间变化",
+      "极简设计",
+      "material islands",
+      "dongtai",
+      "daoyu"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iwXn63gz42of",
+    "password": "71mx",
+    "developer": "Jenny Hanell",
+    "historyVersion": [],
+    "contributor": "清漓染"
   },
   {
     "id": 2132915689,
@@ -778,7 +1164,6 @@
       "脑力游戏",
       "方程求解",
       "判断正误",
-      "益智应用",
       "math game",
       "naoli",
       "fangcheng"
@@ -788,6 +1173,28 @@
     "developer": "emersoft",
     "historyVersion": [],
     "contributor": "清漓染CHR."
+  },
+  {
+    "id": 3144690978,
+    "name": "Mickey",
+    "package": "com.watchfacestudio.mickey",
+    "version": "25.01.02",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.74 MB",
+    "icon": "assets/images/mickey/mickey_icon.webp",
+    "screenshots": [
+      "assets/images/mickey/mickey_1.webp"
+    ],
+    "addedTime": 1769240156921,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/ij0rR3gz42kb",
+    "password": "7abk",
+    "developer": "",
+    "historyVersion": []
   },
   {
     "id": 4153928598,
@@ -814,11 +1221,37 @@
       "电子邮件",
       "办公",
       "Gmail",
-      "email"
+      "email",
+      "mail"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iag5l3dd8kad",
     "password": "cy3b",
     "developer": "微软（中国）有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 4186208480,
+    "name": "MimickingTiger",
+    "package": "com.watchfacestudio.MimickingTiger",
+    "version": "4.0.3",
+    "code": 10000003,
+    "minSdk": 33,
+    "size": "0.94 MB",
+    "icon": "assets/images/mimickingtiger/mimickingtiger_icon.webp",
+    "screenshots": [
+      "assets/images/mimickingtiger/mimickingtiger_1.webp"
+    ],
+    "addedTime": 1769240157695,
+    "updateTime": "2026-01-24",
+    "description": "一款信息布局丰富的 Wear OS 表盘，中央集成时间、日期、音乐控制、电量、步数等多项信息，顶部和底部另有独立功能区域。",
+    "category": "表盘美化",
+    "keywords": [
+      "多功能表盘",
+      "老虎"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i0F1T3gz42cd",
+    "password": "h0oc",
+    "developer": "ZKin",
     "historyVersion": []
   },
   {
@@ -839,7 +1272,7 @@
     "description": "一款专为WearOS设备优化的小型网页浏览器，无需手机辅助即可独立上网搜索，在LTE手表上更能脱离手机使用，满足腕上紧急信息查询需求。",
     "category": "系统工具",
     "keywords": [
-      "手表浏览器",
+      "浏览器",
       "网页浏览",
       "独立上网",
       "搜索引擎",
@@ -867,11 +1300,7 @@
     "description": "一款专为 Wear OS 设备设计的极简风格模拟指针表盘，追求干净纯粹的视觉体验。",
     "category": "表盘美化",
     "keywords": [
-      "极简表盘",
       "模拟指针",
-      "简约",
-      "经典风格",
-      "minimal watch face",
       "jianyue",
       "zhizhen"
     ],
@@ -881,12 +1310,69 @@
     "historyVersion": []
   },
   {
+    "id": 3503056878,
+    "name": "MistyBlueDream",
+    "package": "com.watchfacestudio.MistyBlueDream",
+    "version": "4.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "0.46 MB",
+    "icon": "assets/images/mistybluedream/mistybluedream_icon.webp",
+    "screenshots": [
+      "assets/images/mistybluedream/mistybluedream_1.webp"
+    ],
+    "addedTime": 1769240157888,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/icaWA3gz42bc",
+    "password": "e7zi",
+    "developer": "",
+    "historyVersion": []
+  },
+  {
+    "id": 1964643335,
+    "name": "Moon Steps Watch Face",
+    "package": "com.watchfacestudio.moonsteps",
+    "version": "3.3.3",
+    "code": 10000333,
+    "minSdk": 33,
+    "size": "1.54 MB",
+    "icon": "assets/images/moonstepswatchface/moonstepswatchface_icon.webp",
+    "screenshots": [
+      "assets/images/moonstepswatchface/moonstepswatchface_1.webp"
+    ],
+    "addedTime": 1769240157897,
+    "updateTime": "2026-01-24",
+    "description": "一款清晰易读的 Wear OS 表盘，核心特色是显示每日更新的月相图，并同时展示步数、电量、日期、星期等实用信息。",
+    "category": "表盘美化",
+    "keywords": [
+      "月相表盘",
+      "步数显示",
+      "月相图",
+      "moon phase",
+      "yuexiang"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/ioM5U3gz429a",
+    "password": "77oe",
+    "developer": "N°",
+    "historyVersion": [
+      {
+        "version": "3.0.2",
+        "code": 10000302,
+        "minSdk": 30,
+        "size": "1.54 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/i3MKu3gz427i",
+        "password": "fvkc"
+      }
+    ]
+  },
+  {
     "id": 286136756,
     "name": "NWearQQ",
     "package": "com.tencent.qqlite",
-    "version": [
-      "最终版2-已去签"
-    ],
+    "version": "最终版2-已去签",
     "code": 2465,
     "minSdk": 21,
     "size": "37.31 MB",
@@ -1003,12 +1489,66 @@
     "updateTime": "2026-01-12",
     "description": "",
     "category": "表盘美化",
-    "keywords": "",
+    "keywords": [],
     "downloadUrl": "https://wwatc.lanzoub.com/ieLwj3g1dq1g",
     "password": "5txq",
     "developer": "",
     "historyVersion": [],
     "contributor": "清漓染CHR."
+  },
+  {
+    "id": 568777924,
+    "name": "Numerals Duo",
+    "package": "ar.com.wfranck.numeralsduo",
+    "version": "1.0.5",
+    "code": 10000005,
+    "minSdk": 33,
+    "size": "0.09 MB",
+    "icon": "assets/images/numeralsduo/numeralsduo_icon.webp",
+    "screenshots": [
+      "assets/images/numeralsduo/numeralsduo_1.webp"
+    ],
+    "addedTime": 1769240159587,
+    "updateTime": "2026-01-24",
+    "description": "一款采用柔和撞色设计的数字显示表盘，将极简主义与丰富的马卡龙色系相结合，在腕上呈现柔和而精致的视觉美感。",
+    "category": "表盘美化",
+    "keywords": [
+      "数字表盘",
+      "极简主义",
+      "shuzi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iW2F63gz421c",
+    "password": "b2z5",
+    "developer": "Bear By Patagonia",
+    "historyVersion": []
+  },
+  {
+    "id": 1249363502,
+    "name": "OPPO计算器",
+    "package": "com.heytap.wearable.calculator2",
+    "version": "3.0.2_1e6d66f_231109",
+    "code": 30002,
+    "minSdk": 27,
+    "size": "0.81 MB",
+    "icon": "assets/images/oppojisuanqi/oppojisuanqi_icon.webp",
+    "screenshots": [
+      "assets/images/oppojisuanqi/oppojisuanqi_1.webp"
+    ],
+    "addedTime": 1769240159671,
+    "updateTime": "2026-01-24",
+    "description": "OPPO提供的简洁计算器应用，满足日常基础计算需求。",
+    "category": "生活服务",
+    "keywords": [
+      "简易计算",
+      "基础工具",
+      "oppo calculator",
+      "jisuanqi",
+      "jianyi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iS9ib3gzaf4j",
+    "password": "evss",
+    "developer": "广东欢太科技有限公司",
+    "historyVersion": []
   },
   {
     "id": 670180534,
@@ -1028,9 +1568,7 @@
     "category": "表盘美化",
     "keywords": [
       "多彩表盘",
-      "数据展示",
-      "Android 12风格",
-      "zidingyi"
+      "Android 12"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iia5f3fnq52f",
     "password": "dfr3",
@@ -1059,8 +1597,6 @@
       "创意设计",
       "数字图形化",
       "自定义颜色",
-      "polygon",
-      "jihe biaopan",
       "duobianxing"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i8ELg3fypxpg",
@@ -1141,7 +1677,7 @@
     ],
     "addedTime": 1764730689784,
     "updateTime": "2025-12-28",
-    "description": "一款基于 NWear-QQ 最终版 2 的修改版 QQ 手表应用，由开发者 pumpkin 制作。最显著的改变是采用了黑色背景主题，并可能包含更多功能增强与优化，具体改进等待用户探索发现。",
+    "description": "一款基于 NWear-QQ 最终版 2 的修改版 QQ 手表应用，由开发者 java30433 制作。最显著的改变是采用了黑色背景主题，并可能包含更多功能增强与优化，具体改进等待用户探索发现。",
     "category": "通讯社交",
     "keywords": [
       "聊天",
@@ -1158,7 +1694,7 @@
       2388747650,
       286136756
     ],
-    "modAuthor": "pumpkin"
+    "modAuthor": "java30433"
   },
   {
     "id": 4222932537,
@@ -1181,10 +1717,8 @@
     "category": "影音娱乐",
     "keywords": [
       "企鹅",
-      "Q音",
       "无损",
       "歌单",
-      "识曲",
       "周杰伦",
       "jay",
       "mp3",
@@ -1239,12 +1773,9 @@
     "category": "表盘美化",
     "keywords": [
       "行星表盘",
-      "动态表盘",
       "科幻设计",
       "天体运行",
-      "创意表盘",
       "planet watch face",
-      "dongtai",
       "tianwen"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iaiwQ3fypxcd",
@@ -1282,8 +1813,6 @@
       "弹幕",
       "看视频",
       "bilibili",
-      "第三方b站",
-      "自定义首页",
       "听视频"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iGtvf3d5asyj",
@@ -1309,13 +1838,7 @@
     "category": "表盘美化",
     "keywords": [
       "光影表盘",
-      "日晷灵感",
-      "设计师款",
-      "艺术表盘",
-      "Shadow Clock",
-      "watch face",
-      "guangying",
-      "shejishi"
+      "日晷灵感"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ifYLN3fypx1c",
     "password": "bpm0",
@@ -1342,12 +1865,9 @@
     "category": "影音娱乐",
     "keywords": [
       "摇一摇",
-      "挑战游戏",
       "运动互动",
       "解压娱乐",
-      "shaking game",
-      "yaoyiyao",
-      "tiaozhan"
+      "yaoyiyao"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ikArc3fyod2h",
     "password": "ci2f",
@@ -1376,13 +1896,87 @@
       "备忘录",
       "便签",
       "快速记录",
-      "表盘磁贴",
       "密码备忘",
       "biji"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ix93o3dw8ioj",
     "password": "eruj",
     "developer": "Eana Hufwe",
+    "historyVersion": []
+  },
+  {
+    "id": 2862734064,
+    "name": "Stopwatch",
+    "package": "nl.slisky.stopwatch",
+    "version": "5.6.0.Wear4",
+    "code": 1543,
+    "minSdk": 33,
+    "size": "2.51 MB",
+    "icon": "assets/images/stopwatch/stopwatch_icon.webp",
+    "screenshots": [
+      "assets/images/stopwatch/stopwatch_1.webp",
+      "assets/images/stopwatch/stopwatch_2.webp",
+      "assets/images/stopwatch/stopwatch_3.webp"
+    ],
+    "addedTime": 1769240166602,
+    "updateTime": "2026-01-24",
+    "description": "一款功能强大且完全免费的 Wear OS 秒表应用，支持多计时器运行、圈数记录、数据导出与表盘复杂功能，无广告。",
+    "category": "生活服务",
+    "keywords": [
+      "秒表",
+      "计时器",
+      "miaobiao",
+      "jishi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/ifTqt3gzaeze",
+    "password": "6v2g",
+    "developer": "Electric Wave",
+    "historyVersion": []
+  },
+  {
+    "id": 3277444958,
+    "name": "SunCircle",
+    "package": "com.dudu.watchface.suncircle",
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 21,
+    "size": "6.36 MB",
+    "icon": "assets/images/suncircle/suncircle_icon.webp",
+    "screenshots": [
+      "assets/images/suncircle/suncircle_1.webp"
+    ],
+    "addedTime": 1769240166888,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [
+      "cmf"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/idpQL3gz420b",
+    "password": "dt84",
+    "developer": "dudu",
+    "historyVersion": []
+  },
+  {
+    "id": 2572503742,
+    "name": "Super INF MOD V3 CN",
+    "package": "com.watchfacestudio.superinfmodv3cn",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.65 MB",
+    "icon": "assets/images/superinfmodv3cn/superinfmodv3cn_icon.webp",
+    "screenshots": [
+      "assets/images/superinfmodv3cn/superinfmodv3cn_1.webp"
+    ],
+    "addedTime": 1769240167192,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/ifQo03gz41ni",
+    "password": "7fib",
+    "developer": "",
     "historyVersion": []
   },
   {
@@ -1467,7 +2061,8 @@
     "keywords": [
       "蜂窝启动器",
       "tqidong",
-      "apple watch"
+      "apple watch",
+      "launcher"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iuTtV3dv81uh",
     "password": "c5uj",
@@ -1495,12 +2090,32 @@
       "复杂功能",
       "自定义组件",
       "夜间模式",
-      "analog watch",
-      "fuzagongneng",
-      "yejian"
+      "analog watch"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iml4O3fnq59c",
     "password": "9o6e",
+    "developer": "",
+    "historyVersion": []
+  },
+  {
+    "id": 556236673,
+    "name": "VLT",
+    "package": "com.watchfacestudio.vlt",
+    "version": "1.0.5",
+    "code": 10000005,
+    "minSdk": 33,
+    "size": "39.78 MB",
+    "icon": "assets/images/vlt/vlt_icon.webp",
+    "screenshots": [
+      "assets/images/vlt/vlt_1.webp"
+    ],
+    "addedTime": 1769240167812,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iv8KO3gz41fa",
+    "password": "e5x2",
     "developer": "",
     "historyVersion": []
   },
@@ -1536,6 +2151,65 @@
     "historyVersion": []
   },
   {
+    "id": 222478316,
+    "name": "Vortex Time",
+    "package": "com.alexeymorozua.vortextime",
+    "version": "1.0.0",
+    "code": 10000006,
+    "minSdk": 34,
+    "size": "2.27 MB",
+    "icon": "assets/images/vortextime/vortextime_icon.webp",
+    "screenshots": [
+      "assets/images/vortextime/vortextime_1.webp"
+    ],
+    "addedTime": 1769240167895,
+    "updateTime": "2026-01-24",
+    "description": "一款带有动态涡轮动画的现代数字风格 Wear OS 表盘，设计时尚，支持自定义背景，完美适配 Galaxy Watch 和 Pixel Watch。",
+    "category": "表盘美化",
+    "keywords": [
+      "涡轮表盘",
+      "动态动画",
+      "数字风格"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i5yAe3gz405e",
+    "password": "fjwb",
+    "developer": "Time Design LLC",
+    "historyVersion": []
+  },
+  {
+    "id": 2812752373,
+    "name": "Watchface 4 Widgets Wear OS",
+    "package": "angel.gabaldon.watchface",
+    "version": "1.0.4",
+    "code": 10000005,
+    "minSdk": 33,
+    "size": "4.49 MB",
+    "icon": "assets/images/watchface4widgetswearos/watchface4widgetswearos_icon.webp",
+    "screenshots": [
+      "assets/images/watchface4widgetswearos/watchface4widgetswearos_1.webp"
+    ],
+    "addedTime": 1769240167910,
+    "updateTime": "2026-01-24",
+    "description": "一款专注于展示复杂功能的 Wear OS 表盘，提供4个可自定义组件区域，方便用户快速访问应用快捷方式或关键信息。",
+    "category": "表盘美化",
+    "keywords": [
+      "组件表盘"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iSbNK3gz3zud",
+    "password": "6b2t",
+    "developer": "Ángel Gabaldón",
+    "historyVersion": [
+      {
+        "version": "1.0.0",
+        "code": 10000001,
+        "minSdk": 30,
+        "size": "6.35 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/iQMHs3gz403c",
+        "password": "cied"
+      }
+    ]
+  },
+  {
     "id": 1120712413,
     "name": "Wear Voice Recorder",
     "package": "com.wrejistry.voicerecorder",
@@ -1558,10 +2232,7 @@
       "录音机",
       "语音备忘录",
       "录音管理",
-      "高质量录音",
-      "recorder",
-      "luyin",
-      "yuyin"
+      "luyin"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iXybB3fyo50h",
     "password": "27j2",
@@ -1645,6 +2316,38 @@
     ]
   },
   {
+    "id": 2173642509,
+    "name": "WearMusic",
+    "package": "cn.wearbbs.music",
+    "version": "3.5.1",
+    "code": 13,
+    "minSdk": 21,
+    "size": "6.12 MB",
+    "icon": "assets/images/wearmusic/wearmusic_icon.webp",
+    "screenshots": [
+      "assets/images/wearmusic/wearmusic_1.webp",
+      "assets/images/wearmusic/wearmusic_2.webp",
+      "assets/images/wearmusic/wearmusic_3.webp",
+      "assets/images/wearmusic/wearmusic_4.webp"
+    ],
+    "addedTime": 1769240168935,
+    "updateTime": "2026-01-24",
+    "description": "一款功能齐全的第三方网易云音乐手表客户端，支持登录、歌单、歌词、评论及音乐云盘等核心功能。",
+    "category": "影音娱乐",
+    "keywords": [
+      "网易云音乐",
+      "歌词显示",
+      "音乐云盘",
+      "歌单",
+      "yinyue",
+      "geqi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iCZUI3gzb6zc",
+    "password": "dr76",
+    "developer": "JackuXL",
+    "historyVersion": []
+  },
+  {
     "id": 621271442,
     "name": "WearNote",
     "package": "cn.wearbbs.note",
@@ -1667,10 +2370,8 @@
     "category": "效率办公",
     "keywords": [
       "小天才笔记",
-      "儿童手表",
       "笔记软件",
-      "biji",
-      "ertong shoubia"
+      "biji"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i1RRI3fnw3sf",
     "password": "cx0u",
@@ -1701,8 +2402,7 @@
       "WiFi传歌",
       "离线播放",
       "music player",
-      "bendi bofang",
-      "chuan shu"
+      "bendi bofang"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iPALS3fyocpe",
     "password": "axuo",
@@ -1796,7 +2496,6 @@
       "打卡",
       "专注",
       "计时",
-      "自习室",
       "日记",
       "自律",
       "habit",
@@ -1808,6 +2507,50 @@
     "downloadUrl": "https://wwatc.lanzoub.com/izc6T3d5atef",
     "password": "3j4h",
     "developer": "重庆路西法科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 1785785025,
+    "name": "[69D] LIL BUG",
+    "package": "com.sixty9design.lilbug",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "0.61 MB",
+    "icon": "assets/images/69dlilbug/69dlilbug_icon.webp",
+    "screenshots": [
+      "assets/images/69dlilbug/69dlilbug_1.webp"
+    ],
+    "addedTime": 1769240169687,
+    "updateTime": "2026-01-24",
+    "description": "一款高度自定义的 Wear OS 表盘，提供海量设计组合，支持16种配色、电量、步数、日期及2个复杂功能区域，可自由搭配打造个性化表盘。",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iY5Ja3gz3zjc",
+    "password": "6srf",
+    "developer": "69 Design",
+    "historyVersion": []
+  },
+  {
+    "id": 2909046079,
+    "name": "ae",
+    "package": "com.watchfacestudio.ae",
+    "version": "1.0.5",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.24 MB",
+    "icon": "assets/images/ae/ae_icon.webp",
+    "screenshots": [
+      "assets/images/ae/ae_1.webp"
+    ],
+    "addedTime": 1769240169962,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iAp9F3gz3zgj",
+    "password": "2fnj",
+    "developer": "",
     "historyVersion": []
   },
   {
@@ -1826,19 +2569,340 @@
     "updateTime": "2026-01-09",
     "description": "一款灵感源自 Bell & Ross Desert Type 手表的复刻表盘，支持在步数（左）和电量（右）进度圈上设置快捷功能。",
     "category": "表盘美化",
-    "keywords": [
-      "Bell & Ross",
-      "复刻表盘",
-      "军表风格",
-      "快捷入口",
-      "进度圈",
-      "watch face",
-      "junbiao",
-      "fuke"
-    ],
+    "keywords": [],
     "downloadUrl": "https://wwatc.lanzoub.com/imP8n3fnq1qf",
     "password": "hb8p",
     "developer": "",
+    "historyVersion": []
+  },
+  {
+    "id": 1262884576,
+    "name": "cmf01",
+    "package": "com.watchfacestudio.cmf01",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.12 MB",
+    "icon": "assets/images/cmf01/cmf01_icon.webp",
+    "screenshots": [
+      "assets/images/cmf01/cmf01_1.webp"
+    ],
+    "addedTime": 1769240170233,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/ixbeU3gz3z8b",
+    "password": "hmkv",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 4227785179,
+    "name": "cmf02",
+    "package": "com.watchfacestudio.cmf02",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.27 MB",
+    "icon": "assets/images/cmf02/cmf02_icon.webp",
+    "screenshots": [
+      "assets/images/cmf02/cmf02_1.webp"
+    ],
+    "addedTime": 1769240170494,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/irn1h3gz3yzc",
+    "password": "hjxa",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 1809276564,
+    "name": "cmf04",
+    "package": "com.watchfacestudio.cmf04",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "0.27 MB",
+    "icon": "assets/images/cmf04/cmf04_icon.webp",
+    "screenshots": [
+      "assets/images/cmf04/cmf04_1.webp"
+    ],
+    "addedTime": 1769240170502,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iYAWx3gz3yjg",
+    "password": "5wf2",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 388503851,
+    "name": "cmf04.HRandSTEP",
+    "package": "com.watchfacestudio.cmf04.HRandSTEP",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "0.27 MB",
+    "icon": "assets/images/cmf04hrandstep/cmf04hrandstep_icon.webp",
+    "screenshots": [
+      "assets/images/cmf04hrandstep/cmf04hrandstep_1.webp"
+    ],
+    "addedTime": 1769240170510,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "",
+    "password": "",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 1458459413,
+    "name": "cmf05 BATT",
+    "package": "com.watchfacestudio.cmf05_BATT",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.15 MB",
+    "icon": "assets/images/cmf05batt/cmf05batt_icon.webp",
+    "screenshots": [
+      "assets/images/cmf05batt/cmf05batt_1.webp"
+    ],
+    "addedTime": 1769240170820,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iSDRJ3gz3ygd",
+    "password": "b3ra",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 1123182033,
+    "name": "cmf05 DATE",
+    "package": "com.watchfacestudio.cmf05_DATE",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.15 MB",
+    "icon": "assets/images/cmf05date/cmf05date_icon.webp",
+    "screenshots": [
+      "assets/images/cmf05date/cmf05date_1.webp"
+    ],
+    "addedTime": 1769240171121,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/i9k8r3gz3y1i",
+    "password": "71rb",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 2613928440,
+    "name": "cmf06",
+    "package": "com.watchfacestudio.cmf06",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.15 MB",
+    "icon": "assets/images/cmf06/cmf06_icon.webp",
+    "screenshots": [
+      "assets/images/cmf06/cmf06_1.webp"
+    ],
+    "addedTime": 1769240171398,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/igpYr3gz3xne",
+    "password": "88nc",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 3629950246,
+    "name": "cmf07_cn",
+    "package": "com.saicoND.cmf07_cn",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.22 MB",
+    "icon": "assets/images/cmf07cn/cmf07cn_icon.webp",
+    "screenshots": [
+      "assets/images/cmf07cn/cmf07cn_1.webp"
+    ],
+    "addedTime": 1769240171664,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/igr1y3gz3xbc",
+    "password": "ajn3",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 1977629194,
+    "name": "cmf08_cn",
+    "package": "com.saicoND.cmf08_cn",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.16 MB",
+    "icon": "assets/images/cmf08cn/cmf08cn_icon.webp",
+    "screenshots": [
+      "assets/images/cmf08cn/cmf08cn_1.webp"
+    ],
+    "addedTime": 1769240171956,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iozS73gz3wuf",
+    "password": "gwu0",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 2372832850,
+    "name": "cmf09",
+    "package": "com.saicoND.cmf09",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.16 MB",
+    "icon": "assets/images/cmf09/cmf09_icon.webp",
+    "screenshots": [
+      "assets/images/cmf09/cmf09_1.webp"
+    ],
+    "addedTime": 1769240172282,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/i6hyD3gz3whc",
+    "password": "6a2m",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 3791157443,
+    "name": "cmf10",
+    "package": "com.saicoND.cmf10",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.20 MB",
+    "icon": "assets/images/cmf10/cmf10_icon.webp",
+    "screenshots": [
+      "assets/images/cmf10/cmf10_1.webp"
+    ],
+    "addedTime": 1769240172557,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iKVbS3gz3w0f",
+    "password": "5548",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 3329669969,
+    "name": "cmf11",
+    "package": "com.saicoND.cmf11",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "0.23 MB",
+    "icon": "assets/images/cmf11/cmf11_icon.webp",
+    "screenshots": [
+      "assets/images/cmf11/cmf11_1.webp"
+    ],
+    "addedTime": 1769240172566,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/i37L43gz3vhg",
+    "password": "4yxe",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 2488116762,
+    "name": "cmf12",
+    "package": "com.saicoND.cmf12",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.19 MB",
+    "icon": "assets/images/cmf12/cmf12_icon.webp",
+    "screenshots": [
+      "assets/images/cmf12/cmf12_1.webp"
+    ],
+    "addedTime": 1769240172843,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/i5NnR3gz3vfe",
+    "password": "2cbj",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 1772549753,
+    "name": "cmf13",
+    "package": "com.saicoND.cmf13",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "0.13 MB",
+    "icon": "assets/images/cmf13/cmf13_icon.webp",
+    "screenshots": [
+      "assets/images/cmf13/cmf13_1.webp"
+    ],
+    "addedTime": 1769240172853,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/ietay3gz3v5e",
+    "password": "9aoq",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 281825664,
+    "name": "cmf14",
+    "package": "com.saicoND.cmf14",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.18 MB",
+    "icon": "assets/images/cmf14/cmf14_icon.webp",
+    "screenshots": [
+      "assets/images/cmf14/cmf14_1.webp"
+    ],
+    "addedTime": 1769240173140,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/i3LoO3gz3v3c",
+    "password": "7b7g",
+    "developer": "saicoND",
     "historyVersion": []
   },
   {
@@ -1862,8 +2926,6 @@
       "BPM",
       "打拍测速",
       "音乐练习",
-      "振动提示",
-      "jiegaixue",
       "yinyue"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iQa4M3fyop6d",
@@ -1871,6 +2933,72 @@
     "developer": "Junha Woo",
     "historyVersion": [],
     "contributor": "清漓染CHR."
+  },
+  {
+    "id": 4020614162,
+    "name": "klk5_12h",
+    "package": "com.saicoND.klk5_12h",
+    "version": "1.3.2",
+    "code": 10000007,
+    "minSdk": 30,
+    "size": "5.44 MB",
+    "icon": "assets/images/klk512h/klk512h_icon.webp",
+    "screenshots": [
+      "assets/images/klk512h/klk512h_1.webp"
+    ],
+    "addedTime": 1769240173577,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/ii5893gz3uqj",
+    "password": "55up",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 2198665642,
+    "name": "klk5_24h_12h_no_ampm",
+    "package": "com.saicoND.klk5_24h_12h_no_ampm",
+    "version": "1.4.2",
+    "code": 10000008,
+    "minSdk": 30,
+    "size": "5.44 MB",
+    "icon": "assets/images/klk524h12hnoampm/klk524h12hnoampm_icon.webp",
+    "screenshots": [
+      "assets/images/klk524h12hnoampm/klk524h12hnoampm_1.webp"
+    ],
+    "addedTime": 1769240173870,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/icOP33gz3u4h",
+    "password": "2660",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 377867928,
+    "name": "klk5_24h_12h_no_ampm_nostar",
+    "package": "com.saicoND.klk5_24h_12h_no_ampm_nostar",
+    "version": "1.5.2",
+    "code": 10000009,
+    "minSdk": 30,
+    "size": "5.44 MB",
+    "icon": "assets/images/klk524h12hnoampmnostar/klk524h12hnoampmnostar_icon.webp",
+    "screenshots": [
+      "assets/images/klk524h12hnoampmnostar/klk524h12hnoampmnostar_1.webp"
+    ],
+    "addedTime": 1769240174170,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iAa5y3gz3tli",
+    "password": "248m",
+    "developer": "saicoND",
+    "historyVersion": []
   },
   {
     "id": 3438485975,
@@ -1893,16 +3021,61 @@
     "description": "一款专为 Wear OS 设备设计的文件管理器，支持在手表上创建、查看、编辑、复制、移动和删除文件及文件夹，并能与手机互传文件（注意 Wear OS 4 的系统限制）。",
     "category": "系统工具",
     "keywords": [
-      "文件管理",
       "文件管理器",
       "文件传输",
-      "文本编辑",
       "wenjian chuanshu",
       "guanliqi"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ioG5R3f0r17e",
     "password": "6s88",
     "developer": "Marcelo R. dos Santos",
+    "historyVersion": []
+  },
+  {
+    "id": 2190958406,
+    "name": "now.json - JSON Watch Face",
+    "package": "net.k3rnel.nowjson",
+    "version": "3.0.0",
+    "code": 10000063,
+    "minSdk": 36,
+    "size": "0.24 MB",
+    "icon": "assets/images/nowjsonjsonwatchface/nowjsonjsonwatchface_icon.webp",
+    "screenshots": [
+      "assets/images/nowjsonjsonwatchface/nowjsonjsonwatchface_1.webp"
+    ],
+    "addedTime": 1769240174610,
+    "updateTime": "2026-01-24",
+    "description": "一款名为 “now” 的现代简约风格 Wear OS 表盘，设计干净清晰，支持多种颜色自定义，兼顾优雅外观与低功耗。",
+    "category": "表盘美化",
+    "keywords": [
+      "code",
+      "代码"
+    ],
+    "downloadUrl": "",
+    "password": "",
+    "developer": "Nushio",
+    "historyVersion": []
+  },
+  {
+    "id": 1304963832,
+    "name": "space x",
+    "package": "com.watchfacestudio.falcon9",
+    "version": "1.0.0",
+    "code": 10999999,
+    "minSdk": 30,
+    "size": "5.70 MB",
+    "icon": "assets/images/spacex/spacex_icon.webp",
+    "screenshots": [
+      "assets/images/spacex/spacex_1.webp"
+    ],
+    "addedTime": 1769240174952,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iQaqc3gz3t7e",
+    "password": "ee2k",
+    "developer": "saicoND",
     "historyVersion": []
   },
   {
@@ -1924,8 +3097,8 @@
     "keywords": [
       "YAML表盘",
       "开发者表盘",
-      "极客风格",
-      "代码"
+      "代码",
+      "code"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iFUUC3fyptfc",
     "password": "5juz",
@@ -1949,11 +3122,7 @@
     "updateTime": "2025-12-21",
     "description": "一款高度模仿 CCwatch galaxy lite 设计风格的表盘应用，特别优化了息屏显示，加入了数字时间与更美观的样式，追求简约精致的腕上视觉效果。",
     "category": "表盘美化",
-    "keywords": [
-      "表盘",
-      "简约风格",
-      "biaopan"
-    ],
+    "keywords": [],
     "downloadUrl": "https://wwatc.lanzoub.com/i0UOt3e6utzi",
     "password": "7a06",
     "developer": "奥特曼曼特奥",
@@ -1992,15 +3161,40 @@
       "表盘复杂功能",
       "自定义组件",
       "信息扩展",
-      "月相",
-      "自定义文本",
-      "watch face complications",
-      "zidingyi",
-      "fuzagongneng"
+      "月相"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i8uvM3f0qz5a",
     "password": "d59d",
     "developer": "amoledwatchfaces™",
+    "historyVersion": []
+  },
+  {
+    "id": 3327327133,
+    "name": "万国飞行员世界时区小王子",
+    "package": "com.watchfacestudio.Test_18142992897402733877772322173578",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "1.46 MB",
+    "icon": "assets/images/wanguofeihangyuanshijieshiquxiaowangzi/wanguofeihangyuanshijieshiquxiaowangzi_icon.webp",
+    "screenshots": [
+      "assets/images/wanguofeihangyuanshijieshiquxiaowangzi/wanguofeihangyuanshijieshiquxiaowangzi_1.webp"
+    ],
+    "addedTime": 1769240175378,
+    "updateTime": "2026-01-24",
+    "description": "一款致敬万国飞行员'小王子'特别版腕表的WearOS表盘,提供双时区(北京,伦敦)显示,并配有经典配色与息屏模式.",
+    "category": "表盘美化",
+    "keywords": [
+      "万国表盘",
+      "小王子",
+      "世界时区",
+      "双时区",
+      "飞行员风格",
+      "feixingyuan"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i6pN23gz3sta",
+    "password": "fxny",
+    "developer": "潮汐表盘",
     "historyVersion": []
   },
   {
@@ -2024,7 +3218,6 @@
     "description": "一款功能强大的手表端文件管理器，支持按分类查看图片、音乐、视频等文件，可使用外部应用打开。内置FTP服务，方便与手机端互传文件，管理手表存储。",
     "category": "系统工具",
     "keywords": [
-      "文件管理",
       "文件管理器",
       "FTP传输",
       "手机互传",
@@ -2093,10 +3286,8 @@
     "category": "系统工具",
     "keywords": [
       "网页浏览",
-      "上网",
       "browser",
       "腕上冲浪",
-      "samsung",
       "samsung internet",
       "sanxingliulanqi"
     ],
@@ -2110,14 +3301,6 @@
         "minSdk": 33,
         "size": "105.31 MB",
         "downloadUrl": "https://www.123912.com/s/MGfbTd-BKFa3",
-        "password": ""
-      },
-      {
-        "version": "4.0.00.13",
-        "code": 400013000,
-        "minSdk": 33,
-        "size": "105.72 MB",
-        "downloadUrl": "",
         "password": ""
       },
       {
@@ -2135,16 +3318,41 @@
         "size": "71.29 MB",
         "downloadUrl": "https://www.123865.com/s/MGfbTd-vwFa3",
         "password": ""
-      },
-      {
-        "version": "1.2.00.6",
-        "code": 120006000,
-        "minSdk": 26,
-        "size": "55.96 MB",
-        "downloadUrl": "",
-        "password": ""
       }
     ]
+  },
+  {
+    "id": 4255926928,
+    "name": "三星计算器",
+    "package": "com.samsung.android.wear.calculator",
+    "version": "1.1.05.2",
+    "code": 110502000,
+    "minSdk": 30,
+    "size": "2.96 MB",
+    "icon": "assets/images/sanxingjisuanqi/sanxingjisuanqi_icon.webp",
+    "screenshots": [
+      "assets/images/sanxingjisuanqi/sanxingjisuanqi_1.webp",
+      "assets/images/sanxingjisuanqi/sanxingjisuanqi_2.webp",
+      "assets/images/sanxingjisuanqi/sanxingjisuanqi_3.webp"
+    ],
+    "addedTime": 1769240179169,
+    "updateTime": "2026-01-24",
+    "description": "三星手表计算器应用，可在其他WearOS手表上使用，支持基础计算，历史记录查看，小费计算及单位转换等功能。",
+    "category": "生活服务",
+    "keywords": [
+      "计算器",
+      "小费计算",
+      "单位转换",
+      "历史记录",
+      "samsung calculator",
+      "jisuanqi",
+      "xiaofei"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iHcht3gzaeod",
+    "password": "hyc4",
+    "developer": "三星电子株式会社",
+    "historyVersion": [],
+    "modAuthor": "HansHolz"
   },
   {
     "id": 2154840233,
@@ -2171,7 +3379,7 @@
       "海拔图",
       "liangbulu",
       "huwai",
-      "gujii"
+      "tbulu"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/icOiF3fnutfg",
     "password": "5c6a",
@@ -2251,6 +3459,28 @@
     "historyVersion": []
   },
   {
+    "id": 365750055,
+    "name": "传奇",
+    "package": "com.watchfacestudio.legend",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.99 MB",
+    "icon": "assets/images/chuanqi/chuanqi_icon.webp",
+    "screenshots": [
+      "assets/images/chuanqi/chuanqi_1.webp"
+    ],
+    "addedTime": 1769240180593,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iz5Ug3gz3sof",
+    "password": "am5i",
+    "developer": "广东欢太科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 2295614091,
     "name": "克米酷学",
     "package": "com.hankmi.costu",
@@ -2272,9 +3502,7 @@
       "背单词",
       "英语学习",
       "词书",
-      "离线",
       "study",
-      "hankemi",
       "kemikuxue"
     ],
     "downloadUrl": "https://easylink.cc/vvr6ur",
@@ -2308,7 +3536,8 @@
       "缩放平移",
       "本地视频",
       "player",
-      "liangwanbofangqi"
+      "liangwanbofangqi",
+      "video player"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i5w673d5at2d",
     "password": "6xw5",
@@ -2376,6 +3605,61 @@
     "downloadUrl": "https://easylink.cc/hixgxr",
     "password": "",
     "developer": "北京天盈九州网络技术有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 990804863,
+    "name": "单位转换",
+    "package": "com.heytap.wearable.unitconverter",
+    "version": "1.0.0",
+    "code": 10000,
+    "minSdk": 27,
+    "size": "2.05 MB",
+    "icon": "assets/images/danweizhuanhuan/danweizhuanhuan_icon.webp",
+    "screenshots": [
+      "assets/images/danweizhuanhuan/danweizhuanhuan_1.webp",
+      "assets/images/danweizhuanhuan/danweizhuanhuan_2.webp",
+      "assets/images/danweizhuanhuan/danweizhuanhuan_3.webp"
+    ],
+    "addedTime": 1769240181625,
+    "updateTime": "2026-01-24",
+    "description": "一款便捷的单位换算工具，支持长度，面积，体积，温度等常见物理量之间的快速转换。",
+    "category": "生活服务",
+    "keywords": [
+      "单位转换",
+      "单位换算",
+      "长度面积",
+      "温度转换",
+      "计算工具",
+      "unit converter",
+      "danwei",
+      "huansuan"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/ipp673gzaecb",
+    "password": "heyj",
+    "developer": "广东欢太科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 1550326760,
+    "name": "卡皮巴拉",
+    "package": "com.watchfacestudio.CAPYBARA1",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "8.97 MB",
+    "icon": "assets/images/kapibala/kapibala_icon.webp",
+    "screenshots": [
+      "assets/images/kapibala/kapibala_1.webp"
+    ],
+    "addedTime": 1769240181891,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iich43gz3rza",
+    "password": "7rhq",
+    "developer": "",
     "historyVersion": []
   },
   {
@@ -2511,6 +3795,40 @@
     "historyVersion": []
   },
   {
+    "id": 2245542456,
+    "name": "咸鱼小译",
+    "package": "com.lz233.saltedfishtranslation",
+    "version": "0.5.1",
+    "code": 20220904,
+    "minSdk": 23,
+    "size": "2.09 MB",
+    "icon": "assets/images/xianyuxiaoyi/xianyuxiaoyi_icon.webp",
+    "screenshots": [
+      "assets/images/xianyuxiaoyi/xianyuxiaoyi_1.webp",
+      "assets/images/xianyuxiaoyi/xianyuxiaoyi_2.webp",
+      "assets/images/xianyuxiaoyi/xianyuxiaoyi_3.webp",
+      "assets/images/xianyuxiaoyi/xianyuxiaoyi_4.webp",
+      "assets/images/xianyuxiaoyi/xianyuxiaoyi_5.webp",
+      "assets/images/xianyuxiaoyi/xianyuxiaoyi_6.webp"
+    ],
+    "addedTime": 1769240183327,
+    "updateTime": "2026-01-24",
+    "description": "一款美观实用的手表端翻译工具,支持多种语言互译与多个翻译源切换,满足随时随地的语言翻译需求.",
+    "category": "学习充电",
+    "keywords": [
+      "翻译",
+      "多语言",
+      "翻译工具",
+      "translate",
+      "fanyi",
+      "gongju"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/ioo2J3gzaqub",
+    "password": "1pvk",
+    "developer": "lz233",
+    "historyVersion": []
+  },
+  {
     "id": 2913175280,
     "name": "哔哩终端",
     "package": "com.RobinNotBad.BiliClient",
@@ -2629,12 +3947,7 @@
     "description": "一款简单的习惯养成工具，通过设置每日饮水目标和定时振动/响铃提醒，帮助你培养及时补水的健康生活习惯。",
     "category": "健康运动",
     "keywords": [
-      "习惯养成",
-      "健康提醒",
-      "定时提醒",
       "饮水管理",
-      "目标打卡",
-      "健康助手",
       "drink water",
       "heshuitixing"
     ],
@@ -2661,17 +3974,40 @@
     "category": "健康运动",
     "keywords": [
       "分贝检测",
-      "听力保护",
       "环境音量",
       "健康提醒",
       "noise monitor",
       "zaoyin jiance",
-      "jiankang",
       "zaoyin"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iPbVC3e6upod",
     "password": "d84k",
     "developer": "皓洋",
+    "historyVersion": []
+  },
+  {
+    "id": 2535016339,
+    "name": "四姑娘山",
+    "package": "com.WFS.MountSiguniang",
+    "version": "1.0.0",
+    "code": 10000008,
+    "minSdk": 33,
+    "size": "56.99 MB",
+    "icon": "assets/images/siguniangshan/siguniangshan_icon.webp",
+    "screenshots": [
+      "assets/images/siguniangshan/siguniangshan_1.webp"
+    ],
+    "addedTime": 1769240185613,
+    "updateTime": "2026-01-24",
+    "description": "一款将MIUI著名'四姑娘山'超级壁纸移植到WearOS设备的表盘,呈现雪山的动态视觉效果.",
+    "category": "表盘美化",
+    "keywords": [
+      "MIUI壁纸",
+      "雪山主题"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iozI13gz3quj",
+    "password": "93vh",
+    "developer": "游园新春",
     "historyVersion": []
   },
   {
@@ -2691,7 +4027,8 @@
     "description": "Lunch 启动器的配套表盘，允许你将自定义图片设置为手表的图片表盘背景。",
     "category": "表盘美化",
     "keywords": [
-      "Lunch"
+      "Lunch",
+      "图片表盘"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ivBCx3fypvmb",
     "password": "2bvv",
@@ -2723,7 +4060,6 @@
       "空气质量",
       "温度",
       "weather",
-      "天气应用",
       "mojitianqi"
     ],
     "downloadUrl": "https://easylink.cc/j59tys",
@@ -2773,9 +4109,6 @@
       "科学计算",
       "货币兑换",
       "单位换算",
-      "贷款计算",
-      "健康计算",
-      "全功能工具",
       "calculator",
       "duogongneng jisuan"
     ],
@@ -2804,11 +4137,7 @@
       "点评",
       "DP",
       "美食",
-      "团购",
       "攻略",
-      "霸王餐",
-      "探店",
-      "必吃榜",
       "food",
       "meishi",
       "dazhongdianping"
@@ -2834,14 +4163,7 @@
     "updateTime": "2026-01-09",
     "description": "一款自制、灵感来源于游戏《天国：拯救》的复古风格表盘，支持基础信息和AOD息屏显示。",
     "category": "表盘美化",
-    "keywords": [
-      "游戏表盘",
-      "复古风格",
-      "自制表盘",
-      "Kingdom Come",
-      "youxi",
-      "fugu fengge"
-    ],
+    "keywords": [],
     "downloadUrl": "https://wwatc.lanzoub.com/in7r03fnq6hg",
     "password": "aj7f",
     "developer": "勤寒",
@@ -2870,10 +4192,8 @@
       "运动分析",
       "挥拍速度",
       "杀球记录",
-      "数据统计",
       "badminton",
-      "yumaoqiu",
-      "fenxi"
+      "yumaoqiu"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/it4Ot3fnue2d",
     "password": "8v9d",
@@ -2902,8 +4222,6 @@
     "keywords": [
       "天气",
       "天气预报",
-      "气象数据",
-      "简洁天气",
       "weather",
       "tianqi"
     ],
@@ -2928,18 +4246,32 @@
     "updateTime": "2026-01-09",
     "description": "一款以游戏《守望先锋》UI风格为灵感设计的个性化表盘。",
     "category": "表盘美化",
-    "keywords": [
-      "守望先锋",
-      "游戏表盘",
-      "Overwatch风格",
-      "主题表盘",
-      "watch face",
-      "youxi biaopan",
-      "zhuti"
-    ],
+    "keywords": [],
     "downloadUrl": "https://wwatc.lanzoub.com/iny433fnq62b",
     "password": "cp8e",
     "developer": "吔車",
+    "historyVersion": []
+  },
+  {
+    "id": 1279641703,
+    "name": "宝石",
+    "package": "com.watchfacestudio.gem",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "8.75 MB",
+    "icon": "assets/images/baoshi/baoshi_icon.webp",
+    "screenshots": [
+      "assets/images/baoshi/baoshi_1.webp"
+    ],
+    "addedTime": 1769240187695,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iQeQi3gz3mkf",
+    "password": "80ju",
+    "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
   {
@@ -2962,7 +4294,6 @@
     "description": "一款依托公网对讲技术的专业级实时对讲应用，支持低延迟高清语音通话与历史语音回溯，保障团队沟通效率与隐私安全。",
     "category": "通讯社交",
     "keywords": [
-      "公网对讲",
       "实时对讲",
       "团队通讯",
       "语音通话",
@@ -3037,7 +4368,6 @@
     "category": "效率办公",
     "keywords": [
       "录音",
-      "录音管理",
       "云端同步",
       "voice recorder",
       "luyin"
@@ -3067,7 +4397,6 @@
     "keywords": [
       "诗词",
       "诗文库",
-      "学习工具",
       "国学",
       "古文",
       "poetry",
@@ -3133,7 +4462,6 @@
     "category": "生活服务",
     "keywords": [
       "付款码",
-      "移动支付",
       "红包",
       "账单",
       "wechat pay",
@@ -3167,8 +4495,7 @@
       "社交媒体",
       "热搜榜",
       "明星动态",
-      "weibo",
-      "reshoubang"
+      "weibo"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iIMM73exocbi",
     "password": "3hs5",
@@ -3196,18 +4523,77 @@
     "keywords": [
       "天气预报",
       "小时预报",
-      "天气趋势",
       "空气质量",
-      "简洁设计",
       "weather",
-      "tianqi yubao",
-      "jianjie tianqi",
-      "weifengtianqi"
+      "tianqi yubao"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iJO353e6uora",
     "password": "a79d",
     "developer": "流沙风起",
     "historyVersion": []
+  },
+  {
+    "id": 3610066711,
+    "name": "心之岛",
+    "package": "com.watchfacestudio.islandofheart",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.62 MB",
+    "icon": "assets/images/xinzhidao/xinzhidao_icon.webp",
+    "screenshots": [
+      "assets/images/xinzhidao/xinzhidao_1.webp"
+    ],
+    "addedTime": 1769240189672,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iwBmP3gz3lwb",
+    "password": "1xms",
+    "developer": "广东欢太科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3797540381,
+    "name": "快乐便便",
+    "package": "com.casadozeps.cocofeliz",
+    "version": "3.14.3",
+    "code": 191,
+    "minSdk": 23,
+    "size": "30.42 MB",
+    "icon": "assets/images/kuailebianbian/kuailebianbian_icon.webp",
+    "screenshots": [
+      "assets/images/kuailebianbian/kuailebianbian_1.webp",
+      "assets/images/kuailebianbian/kuailebianbian_2.webp",
+      "assets/images/kuailebianbian/kuailebianbian_3.webp",
+      "assets/images/kuailebianbian/kuailebianbian_4.webp"
+    ],
+    "addedTime": 1769240190081,
+    "updateTime": "2026-01-24",
+    "description": "一款用于追踪和记录肠道健康状况的趣味应用,支持按布里斯托量表分类记录,可生成图表并与医生分享,旨在提升健康意识.",
+    "category": "健康运动",
+    "keywords": [
+      "健康追踪",
+      "肠道健康",
+      "便便日记",
+      "健康记录",
+      "happy poop",
+      "jiankang"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iS9pL3gzavub",
+    "password": "3iti",
+    "developer": "Casa do Zéps",
+    "historyVersion": [
+      {
+        "version": "3.9.7",
+        "code": 155,
+        "minSdk": 21,
+        "size": "24.13 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/ijqON3gzax6j",
+        "password": "347n"
+      }
+    ]
   },
   {
     "id": 55939888,
@@ -3231,12 +4617,33 @@
       "寄快递",
       "单号查询",
       "kuaidi100",
-      "wuliu",
-      "cha kuaidi"
+      "wuliu"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iKv7P3f0rtwh",
     "password": "f7gh",
     "developer": "深圳前海百递网络有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 1625214360,
+    "name": "怀旧时光",
+    "package": "com.watchfacestudio.nostalgictime",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "5.91 MB",
+    "icon": "assets/images/huaijiushiguang/huaijiushiguang_icon.webp",
+    "screenshots": [
+      "assets/images/huaijiushiguang/huaijiushiguang_1.webp"
+    ],
+    "addedTime": 1769240190396,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/i1z1y3gz3l8h",
+    "password": "32ii",
+    "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
   {
@@ -3304,24 +4711,36 @@
     "downloadUrl": "https://wwatc.lanzoub.com/iU5Yq3eca0yj",
     "password": "bjaq",
     "developer": "深圳市懒人在线科技有限公司",
-    "historyVersion": [
-      {
-        "version": "2.4.5",
-        "code": 2450,
-        "minSdk": 19,
-        "size": "6.30 MB",
-        "downloadUrl": "",
-        "password": ""
-      },
-      {
-        "version": "2.4.3",
-        "code": 2430,
-        "minSdk": 19,
-        "size": "6.30 MB",
-        "downloadUrl": "https://wwatc.lanzoub.com/iJSTx3dw8eof",
-        "password": "4cys"
-      }
-    ]
+    "historyVersion": []
+  },
+  {
+    "id": 3260948995,
+    "name": "扇贝单词",
+    "package": "com.shanbay.watch",
+    "version": "1.33-genius",
+    "code": 34,
+    "minSdk": 23,
+    "size": "1.15 MB",
+    "icon": "assets/images/shanbeidanci/shanbeidanci_icon.webp",
+    "screenshots": [
+      "assets/images/shanbeidanci/shanbeidanci_1.webp",
+      "assets/images/shanbeidanci/shanbeidanci_2.webp",
+      "assets/images/shanbeidanci/shanbeidanci_3.webp"
+    ],
+    "addedTime": 1769240191419,
+    "updateTime": "2026-01-24",
+    "description": "扇贝单词官方手表应用,利用AI智能规划抗遗忘曲线,提供海量词书与个性化学习方案,助力高效记忆单词.",
+    "category": "学习充电",
+    "keywords": [
+      "背单词",
+      "英语学习",
+      "danci",
+      "xuexi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i81JI3gzaqsj",
+    "password": "fdyv",
+    "developer": "南京贝湾信息科技有限公司",
+    "historyVersion": []
   },
   {
     "id": 609676067,
@@ -3348,7 +4767,6 @@
       "音乐播放器",
       "本地音乐",
       "歌词显示",
-      "像素风",
       "music player",
       "bendi yinyue",
       "geci"
@@ -3380,7 +4798,6 @@
       "图库",
       "图片浏览",
       "相册管理",
-      "存储清理",
       "watch gallery",
       "tuku",
       "xiangce"
@@ -3426,6 +4843,36 @@
     "historyVersion": []
   },
   {
+    "id": 1192161233,
+    "name": "指南针",
+    "package": "apps.r.compass",
+    "version": "9.4.0",
+    "code": 240094020,
+    "minSdk": 24,
+    "size": "2.92 MB",
+    "icon": "assets/images/zhinanzhen/zhinanzhen_icon.webp",
+    "screenshots": [
+      "assets/images/zhinanzhen/zhinanzhen_1.webp"
+    ],
+    "addedTime": 1769240191777,
+    "updateTime": "2026-01-24",
+    "description": "一款专业的指南针与户外导航工具,提供精确的方向指示,海拔高度,经纬度坐标,并支持离线使用,适合户外探险.",
+    "category": "生活服务",
+    "keywords": [
+      "指南针",
+      "户外导航",
+      "海拔计",
+      "经纬度",
+      "compass",
+      "zhinanzhen",
+      "huwai"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/igDLk3gzae5e",
+    "password": "i91u",
+    "developer": "Prometheus Interactive LLC",
+    "historyVersion": []
+  },
+  {
     "id": 590954406,
     "name": "掌上公交",
     "package": "com.mygolbs.mybuswatch",
@@ -3446,7 +4893,6 @@
     "keywords": [
       "实时公交",
       "公交查询",
-      "扫码乘车",
       "出行规划",
       "bus tracker",
       "gongjiao",
@@ -3465,6 +4911,28 @@
         "password": "37ar"
       }
     ]
+  },
+  {
+    "id": 3781348369,
+    "name": "掌舵领航",
+    "package": "com.watchfacestudio.Test_41329514401705211595122405981404",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "12.14 MB",
+    "icon": "assets/images/zhangduolinghang/zhangduolinghang_icon.webp",
+    "screenshots": [
+      "assets/images/zhangduolinghang/zhangduolinghang_1.webp"
+    ],
+    "addedTime": 1769240192967,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iRcka3gz3kwf",
+    "password": "86au",
+    "developer": "",
+    "historyVersion": []
   },
   {
     "id": 828016250,
@@ -3538,7 +5006,6 @@
     "description": "支付宝官方手表应用，支持出示付款码、乘车码进行支付与出行，并可查看账单，让移动支付体验更加便捷。",
     "category": "生活服务",
     "keywords": [
-      "出行",
       "alipay",
       "移动支付",
       "zhifubao",
@@ -3547,6 +5014,28 @@
     "downloadUrl": "https://easylink.cc/7wnafx",
     "password": "",
     "developer": "支付宝（杭州）信息技术有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 447894502,
+    "name": "斯沃琪地相款 MISSION TO EARTHPHASE",
+    "package": "com.watchfacestudio.Test_41329514401705211692102007379187",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "3.55 MB",
+    "icon": "assets/images/siwoqidixiangkuanmissiontoearthphase/siwoqidixiangkuanmissiontoearthphase_icon.webp",
+    "screenshots": [
+      "assets/images/siwoqidixiangkuanmissiontoearthphase/siwoqidixiangkuanmissiontoearthphase_1.webp"
+    ],
+    "addedTime": 1769240194527,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/ih6XQ3gz3k3g",
+    "password": "6kyx",
+    "developer": "",
     "historyVersion": []
   },
   {
@@ -3615,6 +5104,50 @@
     "historyVersion": []
   },
   {
+    "id": 3283592267,
+    "name": "日食",
+    "package": "com.watchfacestudio.cn",
+    "version": "1.0.1",
+    "code": 10000002,
+    "minSdk": 33,
+    "size": "0.67 MB",
+    "icon": "assets/images/rishi/rishi_icon.webp",
+    "screenshots": [
+      "assets/images/rishi/rishi_1.webp"
+    ],
+    "addedTime": 1769240195139,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iPviR3gz3jvi",
+    "password": "2b5p",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 3493834000,
+    "name": "明日香",
+    "package": "com.cotwf.watchface.asuka",
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 22,
+    "size": "2.81 MB",
+    "icon": "assets/images/mingrixiang/mingrixiang_icon.webp",
+    "screenshots": [
+      "assets/images/mingrixiang/mingrixiang_1.webp"
+    ],
+    "addedTime": 1769240195251,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iFGiS3gz3jre",
+    "password": "64kx",
+    "developer": "",
+    "historyVersion": []
+  },
+  {
     "id": 1333474249,
     "name": "星露谷物语风格表盘",
     "package": "com.watchfacestudio.stardewlike",
@@ -3633,13 +5166,33 @@
     "description": "一款深受《星露谷物语》启发的自制像素风表盘，内置多款壁纸，支持AOD息屏、天气季节感知、月相显示及智能宠物互动，将游戏情怀与实用功能结合。",
     "category": "表盘美化",
     "keywords": [
-      "xinglugu",
-      "biaopan",
-      "表盘"
+      "xinglugu"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/icjLP3exoexc",
     "password": "hq6f",
     "developer": "西瓜发电机xg",
+    "historyVersion": []
+  },
+  {
+    "id": 976598253,
+    "name": "暗夜指针",
+    "package": "com.watchfacestudio.nightpointer",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "6.22 MB",
+    "icon": "assets/images/anyezhizhen/anyezhizhen_icon.webp",
+    "screenshots": [
+      "assets/images/anyezhizhen/anyezhizhen_1.webp"
+    ],
+    "addedTime": 1769240195517,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iKYQ83gz3jif",
+    "password": "am53",
+    "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
   {
@@ -3657,18 +5210,60 @@
     "description": "极氪官方智能手表车联应用，支持系统级无感车控。实现靠近车辆自动解锁、离车自动落锁，并可通过手表远程控制车门、空调、车窗、后备箱及鸣笛寻车。",
     "category": "生活服务",
     "keywords": [
-      "车联合作",
       "无感解锁",
       "远程控车",
       "手表车钥匙",
       "智能车控",
       "jike",
-      "che kong",
-      "wugan"
+      "che kong"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iWTnM3fns4sh",
     "password": "725f",
     "developer": "浙江极氪智能科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 2519917340,
+    "name": "核心显示",
+    "package": "com.watchfacestudio.dh",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "45.86 MB",
+    "icon": "assets/images/hexinxianshi/hexinxianshi_icon.webp",
+    "screenshots": [
+      "assets/images/hexinxianshi/hexinxianshi_1.webp"
+    ],
+    "addedTime": 1769240195846,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iZZDU3gz3izg",
+    "password": "39qg",
+    "developer": "",
+    "historyVersion": []
+  },
+  {
+    "id": 4087368851,
+    "name": "欧米茄史努比50周年纪念版",
+    "package": "com.next.omega.snoopy",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "2.88 MB",
+    "icon": "assets/images/oumiqieshinubi50zhounianjinianban/oumiqieshinubi50zhounianjinianban_icon.webp",
+    "screenshots": [
+      "assets/images/oumiqieshinubi50zhounianjinianban/oumiqieshinubi50zhounianjinianban_1.webp"
+    ],
+    "addedTime": 1769240195857,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iJkdi3gz3f5i",
+    "password": "fdjv",
+    "developer": "",
     "historyVersion": []
   },
   {
@@ -3694,8 +5289,7 @@
       "远程控车",
       "车况查看",
       "BYD",
-      "cheliang kongzhi",
-      "yaochi"
+      "cheliang kongzhi"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/i1VQN3exo0mh",
     "password": "4dbg",
@@ -3720,6 +5314,30 @@
     ]
   },
   {
+    "id": 2343238057,
+    "name": "永雏塔菲 呼呼喵+",
+    "package": "com.flyfish233.sleeptaffy",
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 14,
+    "size": "1.62 MB",
+    "icon": "assets/images/yongchutafeihuhumiao/yongchutafeihuhumiao_icon.webp",
+    "screenshots": [
+      "assets/images/yongchutafeihuhumiao/yongchutafeihuhumiao_1.webp"
+    ],
+    "addedTime": 1769240197038,
+    "updateTime": "2026-01-24",
+    "description": "一款以虚拟偶像“永雏塔菲”为主题的动态表盘，使用代码重绘，兼容圆屏与方屏 Wear OS 设备，并优化了电池消耗。",
+    "category": "表盘美化",
+    "keywords": [
+      "二次元"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iYU5S3gz3f0d",
+    "password": "bsve",
+    "developer": "Flyfish233",
+    "historyVersion": []
+  },
+  {
     "id": 4075175165,
     "name": "汉克米笔记",
     "package": "com.hankmi.noteplus",
@@ -3739,7 +5357,6 @@
     "description": "一款专为手表设计的现代化笔记应用，支持文本编辑、隐私加密、与手机双向同步及丰富的个性化显示设置，是腕上高效的随身记录工具。",
     "category": "效率办公",
     "keywords": [
-      "笔记应用",
       "文本编辑",
       "隐私加密",
       "双向同步",
@@ -3751,16 +5368,7 @@
     "downloadUrl": "https://wwatc.lanzoub.com/iKdsT3dv8eaf",
     "password": "b5s1",
     "developer": "汉克米",
-    "historyVersion": [
-      {
-        "version": "22.8.20",
-        "code": 53,
-        "minSdk": 21,
-        "size": "2.02 MB",
-        "downloadUrl": "",
-        "password": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 411471366,
@@ -3847,7 +5455,6 @@
       "日程提醒",
       "GTD",
       "任务清单",
-      "多平台同步",
       "日程管理",
       "dida",
       "daiban"
@@ -3888,12 +5495,33 @@
       "深度报道",
       "原创资讯",
       "thepaper",
-      "xinwen",
-      "shizheng"
+      "xinwen"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iFMma3fnrkpe",
     "password": "4bwq",
     "developer": "上海东方报业有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3564678310,
+    "name": "激速",
+    "package": "com.watchfacestudio.speed",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "4.31 MB",
+    "icon": "assets/images/jisu/jisu_icon.webp",
+    "screenshots": [
+      "assets/images/jisu/jisu_1.webp"
+    ],
+    "addedTime": 1769240202162,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iEvGK3gz3exa",
+    "password": "ho7z",
+    "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
   {
@@ -3919,7 +5547,6 @@
       "天气预报",
       "空气质量",
       "PM2.5",
-      "自动定位",
       "weather",
       "tianqi",
       "hupo"
@@ -3952,9 +5579,7 @@
       "养成游戏",
       "模拟经营",
       "宠物照料",
-      "手表游戏",
       "虚拟宠物",
-      "tamagotchi",
       "dianzi chongwu",
       "yangcheng youxi"
     ],
@@ -3981,12 +5606,8 @@
     "description": "一款使用 Jetpack Compose 开发的 Wear OS 手表应用，模拟传统木鱼，提供简单的互动体验。",
     "category": "影音娱乐",
     "keywords": [
-      "解压",
       "禅意",
-      "互动工具",
-      "wooden fish",
-      "jieya",
-      "chanyi"
+      "wooden fish"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iy2vk3fyoe3e",
     "password": "7g4v",
@@ -4021,7 +5642,6 @@
       "实时定位",
       "出行",
       "独立导航",
-      "地图",
       "baidu map",
       "daohang",
       "ditu"
@@ -4065,6 +5685,28 @@
     "downloadUrl": "https://wwatc.lanzoub.com/iWCbv3d9efbg",
     "password": "4uav",
     "developer": "百度在线网络技术（北京）有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 269969223,
+    "name": "碳黑",
+    "package": "com.watchfacestudio.carbonblack",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "4.59 MB",
+    "icon": "assets/images/tanhei/tanhei_icon.webp",
+    "screenshots": [
+      "assets/images/tanhei/tanhei_1.webp"
+    ],
+    "addedTime": 1769240207589,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iuDTL3gz3ena",
+    "password": "fq7w",
+    "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
   {
@@ -4135,6 +5777,76 @@
     "historyVersion": []
   },
   {
+    "id": 1095259695,
+    "name": "精准时图",
+    "package": "ink.duo3.exactograph",
+    "version": "1.1.0",
+    "code": 10000003,
+    "minSdk": 34,
+    "size": "1.03 MB",
+    "icon": "assets/images/jingzhunshitu/jingzhunshitu_icon.webp",
+    "screenshots": [
+      "assets/images/jingzhunshitu/jingzhunshitu_1.webp"
+    ],
+    "addedTime": 1769240208016,
+    "updateTime": "2026-01-24",
+    "description": "一款以现代风格重新演绎传统钟表的 Wear OS 表盘，清晰分离时、分、秒指针，致力于提供精确的读时体验。",
+    "category": "表盘美化",
+    "keywords": [
+      "精准计时",
+      "指针表盘",
+      "现代设计"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iMS7n3gz3ecj",
+    "password": "47qy",
+    "developer": "123哆3",
+    "historyVersion": []
+  },
+  {
+    "id": 2766875134,
+    "name": "经典时计",
+    "package": "com.watchfacestudio.classictimepiece",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "4.55 MB",
+    "icon": "assets/images/jingdianshiji/jingdianshiji_icon.webp",
+    "screenshots": [
+      "assets/images/jingdianshiji/jingdianshiji_1.webp"
+    ],
+    "addedTime": 1769240208229,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/ihioL3gz3e9g",
+    "password": "b61u",
+    "developer": "广东欢太科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 2343369545,
+    "name": "经典绿",
+    "package": "com.watchfacestudio.greenclassic",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "4.94 MB",
+    "icon": "assets/images/jingdianlv/jingdianlv_icon.webp",
+    "screenshots": [
+      "assets/images/jingdianlv/jingdianlv_1.webp"
+    ],
+    "addedTime": 1769240208460,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/iUdFk3gz3e0h",
+    "password": "9xng",
+    "developer": "广东欢太科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 883623822,
     "name": "网易云音乐",
     "package": "com.netease.cloudmusic.watch",
@@ -4177,6 +5889,37 @@
         "password": "51yi"
       }
     ]
+  },
+  {
+    "id": 1968807406,
+    "name": "老黄历",
+    "package": "com.eros.lunar",
+    "version": "1.3",
+    "code": 3,
+    "minSdk": 30,
+    "size": "13.09 MB",
+    "icon": "assets/images/laohuangli/laohuangli_icon.webp",
+    "screenshots": [
+      "assets/images/laohuangli/laohuangli_1.webp",
+      "assets/images/laohuangli/laohuangli_2.webp"
+    ],
+    "addedTime": 1769240209425,
+    "updateTime": "2026-01-24",
+    "description": "一款提供传统黄历信息查询的手表应用，可方便查看每日宜忌，传承民俗文化。",
+    "category": "生活服务",
+    "keywords": [
+      "黄历查询",
+      "传统民俗",
+      "宜忌",
+      "日历工具",
+      "almanac",
+      "huangli",
+      "minsu"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/id3ej3gzadve",
+    "password": "2obo",
+    "developer": "",
+    "historyVersion": []
   },
   {
     "id": 1968955834,
@@ -4230,7 +5973,6 @@
       "元素查询",
       "科学",
       "chemistry",
-      "periodic table",
       "huaxue xuexi"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iszES3exoa3i",
@@ -4369,6 +6111,38 @@
     "downloadUrl": "https://wwatc.lanzoub.com/i6iRe3d5at8j",
     "password": "b4p8",
     "developer": "luern0313",
+    "historyVersion": []
+  },
+  {
+    "id": 4040861554,
+    "name": "腕上记事本",
+    "package": "com.devinsama.wearnotepad",
+    "version": "1.0.1",
+    "code": 1,
+    "minSdk": 23,
+    "size": "4.09 MB",
+    "icon": "assets/images/wanshangjishiben/wanshangjishiben_icon.webp",
+    "screenshots": [
+      "assets/images/wanshangjishiben/wanshangjishiben_1.webp",
+      "assets/images/wanshangjishiben/wanshangjishiben_2.webp"
+    ],
+    "addedTime": 1769240211237,
+    "updateTime": "2026-01-24",
+    "description": "一款专为智能手表打造的TXT文本编辑器,支持新建,编辑,阅读本地文档,并提供弹幕,加密,防窥屏等隐私保护功能.",
+    "category": "效率办公",
+    "keywords": [
+      "记事本",
+      "文本编辑",
+      "TXT阅读",
+      "隐私保护",
+      "弹幕显示",
+      "notes",
+      "biji",
+      "wenben"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/imvId3gza0ej",
+    "password": "6wai",
+    "developer": "devinsama",
     "historyVersion": []
   },
   {
@@ -4560,6 +6334,50 @@
     "historyVersion": []
   },
   {
+    "id": 3426569943,
+    "name": "菜狗",
+    "package": "com.ccwatch.caigou",
+    "version": "1.0.0",
+    "code": 1,
+    "minSdk": 28,
+    "size": "13.66 MB",
+    "icon": "assets/images/caigou/caigou_icon.webp",
+    "screenshots": [
+      "assets/images/caigou/caigou_1.webp"
+    ],
+    "addedTime": 1769240212817,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/ixCXl3gz3dof",
+    "password": "59by",
+    "developer": "",
+    "historyVersion": []
+  },
+  {
+    "id": 1066735823,
+    "name": "蓝色幻境",
+    "package": "com.watchfacestudio.bluefantasy",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 30,
+    "size": "6.14 MB",
+    "icon": "assets/images/lansehuanjing/lansehuanjing_icon.webp",
+    "screenshots": [
+      "assets/images/lansehuanjing/lansehuanjing_1.webp"
+    ],
+    "addedTime": 1769240213072,
+    "updateTime": "2026-01-24",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [],
+    "downloadUrl": "https://wwatc.lanzoub.com/i4lbE3gz3d0b",
+    "password": "76bd",
+    "developer": "广东欢太科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 1193721720,
     "name": "薄荷健康",
     "package": "com.boohee.xiaomiapplication",
@@ -4589,6 +6407,28 @@
     "downloadUrl": "https://wwatc.lanzoub.com/i5wKs3fnu25e",
     "password": "6djq",
     "developer": "上海薄荷健康科技股份有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3338797412,
+    "name": "蟹黄堡表盘",
+    "package": "com.watchfacestudio.spongebob",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "0.98 MB",
+    "icon": "assets/images/xiehuangbaobiaopan/xiehuangbaobiaopan_icon.webp",
+    "screenshots": [
+      "assets/images/xiehuangbaobiaopan/xiehuangbaobiaopan_1.webp"
+    ],
+    "addedTime": 1769240213281,
+    "updateTime": "2026-01-24",
+    "description": [],
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://wwatc.lanzoub.com/iakCc3gz3cfa",
+    "password": "g89f",
+    "developer": "B姓男子",
     "historyVersion": []
   },
   {
@@ -4677,7 +6517,8 @@
     "description": "Lunch 启动器的配套表盘，允许你将自定义视频设置为手表的视频表盘背景。",
     "category": "表盘美化",
     "keywords": [
-      "Lunch"
+      "Lunch",
+      "视频表盘"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iasb33fypwlg",
     "password": "d7x9",
@@ -4741,7 +6582,6 @@
       "手写",
       "语音转文字",
       "ifly",
-      "一分钟400字",
       "xunfei"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ivYxK3d5a48j",
@@ -4766,12 +6606,8 @@
     "description": "一款以“賢將與河童 搖曳於夏”为主题设计的个性化表盘。",
     "category": "表盘美化",
     "keywords": [
-      "主题表盘",
-      "个性化",
       "二次元",
       "动漫风格",
-      "watch face",
-      "zhuti biaopan",
       "dongman"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iKZdS3fnq7je",
@@ -4885,22 +6721,6 @@
         "size": "9.38 MB",
         "downloadUrl": "https://wwatc.lanzoub.com/itxQb3d9e2if",
         "password": "avun"
-      },
-      {
-        "version": "2.2.4",
-        "code": 224,
-        "minSdk": 19,
-        "size": "9.77 MB",
-        "downloadUrl": "",
-        "password": ""
-      },
-      {
-        "version": "1.4.0",
-        "code": 40,
-        "minSdk": 24,
-        "size": "3.09 MB",
-        "downloadUrl": "",
-        "password": ""
       }
     ]
   },
@@ -4969,6 +6789,36 @@
     "historyVersion": []
   },
   {
+    "id": 493421699,
+    "name": "钉钉智连",
+    "package": "com.mobvoi.dd",
+    "version": "1.0",
+    "code": 2,
+    "minSdk": 28,
+    "size": "6.30 MB",
+    "icon": "assets/images/dingdingzhilian/dingdingzhilian_icon.webp",
+    "screenshots": [
+      "assets/images/dingdingzhilian/dingdingzhilian_1.webp",
+      "assets/images/dingdingzhilian/dingdingzhilian_2.webp"
+    ],
+    "addedTime": 1769240216870,
+    "updateTime": "2026-01-24",
+    "description": "钉钉官方手表应用，作为AI时代的高效办公助手，集成了智能通讯，任务管理，日程同步及AI纪要等核心功能，助力企业团队实现移动化协作。",
+    "category": "效率办公",
+    "keywords": [
+      "办公协作",
+      "企业通讯",
+      "任务管理",
+      "dingtalk",
+      "bangong",
+      "xietong"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/i9ikc3gza06b",
+    "password": "dgun",
+    "developer": "钉钉科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 2736263233,
     "name": "钱迹",
     "package": "com.litangtech.qianji.watchand",
@@ -4989,8 +6839,6 @@
       "记账",
       "个人理财",
       "收支管理",
-      "极简",
-      "无广告",
       "qianji",
       "jizhang",
       "licai"
@@ -5144,14 +6992,10 @@
     "category": "生活服务",
     "keywords": [
       "导航",
-      "打车",
-      "路况",
-      "AMAP",
       "gaode",
       "志玲",
       "出行",
-      "map",
-      "gaode"
+      "map"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iMQYD3e6vope",
     "password": "5d24",

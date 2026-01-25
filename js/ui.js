@@ -36,10 +36,14 @@ function createHistoryCard(appVersionData, onClickCallback) {
   const card = document.createElement('div');
   card.className = 'history-simple-card';
 
+  // 构造显示字符串：版本号 (Code)
+  const codeStr = appVersionData.code ? ` (${appVersionData.code})` : '';
+  const displayStr = `${appVersionData.version}${codeStr}`;
+
   card.innerHTML = `
         <div class="history-content">
             <div class="history-name">${escapeHtml(appVersionData.name)}</div>
-            <div class="history-ver">${escapeHtml(appVersionData.version)} <span style="opacity:0.6">| ${escapeHtml(appVersionData.size || '未知')}</span></div>
+            <div class="history-ver">${escapeHtml(displayStr)}</div>
         </div>
         <span class="material-symbols-rounded card-action-icon color-primary">arrow_forward</span>
     `;
