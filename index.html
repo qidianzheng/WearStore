@@ -8,7 +8,7 @@
 
   <title>WearStore - 发现心动的手表软件</title>
   <meta name="description" content="WearStore是一个为WearOS手表提供第三方应用的软件商店，旨在帮您充分发掘并利用手表的潜能">
-  <meta name="keywords" content="WearStore,WearOS,手表软件,三星手表,手表商店">
+  <meta name="keywords" content="WearStore,WearOS,手表软件,三星手表,手表商店,磨损市场,小米watch2,三星watch7,小米手表,ticwatch">
   <link rel="stylesheet" href="./css/variables.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="./assets/WearStore.png">
@@ -25,8 +25,11 @@
 
       <div class="search-container">
         <input type="text" id="searchInput" class="search-box" placeholder="搜索应用..." autocomplete="off">
+        <!-- 清除按钮 -->
         <span class="material-symbols-rounded clear-btn-icon" id="clearSearchBtn" style="display: none;">cancel</span>
+        <!-- 搜索按钮 -->
         <span class="material-symbols-rounded search-btn-icon" id="searchBtn">search</span>
+        <!-- 搜索联想容器 -->
         <div id="searchSuggestions" class="search-suggestions"></div>
       </div>
 
@@ -38,22 +41,24 @@
 
   <!-- ================= 主内容区 ================= -->
   <div class="container">
-    <div class="cards-grid" id="cardsContainer"></div>
+    <div class="cards-grid" id="cardsContainer">
+      <!-- JS 动态填充应用卡片 -->
+    </div>
   </div>
 
   <!-- ================= 页脚 ================= -->
   <footer class="site-footer">
     <div class="footer-line-1">WearStore</div>
     <div class="footer-line-2">
-      本站资源收集于网络，仅供学习交流。<br>
-      软件侵权、意见反馈、软件投稿请联系dzq8719@gmail.com
+      本站资源收集于网络，仅供学习交流。
     </div>
   </footer>
 
-  <!-- ================= Toast ================= -->
+  <!-- ================= 消息提示容器 (Toast) ================= -->
   <div id="toast-container" class="toast-container"></div>
 
-  <!-- ================= 弹窗区域 ================= -->
+  <!-- ================= 静态弹窗区域 ================= -->
+  <!-- 详情页、开发者页、分类页、历史页均由 JS 动态生成 -->
 
   <!-- 1. 菜单弹窗 -->
   <div class="modal-overlay" id="menuModalOverlay">
@@ -65,7 +70,9 @@
             id="closeMenuModal">close</span>
         </div>
         <div class="menu-content">
+          <!-- 顶部功能按钮网格 -->
           <div class="menu-top-grid">
+            <!-- 安卓版本 -->
             <div class="menu-action-card" id="menuVersionTrigger">
               <span class="material-symbols-rounded menu-action-icon color-primary">android</span>
               <div class="menu-action-text-group">
@@ -73,6 +80,7 @@
                 <span class="menu-action-sub" id="menuVersionText">未选择</span>
               </div>
             </div>
+            <!-- 主题切换 -->
             <div class="menu-action-card" id="menuThemeToggle">
               <span class="material-symbols-rounded menu-action-icon color-normal theme-icon">brightness_5</span>
               <div class="menu-action-text-group">
@@ -80,6 +88,7 @@
                 <span class="menu-action-sub">切换外观</span>
               </div>
             </div>
+            <!-- 最新上架 -->
             <div class="menu-action-card" id="newArrivalsBtn">
               <span class="material-symbols-rounded menu-action-icon color-gold">new_releases</span>
               <div class="menu-action-text-group">
@@ -87,6 +96,7 @@
                 <span class="menu-action-sub">查看新入库</span>
               </div>
             </div>
+            <!-- 最近更新 -->
             <div class="menu-action-card" id="recentUpdatesBtn">
               <span class="material-symbols-rounded menu-action-icon" style="color: #3b82f6;">update</span>
               <div class="menu-action-text-group">
@@ -94,68 +104,44 @@
                 <span class="menu-action-sub">查看版本升级</span>
               </div>
             </div>
+            <!-- 综合服务 -->
             <div class="menu-action-card" id="serviceBtn">
-              <!-- 使用紫色图标，区别于其他 -->
               <span class="material-symbols-rounded menu-action-icon" style="color: #8b5cf6;">rate_review</span>
               <div class="menu-action-text-group">
                 <span class="menu-action-label">综合服务</span>
-                <!-- 字体稍微调小一点，防止换行太难看 -->
                 <span class="menu-action-sub" style="font-size: 0.7rem;">软件提交/举报侵权/意见反馈</span>
               </div>
             </div>
           </div>
 
           <div class="menu-separator"></div>
+
+          <!-- 分类列表区域 -->
           <div class="menu-section">
             <h3 style="font-size:1rem; color:var(--text-secondary); margin-bottom:10px;">分类浏览</h3>
-            <div class="menu-category-grid" id="menuCategoryGrid"></div>
+            <div class="menu-category-grid" id="menuCategoryGrid">
+              <!-- JS 动态生成分类按钮 -->
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- 2. 分类/列表通用窗口 -->
-  <div class="modal-overlay" id="categoryWindowOverlay">
-    <div class="modal">
-      <div class="dev-modal-layout">
-        <div class="window-header">
-          <span id="categoryWindowTitle">列表名称</span>
-          <span class="material-symbols-rounded unified-close-btn header-close-img" id="categoryCloseBtn">close</span>
-        </div>
-        <div class="dev-content">
-          <div class="cards-grid" id="categoryAppsContainer"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 3. 开发者应用窗口 -->
-  <div class="modal-overlay" id="devModalOverlay">
-    <div class="modal">
-      <div class="dev-modal-layout">
-        <div class="window-header">
-          <span id="devModalTitle">开发者名称</span>
-          <span class="material-symbols-rounded unified-close-btn header-close-img">close</span>
-        </div>
-        <div class="dev-content">
-          <div class="cards-grid" id="devAppsContainer"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 5. 欢迎/版本选择弹窗 -->
+  <!-- 2. 欢迎/版本选择弹窗 (强制引导) -->
   <div class="modal-overlay" id="welcomeModalOverlay">
     <div class="modal">
       <div class="welcome-content">
         <h2>请选择您的手表 Android 版本</h2>
-        <div class="version-grid" id="versionGrid"></div>
-        <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 15px;">您可以在菜单中随时更改</p>
+        <div class="version-grid" id="versionGrid">
+          <!-- JS 生成版本按钮 -->
+        </div>
+        <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 15px;">稍后您可以在菜单中随时更改</p>
       </div>
     </div>
   </div>
 
+  <!-- ================= 脚本引入 ================= -->
   <script type="module" src="./js/main.js"></script>
 </body>
 

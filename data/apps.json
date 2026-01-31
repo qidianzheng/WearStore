@@ -14,7 +14,7 @@
     "addedTime": 1769240147335,
     "updateTime": "2026-01-24",
     "description": "一款经典的 2048 数字合并益智游戏，专为 Wear OS 智能手表优化，体积小巧无广告，支持在手机和手表上同步安装运行。",
-    "category": "影音娱乐",
+    "category": "休闲游戏",
     "keywords": [
       "益智游戏",
       "数字合并",
@@ -190,8 +190,8 @@
       "健康信息",
       "心率步数"
     ],
-    "downloadUrl": "",
-    "password": "",
+    "downloadUrl": "https://wwatc.lanzoub.com/iQC0y3hflz8f",
+    "password": "4t74",
     "developer": "jigu watchface",
     "historyVersion": [
       {
@@ -199,8 +199,8 @@
         "code": 10000001,
         "minSdk": 30,
         "size": "0.29 MB",
-        "downloadUrl": "",
-        "password": ""
+        "downloadUrl": "https://wwatc.lanzoub.com/i3KbN3hflz7e",
+        "password": "hfsj"
       }
     ]
   },
@@ -1106,7 +1106,11 @@
     "downloadUrl": "https://wwatc.lanzoub.com/icN1m3djzayf",
     "password": "eeh7",
     "developer": "dudu",
-    "historyVersion": []
+    "historyVersion": [],
+    "recommendIds": [
+      806944559,
+      1125432974
+    ]
   },
   {
     "id": 4098625699,
@@ -1173,6 +1177,39 @@
     "developer": "emersoft",
     "historyVersion": [],
     "contributor": "清漓染CHR."
+  },
+  {
+    "id": 3099280595,
+    "name": "MiGa(米咖)",
+    "package": "com.autsing.miga",
+    "version": "2.0.2",
+    "code": 20002,
+    "minSdk": 26,
+    "size": "3.35 MB",
+    "icon": "assets/images/migamika/migamika_icon.webp",
+    "screenshots": [
+      "assets/images/migamika/migamika_1.webp",
+      "assets/images/migamika/migamika_2.webp",
+      "assets/images/migamika/migamika_3.webp",
+      "assets/images/migamika/migamika_4.webp",
+      "assets/images/migamika/migamika_5.webp"
+    ],
+    "addedTime": 1769521974520,
+    "updateTime": "2026-01-27",
+    "description": "一款基于米家 API 开发的第三方智能家居控制应用，专为手表端设计。支持浏览与控制米家设备、查看与触发智能场景，并能通过表盘复杂功能快速操作，是腕上的米家遥控器。",
+    "category": "生活服务",
+    "keywords": [
+      "米家",
+      "智能家居",
+      "手表控制",
+      "场景触发",
+      "zhineng jiaju",
+      "kongzhi"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/igTzP3h5cuwf",
+    "password": "ag76",
+    "developer": "AuTsing",
+    "historyVersion": []
   },
   {
     "id": 3144690978,
@@ -1372,7 +1409,9 @@
     "id": 286136756,
     "name": "NWearQQ",
     "package": "com.tencent.qqlite",
-    "version": "最终版2-已去签",
+    "version": [
+      "最终版2-已去签"
+    ],
     "code": 2465,
     "minSdk": 21,
     "size": "37.31 MB",
@@ -2056,7 +2095,7 @@
     ],
     "addedTime": 1765876640490,
     "updateTime": "2025-12-18",
-    "description": "一款采用蜂窝布局的Wear OS启动器，动画效果细腻流畅，在完整显示所有应用的同时优化了能耗，提供高效且视觉体验丰富的腕上桌面。",
+    "description": "Android11及更高版本不可用\n一款采用蜂窝布局的Wear OS启动器，动画效果细腻流畅，在完整显示所有应用的同时优化了能耗，提供高效且视觉体验丰富的腕上桌面。",
     "category": "系统工具",
     "keywords": [
       "蜂窝启动器",
@@ -2394,7 +2433,7 @@
     ],
     "addedTime": 1768213627571,
     "updateTime": "2026-01-12",
-    "description": "一款专为 Wear OS 3.0+ 系统开发的本地音乐播放器，支持通过同一WiFi网络从手机或PC传输歌曲至手表播放。",
+    "description": "Android11及更高版本不可用\n本地音乐播放器，支持通过同一WiFi网络从手机或PC传输歌曲至手表播放。",
     "category": "影音娱乐",
     "keywords": [
       "本地音乐",
@@ -2658,8 +2697,8 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
-    "downloadUrl": "",
-    "password": "",
+    "downloadUrl": "https://wwatc.lanzoub.com/iYAWx3gz3yjg",
+    "password": "5wf2",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3051,8 +3090,8 @@
       "code",
       "代码"
     ],
-    "downloadUrl": "",
-    "password": "",
+    "downloadUrl": "https://wwatc.lanzoub.com/iS7Yu3hfm5qj",
+    "password": "a643",
     "developer": "Nushio",
     "historyVersion": []
   },
@@ -3296,14 +3335,6 @@
     "developer": "三星电子株式会社",
     "historyVersion": [
       {
-        "version": "4.2.00.8",
-        "code": 420008000,
-        "minSdk": 33,
-        "size": "105.31 MB",
-        "downloadUrl": "https://www.123912.com/s/MGfbTd-BKFa3",
-        "password": ""
-      },
-      {
         "version": "3.0.00.7",
         "code": 300007000,
         "minSdk": 30,
@@ -3478,6 +3509,38 @@
     "downloadUrl": "https://wwatc.lanzoub.com/iz5Ug3gz3sof",
     "password": "am5i",
     "developer": "广东欢太科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 4193362902,
+    "name": "像素宠物",
+    "package": "com.example.pixelpet",
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 27,
+    "size": "9.88 MB",
+    "icon": "assets/images/xiangsuchongwu/xiangsuchongwu_icon.webp",
+    "screenshots": [
+      "assets/images/xiangsuchongwu/xiangsuchongwu_1.webp",
+      "assets/images/xiangsuchongwu/xiangsuchongwu_2.webp",
+      "assets/images/xiangsuchongwu/xiangsuchongwu_3.webp"
+    ],
+    "addedTime": 1769521996312,
+    "updateTime": "2026-01-27",
+    "description": "一款融合了捕捉、对战与升级等核心玩法的像素风宠物养成游戏。在腕上邂逅风格各异的像素萌宠，通过战斗与培养建立羁绊，体验趣味的养成旅程。",
+    "category": "休闲游戏",
+    "keywords": [
+      "养成游戏",
+      "宠物对战",
+      "像素风",
+      "捕捉升级",
+      "pixel pet",
+      "yangcheng youxi",
+      "chongwu"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iUL5e3h5ct4b",
+    "password": "9bdp",
+    "developer": "聂扬宇",
     "historyVersion": []
   },
   {
@@ -3832,10 +3895,10 @@
     "id": 2913175280,
     "name": "哔哩终端",
     "package": "com.RobinNotBad.BiliClient",
-    "version": "2.9.3-fix",
-    "code": 20251002,
+    "version": "2.9.5-fix",
+    "code": 20260125,
     "minSdk": 14,
-    "size": "9.62 MB",
+    "size": "9.21 MB",
     "icon": "assets/images/bilizhongduan/bilizhongduan_icon.webp",
     "screenshots": [
       "assets/images/bilizhongduan/bilizhongduan_1.webp",
@@ -3845,7 +3908,7 @@
       "assets/images/bilizhongduan/bilizhongduan_5.webp"
     ],
     "addedTime": 1764730732767,
-    "updateTime": "2025-12-15",
+    "updateTime": "2026-01-27",
     "description": "一款专为智能手表及低配置设备打造的轻量级第三方B站客户端。界面简洁无广告，支持扫码登录同步收藏与历史记录，并可根据手表屏幕自定义界面，提供流畅的移动观影体验。",
     "category": "影音娱乐",
     "keywords": [
@@ -3857,10 +3920,19 @@
       "第三方b站",
       "bilizhongduan"
     ],
-    "downloadUrl": "https://wwatc.lanzoub.com/ilP1j3d5aqpi",
-    "password": "434f",
+    "downloadUrl": "https://wwatc.lanzoub.com/i2Wm13h5cwbg",
+    "password": "g1xz",
     "developer": "RobinNotBad",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "2.9.3-fix",
+        "code": 20251002,
+        "minSdk": 14,
+        "size": "9.62 MB",
+        "downloadUrl": "https://wwatc.lanzoub.com/ilP1j3d5aqpi",
+        "password": "434f"
+      }
+    ]
   },
   {
     "id": 1450106876,
@@ -4027,13 +4099,16 @@
     "description": "Lunch 启动器的配套表盘，允许你将自定义图片设置为手表的图片表盘背景。",
     "category": "表盘美化",
     "keywords": [
-      "Lunch",
-      "图片表盘"
+      "Lunch"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/ivBCx3fypvmb",
     "password": "2bvv",
     "developer": "dudu",
-    "historyVersion": []
+    "historyVersion": [],
+    "recommendIds": [
+      3305117968,
+      806944559
+    ]
   },
   {
     "id": 2796637367,
@@ -4761,7 +4836,7 @@
     ],
     "addedTime": 1767280578907,
     "updateTime": "2026-01-01",
-    "description": "一款设计经典的手表本地音乐播放器，支持播放列表管理、逐句歌词显示，并有像素风格版本可选，是脱离手机独立听歌的选择。",
+    "description": "Android11及更高版本不可用\n一款设计经典的手表本地音乐播放器，支持播放列表管理、逐句歌词显示，并有像素风格版本可选，是脱离手机独立听歌的选择。",
     "category": "影音娱乐",
     "keywords": [
       "音乐播放器",
@@ -4936,7 +5011,7 @@
   },
   {
     "id": 828016250,
-    "name": "搜狗输入法",
+    "name": "搜狗输入法手表版",
     "package": "com.sogou.ime.wear",
     "version": "3.2.4.2509260948",
     "code": 44,
@@ -5710,6 +5785,34 @@
     "historyVersion": []
   },
   {
+    "id": 1287852515,
+    "name": "磨损市场",
+    "package": "com.qdz.wearstore",
+    "version": "1.0.5",
+    "code": 5,
+    "minSdk": 26,
+    "size": "20.05 MB",
+    "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
+    "screenshots": [
+      "assets/images/mosunshichang/mosunshichang_1.webp",
+      "assets/images/mosunshichang/mosunshichang_2.webp",
+      "assets/images/mosunshichang/mosunshichang_3.webp",
+      "assets/images/mosunshichang/mosunshichang_4.webp",
+      "assets/images/mosunshichang/mosunshichang_5.webp"
+    ],
+    "addedTime": 1769836274736,
+    "updateTime": "2026-01-31",
+    "description": "WearStore官方手表应用商店来了，现在您可以在手表上下载和安装应用。\n目前适配WearOS4及更高版本的系统，WearOS2和3请用其他方式安装下载的应用。\n磨损市场需要安装未知应用权限，WearOS4和5通过以下方式授权：\nadb shell appops set --uid com.qdz.wearstore REQUEST_INSTALL_PACKAGES allow",
+    "category": "系统工具",
+    "keywords": [
+      "WearSore"
+    ],
+    "downloadUrl": "https://wwatc.lanzoub.com/iSeX13hflt8j",
+    "password": "gbps",
+    "developer": "Qdz",
+    "historyVersion": []
+  },
+  {
     "id": 4195018046,
     "name": "简易录音机",
     "package": "com.coffeebeanventures.easyvoicerecorder",
@@ -6012,7 +6115,10 @@
     "downloadUrl": "https://wwatc.lanzoub.com/ikEyL3d5aqzi",
     "password": "hvnk",
     "developer": "luern0313",
-    "historyVersion": []
+    "historyVersion": [],
+    "recommendIds": [
+      2653482018
+    ]
   },
   {
     "id": 2625337913,
@@ -6517,13 +6623,16 @@
     "description": "Lunch 启动器的配套表盘，允许你将自定义视频设置为手表的视频表盘背景。",
     "category": "表盘美化",
     "keywords": [
-      "Lunch",
-      "视频表盘"
+      "Lunch"
     ],
     "downloadUrl": "https://wwatc.lanzoub.com/iasb33fypwlg",
     "password": "d7x9",
     "developer": "dudu",
-    "historyVersion": []
+    "historyVersion": [],
+    "recommendIds": [
+      3305117968,
+      1125432974
+    ]
   },
   {
     "id": 3702102768,

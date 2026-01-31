@@ -16,6 +16,22 @@ export const apiMap = {
   35: "15", 36: "16"
 };
 
+export const categoryHash = {
+  "系统工具": "tools",
+  "效率办公": "efficiency",
+  "健康运动": "health",
+  "通讯社交": "social",
+  "影音娱乐": "media",
+  "学习充电": "education",
+  "生活服务": "life",
+  "休闲游戏": "games",
+  "表盘美化": "watchface"
+};
+
+export function getCategoryByHash(hashKey) {
+  return Object.keys(categoryHash).find(key => categoryHash[key] === hashKey);
+}
+
 export function escapeHtml(unsafe) {
   if (typeof unsafe !== 'string') return unsafe;
   return unsafe.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
@@ -28,7 +44,6 @@ export function isAppCompatible(app, userApi) {
 }
 
 export function getBestMatchVersion(app, userApi) {
-  // 1. 提取主版本链接/密码
   const mainDownloadUrl = app.downloadUrl || app.realPath || "";
   const mainPassword = app.password || "";
 
@@ -70,7 +85,6 @@ export function getBestMatchVersion(app, userApi) {
 
   if (compatibleVersions.length === 0) return null;
 
-  // 排序：推荐优先 > code 大优先
   compatibleVersions.sort((a, b) => {
     if (a.isRecommended && !b.isRecommended) return -1;
     if (!a.isRecommended && b.isRecommended) return 1;
@@ -78,4 +92,45 @@ export function getBestMatchVersion(app, userApi) {
   });
 
   return compatibleVersions[0];
+}
+
+export function findAppByPrecision(allApps, pkg, ver, code) {
+  const candidates = allApps.filter(a => a.package === pkg);
+
+  if (candidates.length === 0) return null;
+
+  if (!code || !ver) return candidates[0];
+
+  const targetCode = parseInt(code);
+  const targetVer = decodeURIComponent(ver);
+
+  // 2. 遍历所有候选者，寻找严格匹配项
+  for (const app of candidates) {
+    const appCode = parseInt(app.code || 0);
+    if (appCode === targetCode && app.version === targetVer) {
+      return { ...app, isSpecificVersion: true };
+    }
+
+    if (app.historyVersion && app.historyVersion.length > 0) {
+      const historyMatch = app.historyVersion.find(v =>
+        parseInt(v.code || 0) === targetCode && v.version === targetVer
+      );
+
+      if (historyMatch) {
+        // 找到了历史版本匹配
+        return {
+          ...app,
+          ...historyMatch,
+          isSpecificVersion: true
+        };
+      }
+    }
+  }
+
+  // 3. 如果遍历完所有同包名应用都没找到完全匹配的 Code+Ver
+  return candidates[0];
+}
+
+export function setPageTitle(title) {
+  document.title = title;
 }
