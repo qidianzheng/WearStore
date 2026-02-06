@@ -58,77 +58,9 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- ================= 静态弹窗区域 ================= -->
-  <!-- 详情页、开发者页、分类页、历史页均由 JS 动态生成 -->
+  <!-- 菜单、详情页、开发者页、分类页、历史页均由 JS 动态生成 -->
 
-  <!-- 1. 菜单弹窗 -->
-  <div class="modal-overlay" id="menuModalOverlay">
-    <div class="modal">
-      <div class="menu-modal-layout">
-        <div class="menu-header">
-          菜单
-          <span class="material-symbols-rounded unified-close-btn menu-header-close-btn"
-            id="closeMenuModal">close</span>
-        </div>
-        <div class="menu-content">
-          <!-- 顶部功能按钮网格 -->
-          <div class="menu-top-grid">
-            <!-- 安卓版本 -->
-            <div class="menu-action-card" id="menuVersionTrigger">
-              <span class="material-symbols-rounded menu-action-icon color-primary">android</span>
-              <div class="menu-action-text-group">
-                <span class="menu-action-label">安卓版本</span>
-                <span class="menu-action-sub" id="menuVersionText">未选择</span>
-              </div>
-            </div>
-            <!-- 主题切换 -->
-            <div class="menu-action-card" id="menuThemeToggle">
-              <span class="material-symbols-rounded menu-action-icon color-normal theme-icon">brightness_5</span>
-              <div class="menu-action-text-group">
-                <span class="menu-action-label">日/夜间模式</span>
-                <span class="menu-action-sub">切换外观</span>
-              </div>
-            </div>
-            <!-- 最新上架 -->
-            <div class="menu-action-card" id="newArrivalsBtn">
-              <span class="material-symbols-rounded menu-action-icon color-gold">new_releases</span>
-              <div class="menu-action-text-group">
-                <span class="menu-action-label">最新上架</span>
-                <span class="menu-action-sub">查看新入库</span>
-              </div>
-            </div>
-            <!-- 最近更新 -->
-            <div class="menu-action-card" id="recentUpdatesBtn">
-              <span class="material-symbols-rounded menu-action-icon" style="color: #3b82f6;">update</span>
-              <div class="menu-action-text-group">
-                <span class="menu-action-label">最近更新</span>
-                <span class="menu-action-sub">查看版本升级</span>
-              </div>
-            </div>
-            <!-- 综合服务 -->
-            <div class="menu-action-card" id="serviceBtn">
-              <span class="material-symbols-rounded menu-action-icon" style="color: #8b5cf6;">rate_review</span>
-              <div class="menu-action-text-group">
-                <span class="menu-action-label">综合服务</span>
-                <span class="menu-action-sub" style="font-size: 0.7rem;">软件提交/举报侵权/意见反馈</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="menu-separator"></div>
-
-          <!-- 分类列表区域 -->
-          <div class="menu-section">
-            <h3 style="font-size:1rem; color:var(--text-secondary); margin-bottom:10px;">分类浏览</h3>
-            <div class="menu-category-grid" id="menuCategoryGrid">
-              <!-- JS 动态生成分类按钮 -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 2. 欢迎/版本选择弹窗 (强制引导) -->
+  <!-- 欢迎/版本选择弹窗 (强制引导) -->
   <div class="modal-overlay" id="welcomeModalOverlay">
     <div class="modal">
       <div class="welcome-content">

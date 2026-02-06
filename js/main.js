@@ -1,6 +1,6 @@
 import { fetchApps } from './data.js';
-import { renderCardList, renderAppModal, renderIncompatibleCard, openHistoryModal, renderDevModal, renderCategoryModal } from './ui.js';
-import { isAppCompatible, apiMap, escapeHtml, categoryHash, getCategoryByHash, findAppByPrecision, setPageTitle } from './utils.js';
+import { renderCardList, renderAppModal, renderIncompatibleCard, openHistoryModal, renderDevModal, renderCategoryModal, renderMenuModal } from './ui.js';
+import { isAppGloballyCompatible, apiMap, escapeHtml, categoryHash, getCategoryByHash, findAppByPrecision, setPageTitle, calculateMatchRatio } from './utils.js';
 import Fuse from './fuse.mjs';
 
 const elements = {
@@ -9,25 +9,12 @@ const elements = {
   searchBtn: document.getElementById('searchBtn'),
   searchSuggestions: document.getElementById('searchSuggestions'),
   clearSearchBtn: document.getElementById('clearSearchBtn'),
-
-  // 菜单相关
   menuBtn: document.getElementById('menuBtn'),
-  menuModal: document.getElementById('menuModalOverlay'),
-  closeMenuModal: document.getElementById('closeMenuModal'),
-  menuThemeToggle: document.getElementById('menuThemeToggle'),
-  menuVersionTrigger: document.getElementById('menuVersionTrigger'),
-  menuVersionText: document.getElementById('menuVersionText'),
-  newArrivalsBtn: document.getElementById('newArrivalsBtn'),
-  recentUpdatesBtn: document.getElementById('recentUpdatesBtn'),
-  serviceBtn: document.getElementById('serviceBtn'),
-  menuCategoryGrid: document.getElementById('menuCategoryGrid'),
-
   welcomeModal: document.getElementById('welcomeModalOverlay'),
   versionGrid: document.getElementById('versionGrid'),
 };
 
 let allApps = [];
-let globalZIndex = 1300;
 let fuse;
 let homeAppsCache = null;
 
@@ -35,566 +22,171 @@ async function init() {
   initTheme();
   allApps = await fetchApps();
   window.allApps = allApps;
-
   initFuse();
-
-  // 先绑定事件
   bindEvents();
-
-  populateMenuCategories();
-
-  // 初始化路由
   checkHashLink();
-  checkUserVersion();
-
-  if (!window.location.hash && elements.searchInput.value === '') {
-    renderRandomHome();
-  }
+  checkUserVersion(); // 初始化版本按钮
+  if (!window.location.hash && elements.searchInput.value === '') renderRandomHome();
 }
 
 function initFuse() {
   const options = {
-    includeScore: true,
-    threshold: 0.2,
-    location: 0,
-    distance: 100,
-    keys: [
-      { name: 'name', weight: 1.0 },
-      { name: 'keywords', weight: 0.8 }
-    ]
+    includeScore: true, threshold: 0.3, location: 0, distance: 100, ignoreLocation: true,
+    keys: [{ name: 'name', weight: 1.0 }, { name: 'keywords', weight: 0.7 }]
   };
   fuse = new Fuse(allApps, options);
 }
 
-// 统一关闭逻辑：点击关闭按钮 = 浏览器后退
-function handleCloseButton() {
-  if (window.location.hash && window.location.hash !== '#') {
-    history.back();
-  } else {
-    // 异常兜底
-    closeAllModalsForce();
-  }
-}
-
-// 强制清理所有窗口
-function forceCloseAll() {
-  closeAllModalsForce();
-}
-
-function closeAllModalsForce() {
-  // 1. 关闭所有动态创建的窗口 (详情、开发者、分类、历史)
-  document.querySelectorAll('.modal-overlay[data-dynamic="true"]').forEach(m => {
-    m.classList.remove('active');
-    setTimeout(() => m.remove(), 300);
-  });
-
-  // 2. 关闭静态窗口 (只剩菜单和欢迎页)
-  if (elements.menuModal) elements.menuModal.classList.remove('active');
-  if (elements.welcomeModal) elements.welcomeModal.classList.remove('active');
-
-  document.body.style.overflow = '';
-}
-
 function bindEvents() {
-  // 搜索
-  elements.searchBtn.onclick = performSearch;
-
-  elements.searchInput.onkeyup = (e) => {
-    if (e.key === 'Enter') {
-      elements.searchSuggestions.classList.remove('active');
-      performSearch();
-    }
-  };
-  elements.searchInput.addEventListener('input', (e) => {
-    const val = e.target.value;
-    if (val.trim().length > 0) {
-      if (elements.clearSearchBtn) elements.clearSearchBtn.style.display = 'block';
-    } else {
-      if (elements.clearSearchBtn) elements.clearSearchBtn.style.display = 'none';
-      renderRandomHome();
-    }
-    showSuggestions(val.trim());
-  });
-  elements.searchInput.addEventListener('focus', (e) => {
-    if (e.target.value.trim() !== '') showSuggestions(e.target.value.trim());
-  });
+  if (elements.searchBtn) elements.searchBtn.onclick = performSearch;
+  if (elements.searchInput) {
+    elements.searchInput.onkeyup = (e) => { if (e.key === 'Enter') { elements.searchSuggestions.classList.remove('active'); performSearch(); } };
+    elements.searchInput.addEventListener('input', (e) => {
+      const val = e.target.value;
+      if (val.trim().length > 0) elements.clearSearchBtn.style.display = 'block';
+      else { elements.clearSearchBtn.style.display = 'none'; renderRandomHome(); }
+      showSuggestions(val.trim());
+    });
+  }
   if (elements.clearSearchBtn) {
     elements.clearSearchBtn.onclick = (e) => {
-      e.preventDefault();
-      elements.searchInput.value = '';
-      elements.clearSearchBtn.style.display = 'none';
-      elements.searchSuggestions.classList.remove('active');
-      elements.searchInput.focus();
-      renderRandomHome();
-      window.location.hash = '';
+      e.preventDefault(); elements.searchInput.value = ''; elements.clearSearchBtn.style.display = 'none';
+      elements.searchSuggestions.classList.remove('active'); renderRandomHome(); window.location.hash = '';
     };
   }
-  document.addEventListener('click', (e) => {
-    if (!e.target.closest('.search-container')) {
-      elements.searchSuggestions.classList.remove('active');
-    }
-  });
-
-  // 菜单
-  elements.menuBtn.onclick = () => {
-    updateVersionTextInMenu();
-    window.location.hash = 'menu';
-  };
-
-  // 关闭按钮
-  elements.closeMenuModal.onclick = handleCloseButton;
-
-  // 主题/版本
-  elements.menuThemeToggle.onclick = toggleTheme;
-  elements.menuVersionTrigger.onclick = () => {
-    let maxZ = 1300;
-    document.querySelectorAll('.modal-overlay').forEach(el => {
-      const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
-      if (z > maxZ) maxZ = z;
-    });
-    elements.welcomeModal.style.zIndex = maxZ + 10;
-    elements.welcomeModal.classList.add('active');
-    document.body.style.overflow = 'hidden';
-  };
-
-  // 列表入口
-  elements.newArrivalsBtn.onclick = () => { window.location.hash = 'list=new'; };
-  elements.recentUpdatesBtn.onclick = () => { window.location.hash = 'list=recent'; };
-
-  // 服务按钮
-  if (elements.serviceBtn) {
-    const serviceUrl = "https://wj.qq.com/s2/25513095/8cde/";
-    elements.serviceBtn.onclick = () => {
-      const link = document.createElement('a');
-      link.href = serviceUrl;
-      link.target = '_blank';
-      link.rel = 'noreferrer noopener';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    };
-  }
-
-  // 监听 UI 层事件
-  window.addEventListener('open-dev-modal', (e) => {
-    const name = e.detail.name;
-    const type = e.detail.type;
-    window.location.hash = `dev=${encodeURIComponent(name)}${type === 'mod' ? '&type=mod' : ''}`;
-  });
-
-  // 路由监听
+  if (elements.menuBtn) elements.menuBtn.onclick = () => { window.location.hash = 'menu'; };
+  document.addEventListener('click', (e) => { if (!e.target.closest('.search-container')) elements.searchSuggestions.classList.remove('active'); });
   window.addEventListener('hashchange', checkHashLink);
 }
 
-// 路由检查
 function checkHashLink() {
-  const hash = window.location.hash;
-  const decodedHash = decodeURIComponent(hash);
-
-  const activeModals = Array.from(document.querySelectorAll('.modal-overlay.active'))
+  const hash = window.location.hash, decodedHash = decodeURIComponent(hash);
+  const activeModals = Array.from(document.querySelectorAll('.modal-overlay[data-dynamic="true"]'))
     .sort((a, b) => (parseInt(window.getComputedStyle(a).zIndex) || 0) - (parseInt(window.getComputedStyle(b).zIndex) || 0));
-  const topModal = activeModals.length > 0 ? activeModals[activeModals.length - 1] : null;
 
-  // 1. 主页
   if (!hash || hash === '#') {
     closeAllModalsForce();
-    renderRandomHome();
-    setPageTitle("WearStore - 发现心动的手表软件");
+    if (elements.searchInput.value.trim() !== "") performSearch(); else renderRandomHome();
     return;
   }
 
-  // 2. 菜单
+  const existingModal = activeModals.find(m => {
+    if (hash === '#menu') return m.getAttribute('data-type') === 'menu';
+    if (hash.startsWith('#app=')) {
+      const parts = hash.substring(5).split('+');
+      return m.getAttribute('data-package') === parts[0] && m.getAttribute('data-version') === decodeURIComponent(parts[1] || 'unknown') && m.getAttribute('data-code') === (parts[2] || '0') && m.getAttribute('data-type') !== 'history';
+    }
+    if (decodedHash.startsWith('#category=')) return m.getAttribute('data-type') === 'category' && m.getAttribute('data-name') === getCategoryByHash(hash.split('=')[1]);
+    if (decodedHash.startsWith('#dev=')) return m.getAttribute('data-type') === 'dev' && m.getAttribute('data-dev-name') === decodedHash.substring(5).split('&type=')[0];
+    if (hash.startsWith('#history=')) return m.getAttribute('data-type') === 'history' && m.getAttribute('data-package') === hash.split('=')[1].split('+')[0];
+    return false;
+  });
+
+  if (existingModal) {
+    const idx = activeModals.indexOf(existingModal);
+    for (let i = activeModals.length - 1; i > idx; i--) { activeModals[i].classList.remove('active'); setTimeout(() => activeModals[i].remove(), 300); }
+    existingModal.classList.add('active'); document.body.style.overflow = 'hidden'; return;
+  }
+
   if (hash === '#menu') {
-    if (topModal && topModal.id === 'menuModalOverlay') return;
-
-    // 关闭遮挡菜单的动态窗口
-    if (topModal && topModal.getAttribute('data-dynamic') === 'true') {
-      topModal.classList.remove('active');
-      setTimeout(() => topModal.remove(), 300);
-    }
-
-    updateVersionTextInMenu();
-    let maxZ = 1300;
-    document.querySelectorAll('.modal-overlay').forEach(el => {
-      const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
-      if (z > maxZ) maxZ = z;
-    });
-
-    elements.menuModal.classList.add('active');
-    elements.menuModal.style.zIndex = maxZ + 1;
-    document.body.style.overflow = 'hidden';
+    renderMenuModal(Array.from(new Set(allApps.map(app => app.category || "其他"))).sort());
     setPageTitle("WearStore - 菜单");
-    return;
-  }
-
-  // 3. 应用详情
-  if (hash.startsWith('#app=')) {
-    const rawValue = hash.substring(5);
-    const parts = rawValue.split('+');
-    const pkgName = parts[0];
-    const verStr = parts.length > 1 ? decodeURIComponent(parts[1]) : '';
-    const codeStr = parts.length > 2 ? parts[2] : '';
-
-    // 顶层匹配检查
-    if (topModal && topModal.getAttribute('data-package') === pkgName) {
-      const currentCode = topModal.getAttribute('data-code');
-      const currentVer = topModal.getAttribute('data-version');
-      if (codeStr && currentCode === codeStr && verStr && currentVer === verStr) return;
-      if (!codeStr && !verStr) return;
-    }
-
-    // 回退检查
-    if (activeModals.length > 1) {
-      const prevModal = activeModals[activeModals.length - 2];
-      const prevPkg = prevModal.getAttribute('data-package');
-      const prevCode = prevModal.getAttribute('data-code');
-      const prevVer = prevModal.getAttribute('data-version');
-
-      if (prevPkg === pkgName) {
-        if (codeStr && prevCode === codeStr && prevVer === verStr) {
-          topModal.classList.remove('active');
-          setTimeout(() => topModal.remove(), 300);
-          return;
-        }
-        if (!codeStr) {
-          topModal.classList.remove('active');
-          setTimeout(() => topModal.remove(), 300);
-          return;
-        }
-      }
-    }
-
-    const target = findAppByPrecision(allApps, pkgName, verStr, codeStr);
-    if (target) {
-      renderAppModal(target);
-      setPageTitle(`WearStore上的 ${target.name}`);
-    }
-    return;
-  }
-
-  // 4. 列表 (#list=)
-  if (decodedHash.startsWith('#list=')) {
-    const type = hash.split('=')[1];
-    // 检查防重：如果顶层已经是这个分类列表
-    const title = type === 'new' ? "最新上架" : "最近更新";
-    if (topModal && topModal.getAttribute('data-type') === 'category' && topModal.getAttribute('data-name') === title) return;
-
-    if (type === 'new') {
-      openNewArrivals();
-      setPageTitle("最新上架");
-    }
-    if (type === 'recent') {
-      openRecentUpdates();
-      setPageTitle("最近更新");
-    }
-    return;
-  }
-
-  // 5. 分类 (#category=)
-  if (decodedHash.startsWith('#category=')) {
-    const key = hash.split('=')[1];
-    const catName = getCategoryByHash(key);
-
-    if (topModal && topModal.getAttribute('data-type') === 'category' && topModal.getAttribute('data-name') === catName) return;
-
+  } else if (hash.startsWith('#app=')) {
+    const parts = hash.substring(5).split('+');
+    const target = findAppByPrecision(allApps, parts[0], parts[1], parts[2]);
+    if (target) { renderAppModal(target); setPageTitle(`WearStore - ${target.name}`); }
+  } else if (decodedHash.startsWith('#category=')) {
+    const catName = getCategoryByHash(hash.split('=')[1]);
     if (catName) {
       const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
-      const filtered = allApps.filter(a => {
-        const appCat = a.category && a.category.trim() !== "" ? a.category : "其他";
-        return appCat === catName && isAppCompatible(a, userApi);
-      });
-      renderCategoryModal(catName, filtered);
-      setPageTitle(`${catName}`);
+      renderCategoryModal(catName, allApps.filter(a => (a.category || "其他") === catName && isAppGloballyCompatible(a, userApi)));
+      setPageTitle(catName);
     }
-    return;
+  } else if (decodedHash.startsWith('#dev=')) {
+    const name = decodedHash.substring(5).split('&type=')[0], type = decodedHash.includes('&type=mod') ? 'mod' : 'original';
+    renderDevModal(name, type === 'mod' ? allApps.filter(a => a.modAuthor === name || a.developer === name) : allApps.filter(a => a.developer === name && !a.modAuthor));
+    setPageTitle(`${name} 的作品`);
+  } else if (hash.startsWith('#history=')) {
+    const parts = hash.split('=')[1].split('+');
+    let app = allApps.find(a => String(a.id) === parts[1]) || allApps.find(a => a.package === parts[0]);
+    if (app) { openHistoryModal(app); setPageTitle(`${app.name} - 历史版本`); }
+  } else if (decodedHash.startsWith('#list=')) {
+    const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
+    const type = hash.split('=')[1];
+    let sorted = allApps.filter(a => isAppGloballyCompatible(a, userApi));
+    if (type === 'new') sorted.sort((a, b) => (b.addedTime || 0) - (a.addedTime || 0));
+    else sorted.sort((a, b) => new Date(b.updateTime || 0) - new Date(a.updateTime || 0));
+    renderCategoryModal(type === 'new' ? "最新上架" : "最近更新", sorted.slice(0, 15));
   }
-
-  // 6. 开发者 (#dev=)
-  if (decodedHash.startsWith('#dev=')) {
-    const paramsStr = decodedHash.substring(5);
-    const parts = paramsStr.split('&type=');
-    const name = parts[0];
-    const type = parts[1] || 'original';
-
-    // 检查防重 (data-name)
-    if (topModal && topModal.getAttribute('data-type') === 'dev' && topModal.getAttribute('data-dev-name') === name) {
-      return;
-    }
-
-    let filteredApps = [];
-    if (type === 'mod') {
-      filteredApps = allApps.filter(a => a.modAuthor === name || a.developer === name);
-    } else {
-      filteredApps = allApps.filter(a => a.developer === name && !a.modAuthor);
-    }
-
-    renderDevModal(name, filteredApps);
-    setPageTitle(`${name} 的所有应用`);
-    return;
-  }
-
-  // 7. 历史版本 (#history=)
-  if (hash.startsWith('#history=')) {
-    const rawValue = hash.substring(9);
-    // 分离 包名 和 ID (如果有的话)
-    const parts = rawValue.split('+');
-    const pkgName = parts[0];
-    const appId = parts.length > 1 ? parts[1] : null;
-
-    // 检查防重：如果顶层已经是该应用的历史窗口，则不重复打开
-    if (topModal &&
-      topModal.getAttribute('data-type') === 'history' &&
-      topModal.getAttribute('data-package') === pkgName) {
-      return;
-    }
-
-    // 查找应用：优先通过 ID 找，找不到再通过包名找
-    let app = null;
-    if (appId) {
-      app = allApps.find(a => String(a.id) === appId);
-    }
-    if (!app) {
-      app = allApps.find(a => a.package === pkgName);
-    }
-
-    if (app) {
-      // 只有找到了应用，才执行打开窗口函数
-      openHistoryModal(app);
-      setPageTitle(`${app.name} 的历史版本`);
-    } else {
-      console.error("未找到对应的应用数据，无法打开历史版本");
-    }
-    return;
-  }
-}
-
-function openNewArrivals() {
-  const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
-  let sorted = [...allApps].filter(a => isAppCompatible(a, userApi));
-  sorted.sort((a, b) => (b.addedTime || 0) - (a.addedTime || 0));
-  renderCategoryModal("最新上架", sorted.slice(0, 15));
-}
-
-function openRecentUpdates() {
-  const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
-  let sorted = [...allApps].filter(a => isAppCompatible(a, userApi));
-  sorted.sort((a, b) => {
-    const dateA = new Date(a.updateTime || 0);
-    const dateB = new Date(b.updateTime || 0);
-    return dateB - dateA;
-  });
-  renderCategoryModal("最近更新", sorted.slice(0, 15));
-}
-
-function showSuggestions(term) {
-  if (!term) {
-    elements.searchSuggestions.innerHTML = '';
-    elements.searchSuggestions.classList.remove('active');
-    return;
-  }
-
-  const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
-  const query = term.toLowerCase();
-
-  // 1. 执行 Fuse 搜索
-  const fuseResults = fuse.search(term);
-
-  // 2. 同样的过滤逻辑：剔除无关项
-  const filtered = fuseResults.filter(r => {
-    const name = (r.item.name || "").toLowerCase();
-
-    // 安全处理关键词
-    let keywordsStr = "";
-    const rawKeywords = r.item.keywords;
-    if (typeof rawKeywords === 'string') keywordsStr = rawKeywords.toLowerCase();
-    else if (Array.isArray(rawKeywords)) keywordsStr = rawKeywords.join(' ').toLowerCase();
-
-    // 只有名字包含、关键词包含或分数极高的才显示
-    return name.includes(query) || keywordsStr.includes(query) || r.score < 0.1;
-  });
-
-  // 3. 同样的排序逻辑：名字包含 > 其他
-  filtered.sort((a, b) => {
-    const aNameIn = (a.item.name || "").toLowerCase().includes(query);
-    const bNameIn = (b.item.name || "").toLowerCase().includes(query);
-
-    if (aNameIn && !bNameIn) return -1;
-    if (!aNameIn && bNameIn) return 1;
-
-    return a.score - b.score;
-  });
-
-  // 4. 映射数据并过滤兼容性，取前 5 条
-  const matches = filtered
-    .map(r => r.item)
-    .filter(a => isAppCompatible(a, userApi))
-    .slice(0, 5);
-
-  if (matches.length === 0) {
-    elements.searchSuggestions.classList.remove('active');
-    return;
-  }
-
-  // 5. 渲染联想列表
-  elements.searchSuggestions.innerHTML = matches.map(app => `
-        <div class="suggestion-item" data-package="${app.package}" data-id="${app.id}">
-            <img src="${escapeHtml(app.icon)}" class="suggestion-icon" onerror="handleImgError(this)">
-            <div class="suggestion-info">
-                <span class="suggestion-name">${escapeHtml(app.name)}</span>
-                <span class="suggestion-dev">${escapeHtml(app.developer || '未知开发者')}</span>
-            </div>
-        </div>
-    `).join('');
-  elements.searchSuggestions.classList.add('active');
-
-  // 6. 绑定点击事件
-  Array.from(elements.searchSuggestions.children).forEach(el => {
-    el.onclick = () => {
-      const pkg = el.getAttribute('data-package');
-      const id = el.getAttribute('data-id');
-      const app = allApps.find(a => a.id == id);
-      if (app) {
-        const code = app.code ? app.code : '0';
-        const ver = app.version ? encodeURIComponent(app.version) : 'unknown';
-        window.location.hash = `app=${pkg}+${ver}+${code}`;
-        elements.searchSuggestions.classList.remove('active');
-        elements.searchInput.value = app.name;
-        if (elements.clearSearchBtn) elements.clearSearchBtn.style.display = 'block';
-      }
-    };
-  });
 }
 
 function performSearch(term) {
   if (!term || typeof term !== 'string') term = elements.searchInput.value.trim();
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
-
-  if (!term) {
-    renderRandomHome();
-    return;
-  }
-
+  if (!term) { renderRandomHome(); return; }
   let fuseResults = fuse.search(term);
-
-  const allFoundResults = fuseResults.filter(r => {
+  const candidates = fuseResults.filter(r => r.score < 0.5 || r.item.name.toLowerCase().includes(term.toLowerCase()));
+  if (candidates.length === 0) { renderCardList([], elements.container); return; }
+  candidates.sort((a, b) => {
     const query = term.toLowerCase();
-    const name = (r.item.name || "").toLowerCase();
-
-    let kwStr = "";
-    if (typeof r.item.keywords === 'string') kwStr = r.item.keywords.toLowerCase();
-    else if (Array.isArray(r.item.keywords)) kwStr = r.item.keywords.join(' ').toLowerCase();
-
-    return name.includes(query) || kwStr.includes(query) || r.score < 0.4;
-  });
-
-  if (allFoundResults.length === 0) {
-    renderCardList([], elements.container);
-    return;
-  }
-
-  // 3. 排序：精准包含 > 模糊匹配
-  allFoundResults.sort((a, b) => {
-    const query = term.toLowerCase();
-    const aIn = (a.item.name || "").toLowerCase().includes(query);
-    const bIn = (b.item.name || "").toLowerCase().includes(query);
-
-    if (aIn && !bIn) return -1;
-    if (!aIn && bIn) return 1;
+    const aMatch = a.item.name.toLowerCase().includes(query), bMatch = b.item.name.toLowerCase().includes(query);
+    if (aMatch && !bMatch) return -1; if (!aMatch && bMatch) return 1;
+    if (aMatch && bMatch) return (query.length / b.item.name.length) - (query.length / a.item.name.length);
     return a.score - b.score;
   });
-
-  // 4. 将搜索到的结果（包含不兼容的）映射为应用对象数组
-  const allAppsFound = allFoundResults.map(r => r.item);
-
-  // 5. 分离兼容和不兼容的应用
-  const compatible = allAppsFound.filter(app => isAppCompatible(app, userApi));
-
-  if (compatible.length > 0) {
-    renderCardList(compatible, elements.container);
-  } else {
-    const topApp = allAppsFound[0];
-    const nameStr = (topApp.name || "").toLowerCase();
-    const termStr = term.toLowerCase();
-
-    const isIncluded = nameStr.includes(termStr);
-    const matchRatio = termStr.length / nameStr.length;
-
-    if (isIncluded && matchRatio >= 0.5) {
-      renderIncompatibleCard(topApp, elements.container);
-    } else {
-      renderCardList([], elements.container);
-    }
-  }
+  const sorted = candidates.map(r => r.item), topApp = sorted[0], ratio = calculateMatchRatio(term, topApp.name);
+  if (!isAppGloballyCompatible(topApp, userApi) && ratio >= 0.6) { renderIncompatibleCard(topApp, elements.container); return; }
+  renderCardList(sorted.filter(app => isAppGloballyCompatible(app, userApi)), elements.container);
 }
 
-function populateMenuCategories() {
-  const categoryConfig = {
-    "系统工具": { icon: "build", color: "color-slate" },
-    "效率办公": { icon: "work", color: "color-blue" },
-    "健康运动": { icon: "fitness_center", color: "color-red" },
-    "通讯社交": { icon: "forum", color: "color-green" },
-    "影音娱乐": { icon: "movie", color: "color-purple" },
-    "学习充电": { icon: "school", color: "color-orange" },
-    "生活服务": { icon: "storefront", color: "color-cyan" },
-    "休闲游戏": { icon: "sports_esports", color: "color-pink" },
-    "表盘美化": { icon: "watch", color: "color-indigo" }
-  };
-  const defaultConfig = { icon: "folder", color: "color-normal" };
-
-  const categories = new Set();
-  allApps.forEach(app => {
-    const cat = app.category && app.category.trim() !== "" ? app.category : "其他";
-    categories.add(cat);
+function showSuggestions(term) {
+  if (!term) { elements.searchSuggestions.innerHTML = ''; elements.searchSuggestions.classList.remove('active'); return; }
+  const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0, query = term.toLowerCase();
+  const filtered = fuse.search(term).filter(r => {
+    const name = (r.item.name || "").toLowerCase();
+    let kw = typeof r.item.keywords === 'string' ? r.item.keywords.toLowerCase() : (Array.isArray(r.item.keywords) ? r.item.keywords.join(' ').toLowerCase() : "");
+    return name.includes(query) || kw.includes(query) || r.score < 0.1;
+  }).sort((a, b) => {
+    const aIn = (a.item.name || "").toLowerCase().includes(query), bIn = (b.item.name || "").toLowerCase().includes(query);
+    if (aIn && !bIn) return -1; if (!aIn && bIn) return 1; return a.score - b.score;
   });
-
-  elements.menuCategoryGrid.innerHTML = '';
-
-  const sortedCategories = Array.from(categories).sort((a, b) => {
-    if (a === "其他") return 1;
-    if (b === "其他") return -1;
-    return a.localeCompare(b, 'zh');
-  });
-
-  sortedCategories.forEach(cat => {
-    const btn = document.createElement('div');
-    btn.className = 'category-btn-new';
-    const config = categoryConfig[cat] || defaultConfig;
-    btn.innerHTML = `<span class="material-symbols-rounded category-icon-img ${config.color}">${config.icon}</span><span class="category-text">${escapeHtml(cat)}</span>`;
-    btn.onclick = () => {
-      const hashKey = categoryHash[cat] || 'other';
-      window.location.hash = `category=${hashKey}`;
-    };
-    elements.menuCategoryGrid.appendChild(btn);
-  });
+  const matches = filtered.map(r => r.item).filter(a => isAppGloballyCompatible(a, userApi)).slice(0, 5);
+  if (matches.length === 0) { elements.searchSuggestions.classList.remove('active'); return; }
+  elements.searchSuggestions.innerHTML = matches.map(app => `
+    <div class="suggestion-item" onclick="window.location.hash='app=${app.package}+${encodeURIComponent(app.version || 'unknown')}+${app.code || 0}'">
+        <img src="${escapeHtml(app.icon)}" class="suggestion-icon" onerror="handleImgError(this)">
+        <div class="suggestion-info"><span class="suggestion-name">${escapeHtml(app.name)}</span><span class="suggestion-dev">${escapeHtml(app.developer || '未知开发者')}</span></div>
+    </div>`).join('');
+  elements.searchSuggestions.classList.add('active');
 }
 
 function renderRandomHome() {
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
-  const MUST_SHOW_ID = 1287852515; // 你指定的应用 ID
+  const MUST_SHOW_ID = 1287852515; // 始终展示的应用 ID
 
   if (!homeAppsCache) {
-    // 1. 获取所有当前版本兼容的应用
-    let allVisible = allApps.filter(a => isAppCompatible(a, userApi));
+    // 1. 过滤掉该 API 系统下完全无法运行的应用
+    let allVisible = allApps.filter(a => isAppGloballyCompatible(a, userApi));
 
-    // 2. 尝试从兼容列表中找到这个指定应用
-    const targetIdx = allVisible.findIndex(a => a.id == MUST_SHOW_ID);
+    // 2. 尝试从列表中找出这个“必须展示”的应用
+    const targetIdx = allVisible.findIndex(a => String(a.id) === String(MUST_SHOW_ID));
     let targetApp = null;
     let otherApps = [...allVisible];
 
     if (targetIdx !== -1) {
-      // 如果找到了（且兼容），将其从数组中取出，不参与随机打乱
+      // 如果找到了，先把它从“随机池”里抽出来，防止它重复出现
       targetApp = otherApps.splice(targetIdx, 1)[0];
     }
 
-    // 3. 对剩下的应用进行随机洗牌
+    // 3. 将剩下的应用打乱顺序
     otherApps.sort(() => 0.5 - Math.random());
 
-    // 4. 截取前 29 个（为指定应用腾出一个位置）
+    // 4. 截取前 29 个位置
     let result = otherApps.slice(0, 29);
 
-    // 5. 将指定应用插入到第 3 个位置 (数组索引为 2)
+    // 5. 将特定应用插入到第 3 个位置（即数组索引 2）
     if (targetApp) {
-      // 如果结果数组长度至少有 2 个，插在索引 2；否则插在末尾
+      // 如果列表长度不足 2，就插在最后；否则插在索引 2
       const insertPos = Math.min(2, result.length);
       result.splice(insertPos, 0, targetApp);
     }
@@ -602,95 +194,51 @@ function renderRandomHome() {
     homeAppsCache = result;
   }
 
+  // 执行渲染
   renderCardList(homeAppsCache, elements.container);
 }
 
-function updateVersionTextInMenu() {
-  const api = localStorage.getItem('userApiLevel');
-  if (api && apiMap[api]) elements.menuVersionText.textContent = `Android ${apiMap[api]}`;
-  else elements.menuVersionText.textContent = '点击选择';
+function closeAllModalsForce() {
+  document.querySelectorAll('.modal-overlay[data-dynamic="true"]').forEach(m => { m.classList.remove('active'); setTimeout(() => m.remove(), 300); });
+  if (elements.welcomeModal) elements.welcomeModal.classList.remove('active');
+  document.body.style.overflow = '';
 }
 
 function initTheme() {
-  const stored = localStorage.getItem('theme');
-  const systemQuery = window.matchMedia('(prefers-color-scheme: dark)');
-
-  const apply = (theme) => {
-    document.documentElement.setAttribute('data-theme', theme);
-    updateThemeIcon(theme);
-  };
-
-  if (stored) {
-    apply(stored);
-  } else {
-    apply(systemQuery.matches ? 'dark' : 'light');
-  }
-
-  try {
-    systemQuery.addEventListener('change', (e) => {
-      if (!localStorage.getItem('theme')) {
-        apply(e.matches ? 'dark' : 'light');
-      }
-    });
-  } catch (e) {
-    systemQuery.addListener((e) => {
-      if (!localStorage.getItem('theme')) {
-        apply(e.matches ? 'dark' : 'light');
-      }
-    });
-  }
-}
-
-function toggleTheme() {
-  const current = document.documentElement.getAttribute('data-theme');
-  const next = current === 'dark' ? 'light' : 'dark';
-  document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('theme', next);
-  updateThemeIcon(next);
-}
-
-function updateThemeIcon(theme) {
-  const icon = document.querySelector('.theme-icon');
-  if (icon) {
-    icon.textContent = theme === 'dark' ? 'brightness_5' : 'dark_mode';
-    icon.style.color = theme === 'dark' ? 'var(--icon-sun)' : 'var(--icon-normal)';
-  }
+  const saved = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', saved);
 }
 
 function checkUserVersion() {
   const savedApi = localStorage.getItem('userApiLevel');
   elements.versionGrid.innerHTML = '';
-
   for (let i = 14; i <= 36; i++) {
     const btn = document.createElement('div');
     btn.className = `version-btn ${savedApi == i ? 'selected' : ''}`;
     btn.innerHTML = `Android ${apiMap[i] || '?'}<span class="api-tag">API ${i}</span>`;
     btn.onclick = () => {
+      // 1. 存储并重置缓存
       localStorage.setItem('userApiLevel', i);
-      elements.welcomeModal.classList.remove('active');
-
       homeAppsCache = null;
-      renderRandomHome();
 
-      if (elements.searchInput.value) performSearch();
+      // 2. 更新选中样式 (立即反馈)
       Array.from(elements.versionGrid.children).forEach(b => b.classList.remove('selected'));
       btn.classList.add('selected');
-      updateVersionTextInMenu();
 
+      // 3. 更新界面文字 (包括菜单里的安卓版本文字)
+      const menuVerText = document.querySelector('#menuVer .menu-action-sub');
+      if (menuVerText) menuVerText.textContent = `Android ${apiMap[i]}`;
+
+      // 4. 关闭欢迎页并刷新内容
       setTimeout(() => {
-        const activeModals = document.querySelectorAll('.modal-overlay.active');
-        if (activeModals.length === 0) document.body.style.overflow = '';
-      }, 300);
+        elements.welcomeModal.classList.remove('active');
+        if (elements.searchInput.value) performSearch(); else renderRandomHome();
+        document.body.style.overflow = '';
+      }, 200);
     };
     elements.versionGrid.appendChild(btn);
   }
-  if (!savedApi) {
-    elements.welcomeModal.classList.add('active');
-    document.body.style.overflow = 'hidden';
-  }
-  updateVersionTextInMenu();
+  if (!savedApi) { elements.welcomeModal.classList.add('active'); document.body.style.overflow = 'hidden'; }
 }
-
-function openDevWindow(detail) { }
 
 init();
