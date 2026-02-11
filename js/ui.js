@@ -223,7 +223,7 @@ export function renderAppModal(app) {
                     <div class="detail-item"><span class="detail-label">大小</span><span class="detail-value">${escapeHtml(data.size || '未知')}</span></div>
                     <div class="detail-item"><span class="detail-label">最低兼容</span><span class="detail-value">Android ${apiMap[data.minSdk] || data.minSdk}+</span></div>
                     <div class="detail-item"><span class="detail-label">分类</span><span class="detail-value">${escapeHtml(app.category || '应用')}</span></div>
-                    <div class="detail-item" style="grid-column: 1 / -1;"><span class="detail-label">包名</span><span class="detail-value" style="font-size:0.8rem; word-break:break-all;">${app.package}</span></div>
+                    <div class="detail-item" style="grid-column: 1 / -1;"><span class="detail-label">包名</span><span class="detail-value" style="font-size:0.85rem; word-break:break-all;">${app.package}</span></div>
                 </div>
 
                 <div class="section-title">应用截图</div>

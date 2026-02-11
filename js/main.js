@@ -60,63 +60,119 @@ function bindEvents() {
 }
 
 function checkHashLink() {
-  const hash = window.location.hash, decodedHash = decodeURIComponent(hash);
+  const hash = window.location.hash;
+  const decodedHash = decodeURIComponent(hash);
+
   const activeModals = Array.from(document.querySelectorAll('.modal-overlay[data-dynamic="true"]'))
     .sort((a, b) => (parseInt(window.getComputedStyle(a).zIndex) || 0) - (parseInt(window.getComputedStyle(b).zIndex) || 0));
 
   if (!hash || hash === '#') {
     closeAllModalsForce();
-    if (elements.searchInput.value.trim() !== "") performSearch(); else renderRandomHome();
+    const searchTerm = elements.searchInput.value.trim();
+    if (searchTerm !== "") {
+      performSearch(searchTerm);
+      setPageTitle(`搜索: ${searchTerm}`);
+    } else {
+      renderRandomHome();
+      setPageTitle("WearStore - 发现心动的手表软件");
+    }
     return;
   }
 
+  // 🔥 核心修复：智能堆栈逻辑（增加对 #list= 的支持）
   const existingModal = activeModals.find(m => {
     if (hash === '#menu') return m.getAttribute('data-type') === 'menu';
+
+    // 处理分类页
+    if (decodedHash.startsWith('#category=')) {
+      const catName = getCategoryByHash(hash.split('=')[1]);
+      return m.getAttribute('data-type') === 'category' && m.getAttribute('data-name') === catName;
+    }
+
+    // 🔥 处理“最新上架/最近更新”列表页
+    if (decodedHash.startsWith('#list=')) {
+      const type = hash.split('=')[1];
+      const listTitle = (type === 'new') ? "最新上架" : "最近更新";
+      return m.getAttribute('data-type') === 'category' && m.getAttribute('data-name') === listTitle;
+    }
+
+    // 处理应用详情
     if (hash.startsWith('#app=')) {
       const parts = hash.substring(5).split('+');
-      return m.getAttribute('data-package') === parts[0] && m.getAttribute('data-version') === decodeURIComponent(parts[1] || 'unknown') && m.getAttribute('data-code') === (parts[2] || '0') && m.getAttribute('data-type') !== 'history';
+      return m.getAttribute('data-package') === parts[0] &&
+        m.getAttribute('data-version') === decodeURIComponent(parts[1] || 'unknown') &&
+        m.getAttribute('data-code') === (parts[2] || '0') &&
+        m.getAttribute('data-type') !== 'history';
     }
-    if (decodedHash.startsWith('#category=')) return m.getAttribute('data-type') === 'category' && m.getAttribute('data-name') === getCategoryByHash(hash.split('=')[1]);
-    if (decodedHash.startsWith('#dev=')) return m.getAttribute('data-type') === 'dev' && m.getAttribute('data-dev-name') === decodedHash.substring(5).split('&type=')[0];
-    if (hash.startsWith('#history=')) return m.getAttribute('data-type') === 'history' && m.getAttribute('data-package') === hash.split('=')[1].split('+')[0];
+
+    // 处理开发者和历史记录
+    if (decodedHash.startsWith('#dev=')) {
+      const devName = decodedHash.substring(5).split('&type=')[0];
+      return m.getAttribute('data-type') === 'dev' && m.getAttribute('data-dev-name') === devName;
+    }
+    if (hash.startsWith('#history=')) {
+      return m.getAttribute('data-type') === 'history' && m.getAttribute('data-package') === hash.split('=')[1].split('+')[0];
+    }
     return false;
   });
 
   if (existingModal) {
     const idx = activeModals.indexOf(existingModal);
-    for (let i = activeModals.length - 1; i > idx; i--) { activeModals[i].classList.remove('active'); setTimeout(() => activeModals[i].remove(), 300); }
-    existingModal.classList.add('active'); document.body.style.overflow = 'hidden'; return;
+    for (let i = activeModals.length - 1; i > idx; i--) {
+      const el = activeModals[i];
+      el.classList.remove('active');
+      setTimeout(() => el.remove(), 300);
+    }
+    existingModal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    return; // 找到了就不再重新渲染，保留滚动位置
   }
 
+  // --- 以下为渲染新页面的逻辑 ---
   if (hash === '#menu') {
-    renderMenuModal(Array.from(new Set(allApps.map(app => app.category || "其他"))).sort());
+    const categories = Array.from(new Set(allApps.map(app => app.category || "其他"))).sort();
+    renderMenuModal(categories);
     setPageTitle("WearStore - 菜单");
-  } else if (hash.startsWith('#app=')) {
+  }
+  else if (hash.startsWith('#app=')) {
     const parts = hash.substring(5).split('+');
     const target = findAppByPrecision(allApps, parts[0], parts[1], parts[2]);
-    if (target) { renderAppModal(target); setPageTitle(`WearStore - ${target.name}`); }
-  } else if (decodedHash.startsWith('#category=')) {
-    const catName = getCategoryByHash(hash.split('=')[1]);
-    if (catName) {
-      const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
-      renderCategoryModal(catName, allApps.filter(a => (a.category || "其他") === catName && isAppGloballyCompatible(a, userApi)));
-      setPageTitle(catName);
+    if (target) {
+      renderAppModal(target);
+      setPageTitle(`WearStore - ${target.name}`);
     }
-  } else if (decodedHash.startsWith('#dev=')) {
-    const name = decodedHash.substring(5).split('&type=')[0], type = decodedHash.includes('&type=mod') ? 'mod' : 'original';
-    renderDevModal(name, type === 'mod' ? allApps.filter(a => a.modAuthor === name || a.developer === name) : allApps.filter(a => a.developer === name && !a.modAuthor));
-    setPageTitle(`${name} 的作品`);
-  } else if (hash.startsWith('#history=')) {
-    const parts = hash.split('=')[1].split('+');
-    let app = allApps.find(a => String(a.id) === parts[1]) || allApps.find(a => a.package === parts[0]);
-    if (app) { openHistoryModal(app); setPageTitle(`${app.name} - 历史版本`); }
-  } else if (decodedHash.startsWith('#list=')) {
+  }
+  // 列表页 (最新/更新)
+  else if (decodedHash.startsWith('#list=')) {
     const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
     const type = hash.split('=')[1];
     let sorted = allApps.filter(a => isAppGloballyCompatible(a, userApi));
-    if (type === 'new') sorted.sort((a, b) => (b.addedTime || 0) - (a.addedTime || 0));
-    else sorted.sort((a, b) => new Date(b.updateTime || 0) - new Date(a.updateTime || 0));
-    renderCategoryModal(type === 'new' ? "最新上架" : "最近更新", sorted.slice(0, 15));
+    if (type === 'new') {
+      sorted.sort((a, b) => (b.addedTime || 0) - (a.addedTime || 0));
+      renderCategoryModal("最新上架", sorted.slice(0, 30));
+    } else {
+      sorted.sort((a, b) => new Date(b.updateTime || 0) - new Date(a.updateTime || 0));
+      renderCategoryModal("最近更新", sorted.slice(0, 30));
+    }
+  }
+  else if (decodedHash.startsWith('#category=')) {
+    const catName = getCategoryByHash(hash.split('=')[1]);
+    if (catName) {
+      const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
+      const filtered = allApps.filter(a => (a.category || "其他") === catName && isAppGloballyCompatible(a, userApi));
+      renderCategoryModal(catName, filtered);
+      setPageTitle(catName);
+    }
+  }
+  else if (decodedHash.startsWith('#dev=')) {
+    const name = decodedHash.substring(5).split('&type=')[0];
+    const type = decodedHash.includes('&type=mod') ? 'mod' : 'original';
+    renderDevModal(name, type === 'mod' ? allApps.filter(a => a.modAuthor === name || a.developer === name) : allApps.filter(a => a.developer === name && !a.modAuthor));
+  }
+  else if (hash.startsWith('#history=')) {
+    const parts = hash.split('=')[1].split('+');
+    let app = allApps.find(a => String(a.id) === parts[1]) || allApps.find(a => a.package === parts[0]);
+    if (app) openHistoryModal(app);
   }
 }
 
