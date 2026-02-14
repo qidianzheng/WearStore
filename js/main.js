@@ -89,7 +89,6 @@ function checkHashLink() {
       return m.getAttribute('data-type') === 'category' && m.getAttribute('data-name') === catName;
     }
 
-    // 🔥 处理“最新上架/最近更新”列表页
     if (decodedHash.startsWith('#list=')) {
       const type = hash.split('=')[1];
       const listTitle = (type === 'new') ? "最新上架" : "最近更新";
@@ -149,10 +148,10 @@ function checkHashLink() {
     let sorted = allApps.filter(a => isAppGloballyCompatible(a, userApi));
     if (type === 'new') {
       sorted.sort((a, b) => (b.addedTime || 0) - (a.addedTime || 0));
-      renderCategoryModal("最新上架", sorted.slice(0, 30));
+      renderCategoryModal("最新上架", sorted.slice(0, 15));
     } else {
       sorted.sort((a, b) => new Date(b.updateTime || 0) - new Date(a.updateTime || 0));
-      renderCategoryModal("最近更新", sorted.slice(0, 30));
+      renderCategoryModal("最近更新", sorted.slice(0, 15));
     }
   }
   else if (decodedHash.startsWith('#category=')) {
