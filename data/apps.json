@@ -1625,7 +1625,9 @@
     "id": 286136756,
     "name": "NWearQQ",
     "package": "com.tencent.qqlite",
-    "version": "最终版2-已去签",
+    "version": [
+      "最终版2-已去签"
+    ],
     "code": 2465,
     "minSdk": 21,
     "size": "37.31 MB",
@@ -7790,6 +7792,37 @@
     ],
     "downloadUrl": "https://wearstore.cn-nb1.rains3.com/WearStore/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%90%202.2.1-DX.apk",
     "developer": "sky233",
+    "historyVersion": []
+  },
+  {
+    "id": 3273386591,
+    "name": "风轻音乐",
+    "package": "com.qifang.fqmusic",
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 26,
+    "size": "13.82 MB",
+    "icon": "assets/images/fengqingyinle/fengqingyinle_icon.webp",
+    "screenshots": [
+      "assets/images/fengqingyinle/fengqingyinle_1.webp",
+      "assets/images/fengqingyinle/fengqingyinle_2.webp",
+      "assets/images/fengqingyinle/fengqingyinle_3.webp",
+      "assets/images/fengqingyinle/fengqingyinle_4.webp"
+    ],
+    "addedTime": 1771378824031,
+    "updateTime": "2026-02-18",
+    "description": "一款朴实无华的音乐播放器，支持音乐播放/暂停、上一首/下一首、循环/单曲/随机模式切换。提供软件音量面板与系统音量面板、屏幕常亮开关，可自动识别歌曲元信息修正歌名与歌手，支持扫描本地音乐，专为安卓手表/WearOS设计。",
+    "category": "影音娱乐",
+    "keywords": [
+      "音乐播放器",
+      "本地音乐",
+      "播放控制",
+      "music player",
+      "yinyue bofang",
+      "bendi yinyue"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%A3%8E%E8%BD%BB%E9%9F%B3%E4%B9%901.0(Android8%2B).apk",
+    "developer": "柒坊",
     "historyVersion": []
   },
   {
