@@ -21,7 +21,7 @@
       "youxi",
       "game"
     ],
-    "downloadUrl": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/2048%20v2.8(Android%204.4w%20%2B).apk",
     "developer": "fast-soft",
     "historyVersion": []
   },
@@ -83,7 +83,7 @@
       "电池",
       "内存"
     ],
-    "downloadUrl": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/AIDA64%202.11%20(Android%204.4W%20%2B).apk",
     "developer": "FinalWire Ltd",
     "historyVersion": []
   },
@@ -212,7 +212,7 @@
       "萌宠",
       "chongwu"
     ],
-    "downloadUrl": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/Animals%201.3%20(Android%2011%2B).apk",
     "developer": "Beaverfy",
     "historyVersion": [],
     "contributor": "清漓染"
@@ -389,7 +389,7 @@
       "温度计",
       "tiwen"
     ],
-    "downloadUrl": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/BodyTemperature%201.2.1%20(Android%2011%20%2B).apk",
     "developer": "Tick Tock",
     "historyVersion": []
   },
@@ -466,6 +466,7 @@
       "应用管理",
       "device info"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/CPU%20Info%206.4.0%20(Android%208%20%2B).apk",
     "developer": "KG Soft",
     "historyVersion": []
   },
@@ -495,7 +496,7 @@
       "scientific calculator",
       "jisuanqi"
     ],
-    "downloadUrl": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/Calculator%208.4.0%20(Android%207.1%20%2B).apk",
     "developer": "Prometheus Interactive LLC",
     "historyVersion": []
   },
@@ -607,7 +608,7 @@
       "jishi",
       "coffee"
     ],
-    "downloadUrl": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/Watch.Cofi%201.21.5%20(Android%207.1%20%2B).apk",
     "developer": "Leon Omelan",
     "historyVersion": []
   },
@@ -886,6 +887,7 @@
       "quick launch",
       "kuaisu qidong"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Favorite%20Apps1.4.42(Android8%2B).apk",
     "developer": "Ray Adams",
     "historyVersion": [],
     "contributor": "清漓染"
@@ -944,6 +946,7 @@
       "launcher",
       "qidongqi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Flattery%200.0.13%20(Android%209%20%2B).apk",
     "developer": "Kyle Agronick",
     "historyVersion": []
   },
@@ -1009,7 +1012,7 @@
         "code": 138657,
         "minSdk": 26,
         "size": "20.13 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/Gboard%202.0.00%20(Android%208%2B).apk"
       }
     ]
   },
@@ -1121,6 +1124,7 @@
       "视频管理",
       "screen recorder"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Kapture-%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%201.0.0%20(Android%2013%20%2B).apk",
     "developer": "Douglas",
     "historyVersion": []
   },
@@ -1207,6 +1211,7 @@
       "立体",
       "球体"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Launcher%203D%20Wear%20OS%201.9%20(Android%208%20%2B).apk",
     "developer": "Ángel Gabaldón",
     "historyVersion": []
   },
@@ -1239,6 +1244,7 @@
       "宫格视图",
       "气泡视图"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Lunch%201.1.5-Stable.apk",
     "developer": "dudu",
     "historyVersion": [],
     "recommendIds": [
@@ -1366,6 +1372,7 @@
       "zhineng jiaju",
       "kongzhi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/MiGa2.0.2(Android8%2B).apk",
     "developer": "AuTsing",
     "historyVersion": []
   },
@@ -1426,7 +1433,7 @@
         "code": 72544822,
         "minSdk": 28,
         "size": "10.86 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/Microsoft%20Outlook%205.2544.1%20(Android%209.0%20%2B).apk"
       }
     ]
   },
@@ -1478,6 +1485,7 @@
       "搜索引擎",
       "liulanqi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Mini%20Web%20Browser%201.0.9%20(Android%208%20%2B).apk",
     "developer": "Somyac",
     "historyVersion": []
   },
@@ -1523,6 +1531,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/MistyBlueDream%204.0.0%20(Android%2011%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -1570,6 +1579,7 @@
       "moon phase",
       "yuexiang"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Moon%20Steps%20Watch%20Face%203.3.3%20(Android%2013%20%2B).apk",
     "developer": "N°",
     "historyVersion": [
       {
@@ -1577,7 +1587,7 @@
         "code": 10000302,
         "minSdk": 30,
         "size": "1.54 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/Moon%20Steps%20Watch%20Face%203.0.2%20(Android%2011%20%2B).apk"
       }
     ]
   },
@@ -1585,9 +1595,7 @@
     "id": 286136756,
     "name": "NWearQQ",
     "package": "com.tencent.qqlite",
-    "version": [
-      "最终版2-已去签"
-    ],
+    "version": "最终版2-已去签",
     "code": 2465,
     "minSdk": 21,
     "size": "37.31 MB",
@@ -1680,6 +1688,7 @@
       "WiFi互传",
       "文件管理"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/(%E6%89%8B%E8%A1%A8%E7%AB%AF)Next%E5%BF%AB%E4%BC%A0%201.2.1%20(Android%207%20%2B).apk",
     "developer": "无源流沙",
     "historyVersion": [],
     "phoneLink": "https://pan.baidu.com/s/10H7bYCRBjgjCxni2k94NkQ?pwd=e78t"
@@ -1701,6 +1710,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/Nothing1.0.0(Android11%2B).apk",
     "developer": "",
     "historyVersion": [],
     "contributor": "清漓染"
@@ -1726,6 +1736,7 @@
       "极简主义",
       "shuzi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Numerals%20Duo%201.0.5%20(Android%2013%20%2B).apk",
     "developer": "Bear By Patagonia",
     "historyVersion": []
   },
@@ -1752,6 +1763,7 @@
       "jisuanqi",
       "jianyi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%AE%A1%E7%AE%97%E5%99%A8%203.0.2%20(Android%208.1%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -1815,6 +1827,7 @@
       "多彩表盘",
       "Android 12"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Origin%2039(Android9%2B).apk",
     "developer": "Cyber明日香",
     "historyVersion": []
   },
@@ -1842,6 +1855,7 @@
       "自定义颜色",
       "duobianxing"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Polygon%20Watch%20Face1.0.6(Android6%2B).apk",
     "developer": "Tabula Games Studio",
     "historyVersion": [],
     "contributor": "清漓染"
@@ -2004,6 +2018,7 @@
       "planet watch face",
       "tianwen"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Radii4.2-w3(Android7.1%2B).apk",
     "developer": "The Design Cycle",
     "historyVersion": [],
     "contributor": "清漓染"
@@ -2090,6 +2105,7 @@
       "光影表盘",
       "日晷灵感"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Shadow%20Clock1.1(Android6%2B).apk",
     "developer": "Craig Ward",
     "historyVersion": [],
     "contributor": "清漓染"
@@ -2197,6 +2213,7 @@
     "keywords": [
       "cmf"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/SunCircle%201.0%20(Android%205%20%2B).apk",
     "developer": "dudu",
     "historyVersion": []
   },
@@ -2217,6 +2234,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/Super%20INF%20MOD%20V3%20CN%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -2273,6 +2291,7 @@
       "动态启动器",
       "qidongqi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Swirl%20Launcher%20for%20Wear%20OS%201.1.1%20(Android%206%20%2B).apk",
     "developer": "Swirl Design",
     "historyVersion": []
   },
@@ -2358,6 +2377,7 @@
       "任务清单",
       "番茄钟"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/To-Do%20List%201.01.19.0725.1%20(Android%207.1%20%2B).apk",
     "developer": "Dairy App & Notes & Audio Editor & Voice Recorder",
     "historyVersion": []
   },
@@ -2417,6 +2437,7 @@
       "apple watch",
       "launcher"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/T%E5%90%AF%E5%8A%A8%202.1%20(Android%206%20%2B).apk",
     "developer": "Logic昊",
     "historyVersion": []
   },
@@ -2443,6 +2464,7 @@
       "夜间模式",
       "analog watch"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/UltraPro1.0.3(Android11%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -2504,6 +2526,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/VLT%201.0.5%20(Android%2013%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -2533,6 +2556,7 @@
       "语音输入",
       "speech to text"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Voice%20Notebook%201.1.4%20(Android%209%20%2B).apk",
     "developer": "Yuri Khramov",
     "historyVersion": []
   },
@@ -2557,6 +2581,7 @@
       "动态动画",
       "数字"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Vortex%20Time%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "Time Design LLC",
     "historyVersion": []
   },
@@ -2631,6 +2656,7 @@
     "keywords": [
       "组件表盘"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Watchface%204%20Widgets%20Wear%20OS%201.0.4%20(Android%2013%20%2B).apk",
     "developer": "Ángel Gabaldón",
     "historyVersion": [
       {
@@ -2638,7 +2664,7 @@
         "code": 10000001,
         "minSdk": 30,
         "size": "6.35 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/Watchface%20with%204%20Complications%201.0.0%20(Android%2011%20%2B).apk"
       }
     ]
   },
@@ -2770,6 +2796,7 @@
       "蓝牙",
       "远程控制"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/WearMouse%201.28%20(Android%2014%20%2B).apk",
     "developer": "GinKage",
     "historyVersion": [
       {
@@ -2777,7 +2804,7 @@
         "code": 38,
         "minSdk": 26,
         "size": "0.86 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/WearMouse%201.26%20(Android%208%20%2B).apk"
       }
     ]
   },
@@ -2858,7 +2885,7 @@
     ],
     "addedTime": 1768213627571,
     "updateTime": "2026-01-12",
-    "description": "Android11及更高版本不可用\n本地音乐播放器，支持通过同一WiFi网络从手机或PC传输歌曲至手表播放。",
+    "description": "Android11(WearOS3)及更高版本不可用\n本地音乐播放器，支持通过同一WiFi网络从手机或PC传输歌曲至手表播放。",
     "category": "影音娱乐",
     "keywords": [
       "本地音乐",
@@ -2902,6 +2929,7 @@
       "蓝牙",
       "远程控制"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/WowMouse%201.2.1%20(Android%209%20%2B).apk",
     "developer": "Doublepoint",
     "historyVersion": []
   },
@@ -2931,6 +2959,7 @@
       "liulanqi",
       "yuyin sousuo"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/WristWeb%203.3%20(Android%208%20%2B).apk",
     "developer": "Ángel Gabaldón",
     "historyVersion": []
   },
@@ -3048,6 +3077,7 @@
     "description": "一款高度自定义的 Wear OS 表盘，提供海量设计组合，支持16种配色、电量、步数、日期及2个复杂功能区域，可自由搭配打造个性化表盘。",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%5B69D%5D%20LIL%20BUG%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "69 Design",
     "historyVersion": []
   },
@@ -3068,6 +3098,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/ae%201.0.5%20(Android%2011%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -3088,6 +3119,7 @@
     "description": "一款灵感源自 Bell & Ross Desert Type 手表的复刻表盘，支持在步数（左）和电量（右）进度圈上设置快捷功能。",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/bell_ross1.0.0(Android14%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -3108,6 +3140,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf01%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3128,6 +3161,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf02%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3148,6 +3182,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf04%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3168,6 +3203,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf04.HRandSTEP%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3188,6 +3224,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf05_BATT%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3208,6 +3245,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf05_DATE%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3228,6 +3266,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf06%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3248,6 +3287,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf07_cn%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3268,6 +3308,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf08_cn%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3288,6 +3329,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf09%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3308,6 +3350,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf10%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3328,6 +3371,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf11%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3348,6 +3392,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf12%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3368,6 +3413,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf13%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3388,6 +3434,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf14%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3414,6 +3461,7 @@
       "音乐练习",
       "yinyue"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/dMetronome15.11.3(Android6%2B).apk",
     "developer": "Junha Woo",
     "historyVersion": [],
     "contributor": "清漓染"
@@ -3435,6 +3483,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/klk5_12h%201.3.2%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3455,6 +3504,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/klk5_24h_12h_no_ampm%201.4.2%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3475,6 +3525,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/klk5_24h_12h_no_ampm_nostar%201.5.2%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3504,6 +3555,7 @@
       "wenjian chuanshu",
       "guanliqi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/myWear%20File%20Explorer%202.4.5%20(Android%208%20%2B).apk",
     "developer": "Marcelo R. dos Santos",
     "historyVersion": []
   },
@@ -3575,6 +3627,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/Falcon%209%20B1062.23%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -3600,6 +3653,7 @@
       "代码",
       "code"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/time.dev%20yaml%201.4.0%20(Android%2014%20%2B).apk",
     "developer": "Balapp",
     "historyVersion": [],
     "contributor": "清漓染"
@@ -3621,6 +3675,7 @@
     "description": "一款高度模仿 CCwatch galaxy lite 设计风格的表盘应用，特别优化了息屏显示，加入了数字时间与更美观的样式，追求简约精致的腕上视觉效果。",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/zizhi%201.4%20(Android%2014%20%2B).apk",
     "developer": "奥特曼曼特奥",
     "historyVersion": [
       {
@@ -3628,7 +3683,7 @@
         "code": 10000003,
         "minSdk": 30,
         "size": "5.17 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/zizhi%201.2%20(Android%2011%20%2B).apk"
       }
     ]
   },
@@ -3694,6 +3749,7 @@
       "飞行员",
       "feixingyuan"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%87%E5%9B%BD%E9%A3%9E%E8%A1%8C%E5%91%98%E4%B8%96%E7%95%8C%E6%97%B6%E5%8C%BA%E5%B0%8F%E7%8E%8B%E5%AD%90%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "潮汐表盘",
     "historyVersion": []
   },
@@ -3726,6 +3782,7 @@
       "wenjian guanli",
       "wanwenguanli"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%87%E6%96%87%E7%AE%A1%E7%90%86%205.0.6%20(Android%204.2%20%2B).apk",
     "developer": "一挽流砸AZ",
     "historyVersion": []
   },
@@ -3834,6 +3891,7 @@
       "jisuanqi",
       "xiaofei"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%89%E6%98%9F%E8%AE%A1%E7%AE%97%E5%99%A8%201.1.05.2%20(Android%2011%20%2B).apk",
     "developer": "三星电子株式会社",
     "historyVersion": [],
     "modAuthor": "HansHolz"
@@ -3886,7 +3944,7 @@
     ],
     "addedTime": 1767927089241,
     "updateTime": "2026-01-09",
-    "description": "玩户外，就上两步路\n户外助手“两步路”的手表版，支持无网络情况下记录轨迹、进行轨迹导航、查看队友位置及海拔趋势，是户外徒步与探险的可靠工具。",
+    "description": "玩户外，就上两步路。\n户外助手“两步路”的手表版，支持无网络情况下记录轨迹、进行轨迹导航、查看队友位置及海拔趋势，是户外徒步与探险的可靠工具。",
     "category": "健康运动",
     "keywords": [
       "户外徒步",
@@ -3926,7 +3984,7 @@
     ],
     "addedTime": 1767927089521,
     "updateTime": "2026-01-09",
-    "description": "中央广播电视总台声音新媒体平台\n中央广播电视总台官方声音平台“云听”的手表版，聚合广播电台、精品有声书与热点资讯，提供高品质音频内容。",
+    "description": "中央广播电视总台声音新媒体平台。\n中央广播电视总台官方声音平台“云听”的手表版，聚合广播电台、精品有声书与热点资讯，提供高品质音频内容。",
     "category": "影音娱乐",
     "keywords": [
       "广播",
@@ -3987,6 +4045,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E4%BC%A0%E5%A5%87%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -4017,6 +4076,7 @@
       "yangcheng youxi",
       "chongwu"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%83%8F%E7%B4%A0%E5%AE%A0%E7%89%A91.0(Android8.1%2B).apk",
     "developer": "聂扬宇",
     "historyVersion": []
   },
@@ -4078,6 +4138,7 @@
       "liangwanbofangqi",
       "video player"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%87%89%E8%85%95%E6%92%AD%E6%94%BE%E5%99%A8%205.1.0%20(Android%204.2%20%2B).apk",
     "developer": "凉生初霜",
     "historyVersion": []
   },
@@ -4109,6 +4170,7 @@
       "audio",
       "fenghuangfm"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%87%A4%E5%87%B0FM%201.0.4%20(Android%204.4%20%2B).apk",
     "developer": "凤凰爱听（北京）信息技术有限公司",
     "historyVersion": []
   },
@@ -4169,6 +4231,7 @@
       "danwei",
       "huansuan"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%8D%95%E4%BD%8D%E8%BD%AC%E6%8D%A2%201.0.0%20(Android%208.1%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -4189,6 +4252,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%8D%A1%E7%9A%AE%E5%B7%B4%E6%8B%89%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -4219,6 +4283,7 @@
       "diandongche",
       "cheliang kongzhi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%8F%B0%E9%93%83%E6%99%BA%E8%83%BD1.1.3(Android11%2B).apk",
     "developer": "台铃科技股份有限公司",
     "historyVersion": []
   },
@@ -4248,6 +4313,7 @@
       "gupiao",
       "hangqing"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%90%8C%E8%8A%B1%E9%A1%BA1.3(Android8%2B).apk",
     "developer": "浙江同花顺云软件有限公司",
     "historyVersion": []
   },
@@ -4418,7 +4484,7 @@
     ],
     "addedTime": 1764730734274,
     "updateTime": "2026-01-09",
-    "description": "发布听中问功能\n喜马拉雅官方手表应用，提供海量有声书、播客、相声评书及课程节目。无论是通勤路上、运动间隙还是睡前时光，都能让你在手表上便捷收听，畅享音频内容。",
+    "description": "发现听中问功能。\n喜马拉雅官方手表应用，提供海量有声书、播客、相声评书及课程节目。无论是通勤路上、运动间隙还是睡前时光，都能让你在手表上便捷收听，畅享音频内容。",
     "category": "影音娱乐",
     "keywords": [
       "听书",
@@ -4462,6 +4528,7 @@
       "drink water",
       "heshuitixing"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%96%9D%E6%B0%B4%E6%8F%90%E9%86%92%203.0.6%20(Android%208.1%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -4513,6 +4580,7 @@
       "MIUI壁纸",
       "雪山主题"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%9B%9B%E5%A7%91%E5%A8%98%E5%B1%B1%201.0.0%20(Android%2013%20%2B).apk",
     "developer": "游园新春",
     "historyVersion": []
   },
@@ -4535,6 +4603,7 @@
     "keywords": [
       "Lunch"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%9B%BE%E7%89%87%E8%A1%A8%E7%9B%98%201.0%20(Android%207.1%20%2B).apk",
     "developer": "dudu",
     "historyVersion": [],
     "recommendIds": [
@@ -4645,6 +4714,7 @@
       "meishi",
       "dazhongdianping"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84%201.0.2%20(Android%205%20%2B).apk",
     "developer": "互诚信息技术（上海）有限公司",
     "historyVersion": []
   },
@@ -4665,6 +4735,7 @@
     "description": "一款自制、灵感来源于游戏《天国：拯救》的复古风格表盘，支持基础信息和AOD息屏显示。",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%A4%A9%E5%9B%BD%E6%8B%AF%E6%95%911.0.1(Android14%2B).apk",
     "developer": "勤寒",
     "historyVersion": []
   },
@@ -4723,6 +4794,7 @@
       "weather",
       "tianqi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%A6%82%E6%AD%8C%E5%A4%A9%E6%B0%94%201.1.5%20(Android%208%20%2B).apk",
     "developer": "重庆努优尔科技有限公司",
     "historyVersion": []
   },
@@ -4743,6 +4815,7 @@
     "description": "一款以游戏《守望先锋》UI风格为灵感设计的个性化表盘。",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%AE%88%E6%9C%9B%E5%85%88%E9%94%8B%EF%BC%9A%E7%A6%BB%E5%8E%BB1.2.0(Android9%2B).apk",
     "developer": "吔車",
     "historyVersion": []
   },
@@ -4763,6 +4836,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%AE%9D%E7%9F%B3%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -4826,6 +4900,7 @@
       "tuandui goutong",
       "yuyin"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%AF%B9%E8%AE%B21.0.69(Android7.1%2B).apk",
     "developer": "无锡捷中科技有限公司",
     "historyVersion": [
       {
@@ -4833,7 +4908,7 @@
         "code": 69,
         "minSdk": 25,
         "size": "7.46 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%AF%B9%E8%AE%B21.0.69(Android7.1%2B).apk"
       }
     ]
   },
@@ -4863,6 +4938,7 @@
       "diandongche",
       "kongzhi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%B0%8F%E7%89%9B%E7%94%B5%E5%8A%A81.1.2(Android8%2B).apk",
     "developer": "北京牛电科技有限责任公司",
     "historyVersion": []
   },
@@ -4952,6 +5028,7 @@
       "即时通讯",
       "weixin"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BE%AE%E4%BF%A1%207.0.6%20.apk",
     "developer": "深圳市腾讯计算机系统有限公司",
     "historyVersion": []
   },
@@ -5011,6 +5088,7 @@
       "明星动态",
       "weibo"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BE%AE%E5%8D%9A%201.0.0%20(Android%204.2%20%2B).apk",
     "developer": "北京微梦创科网络技术有限公司",
     "historyVersion": []
   },
@@ -5039,6 +5117,7 @@
       "weather",
       "tianqi yubao"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BE%AE%E9%A3%8E%E5%A4%A9%E6%B0%94%201.2%20(Android%2011%20%2B).apk",
     "developer": "流沙风起",
     "historyVersion": []
   },
@@ -5059,6 +5138,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BF%83%E4%B9%8B%E5%B2%9B%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -5125,6 +5205,7 @@
       "kuaidi100",
       "wuliu"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BF%AB%E9%80%92100%201.0.1%20(Android%207%20%2B).apk",
     "developer": "深圳前海百递网络有限公司",
     "historyVersion": []
   },
@@ -5145,6 +5226,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%80%80%E6%97%A7%E6%97%B6%E5%85%89%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -5209,6 +5291,7 @@
       "yousheng shuji",
       "lanrentingshu"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%87%92%E4%BA%BA%E5%90%AC%E4%B9%A62.5.0(Android4.4%2B).apk",
     "developer": "深圳市懒人在线科技有限公司",
     "historyVersion": []
   },
@@ -5299,6 +5382,7 @@
       "tuku",
       "xiangce"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%8A%AC%E8%85%95%E7%9C%8B%E5%9B%BE%2022.8.26%20(Android%205%20%2B).apk",
     "developer": "汉克米",
     "historyVersion": []
   },
@@ -5361,6 +5445,7 @@
       "zhinanzhen",
       "huwai"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%8C%87%E5%8D%97%E9%92%88%209.4.0%20(Android%207%20%2B).apk",
     "developer": "Prometheus Interactive LLC",
     "historyVersion": []
   },
@@ -5390,6 +5475,7 @@
       "gongjiao",
       "chaxun"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%8E%8C%E4%B8%8A%E5%85%AC%E4%BA%A43.1.6(Android7.1%2B).apk",
     "developer": "厦门搜谷信息科技有限公司",
     "historyVersion": [
       {
@@ -5397,7 +5483,7 @@
         "code": 103,
         "minSdk": 25,
         "size": "34.15 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/%E6%8E%8C%E4%B8%8A%E5%85%AC%E4%BA%A41.0.3(Android7.1%2B).apk"
       }
     ]
   },
@@ -5418,6 +5504,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%8E%8C%E8%88%B5%E9%A2%86%E8%88%AA%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -5494,6 +5581,7 @@
       "zhifubao",
       "乘车码"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%94%AF%E4%BB%98%E5%AE%9D%2010.6.6.230926%20(Android%204.4%20%2B).apk",
     "developer": "支付宝（杭州）信息技术有限公司",
     "historyVersion": []
   },
@@ -5514,6 +5602,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%96%AF%E6%B2%83%E7%90%AA%E5%9C%B0%E7%9B%B8%E6%AC%BE%20MISSION%20TO%20EARTHPHASE%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -5543,6 +5632,7 @@
       "xinwen",
       "zixun"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%96%B0%E6%B5%AA%E6%96%B0%E9%97%BB0.0.5(Android7%2B).apk",
     "developer": "北京新浪互联信息服务有限公司",
     "historyVersion": []
   },
@@ -5596,6 +5686,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%97%A5%E9%A3%9Fcn%201.0.1%20(Android%2013%20%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -5616,6 +5707,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%98%8E%E6%97%A5%E9%A6%99%201.0%20(Android%205.1%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -5640,6 +5732,7 @@
     "keywords": [
       "xinglugu"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%98%9F%E9%9C%B2%E8%B0%B7%E9%A3%8E%E8%A1%A8%E7%9B%98%201.5%20(Android%2014%20%2B).apk",
     "developer": "西瓜发电机xg",
     "historyVersion": []
   },
@@ -5660,6 +5753,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%9A%97%E5%A4%9C%E6%8C%87%E9%92%88%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -5685,6 +5779,7 @@
       "jike",
       "che kong"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%9E%81%E6%B0%AA1.2(Android8.1%2B).apk",
     "developer": "浙江极氪智能科技有限公司",
     "historyVersion": []
   },
@@ -5705,6 +5800,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%A0%B8%E5%BF%83%E6%98%BE%E7%A4%BA%201.0.0%20(Android%2013%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -5725,6 +5821,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%AC%A7%E7%B1%B3%E8%8C%84%E5%8F%B2%E5%8A%AA%E6%AF%9450%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5%E7%89%88%201.0.0%20(Android%2013%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -5786,6 +5883,7 @@
       "BYD",
       "cheliang kongzhi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%AF%94%E4%BA%9A%E8%BF%AA2.6.0(Android8.1%2B).apk",
     "developer": "比亚迪汽车工业有限公司",
     "historyVersion": [
       {
@@ -5793,14 +5891,14 @@
         "code": 450,
         "minSdk": 27,
         "size": "38.35 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/%E6%AF%94%E4%BA%9A%E8%BF%AA2.4.0(Android8.1%2B).apk"
       },
       {
         "version": "2.1.0",
         "code": 420,
         "minSdk": 27,
         "size": "38.29 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/%E6%AF%94%E4%BA%9A%E8%BF%AA2.1.0(Android8.1%2B).apk"
       }
     ]
   },
@@ -5823,6 +5921,7 @@
     "keywords": [
       "二次元"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%91%BC%E5%91%BC%E7%8C%AB%2B%201.0%20(Android%204.4%20%2B).apk",
     "developer": "Flyfish233",
     "historyVersion": []
   },
@@ -5884,6 +5983,7 @@
       "hai ba",
       "qiyaji"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B5%B7%E6%8B%94%E6%B0%94%E5%8E%8B%E8%AE%A1%201.0%20(Android%206%20%2B).apk",
     "developer": "FALONSO14",
     "historyVersion": []
   },
@@ -5913,6 +6013,7 @@
       "chekong",
       "yuancheng"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B7%B1%E8%93%9D%E6%B1%BD%E8%BD%A61.0.2(Android7%2B).apk",
     "developer": "深蓝汽车科技有限公司",
     "historyVersion": []
   },
@@ -5979,6 +6080,7 @@
       "thepaper",
       "xinwen"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB1.0.1(Android11%2B).apk",
     "developer": "上海东方报业有限公司",
     "historyVersion": []
   },
@@ -5999,6 +6101,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%BF%80%E9%80%9F%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -6029,6 +6132,7 @@
       "tianqi",
       "hupo"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%90%A5%E7%8F%80%E5%A4%A9%E6%B0%94%202.0.9%20(Android%206%20%2B).apk",
     "developer": "北京琥珀创想科技有限公司",
     "historyVersion": []
   },
@@ -6084,6 +6188,7 @@
       "禅意",
       "wooden fish"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%94%B5%E5%AD%90%E6%9C%A8%E9%B1%BC1.3.2(Android11%2B).apk",
     "developer": "Woozepao",
     "historyVersion": [],
     "contributor": "清漓染"
@@ -6186,6 +6291,7 @@
       "手写",
       "语音输入"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%99%BE%E5%BA%A6%E8%BE%93%E5%85%A5%E6%B3%95%209.3.12.377%20(Android%206%20%2B).apk",
     "developer": "百度在线网络技术（北京）有限公司",
     "historyVersion": []
   },
@@ -6206,6 +6312,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%A2%B3%E9%BB%91%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -6325,6 +6432,7 @@
       "指针表盘",
       "现代设计"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%B2%BE%E5%87%86%E6%97%B6%E5%9B%BE%201.1.0%20(Android%2014%20%2B).apk",
     "developer": "123哆3",
     "historyVersion": []
   },
@@ -6401,6 +6509,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%BB%8F%E5%85%B8%E7%BB%BF%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -6464,6 +6573,7 @@
       "huangli",
       "minsu"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%80%81%E9%BB%84%E5%8E%86%201.3%20(Android%2011%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -6490,6 +6600,7 @@
       "launcher",
       "neicun qingli"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E5%90%AF%E5%8A%A8%E5%99%A8%205.0%20(Android%207.1%20%2B).apk",
     "developer": "Ke Lei",
     "historyVersion": []
   },
@@ -6519,6 +6630,7 @@
       "chemistry",
       "huaxue xuexi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E5%91%A8%E6%9C%9F%E8%A1%A8%202.0%20(Android%204%20%2B).apk",
     "developer": "irregular",
     "historyVersion": []
   },
@@ -6588,6 +6700,7 @@
       "电子书",
       "xiaozhitiao"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E5%B0%8F%E7%BA%B8%E6%9D%A1%202.0%20(Android%205%20%2B).apk",
     "developer": "luern0313",
     "historyVersion": []
   },
@@ -6618,6 +6731,7 @@
       "wrist tool",
       "gongjuxiang"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E5%B7%A5%E5%85%B7%E7%AE%B1%202.0.1%20(Android%206%20%2B).apk",
     "developer": "Croma Company",
     "historyVersion": []
   },
@@ -6679,6 +6793,7 @@
       "biji",
       "wenben"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E8%AE%B0%E4%BA%8B%E6%9C%AC%201.0.1%20(Android%206%20%2B).apk",
     "developer": "devinsama",
     "historyVersion": []
   },
@@ -6709,6 +6824,7 @@
       "怀旧",
       "像素播放器"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E5%90%ACBitmap%2024.5.24%20(Android%204.4%20%2B).apk",
     "developer": "汉克米",
     "historyVersion": []
   },
@@ -6731,11 +6847,10 @@
       "手表控车",
       "远程车控",
       "车辆定位",
-      "无钥匙",
-      "changan auto",
-      "chekong",
-      "xun che"
+      "车钥匙",
+      "chekong"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E6%9C%89%E5%BC%95%E5%8A%9B1.1.0(Android8%2B).apk",
     "developer": "重庆长安汽车股份有限公司",
     "historyVersion": []
   },
@@ -6767,6 +6882,7 @@
       "ai",
       "wannengjingling"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E8%83%BD%E7%B2%BE%E7%81%B51.4.4(Android6%2B).apk",
     "developer": "重庆努优尔科技有限公司",
     "historyVersion": []
   },
@@ -6796,6 +6912,7 @@
       "看图",
       "图片管理器"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%89%8B%E8%A1%A8%E7%AB%AF%E8%85%95%E9%97%B4%E5%9B%BE%E5%BA%93%206.3.2%20(Android%205%20%2B).apk",
     "developer": "晨鹤",
     "historyVersion": []
   },
@@ -6826,6 +6943,7 @@
       "在线翻译",
       "fanyi"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%97%B4%E7%BF%BB%E8%AF%91%202.4-cn%20(Android%208%20%2B).apk",
     "developer": "gohj99",
     "historyVersion": []
   },
@@ -6853,8 +6971,10 @@
       "差旅出行",
       "hanglv",
       "hangban",
-      "chuxing"
+      "chuxing",
+      "飞机票"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%88%AA%E6%97%85%E7%BA%B5%E6%A8%AA1.4.1(Android7%2B).apk",
     "developer": "中航信移动科技有限公司",
     "historyVersion": []
   },
@@ -6875,6 +6995,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%8F%9C%E7%8B%97%201.0.0%20(Android%209%20%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -6895,6 +7016,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%93%9D%E8%89%B2%E5%B9%BB%E5%A2%83%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -6955,6 +7077,7 @@
       "jian fei",
       "jilu"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%96%84%E8%8D%B7%E5%81%A5%E5%BA%B71.0.1(Android6%2B).apk",
     "developer": "上海薄荷健康科技股份有限公司",
     "historyVersion": []
   },
@@ -6975,6 +7098,7 @@
     "description": [],
     "category": "表盘美化",
     "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%9F%B9%E9%BB%84%E5%A0%A1%E8%A1%A8%E7%9B%98%201.0.0%20(Android%2013%20%2B).apk",
     "developer": "B姓男子",
     "historyVersion": []
   },
@@ -7006,6 +7130,7 @@
       "huwai",
       "qixing"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%A1%8C%E8%80%851.1.2(Android5%2B).apk",
     "developer": "上海大不自多信息科技有限公司",
     "historyVersion": []
   },
@@ -7071,6 +7196,7 @@
     "keywords": [
       "Lunch"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%A7%86%E9%A2%91%E8%A1%A8%E7%9B%98%201.0%20(Android%205%20%2B).apk",
     "developer": "dudu",
     "historyVersion": [],
     "recommendIds": [
@@ -7100,11 +7226,12 @@
       "计算器",
       "科学计算",
       "圆屏适配",
-      "小米手表",
+      "小米手表5",
       "calculator",
       "jisuanqi",
       "kexue jisuan"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%AE%A1%E7%AE%97%E5%99%A81.2.2(Android11%2B).apk",
     "developer": "BlueEve",
     "historyVersion": []
   },
@@ -7135,6 +7262,7 @@
       "ifly",
       "xunfei"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%AE%AF%E9%A3%9E%E8%BE%93%E5%85%A5%E6%B3%95%E6%89%8B%E8%A1%A8%E7%89%88%209.0.9161%20(Android%204.4%20%2B).apk",
     "developer": "合肥科讯创想软件开发有限公司",
     "historyVersion": []
   },
@@ -7159,6 +7287,7 @@
       "动漫",
       "dongman"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%B3%A2%E5%B0%87%E8%88%87%E6%B2%B3%E7%AB%A5%20%E6%90%96%E6%9B%B3%E6%96%BC%E5%A4%8F1.0.0(Android11%2B).apk",
     "developer": "",
     "historyVersion": []
   },
@@ -7191,6 +7320,7 @@
       "biji",
       "qiyuanyun"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%B5%B7%E6%BA%90%E4%BA%91%E7%AC%94%E8%AE%B0%20ver1.0.apk",
     "developer": "LouisonH",
     "historyVersion": []
   },
@@ -7222,6 +7352,7 @@
       "yueduqi",
       "xiaoshuo"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%B5%B7%E6%BA%90%E9%98%85%E8%AF%BB%201.9%E4%BF%AE%E5%A4%8D%E7%89%88%20(Android%205%20%2B).apk",
     "developer": "LouisonH",
     "historyVersion": []
   },
@@ -7352,6 +7483,7 @@
       "bangong",
       "xietong"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%92%89%E9%92%89%E6%99%BA%E8%BF%9E%201.0%20(Android%209%20%2B).apk",
     "developer": "钉钉科技有限公司",
     "historyVersion": []
   },
@@ -7425,6 +7557,7 @@
       "背单词",
       "ruiduyingyu"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%94%90%E5%BA%A6%E8%8B%B1%E8%AF%AD%201.1.0%20(Android%206%20%2B).apk",
     "developer": "重庆努优尔科技有限公司",
     "historyVersion": []
   },
@@ -7456,6 +7589,7 @@
       "diandongche",
       "chuxing"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%85%E8%BF%AA%E6%99%BA%E8%A1%8C1.0.0(Android8%2B).apk",
     "developer": "雅迪科技集团有限公司",
     "historyVersion": []
   },
@@ -7489,6 +7623,7 @@
       "听歌",
       "zeromusic"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%90%202.2.1-DX.apk",
     "developer": "sky233",
     "historyVersion": []
   },
@@ -7551,6 +7686,7 @@
       "出行",
       "map"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE1.1.1(Android8%2B).apk",
     "developer": "北京高德图强科技有限公司",
     "historyVersion": [
       {
