@@ -6449,7 +6449,7 @@
       "assets/images/mosunshichang/mosunshichang_5.webp"
     ],
     "addedTime": 1770301760137,
-    "updateTime": "2026-02-14",
+    "updateTime": "2026-02-21",
     "description": "WearStore官方手表应用商店来了，现在您可以在手表上下载和安装应用。\n\nWearOS2和3用户请安装AnExplorer5.9.7及更高版本，在“选择安装方式”中选择“通过AnExplorer安装”。\n通过AnExplorer安装，请确保您开启了 ADB 调试和无线调试。\n\n磨损市场需要安装未知应用权限，WearOS4和5通过以下方式授权：\nadb shell appops set --uid com.qdz.wearstore REQUEST_INSTALL_PACKAGES allow\n\n官方交流群QQ1077259743\n\n开发者联系方式dzq8719@gmail.com",
     "category": "系统工具",
     "keywords": [
