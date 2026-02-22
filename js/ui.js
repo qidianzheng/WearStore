@@ -26,11 +26,15 @@ export function createCard(app) {
 
   const card = document.createElement('div');
   card.className = 'card';
+
+  // 🔥 逻辑 1：如果有修改版作者，优先展示修改版作者，否则展示原开发者
+  const displayDev = app.modAuthor ? app.modAuthor : (app.developer || '未知开发者');
+
   card.innerHTML = `
         <img src="${escapeHtml(app.icon)}" class="card-icon" onerror="handleImgError(this)">
         <div class="card-content">
             <div class="card-title">${escapeHtml(app.name)}</div>
-            <div class="card-dev-name">${escapeHtml(app.developer || '未知开发者')}</div>
+            <div class="card-dev-name">${escapeHtml(displayDev)}</div>
         </div>
         <span class="material-symbols-rounded card-action-icon color-primary">arrow_forward</span>`;
 
@@ -129,11 +133,19 @@ export function renderAppModal(app) {
   const isCompat = !userApi || userApi >= parseInt(data.minSdk || 0);
 
   // 开发者显示逻辑
-  const getAuthorHtml = (n, t) => {
+  const getAuthorHtml = (n) => {
     const dn = n ? escapeHtml(n).trim() : '未知开发者';
     if (!n || dn === '未知开发者' || dn === '') return `<span style="color:var(--text-secondary); cursor:default;">未知开发者</span>`;
-    return `<span class="author-link" data-name="${dn}" data-type="${t}">${dn}</span>`;
+    // 统一跳转到 #dev=名称
+    return `<span class="author-link" data-name="${dn}">${dn}</span>`;
   };
+
+  const devRaw = app.developer;
+  const modRaw = app.modAuthor;
+
+  const devInfoHtml = modRaw
+    ? `${getAuthorHtml(devRaw)} <span style="color:var(--text-secondary); font-size:0.8em; font-weight:normal;">(由 ${getAuthorHtml(modRaw)} 修改)</span>`
+    : getAuthorHtml(devRaw);
 
   // 1. 顶部 Header 部分 (图标 + 软件信息 + 关闭)
   const headerHtml = `
@@ -244,7 +256,11 @@ export function renderAppModal(app) {
   if (m.querySelector('#hiBtn')) m.querySelector('#hiBtn').onclick = () => { window.location.hash = `history=${app.package}+${app.id}`; };
   m.querySelector('#shBtn').onclick = () => { navigator.clipboard.writeText(window.location.href); showToast('链接已复制'); };
   m.querySelectorAll('.author-link').forEach(link => {
-    link.onclick = (e) => { e.stopPropagation(); window.location.hash = `dev=${encodeURIComponent(link.dataset.name)}${link.dataset.type === 'mod' ? '&type=mod' : ''}`; };
+    link.onclick = (e) => {
+      e.stopPropagation();
+      // 统一 Hash 格式：#dev=作者名
+      window.location.hash = `dev=${encodeURIComponent(link.dataset.name)}`;
+    };
   });
   m.querySelectorAll('.recommend-click-item').forEach(item => {
     item.onclick = () => {

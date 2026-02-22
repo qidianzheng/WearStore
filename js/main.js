@@ -164,9 +164,17 @@ function checkHashLink() {
     }
   }
   else if (decodedHash.startsWith('#dev=')) {
-    const name = decodedHash.substring(5).split('&type=')[0];
-    const type = decodedHash.includes('&type=mod') ? 'mod' : 'original';
-    renderDevModal(name, type === 'mod' ? allApps.filter(a => a.modAuthor === name || a.developer === name) : allApps.filter(a => a.developer === name && !a.modAuthor));
+    // 提取作者名称
+    const name = decodedHash.substring(5);
+
+    const filteredApps = allApps.filter(a => {
+      const isOriginalWork = (a.developer === name && !a.modAuthor);
+      const isModWork = (a.modAuthor === name);
+      return isOriginalWork || isModWork;
+    });
+
+    renderDevModal(name, filteredApps);
+    setPageTitle(`${name} 的作品`);
   }
   else if (hash.startsWith('#history=')) {
     const parts = hash.split('=')[1].split('+');
