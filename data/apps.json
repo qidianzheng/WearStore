@@ -1623,9 +1623,7 @@
     "id": 286136756,
     "name": "NWearQQ",
     "package": "com.tencent.qqlite",
-    "version": [
-      "最终版2-已去签"
-    ],
+    "version": "最终版2-已去签",
     "code": 2465,
     "minSdk": 21,
     "size": "37.31 MB",
@@ -1639,7 +1637,7 @@
     ],
     "addedTime": 1764730689784,
     "updateTime": "2025-12-28",
-    "description": "一款基于 QQ 手表版 9.0.3 的修改版应用，由开发者 爅峫 制作。在官方版本基础上，主要变化为启用黑色背景，并可能潜藏其他功能调整，为用户提供不同的视觉与使用体验。",
+    "description": "此应用为第三方修改版，WearStore不对因使用此应用导致封号负责。\n一款基于 QQ 手表版 9.0.3 的修改版应用，由开发者 爅峫 制作。在官方版本基础上，主要变化为启用黑色背景，并可能潜藏其他功能调整，为用户提供不同的视觉与使用体验。",
     "category": "通讯社交",
     "keywords": [
       "聊天",
@@ -1959,7 +1957,7 @@
     ],
     "addedTime": 1764730689784,
     "updateTime": "2025-12-28",
-    "description": "一款基于 NWear-QQ 最终版 2 的修改版 QQ 手表应用，由开发者 java30433 制作。最显著的改变是采用了黑色背景主题，并可能包含更多功能增强与优化，具体改进等待用户探索发现。",
+    "description": "此应用为第三方修改版，WearStore不对因使用此应用导致封号负责。\n一款基于 NWear-QQ 最终版 2 的修改版 QQ 手表应用，由开发者 java30433 制作。最显著的改变是采用了黑色背景主题，并可能包含更多功能增强与优化，具体改进等待用户探索发现。",
     "category": "通讯社交",
     "keywords": [
       "聊天",
@@ -2915,7 +2913,7 @@
     ],
     "addedTime": 1768213627571,
     "updateTime": "2026-02-21",
-    "description": "本地音乐播放器，支持通过同一WiFi网络从手机或PC传输歌曲至手表播放。",
+    "description": "WearOS3(Android11)及更高版本的系统请使用5.0版本。\n本地音乐播放器，支持通过同一WiFi网络从手机或PC传输歌曲至手表播放。",
     "category": "影音娱乐",
     "keywords": [
       "本地音乐",
@@ -5093,7 +5091,10 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A61.0.1(Android8%2B).apk",
     "developer": "爅峫",
-    "historyVersion": []
+    "historyVersion": [],
+    "recommendIds": [
+      447281565
+    ]
   },
   {
     "id": 2395269569,

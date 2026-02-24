@@ -94,7 +94,8 @@ body {
   background: var(--bg-gradient);
   background-attachment: fixed;
   color: var(--text-main);
-  min-height: 100vh;
+  min-height: 100dvh;
+  padding-bottom: env(safe-area-inset-bottom);
   display: flex;
   flex-direction: column;
   transition: background 0.5s ease;
@@ -594,7 +595,7 @@ body {
 .modal {
   background: var(--modal-bg);
   width: 100vw !important;
-  height: 100vh !important;
+  height: 100dvh !important;
   max-width: none !important;
   border-radius: 0 !important;
   display: flex;
@@ -644,6 +645,7 @@ body {
   .menu-content {
     padding-left: calc((100% - 1280px) / 2 + 20px) !important;
     padding-right: calc((100% - 1280px) / 2 + 20px) !important;
+    padding-bottom: 40px;
     max-width: none !important;
     margin: 0 !important;
   }
