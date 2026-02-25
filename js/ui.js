@@ -27,7 +27,10 @@ export function createCard(app) {
   const card = document.createElement('div');
   card.className = 'card';
 
-  // 🔥 逻辑 1：如果有修改版作者，优先展示修改版作者，否则展示原开发者
+  if (String(app.id) === "1287852515") {
+    card.classList.add('card-featured-ai');
+  }
+
   const displayDev = app.modAuthor ? app.modAuthor : (app.developer || '未知开发者');
 
   card.innerHTML = `

@@ -1507,3 +1507,74 @@ img.image-error::after {
     transform: translateY(0);
   }
 }
+
+/* =========================================
+   AI 特色卡片样式 (ID: 1287852515) - 修复版
+   ========================================= */
+
+.card-featured-ai {
+  position: relative;
+  /* 必须移除原生边框，防止干扰 */
+  border: none !important;
+  background: var(--card-glass);
+  z-index: 1;
+}
+
+/* 使用伪元素制作“仅边框可见”的流光层 */
+.card-featured-ai::before {
+  content: "";
+  position: absolute;
+  /* 这里的 -2px 决定了边框向外扩展的厚度 */
+  inset: -2px;
+  padding: 2px;
+  /* 这里的 2px 必须与 inset 的绝对值一致，决定边框厚度 */
+  border-radius: calc(var(--radius-lg) + 2px);
+
+  /* AI 流光渐变背景 */
+  background: linear-gradient(45deg,
+      #00f2fe,
+      #7367f0,
+      #f067b4,
+      #32cc70,
+      #00f2fe);
+  background-size: 400% 400%;
+
+  /* --- 核心：遮罩技术（挖空中心） --- */
+  /* 让背景只在 padding 区域（即边框）显示，中间 content 区域被剔除 */
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+
+  animation: ai-glow-move 3s linear infinite;
+  pointer-events: none;
+  /* 防止遮罩层干扰点击 */
+  z-index: 2;
+}
+
+/* 确保鼠标悬停效果依然存在 */
+.card-featured-ai:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 动画保持不变 */
+@keyframes ai-glow-move {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 夜间模式稍微增加一点亮度 */
+[data-theme="dark"] .card-featured-ai::before {
+  filter: brightness(1.2);
+}

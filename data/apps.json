@@ -394,6 +394,32 @@
     "historyVersion": []
   },
   {
+    "id": 1889710834,
+    "name": "Brush Pop by TIMEFLIK",
+    "package": "com.apposter.brushpop",
+    "version": "3.0.0",
+    "code": 10000003,
+    "minSdk": 34,
+    "size": "0.43 MB",
+    "icon": "assets/images/brushpopbytimeflik/brushpopbytimeflik_icon.webp",
+    "screenshots": [
+      "assets/images/brushpopbytimeflik/brushpopbytimeflik_1.webp"
+    ],
+    "addedTime": 1772022520495,
+    "updateTime": "2026-02-25",
+    "description": "一款色彩丰富的数字表盘，支持12/24小时制、日期显示、电池电量，提供7种颜色选择和常亮显示(AOD)功能。",
+    "category": "表盘美化",
+    "keywords": [
+      "日期",
+      "电池",
+      "常亮显示",
+      "AOD"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Brush%20Pop%20by%20TIMEFLIK3.0.0(Android14%2B).apk",
+    "developer": "TIMEFLIK",
+    "historyVersion": []
+  },
+  {
     "id": 158350757,
     "name": "CCWatch Galaxy Lite",
     "package": "com.ccwatch.ccgalaxy2",
@@ -578,6 +604,34 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Choffee%20Lite1.0.0(Android11%2B).apk",
     "developer": "RichFace",
+    "historyVersion": []
+  },
+  {
+    "id": 3274035991,
+    "name": "Classes",
+    "package": "com.timeshow.mobvoi.Classes",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "1.20 MB",
+    "icon": "assets/images/classes/classes_icon.webp",
+    "screenshots": [
+      "assets/images/classes/classes_1.webp"
+    ],
+    "addedTime": 1772022521630,
+    "updateTime": "2026-02-25",
+    "description": "一款以学生时代为主题的表盘，搭配书本和铅笔设计元素，显示日期、步数和心率，唤起美好的校园回忆。",
+    "category": "表盘美化",
+    "keywords": [
+      "学生主题",
+      "日期",
+      "步数",
+      "心率",
+      "校园风格",
+      "shu ben"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Classes1.0.0(Android14%2B).apk",
+    "developer": "TimeShow",
     "historyVersion": []
   },
   {
@@ -1115,7 +1169,7 @@
     ],
     "addedTime": 1767927071589,
     "updateTime": "2026-02-05",
-    "description": "快速全面客观的科技资讯。\nIT之家官方手表客户端，提供快速、全面、客观的IT业界与数码产品资讯，满足腕上清爽阅读的需求。",
+    "description": "快速全面客观的科技资讯。\n\nIT之家官方手表客户端，提供快速、全面、客观的IT业界与数码产品资讯，满足腕上清爽阅读的需求。",
     "category": "生活服务",
     "keywords": [
       "科技资讯",
@@ -1173,7 +1227,7 @@
     ],
     "addedTime": 1767927072817,
     "updateTime": "2026-01-09",
-    "description": "健康运动居家健身首选APP。\nKeep 官方手表应用，支持心率监测指导跑步、骑行、健身等课程训练，并可独立开启户外运动，让燃脂更高效。",
+    "description": "健康运动居家健身首选APP。\n\nKeep 官方手表应用，支持心率监测指导跑步、骑行、健身等课程训练，并可独立开启户外运动，让燃脂更高效。",
     "category": "健康运动",
     "keywords": [
       "运动健身",
@@ -1623,7 +1677,9 @@
     "id": 286136756,
     "name": "NWearQQ",
     "package": "com.tencent.qqlite",
-    "version": "最终版2-已去签",
+    "version": [
+      "最终版2-已去签"
+    ],
     "code": 2465,
     "minSdk": 21,
     "size": "37.31 MB",
@@ -1637,7 +1693,7 @@
     ],
     "addedTime": 1764730689784,
     "updateTime": "2025-12-28",
-    "description": "此应用为第三方修改版，WearStore不对因使用此应用导致封号负责。\n一款基于 QQ 手表版 9.0.3 的修改版应用，由开发者 爅峫 制作。在官方版本基础上，主要变化为启用黑色背景，并可能潜藏其他功能调整，为用户提供不同的视觉与使用体验。",
+    "description": "此应用为第三方修改版，WearStore不对因使用此应用导致封号负责。\n\n一款基于 QQ 手表版 9.0.3 的修改版应用，由开发者 爅峫 制作。在官方版本基础上，主要变化为启用黑色背景，并可能潜藏其他功能调整，为用户提供不同的视觉与使用体验。",
     "category": "通讯社交",
     "keywords": [
       "聊天",
@@ -1860,6 +1916,56 @@
     "historyVersion": []
   },
   {
+    "id": 790826520,
+    "name": "POP Time",
+    "package": "com.alexeymorozua.poptime",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "5.12 MB",
+    "icon": "assets/images/poptime/poptime_icon.webp",
+    "screenshots": [
+      "assets/images/poptime/poptime_1.webp"
+    ],
+    "addedTime": 1772022532187,
+    "updateTime": "2026-02-25",
+    "description": "一款时尚的数字表盘，融合现代外观与日常功能，支持显示时间、完整日历、心率、步数、卡路里、天气和电池电量，兼容Wear OS 6+设备。",
+    "category": "表盘美化",
+    "keywords": [
+      "心率显示",
+      "步数计数",
+      "天气",
+      "卡路里",
+      "电池显示",
+      "xinlv",
+      "tianqi"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/POP%20Time1.0.0(Android14%2B).apk",
+    "developer": "Time Design LLC",
+    "historyVersion": []
+  },
+  {
+    "id": 3420701677,
+    "name": "Physics Whiteboard",
+    "package": "com.suyashmahar.whiteboard",
+    "version": "2.2.1",
+    "code": 10200005,
+    "minSdk": 30,
+    "size": "0.52 MB",
+    "icon": "assets/images/physicswhiteboard/physicswhiteboard_icon.webp",
+    "screenshots": [
+      "assets/images/physicswhiteboard/physicswhiteboard_1.webp"
+    ],
+    "addedTime": 1772022532260,
+    "updateTime": "2026-02-25",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/Physics%20Whiteboard2.2.1(Android11%2B).apk",
+    "developer": "The Sleuthing Pineapple",
+    "historyVersion": []
+  },
+  {
     "id": 3366910039,
     "name": "Polygon Watch Face",
     "package": "com.wojdor.polygonwatchface",
@@ -1957,7 +2063,7 @@
     ],
     "addedTime": 1764730689784,
     "updateTime": "2025-12-28",
-    "description": "此应用为第三方修改版，WearStore不对因使用此应用导致封号负责。\n一款基于 NWear-QQ 最终版 2 的修改版 QQ 手表应用，由开发者 java30433 制作。最显著的改变是采用了黑色背景主题，并可能包含更多功能增强与优化，具体改进等待用户探索发现。",
+    "description": "此应用为第三方修改版，WearStore不对因使用此应用导致封号负责。\n\n一款基于 NWear-QQ 最终版 2 的修改版 QQ 手表应用，由开发者 java30433 制作。最显著的改变是采用了黑色背景主题，并可能包含更多功能增强与优化，具体改进等待用户探索发现。",
     "category": "通讯社交",
     "keywords": [
       "聊天",
@@ -2087,6 +2193,31 @@
     "historyVersion": []
   },
   {
+    "id": 3145464037,
+    "name": "Rotate",
+    "package": "com.watchfacedesigns.Rotate",
+    "version": "1.0.6",
+    "code": 10000015,
+    "minSdk": 34,
+    "size": "0.37 MB",
+    "icon": "assets/images/rotate/rotate_icon.webp",
+    "screenshots": [
+      "assets/images/rotate/rotate_1.webp"
+    ],
+    "addedTime": 1772022539314,
+    "updateTime": "2026-02-25",
+    "description": "一款向Moto 360致敬的Wear OS表盘，提供20种颜色主题、1个可自定义复杂功能、2种秒针风格，支持常亮显示(AOD)，设计独特且高效节能。",
+    "category": "表盘美化",
+    "keywords": [
+      "Moto 360风格",
+      "秒针风格",
+      "常亮显示"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Rotate1.0.6(Android14%2B).apk",
+    "developer": "Luka Kilic - Watch Faces",
+    "historyVersion": []
+  },
+  {
     "id": 58504821,
     "name": "Sera Digital",
     "package": "com.watchfacestudio.seradigital",
@@ -2192,6 +2323,48 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Simple%20Memo%201.0.5%20(Android%2011%20%2B).apk",
     "developer": "Eana Hufwe",
+    "historyVersion": []
+  },
+  {
+    "id": 1202556912,
+    "name": "Simple Pop Watch Face",
+    "package": "com.jdepap2.popwatch",
+    "version": "1.0.3",
+    "code": 10000003,
+    "minSdk": 33,
+    "size": "0.36 MB",
+    "icon": "assets/images/simplepopwatchface/simplepopwatchface_icon.webp",
+    "screenshots": [
+      "assets/images/simplepopwatchface/simplepopwatchface_1.webp"
+    ],
+    "addedTime": 1772022539885,
+    "updateTime": "2026-02-25",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/Simple%20Pop%20Watch%20Face1.0.3(Android13%2B).apk",
+    "developer": "Waces",
+    "historyVersion": []
+  },
+  {
+    "id": 26125163,
+    "name": "Simple Projected Watch Face v2",
+    "package": "com.jdepap2.projectedv2watch",
+    "version": "1.0.4",
+    "code": 10000004,
+    "minSdk": 33,
+    "size": "0.20 MB",
+    "icon": "assets/images/simpleprojectedwatchfacev2/simpleprojectedwatchfacev2_icon.webp",
+    "screenshots": [
+      "assets/images/simpleprojectedwatchfacev2/simpleprojectedwatchfacev2_1.webp"
+    ],
+    "addedTime": 1772022539963,
+    "updateTime": "2026-02-25",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/Simple%20Projected%20Watch%20Face%20v2_1.0.4(Android13%2B).apk",
+    "developer": "Waces",
     "historyVersion": []
   },
   {
@@ -2427,7 +2600,7 @@
     ],
     "addedTime": 1770301715354,
     "updateTime": "2026-02-05",
-    "description": "跨平台待办事项与番茄工作法。\n一款融合GTD待办事项与番茄工作法的强大跨平台效率应用。基于艾维·李时间管理法设计，完美融入番茄钟专注功能，并配有强大的数据复盘系统。旨在为您的学习、工作和生活带来全新的高效体验。",
+    "description": "跨平台待办事项与番茄工作法。\n\n一款融合GTD待办事项与番茄工作法的强大跨平台效率应用。基于艾维·李时间管理法设计，完美融入番茄钟专注功能，并配有强大的数据复盘系统。旨在为您的学习、工作和生活带来全新的高效体验。",
     "category": "效率办公",
     "keywords": [
       "待办清单",
@@ -2457,7 +2630,7 @@
     ],
     "addedTime": 1765876640490,
     "updateTime": "2025-12-18",
-    "description": "Android11(WearOS3)及更高版本不可用\n一款采用蜂窝布局的Wear OS启动器，动画效果细腻流畅，在完整显示所有应用的同时优化了能耗，提供高效且视觉体验丰富的腕上桌面。",
+    "description": "Android11(WearOS3)及更高版本不可用\n\n一款采用蜂窝布局的Wear OS启动器，动画效果细腻流畅，在完整显示所有应用的同时优化了能耗，提供高效且视觉体验丰富的腕上桌面。",
     "category": "系统工具",
     "keywords": [
       "蜂窝启动器",
@@ -2774,7 +2947,7 @@
     ],
     "addedTime": 1767280565881,
     "updateTime": "2026-02-05",
-    "description": "一款简洁的开源文件管理器，专为 Wear OS 设计。支持基本的文件查看、删除、复制粘贴操作，并可置顶常用文件/文件夹。使用前需通过ADB手动授予文件权限。\nWearFiles需要存储权限，请执行以下adb命令：\nadb shell appops set --uid com.dertefter.wearfiles MANAGE_EXTERNAL_STORAGE allow",
+    "description": "一款简洁的开源文件管理器，专为 Wear OS 设计。支持基本的文件查看、删除、复制粘贴操作，并可置顶常用文件/文件夹。使用前需通过ADB手动授予文件权限。\n\nWearFiles需要存储权限，请执行以下adb命令：\nadb shell appops set --uid com.dertefter.wearfiles MANAGE_EXTERNAL_STORAGE allow",
     "category": "系统工具",
     "keywords": [
       "文件管理",
@@ -2913,7 +3086,7 @@
     ],
     "addedTime": 1768213627571,
     "updateTime": "2026-02-21",
-    "description": "WearOS3(Android11)及更高版本的系统请使用5.0版本。\n本地音乐播放器，支持通过同一WiFi网络从手机或PC传输歌曲至手表播放。",
+    "description": "WearOS3(Android11)及更高版本的系统请使用5.0版本。\n\n本地音乐播放器，支持通过同一WiFi网络从手机或PC传输歌曲至手表播放。",
     "category": "影音娱乐",
     "keywords": [
       "本地音乐",
@@ -3013,7 +3186,7 @@
     ],
     "addedTime": 1764730705847,
     "updateTime": "2026-02-05",
-    "description": "打卡签到养成自律习惯的日常。\n一个治愈系习惯养成助手。通过可爱的小狐狸伙伴和玫瑰花养成机制，温柔陪伴你完成每日打卡、专注计时。在沉浸式的虚拟自习室里，与好友一起专注学习成长。",
+    "description": "打卡签到养成自律习惯的日常。\n\n一个治愈系习惯养成助手。通过可爱的小狐狸伙伴和玫瑰花养成机制，温柔陪伴你完成每日打卡、专注计时。在沉浸式的虚拟自习室里，与好友一起专注学习成长。",
     "category": "效率办公",
     "keywords": [
       "习惯",
@@ -3136,6 +3309,31 @@
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/ae%201.0.5%20(Android%2011%20%2B).apk",
     "developer": "",
+    "historyVersion": []
+  },
+  {
+    "id": 579701982,
+    "name": "artifun.fishcat.watchface",
+    "package": "com.artifun.fishcat",
+    "version": "1.1.9",
+    "code": 10000019,
+    "minSdk": 33,
+    "size": "0.18 MB",
+    "icon": "assets/images/artifunfishcatwatchface/artifunfishcatwatchface_icon.webp",
+    "screenshots": [
+      "assets/images/artifunfishcatwatchface/artifunfishcatwatchface_1.webp"
+    ],
+    "addedTime": 1772022545318,
+    "updateTime": "2026-02-25",
+    "description": "一款为圆形Wear OS手表设计的数字表盘，显示日期、时间、电量百分比和步数，提供10种可切换的背景颜色。",
+    "category": "表盘美化",
+    "keywords": [
+      "数字表盘",
+      "步数",
+      "电量"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/artifun.fishcat.watchface1.1.9(Android13%2B).apk",
+    "developer": "artifun",
     "historyVersion": []
   },
   {
@@ -3858,7 +4056,7 @@
     ],
     "addedTime": 1764730721065,
     "updateTime": "2025-12-13",
-    "description": "OneUI8不可用\n三星健康应用，专为 Galaxy Watch 设计。其血压监测功能需配合臂式血压计定期校准，可记录静息状态下的血压与脉搏趋势；移动心电图功能可录制单通道心电图，用于提示房颤（AFib）或窦性心律，结果供参考，不可作为独立临床诊断依据。",
+    "description": "OneUI8不可用\n\n三星健康应用，专为 Galaxy Watch 设计。其血压监测功能需配合臂式血压计定期校准，可记录静息状态下的血压与脉搏趋势；移动心电图功能可录制单通道心电图，用于提示房颤（AFib）或窦性心律，结果供参考，不可作为独立临床诊断依据。",
     "category": "健康运动",
     "keywords": [
       "血压",
@@ -3970,7 +4168,7 @@
     ],
     "addedTime": 1770301727972,
     "updateTime": "2026-02-05",
-    "description": "番茄钟和任务清单。\n一款基于番茄工作法的任务管理与专注工具。通过将任务拆分为25分钟的番茄钟，帮助您集中注意力，告别拖延。提供强大的番茄计时器、专注数据报表（今日/周度统计），并以常亮时钟界面实时展示剩余时间，累计已帮助用户专注近2亿小时。",
+    "description": "番茄钟和任务清单。\n\n一款基于番茄工作法的任务管理与专注工具。通过将任务拆分为25分钟的番茄钟，帮助您集中注意力，告别拖延。提供强大的番茄计时器、专注数据报表（今日/周度统计），并以常亮时钟界面实时展示剩余时间，累计已帮助用户专注近2亿小时。",
     "category": "效率办公",
     "keywords": [
       "番茄钟",
@@ -4001,7 +4199,7 @@
     ],
     "addedTime": 1767927089241,
     "updateTime": "2026-01-09",
-    "description": "玩户外，就上两步路。\n户外助手“两步路”的手表版，支持无网络情况下记录轨迹、进行轨迹导航、查看队友位置及海拔趋势，是户外徒步与探险的可靠工具。",
+    "description": "玩户外，就上两步路。\n\n户外助手“两步路”的手表版，支持无网络情况下记录轨迹、进行轨迹导航、查看队友位置及海拔趋势，是户外徒步与探险的可靠工具。",
     "category": "健康运动",
     "keywords": [
       "户外徒步",
@@ -4041,7 +4239,7 @@
     ],
     "addedTime": 1767927089521,
     "updateTime": "2026-01-09",
-    "description": "中央广播电视总台声音新媒体平台。\n中央广播电视总台官方声音平台“云听”的手表版，聚合广播电台、精品有声书与热点资讯，提供高品质音频内容。",
+    "description": "中央广播电视总台声音新媒体平台。\n\n中央广播电视总台官方声音平台“云听”的手表版，聚合广播电台、精品有声书与热点资讯，提供高品质音频内容。",
     "category": "影音娱乐",
     "keywords": [
       "广播",
@@ -4122,7 +4320,7 @@
     ],
     "addedTime": 1769521996312,
     "updateTime": "2026-01-27",
-    "description": "对战、捕捉、升级，一站式宠物冒险!。\n一款融合了捕捉、对战与升级等核心玩法的像素风宠物养成游戏。在腕上邂逅风格各异的像素萌宠，通过战斗与培养建立羁绊，体验趣味的养成旅程。",
+    "description": "对战、捕捉、升级，一站式宠物冒险!。\n\n一款融合了捕捉、对战与升级等核心玩法的像素风宠物养成游戏。在腕上邂逅风格各异的像素萌宠，通过战斗与培养建立羁绊，体验趣味的养成旅程。",
     "category": "休闲游戏",
     "keywords": [
       "养成游戏",
@@ -4329,7 +4527,7 @@
     ],
     "addedTime": 1767927090840,
     "updateTime": "2026-01-09",
-    "description": "智能骑行省电跑更远。\n台铃电动车官方手表控制应用，支持启动/熄火、打开座垫、车辆定位与管理，实现智能骑行。",
+    "description": "智能骑行省电跑更远。\n\n台铃电动车官方手表控制应用，支持启动/熄火、打开座垫、车辆定位与管理，实现智能骑行。",
     "category": "生活服务",
     "keywords": [
       "台铃电动车",
@@ -4359,7 +4557,7 @@
     ],
     "addedTime": 1767927091435,
     "updateTime": "2026-01-09",
-    "description": "股市行情，轻松掌握。\n同花顺官方手表应用，提供自选股、实时行情与持仓盈亏查询，支持股价预警，助力投资者把握股市动态。",
+    "description": "股市行情，轻松掌握。\n\n同花顺官方手表应用，提供自选股、实时行情与持仓盈亏查询，支持股价预警，助力投资者把握股市动态。",
     "category": "生活服务",
     "keywords": [
       "股票",
@@ -4392,7 +4590,7 @@
     ],
     "addedTime": 1767927091810,
     "updateTime": "2026-01-09",
-    "description": "要运动，用咕咚!\n咕咚官方手表应用，支持独立进行跑步、骑行、健走等多种运动，记录轨迹与心率，提供语音播报和自动暂停功能，实现脱离手机运动。",
+    "description": "要运动，用咕咚!\n\n咕咚官方手表应用，支持独立进行跑步、骑行、健走等多种运动，记录轨迹与心率，提供语音播报和自动暂停功能，实现脱离手机运动。",
     "category": "健康运动",
     "keywords": [
       "跑步",
@@ -4541,7 +4739,7 @@
     ],
     "addedTime": 1764730734274,
     "updateTime": "2026-01-09",
-    "description": "发现听中问功能。\n喜马拉雅官方手表应用，提供海量有声书、播客、相声评书及课程节目。无论是通勤路上、运动间隙还是睡前时光，都能让你在手表上便捷收听，畅享音频内容。",
+    "description": "发现听中问功能。\n\n喜马拉雅官方手表应用，提供海量有声书、播客、相声评书及课程节目。无论是通勤路上、运动间隙还是睡前时光，都能让你在手表上便捷收听，畅享音频内容。",
     "category": "影音娱乐",
     "keywords": [
       "听书",
@@ -4812,7 +5010,7 @@
     ],
     "addedTime": 1767927096019,
     "updateTime": "2026-02-05",
-    "description": "记录羽毛球拍速、杀球、高远球等。\n一款专为羽毛球运动设计的分析应用，通过智能手表记录杀球、高远球等动作的挥拍速度，生成专业运动分析报告与趋势图表。",
+    "description": "记录羽毛球拍速、杀球、高远球等。\n\n一款专为羽毛球运动设计的分析应用，通过智能手表记录杀球、高远球等动作的挥拍速度，生成专业运动分析报告与趋势图表。",
     "category": "健康运动",
     "keywords": [
       "羽毛球",
@@ -4946,7 +5144,7 @@
     ],
     "addedTime": 1767927097287,
     "updateTime": "2026-01-09",
-    "description": "网络对讲，沟通零距离。\n一款依托公网对讲技术的专业级实时对讲应用，支持低延迟高清语音通话与历史语音回溯，保障团队沟通效率与隐私安全。",
+    "description": "网络对讲，沟通零距离。\n\n一款依托公网对讲技术的专业级实时对讲应用，支持低延迟高清语音通话与历史语音回溯，保障团队沟通效率与隐私安全。",
     "category": "通讯社交",
     "keywords": [
       "实时对讲",
@@ -4985,7 +5183,7 @@
     ],
     "addedTime": 1767927097722,
     "updateTime": "2026-01-09",
-    "description": "互联科技，打造个性化出行体验。\n小牛电动官方手表应用，用于连接和控制智能电动车，实现便捷的车辆操作与管理。",
+    "description": "互联科技，打造个性化出行体验。\n\n小牛电动官方手表应用，用于连接和控制智能电动车，实现便捷的车辆操作与管理。",
     "category": "生活服务",
     "keywords": [
       "电动车",
@@ -5043,7 +5241,7 @@
     ],
     "addedTime": 1767280576927,
     "updateTime": "2026-01-01",
-    "description": "简单美观的诗文在线阅读工具。\n一款专为手表打造的诗词歌赋学习应用，拥有海量的诗文库，并提供翻译和注释，是腕上的便携式诗文百科与学习工具。",
+    "description": "简单美观的诗文在线阅读工具。\n\n一款专为手表打造的诗词歌赋学习应用，拥有海量的诗文库，并提供翻译和注释，是腕上的便携式诗文百科与学习工具。",
     "category": "学习充电",
     "keywords": [
       "诗词",
@@ -5371,7 +5569,7 @@
     ],
     "addedTime": 1767927099295,
     "updateTime": "2026-01-09",
-    "description": "跑步计步运动健身专业软件\n悦跑圈官方手表应用，专注于跑步运动，支持独立记录跑步数据、提供专业训练指导，并可参与线上赛事活动。",
+    "description": "跑步计步运动健身专业软件\n\n悦跑圈官方手表应用，专注于跑步运动，支持独立记录跑步数据、提供专业训练指导，并可参与线上赛事活动。",
     "category": "健康运动",
     "keywords": [
       "跑步",
@@ -5467,7 +5665,7 @@
     ],
     "addedTime": 1767280578907,
     "updateTime": "2026-01-01",
-    "description": "Android11(WearOS3)及更高版本不可用\n一款设计经典的手表本地音乐播放器，支持播放列表管理、逐句歌词显示，并有像素风格版本可选，是脱离手机独立听歌的选择。",
+    "description": "Android11(WearOS3)及更高版本不可用\n\n一款设计经典的手表本地音乐播放器，支持播放列表管理、逐句歌词显示，并有像素风格版本可选，是脱离手机独立听歌的选择。",
     "category": "影音娱乐",
     "keywords": [
       "音乐播放器",
@@ -5590,7 +5788,7 @@
     ],
     "addedTime": 1767927101464,
     "updateTime": "2026-01-09",
-    "description": "公交实时到离站查询\n掌上公交”官方手表应用，支持全国400+城市实时公交到站查询、线路规划与扫码乘车，是腕上的公交出行管家。",
+    "description": "公交实时到离站查询\n\n掌上公交”官方手表应用，支持全国400+城市实时公交到站查询、线路规划与扫码乘车，是腕上的公交出行管家。",
     "category": "生活服务",
     "keywords": [
       "实时公交",
@@ -5698,7 +5896,7 @@
     ],
     "addedTime": 1764730745541,
     "updateTime": "2025-12-15",
-    "description": "支付就用支付宝！\n支付宝官方手表应用，支持出示付款码、乘车码进行支付与出行，并可查看账单，让移动支付体验更加便捷。",
+    "description": "支付就用支付宝！\n\n支付宝官方手表应用，支持出示付款码、乘车码进行支付与出行，并可查看账单，让移动支付体验更加便捷。",
     "category": "生活服务",
     "keywords": [
       "alipay",
@@ -5747,7 +5945,7 @@
     ],
     "addedTime": 1767927103702,
     "updateTime": "2026-01-09",
-    "description": "资讯头条看不断，财经娱乐全掌握。\n新浪新闻官方手表客户端，提供全球要闻、体育财经、娱乐社会等多领域资讯，支持个性化订阅与离线阅读。",
+    "description": "资讯头条看不断，财经娱乐全掌握。\n\n新浪新闻官方手表客户端，提供全球要闻、体育财经、娱乐社会等多领域资讯，支持个性化订阅与离线阅读。",
     "category": "生活服务",
     "keywords": [
       "新闻资讯",
@@ -5779,7 +5977,7 @@
     ],
     "addedTime": 1767927104103,
     "updateTime": "2026-01-09",
-    "description": "智能查单词，每日学单词\n新牛津英汉双解大词典官方手表应用，收录海量词条与教材词汇，支持智能查询与每日单词学习，是权威的腕上词典工具。",
+    "description": "智能查单词，每日学单词\n\n新牛津英汉双解大词典官方手表应用，收录海量词条与教材词汇，支持智能查询与每日单词学习，是权威的腕上词典工具。",
     "category": "学习充电",
     "keywords": [
       "英汉词典",
@@ -5968,7 +6166,7 @@
     ],
     "addedTime": 1770301746593,
     "updateTime": "2026-02-05",
-    "description": "精听细读，更好学英语。\n专为英语学习者打造的听力学习平台。每日精选推荐听力文章，收录海量泛听资源（VOA、BBC、经济学人等）与各类考试备考材料（四六级、雅思托福等）。提供经典教材与兴趣学习资源，助力精听细读，更好学英语。",
+    "description": "精听细读，更好学英语。\n\n专为英语学习者打造的听力学习平台。每日精选推荐听力文章，收录海量泛听资源（VOA、BBC、经济学人等）与各类考试备考材料（四六级、雅思托福等）。提供经典教材与兴趣学习资源，助力精听细读，更好学英语。",
     "category": "学习充电",
     "keywords": [
       "英语学习",
@@ -5998,7 +6196,7 @@
     ],
     "addedTime": 1767193136730,
     "updateTime": "2025-12-31",
-    "description": "比亚迪汽车用户服务与智慧互联。\n比亚迪App是为手表用户打造的一款手表钥匙应用。通过比亚迪App，为手表用户提供车况实时数据、远程车控和近场蓝牙车控等多项服务，给手表用户带来更加智能、便利、无忧的用车体验。可将手机App更新至相应版本及以上(比亚迪：4.0.0（鸿蒙）/9.0.0（安卓和iOS）、比亚迪王朝：8.7.0、比亚迪海洋：2.7.0、腾势汽车：3.3.5、方程豹汽车:3.2.0、仰望汽车：3.4.0）以便扫码登录进行使用。",
+    "description": "比亚迪汽车用户服务与智慧互联。\n\n比亚迪App是为手表用户打造的一款手表钥匙应用。通过比亚迪App，为手表用户提供车况实时数据、远程车控和近场蓝牙车控等多项服务，给手表用户带来更加智能、便利、无忧的用车体验。可将手机App更新至相应版本及以上(比亚迪：4.0.0（鸿蒙）/9.0.0（安卓和iOS）、比亚迪王朝：8.7.0、比亚迪海洋：2.7.0、腾势汽车：3.3.5、方程豹汽车:3.2.0、仰望汽车：3.4.0）以便扫码登录进行使用。",
     "category": "生活服务",
     "keywords": [
       "汽车互联",
@@ -6155,7 +6353,7 @@
     ],
     "addedTime": 1767927106511,
     "updateTime": "2026-01-09",
-    "description": "科技深蓝，先达未来。\n深蓝汽车官方手表应用，车主可通过手表远程查看车辆续航、锁车状态，并控制车门、车窗、空调及后备箱。",
+    "description": "科技深蓝，先达未来。\n\n深蓝汽车官方手表应用，车主可通过手表远程查看车辆续航、锁车状态，并控制车门、车窗、空调及后备箱。",
     "category": "生活服务",
     "keywords": [
       "汽车互联",
@@ -6184,7 +6382,7 @@
     ],
     "addedTime": 1764730751607,
     "updateTime": "2026-01-09",
-    "description": "专注时间管理日程提醒的待办事项清单。\n一款专注于时间管理与日程提醒的待办事项清单应用，支持多平台同步与智能识别，可帮你制定计划、设置提醒，是高效办公生活的得力助手。",
+    "description": "专注时间管理日程提醒的待办事项清单。\n\n一款专注于时间管理与日程提醒的待办事项清单应用，支持多平台同步与智能识别，可帮你制定计划、设置提醒，是高效办公生活的得力助手。",
     "category": "效率办公",
     "keywords": [
       "待办事项",
@@ -6223,7 +6421,7 @@
     ],
     "addedTime": 1767927110723,
     "updateTime": "2026-01-09",
-    "description": "专注时政与思想的新闻资讯全媒体平台。\n澎湃新闻官方手表客户端，专注提供时政要闻与深度思想内容，支持在腕间浏览高品质原创资讯。",
+    "description": "专注时政与思想的新闻资讯全媒体平台。\n\n澎湃新闻官方手表客户端，专注提供时政要闻与深度思想内容，支持在腕间浏览高品质原创资讯。",
     "category": "生活服务",
     "keywords": [
       "时政新闻",
@@ -6305,7 +6503,7 @@
     ],
     "addedTime": 1766050805503,
     "updateTime": "2025-12-18",
-    "description": "一只生活在手表里的小宠物~。\n一款在智能手表上领养和照料电子宠物的模拟养成游戏。宠物会从蛋成长到成年，需要喂食、清洁、上学、工作，并可装修房子、购买车辆，体验完整的养成乐趣。",
+    "description": "一只生活在手表里的小宠物~。\n\n一款在智能手表上领养和照料电子宠物的模拟养成游戏。宠物会从蛋成长到成年，需要喂食、清洁、上学、工作，并可装修房子、购买车辆，体验完整的养成乐趣。",
     "category": "休闲游戏",
     "keywords": [
       "养成游戏",
@@ -6363,7 +6561,7 @@
     ],
     "addedTime": 1770301754374,
     "updateTime": "2026-02-05",
-    "description": "番茄ToDo腕间高效专注神器番茄钟计时。\n番茄工作法在腕间的高效实践。与手机端数据无缝实时同步，增删待办、完成番茄皆自动同步。手表端提供一键启动番茄钟、灵活暂停/停止等核心操作，并支持丰富的个性化设置，让你随时随地从手腕开始专注。",
+    "description": "番茄ToDo腕间高效专注神器番茄钟计时。\n\n番茄工作法在腕间的高效实践。与手机端数据无缝实时同步，增删待办、完成番茄皆自动同步。手表端提供一键启动番茄钟、灵活暂停/停止等核心操作，并支持丰富的个性化设置，让你随时随地从手腕开始专注。",
     "category": "效率办公",
     "keywords": [
       "番茄钟",
@@ -6397,7 +6595,7 @@
     ],
     "addedTime": 1764730757721,
     "updateTime": "2026-01-09",
-    "description": "手表可独立使用步行、骑行导航。\n百度地图官方手表应用，支持在手表端独立使用步行与骑行导航，提供多种路线方案，并支持实时定位查询，让出行更便捷。",
+    "description": "手表可独立使用步行、骑行导航。\n\n百度地图官方手表应用，支持在手表端独立使用步行与骑行导航，提供多种路线方案，并支持实时定位查询，让出行更便捷。",
     "category": "生活服务",
     "keywords": [
       "步行导航",
@@ -6600,7 +6798,7 @@
     "screenshots": [],
     "addedTime": 1770643221770,
     "updateTime": "2026-02-09",
-    "description": "便捷智能手表车控应用。\n红旗官方推出的智能手表车控应用，为红旗车主提供便捷的远程控车体验。支持随时查看车辆续航、胎压、充电进度、门窗及空调状态，并能远程控制车门锁、车窗、空调开关与温度，以及一键寻车闪灯鸣笛。",
+    "description": "便捷智能手表车控应用。\n\n红旗官方推出的智能手表车控应用，为红旗车主提供便捷的远程控车体验。支持随时查看车辆续航、胎压、充电进度、门窗及空调状态，并能远程控制车门锁、车窗、空调开关与温度，以及一键寻车闪灯鸣笛。",
     "category": "生活服务",
     "keywords": [
       "红旗汽车",
@@ -6683,7 +6881,7 @@
     ],
     "addedTime": 1764730761496,
     "updateTime": "2026-01-12",
-    "description": "超8亿用户推荐，口碑爆棚的音乐APP!\n网易云音乐官方手表应用，提供个性推荐、运动歌单和会员曲库，支持离线畅听与无损音质，是腕上的高品质音乐伴侣。",
+    "description": "超8亿用户推荐，口碑爆棚的音乐APP!\n\n网易云音乐官方手表应用，提供个性推荐、运动歌单和会员曲库，支持离线畅听与无损音质，是腕上的高品质音乐伴侣。",
     "category": "影音娱乐",
     "keywords": [
       "音乐推荐",
@@ -7022,7 +7220,7 @@
     ],
     "addedTime": 1764730767167,
     "updateTime": "2026-02-09",
-    "description": "腕上极佳的多模型智能AI助理。\n集成多家主流AI模型的腕上智能助手，支持对话、答疑、写作辅助与联网搜索，随时随地获取智慧帮助。",
+    "description": "腕上极佳的多模型智能AI助理。\n\n集成多家主流AI模型的腕上智能助手，支持对话、答疑、写作辅助与联网搜索，随时随地获取智慧帮助。",
     "category": "学习充电",
     "keywords": [
       "AI助手",
@@ -7114,7 +7312,7 @@
     ],
     "addedTime": 1767927120435,
     "updateTime": "2026-01-09",
-    "description": "航旅纵横，伴你出行每一程。\n中国民航官方出行的航旅纵横手表版，提供权威的航班动态、电子登机牌、值机选座及行程自动导入服务，是差旅人士的腕上出行助手。",
+    "description": "航旅纵横，伴你出行每一程。\n\n中国民航官方出行的航旅纵横手表版，提供权威的航班动态、电子登机牌、值机选座及行程自动导入服务，是差旅人士的腕上出行助手。",
     "category": "生活服务",
     "keywords": [
       "航班查询",
@@ -7218,7 +7416,7 @@
     ],
     "addedTime": 1767927120801,
     "updateTime": "2026-01-09",
-    "description": "科学的减肥健身方案。\n薄荷健康官方手表应用，专注于科学减肥与健康管理，支持记录饮食、体重、体围等数据，并与手机App同步。",
+    "description": "科学的减肥健身方案。\n\n薄荷健康官方手表应用，专注于科学减肥与健康管理，支持记录饮食、体重、体围等数据，并与手机App同步。",
     "category": "健康运动",
     "keywords": [
       "减肥",
@@ -7271,7 +7469,7 @@
     ],
     "addedTime": 1767927121169,
     "updateTime": "2026-01-09",
-    "description": "专为户外运动爱好者打造的工具。\n行者户外助手手表版，专注于骑行、徒步等户外运动，提供轨迹记录、路书导航、队伍位置共享与海拔数据等功能。",
+    "description": "专为户外运动爱好者打造的工具。\n\n行者户外助手手表版，专注于骑行、徒步等户外运动，提供轨迹记录、路书导航、队伍位置共享与海拔数据等功能。",
     "category": "健康运动",
     "keywords": [
       "户外骑行",
@@ -7305,7 +7503,7 @@
     ],
     "addedTime": 1764730771527,
     "updateTime": "2026-02-05",
-    "description": "赏中华诗词，品生活之美。\n一款专注于中华古诗词学习的应用，提供按朝代、作者、地域检索的海量文库，以及诗词赏析与音频，是传统文化的腕上学习平台。",
+    "description": "赏中华诗词，品生活之美。\n\n一款专注于中华古诗词学习的应用，提供按朝代、作者、地域检索的海量文库，以及诗词赏析与音频，是传统文化的腕上学习平台。",
     "category": "学习充电",
     "keywords": [
       "古诗词",
@@ -7372,7 +7570,7 @@
     ],
     "addedTime": 1767927121982,
     "updateTime": "2026-01-09",
-    "description": "简单界面完整能用的圆表计算器。\n一款专为小米手表等圆屏设备适配的计算器，界面简洁，支持普通与科学计算两种模式，通过滑动切换。",
+    "description": "简单界面完整能用的圆表计算器。\n\n一款专为小米手表等圆屏设备适配的计算器，界面简洁，支持普通与科学计算两种模式，通过滑动切换。",
     "category": "生活服务",
     "keywords": [
       "计算器",
@@ -7524,7 +7722,7 @@
     ],
     "addedTime": 1764730774626,
     "updateTime": "2026-01-09",
-    "description": "海量正版音乐、小说、相声任你听。\n酷我音乐官方手表应用，依托腾讯音乐海量曲库，提供飙升榜、新歌榜等精选歌单，畅听正版音乐、小说与相声等内容。",
+    "description": "海量正版音乐、小说、相声任你听。\n\n酷我音乐官方手表应用，依托腾讯音乐海量曲库，提供飙升榜、新歌榜等精选歌单，畅听正版音乐、小说与相声等内容。",
     "category": "影音娱乐",
     "keywords": [
       "听歌",
@@ -7567,7 +7765,7 @@
     ],
     "addedTime": 1764730775002,
     "updateTime": "2025-12-12",
-    "description": "听歌就在 中国酷狗。\n酷狗音乐推出的年轻化、社交化版本。主打清爽简约的无广告体验和创新的 “一起听”、“音乐社区” 等社交功能，通过个性化的视觉皮肤，为年轻用户打造与众不同的音乐空间。",
+    "description": "听歌就在 中国酷狗。\n\n酷狗音乐推出的年轻化、社交化版本。主打清爽简约的无广告体验和创新的 “一起听”、“音乐社区” 等社交功能，通过个性化的视觉皮肤，为年轻用户打造与众不同的音乐空间。",
     "category": "影音娱乐",
     "keywords": [
       "lite",
@@ -7656,7 +7854,7 @@
     ],
     "addedTime": 1764730776250,
     "updateTime": "2026-02-05",
-    "description": "无广告、无开屏、无理财的记账能手。\n一款秉持“无广告、无开屏、无理财”理念的极简记账应用，专注个人收支记录，让每一笔消费清晰明了。",
+    "description": "无广告、无开屏、无理财的记账能手。\n\n一款秉持“无广告、无开屏、无理财”理念的极简记账应用，专注个人收支记录，让每一笔消费清晰明了。",
     "category": "效率办公",
     "keywords": [
       "记账",
@@ -7697,7 +7895,7 @@
     ],
     "addedTime": 1764730776679,
     "updateTime": "2025-12-12",
-    "description": "腕上英语学习利器。\n手表上的英语学习助手，覆盖多阶段词库，结合智能复习算法与可视化进度，助力高效掌握词汇。",
+    "description": "腕上英语学习利器。\n\n手表上的英语学习助手，覆盖多阶段词库，结合智能复习算法与可视化进度，助力高效掌握词汇。",
     "category": "学习充电",
     "keywords": [
       "英语学习",
@@ -7730,7 +7928,7 @@
     ],
     "addedTime": 1767927126244,
     "updateTime": "2026-01-09",
-    "description": "智慧骑行，乐享生活。\n雅迪电动车官方智能出行应用，支持通过手表进行车辆操控、状态查询与位置管理，提升用车安全与便捷性。",
+    "description": "智慧骑行，乐享生活。\n\n雅迪电动车官方智能出行应用，支持通过手表进行车辆操控、状态查询与位置管理，提升用车安全与便捷性。",
     "category": "生活服务",
     "keywords": [
       "雅迪电动车",
