@@ -380,7 +380,7 @@
     ],
     "addedTime": 1767280547247,
     "updateTime": "2026-01-01",
-    "description": "一款专为 Galaxy Watch 5 及以后系列设计的体温测量应用，可调用手表内置温度传感器，提供默认、皮肤和手腕三种测量模式（后两种为实验性校准模式）。",
+    "description": "OneUI8不可用\n\n一款专为 Galaxy Watch 5 及以后系列设计的体温测量应用，可调用手表内置温度传感器，提供默认、皮肤和手腕三种测量模式（后两种为实验性校准模式）。",
     "category": "健康运动",
     "keywords": [
       "体温测量",
@@ -2076,8 +2076,8 @@
     "developer": "深圳市腾讯计算机系统有限公司",
     "historyVersion": [],
     "recommendIds": [
-      2388747650,
-      286136756
+      286136756,
+      2388747650
     ],
     "modAuthor": "java30433"
   },
@@ -4378,11 +4378,21 @@
     ],
     "addedTime": 1772086315827,
     "updateTime": "2026-02-26",
-    "description": "",
-    "category": "",
-    "keywords": "",
-    "downloadUrl": "",
-    "developer": "",
+    "description": "一款专为骑行爱好者打造的综合性骑行社区应用。提供专业的骑行数据跟踪、路线生成与分享、寻找骑友（搭子）、车队组建、骑行圈子交流、装备商城等功能，让骑行更智能、更有趣。",
+    "category": "健康运动",
+    "keywords": [
+      "骑行",
+      "自行车",
+      "运动跟踪",
+      "路线规划",
+      "骑行社区",
+      "骑行数据",
+      "cycling",
+      "gonglu che",
+      "qixing"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%85%AC%E8%B7%AF%E5%B8%9D0.0.3(Android9%2B).apk",
+    "developer": "皆大欢喜（北京）科技有限公司",
     "historyVersion": []
   },
   {
@@ -5294,7 +5304,7 @@
     ],
     "addedTime": 1771760724526,
     "updateTime": "2026-02-26",
-    "description": "一款专为安卓手表端设计的强大电子书阅读器，支持导入TXT、EPUB、MOBI、NVB格式。具备TXT导入自动分章、书籍分类、书签管理和全文搜索功能。",
+    "description": "一款专为安卓手表端设计的强大电子书阅读器，支持导入TXT、EPUB、MOBI、NVB格式。具备TXT导入自动分章、书籍分类、书签管理和全文搜索功能。\n\n内置文件选择器授权：\n\n授予读取存储权限：\nadb shell pm grant moye.sine.books android.permission.READ_EXTERNAL_STORAGE\n授予写入存储权限：\nadb shell pm grant moye.sine.books android.permission.WRITE_EXTERNAL_STORAGE\n授予管理所有文件权限（针对 Android 11+）：\nadb shell appops set moye.sine.books MANAGE_EXTERNAL_STORAGE allow",
     "category": "学习充电",
     "keywords": [
       "阅读器",
@@ -5308,7 +5318,7 @@
       "ebook reader",
       "dianzi shu"
     ],
-    "downloadUrl": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.2(Android8%2B).apk",
     "developer": "爅峫",
     "historyVersion": [
       {
@@ -5341,7 +5351,7 @@
     ],
     "addedTime": 1764730739684,
     "updateTime": "2025-12-15",
-    "description": "微信官方智能手表客户端，支持在手表上查看消息、快捷回复、进行支付及查看动态，让重要的社交与生活服务不离手腕。",
+    "description": "使用此应用前，请确保手机微信版本在8.0.61以下；\n如需使用支付功能，请确保手机微信版本为8.0.20.\n\n微信官方智能手表客户端，支持在手表上查看消息、快捷回复、进行支付及查看动态，让重要的社交与生活服务不离手腕。",
     "category": "通讯社交",
     "keywords": [
       "聊天",
@@ -7940,11 +7950,21 @@
     ],
     "addedTime": 1772086349005,
     "updateTime": "2026-02-26",
-    "description": "",
-    "category": "",
-    "keywords": "",
-    "downloadUrl": "",
-    "developer": "",
+    "description": "一款AI驱动的智能语音笔记应用，帮助用户随时随地记录灵感。支持语音转录文字、AI讨论总结、智能卡片生成、闪问AI智能问答与笔记搜索。提供离线记录、自定义标签、自动归类等功能，让每一个想法都不被遗忘。",
+    "category": "效率办公",
+    "keywords": [
+      "语音笔记",
+      "AI转录",
+      "语音转文字",
+      "灵感记录",
+      "智能总结",
+      "语音识别",
+      "shannian beike",
+      "voice notes",
+      "AI"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%97%AA%E5%BF%B5%E8%B4%9D%E5%A3%B31.0.0(Android8%2B).apk",
+    "developer": "广州圆红点科技有限公司",
     "historyVersion": []
   },
   {
