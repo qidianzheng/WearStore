@@ -2396,6 +2396,30 @@
     "historyVersion": []
   },
   {
+    "id": 656876595,
+    "name": "Sun",
+    "package": "com.watchfacestudio.sunfin2",
+    "version": "IBM",
+    "code": 10137891,
+    "minSdk": 34,
+    "size": "0.31 MB",
+    "icon": "assets/images/sun/sun_icon.webp",
+    "screenshots": [
+      "assets/images/sun/sun_1.webp"
+    ],
+    "addedTime": 1772254553038,
+    "updateTime": "2026-02-28",
+    "description": "亮红色为电量，暗红色速率为心率。",
+    "category": "表盘美化",
+    "keywords": [
+      "cmf",
+      "nothing"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Sun_IBM_(Android14%2B).apk",
+    "developer": "飞舞畅想",
+    "historyVersion": []
+  },
+  {
     "id": 3277444958,
     "name": "SunCircle",
     "package": "com.dudu.watchface.suncircle",
@@ -4853,20 +4877,20 @@
     "version": "1.0.0",
     "code": 10000008,
     "minSdk": 33,
-    "size": "56.99 MB",
+    "size": "4.05 MB",
     "icon": "assets/images/siguniangshan/siguniangshan_icon.webp",
     "screenshots": [
       "assets/images/siguniangshan/siguniangshan_1.webp"
     ],
     "addedTime": 1769240185613,
-    "updateTime": "2026-01-24",
+    "updateTime": "2026-02-28",
     "description": "一款将MIUI著名'四姑娘山'超级壁纸移植到WearOS设备的表盘,呈现雪山的动态视觉效果.",
     "category": "表盘美化",
     "keywords": [
       "MIUI壁纸",
       "雪山主题"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%9B%9B%E5%A7%91%E5%A8%98%E5%B1%B1%201.0.0%20(Android%2013%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%9B%9B%E5%A7%91%E5%A8%98%E5%B1%B11.0.0(Android13%2B).apk",
     "developer": "游园新春",
     "historyVersion": []
   },
@@ -5291,10 +5315,10 @@
     "id": 1979471110,
     "name": "弦电子书",
     "package": "moye.sine.books",
-    "version": "1.0.2",
-    "code": 2,
+    "version": "1.0.5",
+    "code": 5,
     "minSdk": 26,
-    "size": "3.09 MB",
+    "size": "2.42 MB",
     "icon": "assets/images/xiandianzishu/xiandianzishu_icon.webp",
     "screenshots": [
       "assets/images/xiandianzishu/xiandianzishu_1.webp",
@@ -5303,7 +5327,7 @@
       "assets/images/xiandianzishu/xiandianzishu_4.webp"
     ],
     "addedTime": 1771760724526,
-    "updateTime": "2026-02-26",
+    "updateTime": "2026-02-28",
     "description": "一款专为安卓手表端设计的强大电子书阅读器，支持导入TXT、EPUB、MOBI、NVB格式。具备TXT导入自动分章、书籍分类、书签管理和全文搜索功能。\n\n内置文件选择器授权：\n\n授予读取存储权限：\nadb shell pm grant moye.sine.books android.permission.READ_EXTERNAL_STORAGE\n授予写入存储权限：\nadb shell pm grant moye.sine.books android.permission.WRITE_EXTERNAL_STORAGE\n授予管理所有文件权限（针对 Android 11+）：\nadb shell appops set moye.sine.books MANAGE_EXTERNAL_STORAGE allow",
     "category": "学习充电",
     "keywords": [
@@ -5318,9 +5342,16 @@
       "ebook reader",
       "dianzi shu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.2(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.5(Android8%2B).apk",
     "developer": "爅峫",
     "historyVersion": [
+      {
+        "version": "1.0.2",
+        "code": 2,
+        "minSdk": 26,
+        "size": "3.09 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.2(Android8%2B).apk"
+      },
       {
         "version": "1.0.1",
         "code": 1,
@@ -5328,9 +5359,6 @@
         "size": "3.06 MB",
         "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A61.0.1(Android8%2B).apk"
       }
-    ],
-    "recommendIds": [
-      447281565
     ]
   },
   {
@@ -8037,10 +8065,10 @@
     "id": 3273386591,
     "name": "风轻音乐",
     "package": "com.qifang.fqmusic",
-    "version": "1.2.0",
-    "code": 120,
+    "version": "1.2.6",
+    "code": 126,
     "minSdk": 26,
-    "size": "14.29 MB",
+    "size": "14.36 MB",
     "icon": "assets/images/fengqingyinle/fengqingyinle_icon.webp",
     "screenshots": [
       "assets/images/fengqingyinle/fengqingyinle_1.webp",
@@ -8051,7 +8079,7 @@
       "assets/images/fengqingyinle/fengqingyinle_6.webp"
     ],
     "addedTime": 1771378824031,
-    "updateTime": "2026-02-22",
+    "updateTime": "2026-02-28",
     "description": "一款功能丰富的音乐播放器，支持播放/暂停、上一首/下一首、循环/单曲/随机模式切换。提供软件音量面板与系统音量面板、屏幕常亮开关、表冠滚动开关、专辑背景开关，可自动识别歌曲元信息并修正歌名歌手，支持扫描本地音乐，专为安卓手表/WearOS设计。",
     "category": "影音娱乐",
     "keywords": [
@@ -8062,9 +8090,16 @@
       "yinyue bofang",
       "bendi yinyue"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E9%A3%8E%E8%BD%BB%E9%9F%B3%E4%B9%901.2.0(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%A3%8E%E8%BD%BB%E9%9F%B3%E4%B9%901.2.6(Android8%2B).apk",
     "developer": "柒坊",
     "historyVersion": [
+      {
+        "version": "1.2.0",
+        "code": 120,
+        "minSdk": 26,
+        "size": "14.29 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E9%A3%8E%E8%BD%BB%E9%9F%B3%E4%B9%901.2.0(Android8%2B).apk"
+      },
       {
         "version": "1.1.2",
         "code": 112,
