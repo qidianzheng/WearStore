@@ -8065,8 +8065,8 @@
     "id": 3273386591,
     "name": "风轻音乐",
     "package": "com.qifang.fqmusic",
-    "version": "1.2.6",
-    "code": 126,
+    "version": "1.2.8",
+    "code": 128,
     "minSdk": 26,
     "size": "14.36 MB",
     "icon": "assets/images/fengqingyinle/fengqingyinle_icon.webp",
@@ -8079,8 +8079,8 @@
       "assets/images/fengqingyinle/fengqingyinle_6.webp"
     ],
     "addedTime": 1771378824031,
-    "updateTime": "2026-02-28",
-    "description": "一款功能丰富的音乐播放器，支持播放/暂停、上一首/下一首、循环/单曲/随机模式切换。提供软件音量面板与系统音量面板、屏幕常亮开关、表冠滚动开关、专辑背景开关，可自动识别歌曲元信息并修正歌名歌手，支持扫描本地音乐，专为安卓手表/WearOS设计。",
+    "updateTime": "2026-03-01",
+    "description": "一款功能丰富的音乐播放器，支持播放/暂停、上一首/下一首、循环/单曲/随机模式切换。提供软件音量面板与系统音量面板、屏幕常亮开关、表冠滚动开关、专辑背景开关、歌词页开关，可自动识别歌曲元信息并修正歌名歌手，支持扫描本地音乐。另有捐赠用户高级模式，解锁更多特性。",
     "category": "影音娱乐",
     "keywords": [
       "音乐播放器",
@@ -8090,9 +8090,16 @@
       "yinyue bofang",
       "bendi yinyue"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E9%A3%8E%E8%BD%BB%E9%9F%B3%E4%B9%901.2.6(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%A3%8E%E8%BD%BB%E9%9F%B3%E4%B9%901.2.8(Android8%2B).apk",
     "developer": "柒坊",
     "historyVersion": [
+      {
+        "version": "1.2.6",
+        "code": 126,
+        "minSdk": 26,
+        "size": "14.36 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E9%A3%8E%E8%BD%BB%E9%9F%B3%E4%B9%901.2.6(Android8%2B).apk"
+      },
       {
         "version": "1.2.0",
         "code": 120,
