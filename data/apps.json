@@ -4033,39 +4033,6 @@
     "historyVersion": []
   },
   {
-    "id": 3586248562,
-    "name": "万文管理",
-    "package": "com.cjy.wearplay",
-    "version": "5.0.6",
-    "code": 506,
-    "minSdk": 17,
-    "size": "17.86 MB",
-    "icon": "assets/images/wanwenguanli/wanwenguanli_icon.webp",
-    "screenshots": [
-      "assets/images/wanwenguanli/wanwenguanli_1.webp",
-      "assets/images/wanwenguanli/wanwenguanli_2.webp",
-      "assets/images/wanwenguanli/wanwenguanli_3.webp",
-      "assets/images/wanwenguanli/wanwenguanli_4.webp",
-      "assets/images/wanwenguanli/wanwenguanli_5.webp"
-    ],
-    "addedTime": 1766050795997,
-    "updateTime": "2025-12-18",
-    "description": "一款功能强大的手表端文件管理器，支持按分类查看图片、音乐、视频等文件，可使用外部应用打开。内置FTP服务，方便与手机端互传文件，管理手表存储。",
-    "category": "系统工具",
-    "keywords": [
-      "文件管理器",
-      "FTP传输",
-      "手机互传",
-      "多媒体查看",
-      "file manager",
-      "wenjian guanli",
-      "wanwenguanli"
-    ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%87%E6%96%87%E7%AE%A1%E7%90%86%205.0.6%20(Android%204.2%20%2B).apk",
-    "developer": "一挽流砸AZ",
-    "historyVersion": []
-  },
-  {
     "id": 1863848067,
     "name": "三星健康监测器修改版",
     "package": "com.samsung.android.shealthmonitors",
