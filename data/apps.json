@@ -2218,6 +2218,27 @@
     "historyVersion": []
   },
   {
+    "id": 438354656,
+    "name": "SUN",
+    "package": "com.watchfacestudio.sunratea2",
+    "version": "IBM",
+    "code": 10137891,
+    "minSdk": 33,
+    "size": "0.31 MB",
+    "icon": "assets/images/sun/sun_icon.webp",
+    "screenshots": [
+      "assets/images/sun/sun_1.webp"
+    ],
+    "addedTime": 1773498677546,
+    "updateTime": "2026-03-14",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/SUN_IBM_(Android13%2B).apk",
+    "developer": "飞舞畅想",
+    "historyVersion": []
+  },
+  {
     "id": 58504821,
     "name": "Sera Digital",
     "package": "com.watchfacestudio.seradigital",
@@ -2393,30 +2414,6 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Stopwatch%205.6.0%20(Android%2013%20%2B).apk",
     "developer": "Electric Wave",
-    "historyVersion": []
-  },
-  {
-    "id": 656876595,
-    "name": "Sun",
-    "package": "com.watchfacestudio.sunfin2",
-    "version": "IBM",
-    "code": 10137891,
-    "minSdk": 34,
-    "size": "0.31 MB",
-    "icon": "assets/images/sun/sun_icon.webp",
-    "screenshots": [
-      "assets/images/sun/sun_1.webp"
-    ],
-    "addedTime": 1772254553038,
-    "updateTime": "2026-02-28",
-    "description": "亮红色为电量，暗红色速率为心率。",
-    "category": "表盘美化",
-    "keywords": [
-      "cmf",
-      "nothing"
-    ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Sun_IBM_(Android14%2B).apk",
-    "developer": "飞舞畅想",
     "historyVersion": []
   },
   {
@@ -4356,6 +4353,28 @@
     "historyVersion": []
   },
   {
+    "id": 196128011,
+    "name": "全境封锁",
+    "package": "com.watchfacestudio.thedivision",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "0.72 MB",
+    "icon": "assets/images/quanjingfengsuo/quanjingfengsuo_icon.webp",
+    "screenshots": [
+      "assets/images/quanjingfengsuo/quanjingfengsuo_1.webp",
+      "assets/images/quanjingfengsuo/quanjingfengsuo_2.webp"
+    ],
+    "addedTime": 1773498702461,
+    "updateTime": "2026-03-14",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%85%A8%E5%A2%83%E5%B0%81%E9%94%811.0.0(Android14%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
     "id": 3391596823,
     "name": "公路帝",
     "package": "com.gld.bike",
@@ -4530,7 +4549,7 @@
     "category": "表盘美化",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%8D%A1%E7%9A%AE%E5%B7%B4%E6%8B%89%201.0.0%20(Android%2011%20%2B).apk",
-    "developer": "",
+    "developer": "-秋禾",
     "historyVersion": []
   },
   {
@@ -4887,6 +4906,28 @@
       3305117968,
       806944559
     ]
+  },
+  {
+    "id": 4093195932,
+    "name": "地铁_离去",
+    "package": "com.watchfacestudio.metro",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "2.17 MB",
+    "icon": "assets/images/ditieliqu/ditieliqu_icon.webp",
+    "screenshots": [
+      "assets/images/ditieliqu/ditieliqu_1.webp",
+      "assets/images/ditieliqu/ditieliqu_2.webp"
+    ],
+    "addedTime": 1773498711842,
+    "updateTime": "2026-03-14",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%9C%B0%E9%93%81_%E7%A6%BB%E5%8E%BB1.0.0(Android13%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
   },
   {
     "id": 2796637367,
@@ -5279,11 +5320,33 @@
     "historyVersion": []
   },
   {
+    "id": 2236146336,
+    "name": "巫师3",
+    "package": "com.watchfacestudio.thewitcher",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "2.98 MB",
+    "icon": "assets/images/wushi3/wushi3_icon.webp",
+    "screenshots": [
+      "assets/images/wushi3/wushi3_1.webp",
+      "assets/images/wushi3/wushi3_2.webp"
+    ],
+    "addedTime": 1773498716756,
+    "updateTime": "2026-03-14",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%B7%AB%E5%B8%883_1.0.0_(Android13%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
     "id": 1979471110,
     "name": "弦电子书",
     "package": "moye.sine.books",
-    "version": "1.0.5",
-    "code": 5,
+    "version": "1.0.6",
+    "code": 6,
     "minSdk": 26,
     "size": "2.42 MB",
     "icon": "assets/images/xiandianzishu/xiandianzishu_icon.webp",
@@ -5294,7 +5357,7 @@
       "assets/images/xiandianzishu/xiandianzishu_4.webp"
     ],
     "addedTime": 1771760724526,
-    "updateTime": "2026-02-28",
+    "updateTime": "2026-03-14",
     "description": "一款专为安卓手表端设计的强大电子书阅读器，支持导入TXT、EPUB、MOBI、NVB格式。具备TXT导入自动分章、书籍分类、书签管理和全文搜索功能。\n\n内置文件选择器授权：\n\n授予读取存储权限：\nadb shell pm grant moye.sine.books android.permission.READ_EXTERNAL_STORAGE\n授予写入存储权限：\nadb shell pm grant moye.sine.books android.permission.WRITE_EXTERNAL_STORAGE\n授予管理所有文件权限（针对 Android 11+）：\nadb shell appops set moye.sine.books MANAGE_EXTERNAL_STORAGE allow",
     "category": "学习充电",
     "keywords": [
@@ -5309,9 +5372,16 @@
       "ebook reader",
       "dianzi shu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.5(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.6(Android8%2B).apk",
     "developer": "爅峫",
     "historyVersion": [
+      {
+        "version": "1.0.5",
+        "code": 5,
+        "minSdk": 26,
+        "size": "2.42 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.5(Android8%2B).apk"
+      },
       {
         "version": "1.0.2",
         "code": 2,
@@ -6158,6 +6228,28 @@
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%AC%A7%E7%B1%B3%E8%8C%84%E5%8F%B2%E5%8A%AA%E6%AF%9450%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5%E7%89%88%201.0.0%20(Android%2013%20%2B).apk",
     "developer": "",
+    "historyVersion": []
+  },
+  {
+    "id": 2139439866,
+    "name": "死亡空间",
+    "package": "com.watchfacestudio.deadspace",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "2.27 MB",
+    "icon": "assets/images/siwangkongjian/siwangkongjian_icon.webp",
+    "screenshots": [
+      "assets/images/siwangkongjian/siwangkongjian_1.webp",
+      "assets/images/siwangkongjian/siwangkongjian_2.webp"
+    ],
+    "addedTime": 1773498726678,
+    "updateTime": "2026-03-14",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%AD%BB%E4%BA%A1%E7%A9%BA%E9%97%B41.0.0(Android14%2B).apk",
+    "developer": "勤寒",
     "historyVersion": []
   },
   {
@@ -7106,6 +7198,38 @@
     "historyVersion": []
   },
   {
+    "id": 1996356217,
+    "name": "腕上教材",
+    "package": "com.daochuan.wear.book",
+    "version": "1.2-Final",
+    "code": 100010,
+    "minSdk": 15,
+    "size": "5.82 MB",
+    "icon": "assets/images/wanshangjiaocai/wanshangjiaocai_icon.webp",
+    "screenshots": [
+      "assets/images/wanshangjiaocai/wanshangjiaocai_1.webp",
+      "assets/images/wanshangjiaocai/wanshangjiaocai_2.webp",
+      "assets/images/wanshangjiaocai/wanshangjiaocai_3.webp"
+    ],
+    "addedTime": 1773498751410,
+    "updateTime": "2026-03-14",
+    "description": "一款专为高中生设计的手表端古文背诵辅助软件，无需联网即可免费查询高中背诵篇目。基于“腕上周期表”开源项目二次开发，让用户放下厚重的背诵手册，随时随地利用腕上设备进行古文学习和背诵。",
+    "category": "学习充电",
+    "keywords": [
+      "高中古文",
+      "古诗文背诵",
+      "学习工具",
+      "腕上背诵",
+      "语文学习",
+      "gushiwen",
+      "beisong",
+      "xuexi"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E6%95%99%E6%9D%901.2-Final(Android6%2B).apk",
+    "developer": "氘氚xs",
+    "historyVersion": []
+  },
+  {
     "id": 2653482018,
     "name": "腕上视频",
     "package": "cn.luern0313.wristvideoplayer",
@@ -7662,6 +7786,56 @@
     "historyVersion": []
   },
   {
+    "id": 3836329288,
+    "name": "赛博朋克2077",
+    "package": "com.watchfacestudio.punk",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 36,
+    "size": "8.46 MB",
+    "icon": "assets/images/saibopengke2077/saibopengke2077_icon.webp",
+    "screenshots": [
+      "assets/images/saibopengke2077/saibopengke2077_1.webp",
+      "assets/images/saibopengke2077/saibopengke2077_2.webp"
+    ],
+    "addedTime": 1773498757990,
+    "updateTime": "2026-03-14",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B2077_1.0.0_(Android16%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": [],
+    "recommendIds": [
+      2713819169
+    ]
+  },
+  {
+    "id": 2713819169,
+    "name": "赛博朋克2077无动画自定义版本",
+    "package": "com.watchfacestudio.punknv",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 36,
+    "size": "1.22 MB",
+    "icon": "assets/images/saibopengke2077wudonghuazidingyibanben/saibopengke2077wudonghuazidingyibanben_icon.webp",
+    "screenshots": [
+      "assets/images/saibopengke2077wudonghuazidingyibanben/saibopengke2077wudonghuazidingyibanben_1.webp",
+      "assets/images/saibopengke2077wudonghuazidingyibanben/saibopengke2077wudonghuazidingyibanben_2.webp"
+    ],
+    "addedTime": 1773498758005,
+    "updateTime": "2026-03-14",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B2077%E6%97%A0%E5%8A%A8%E7%94%BB%E8%87%AA%E5%AE%9A%E4%B9%89%E7%89%88%E6%9C%AC1.0.0(Android16%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": [],
+    "recommendIds": [
+      3836329288
+    ]
+  },
+  {
     "id": 509899979,
     "name": "起源云笔记",
     "package": "xyz.osdn.ocloudnote",
@@ -7724,6 +7898,28 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E8%B5%B7%E6%BA%90%E9%98%85%E8%AF%BB%201.9%E4%BF%AE%E5%A4%8D%E7%89%88%20(Android%205%20%2B).apk",
     "developer": "LouisonH",
+    "historyVersion": []
+  },
+  {
+    "id": 1230572142,
+    "name": "辐射",
+    "package": "com.watchfacestudio.bibboy",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "0.81 MB",
+    "icon": "assets/images/fushe/fushe_icon.webp",
+    "screenshots": [
+      "assets/images/fushe/fushe_1.webp",
+      "assets/images/fushe/fushe_2.webp"
+    ],
+    "addedTime": 1773498758403,
+    "updateTime": "2026-03-14",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%BE%90%E5%B0%841.0.0(Android14%2B).apk",
+    "developer": "勤寒",
     "historyVersion": []
   },
   {
