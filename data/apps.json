@@ -1924,6 +1924,71 @@
     "historyVersion": []
   },
   {
+    "id": 1413374326,
+    "name": "P5R步数",
+    "package": "com.watchfacestudio.p5r",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "4.38 MB",
+    "icon": "assets/images/p5rbushu/p5rbushu_icon.webp",
+    "screenshots": [
+      "assets/images/p5rbushu/p5rbushu_1.webp",
+      "assets/images/p5rbushu/p5rbushu_2.webp"
+    ],
+    "addedTime": 1773909199055,
+    "updateTime": "2026-03-19",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/P5R%E6%AD%A5%E6%95%B01.0.0(Android14%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
+    "id": 321505185,
+    "name": "P5R电量",
+    "package": "com.watchfacestudio.p5r",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "4.38 MB",
+    "icon": "assets/images/p5rdianliang/p5rdianliang_icon.webp",
+    "screenshots": [
+      "assets/images/p5rdianliang/p5rdianliang_1.webp",
+      "assets/images/p5rdianliang/p5rdianliang_2.webp"
+    ],
+    "addedTime": 1773909199306,
+    "updateTime": "2026-03-19",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/P5R%E7%94%B5%E9%87%8F1.0.0(Android14%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
+    "id": 1193713198,
+    "name": "P5R黑白aod主题",
+    "package": "com.watchfacestudio.p5raod",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "1.65 MB",
+    "icon": "assets/images/p5rheibaiaodzhuti/p5rheibaiaodzhuti_icon.webp",
+    "screenshots": [
+      "assets/images/p5rheibaiaodzhuti/p5rheibaiaodzhuti_1.webp"
+    ],
+    "addedTime": 1773909199633,
+    "updateTime": "2026-03-19",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/P5R%E9%BB%91%E7%99%BDaod%E4%B8%BB%E9%A2%981.0.0(Android13%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
     "id": 790826520,
     "name": "POP Time",
     "package": "com.alexeymorozua.poptime",
@@ -2136,6 +2201,94 @@
         "downloadUrl": "https://download.wearstore.asia/APK/QQ%E9%9F%B3%E4%B9%901.1.0.9(Android6%2B).apk"
       }
     ]
+  },
+  {
+    "id": 3989188934,
+    "name": "RE9格蕾丝",
+    "package": "com.watchfacestudio.residentevil9.Grace",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 36,
+    "size": "2.23 MB",
+    "icon": "assets/images/re9geleisi/re9geleisi_icon.webp",
+    "screenshots": [
+      "assets/images/re9geleisi/re9geleisi_1.webp",
+      "assets/images/re9geleisi/re9geleisi_2.webp"
+    ],
+    "addedTime": 1773909212142,
+    "updateTime": "2026-03-19",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/RE9%E6%A0%BC%E8%95%BE%E4%B8%9D1.0.0(Android16%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
+    "id": 430234758,
+    "name": "RE9格蕾丝兼容",
+    "package": "com.watchfacestudio.residentevil9.Graceg",
+    "version": "1.0.1",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "2.22 MB",
+    "icon": "assets/images/re9geleisijianrong/re9geleisijianrong_icon.webp",
+    "screenshots": [
+      "assets/images/re9geleisijianrong/re9geleisijianrong_1.webp",
+      "assets/images/re9geleisijianrong/re9geleisijianrong_2.webp"
+    ],
+    "addedTime": 1773909212344,
+    "updateTime": "2026-03-19",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/RE9%E6%A0%BC%E8%95%BE%E4%B8%9D%E5%85%BC%E5%AE%B91.0.1(Android13%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
+    "id": 2823498444,
+    "name": "RE9里昂",
+    "package": "com.watchfacestudio.residentevil9.leon",
+    "version": "1.0.1",
+    "code": 10000001,
+    "minSdk": 36,
+    "size": "2.90 MB",
+    "icon": "assets/images/re9liang/re9liang_icon.webp",
+    "screenshots": [
+      "assets/images/re9liang/re9liang_1.webp",
+      "assets/images/re9liang/re9liang_2.webp"
+    ],
+    "addedTime": 1773909212529,
+    "updateTime": "2026-03-19",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/RE9%E9%87%8C%E6%98%821.0.1(Android16%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
+    "id": 2090642346,
+    "name": "RE9里昂兼容",
+    "package": "com.watchfacestudio.residentevil9.leonSDK34",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "2.28 MB",
+    "icon": "assets/images/re9liangjianrong/re9liangjianrong_icon.webp",
+    "screenshots": [
+      "assets/images/re9liangjianrong/re9liangjianrong_1.webp",
+      "assets/images/re9liangjianrong/re9liangjianrong_2.webp"
+    ],
+    "addedTime": 1773909212754,
+    "updateTime": "2026-03-19",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/RE9%E9%87%8C%E6%98%82%E5%85%BC%E5%AE%B91.0.0(Android14%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
   },
   {
     "id": 1199103243,
@@ -4561,6 +4714,28 @@
     "historyVersion": []
   },
   {
+    "id": 3409388853,
+    "name": "反法西斯80周年纪念表盘",
+    "package": "com.watchfacestudio.Test_41329514401705218199947209435743",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "0.63 MB",
+    "icon": "assets/images/fanfaxisi80zhounianjinianbiaopan/fanfaxisi80zhounianjinianbiaopan_icon.webp",
+    "screenshots": [
+      "assets/images/fanfaxisi80zhounianjinianbiaopan/fanfaxisi80zhounianjinianbiaopan_1.webp",
+      "assets/images/fanfaxisi80zhounianjinianbiaopan/fanfaxisi80zhounianjinianbiaopan_2.webp"
+    ],
+    "addedTime": 1773909256729,
+    "updateTime": "2026-03-19",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%8F%8D%E6%B3%95%E8%A5%BF%E6%96%AF80%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B51.0.0(Android14%2B).apk",
+    "developer": "哈哈氦",
+    "historyVersion": []
+  },
+  {
     "id": 2229082534,
     "name": "台铃智能",
     "package": "com.tailg.intelligencewearandroid",
@@ -5325,6 +5500,28 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%B0%8F%E8%BD%BB%E9%98%85%201.1.1%20(Android%206%20%2B).apk",
     "developer": "重庆努优尔科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 2865761508,
+    "name": "尼尔风格表盘",
+    "package": "com.watchfacestudio.Nier",
+    "version": "Nier",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "5.94 MB",
+    "icon": "assets/images/nierfenggebiaopan/nierfenggebiaopan_icon.webp",
+    "screenshots": [
+      "assets/images/nierfenggebiaopan/nierfenggebiaopan_1.webp",
+      "assets/images/nierfenggebiaopan/nierfenggebiaopan_2.webp"
+    ],
+    "addedTime": 1773909272638,
+    "updateTime": "2026-03-19",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%B0%BC%E5%B0%94%E9%A3%8E%E6%A0%BC%E8%A1%A8%E7%9B%98(Android13%2B).apk",
+    "developer": "洛卡伊鸥",
     "historyVersion": []
   },
   {
@@ -6803,22 +7000,7 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E5%B8%82%E5%9C%BA1.0.13.apk",
     "developer": "Qdz",
-    "historyVersion": [
-      {
-        "version": "1.0.12",
-        "code": 12,
-        "minSdk": 26,
-        "size": "21.94 MB",
-        "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E5%B8%82%E5%9C%BA1.0.12.apk"
-      },
-      {
-        "version": "1.0.9",
-        "code": 9,
-        "minSdk": 26,
-        "size": "21.52 MB",
-        "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E5%B8%82%E5%9C%BA1.0.9.apk"
-      }
-    ],
+    "historyVersion": [],
     "recommendIds": [
       447281565
     ]
@@ -6853,6 +7035,28 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E7%AE%80%E6%98%93%E5%BD%95%E9%9F%B3%E6%9C%BA%202.9.4%20(Android%209%20%2B).apk",
     "developer": "Digipom",
+    "historyVersion": []
+  },
+  {
+    "id": 485236200,
+    "name": "简梦",
+    "package": "com.watchfacestudio.mrmeng",
+    "version": "2.2",
+    "code": 10000002,
+    "minSdk": 33,
+    "size": "0.09 MB",
+    "icon": "assets/images/jianmeng/jianmeng_icon.webp",
+    "screenshots": [
+      "assets/images/jianmeng/jianmeng_1.webp",
+      "assets/images/jianmeng/jianmeng_2.webp"
+    ],
+    "addedTime": 1773909323115,
+    "updateTime": "2026-03-19",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%AE%80%E6%A2%A62.2(Android13%2B).apk",
+    "developer": "丨MRMeng丨",
     "historyVersion": []
   },
   {
@@ -7989,10 +8193,10 @@
     "id": 2081935439,
     "name": "酷狗概念版",
     "package": "com.kugou.android.watch.lite",
-    "version": "2.4.5",
-    "code": 10501,
+    "version": "2.4.6",
+    "code": 10603,
     "minSdk": 19,
-    "size": "14.29 MB",
+    "size": "14.01 MB",
     "icon": "assets/images/kugougainianban/kugougainianban_icon.webp",
     "screenshots": [
       "assets/images/kugougainianban/kugougainianban_1.webp",
@@ -8003,7 +8207,7 @@
       "assets/images/kugougainianban/kugougainianban_6.webp"
     ],
     "addedTime": 1764730775002,
-    "updateTime": "2025-12-12",
+    "updateTime": "2026-03-19",
     "description": "听歌就在 中国酷狗。\n\n酷狗音乐推出的年轻化、社交化版本。主打清爽简约的无广告体验和创新的 “一起听”、“音乐社区” 等社交功能，通过个性化的视觉皮肤，为年轻用户打造与众不同的音乐空间。",
     "category": "影音娱乐",
     "keywords": [
@@ -8012,9 +8216,17 @@
       "kugou",
       "music"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.5(Android4.4%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.6(Android4.4%2B).apk",
     "developer": "广州酷狗计算机科技有限公司",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "2.4.5",
+        "code": 10501,
+        "minSdk": 19,
+        "size": "14.29 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.5(Android4.4%2B).apk"
+      }
+    ]
   },
   {
     "id": 2463721091,
