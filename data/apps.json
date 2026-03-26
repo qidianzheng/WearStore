@@ -6936,8 +6936,8 @@
     "id": 1287852515,
     "name": "磨损市场",
     "package": "com.qdz.wearstore",
-    "version": "1.0.14",
-    "code": 14,
+    "version": "1.0.15",
+    "code": 15,
     "minSdk": 26,
     "size": "10.79 MB",
     "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
@@ -6955,7 +6955,7 @@
     "keywords": [
       "WearSore"
     ],
-    "downloadUrl": "",
+    "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E5%B8%82%E5%9C%BA1.0.15.apk",
     "developer": "Qdz",
     "historyVersion": [],
     "recommendIds": [
