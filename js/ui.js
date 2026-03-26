@@ -20,26 +20,35 @@ window.handleImgError = function (img) {
 /**
  * 创建应用卡片
  */
-export function createCard(app) {
+export function createCard(app, isBig = false) {
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
   const bestData = getBestMatchVersion(app, userApi) || app;
 
   const card = document.createElement('div');
-  card.className = 'card';
 
   if (String(app.id) === "1287852515") {
     card.classList.add('card-featured-ai');
   }
 
-  const displayDev = app.modAuthor ? app.modAuthor : (app.developer || '未知开发者');
-
-  card.innerHTML = `
-        <img src="${escapeHtml(app.icon)}" class="card-icon" onerror="handleImgError(this)">
-        <div class="card-content">
-            <div class="card-title">${escapeHtml(app.name)}</div>
-            <div class="card-dev-name">${escapeHtml(displayDev)}</div>
-        </div>
-        <span class="material-symbols-rounded card-action-icon color-primary">arrow_forward</span>`;
+  if (isBig) {
+    card.className += ' card-big';
+    card.innerHTML = `
+            <div class="card-big-icon-box">
+                <img src="${escapeHtml(app.icon)}" onerror="handleImgError(this)">
+            </div>
+            <div class="card-big-title">${escapeHtml(app.name)}</div>
+        `;
+  } else {
+    card.className += ' card';
+    const displayDev = app.modAuthor ? app.modAuthor : (app.developer || '未知开发者');
+    card.innerHTML = `
+            <img src="${escapeHtml(app.icon)}" class="card-icon" onerror="handleImgError(this)">
+            <div class="card-content">
+                <div class="card-title">${escapeHtml(app.name)}</div>
+                <div class="card-dev-name">${escapeHtml(displayDev)}</div>
+            </div>
+            <span class="material-symbols-rounded card-action-icon color-primary">arrow_forward</span>`;
+  }
 
   card.onclick = () => {
     window.location.hash = `app=${app.package}+${encodeURIComponent(bestData.version || 'unknown')}+${bestData.code || 0}`;
@@ -53,15 +62,43 @@ export function renderCategoryModal(title, appsList) { createWindow(title, appsL
 function createWindow(title, list, type, attr) {
   let maxZ = 1300;
   document.querySelectorAll('.modal-overlay').forEach(el => maxZ = Math.max(maxZ, parseInt(window.getComputedStyle(el).zIndex) || 1300));
+
   const m = document.createElement('div');
-  m.className = 'modal-overlay'; m.style.zIndex = maxZ + 10;
-  m.setAttribute('data-type', type); m.setAttribute(attr, title); m.setAttribute('data-dynamic', 'true');
-  m.innerHTML = `<div class="modal"><div class="dev-modal-layout"><div class="window-header"><span>${escapeHtml(title)}</span><span class="material-symbols-rounded header-close-img">close</span></div><div class="dev-content"><div class="cards-grid"></div></div></div></div>`;
-  const container = m.querySelector('.cards-grid');
-  if (list.length === 0) container.innerHTML = '<div class="no-result-tip">暂无应用</div>';
-  else list.forEach(app => container.appendChild(createCard(app)));
+  m.className = 'modal-overlay';
+  m.style.zIndex = maxZ + 10;
+  m.setAttribute('data-type', type);
+  m.setAttribute(attr, title);
+  m.setAttribute('data-dynamic', 'true');
+
+  const isBigMode = (type === 'dev') || (title === '表盘美化');
+  const gridClass = isBigMode ? 'big-cards-grid' : 'cards-grid';
+
+  m.innerHTML = `
+        <div class="modal">
+            <div class="dev-modal-layout">
+                <div class="window-header">
+                    <span>${escapeHtml(title)}</span>
+                    <span class="material-symbols-rounded header-close-img">close</span>
+                </div>
+                <div class="dev-content">
+                    <div class="${gridClass}"></div>
+                </div>
+            </div>
+        </div>`;
+
+  const container = m.querySelector(`.${gridClass}`);
+  if (list.length === 0) {
+    container.innerHTML = '<div class="no-result-tip">暂无相关应用</div>';
+  } else {
+    list.forEach(app => {
+      // 传入 isBigMode 参数
+      container.appendChild(createCard(app, isBigMode));
+    });
+  }
+
   m.querySelector('.header-close-img').onclick = () => smartBack();
-  document.body.appendChild(m); document.body.style.overflow = 'hidden';
+  document.body.appendChild(m);
+  document.body.style.overflow = 'hidden';
   setTimeout(() => m.classList.add('active'), 10);
 }
 
@@ -166,7 +203,7 @@ export function renderAppModal(app) {
   const reqVer = apiMap[data.minSdk] || data.minSdk;
   const warningHtml = !isCompat ? `<div class="modal-warning-row"><div class="compat-warning-box">此应用无法在您的手表上使用，您需要 Android ${reqVer}+才能使用此应用。</div></div>` : '';
 
-  // 3. 操作栏 (下载按钮、密码、手机配套、分享)
+  // 3. 操作栏
   const hasUrl = data.downloadUrl && data.downloadUrl.trim() !== "";
   const downloadBtnHtml = hasUrl
     ? `<div class="btn-download-rect" id="dlBtn"><span class="material-symbols-rounded">download</span><span>下载</span></div>`

@@ -443,6 +443,100 @@ body {
   opacity: 1;
 }
 
+.big-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 15px 12px;
+  padding: 10px 5px;
+  justify-content: start;
+}
+
+@media (min-width: 641px) {
+  .big-cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .big-cards-grid {
+    grid-template-columns: repeat(8, minmax(0, 160px));
+    gap: 30px 18px;
+    padding: 15px 0;
+    justify-content: flex-start;
+  }
+}
+
+/* 大图标卡片基础样式 */
+.card-big {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-big:hover {
+  transform: scale(1.08);
+}
+
+.card-big-icon-box {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: var(--input-bg);
+  border: 1.5px solid var(--input-border);
+  border-radius: 22%;
+  overflow: hidden;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-sm);
+  max-width: 100%;
+}
+
+/* 图标盒子 */
+.card-big-icon-box {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: var(--input-bg);
+  border: 1.5px solid var(--input-border);
+  border-radius: 22%;
+  overflow: hidden;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-sm);
+  max-width: 100%;
+}
+
+.card-big-icon-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* 应用名称样式 */
+.card-big-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-main);
+  text-align: center;
+  width: 100%;
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding: 0 4px;
+}
+
 /* 历史版本简易卡片 */
 .history-simple-card {
   background: var(--card-glass);
@@ -1514,20 +1608,16 @@ img.image-error::after {
 
 .card-featured-ai {
   position: relative;
-  /* 必须移除原生边框，防止干扰 */
   border: none !important;
   background: var(--card-glass);
   z-index: 1;
 }
 
-/* 使用伪元素制作“仅边框可见”的流光层 */
 .card-featured-ai::before {
   content: "";
   position: absolute;
-  /* 这里的 -2px 决定了边框向外扩展的厚度 */
   inset: -2px;
   padding: 2px;
-  /* 这里的 2px 必须与 inset 的绝对值一致，决定边框厚度 */
   border-radius: calc(var(--radius-lg) + 2px);
 
   /* AI 流光渐变背景 */
@@ -1538,9 +1628,6 @@ img.image-error::after {
       #32cc70,
       #00f2fe);
   background-size: 400% 400%;
-
-  /* --- 核心：遮罩技术（挖空中心） --- */
-  /* 让背景只在 padding 区域（即边框）显示，中间 content 区域被剔除 */
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
@@ -1549,17 +1636,14 @@ img.image-error::after {
 
   animation: ai-glow-move 3s linear infinite;
   pointer-events: none;
-  /* 防止遮罩层干扰点击 */
   z-index: 2;
 }
 
-/* 确保鼠标悬停效果依然存在 */
 .card-featured-ai:hover {
   transform: translateY(-4px) scale(1.01);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* 动画保持不变 */
 @keyframes ai-glow-move {
   0% {
     background-position: 0% 50%;

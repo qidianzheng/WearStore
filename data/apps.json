@@ -420,27 +420,6 @@
     "historyVersion": []
   },
   {
-    "id": 158350757,
-    "name": "CCWatch Galaxy Lite",
-    "package": "com.ccwatch.ccgalaxy2",
-    "version": "1.0.0",
-    "code": 1,
-    "minSdk": 28,
-    "size": "3.39 MB",
-    "icon": "assets/images/ccwatchgalaxylite/ccwatchgalaxylite_icon.webp",
-    "screenshots": [
-      "assets/images/ccwatchgalaxylite/ccwatchgalaxylite_1.webp"
-    ],
-    "addedTime": 1769240150111,
-    "updateTime": "2026-01-24",
-    "description": "",
-    "category": "表盘美化",
-    "keywords": [],
-    "downloadUrl": "https://download.wearstore.asia/APK/CCWatch%20Galaxy%20Lite%201.0.0%20(Android%2011%20%2B).apk",
-    "developer": "",
-    "historyVersion": []
-  },
-  {
     "id": 1377558027,
     "name": "CMF Analog",
     "package": "com.sparkine.mwf.cmfanalog",
@@ -2187,13 +2166,6 @@
     "developer": "腾讯音乐娱乐（深圳）有限公司",
     "historyVersion": [
       {
-        "version": "1.1.0.4",
-        "code": 13,
-        "minSdk": 23,
-        "size": "12.43 MB",
-        "downloadUrl": ""
-      },
-      {
         "version": "1.1.0.9",
         "code": 4,
         "minSdk": 23,
@@ -3137,22 +3109,7 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/WearFiles2.0.3(Android8%2B).apk",
     "developer": "Dertefter Labs",
-    "historyVersion": [
-      {
-        "version": "1.5.6",
-        "code": 26,
-        "minSdk": 28,
-        "size": "5.35 MB",
-        "downloadUrl": ""
-      },
-      {
-        "version": "1.5.4",
-        "code": 24,
-        "minSdk": 28,
-        "size": "12.85 MB",
-        "downloadUrl": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 806735725,
@@ -6979,10 +6936,10 @@
     "id": 1287852515,
     "name": "磨损市场",
     "package": "com.qdz.wearstore",
-    "version": "1.0.13",
-    "code": 13,
+    "version": "1.0.14",
+    "code": 14,
     "minSdk": 26,
-    "size": "22.29 MB",
+    "size": "10.79 MB",
     "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
     "screenshots": [
       "assets/images/mosunshichang/mosunshichang_1.webp",
@@ -6992,13 +6949,13 @@
       "assets/images/mosunshichang/mosunshichang_5.webp"
     ],
     "addedTime": 1770301760137,
-    "updateTime": "2026-03-15",
+    "updateTime": "2026-03-26",
     "description": "WearStore官方手表应用商店来了，现在您可以在手表上下载和安装应用。\n\nWearOS2和3用户请安装AnExplorer5.9.7及更高版本，在“选择安装方式”中选择“通过AnExplorer安装”。\n通过AnExplorer安装，请确保您开启了 ADB 调试和无线调试。\n\n磨损市场需要安装未知应用权限，WearOS4和5通过以下方式授权：\nadb shell appops set --uid com.qdz.wearstore REQUEST_INSTALL_PACKAGES allow\n\n官方交流群QQ1077259743\n\n开发者联系方式dzq8719@gmail.com",
     "category": "系统工具",
     "keywords": [
       "WearSore"
     ],
-    "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E5%B8%82%E5%9C%BA1.0.13.apk",
+    "downloadUrl": "",
     "developer": "Qdz",
     "historyVersion": [],
     "recommendIds": [

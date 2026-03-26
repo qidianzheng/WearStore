@@ -31,8 +31,15 @@ async function init() {
 
 function initFuse() {
   const options = {
-    includeScore: true, threshold: 0.3, location: 0, distance: 100, ignoreLocation: true,
-    keys: [{ name: 'name', weight: 1.0 }, { name: 'keywords', weight: 0.7 }]
+    includeScore: true,
+    threshold: 0.3,
+    location: 0,
+    distance: 100,
+    ignoreLocation: true,
+    keys: [
+      { name: 'name', weight: 1.0 },     // 名字权重最高
+      { name: 'keywords', weight: 0.7 } // 关键词次之
+    ]
   };
   fuse = new Fuse(allApps, options);
 }
@@ -79,7 +86,6 @@ function checkHashLink() {
     return;
   }
 
-  // 🔥 核心修复：智能堆栈逻辑（增加对 #list= 的支持）
   const existingModal = activeModals.find(m => {
     if (hash === '#menu') return m.getAttribute('data-type') === 'menu';
 
@@ -124,7 +130,7 @@ function checkHashLink() {
     }
     existingModal.classList.add('active');
     document.body.style.overflow = 'hidden';
-    return; // 找到了就不再重新渲染，保留滚动位置
+    return;
   }
 
   // --- 以下为渲染新页面的逻辑 ---
