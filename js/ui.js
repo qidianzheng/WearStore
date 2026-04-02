@@ -324,13 +324,38 @@ export function renderAppModal(app) {
 }
 
 function showToast(msg) {
-  const t = document.createElement('div'); t.className = 'toast';
-  t.innerHTML = `<span class="toast-text">${msg}</span>`;
   const container = document.getElementById('toast-container');
-  if (container) {
-    container.appendChild(t);
-    setTimeout(() => { t.style.opacity = '0'; setTimeout(() => t.remove(), 300); }, 2000);
-  }
+  if (!container) return;
+
+  const t = document.createElement('div');
+  t.className = 'toast';
+
+  t.innerHTML = `
+        <span class="material-symbols-rounded toast-icon" style="color: var(--primary-color); font-size: 20px;">check_circle</span>
+        <span class="toast-text">${msg}</span>
+        <span class="material-symbols-rounded toast-close">close</span>
+    `;
+
+  container.appendChild(t);
+
+  const closeToast = () => {
+    t.style.opacity = '0';
+    t.style.transform = 'translateY(-20px)';
+    setTimeout(() => {
+      if (t.parentElement) t.remove();
+    }, 300);
+  };
+
+  t.querySelector('.toast-close').onclick = (e) => {
+    e.stopPropagation();
+    closeToast();
+  };
+
+  setTimeout(() => {
+    if (document.body.contains(t)) {
+      closeToast();
+    }
+  }, 3000);
 }
 
 export function renderCardList(apps, container) {
