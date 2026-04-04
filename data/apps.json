@@ -159,25 +159,32 @@
     "id": 829834691,
     "name": "Analog Watch Face-WF1",
     "package": "com.analogwatch.watchface.wearos.wear.classiwatchface.wf1.freewatchface",
-    "version": "2.0.0",
-    "code": 10000002,
+    "version": "3.0.0",
+    "code": 10000003,
     "minSdk": 33,
-    "size": "0.32 MB",
+    "size": "0.28 MB",
     "icon": "assets/images/analogwatchfacewf1/analogwatchfacewf1_icon.webp",
     "screenshots": [
       "assets/images/analogwatchfacewf1/analogwatchfacewf1_1.webp"
     ],
     "addedTime": 1769240149001,
-    "updateTime": "2026-01-24",
+    "updateTime": "2026-04-04",
     "description": "一款优雅的经典指针式表盘，清晰展示心率、步数、电量、日期等健康与实用信息，支持息屏显示和点击测量心率。",
     "category": "表盘美化",
     "keywords": [
       "健康信息",
       "心率步数"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Analog%20Watch%20Face-WF1%202.0.0%20(Android%2013%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Analog%20Watch%20Face-WF1_3.0.0_(Android13%2B).apk",
     "developer": "jigu watchface",
     "historyVersion": [
+      {
+        "version": "2.0.0",
+        "code": 10000002,
+        "minSdk": 33,
+        "size": "0.32 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Analog%20Watch%20Face-WF1%202.0.0%20(Android%2013%20%2B).apk"
+      },
       {
         "version": "1.0.0",
         "code": 10000001,
@@ -818,6 +825,30 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/DS%20H006_1.0.3_(Android14%2B).apk",
     "developer": "Douglas Silva :: Dect",
+    "historyVersion": []
+  },
+  {
+    "id": 4228665337,
+    "name": "Dusk",
+    "package": "com.watchfacestudio.Dusk",
+    "version": "1.1",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "0.83 MB",
+    "icon": "assets/images/dusk/dusk_icon.webp",
+    "screenshots": [
+      "assets/images/dusk/dusk_1.webp",
+      "assets/images/dusk/dusk_2.webp"
+    ],
+    "addedTime": 1775280011305,
+    "updateTime": "2026-04-04",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [
+      "景深"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Dusk1.1(Android13%2B).apk",
+    "developer": "zhou1y",
     "historyVersion": []
   },
   {
@@ -1631,6 +1662,29 @@
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/MistyBlueDream%204.0.0%20(Android%2011%20%2B).apk",
     "developer": "",
+    "historyVersion": []
+  },
+  {
+    "id": 903364287,
+    "name": "Momoi Theme",
+    "package": "com.sawa.momoiwatchface",
+    "version": "1.3Gamma-full",
+    "code": 3,
+    "minSdk": 30,
+    "size": "24.59 MB",
+    "icon": "assets/images/momoitheme/momoitheme_icon.webp",
+    "screenshots": [
+      "assets/images/momoitheme/momoitheme_1.webp",
+      "assets/images/momoitheme/momoitheme_2.webp",
+      "assets/images/momoitheme/momoitheme_3.webp"
+    ],
+    "addedTime": 1775280017462,
+    "updateTime": "2026-04-04",
+    "description": "WearOS表盘市场",
+    "category": "系统工具",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/Momoi%20Theme1.3(Android11%2B).apk",
+    "developer": "sawaaa",
     "historyVersion": []
   },
   {
@@ -3056,10 +3110,10 @@
     "id": 1626746721,
     "name": "WaterReminder(喝水提醒)",
     "package": "com.romarickc.reminder",
-    "version": "1.2",
-    "code": 3,
+    "version": "1.3",
+    "code": 4,
     "minSdk": 30,
-    "size": "79.10 MB",
+    "size": "19.71 MB",
     "icon": "assets/images/waterreminderheshuitixing/waterreminderheshuitixing_icon.webp",
     "screenshots": [
       "assets/images/waterreminderheshuitixing/waterreminderheshuitixing_1.webp",
@@ -3069,7 +3123,7 @@
       "assets/images/waterreminderheshuitixing/waterreminderheshuitixing_5.webp"
     ],
     "addedTime": 1770301716664,
-    "updateTime": "2026-02-05",
+    "updateTime": "2026-04-04",
     "description": "一款独立的Wear OS饮水提醒应用。无需连接手机，即可在手表上接收从早8点到晚11点的规律性补水通知。可配置通知频率，提供精美的表盘磁贴、数据导入/导出功能以及内置的补水小贴士，帮助您养成健康饮水习惯。",
     "category": "健康运动",
     "keywords": [
@@ -3081,9 +3135,17 @@
       "yinshui",
       "jiankang"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/WaterReminder1.2(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WaterReminder1.3(Android11%2B).apk",
     "developer": "RomaricKc1",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.2",
+        "code": 3,
+        "minSdk": 30,
+        "size": "79.10 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/WaterReminder1.2(Android11%2B).apk"
+      }
+    ]
   },
   {
     "id": 1120712413,
@@ -4354,8 +4416,8 @@
     "id": 1426841148,
     "name": "专注清单",
     "package": "com.superelement.pomodoro",
-    "version": "3.1",
-    "code": 10021,
+    "version": "3.2",
+    "code": 10022,
     "minSdk": 31,
     "size": "4.48 MB",
     "icon": "assets/images/zhuanzhuqingdan/zhuanzhuqingdan_icon.webp",
@@ -4366,7 +4428,7 @@
       "assets/images/zhuanzhuqingdan/zhuanzhuqingdan_4.webp"
     ],
     "addedTime": 1770301727972,
-    "updateTime": "2026-02-05",
+    "updateTime": "2026-04-04",
     "description": "番茄钟和任务清单。\n\n一款基于番茄工作法的任务管理与专注工具。通过将任务拆分为25分钟的番茄钟，帮助您集中注意力，告别拖延。提供强大的番茄计时器、专注数据报表（今日/周度统计），并以常亮时钟界面实时展示剩余时间，累计已帮助用户专注近2亿小时。",
     "category": "效率办公",
     "keywords": [
@@ -4378,7 +4440,7 @@
       "Focus List",
       "renwu guanli"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%93%E6%B3%A8%E6%B8%85%E5%8D%953.1(Android12%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%93%E6%B3%A8%E6%B8%85%E5%8D%953.2(Android12%2B).apk",
     "developer": "深圳市番茄软件科技有限公司",
     "historyVersion": []
   },
@@ -4950,10 +5012,10 @@
     "id": 2913175280,
     "name": "哔哩终端",
     "package": "com.RobinNotBad.BiliClient",
-    "version": "2.9.7",
-    "code": 20260131,
+    "version": "2.9.8",
+    "code": 20260320,
     "minSdk": 14,
-    "size": "9.24 MB",
+    "size": "9.25 MB",
     "icon": "assets/images/bilizhongduan/bilizhongduan_icon.webp",
     "screenshots": [
       "assets/images/bilizhongduan/bilizhongduan_1.webp",
@@ -4963,7 +5025,7 @@
       "assets/images/bilizhongduan/bilizhongduan_5.webp"
     ],
     "addedTime": 1764730732767,
-    "updateTime": "2026-02-09",
+    "updateTime": "2026-04-04",
     "description": "一款专为智能手表及低配置设备打造的轻量级第三方B站客户端。界面简洁无广告，支持扫码登录同步收藏与历史记录，并可根据手表屏幕自定义界面，提供流畅的移动观影体验。",
     "category": "影音娱乐",
     "keywords": [
@@ -4975,9 +5037,16 @@
       "第三方b站",
       "bilizhongduan"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%93%94%E5%93%A9%E7%BB%88%E7%AB%AF2.9.7(Android4%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%93%94%E5%93%A9%E7%BB%88%E7%AB%AF2.9.8.apk",
     "developer": "RobinNotBad",
     "historyVersion": [
+      {
+        "version": "2.9.7",
+        "code": 20260131,
+        "minSdk": 14,
+        "size": "9.24 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%93%94%E5%93%A9%E7%BB%88%E7%AB%AF2.9.7(Android4%2B).apk"
+      },
       {
         "version": "2.9.5-fix",
         "code": 20260125,
@@ -6827,10 +6896,10 @@
     "id": 137963304,
     "name": "电子宠物机",
     "package": "com.peggy_cat_hw.phonegt",
-    "version": "1.15",
-    "code": 16,
+    "version": "1.28",
+    "code": 28,
     "minSdk": 24,
-    "size": "40.70 MB",
+    "size": "36.97 MB",
     "icon": "assets/images/dianzichongwuji/dianzichongwuji_icon.webp",
     "screenshots": [
       "assets/images/dianzichongwuji/dianzichongwuji_1.webp",
@@ -6839,7 +6908,7 @@
       "assets/images/dianzichongwuji/dianzichongwuji_4.webp"
     ],
     "addedTime": 1766050805503,
-    "updateTime": "2025-12-18",
+    "updateTime": "2026-04-04",
     "description": "一只生活在手表里的小宠物~。\n\n一款在智能手表上领养和照料电子宠物的模拟养成游戏。宠物会从蛋成长到成年，需要喂食、清洁、上学、工作，并可装修房子、购买车辆，体验完整的养成乐趣。",
     "category": "休闲游戏",
     "keywords": [
@@ -6850,9 +6919,17 @@
       "dianzi chongwu",
       "yangcheng youxi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E7%94%B5%E5%AD%90%E5%AE%A0%E7%89%A9%E6%9C%BA_1.15(Android%207%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%94%B5%E5%AD%90%E5%AE%A0%E7%89%A9%E6%9C%BA1.28(Android7%2B).apk",
     "developer": "珠海市趣境网络工作室",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.15",
+        "code": 16,
+        "minSdk": 24,
+        "size": "40.70 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E7%94%B5%E5%AD%90%E5%AE%A0%E7%89%A9%E6%9C%BA_1.15(Android%207%20%2B).apk"
+      }
+    ]
   },
   {
     "id": 2763570712,
@@ -7037,10 +7114,10 @@
     "id": 4195018046,
     "name": "简易录音机",
     "package": "com.coffeebeanventures.easyvoicerecorder",
-    "version": "2.9.4",
-    "code": 332940102,
-    "minSdk": 28,
-    "size": "3.19 MB",
+    "version": "2.10.0",
+    "code": 342991302,
+    "minSdk": 30,
+    "size": "3.31 MB",
     "icon": "assets/images/jianyiluyinji/jianyiluyinji_icon.webp",
     "screenshots": [
       "assets/images/jianyiluyinji/jianyiluyinji_1.webp",
@@ -7050,7 +7127,7 @@
       "assets/images/jianyiluyinji/jianyiluyinji_5.webp"
     ],
     "addedTime": 1764730759544,
-    "updateTime": "2025-12-12",
+    "updateTime": "2026-04-04",
     "description": "专为手表设计的轻便录音工具，高品质录制会议、课堂或灵感瞬间，并支持快速分享，随时随地留存重要声音。",
     "category": "效率办公",
     "keywords": [
@@ -7061,9 +7138,17 @@
       "录音笔",
       "easy voice recorder"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E7%AE%80%E6%98%93%E5%BD%95%E9%9F%B3%E6%9C%BA%202.9.4%20(Android%209%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%AE%80%E6%98%93%E5%BD%95%E9%9F%B3%E6%9C%BA2.10.0(Android11%2B).apk",
     "developer": "Digipom",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "2.9.4",
+        "code": 332940102,
+        "minSdk": 28,
+        "size": "3.19 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E7%AE%80%E6%98%93%E5%BD%95%E9%9F%B3%E6%9C%BA%202.9.4%20(Android%209%20%2B).apk"
+      }
+    ]
   },
   {
     "id": 485236200,
@@ -7180,6 +7265,28 @@
         "downloadUrl": "https://download.wearstore.asia/APK/%E7%BA%A2%E6%97%97%E6%99%BA%E8%81%941.0.1(Android11%2B).apk"
       }
     ]
+  },
+  {
+    "id": 169855753,
+    "name": "组合",
+    "package": "com.watchfacestudio.Test_58970850575312113822502824751446",
+    "version": "1.0.0",
+    "code": 13,
+    "minSdk": 28,
+    "size": "3.91 MB",
+    "icon": "assets/images/zuhe/zuhe_icon.webp",
+    "screenshots": [
+      "assets/images/zuhe/zuhe_1.webp",
+      "assets/images/zuhe/zuhe_2.webp"
+    ],
+    "addedTime": 1775280064303,
+    "updateTime": "2026-04-04",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%BB%84%E5%90%881.0.0(Android9%2B).apk",
+    "developer": "",
+    "historyVersion": []
   },
   {
     "id": 2766875134,
@@ -8124,38 +8231,6 @@
     "historyVersion": []
   },
   {
-    "id": 2551996793,
-    "name": "起源阅读",
-    "package": "xyz.osdn.bookreader",
-    "version": "v1.9",
-    "code": 41,
-    "minSdk": 21,
-    "size": "13.25 MB",
-    "icon": "assets/images/qiyuanyuedu/qiyuanyuedu_icon.webp",
-    "screenshots": [
-      "assets/images/qiyuanyuedu/qiyuanyuedu_1.webp",
-      "assets/images/qiyuanyuedu/qiyuanyuedu_2.webp",
-      "assets/images/qiyuanyuedu/qiyuanyuedu_3.webp",
-      "assets/images/qiyuanyuedu/qiyuanyuedu_4.webp"
-    ],
-    "addedTime": 1767280593512,
-    "updateTime": "2026-01-01",
-    "description": "一款手表端的轻量级小说阅读器，支持在线搜索和阅读网络文学作品，也可从本地导入文本文件，方便在通勤等碎片时间进行阅读。",
-    "category": "学习充电",
-    "keywords": [
-      "小说阅读器",
-      "在线阅读",
-      "本地导入",
-      "文本阅读",
-      "reading app",
-      "yueduqi",
-      "xiaoshuo"
-    ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E8%B5%B7%E6%BA%90%E9%98%85%E8%AF%BB%201.9%E4%BF%AE%E5%A4%8D%E7%89%88%20(Android%205%20%2B).apk",
-    "developer": "LouisonH",
-    "historyVersion": []
-  },
-  {
     "id": 1230572142,
     "name": "辐射",
     "package": "com.watchfacestudio.bibboy",
@@ -8255,6 +8330,29 @@
         "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.5(Android4.4%2B).apk"
       }
     ]
+  },
+  {
+    "id": 2195400104,
+    "name": "酷狗铃声",
+    "package": "com.kugou.xtcwatchkgringtone",
+    "version": "1.3.7",
+    "code": 137,
+    "minSdk": 19,
+    "size": "7.20 MB",
+    "icon": "assets/images/kugoulingsheng/kugoulingsheng_icon.webp",
+    "screenshots": [
+      "assets/images/kugoulingsheng/kugoulingsheng_1.webp",
+      "assets/images/kugoulingsheng/kugoulingsheng_2.webp",
+      "assets/images/kugoulingsheng/kugoulingsheng_3.webp"
+    ],
+    "addedTime": 1775280071906,
+    "updateTime": "2026-04-04",
+    "description": "设置手表来电铃声和闹钟铃声",
+    "category": "影音娱乐",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E9%93%83%E5%A3%B01.3.7(Android4.4%2B).apk",
+    "developer": "广州酷狗计算机科技有限公司",
+    "historyVersion": []
   },
   {
     "id": 2463721091,
