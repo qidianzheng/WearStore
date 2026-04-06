@@ -1986,6 +1986,72 @@
     "historyVersion": []
   },
   {
+    "id": 2484839654,
+    "name": "P3R入水",
+    "package": "com.watchfacestudio.p3r",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "3.41 MB",
+    "icon": "assets/images/p3rrushui/p3rrushui_icon.webp",
+    "screenshots": [
+      "assets/images/p3rrushui/p3rrushui_1.webp",
+      "assets/images/p3rrushui/p3rrushui_2.webp"
+    ],
+    "addedTime": 1775444690241,
+    "updateTime": "2026-04-06",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/P3R%E5%85%A5%E6%B0%B41.0.0(Android14%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
+    "id": 61186907,
+    "name": "P3R循环",
+    "package": "com.watchfacestudio.p3rloop",
+    "version": "1.0.1",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "4.19 MB",
+    "icon": "assets/images/p3rxunhuan/p3rxunhuan_icon.webp",
+    "screenshots": [
+      "assets/images/p3rxunhuan/p3rxunhuan_1.webp",
+      "assets/images/p3rxunhuan/p3rxunhuan_2.webp"
+    ],
+    "addedTime": 1775444690366,
+    "updateTime": "2026-04-06",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/P3R%E5%BE%AA%E7%8E%AF1.0.1(Android14%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
+    "id": 517780215,
+    "name": "P3R深蓝忧郁",
+    "package": "com.watchfacestudio.p3rblue",
+    "version": "1.0.2",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "3.62 MB",
+    "icon": "assets/images/p3rshenlanyouyu/p3rshenlanyouyu_icon.webp",
+    "screenshots": [
+      "assets/images/p3rshenlanyouyu/p3rshenlanyouyu_1.webp",
+      "assets/images/p3rshenlanyouyu/p3rshenlanyouyu_2.webp"
+    ],
+    "addedTime": 1775444690488,
+    "updateTime": "2026-04-06",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/P3R%E6%B7%B1%E8%93%9D%E5%BF%A7%E9%83%811.0.2(Android13%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
     "id": 1413374326,
     "name": "P5R步数",
     "package": "com.watchfacestudio.p5r",
@@ -3342,10 +3408,10 @@
     "id": 652737322,
     "name": "WearPod - 腕上播客",
     "package": "site.whitezaak.wearpod",
-    "version": "1.2.3",
+    "version": "1.3.2",
     "code": 1,
     "minSdk": 30,
-    "size": "3.83 MB",
+    "size": "3.93 MB",
     "icon": "assets/images/wearpod/wearpod_icon.webp",
     "screenshots": [
       "assets/images/wearpod/wearpod_1.webp",
@@ -3356,7 +3422,7 @@
       "assets/images/wearpod/wearpod_6.webp"
     ],
     "addedTime": 1774603367886,
-    "updateTime": "2026-03-27",
+    "updateTime": "2026-04-06",
     "description": "WearPod 是一款专为安卓手表设计的泛用型播客客户端。\n✨ 功能特性\n独立使用：使用手机蓝牙网络或手表独立eSim，在手表上播客节目的拉取、播放、下载播客节目；\n离线收听：支持将节目下载至本地存储，告别断网焦虑；\n支持播客节目ShowNote显示；\n支持播客播放进度断点记忆；\n在播放页右侧滑动可调节播放进度；\n支持睡眠定时；\n使用与小米Watch5、OPPO X2等非Google组件不全的安卓手表；",
     "category": "影音娱乐",
     "keywords": [
@@ -3367,8 +3433,36 @@
       "boke",
       "tingyinpin"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/WearPod1.2.3(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearPod1.3.2(Android11%2B).apk",
     "developer": "lyizhuo",
+    "historyVersion": []
+  },
+  {
+    "id": 2443986942,
+    "name": "WearRippleLite",
+    "package": "com.qx.ripple",
+    "version": "Lite",
+    "code": 1,
+    "minSdk": 28,
+    "size": "6.39 MB",
+    "icon": "assets/images/wearripplelite/wearripplelite_icon.webp",
+    "screenshots": [
+      "assets/images/wearripplelite/wearripplelite_1.webp",
+      "assets/images/wearripplelite/wearripplelite_2.webp",
+      "assets/images/wearripplelite/wearripplelite_3.webp",
+      "assets/images/wearripplelite/wearripplelite_4.webp",
+      "assets/images/wearripplelite/wearripplelite_5.webp"
+    ],
+    "addedTime": 1775444708459,
+    "updateTime": "2026-04-06",
+    "description": "腕间涟漪，随心律动。\n一款专为 Wear OS精心设计，面向未来的音乐软件。\n采用前沿的Material 3 Expressive 设计语言，复刻经典Coverflow 滑动界面。\n同时也是手表上第一款也是唯一一款支持ttml 格式逐字歌词的音乐软件，为您带来沉浸式播放体验。\n开创性的实时模糊*与灵动特效，让每一次滑动都赏心悦目。\n-建议配置：高通骁龙 W5/三星 Exynos W1000 及以上芯片平台\n-歌词界面截图为完整版效果\n*表示该功能需解锁完整版使用\n",
+    "category": "影音娱乐",
+    "keywords": [
+      "音乐播放器",
+      "music player"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/WearRipple_Lite_(Android9%2B).apk",
+    "developer": "琴弦上的小医生",
     "historyVersion": []
   },
   {
@@ -4626,26 +4720,34 @@
     "historyVersion": []
   },
   {
-    "id": 196128011,
+    "id": 1182791956,
     "name": "全境封锁",
-    "package": "com.watchfacestudio.thedivision",
-    "version": "1.0.0",
-    "code": 10000001,
+    "package": "com.watchfacestudio.thedivisionv1",
+    "version": "1.0.1",
+    "code": 10000002,
     "minSdk": 34,
-    "size": "0.72 MB",
+    "size": "0.81 MB",
     "icon": "assets/images/quanjingfengsuo/quanjingfengsuo_icon.webp",
     "screenshots": [
       "assets/images/quanjingfengsuo/quanjingfengsuo_1.webp",
       "assets/images/quanjingfengsuo/quanjingfengsuo_2.webp"
     ],
-    "addedTime": 1773498702461,
-    "updateTime": "2026-03-14",
+    "addedTime": 1775444724726,
+    "updateTime": "2026-04-06",
     "description": "",
     "category": "表盘美化",
     "keywords": "",
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%85%A8%E5%A2%83%E5%B0%81%E9%94%811.0.0(Android14%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%85%A8%E5%A2%83%E5%B0%81%E9%94%811.0.1(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.0.0",
+        "code": 10000001,
+        "minSdk": 34,
+        "size": "0.72 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%85%A8%E5%A2%83%E5%B0%81%E9%94%811.0.0(Android14%2B).apk"
+      }
+    ]
   },
   {
     "id": 3391596823,
@@ -6377,6 +6479,28 @@
     "historyVersion": []
   },
   {
+    "id": 3291097337,
+    "name": "无人深空",
+    "package": "com.watchfacestudio.nomansky",
+    "version": "1.0.1",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "0.75 MB",
+    "icon": "assets/images/wurenshenkong/wurenshenkong_icon.webp",
+    "screenshots": [
+      "assets/images/wurenshenkong/wurenshenkong_1.webp",
+      "assets/images/wurenshenkong/wurenshenkong_2.webp"
+    ],
+    "addedTime": 1775444746546,
+    "updateTime": "2026-04-06",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%97%A0%E4%BA%BA%E6%B7%B1%E7%A9%BA1.0.1(Android14%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
     "id": 3283592267,
     "name": "日食",
     "package": "com.watchfacestudio.cn",
@@ -7009,7 +7133,7 @@
     ],
     "addedTime": 1764730757721,
     "updateTime": "2026-01-09",
-    "description": "手表可独立使用步行、骑行导航。\n\n百度地图官方手表应用，支持在手表端独立使用步行与骑行导航，提供多种路线方案，并支持实时定位查询，让出行更便捷。",
+    "description": "手表可独立使用步行、骑行导航。\n\n百度地图手表版本正式发布:\n【定位】结合地图查询当前所在位置\n【步/骑行导航】出行体验全面升级，在手表端也能独立使用步/骑行导航，多种方案随心选择\n安全出行，百度伴你",
     "category": "生活服务",
     "keywords": [
       "步行导航",
@@ -7023,15 +7147,32 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE1.4.6(Android7%2B).apk",
     "developer": "北京百度网讯科技有限公司",
-    "historyVersion": [
-      {
-        "version": "1.4.4",
-        "code": 20,
-        "minSdk": 24,
-        "size": "46.72 MB",
-        "downloadUrl": ""
-      }
-    ]
+    "historyVersion": []
+  },
+  {
+    "id": 2367844167,
+    "name": "百度地图(儿童手表) - 查公交",
+    "package": "com.baidu.baidumap.hwwatch",
+    "version": "1.1.7",
+    "code": 8,
+    "minSdk": 23,
+    "size": "2.33 MB",
+    "icon": "assets/images/baidudituertongshoubiao/baidudituertongshoubiao_icon.webp",
+    "screenshots": [
+      "assets/images/baidudituertongshoubiao/baidudituertongshoubiao_1.webp",
+      "assets/images/baidudituertongshoubiao/baidudituertongshoubiao_2.webp"
+    ],
+    "addedTime": 1775445847340,
+    "updateTime": "2026-04-06",
+    "description": "查看附近公交站及公交",
+    "category": "生活服务",
+    "keywords": [
+      "查公交",
+      "baidu"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE(%E5%84%BF%E7%AB%A5%E6%89%8B%E8%A1%A8)1.1.7(Android6%2B).apk",
+    "developer": "北京百度网讯科技有限公司",
+    "historyVersion": []
   },
   {
     "id": 4162809214,
