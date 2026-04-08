@@ -1138,6 +1138,37 @@
     ]
   },
   {
+    "id": 2997979907,
+    "name": "GeminiMan Wellness Companion",
+    "package": "com.geminiman.wellness.companion",
+    "version": "1.0.1.10.watch.beta",
+    "code": 10001210,
+    "minSdk": 33,
+    "size": "3.56 MB",
+    "icon": "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_icon.webp",
+    "screenshots": [
+      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_1.webp",
+      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_2.webp",
+      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_3.webp",
+      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_4.webp",
+      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_5.webp",
+      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_6.webp",
+      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_7.webp"
+    ],
+    "addedTime": 1775659076745,
+    "updateTime": "2026-04-08",
+    "description": "三星手表(OneUI8)测心电图\n\nGeminiMan 健康伴侣——随时随地获取您的健康洞察\nGeminiMan 健康助手倾注心血打造，旨在通过 Galaxy Watch 和手机，为您提供清晰、注重隐的健康洞察，帮助您更好地了解自身健康状况。\n✨ 该应用利用智能设备端 AI，以简洁易懂的方式解读支持的各项数据，让您发现规律，并持续注身体变化。您的数据始终保存在您的设备上。\n🌟 主要功能\n💙 健康洞察\n以简单易懂的方式，通过手表追踪和查看支持的健康数据。\n🧠 可解释的 AI\n获取易于理解的解释，帮助您更清晰地解读各项数据。\n⌚ Wear OS 磁贴和表盘复杂功能\n通过内置的 Wear OS 磁贴和表盘复杂功能，更快地访问手表上的关键功能。\n🔒 隐私至上\n所有数据均在您的设备本地处理。无需账户，无需服务器，也无需进行任何不必要的追踪。\n🌿 专注于健康\n专为提升生活方式和健康意识而设计，帮助您随时了解自身健康状况。\n✨ 简单易用\n简单易用，设置便捷，无需订阅，无隐藏付费墙，界面简洁清爽。\n💡 为什么选择 GeminiMan 健康伴侣？\n因为更好的健康意识能够带来更健康的日常选择。GeminiMan 健康伴侣帮助您随时关注自身健康状况，观察长期趋势，所有操作都舒适、简单且私密。\n🛡️ 隐私承诺\n您的健康数据绝不会离开您的设备。无需注册账户，您的个人数据不会存储在云端，也没有任何分析追踪器监视您的行为。\n⚠️ 免责声明\nGeminiMan 健康伴侣仅用于提升健康和改善生活方式。它并非医疗器械，不能诊断、治疗、治愈或预防任何疾病。所有数据均为估算值。如果您感到身体不适或有任何健康问题，请立即就医。\n🌙 掌控您的健康，享受私密、清晰和安心的体验。",
+    "category": "健康运动",
+    "keywords": [
+      "ecg",
+      "三星健康监测器"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/GeminiMan%20Wellness%20Companion%201.0.1.10.watch.beta.apk",
+    "developer": "GeminiMan",
+    "historyVersion": [],
+    "phoneLink": "https://pan.baidu.com/s/1I2HfG_lgSG_POxlM2vOSrw?pwd=dqqy"
+  },
+  {
     "id": 3666590425,
     "name": "GoogleCalculator",
     "package": "com.google.android.calculator",
@@ -2668,6 +2699,30 @@
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/Simple%20Projected%20Watch%20Face%20v2_1.0.4(Android13%2B).apk",
     "developer": "Waces",
+    "historyVersion": []
+  },
+  {
+    "id": 3711712971,
+    "name": "Stardew Valley",
+    "package": "com.watchfacestudio.stardewvalleyFoundation",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "4.52 MB",
+    "icon": "assets/images/stardewvalley/stardewvalley_icon.webp",
+    "screenshots": [
+      "assets/images/stardewvalley/stardewvalley_1.webp",
+      "assets/images/stardewvalley/stardewvalley_2.webp"
+    ],
+    "addedTime": 1775659102226,
+    "updateTime": "2026-04-08",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": [
+      "星露谷"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Stardew%20Valley_1.0.0_(Android14%2B).apk",
+    "developer": "勤寒",
     "historyVersion": []
   },
   {
@@ -4425,7 +4480,7 @@
     "downloadUrl": "https://download.wearstore.asia/APK/Watch.%E4%B8%89%E6%98%9F%E5%81%A5%E5%BA%B7%E7%9B%91%E6%B5%8B%E5%99%A8%201.4.1.006.dante63%20(Android%2011%20%2B).apk",
     "developer": "三星电子株式会社",
     "historyVersion": [],
-    "modAuthor": "Dante63",
+    "modAuthor": "GeminiMan",
     "phoneLink": "https://pan.baidu.com/s/1J_hKXgfMEoV7RVvugm5w1A?pwd=fds9 "
   },
   {
@@ -6653,7 +6708,7 @@
     "category": "表盘美化",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%AC%A7%E7%B1%B3%E8%8C%84%E5%8F%B2%E5%8A%AA%E6%AF%9450%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5%E7%89%88%201.0.0%20(Android%2013%20%2B).apk",
-    "developer": "",
+    "developer": "Afton",
     "historyVersion": []
   },
   {
@@ -8273,10 +8328,11 @@
     "size": "11.19 MB",
     "icon": "assets/images/xianjiangyuhetongyaoyeyuxia/xianjiangyuhetongyaoyeyuxia_icon.webp",
     "screenshots": [
-      "assets/images/xianjiangyuhetongyaoyeyuxia/xianjiangyuhetongyaoyeyuxia_1.webp"
+      "assets/images/xianjiangyuhetongyaoyeyuxia/xianjiangyuhetongyaoyeyuxia_1.webp",
+      "assets/images/xianjiangyuhetongyaoyeyuxia/xianjiangyuhetongyaoyeyuxia_2.webp"
     ],
     "addedTime": 1767927122536,
-    "updateTime": "2026-01-09",
+    "updateTime": "2026-04-08",
     "description": "一款以“賢將與河童 搖曳於夏”为主题设计的个性化表盘。",
     "category": "表盘美化",
     "keywords": [
@@ -8284,8 +8340,8 @@
       "动漫",
       "dongman"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E8%B3%A2%E5%B0%87%E8%88%87%E6%B2%B3%E7%AB%A5%20%E6%90%96%E6%9B%B3%E6%96%BC%E5%A4%8F1.0.0(Android11%2B).apk",
-    "developer": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%B3%A2%E5%B0%87%E8%88%87%E6%B2%B3%E7%AB%A5%20%E6%90%96%E6%9B%B3%E6%96%BC%E5%A4%8F%E8%89%B2%E4%B8%AD1.0.0(Android11%2B).apk",
+    "developer": "modem93",
     "historyVersion": []
   },
   {
