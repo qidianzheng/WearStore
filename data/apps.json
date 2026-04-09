@@ -3602,7 +3602,7 @@
     ],
     "addedTime": 1774603368732,
     "updateTime": "2026-03-27",
-    "description": "为什么选择 YaFeed？现有的 RSS 阅读器缺乏完善的图片支持，界面设计过时，性能低下，布局也存在问题。YaFeed 的诞生正是为了解决这些问题，它为 Android 移动设备和 Wear OS 系统提供了一个现代化的、高性能的解决方案。\n\n一款适用于 Android 手机和 Wear OS 的现代化 RSS 阅读器，支持图像显示，拥有美观的用户界面和优化的性能。\n\n✨ 特点\n📱双平台：原生支持 Android 移动设备和 Wear OS\n🖼️图片支持：通过云存储集成在 RSS 源中显示图片\n🎨现代用户界面：采用 Material 3 设计，并针对 Wear OS 进行了组件优化\n⚡高性能：优化了启动、滚动和图像加载速度\n🔄双向同步：支持通过连接检测实现移动设备与 Wear 设备的同步\n📝 Markdown 渲染：使用自定义 Wear OS 渲染器显示丰富的内容\n",
+    "description": "为什么选择 YaFeed？现有的 RSS 阅读器缺乏完善的图片支持，界面设计过时，性能低下，布局也存在问题。YaFeed 的诞生正是为了解决这些问题，它为 Android 移动设备和 Wear OS 系统提供了一个现代化的、高性能的解决方案。\n\n一款适用于 Android 手机和 Wear OS 的现代化 RSS 阅读器，支持图像显示，拥有美观的用户界面和优化的性能。\n\n✨ 特点\n📱双平台：原生支持 Android 移动设备和 Wear OS\n🖼️图片支持：通过云存储集成在 RSS 源中显示图片\n🎨现代用户界面：采用 Material 3 设计，并针对 Wear OS 进行了组件优化\n⚡高性能：优化了启动、滚动和图像加载速度\n🔄双向同步：支持通过连接检测实现移动设备与 Wear 设备的同步\n📝 Markdown 渲染：使用自定义 Wear OS 渲染器显示丰富的内容",
     "category": "学习充电",
     "keywords": [
       "RSS阅读器",
