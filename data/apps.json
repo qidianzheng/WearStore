@@ -1138,37 +1138,6 @@
     ]
   },
   {
-    "id": 2997979907,
-    "name": "GeminiMan Wellness Companion",
-    "package": "com.geminiman.wellness.companion",
-    "version": "1.0.1.10.watch.beta",
-    "code": 10001210,
-    "minSdk": 33,
-    "size": "3.56 MB",
-    "icon": "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_icon.webp",
-    "screenshots": [
-      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_1.webp",
-      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_2.webp",
-      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_3.webp",
-      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_4.webp",
-      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_5.webp",
-      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_6.webp",
-      "assets/images/geminimanwellnesscompanion/geminimanwellnesscompanion_7.webp"
-    ],
-    "addedTime": 1775659076745,
-    "updateTime": "2026-04-08",
-    "description": "三星手表(OneUI8)测心电图\n\nGeminiMan 健康伴侣——随时随地获取您的健康洞察\nGeminiMan 健康助手倾注心血打造，旨在通过 Galaxy Watch 和手机，为您提供清晰、注重隐的健康洞察，帮助您更好地了解自身健康状况。\n✨ 该应用利用智能设备端 AI，以简洁易懂的方式解读支持的各项数据，让您发现规律，并持续注身体变化。您的数据始终保存在您的设备上。\n🌟 主要功能\n💙 健康洞察\n以简单易懂的方式，通过手表追踪和查看支持的健康数据。\n🧠 可解释的 AI\n获取易于理解的解释，帮助您更清晰地解读各项数据。\n⌚ Wear OS 磁贴和表盘复杂功能\n通过内置的 Wear OS 磁贴和表盘复杂功能，更快地访问手表上的关键功能。\n🔒 隐私至上\n所有数据均在您的设备本地处理。无需账户，无需服务器，也无需进行任何不必要的追踪。\n🌿 专注于健康\n专为提升生活方式和健康意识而设计，帮助您随时了解自身健康状况。\n✨ 简单易用\n简单易用，设置便捷，无需订阅，无隐藏付费墙，界面简洁清爽。\n💡 为什么选择 GeminiMan 健康伴侣？\n因为更好的健康意识能够带来更健康的日常选择。GeminiMan 健康伴侣帮助您随时关注自身健康状况，观察长期趋势，所有操作都舒适、简单且私密。\n🛡️ 隐私承诺\n您的健康数据绝不会离开您的设备。无需注册账户，您的个人数据不会存储在云端，也没有任何分析追踪器监视您的行为。\n⚠️ 免责声明\nGeminiMan 健康伴侣仅用于提升健康和改善生活方式。它并非医疗器械，不能诊断、治疗、治愈或预防任何疾病。所有数据均为估算值。如果您感到身体不适或有任何健康问题，请立即就医。\n🌙 掌控您的健康，享受私密、清晰和安心的体验。",
-    "category": "健康运动",
-    "keywords": [
-      "ecg",
-      "三星健康监测器"
-    ],
-    "downloadUrl": "https://download.wearstore.asia/APK/GeminiMan%20Wellness%20Companion%201.0.1.10.watch.beta.apk",
-    "developer": "GeminiMan",
-    "historyVersion": [],
-    "phoneLink": "https://pan.baidu.com/s/1I2HfG_lgSG_POxlM2vOSrw?pwd=dqqy"
-  },
-  {
     "id": 3666590425,
     "name": "GoogleCalculator",
     "package": "com.google.android.calculator",
@@ -1253,15 +1222,7 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/IT%E4%B9%8B%E5%AE%B69.22(Android8%2B).apk",
     "developer": "青岛软媒网络科技有限公司",
-    "historyVersion": [
-      {
-        "version": "9.21",
-        "code": 2601131,
-        "minSdk": 26,
-        "size": "18.94 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/IT%E4%B9%8B%E5%AE%B69.21(Android8%2B).apk"
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 169292971,
@@ -3258,15 +3219,7 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/WaterReminder1.3(Android11%2B).apk",
     "developer": "RomaricKc1",
-    "historyVersion": [
-      {
-        "version": "1.2",
-        "code": 3,
-        "minSdk": 30,
-        "size": "79.10 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/WaterReminder1.2(Android11%2B).apk"
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 1120712413,
@@ -3518,40 +3471,6 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/WearRipple_Lite_(Android9%2B).apk",
     "developer": "琴弦上的小医生",
-    "historyVersion": []
-  },
-  {
-    "id": 2224556128,
-    "name": "WowMouse",
-    "package": "io.port6.watchbridge",
-    "version": "1.2.1",
-    "code": 81,
-    "minSdk": 28,
-    "size": "9.93 MB",
-    "icon": "assets/images/wowmouse/wowmouse_icon.webp",
-    "screenshots": [
-      "assets/images/wowmouse/wowmouse_1.webp",
-      "assets/images/wowmouse/wowmouse_2.webp",
-      "assets/images/wowmouse/wowmouse_3.webp",
-      "assets/images/wowmouse/wowmouse_4.webp",
-      "assets/images/wowmouse/wowmouse_5.webp",
-      "assets/images/wowmouse/wowmouse_6.webp",
-      "assets/images/wowmouse/wowmouse_7.webp",
-      "assets/images/wowmouse/wowmouse_8.webp"
-    ],
-    "addedTime": 1764730704602,
-    "updateTime": "2025-12-13",
-    "description": "由 Doublepoint 公司开发的手势控制应用，能将安卓智能手表或 Apple Watch 变为高精度的空中鼠标。其特色在于利用微手势识别技术，不仅支持控制电脑，还能作为 AR/VR 设备的交互控制器，提供沉浸式操控体验。",
-    "category": "系统工具",
-    "keywords": [
-      "手表鼠标",
-      "空中鼠标",
-      "遥控",
-      "蓝牙",
-      "远程控制"
-    ],
-    "downloadUrl": "https://download.wearstore.asia/APK/WowMouse%201.2.1%20(Android%209%20%2B).apk",
-    "developer": "Doublepoint",
     "historyVersion": []
   },
   {
@@ -7557,15 +7476,7 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%903.0.42(Android4.4%2B).apk",
     "developer": "杭州乐读科技有限公司",
-    "historyVersion": [
-      {
-        "version": "3.0.41",
-        "code": 3000041,
-        "minSdk": 19,
-        "size": "22.67 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%903.0.41(Android4.4%2B).apk"
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 1968807406,
@@ -8518,15 +8429,7 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.6(Android4.4%2B).apk",
     "developer": "广州酷狗计算机科技有限公司",
-    "historyVersion": [
-      {
-        "version": "2.4.5",
-        "code": 10501,
-        "minSdk": 19,
-        "size": "14.29 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.5(Android4.4%2B).apk"
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 2195400104,
@@ -8874,15 +8777,7 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE1.1.1(Android8%2B).apk",
     "developer": "北京高德图强科技有限公司",
-    "historyVersion": [
-      {
-        "version": "1.1.0",
-        "code": 1100,
-        "minSdk": 26,
-        "size": "12.97 MB",
-        "downloadUrl": ""
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 4283870217,
