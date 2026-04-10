@@ -123,10 +123,10 @@
     "id": 447281565,
     "name": "AnExplorer",
     "package": "dev.dworks.apps.anexplorer",
-    "version": "5.9.7",
-    "code": 59702,
+    "version": "6.0.0",
+    "code": 60002,
     "minSdk": 25,
-    "size": "55.95 MB",
+    "size": "56.36 MB",
     "icon": "assets/images/anexplorer/anexplorer_icon.webp",
     "screenshots": [
       "assets/images/anexplorer/anexplorer_1.webp",
@@ -139,7 +139,7 @@
       "assets/images/anexplorer/anexplorer_8.webp"
     ],
     "addedTime": 1764730656931,
-    "updateTime": "2026-02-05",
+    "updateTime": "2026-04-10",
     "description": "AnExplorer是一款采用Material You设计的全能文件管理器。它不仅能在手机、平板本地高效管理文件，更独具匠心地支持直接管理您的手表（Wear OS）、电视（Android TV）、汽车（Android Auto）乃至VR设备上的存储，并通过Wi-Fi、网络存储和云服务实现无缝的跨设备文件传输与同步，是管理所有Android生态设备的统一文件管理中心。",
     "category": "系统工具",
     "keywords": [
@@ -151,9 +151,17 @@
       "视频",
       "音乐"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/AnExplorer5.9.7(Android7.1%2B).apk",
+    "downloadUrl": "",
     "developer": "DWorkS",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "5.9.7",
+        "code": 59702,
+        "minSdk": 25,
+        "size": "55.95 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/AnExplorer5.9.7(Android7.1%2B).apk"
+      }
+    ]
   },
   {
     "id": 829834691,
@@ -1469,8 +1477,8 @@
     "id": 3099280595,
     "name": "MiGa(米咖)",
     "package": "com.autsing.miga",
-    "version": "2.0.2",
-    "code": 20002,
+    "version": "2.0.3",
+    "code": 20003,
     "minSdk": 26,
     "size": "3.35 MB",
     "icon": "assets/images/migamika/migamika_icon.webp",
@@ -1482,7 +1490,7 @@
       "assets/images/migamika/migamika_5.webp"
     ],
     "addedTime": 1769521974520,
-    "updateTime": "2026-01-27",
+    "updateTime": "2026-04-10",
     "description": "一款基于米家 API 开发的第三方智能家居控制应用，专为手表端设计。支持浏览与控制米家设备、查看与触发智能场景，并能通过表盘复杂功能快速操作，是腕上的米家遥控器。",
     "category": "生活服务",
     "keywords": [
@@ -1493,9 +1501,17 @@
       "zhineng jiaju",
       "kongzhi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/MiGa2.0.2(Android8%2B).apk",
+    "downloadUrl": "",
     "developer": "AuTsing",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "2.0.2",
+        "code": 20002,
+        "minSdk": 26,
+        "size": "3.35 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/MiGa2.0.2(Android8%2B).apk"
+      }
+    ]
   },
   {
     "id": 3144690978,
@@ -2287,11 +2303,13 @@
       "assets/images/qqyinle/qqyinle_1.webp",
       "assets/images/qqyinle/qqyinle_2.webp",
       "assets/images/qqyinle/qqyinle_3.webp",
-      "assets/images/qqyinle/qqyinle_4.webp"
+      "assets/images/qqyinle/qqyinle_4.webp",
+      "assets/images/qqyinle/qqyinle_5.webp",
+      "assets/images/qqyinle/qqyinle_6.webp"
     ],
     "addedTime": 1764730690904,
     "updateTime": "2025-12-12",
-    "description": "拥有海量正版曲库的音乐娱乐平台。不仅提供高品质音乐与智能歌单推荐，更依托腾讯生态，拥有如周杰伦等众多明星歌曲的独家版权，是音乐爱好者的听歌首选。",
+    "description": "应用截图1-3为2.x，4-6为1.x\n拥有海量正版曲库的音乐娱乐平台。不仅提供高品质音乐与智能歌单推荐，更依托腾讯生态，拥有如周杰伦等众多明星歌曲的独家版权，是音乐爱好者的听歌首选。",
     "category": "影音娱乐",
     "keywords": [
       "企鹅",
@@ -4516,10 +4534,10 @@
     "id": 2154840233,
     "name": "两步路",
     "package": "com.tbulu.watch",
-    "version": "1.4.20",
-    "code": 98,
-    "minSdk": 27,
-    "size": "61.23 MB",
+    "version": "1.1.9",
+    "code": 34,
+    "minSdk": 26,
+    "size": "46.12 MB",
     "icon": "assets/images/liangbulu/liangbulu_icon.webp",
     "screenshots": [
       "assets/images/liangbulu/liangbulu_1.webp",
@@ -4527,7 +4545,7 @@
       "assets/images/liangbulu/liangbulu_3.webp"
     ],
     "addedTime": 1767927089241,
-    "updateTime": "2026-01-09",
+    "updateTime": "2026-04-10",
     "description": "玩户外，就上两步路。\n\n户外助手“两步路”的手表版，支持无网络情况下记录轨迹、进行轨迹导航、查看队友位置及海拔趋势，是户外徒步与探险的可靠工具。",
     "category": "健康运动",
     "keywords": [
@@ -4539,17 +4557,9 @@
       "huwai",
       "tbulu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%A4%E6%AD%A5%E8%B7%AF1.4.20(Android8.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%A4%E6%AD%A5%E8%B7%AF1.1.9(Android8%2B).apk",
     "developer": "深圳市两步路信息技术有限公司",
-    "historyVersion": [
-      {
-        "version": "1.1.9",
-        "code": 34,
-        "minSdk": 26,
-        "size": "46.12 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%A4%E6%AD%A5%E8%B7%AF1.1.9(Android8%2B).apk"
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 923218798,
@@ -4713,15 +4723,7 @@
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%85%A8%E5%A2%83%E5%B0%81%E9%94%811.0.1(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": [
-      {
-        "version": "1.0.0",
-        "code": 10000001,
-        "minSdk": 34,
-        "size": "0.72 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E5%85%A8%E5%A2%83%E5%B0%81%E9%94%811.0.0(Android14%2B).apk"
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 3391596823,
