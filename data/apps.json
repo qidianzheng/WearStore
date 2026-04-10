@@ -2309,7 +2309,7 @@
     ],
     "addedTime": 1764730690904,
     "updateTime": "2025-12-12",
-    "description": "应用截图1-3为2.x，4-6为1.x\n拥有海量正版曲库的音乐娱乐平台。不仅提供高品质音乐与智能歌单推荐，更依托腾讯生态，拥有如周杰伦等众多明星歌曲的独家版权，是音乐爱好者的听歌首选。",
+    "description": "应用截图1-3为2.x，4-6为1.x\n\n拥有海量正版曲库的音乐娱乐平台。不仅提供高品质音乐与智能歌单推荐，更依托腾讯生态，拥有如周杰伦等众多明星歌曲的独家版权，是音乐爱好者的听歌首选。",
     "category": "影音娱乐",
     "keywords": [
       "企鹅",
@@ -2698,7 +2698,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [
-      "星露谷"
+      "星露谷物语"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Stardew%20Valley_1.0.0_(Android14%2B).apk",
     "developer": "勤寒",
@@ -6609,6 +6609,30 @@
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%A0%B8%E5%BF%83%E6%98%BE%E7%A4%BA%201.0.0%20(Android%2013%20%2B).apk",
     "developer": "",
+    "historyVersion": []
+  },
+  {
+    "id": 4201645361,
+    "name": "欧空局太空主题火星Mars",
+    "package": "com.watchfacestudio.mars",
+    "version": "1.0.1",
+    "code": 10000011,
+    "minSdk": 34,
+    "size": "0.85 MB",
+    "icon": "assets/images/oukongjutaikongzhutihuoxingmars/oukongjutaikongzhutihuoxingmars_icon.webp",
+    "screenshots": [
+      "assets/images/oukongjutaikongzhutihuoxingmars/oukongjutaikongzhutihuoxingmars_1.webp",
+      "assets/images/oukongjutaikongzhutihuoxingmars/oukongjutaikongzhutihuoxingmars_2.webp"
+    ],
+    "addedTime": 1775834449803,
+    "updateTime": "2026-04-10",
+    "description": "左下步数完成度，左上温度，右上星期，中间时间和心率",
+    "category": "表盘美化",
+    "keywords": [
+      "太空主题"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%AC%A7%E7%A9%BA%E5%B1%80%E5%A4%AA%E7%A9%BA%E4%B8%BB%E9%A2%98%E7%81%AB%E6%98%9FMars1.0.1(Android14%2B).apk",
+    "developer": "飞舞畅想",
     "historyVersion": []
   },
   {
