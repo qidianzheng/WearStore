@@ -6614,24 +6614,24 @@
   {
     "id": 4201645361,
     "name": "欧空局太空主题火星Mars",
-    "package": "com.watchfacestudio.mars",
+    "package": "com.watchfacestudio.mars8",
     "version": "1.0.1",
     "code": 10000011,
     "minSdk": 34,
-    "size": "0.85 MB",
-    "icon": "assets/images/oukongjutaikongzhutihuoxingmars/oukongjutaikongzhutihuoxingmars_icon.webp",
+    "size": "1.45 MB",
+    "icon": "assets/images/mars/mars_icon.webp",
     "screenshots": [
-      "assets/images/oukongjutaikongzhutihuoxingmars/oukongjutaikongzhutihuoxingmars_1.webp",
-      "assets/images/oukongjutaikongzhutihuoxingmars/oukongjutaikongzhutihuoxingmars_2.webp"
+      "assets/images/mars/mars_1.webp",
+      "assets/images/mars/mars_2.webp"
     ],
     "addedTime": 1775834449803,
     "updateTime": "2026-04-10",
-    "description": "左下步数完成度，左上温度，右上星期，中间时间和心率",
+    "description": "左下步数完成度，左上温度，右上星期，中间时间和心率，熄屏为电量显示，背景随电量而改变",
     "category": "表盘美化",
     "keywords": [
       "太空主题"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E6%AC%A7%E7%A9%BA%E5%B1%80%E5%A4%AA%E7%A9%BA%E4%B8%BB%E9%A2%98%E7%81%AB%E6%98%9FMars1.0.1(Android14%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/MARS1.0.1(Android14%2B).apk",
     "developer": "飞舞畅想",
     "historyVersion": []
   },
