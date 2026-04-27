@@ -4393,7 +4393,9 @@
     "updateTime": "2025-12-21",
     "description": "一款高度模仿 CCwatch galaxy lite 设计风格的表盘应用，特别优化了息屏显示，加入了数字时间与更美观的样式，追求简约精致的腕上视觉效果。",
     "category": "表盘美化",
-    "keywords": [],
+    "keywords": [
+      "CCwatch galaxy lite"
+    ],
     "downloadUrl": "https://download.wearstore.asia/APK/zizhi%201.4%20(Android%2014%20%2B).apk",
     "developer": "奥特曼曼特奥",
     "historyVersion": [
@@ -7327,8 +7329,8 @@
     "id": 1287852515,
     "name": "磨损市场",
     "package": "com.qdz.wearstore",
-    "version": "1.0.18",
-    "code": 18,
+    "version": "1.0.19",
+    "code": 19,
     "minSdk": 26,
     "size": "17.50 MB",
     "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
@@ -7346,7 +7348,7 @@
     "keywords": [
       "WearSore"
     ],
-    "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E5%B8%82%E5%9C%BA1.0.18.apk",
+    "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E5%B8%82%E5%9C%BA1.0.19.apk",
     "developer": "Qdz",
     "historyVersion": [],
     "recommendIds": [
