@@ -632,10 +632,10 @@
     "id": 3193627451,
     "name": "Classing 课程表",
     "package": "com.xtawa.classingtime",
-    "version": "1.0.2",
-    "code": 1,
+    "version": "1.0.4",
+    "code": 104,
     "minSdk": 30,
-    "size": "33.63 MB",
+    "size": "36.06 MB",
     "icon": "assets/images/classingkechengbiao/classingkechengbiao_icon.webp",
     "screenshots": [
       "assets/images/classingkechengbiao/classingkechengbiao_1.webp",
@@ -643,7 +643,7 @@
       "assets/images/classingkechengbiao/classingkechengbiao_3.webp"
     ],
     "addedTime": 1774603332137,
-    "updateTime": "2026-03-27",
+    "updateTime": "2026-04-28",
     "description": "一款专为手表端设计的课程表应用，方便学生在手腕上快速查看每日课程安排。",
     "category": "学习充电",
     "keywords": [
@@ -652,10 +652,18 @@
       "kechengbiao",
       "xuexi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Classing%20%E8%AF%BE%E7%A8%8B%E8%A1%A8_%E6%89%8B%E8%A1%A8_1.0.2_(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%5B%E6%89%8B%E8%A1%A8%5DClassing%20%E8%AF%BE%E7%A8%8B%E8%A1%A81.0.4(Android11%2B).apk",
     "developer": "xtawa",
-    "historyVersion": [],
-    "phoneLink": "https://pan.baidu.com/s/1s7nwqph1tNJ0XbyrqfHgwA?pwd=34cj"
+    "historyVersion": [
+      {
+        "version": "1.0.2",
+        "code": 1,
+        "minSdk": 30,
+        "size": "33.63 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Classing%20%E8%AF%BE%E7%A8%8B%E8%A1%A8_%E6%89%8B%E8%A1%A8_1.0.2_(Android11%2B).apk"
+      }
+    ],
+    "phoneLink": "https://pan.baidu.com/s/1vOZMbQY8z5O72PkG6p78Vg?pwd=xvuu"
   },
   {
     "id": 2404641602,
@@ -1083,10 +1091,10 @@
     "id": 2880562203,
     "name": "Flue",
     "package": "com.flue.launcher",
-    "version": "beta1.2",
-    "code": 12,
+    "version": "beta1.3",
+    "code": 13,
     "minSdk": 27,
-    "size": "3.47 MB",
+    "size": "3.80 MB",
     "icon": "assets/images/flue/flue_icon.webp",
     "screenshots": [
       "assets/images/flue/flue_1.webp",
@@ -1095,7 +1103,7 @@
       "assets/images/flue/flue_4.webp"
     ],
     "addedTime": 1777017830878,
-    "updateTime": "2026-04-24",
+    "updateTime": "2026-04-28",
     "description": "Flue 是一个面向 Android 手表的自定义桌面启动器，基于 Kotlin 与 Jetpack Compose 打造，目标是让华强北手表用户拥有接近大厂手表桌面启动器动画的流畅体验。\n目前已支持以下功能\n丝滑流畅的过渡动画与打断动画\n类hyperOS的头部模糊特效\n类似watchOS的应用启动动画\n蜂窝/列表双布局\n副一屏快捷启动\n独立通知中心堆叠效果\n提供内置图片 / 视频表盘与lunch表盘接入\n提供隐藏应用、图标包功能\nTips：Flue目前仍处于 beta 测试阶段，但目前已经基本可用，也在持续补齐交互细节、动画效果和表盘能力。\n8541e及以下手表运行较为吃力\n安卓12以下用户不建议开启模糊\n文件选择器被阉割请长按选择图片拉起内置选择器\n用户交流群：1097162313\n演示视频：https://www.bilibili.com/video/BV1cZdoBKET6",
     "category": "系统工具",
     "keywords": [
@@ -1103,9 +1111,17 @@
       "自定义桌面",
       "qidong qi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Flue_beta1.2_(Android8.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Flue_beta1.3_(Android8.1%2B).apk",
     "developer": "柚子柚子皮",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "beta1.2",
+        "code": 12,
+        "minSdk": 27,
+        "size": "3.47 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Flue_beta1.2_(Android8.1%2B).apk"
+      }
+    ]
   },
   {
     "id": 2193154985,
@@ -1465,10 +1481,10 @@
     "id": 3322744350,
     "name": "MahiroBrowser",
     "package": "com.dudu.mahirobrowser",
-    "version": "1.0.3",
-    "code": 3,
+    "version": "1.0.4",
+    "code": 5,
     "minSdk": 27,
-    "size": "143.96 MB",
+    "size": "144.00 MB",
     "icon": "assets/images/mahirobrowser/mahirobrowser_icon.webp",
     "screenshots": [
       "assets/images/mahirobrowser/mahirobrowser_1.webp",
@@ -1476,7 +1492,7 @@
       "assets/images/mahirobrowser/mahirobrowser_3.webp"
     ],
     "addedTime": 1777017834091,
-    "updateTime": "2026-04-24",
+    "updateTime": "2026-04-28",
     "description": "专为圆屏手表开发的独立内核浏览器\n由GeckoView强力驱动\n深入结合Compose Wear给您带来最佳的浏览体验",
     "category": "系统工具",
     "keywords": [
@@ -1486,9 +1502,17 @@
       "shoubiao",
       "网页"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/MihiroBrowser1.0.3(Android8.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.0.4(Android8.1%2B).apk",
     "developer": "dudu",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.0.3",
+        "code": 3,
+        "minSdk": 27,
+        "size": "143.96 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/MihiroBrowser1.0.3(Android8.1%2B).apk"
+      }
+    ]
   },
   {
     "id": 4098625699,
@@ -2146,7 +2170,7 @@
   {
     "id": 1413374326,
     "name": "P5R步数",
-    "package": "com.watchfacestudio.p5r",
+    "package": "[step]com.watchfacestudio.p5r",
     "version": "1.0.0",
     "code": 10000001,
     "minSdk": 34,
@@ -2158,7 +2182,7 @@
     ],
     "addedTime": 1773909199055,
     "updateTime": "2026-03-19",
-    "description": "",
+    "description": "红条为步数",
     "category": "表盘美化",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/P5R%E6%AD%A5%E6%95%B01.0.0(Android14%2B).apk",
@@ -2168,7 +2192,7 @@
   {
     "id": 321505185,
     "name": "P5R电量",
-    "package": "com.watchfacestudio.p5r",
+    "package": "[batt]com.watchfacestudio.p5r",
     "version": "1.0.0",
     "code": 10000001,
     "minSdk": 34,
@@ -2180,7 +2204,7 @@
     ],
     "addedTime": 1773909199306,
     "updateTime": "2026-03-19",
-    "description": "",
+    "description": "红条为电量",
     "category": "表盘美化",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/P5R%E7%94%B5%E9%87%8F1.0.0(Android14%2B).apk",
@@ -5854,10 +5878,10 @@
     "id": 1979471110,
     "name": "弦电子书",
     "package": "moye.sine.books",
-    "version": "1.0.6",
-    "code": 6,
+    "version": "1.0.7",
+    "code": 7,
     "minSdk": 26,
-    "size": "2.42 MB",
+    "size": "5.37 MB",
     "icon": "assets/images/xiandianzishu/xiandianzishu_icon.webp",
     "screenshots": [
       "assets/images/xiandianzishu/xiandianzishu_1.webp",
@@ -5866,7 +5890,7 @@
       "assets/images/xiandianzishu/xiandianzishu_4.webp"
     ],
     "addedTime": 1771760724526,
-    "updateTime": "2026-03-14",
+    "updateTime": "2026-04-28",
     "description": "一款专为安卓手表端设计的强大电子书阅读器，支持导入TXT、EPUB、MOBI、NVB格式。具备TXT导入自动分章、书籍分类、书签管理和全文搜索功能。\n\n内置文件选择器授权：\n\n授予读取存储权限：\nadb shell pm grant moye.sine.books android.permission.READ_EXTERNAL_STORAGE\n授予写入存储权限：\nadb shell pm grant moye.sine.books android.permission.WRITE_EXTERNAL_STORAGE\n授予管理所有文件权限（针对 Android 11+）：\nadb shell appops set moye.sine.books MANAGE_EXTERNAL_STORAGE allow",
     "category": "学习充电",
     "keywords": [
@@ -5881,9 +5905,17 @@
       "ebook reader",
       "dianzi shu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.6(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.7(Android8%2B).apk",
     "developer": "爅峫",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.0.6",
+        "code": 6,
+        "minSdk": 26,
+        "size": "2.42 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.6(Android8%2B).apk"
+      }
+    ]
   },
   {
     "id": 2395269569,
@@ -7343,7 +7375,7 @@
     ],
     "addedTime": 1770301760137,
     "updateTime": "2026-04-28",
-    "description": "WearStore官方手表应用商店来了，现在您可以在手表上下载和安装应用。\n\n磨损市场需要安装未知应用权限，WearOS4和5通过以下方式授权：\nadb shell appops set --uid com.qdz.wearstore REQUEST_INSTALL_PACKAGES allow\n\n反馈QQ群聊1077259743\n开发者联系方式dzq8719@gmail.com\n\n1.0.18更新日志：\n•新增PackageInstaller和ADB两种安装方式\n•支持安装分包应用(split apk)",
+    "description": "WearStore官方手表应用商店来了，现在您可以在手表上下载和安装应用。\n\n磨损市场需要安装未知应用权限，WearOS4和5通过以下方式授权：\nadb shell appops set --uid com.qdz.wearstore REQUEST_INSTALL_PACKAGES allow\n\n反馈QQ群聊1077259743\n开发者联系方式dzq8719@gmail.com\n\n近期更新：\n•新增PackageInstaller和ADB两种安装方式\n•支持安装分包应用(split apk)",
     "category": "系统工具",
     "keywords": [
       "WearSore"
