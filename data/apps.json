@@ -1571,7 +1571,7 @@
       "assets/images/migamika/migamika_5.webp"
     ],
     "addedTime": 1769521974520,
-    "updateTime": "2026-04-10",
+    "updateTime": "2026-04-28",
     "description": "一款基于米家 API 开发的第三方智能家居控制应用，专为手表端设计。支持浏览与控制米家设备、查看与触发智能场景，并能通过表盘复杂功能快速操作，是腕上的米家遥控器。",
     "category": "生活服务",
     "keywords": [
@@ -1582,7 +1582,7 @@
       "zhineng jiaju",
       "kongzhi"
     ],
-    "downloadUrl": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/MiGa2.0.3(Android8%2B).apk",
     "developer": "AuTsing",
     "historyVersion": [
       {
@@ -7342,7 +7342,7 @@
       "assets/images/mosunshichang/mosunshichang_5.webp"
     ],
     "addedTime": 1770301760137,
-    "updateTime": "2026-04-24",
+    "updateTime": "2026-04-28",
     "description": "WearStore官方手表应用商店来了，现在您可以在手表上下载和安装应用。\n\n磨损市场需要安装未知应用权限，WearOS4和5通过以下方式授权：\nadb shell appops set --uid com.qdz.wearstore REQUEST_INSTALL_PACKAGES allow\n\n反馈QQ群聊1077259743\n开发者联系方式dzq8719@gmail.com\n\n1.0.18更新日志：\n•新增PackageInstaller和ADB两种安装方式\n•支持安装分包应用(split apk)",
     "category": "系统工具",
     "keywords": [
