@@ -462,10 +462,10 @@
     "id": 268010413,
     "name": "CPU Info",
     "package": "com.kgurgul.cpuinfo",
-    "version": "6.4.0",
-    "code": 1060400,
-    "minSdk": 26,
-    "size": "4.40 MB",
+    "version": "6.7.0",
+    "code": 1060700,
+    "minSdk": 32,
+    "size": "1.85 MB",
     "icon": "assets/images/cpuinfo/cpuinfo_icon.webp",
     "screenshots": [
       "assets/images/cpuinfo/cpuinfo_1.webp",
@@ -474,7 +474,7 @@
       "assets/images/cpuinfo/cpuinfo_4.webp"
     ],
     "addedTime": 1765876624103,
-    "updateTime": "2025-12-15",
+    "updateTime": "2026-05-02",
     "description": "一款专业的设备硬件与系统信息检测工具，可详细监控CPU、GPU、内存、电池、传感器等核心组件的实时状态与温度，并支持应用管理，适合需要深入了解设备运行状况的用户。",
     "category": "系统工具",
     "keywords": [
@@ -486,9 +486,17 @@
       "应用管理",
       "device info"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/CPU%20Info%206.4.0%20(Android%208%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/CPU%20Info6.7.0(Android12L%2B).zip",
     "developer": "KG Soft",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "6.4.0",
+        "code": 1060400,
+        "minSdk": 26,
+        "size": "4.40 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/CPU%20Info%206.4.0%20(Android%208%20%2B).apk"
+      }
+    ]
   },
   {
     "id": 1789130077,
@@ -1481,10 +1489,10 @@
     "id": 3322744350,
     "name": "MahiroBrowser",
     "package": "com.dudu.mahirobrowser",
-    "version": "1.0.4",
-    "code": 5,
+    "version": "1.1.1",
+    "code": 7,
     "minSdk": 27,
-    "size": "144.00 MB",
+    "size": "144.01 MB",
     "icon": "assets/images/mahirobrowser/mahirobrowser_icon.webp",
     "screenshots": [
       "assets/images/mahirobrowser/mahirobrowser_1.webp",
@@ -1492,7 +1500,7 @@
       "assets/images/mahirobrowser/mahirobrowser_3.webp"
     ],
     "addedTime": 1777017834091,
-    "updateTime": "2026-04-28",
+    "updateTime": "2026-05-02",
     "description": "专为圆屏手表开发的独立内核浏览器\n由GeckoView强力驱动\n深入结合Compose Wear给您带来最佳的浏览体验",
     "category": "系统工具",
     "keywords": [
@@ -1502,15 +1510,15 @@
       "shoubiao",
       "网页"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.0.4(Android8.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.1.1(Android8.1%2B).apk",
     "developer": "dudu",
     "historyVersion": [
       {
-        "version": "1.0.3",
-        "code": 3,
+        "version": "1.0.4",
+        "code": 5,
         "minSdk": 27,
-        "size": "143.96 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/MihiroBrowser1.0.3(Android8.1%2B).apk"
+        "size": "144.00 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.0.4(Android8.1%2B).apk"
       }
     ]
   },
@@ -1582,10 +1590,10 @@
     "id": 3099280595,
     "name": "MiGa(米咖)",
     "package": "com.autsing.miga",
-    "version": "2.0.3",
-    "code": 20003,
+    "version": "2.1.1",
+    "code": 20101,
     "minSdk": 26,
-    "size": "3.35 MB",
+    "size": "3.19 MB",
     "icon": "assets/images/migamika/migamika_icon.webp",
     "screenshots": [
       "assets/images/migamika/migamika_1.webp",
@@ -1595,8 +1603,8 @@
       "assets/images/migamika/migamika_5.webp"
     ],
     "addedTime": 1769521974520,
-    "updateTime": "2026-04-28",
-    "description": "一款基于米家 API 开发的第三方智能家居控制应用，专为手表端设计。支持浏览与控制米家设备、查看与触发智能场景，并能通过表盘复杂功能快速操作，是腕上的米家遥控器。",
+    "updateTime": "2026-05-02",
+    "description": "一款基于米家 API 开发的第三方智能家居控制应用，专为手表端设计。支持浏览与控制米家设备、查看与触发智能场景，并能通过表盘复杂功能快速操作，是腕上的米家遥控器。\n\n2.1.1\n•修复从卡片运行智能场景时可能会提示空的权限问题\n•修复加载场景的指示器没有正确显示的问题",
     "category": "生活服务",
     "keywords": [
       "米家",
@@ -1606,15 +1614,15 @@
       "zhineng jiaju",
       "kongzhi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/MiGa2.0.3(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/MiGa2.1.1(Android8%2B).apk",
     "developer": "AuTsing",
     "historyVersion": [
       {
-        "version": "2.0.2",
-        "code": 20002,
+        "version": "2.0.3",
+        "code": 20003,
         "minSdk": 26,
         "size": "3.35 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/MiGa2.0.2(Android8%2B).apk"
+        "downloadUrl": "https://download.wearstore.asia/APK/MiGa2.0.3(Android8%2B).apk"
       }
     ]
   },
@@ -1643,10 +1651,10 @@
     "id": 4153928598,
     "name": "Microsoft Outlook",
     "package": "com.microsoft.office.outlook",
-    "version": "5.2604.1",
-    "code": 72604221,
+    "version": "5.2615.0",
+    "code": 72615227,
     "minSdk": 29,
-    "size": "10.93 MB",
+    "size": "11.03 MB",
     "icon": "assets/images/microsoftoutlook/microsoftoutlook_icon.webp",
     "screenshots": [
       "assets/images/microsoftoutlook/microsoftoutlook_1.webp",
@@ -1656,7 +1664,7 @@
       "assets/images/microsoftoutlook/microsoftoutlook_5.webp"
     ],
     "addedTime": 1764730676424,
-    "updateTime": "2026-02-05",
+    "updateTime": "2026-05-02",
     "description": "微软官方邮箱与日历应用，智能管理多个邮箱账户，聚焦重要邮件，并深度集成日程与办公功能。",
     "category": "效率办公",
     "keywords": [
@@ -1667,9 +1675,16 @@
       "email",
       "mail"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Microsoft%20Outlook5.2604.1(Android10%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Outlook5.2615.0(Android10%2B).apk",
     "developer": "微软（中国）有限公司",
     "historyVersion": [
+      {
+        "version": "5.2604.1",
+        "code": 72604221,
+        "minSdk": 29,
+        "size": "10.93 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Microsoft%20Outlook5.2604.1(Android10%2B).apk"
+      },
       {
         "version": "5.2544.1",
         "code": 72544822,
@@ -2170,7 +2185,7 @@
   {
     "id": 1413374326,
     "name": "P5R步数",
-    "package": "[step]com.watchfacestudio.p5r",
+    "package": "com.watchfacestudio.p5r",
     "version": "1.0.0",
     "code": 10000001,
     "minSdk": 34,
@@ -2192,7 +2207,7 @@
   {
     "id": 321505185,
     "name": "P5R电量",
-    "package": "[batt]com.watchfacestudio.p5r",
+    "package": "com.watchfacestudio.p5r",
     "version": "1.0.0",
     "code": 10000001,
     "minSdk": 34,
@@ -2816,10 +2831,10 @@
     "id": 2862734064,
     "name": "Stopwatch",
     "package": "nl.slisky.stopwatch",
-    "version": "5.6.0.Wear4",
-    "code": 1543,
+    "version": "5.6.1.Wear4",
+    "code": 1593,
     "minSdk": 33,
-    "size": "2.51 MB",
+    "size": "2.12 MB",
     "icon": "assets/images/stopwatch/stopwatch_icon.webp",
     "screenshots": [
       "assets/images/stopwatch/stopwatch_1.webp",
@@ -2827,7 +2842,7 @@
       "assets/images/stopwatch/stopwatch_3.webp"
     ],
     "addedTime": 1769240166602,
-    "updateTime": "2026-01-24",
+    "updateTime": "2026-05-02",
     "description": "一款功能强大且完全免费的 Wear OS 秒表应用，支持多计时器运行、圈数记录、数据导出与表盘复杂功能，无广告。",
     "category": "生活服务",
     "keywords": [
@@ -2836,9 +2851,17 @@
       "miaobiao",
       "jishi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Stopwatch%205.6.0%20(Android%2013%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Stopwatch5.6.1.Wear4(Android13%2B).zip",
     "developer": "Electric Wave",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "5.6.0.Wear4",
+        "code": 1543,
+        "minSdk": 33,
+        "size": "2.51 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Stopwatch%205.6.0%20(Android%2013%20%2B).apk"
+      }
+    ]
   },
   {
     "id": 3277444958,
@@ -3180,10 +3203,10 @@
     "id": 2329231388,
     "name": "Voice Notebook",
     "package": "com.voicenotebook.voicenotebook",
-    "version": "1.1.4",
-    "code": 400,
+    "version": "1.1.6",
+    "code": 423,
     "minSdk": 28,
-    "size": "0.99 MB",
+    "size": "0.75 MB",
     "icon": "assets/images/voicenotebook/voicenotebook_icon.webp",
     "screenshots": [
       "assets/images/voicenotebook/voicenotebook_1.webp",
@@ -3191,7 +3214,7 @@
       "assets/images/voicenotebook/voicenotebook_3.webp"
     ],
     "addedTime": 1766329357492,
-    "updateTime": "2025-12-21",
+    "updateTime": "2026-05-02",
     "description": "一款功能强大的语音转文字笔记应用，支持在线/离线识别、自动标点、云同步及与Google服务集成。可通过语音快速记录想法、撰写文本，并与聋哑人士顺畅沟通。",
     "category": "效率办公",
     "keywords": [
@@ -3202,9 +3225,17 @@
       "语音输入",
       "speech to text"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Voice%20Notebook%201.1.4%20(Android%209%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Voice%20Notebook1.1.6(Android9%2B).zip",
     "developer": "Yuri Khramov",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.1.4",
+        "code": 400,
+        "minSdk": 28,
+        "size": "0.99 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Voice%20Notebook%201.1.4%20(Android%209%20%2B).apk"
+      }
+    ]
   },
   {
     "id": 222478316,
@@ -3348,6 +3379,39 @@
     "historyVersion": []
   },
   {
+    "id": 2747460821,
+    "name": "Wear Music Player",
+    "package": "com.windkracht8.wearmusicplayer",
+    "version": "w2.11",
+    "code": 275,
+    "minSdk": 32,
+    "size": "1.75 MB",
+    "icon": "assets/images/wearmusicplayer/wearmusicplayer_icon.webp",
+    "screenshots": [
+      "assets/images/wearmusicplayer/wearmusicplayer_1.webp",
+      "assets/images/wearmusicplayer/wearmusicplayer_2.webp",
+      "assets/images/wearmusicplayer/wearmusicplayer_3.webp",
+      "assets/images/wearmusicplayer/wearmusicplayer_4.webp",
+      "assets/images/wearmusicplayer/wearmusicplayer_5.webp"
+    ],
+    "addedTime": 1777734205898,
+    "updateTime": "2026-05-02",
+    "description": "一款专为Wear OS手表设计的音乐播放器，支持离线播放mp3和m4a格式音乐。通过蓝牙或同网络WiFi从手机上传音乐到手表，支持前台媒体服务，确保后台及锻炼时音乐持续播放。",
+    "category": "影音娱乐",
+    "keywords": [
+      "音乐播放器",
+      "离线播放",
+      "mp3",
+      "m4a",
+      "蓝牙传输",
+      "yinyue",
+      "bofangqi"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Wear%20Music%20Player_w2.11_(Android12L%2B).zip",
+    "developer": "Windkracht8",
+    "historyVersion": []
+  },
+  {
     "id": 1120712413,
     "name": "Wear Voice Recorder",
     "package": "com.wrejistry.voicerecorder",
@@ -3380,10 +3444,10 @@
     "id": 1171572150,
     "name": "WearFiles",
     "package": "com.dertefter.wearfiles",
-    "version": "2.0.3",
-    "code": 33,
+    "version": "2.0.5",
+    "code": 34,
     "minSdk": 26,
-    "size": "12.93 MB",
+    "size": "13.84 MB",
     "icon": "assets/images/wearfiles/wearfiles_icon.webp",
     "screenshots": [
       "assets/images/wearfiles/wearfiles_1.webp",
@@ -3391,14 +3455,14 @@
       "assets/images/wearfiles/wearfiles_3.webp"
     ],
     "addedTime": 1767280565881,
-    "updateTime": "2026-02-05",
-    "description": "一款简洁的开源文件管理器，专为 Wear OS 设计。支持基本的文件查看、删除、复制粘贴操作，并可置顶常用文件/文件夹。使用前需通过ADB手动授予文件权限。\n\nWearFiles需要存储权限，请执行以下adb命令：\nadb shell appops set --uid com.dertefter.wearfiles MANAGE_EXTERNAL_STORAGE allow",
+    "updateTime": "2026-05-02",
+    "description": "一款简洁的开源文件管理器，专为 Wear OS 设计。支持基本的文件查看、删除、复制粘贴操作，并可置顶常用文件/文件夹。使用前需通过ADB手动授予文件权限。\n\nWearFiles需要存储权限，请执行以下adb命令：\nadb shell appops set --uid com.dertefter.wearfiles MANAGE_EXTERNAL_STORAGE allow\n\n2.0.5\n•增加中文语言\n•修复了图像查看器中的问题",
     "category": "系统工具",
     "keywords": [
       "文件管理",
       "wenjianguanli"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/WearFiles2.0.3(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearFiles2.0.5(Android8%2B).apk",
     "developer": "Dertefter Labs",
     "historyVersion": []
   },
@@ -3542,10 +3606,10 @@
     "id": 652737322,
     "name": "WearPod - 腕上播客",
     "package": "site.whitezaak.wearpod",
-    "version": "1.3.2",
+    "version": "1.4.2",
     "code": 1,
     "minSdk": 30,
-    "size": "3.93 MB",
+    "size": "4.00 MB",
     "icon": "assets/images/wearpod/wearpod_icon.webp",
     "screenshots": [
       "assets/images/wearpod/wearpod_1.webp",
@@ -3567,7 +3631,7 @@
       "boke",
       "tingyinpin"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/WearPod1.3.2(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearPod1.4.2(Android11%2B).apk",
     "developer": "lyizhuo",
     "historyVersion": []
   },
@@ -4178,6 +4242,28 @@
     "category": "表盘美化",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf14%201.0.0%20(Android%2011%20%2B).apk",
+    "developer": "saicoND",
+    "historyVersion": []
+  },
+  {
+    "id": 3059155087,
+    "name": "cmf20",
+    "package": "com.cmf20",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 36,
+    "size": "0.06 MB",
+    "icon": "assets/images/cmf20/cmf20_icon.webp",
+    "screenshots": [
+      "assets/images/cmf20/cmf20_1.webp",
+      "assets/images/cmf20/cmf20_2.webp"
+    ],
+    "addedTime": 1777734212791,
+    "updateTime": "2026-05-02",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/cmf20_1.0.0_(Android16%2B).apk",
     "developer": "saicoND",
     "historyVersion": []
   },
@@ -7391,10 +7477,10 @@
     "id": 4195018046,
     "name": "简易录音机",
     "package": "com.coffeebeanventures.easyvoicerecorder",
-    "version": "2.10.0",
-    "code": 342991302,
+    "version": "2.10.1",
+    "code": 362992402,
     "minSdk": 30,
-    "size": "3.31 MB",
+    "size": "3.01 MB",
     "icon": "assets/images/jianyiluyinji/jianyiluyinji_icon.webp",
     "screenshots": [
       "assets/images/jianyiluyinji/jianyiluyinji_1.webp",
@@ -7404,7 +7490,7 @@
       "assets/images/jianyiluyinji/jianyiluyinji_5.webp"
     ],
     "addedTime": 1764730759544,
-    "updateTime": "2026-04-04",
+    "updateTime": "2026-05-02",
     "description": "专为手表设计的轻便录音工具，高品质录制会议、课堂或灵感瞬间，并支持快速分享，随时随地留存重要声音。",
     "category": "效率办公",
     "keywords": [
@@ -7415,9 +7501,16 @@
       "录音笔",
       "easy voice recorder"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E7%AE%80%E6%98%93%E5%BD%95%E9%9F%B3%E6%9C%BA2.10.0(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/%E7%AE%80%E6%98%93%E5%BD%95%E9%9F%B3%E6%9C%BA2.10.1(Android11%2B).zip",
     "developer": "Digipom",
     "historyVersion": [
+      {
+        "version": "2.10.0",
+        "code": 342991302,
+        "minSdk": 30,
+        "size": "3.31 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E7%AE%80%E6%98%93%E5%BD%95%E9%9F%B3%E6%9C%BA2.10.0(Android11%2B).apk"
+      },
       {
         "version": "2.9.4",
         "code": 332940102,
@@ -8939,6 +9032,28 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE1.1.1(Android8%2B).apk",
     "developer": "北京高德图强科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3211569384,
+    "name": "黑暗之魂",
+    "package": "com.watchfacestudio.darksoullite",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "4.27 MB",
+    "icon": "assets/images/heianzhihun/heianzhihun_icon.webp",
+    "screenshots": [
+      "assets/images/heianzhihun/heianzhihun_1.webp",
+      "assets/images/heianzhihun/heianzhihun_2.webp"
+    ],
+    "addedTime": 1777734266552,
+    "updateTime": "2026-05-02",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%BB%91%E6%9A%97%E4%B9%8B%E9%AD%821.0.0(Android14%2B).apk",
+    "developer": "勤寒",
     "historyVersion": []
   },
   {

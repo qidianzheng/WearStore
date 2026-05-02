@@ -176,7 +176,6 @@ export function renderAppModal(app) {
   const getAuthorHtml = (n) => {
     const dn = n ? escapeHtml(n).trim() : '未知开发者';
     if (!n || dn === '未知开发者' || dn === '') return `<span style="color:var(--text-secondary); cursor:default;">未知开发者</span>`;
-    // 统一跳转到 #dev=名称
     return `<span class="author-link" data-name="${dn}">${dn}</span>`;
   };
 
@@ -187,19 +186,26 @@ export function renderAppModal(app) {
     ? `${getAuthorHtml(devRaw)} <span style="color:var(--text-secondary); font-size:0.8em; font-weight:normal;">(由 ${getAuthorHtml(modRaw)} 修改)</span>`
     : getAuthorHtml(devRaw);
 
-  // 1. 顶部 Header 部分 (图标 + 软件信息 + 关闭)
+  const isSplitApk = data.downloadUrl && data.downloadUrl.toLowerCase().split('?')[0].endsWith('.zip');
+
+  // 生成分包徽章 HTML
+  const splitBadgeHtml = isSplitApk
+    ? `<span class="badge-split" title="您需要使用支持安装分包应用的工具安装此应用。">分包</span>`
+    : '';
+  const versionDisplayHtml = `${escapeHtml(data.version)} (${data.code || 0})${splitBadgeHtml}`;
+  // 1. 顶部 Header 部分
   const headerHtml = `
         <div class="modal-new-header">
             <img class="modal-new-icon" src="${escapeHtml(app.icon)}" onerror="handleImgError(this)">
             <div class="modal-new-info">
                 <div class="modal-new-title">${escapeHtml(app.name)}</div>
-                <div class="modal-new-dev">${app.modAuthor ? getAuthorHtml(app.developer, 'original') + ' <span style="font-size:0.8em; font-weight:normal;">(由 ' + getAuthorHtml(app.modAuthor, 'mod') + ' 修改)</span>' : getAuthorHtml(app.developer, 'original')}</div>
+                <div class="modal-new-dev">${devInfoHtml}</div>
             </div>
             <button class="btn-close-new"><span class="material-symbols-rounded">close</span></button>
         </div>
     `;
 
-  // 2. 不兼容信息 (修复文字内容)
+  // 2. 不兼容信息
   const reqVer = apiMap[data.minSdk] || data.minSdk;
   const warningHtml = !isCompat ? `<div class="modal-warning-row"><div class="compat-warning-box">此应用无法在您的手表上使用，您需要 Android ${reqVer}+才能使用此应用。</div></div>` : '';
 
@@ -219,7 +225,7 @@ export function renderAppModal(app) {
         </div>
     `;
 
-  // 4. 推荐应用 (您可能喜欢的应用)
+  // 4. 推荐应用
   let recommendHtml = '';
   if (window.allApps) {
     let targetApps = [];
@@ -233,15 +239,11 @@ export function renderAppModal(app) {
         <div class="recommend-card recommend-click-item" data-target-id="${t.id}">
             <img src="${escapeHtml(t.icon)}" class="recommend-app-icon" onerror="handleImgError(this)">
             <div class="recommend-content">
-                <!-- 第一行：应用名称 -->
                 <div class="recommend-title">${escapeHtml(t.name)}</div>
-                <!-- 第二行：应用大小 -->
                 <div class="recommend-size">${escapeHtml(t.size || '未知大小')}</div>
-                <!-- 第三行：查看按钮 -->
                 <div class="recommend-link">查看</div>
             </div>
-        </div>
-    `;
+        </div>`;
         if (idx < targetApps.length - 1) recommendHtml += `<div class="recommend-divider"></div>`;
       });
       recommendHtml += `</div>`;
@@ -271,7 +273,10 @@ export function renderAppModal(app) {
 
                 <div class="section-title">详细信息</div>
                 <div class="detail-grid">
-                    <div class="detail-item"><span class="detail-label">版本</span><span class="detail-value">${escapeHtml(data.version)} (${data.code || 0})</span></div>
+                    <div class="detail-item">
+                        <span class="detail-label">版本</span>
+                        <span class="detail-value">${versionDisplayHtml}</span>
+                    </div>
                     <div class="detail-item"><span class="detail-label">大小</span><span class="detail-value">${escapeHtml(data.size || '未知')}</span></div>
                     <div class="detail-item"><span class="detail-label">最低兼容</span><span class="detail-value">Android ${apiMap[data.minSdk] || data.minSdk}+</span></div>
                     <div class="detail-item"><span class="detail-label">分类</span><span class="detail-value">${escapeHtml(app.category || '应用')}</span></div>
@@ -288,20 +293,21 @@ export function renderAppModal(app) {
         </div>
     `;
 
-  // 事件绑定逻辑
+  // 事件绑定
   m.querySelector('.btn-close-new').onclick = () => smartBack();
   if (hasUrl) m.querySelector('#dlBtn').onclick = () => window.open(data.downloadUrl, '_blank');
   if (data.password) m.querySelector('#pwdBtn').onclick = () => { navigator.clipboard.writeText(data.password); showToast('密码已复制'); };
   if (app.phoneLink) m.querySelector('#phBtn').onclick = () => window.open(app.phoneLink, '_blank');
   if (m.querySelector('#hiBtn')) m.querySelector('#hiBtn').onclick = () => { window.location.hash = `history=${app.package}+${app.id}`; };
   m.querySelector('#shBtn').onclick = () => { navigator.clipboard.writeText(window.location.href); showToast('链接已复制'); };
+
   m.querySelectorAll('.author-link').forEach(link => {
     link.onclick = (e) => {
       e.stopPropagation();
-      // 统一 Hash 格式：#dev=作者名
       window.location.hash = `dev=${encodeURIComponent(link.dataset.name)}`;
     };
   });
+
   m.querySelectorAll('.recommend-click-item').forEach(item => {
     item.onclick = () => {
       const tId = item.getAttribute('data-target-id');

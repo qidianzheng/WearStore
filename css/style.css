@@ -1153,6 +1153,34 @@ body {
   top: 1px;
 }
 
+.badge-split {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #3b82f6;
+  background-color: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  vertical-align: middle;
+  cursor: help;
+  line-height: 1.2;
+}
+
+.badge-split:hover {
+  background-color: rgba(59, 130, 246, 0.2);
+  border-color: #3b82f6;
+}
+
+[data-theme="dark"] .badge-split {
+  color: #60a5fa;
+  background-color: rgba(96, 165, 250, 0.15);
+  border-color: rgba(96, 165, 250, 0.4);
+}
+
 .section-title {
   font-size: 1.15rem;
   font-weight: 700;
