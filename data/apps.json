@@ -1099,10 +1099,10 @@
     "id": 2880562203,
     "name": "Flue",
     "package": "com.flue.launcher",
-    "version": "beta1.3",
-    "code": 13,
+    "version": "beta1.4.1",
+    "code": 14,
     "minSdk": 27,
-    "size": "3.80 MB",
+    "size": "3.93 MB",
     "icon": "assets/images/flue/flue_icon.webp",
     "screenshots": [
       "assets/images/flue/flue_1.webp",
@@ -1111,7 +1111,7 @@
       "assets/images/flue/flue_4.webp"
     ],
     "addedTime": 1777017830878,
-    "updateTime": "2026-04-28",
+    "updateTime": "2026-05-05",
     "description": "Flue 是一个面向 Android 手表的自定义桌面启动器，基于 Kotlin 与 Jetpack Compose 打造，目标是让华强北手表用户拥有接近大厂手表桌面启动器动画的流畅体验。\n目前已支持以下功能\n丝滑流畅的过渡动画与打断动画\n类hyperOS的头部模糊特效\n类似watchOS的应用启动动画\n蜂窝/列表双布局\n副一屏快捷启动\n独立通知中心堆叠效果\n提供内置图片 / 视频表盘与lunch表盘接入\n提供隐藏应用、图标包功能\nTips：Flue目前仍处于 beta 测试阶段，但目前已经基本可用，也在持续补齐交互细节、动画效果和表盘能力。\n8541e及以下手表运行较为吃力\n安卓12以下用户不建议开启模糊\n文件选择器被阉割请长按选择图片拉起内置选择器\n用户交流群：1097162313\n演示视频：https://www.bilibili.com/video/BV1cZdoBKET6",
     "category": "系统工具",
     "keywords": [
@@ -1119,7 +1119,7 @@
       "自定义桌面",
       "qidong qi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Flue_beta1.3_(Android8.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Flue-1.4.1-beta-fixed(Android8.1%2B).apk",
     "developer": "柚子柚子皮",
     "historyVersion": [
       {
@@ -5964,10 +5964,10 @@
     "id": 1979471110,
     "name": "弦电子书",
     "package": "moye.sine.books",
-    "version": "1.0.7",
-    "code": 7,
+    "version": "1.0.8",
+    "code": 8,
     "minSdk": 26,
-    "size": "5.37 MB",
+    "size": "5.39 MB",
     "icon": "assets/images/xiandianzishu/xiandianzishu_icon.webp",
     "screenshots": [
       "assets/images/xiandianzishu/xiandianzishu_1.webp",
@@ -5976,7 +5976,7 @@
       "assets/images/xiandianzishu/xiandianzishu_4.webp"
     ],
     "addedTime": 1771760724526,
-    "updateTime": "2026-04-28",
+    "updateTime": "2026-05-05",
     "description": "一款专为安卓手表端设计的强大电子书阅读器，支持导入TXT、EPUB、MOBI、NVB格式。具备TXT导入自动分章、书籍分类、书签管理和全文搜索功能。\n\n内置文件选择器授权：\n\n授予读取存储权限：\nadb shell pm grant moye.sine.books android.permission.READ_EXTERNAL_STORAGE\n授予写入存储权限：\nadb shell pm grant moye.sine.books android.permission.WRITE_EXTERNAL_STORAGE\n授予管理所有文件权限（针对 Android 11+）：\nadb shell appops set moye.sine.books MANAGE_EXTERNAL_STORAGE allow",
     "category": "学习充电",
     "keywords": [
@@ -5991,15 +5991,15 @@
       "ebook reader",
       "dianzi shu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.7(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.8(Android8%2B).apk",
     "developer": "爅峫",
     "historyVersion": [
       {
-        "version": "1.0.6",
-        "code": 6,
+        "version": "1.0.7",
+        "code": 7,
         "minSdk": 26,
-        "size": "2.42 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.6(Android8%2B).apk"
+        "size": "5.37 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.7(Android8%2B).apk"
       }
     ]
   },
