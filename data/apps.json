@@ -1796,10 +1796,10 @@
     "id": 903364287,
     "name": "Momoi Theme",
     "package": "com.sawa.momoiwatchface",
-    "version": "1.4Detla",
-    "code": 140,
-    "minSdk": 30,
-    "size": "24.64 MB",
+    "version": "1.5Epsilon",
+    "code": 150,
+    "minSdk": 25,
+    "size": "1.55 MB",
     "icon": "assets/images/momoitheme/momoitheme_icon.webp",
     "screenshots": [
       "assets/images/momoitheme/momoitheme_1.webp",
@@ -1807,16 +1807,24 @@
       "assets/images/momoitheme/momoitheme_3.webp"
     ],
     "addedTime": 1775280017462,
-    "updateTime": "2026-04-24",
-    "description": "WearOS表盘市场",
+    "updateTime": "2026-05-06",
+    "description": "第三方WearOS表盘市场",
     "category": "系统工具",
     "keywords": [
       "表盘商店",
       "小桃应用商店"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Momoi%20Theme1.4(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Momoi%20Theme1.5Epsilon(Android7.1%2B).apk",
     "developer": "sawaaa",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.4Detla",
+        "code": 140,
+        "minSdk": 30,
+        "size": "24.64 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Momoi%20Theme1.4(Android11%2B).apk"
+      }
+    ]
   },
   {
     "id": 4008730769,
