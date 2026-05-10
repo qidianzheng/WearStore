@@ -1633,66 +1633,64 @@ img.image-error::after {
 /* =========================================
    AI 特色卡片样式 (ID: 1287852515) - 修复版
    ========================================= */
-/* 1. 定义动画变量 */
 @property --angle {
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
 }
 
-/* 2. 核心容器：取消所有背景和边框，由伪元素代劳 */
+/* 1. 核心容器 */
 .card-featured-ai {
   position: relative;
+  z-index: 1;
   border: none !important;
   background: transparent !important;
-  z-index: 1;
+  isolation: isolate;
 }
 
-/* 3. 底层：旋转的彩色渐变层 */
+/* 2. 底层 */
 .card-featured-ai::before {
   content: "";
   position: absolute;
-  /* 这里的 -3px 控制边框外扩的厚度 */
   inset: -2px;
   z-index: -2;
-  /* 放在最底层 */
-
   background: conic-gradient(from var(--angle),
       #00f2fe, #7367f0, #f067b4, #02ed61, #00f2fe);
-
-  border-radius: calc(var(--radius-lg) + 2px);
+  /* 发光效果 */
+  filter: blur(15px);
+  opacity: 0.8;
+  border-radius: var(--radius-lg);
   animation: spin 3s linear infinite;
 }
 
-/* 4. 中层：遮挡层（关键！） */
-/* 用这个层来模拟卡片背景，它会挡住底层 ::before 的中心颜色 */
+/* 3. 中层 */
 .card-featured-ai::after {
   content: "";
   position: absolute;
-  /* 必须是 0，严格覆盖卡片区域 */
   inset: 0;
   z-index: -1;
-  /* 放在底层之上，内容之下 */
-
-  /* 使用固定的背景色（不带透明度），彻底切断色彩渗透 */
-  /* 如果你希望是白色，直接写 #fff；如果随主题，使用 var 变量 */
-  background: var(--modal-bg);
+  background: #ffffff;
+  /* 边框的粗细 */
+  padding: 1.5px;
+  background-image:
+    linear-gradient(#fff, #fff),
+    conic-gradient(from var(--angle), #00f2fe, #7367f0, #f067b4, #02ed61, #00f2fe);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 
   border-radius: var(--radius-lg);
-  /* 依然可以保留毛玻璃感，但背景必须是不透明的 */
-  backdrop-filter: blur(10px);
+  animation: spin 3s linear infinite;
 }
 
-/* 5. 针对大图标模式的圆角微调 */
-.card-big.card-featured-ai::before {
-  border-radius: 26%;
+/* 4. 深色模式适配 */
+[data-theme="dark"] .card-featured-ai::after {
+  background-color: #1e293b;
+  background-image:
+    linear-gradient(#1e293b, #1e293b),
+    conic-gradient(from var(--angle), #00f2fe, #7367f0, #f067b4, #02ed61, #00f2fe);
 }
 
-.card-big.card-featured-ai::after {
-  border-radius: 22%;
-}
-
-/* 6. 旋转动画 */
+/* 5. 旋转动画 */
 @keyframes spin {
   from {
     --angle: 0deg;
@@ -1703,15 +1701,15 @@ img.image-error::after {
   }
 }
 
-/* 7. 悬停效果优化 */
-.card-featured-ai:hover {
-  transform: translateY(-4px) scale(1.02);
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+/* 6. 大图标模式圆角适配 */
+.card-big.card-featured-ai,
+.card-big.card-featured-ai::before,
+.card-big.card-featured-ai::after {
+  border-radius: 22%;
 }
 
-/* 辉光效果（可选，如果觉得太生硬可以保留，放在 ::before 更底层） */
-/* 若不需要发光，可以删除下面这段 */
-.card-featured-ai::before {
-  box-shadow: 0 0 25px rgba(115, 103, 240, 0.4);
-
+/* 7. 悬停效果 */
+.card-featured-ai:hover {
+  transform: translateY(-4px);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
