@@ -3305,7 +3305,7 @@
         "code": 9,
         "minSdk": 28,
         "size": "2.21 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/Unit%20Converter%201.0.1%20(Android%209%20%2B).apk"
       }
     ]
   },
@@ -4706,7 +4706,7 @@
         "code": 10020392,
         "minSdk": 27,
         "size": "5.90 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/%E2%80%8EComplications%20Suite%203.9.2-wear%20(Android%208.1%20%2B).apk"
       }
     ]
   },
@@ -5487,7 +5487,7 @@
         "code": 20251002,
         "minSdk": 14,
         "size": "9.62 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%93%94%E5%93%A9%E7%BB%88%E7%AB%AF%202.9.3-fix%20(Android%204%20%2B).apk"
       }
     ]
   },
@@ -7829,6 +7829,7 @@
     "description": "",
     "category": "表盘美化",
     "keywords": [],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%BB%8F%E5%85%B8%E6%97%B6%E8%AE%A1%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
     "historyVersion": []
   },
@@ -8545,7 +8546,7 @@
         "code": 107,
         "minSdk": 24,
         "size": "9.19 MB",
-        "downloadUrl": ""
+        "downloadUrl": "https://download.wearstore.asia/APK/%E8%A5%BF%E7%AA%97%E7%83%9B%201.7%20(Android%207%20%2B).apk"
       }
     ]
   },
