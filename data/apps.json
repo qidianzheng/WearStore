@@ -88,6 +88,28 @@
     "historyVersion": []
   },
   {
+    "id": 1612916313,
+    "name": "APEC 2025 KOREA",
+    "package": "com.official_presidential.digitalgoods_apec2025_1",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "1.37 MB",
+    "icon": "assets/images/apec2025korea/apec2025korea_icon.webp",
+    "screenshots": [
+      "assets/images/apec2025korea/apec2025korea_1.webp",
+      "assets/images/apec2025korea/apec2025korea_2.webp"
+    ],
+    "addedTime": 1778945445260,
+    "updateTime": "2026-05-16",
+    "description": "[动态效果活动]\n每当激活表盘时，都会出现动态效果，展示 2025 年韩国 APEC 会议的官方徽标。\n动态效果在播放一次后会暂停。\n[主要功能]\n•数字时钟\n•12/24 小时模式\n•日期\n•电池电量\n•心率\n•息屏显示 (Always-on Display)\n•动画效果\n•此表盘支持运行 Wear OS 4 或更高版本的设备。它不兼容运行 Wear OS 4 以下版本或 Tizen OS 的设备。",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/APEC2025_1_1.0.0_(Android14%2B).zip",
+    "developer": "대한민국청와대",
+    "historyVersion": []
+  },
+  {
     "id": 2056030808,
     "name": "Alti-Barometer汉化版",
     "package": "com.lucaboscolomeneguolo.altimeterbarometer",
@@ -497,6 +519,27 @@
         "downloadUrl": "https://download.wearstore.asia/APK/CPU%20Info%206.4.0%20(Android%208%20%2B).apk"
       }
     ]
+  },
+  {
+    "id": 284483417,
+    "name": "CRC068",
+    "package": "com.creationcue.crc068watchface",
+    "version": "4.0.1",
+    "code": 10000007,
+    "minSdk": 33,
+    "size": "0.43 MB",
+    "icon": "assets/images/crc068/crc068_icon.webp",
+    "screenshots": [
+      "assets/images/crc068/crc068_1.webp"
+    ],
+    "addedTime": 1778945447626,
+    "updateTime": "2026-05-16",
+    "description": "Time Hub 表盘 - 为所有人带来的一抹俏皮感。\n数字 Wear OS 表盘。\n此表盘专为 API 33+ 的 Wear OS 设备设计。\n功能包括：\n• 采用相同字体以更好地匹配原始设计灵感。\n• 自定义复杂功能：您可以在表盘上添加 3 个自定义挂件和 4 个图像快捷方式。\n• 充电动画。\n• 秒针平滑扫秒运动。\n• 上下午 (AM/PM) 或 24 小时制。",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Watch%20Face%20CRC068_4.0.1_(Android13%2B).zip",
+    "developer": "Creation Cue",
+    "historyVersion": []
   },
   {
     "id": 1789130077,
@@ -1010,6 +1053,30 @@
     "contributor": "清漓染"
   },
   {
+    "id": 1651602595,
+    "name": "Felinox",
+    "package": "com.watchfacestudio.felinox",
+    "version": "1.0.2",
+    "code": 10000003,
+    "minSdk": 30,
+    "size": "0.91 MB",
+    "icon": "assets/images/felinox/felinox_icon.webp",
+    "screenshots": [
+      "assets/images/felinox/felinox_1.webp",
+      "assets/images/felinox/felinox_2.webp",
+      "assets/images/felinox/felinox_3.webp",
+      "assets/images/felinox/felinox_4.webp"
+    ],
+    "addedTime": 1778945449960,
+    "updateTime": "2026-05-16",
+    "description": "一款灵感源自星空与猫咪优雅魅力的有趣且独特的表盘。该设计将占星术与俏皮而实用的元素相结合，完美平衡了风格与实用性。\n主要功能：\n•12 星座图标： 每个星座都以猫咪形象重新构思，为您的表盘增添一份童趣和个性化色彩。\n•星座显示： 太阳图标代表当前的星座，将您的表盘与实时星象相连。\n•俏皮的秒针指示器： 一只小老鼠负责追踪秒钟，为您计时体验增添一丝趣味。\n•自定义复杂功能（挂件）： 选择您最看重的数据。默认设置包含日期和电池电量，方便即时查看。\n这款设计非常适合占星爱好者、猫奴或任何寻求具有个性与魅力表盘的用户，在提供实用功能的同时，带给您宇宙般的奇幻感。无论您是在查看星座运势还是仅仅为了看时间，这款表盘都是您喜爱的“宇宙伴侣”。",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Felinox1.0.2(Android11%2B).zip",
+    "developer": "Meoware Apps",
+    "historyVersion": []
+  },
+  {
     "id": 19735701,
     "name": "Finger Gun - Motion Games",
     "package": "com.MustBeFun.FingerGunMotionGame",
@@ -1130,6 +1197,27 @@
         "downloadUrl": "https://download.wearstore.asia/APK/Flue_beta1.2_(Android8.1%2B).apk"
       }
     ]
+  },
+  {
+    "id": 1883277418,
+    "name": "GWC_Watch",
+    "package": "com.watchfacestudio.gwc_watch",
+    "version": "2.0.0",
+    "code": 10000005,
+    "minSdk": 30,
+    "size": "0.21 MB",
+    "icon": "assets/images/gwcwatch/gwcwatch_icon.webp",
+    "screenshots": [
+      "assets/images/gwcwatch/gwcwatch_1.webp"
+    ],
+    "addedTime": 1778945450453,
+    "updateTime": "2026-05-16",
+    "description": "这是一款模拟指针式表盘。\n表盘包含电池电量显示、步数统计和心率测量功能。",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/GWC_Watch2.0.0(Android11%2B).zip",
+    "developer": "Samtree",
+    "historyVersion": []
   },
   {
     "id": 2193154985,
@@ -1489,18 +1577,19 @@
     "id": 3322744350,
     "name": "MahiroBrowser",
     "package": "com.dudu.mahirobrowser",
-    "version": "1.1.1",
-    "code": 7,
+    "version": "1.1.2",
+    "code": 8,
     "minSdk": 27,
-    "size": "144.01 MB",
+    "size": "144.46 MB",
     "icon": "assets/images/mahirobrowser/mahirobrowser_icon.webp",
     "screenshots": [
       "assets/images/mahirobrowser/mahirobrowser_1.webp",
       "assets/images/mahirobrowser/mahirobrowser_2.webp",
-      "assets/images/mahirobrowser/mahirobrowser_3.webp"
+      "assets/images/mahirobrowser/mahirobrowser_3.webp",
+      "assets/images/mahirobrowser/mahirobrowser_4.webp"
     ],
     "addedTime": 1777017834091,
-    "updateTime": "2026-05-02",
+    "updateTime": "2026-05-16",
     "description": "专为圆屏手表开发的独立内核浏览器\n由GeckoView强力驱动\n深入结合Compose Wear给您带来最佳的浏览体验",
     "category": "系统工具",
     "keywords": [
@@ -1510,15 +1599,15 @@
       "shoubiao",
       "网页"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.1.1(Android8.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.1.2(Android8.1%2B).apk",
     "developer": "dudu",
     "historyVersion": [
       {
-        "version": "1.0.4",
-        "code": 5,
+        "version": "1.1.1",
+        "code": 7,
         "minSdk": 27,
-        "size": "144.00 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.0.4(Android8.1%2B).apk"
+        "size": "144.01 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.1.1(Android8.1%2B).apk"
       }
     ]
   },
@@ -1807,7 +1896,7 @@
       "assets/images/momoitheme/momoitheme_3.webp"
     ],
     "addedTime": 1775280017462,
-    "updateTime": "2026-05-06",
+    "updateTime": "2026-05-16",
     "description": "第三方WearOS表盘市场",
     "category": "系统工具",
     "keywords": [
@@ -1816,15 +1905,7 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Momoi%20Theme1.5Epsilon(Android7.1%2B).apk",
     "developer": "sawaaa",
-    "historyVersion": [
-      {
-        "version": "1.4Detla",
-        "code": 140,
-        "minSdk": 30,
-        "size": "24.64 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/Momoi%20Theme1.4(Android11%2B).apk"
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 4008730769,
@@ -2306,6 +2387,27 @@
     "historyVersion": []
   },
   {
+    "id": 1690523107,
+    "name": "Pixel Digits - Digital Watch",
+    "package": "com.watchface.minimaldigitalwatch.watchdigits",
+    "version": "2.0.0",
+    "code": 10000002,
+    "minSdk": 34,
+    "size": "0.31 MB",
+    "icon": "assets/images/pixeldigitsdigitalwatch/pixeldigitsdigitalwatch_icon.webp",
+    "screenshots": [
+      "assets/images/pixeldigitsdigitalwatch/pixeldigitsdigitalwatch_1.webp"
+    ],
+    "addedTime": 1778945464011,
+    "updateTime": "2026-05-16",
+    "description": "表盘特性：\n• 12/24 小时数字时间\n• 日期与星期\n• 步数统计\n• 电池百分比\n• 天气温度\n• 支持 AOD\n• 简洁的像素灵感审美",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Pixel%20Digits%20-%20Digital%20Watch2.0.0(Android14%2B).zip",
+    "developer": "jigu watchface",
+    "historyVersion": []
+  },
+  {
     "id": 3366910039,
     "name": "Polygon Watch Face",
     "package": "com.wojdor.polygonwatchface",
@@ -2740,6 +2842,27 @@
     "developer": "etustudio",
     "historyVersion": [],
     "contributor": "清漓染"
+  },
+  {
+    "id": 2240532117,
+    "name": "Simple Bricks Watch Face",
+    "package": "com.jdepap2.brickswatch",
+    "version": "1.0.3",
+    "code": 10000003,
+    "minSdk": 33,
+    "size": "5.11 MB",
+    "icon": "assets/images/simplebrickswatchface/simplebrickswatchface_icon.webp",
+    "screenshots": [
+      "assets/images/simplebrickswatchface/simplebrickswatchface_1.webp"
+    ],
+    "addedTime": 1778945473565,
+    "updateTime": "2026-05-16",
+    "description": "您好。这是一款简约的砖块风格表盘。\n在其中，您可以选择不同的配色方案。",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Simple%20Bricks%20Watch%20Face1.0.3(Android13%2B).zip",
+    "developer": "Waces",
+    "historyVersion": []
   },
   {
     "id": 4251679535,
@@ -4416,7 +4539,30 @@
       "code",
       "代码"
     ],
+    "downloadUrl": "https://download.wearstore.asia/APK/now.json%20-%20JSON%20Watch%20Face%203.0.0%20(Android%2016%20%2B).apk",
     "developer": "Nushio",
+    "historyVersion": []
+  },
+  {
+    "id": 1635935105,
+    "name": "runicswords",
+    "package": "com.gphoenix.runicswords",
+    "version": "1.0.8",
+    "code": 10000009,
+    "minSdk": 34,
+    "size": "2.15 MB",
+    "icon": "assets/images/runicswords/runicswords_icon.webp",
+    "screenshots": [
+      "assets/images/runicswords/runicswords_1.webp",
+      "assets/images/runicswords/runicswords_2.webp"
+    ],
+    "addedTime": 1778945487929,
+    "updateTime": "2026-05-16",
+    "description": "戴上这款 Wear OS 表盘，在手腕上感受圆桌骑士时代的法则力量。\n“符文神殿骑士之剑”表盘是力量、荣誉和古老权力的数字印记。专为需要视觉提醒内在韧性的用户设计，这款表盘将您的智能手表转变为个人权威的象征。\n【锻造自传奇与力量】\n该设计汲取了传奇骑士的钢铁、磐石与魔法灵感。时间以粗犷、凿刻般的字体显示，仿佛大盾或神殿墙壁上的铭文。秒针的跳动并非传统的剑形，而是由一个脉动的符文仪表追踪，散发出集中的能量，让您每次查看手腕时都能感受到掌控感与力量。\n【结构与清晰度】\n•可自定义的符文挂件： 您的数据由力量守护。在精美的、刻有符文的圆环和神殿拱门中显示电池寿命、步数、心率或天气。\n•风格变换： 掌控从中世纪骑士到遥远未来的未来骑士的力量。\n•息屏对焦： 针对环境显示（AOD）进行了优化，“符文神殿骑士之剑”确保您的关键信息保持可见，同时不牺牲震撼、强大的美感。\n不要只是“被动”阅读时间，开始“掌控”您的时间。下载“符文神殿骑士之剑”，在现代征途的每一步中，随身携带古代战士坚不可摧的精神。",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/runicswords1.0.8(Android14%2B).zip",
+    "developer": "GPhoenix Studio",
     "historyVersion": []
   },
   {
@@ -5972,10 +6118,10 @@
     "id": 1979471110,
     "name": "弦电子书",
     "package": "moye.sine.books",
-    "version": "1.0.8",
-    "code": 8,
+    "version": "1.0.9",
+    "code": 9,
     "minSdk": 26,
-    "size": "5.39 MB",
+    "size": "5.41 MB",
     "icon": "assets/images/xiandianzishu/xiandianzishu_icon.webp",
     "screenshots": [
       "assets/images/xiandianzishu/xiandianzishu_1.webp",
@@ -5984,7 +6130,7 @@
       "assets/images/xiandianzishu/xiandianzishu_4.webp"
     ],
     "addedTime": 1771760724526,
-    "updateTime": "2026-05-05",
+    "updateTime": "2026-05-16",
     "description": "一款专为安卓手表端设计的强大电子书阅读器，支持导入TXT、EPUB、MOBI、NVB格式。具备TXT导入自动分章、书籍分类、书签管理和全文搜索功能。\n\n内置文件选择器授权：\n\n授予读取存储权限：\nadb shell pm grant moye.sine.books android.permission.READ_EXTERNAL_STORAGE\n授予写入存储权限：\nadb shell pm grant moye.sine.books android.permission.WRITE_EXTERNAL_STORAGE\n授予管理所有文件权限（针对 Android 11+）：\nadb shell appops set moye.sine.books MANAGE_EXTERNAL_STORAGE allow",
     "category": "学习充电",
     "keywords": [
@@ -5999,15 +6145,15 @@
       "ebook reader",
       "dianzi shu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.8(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.9(Android8%2B).apk",
     "developer": "爅峫",
     "historyVersion": [
       {
-        "version": "1.0.7",
-        "code": 7,
+        "version": "1.0.8",
+        "code": 8,
         "minSdk": 26,
-        "size": "5.37 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.7(Android8%2B).apk"
+        "size": "5.39 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.8(Android8%2B).apk"
       }
     ]
   },
