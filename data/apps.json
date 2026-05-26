@@ -281,6 +281,36 @@
     "historyVersion": []
   },
   {
+    "id": 3261417376,
+    "name": "ArcheryShotCounter",
+    "package": "com.example.archeryshotcounter",
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 30,
+    "size": "20.04 MB",
+    "icon": "assets/images/archeryshotcounter/archeryshotcounter_icon.webp",
+    "screenshots": [
+      "assets/images/archeryshotcounter/archeryshotcounter_1.webp",
+      "assets/images/archeryshotcounter/archeryshotcounter_2.webp",
+      "assets/images/archeryshotcounter/archeryshotcounter_3.webp"
+    ],
+    "addedTime": 1779784915219,
+    "updateTime": "2026-05-26",
+    "description": "这是一名为射箭运动员设计的 WearOS 应用程序，利用手腕加速度计自动计算射箭次数——在射箭过程中无需操作任何按键。该应用适用于任何弓种（复合弓、奥林匹克反曲弓、光弓、传统弓），且左右手均可佩戴，只需根据您的器材设置调整灵敏度即可。\n功能特点：\n•自动射击检测——通过手腕加速度计检测放箭时的后坐力冲击。\n•手动调整——如有需要，可点击“+/-”来修正计数。\n•训练环节追踪——支持开始、暂停、恢复和结束训练环节。\n•历史记录查询——浏览过往训练记录，包括日期、时间范围、射箭总数和持续时间。\n•灵敏度可调——提供 高 / 中 / 低 / 自定义阈值设置。\n•支持 12 种界面语言——英语、俄语、西班牙语、法语、德语、葡萄牙语、中文、日语、韩语、阿拉伯语、土耳其语和印地语。\n系统要求：\n•Wear OS 3.0+ 智能手表 (Android API 30+)\n•腕部加速度计（所有 WearOS 手表的标准配置）\n•测试设备：Galaxy Watch 6 Classic（佩戴于持弓手，使用复合弓）",
+    "category": "健康运动",
+    "keywords": [
+      "射箭",
+      "射击计数器",
+      "运动追踪",
+      "archery",
+      "shot counter",
+      "she jian"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/ArcheryShotCounter1.0(Android11%2B).apk",
+    "developer": "Vladimir Grigoriev",
+    "historyVersion": []
+  },
+  {
     "id": 2763815218,
     "name": "Athlete 2 Lite",
     "package": "com.amoledwatchfaces.athlete2lite",
@@ -1577,10 +1607,10 @@
     "id": 3322744350,
     "name": "MahiroBrowser",
     "package": "com.dudu.mahirobrowser",
-    "version": "1.1.2",
-    "code": 8,
+    "version": "1.1.3",
+    "code": 9,
     "minSdk": 27,
-    "size": "144.46 MB",
+    "size": "146.95 MB",
     "icon": "assets/images/mahirobrowser/mahirobrowser_icon.webp",
     "screenshots": [
       "assets/images/mahirobrowser/mahirobrowser_1.webp",
@@ -1589,7 +1619,7 @@
       "assets/images/mahirobrowser/mahirobrowser_4.webp"
     ],
     "addedTime": 1777017834091,
-    "updateTime": "2026-05-16",
+    "updateTime": "2026-05-26",
     "description": "专为圆屏手表开发的独立内核浏览器\n由GeckoView强力驱动\n深入结合Compose Wear给您带来最佳的浏览体验",
     "category": "系统工具",
     "keywords": [
@@ -1599,15 +1629,15 @@
       "shoubiao",
       "网页"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.1.2(Android8.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.1.3(Android8.1%2B).apk",
     "developer": "dudu",
     "historyVersion": [
       {
-        "version": "1.1.1",
-        "code": 7,
+        "version": "1.1.2",
+        "code": 8,
         "minSdk": 27,
-        "size": "144.01 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.1.1(Android8.1%2B).apk"
+        "size": "144.46 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.1.2(Android8.1%2B).apk"
       }
     ]
   },
@@ -1630,13 +1660,7 @@
     "description": "一款受Material Design启发的极简动态岛屿主题表盘，壁纸会随时间缓慢变化，设计注重低功耗与视觉美感。",
     "category": "表盘美化",
     "keywords": [
-      "动态岛屿表盘",
-      "Material Design",
-      "低功耗",
-      "随时间变化",
       "极简设计",
-      "material islands",
-      "dongtai",
       "daoyu"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Material%20Islands0.62(Android5%2B).apk",
@@ -3575,10 +3599,10 @@
     "id": 1171572150,
     "name": "WearFiles",
     "package": "com.dertefter.wearfiles",
-    "version": "2.0.5",
-    "code": 34,
-    "minSdk": 26,
-    "size": "13.84 MB",
+    "version": "2.1.3",
+    "code": 38,
+    "minSdk": 32,
+    "size": "12.9 MB",
     "icon": "assets/images/wearfiles/wearfiles_icon.webp",
     "screenshots": [
       "assets/images/wearfiles/wearfiles_1.webp",
@@ -3586,16 +3610,24 @@
       "assets/images/wearfiles/wearfiles_3.webp"
     ],
     "addedTime": 1767280565881,
-    "updateTime": "2026-05-02",
-    "description": "一款简洁的开源文件管理器，专为 Wear OS 设计。支持基本的文件查看、删除、复制粘贴操作，并可置顶常用文件/文件夹。使用前需通过ADB手动授予文件权限。\n\nWearFiles需要存储权限，请执行以下adb命令：\nadb shell appops set --uid com.dertefter.wearfiles MANAGE_EXTERNAL_STORAGE allow\n\n2.0.5\n•增加中文语言\n•修复了图像查看器中的问题",
+    "updateTime": "2026-05-26",
+    "description": "一款简洁的开源文件管理器，专为 Wear OS 设计。支持基本的文件查看、删除、复制粘贴操作，并可置顶常用文件/文件夹。使用前需通过ADB手动授予文件权限。\n\nWearFiles需要存储权限，请执行以下adb命令：\nadb shell appops set --uid com.dertefter.wearfiles MANAGE_EXTERNAL_STORAGE allow",
     "category": "系统工具",
     "keywords": [
       "文件管理",
       "wenjianguanli"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/WearFiles2.0.5(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/WearFiles2.1.3(Android12L%2B).zip",
     "developer": "Dertefter Labs",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "2.0.5",
+        "code": 34,
+        "minSdk": 26,
+        "size": "13.84 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/WearFiles2.0.5(Android8%2B).apk"
+      }
+    ]
   },
   {
     "id": 806735725,
@@ -3737,10 +3769,10 @@
     "id": 652737322,
     "name": "WearPod - 腕上播客",
     "package": "site.whitezaak.wearpod",
-    "version": "1.4.2",
+    "version": "1.4.9",
     "code": 1,
     "minSdk": 30,
-    "size": "4.00 MB",
+    "size": "4.01 MB",
     "icon": "assets/images/wearpod/wearpod_icon.webp",
     "screenshots": [
       "assets/images/wearpod/wearpod_1.webp",
@@ -3751,7 +3783,7 @@
       "assets/images/wearpod/wearpod_6.webp"
     ],
     "addedTime": 1774603367886,
-    "updateTime": "2026-05-02",
+    "updateTime": "2026-05-26",
     "description": "WearPod 是一款专为安卓手表设计的泛用型播客客户端。\n✨ 功能特性\n独立使用：使用手机蓝牙网络或手表独立eSim，在手表上播客节目的拉取、播放、下载播客节目；\n离线收听：支持将节目下载至本地存储，告别断网焦虑；\n支持播客节目ShowNote显示；\n支持播客播放进度断点记忆；\n在播放页右侧滑动可调节播放进度；\n支持睡眠定时；\n使用与小米Watch5、OPPO X2等非Google组件不全的安卓手表；",
     "category": "影音娱乐",
     "keywords": [
@@ -3762,7 +3794,7 @@
       "boke",
       "tingyinpin"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/WearPod1.4.2(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearPod1.4.9.apk",
     "developer": "lyizhuo",
     "historyVersion": []
   },
@@ -5914,9 +5946,9 @@
     "name": "宠物探索",
     "package": "net.freedomforge.petquest",
     "version": "1.7.0",
-    "code": 47,
+    "code": 54,
     "minSdk": 23,
-    "size": "6.16 MB",
+    "size": "3.11 MB",
     "icon": "assets/images/chongwutansuo/chongwutansuo_icon.webp",
     "screenshots": [
       "assets/images/chongwutansuo/chongwutansuo_1.webp",
@@ -5925,7 +5957,7 @@
       "assets/images/chongwutansuo/chongwutansuo_4.webp"
     ],
     "addedTime": 1770301738212,
-    "updateTime": "2026-02-05",
+    "updateTime": "2026-05-26",
     "description": "一款带有冒险和迷你游戏的像素风虚拟宠物养成游戏。领养可爱的像素宠物，通过照顾、教学和探索让它成长。独特的情绪反馈系统和历史记录图表，让你与数字宠物建立真实的情感联结。专为智能手表设计，注重低功耗与长续航。",
     "category": "休闲游戏",
     "keywords": [
@@ -7919,6 +7951,36 @@
     "historyVersion": []
   },
   {
+    "id": 698535126,
+    "name": "腕上RSS",
+    "package": "com.lightningstudio.watchrss",
+    "version": "1.1",
+    "code": 3,
+    "minSdk": 30,
+    "size": "22.60 MB",
+    "icon": "assets/images/wanshangrss/wanshangrss_icon.webp",
+    "screenshots": [
+      "assets/images/wanshangrss/wanshangrss_1.webp",
+      "assets/images/wanshangrss/wanshangrss_2.webp",
+      "assets/images/wanshangrss/wanshangrss_3.webp"
+    ],
+    "addedTime": 1779785003195,
+    "updateTime": "2026-05-26",
+    "description": "一款专为可穿戴手表定制的内容聚合应用，聚合哔哩哔哩、抖音轻量化浏览与通用RSS阅读功能。支持关注UP主动态预览、短视频文字摘要、一键收藏（同步手机端），以及自定义RSS源订阅、已读未读标记、分类管理等，旨在提供轻量化、高效化的腕上内容消费体验。",
+    "category": "学习充电",
+    "keywords": [
+      "RSS阅读器",
+      "哔哩哔哩",
+      "抖音",
+      "手表资讯",
+      "wanshang rss",
+      "yuedu"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8ARSS1.1(Android11%2B).apk",
+    "developer": "闪电工作室",
+    "historyVersion": []
+  },
+  {
     "id": 1968955834,
     "name": "腕上启动器",
     "package": "com.kelei.launcherforwearosv2",
@@ -8010,6 +8072,29 @@
     "recommendIds": [
       2653482018
     ]
+  },
+  {
+    "id": 673709365,
+    "name": "腕上小六壬",
+    "package": "com.wrist.world.xiaoliuren",
+    "version": "1.0.0",
+    "code": 1000003,
+    "minSdk": 27,
+    "size": "2.05 MB",
+    "icon": "assets/images/wanshangxiaoliuren/wanshangxiaoliuren_icon.webp",
+    "screenshots": [
+      "assets/images/wanshangxiaoliuren/wanshangxiaoliuren_1.webp",
+      "assets/images/wanshangxiaoliuren/wanshangxiaoliuren_2.webp",
+      "assets/images/wanshangxiaoliuren/wanshangxiaoliuren_3.webp"
+    ],
+    "addedTime": 1779785004666,
+    "updateTime": "2026-05-26",
+    "description": "",
+    "category": "影音娱乐",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E5%B0%8F%E5%85%AD%E5%A3%AC1.0.0(Android8.1%2B).apk",
+    "developer": "",
+    "historyVersion": []
   },
   {
     "id": 2625337913,
@@ -8106,6 +8191,31 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E6%95%99%E6%9D%901.2-Final(Android6%2B).apk",
     "developer": "氘氚xs",
+    "historyVersion": []
+  },
+  {
+    "id": 2871702810,
+    "name": "腕上网盘",
+    "package": "mywft1.weilei.mynetdisktic",
+    "version": "2.6",
+    "code": 19,
+    "minSdk": 26,
+    "size": "16.20 MB",
+    "icon": "assets/images/wanshangwangpan/wanshangwangpan_icon.webp",
+    "screenshots": [
+      "assets/images/wanshangwangpan/wanshangwangpan_1.webp",
+      "assets/images/wanshangwangpan/wanshangwangpan_2.webp"
+    ],
+    "addedTime": 1779785006914,
+    "updateTime": "2026-05-26",
+    "description": "支持图片、视频、文本、音乐等。用手机扫码授权即可让手表独立登录百度网盘。支持文本：txt、doc（doc格式仅支持纯文本内容的doc文件），图片：jpg、bmp.png，音频：mp3、flac、m4a、aac、 wav，视频：mp4、3gp、flv、avi、rmvb等格式，支持下载和安装第三方apk安装包（需确保第三方apk包适配手表系统，否则会提示解析错误）。断网时可选择离线浏览已下载到手表端的文本、图片、音乐或视频文件。",
+    "category": "系统工具",
+    "keywords": [
+      "百度网盘",
+      "wangpan"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E7%BD%91%E7%9B%982.6(Android8%2B).apk",
+    "developer": "迁安骏图软件开发中心",
     "historyVersion": []
   },
   {
@@ -8349,6 +8459,27 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E8%88%AA%E6%97%85%E7%BA%B5%E6%A8%AA1.4.1(Android7%2B).apk",
     "developer": "中航信移动科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 864005261,
+    "name": "艾尔登法环消磨时间",
+    "package": "com.watchfacestudio.er",
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "1.46 MB",
+    "icon": "assets/images/aierdengfahuanxiaomoshijian/aierdengfahuanxiaomoshijian_icon.webp",
+    "screenshots": [
+      "assets/images/aierdengfahuanxiaomoshijian/aierdengfahuanxiaomoshijian_1.webp"
+    ],
+    "addedTime": 1779785009919,
+    "updateTime": "2026-05-26",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%89%BE%E5%B0%94%E7%99%BB%E6%B3%95%E7%8E%AF%E6%B6%88%E7%A3%A8%E6%97%B6%E9%97%B41.0.0(Android13%2B).apk",
+    "developer": "勤寒",
     "historyVersion": []
   },
   {
