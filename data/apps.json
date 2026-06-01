@@ -1229,6 +1229,34 @@
     ]
   },
   {
+    "id": 352976287,
+    "name": "Flue九宫格",
+    "package": "com.flue.launcher",
+    "version": "beta1.5",
+    "code": 15,
+    "minSdk": 26,
+    "size": "5.36 MB",
+    "icon": "assets/images/fluejiugongge/fluejiugongge_icon.webp",
+    "screenshots": [
+      "assets/images/fluejiugongge/fluejiugongge_1.webp",
+      "assets/images/fluejiugongge/fluejiugongge_2.webp",
+      "assets/images/fluejiugongge/fluejiugongge_3.webp",
+      "assets/images/fluejiugongge/fluejiugongge_4.webp"
+    ],
+    "addedTime": 1777017830878,
+    "updateTime": "2026-06-01",
+    "description": "Flue九宫格版本",
+    "category": "系统工具",
+    "keywords": [
+      "启动器",
+      "自定义桌面",
+      "qidong qi"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Flue(%E4%B9%9D%E5%AE%AB%E6%A0%BC)beta1.5(Android8%2B).apk",
+    "developer": "MrMoxing",
+    "historyVersion": []
+  },
+  {
     "id": 1883277418,
     "name": "GWC_Watch",
     "package": "com.watchfacestudio.gwc_watch",
@@ -1638,6 +1666,13 @@
         "minSdk": 27,
         "size": "144.46 MB",
         "downloadUrl": "https://download.wearstore.asia/APK/MahiroBrowser1.1.2(Android8.1%2B).apk"
+      },
+      {
+        "version": "1.1.1",
+        "code": 7,
+        "minSdk": 27,
+        "size": "144.01 MB",
+        "downloadUrl": ""
       }
     ]
   },
@@ -1909,10 +1944,10 @@
     "id": 903364287,
     "name": "Momoi Theme",
     "package": "com.sawa.momoiwatchface",
-    "version": "1.5Epsilon",
-    "code": 150,
+    "version": "1.55Epsilon_Full",
+    "code": 155,
     "minSdk": 25,
-    "size": "1.55 MB",
+    "size": "1.62 MB",
     "icon": "assets/images/momoitheme/momoitheme_icon.webp",
     "screenshots": [
       "assets/images/momoitheme/momoitheme_1.webp",
@@ -1920,16 +1955,24 @@
       "assets/images/momoitheme/momoitheme_3.webp"
     ],
     "addedTime": 1775280017462,
-    "updateTime": "2026-05-16",
-    "description": "第三方WearOS表盘市场",
+    "updateTime": "2026-06-01",
+    "description": "第三方WearOS表盘市场\n1.55Epsilon_Full：\n该版本修缮了UI细节",
     "category": "系统工具",
     "keywords": [
       "表盘商店",
       "小桃应用商店"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Momoi%20Theme1.5Epsilon(Android7.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Momoi%20Theme1.55Epsilon_Full(Android7.1%2B).apk",
     "developer": "sawaaa",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.5Epsilon",
+        "code": 150,
+        "minSdk": 25,
+        "size": "1.55 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Momoi%20Theme1.5Epsilon(Android7.1%2B).apk"
+      }
+    ]
   },
   {
     "id": 4008730769,
@@ -3602,7 +3645,7 @@
     "version": "2.1.3",
     "code": 38,
     "minSdk": 32,
-    "size": "12.9 MB",
+    "size": "12.96 MB",
     "icon": "assets/images/wearfiles/wearfiles_icon.webp",
     "screenshots": [
       "assets/images/wearfiles/wearfiles_1.webp",
@@ -3770,7 +3813,7 @@
     "name": "WearPod - 腕上播客",
     "package": "site.whitezaak.wearpod",
     "version": "1.4.9",
-    "code": 1,
+    "code": 149,
     "minSdk": 30,
     "size": "4.01 MB",
     "icon": "assets/images/wearpod/wearpod_icon.webp",
@@ -3783,7 +3826,7 @@
       "assets/images/wearpod/wearpod_6.webp"
     ],
     "addedTime": 1774603367886,
-    "updateTime": "2026-05-26",
+    "updateTime": "2026-06-01",
     "description": "WearPod 是一款专为安卓手表设计的泛用型播客客户端。\n✨ 功能特性\n独立使用：使用手机蓝牙网络或手表独立eSim，在手表上播客节目的拉取、播放、下载播客节目；\n离线收听：支持将节目下载至本地存储，告别断网焦虑；\n支持播客节目ShowNote显示；\n支持播客播放进度断点记忆；\n在播放页右侧滑动可调节播放进度；\n支持睡眠定时；\n使用与小米Watch5、OPPO X2等非Google组件不全的安卓手表；",
     "category": "影音娱乐",
     "keywords": [
@@ -3794,7 +3837,7 @@
       "boke",
       "tingyinpin"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/WearPod1.4.9.apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearPod1.4.9(Android11%2B).apk",
     "developer": "lyizhuo",
     "historyVersion": []
   },
@@ -4947,10 +4990,10 @@
     "id": 923218798,
     "name": "云听",
     "package": "com.ytwatch.cnr.watch",
-    "version": "2.0.1.410",
-    "code": 410,
+    "version": "2.0.1.452",
+    "code": 452,
     "minSdk": 19,
-    "size": "18.96 MB",
+    "size": "18.99 MB",
     "icon": "assets/images/yunting/yunting_icon.webp",
     "screenshots": [
       "assets/images/yunting/yunting_1.webp",
@@ -4959,7 +5002,7 @@
       "assets/images/yunting/yunting_4.webp"
     ],
     "addedTime": 1767927089521,
-    "updateTime": "2026-01-09",
+    "updateTime": "2026-06-01",
     "description": "中央广播电视总台声音新媒体平台。\n\n中央广播电视总台官方声音平台“云听”的手表版，聚合广播电台、精品有声书与热点资讯，提供高品质音频内容。",
     "category": "影音娱乐",
     "keywords": [
@@ -4971,8 +5014,43 @@
       "guangbo",
       "yousheng"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E4%BA%91%E5%90%AC2.0.1.410(Android4.4%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E4%BA%91%E5%90%AC2.0.1.452(Android4.4%2B).apk",
     "developer": "央广云听文化传媒有限公司",
+    "historyVersion": [
+      {
+        "version": "2.0.1.410",
+        "code": 410,
+        "minSdk": 19,
+        "size": "18.96 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E4%BA%91%E5%90%AC2.0.1.410(Android4.4%2B).apk"
+      }
+    ]
+  },
+  {
+    "id": 3805541027,
+    "name": "京东金融",
+    "package": "com.jd.jrwear",
+    "version": "1.0.0",
+    "code": 1000,
+    "minSdk": 28,
+    "size": "31.72 MB",
+    "icon": "assets/images/jingdongjinrong/jingdongjinrong_icon.webp",
+    "screenshots": [
+      "assets/images/jingdongjinrong/jingdongjinrong_1.webp"
+    ],
+    "addedTime": 1780287688014,
+    "updateTime": "2026-06-01",
+    "description": "3亿人都在用，简单、快捷、安全!\n京东金融手表版一—专为智能手表打造的轻量级金融助手。抬腕即览多家银行实时金价与涨跌动态，超大字号清晰呈现，让黄金行情尽在腕间，随时随地把握每一次投资先机。",
+    "category": "生活服务",
+    "keywords": [
+      "金价查询",
+      "实时行情",
+      "投资",
+      "jingdong jinrong",
+      "jinjia"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E4%BA%AC%E4%B8%9C%E9%87%91%E8%9E%8D1.0.0(Android9%2B).apk",
+    "developer": "北京京东叁佰陆拾度电子商务有限公司",
     "historyVersion": []
   },
   {
@@ -5023,6 +5101,31 @@
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E4%BC%A0%E5%A5%87%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 4010090360,
+    "name": "你行你算",
+    "package": "com.smallgame.calculator",
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 33,
+    "size": "19.55 MB",
+    "icon": "assets/images/nihangnisuan/nihangnisuan_icon.webp",
+    "screenshots": [
+      "assets/images/nihangnisuan/nihangnisuan_1.webp"
+    ],
+    "addedTime": 1780287688458,
+    "updateTime": "2026-06-01",
+    "description": "加减乘除，一键速算!\n极简实用的基础计算器！支持加减乘除四则运算，输入直观，反应灵敏。无论是日常算账、作业核对还是快速计算，都能轻松搞定。界面清爽无冗余功能，操作简单易上手，满足你所有基础计算需求。",
+    "category": "效率办公",
+    "keywords": [
+      "计算器",
+      "实用工具",
+      "jisuan qi"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E4%BD%A0%E8%A1%8C%E4%BD%A0%E7%AE%971.0(Android13%2B).apk",
+    "developer": "汕头小小网络有限公司",
     "historyVersion": []
   },
   {
@@ -5527,10 +5630,10 @@
     "id": 1450106876,
     "name": "喜马拉雅",
     "package": "com.ximalayaos.wear.common",
-    "version": "3.2.0.0",
-    "code": 80,
+    "version": "3.2.0.1",
+    "code": 85,
     "minSdk": 25,
-    "size": "6.97 MB",
+    "size": "5.63 MB",
     "icon": "assets/images/ximalaya/ximalaya_icon.webp",
     "screenshots": [
       "assets/images/ximalaya/ximalaya_1.webp",
@@ -5541,7 +5644,7 @@
       "assets/images/ximalaya/ximalaya_6.webp"
     ],
     "addedTime": 1764730734274,
-    "updateTime": "2026-01-09",
+    "updateTime": "2026-06-01",
     "description": "发现听中问功能。\n\n喜马拉雅官方手表应用，提供海量有声书、播客、相声评书及课程节目。无论是通勤路上、运动间隙还是睡前时光，都能让你在手表上便捷收听，畅享音频内容。",
     "category": "影音娱乐",
     "keywords": [
@@ -5551,9 +5654,16 @@
       "相声",
       "ximalaya"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%853.2.0.0(80)(Android7.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%853.2.0.1(Android7.1%2B).apk",
     "developer": "小雅智能平台（深圳）有限公司",
     "historyVersion": [
+      {
+        "version": "3.2.0.0",
+        "code": 80,
+        "minSdk": 25,
+        "size": "6.97 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%853.2.0.0(80)(Android7.1%2B).apk"
+      },
       {
         "version": "2.4.09.18",
         "code": 52,
@@ -6150,10 +6260,10 @@
     "id": 1979471110,
     "name": "弦电子书",
     "package": "moye.sine.books",
-    "version": "1.0.9",
-    "code": 9,
+    "version": "1.0.11",
+    "code": 11,
     "minSdk": 26,
-    "size": "5.41 MB",
+    "size": "4.38 MB",
     "icon": "assets/images/xiandianzishu/xiandianzishu_icon.webp",
     "screenshots": [
       "assets/images/xiandianzishu/xiandianzishu_1.webp",
@@ -6162,7 +6272,7 @@
       "assets/images/xiandianzishu/xiandianzishu_4.webp"
     ],
     "addedTime": 1771760724526,
-    "updateTime": "2026-05-16",
+    "updateTime": "2026-06-01",
     "description": "一款专为安卓手表端设计的强大电子书阅读器，支持导入TXT、EPUB、MOBI、NVB格式。具备TXT导入自动分章、书籍分类、书签管理和全文搜索功能。\n\n内置文件选择器授权：\n\n授予读取存储权限：\nadb shell pm grant moye.sine.books android.permission.READ_EXTERNAL_STORAGE\n授予写入存储权限：\nadb shell pm grant moye.sine.books android.permission.WRITE_EXTERNAL_STORAGE\n授予管理所有文件权限（针对 Android 11+）：\nadb shell appops set moye.sine.books MANAGE_EXTERNAL_STORAGE allow",
     "category": "学习充电",
     "keywords": [
@@ -6177,15 +6287,15 @@
       "ebook reader",
       "dianzi shu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.9(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.11(Android8%2B).apk",
     "developer": "爅峫",
     "historyVersion": [
       {
-        "version": "1.0.8",
-        "code": 8,
+        "version": "1.0.9",
+        "code": 9,
         "minSdk": 26,
-        "size": "5.39 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.8(Android8%2B).apk"
+        "size": "5.41 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.9(Android8%2B).apk"
       }
     ]
   },
