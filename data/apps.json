@@ -3218,6 +3218,33 @@
     "historyVersion": []
   },
   {
+    "id": 3125944892,
+    "name": "Timetable",
+    "package": "com.hufeng943.timetable",
+    "version": "0.9.9-268",
+    "code": 268,
+    "minSdk": 28,
+    "size": "4.98 MB",
+    "icon": "assets/images/timetable/timetable_icon.webp",
+    "screenshots": [
+      "assets/images/timetable/timetable_1.webp",
+      "assets/images/timetable/timetable_2.webp",
+      "assets/images/timetable/timetable_3.webp"
+    ],
+    "addedTime": 1780997924164,
+    "updateTime": "2026-06-09",
+    "description": "一个为智能手表设计的课程表应用，专注于提供简洁直观的课程查看体验",
+    "category": "学习充电",
+    "keywords": [
+      "课程表",
+      "课表",
+      "kechengbiao"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Timetable0.9.9-268(Android9%2B).apk",
+    "developer": "HuFeng943",
+    "historyVersion": []
+  },
+  {
     "id": 857372679,
     "name": "To-Do List",
     "package": "todolist.scheduleplanner.dailyplanner.todo.reminders",
@@ -3842,6 +3869,42 @@
     "historyVersion": []
   },
   {
+    "id": 2615630529,
+    "name": "QQPro",
+    "package": "com.tencent.qqlite",
+    "version": "v1",
+    "code": 2465,
+    "minSdk": 21,
+    "size": "38.13 MB",
+    "icon": "assets/images/wearqqpro/wearqqpro_icon.webp",
+    "screenshots": [
+      "assets/images/wearqqpro/wearqqpro_1.webp",
+      "assets/images/wearqqpro/wearqqpro_2.webp",
+      "assets/images/wearqqpro/wearqqpro_3.webp",
+      "assets/images/wearqqpro/wearqqpro_4.webp",
+      "assets/images/wearqqpro/wearqqpro_5.webp"
+    ],
+    "addedTime": 1764730689784,
+    "updateTime": "2025-12-28",
+    "description": "此应用为第三方修改版，WearStore不对因使用此应用导致封号负责。\n\n一款基于 NWear-QQ 最终版 2 的修改版 QQ 手表应用，由开发者 java30433 制作。最显著的改变是采用了黑色背景主题，并可能包含更多功能增强与优化，具体改进等待用户探索发现。",
+    "category": "通讯社交",
+    "keywords": [
+      "聊天",
+      "即时通讯",
+      "社交",
+      "扣扣",
+      "视频通话"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/QQPro%201.5.1.apk",
+    "developer": "深圳市腾讯计算机系统有限公司",
+    "historyVersion": [],
+    "recommendIds": [
+      286136756,
+      2388747650
+    ],
+    "modAuthor": "java30433"
+  },
+  {
     "id": 2443986942,
     "name": "WearRippleLite",
     "package": "com.qx.ripple",
@@ -3866,6 +3929,33 @@
       "music player"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/WearRipple_Lite_(Android9%2B).apk",
+    "developer": "琴弦上的小医生",
+    "historyVersion": []
+  },
+  {
+    "id": 1763594791,
+    "name": "WearSend",
+    "package": "com.qx.wearsend",
+    "version": "1.0.0",
+    "code": 1000,
+    "minSdk": 26,
+    "size": "5.08 MB",
+    "icon": "assets/images/wearsend/wearsend_icon.webp",
+    "screenshots": [
+      "assets/images/wearsend/wearsend_1.webp",
+      "assets/images/wearsend/wearsend_2.webp"
+    ],
+    "addedTime": 1780997932396,
+    "updateTime": "2026-06-09",
+    "description": "全新的文件传输工具-WearSend 震撼发布！\n由琴弦亲力打造，基于 LocalSend 协议，使用 Wear Compose 完全重写，致力于打造手表上最好用的文件传输工具！\n目前支持：\n- 手表与手表互传文件\n- 手表与官方客户端互传文件\n- 手表与官方客户端互发消息\n- 音乐及歌词文件自动导入Music文件夹\n- APK 文件可一键安装\n- 官方客户端收藏手表设备\n- HTTPS 加密传输\n更多实用功能等待发掘！",
+    "category": "系统工具",
+    "keywords": [
+      "文件传输",
+      "LocalSend协议",
+      "手表互传",
+      "加密传输"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/WearSend1.0.0(Android8%2B).apk",
     "developer": "琴弦上的小医生",
     "historyVersion": []
   },
@@ -5575,8 +5665,8 @@
     "id": 2913175280,
     "name": "哔哩终端",
     "package": "com.RobinNotBad.BiliClient",
-    "version": "2.9.8",
-    "code": 20260320,
+    "version": "2.9.8-fix",
+    "code": 20260606,
     "minSdk": 14,
     "size": "9.25 MB",
     "icon": "assets/images/bilizhongduan/bilizhongduan_icon.webp",
@@ -5588,7 +5678,7 @@
       "assets/images/bilizhongduan/bilizhongduan_5.webp"
     ],
     "addedTime": 1764730732767,
-    "updateTime": "2026-04-04",
+    "updateTime": "2026-06-09",
     "description": "一款专为智能手表及低配置设备打造的轻量级第三方B站客户端。界面简洁无广告，支持扫码登录同步收藏与历史记录，并可根据手表屏幕自定义界面，提供流畅的移动观影体验。",
     "category": "影音娱乐",
     "keywords": [
@@ -5600,9 +5690,16 @@
       "第三方b站",
       "bilizhongduan"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%93%94%E5%93%A9%E7%BB%88%E7%AB%AF2.9.8.apk",
-    "developer": "RobinNotBad",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%93%94%E5%93%A9%E7%BB%88%E7%AB%AF2.9.8-fix.apk",
+    "developer": "哔哩终端项目组",
     "historyVersion": [
+      {
+        "version": "2.9.8",
+        "code": 20260320,
+        "minSdk": 14,
+        "size": "9.25 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%93%94%E5%93%A9%E7%BB%88%E7%AB%AF2.9.8.apk"
+      },
       {
         "version": "2.9.7",
         "code": 20260131,
@@ -6260,8 +6357,8 @@
     "id": 1979471110,
     "name": "弦电子书",
     "package": "moye.sine.books",
-    "version": "1.0.11",
-    "code": 11,
+    "version": "1.0.12",
+    "code": 12,
     "minSdk": 26,
     "size": "4.38 MB",
     "icon": "assets/images/xiandianzishu/xiandianzishu_icon.webp",
@@ -6272,7 +6369,7 @@
       "assets/images/xiandianzishu/xiandianzishu_4.webp"
     ],
     "addedTime": 1771760724526,
-    "updateTime": "2026-06-01",
+    "updateTime": "2026-06-09",
     "description": "一款专为安卓手表端设计的强大电子书阅读器，支持导入TXT、EPUB、MOBI、NVB格式。具备TXT导入自动分章、书籍分类、书签管理和全文搜索功能。\n\n内置文件选择器授权：\n\n授予读取存储权限：\nadb shell pm grant moye.sine.books android.permission.READ_EXTERNAL_STORAGE\n授予写入存储权限：\nadb shell pm grant moye.sine.books android.permission.WRITE_EXTERNAL_STORAGE\n授予管理所有文件权限（针对 Android 11+）：\nadb shell appops set moye.sine.books MANAGE_EXTERNAL_STORAGE allow",
     "category": "学习充电",
     "keywords": [
@@ -6287,15 +6384,15 @@
       "ebook reader",
       "dianzi shu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.11(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A61.0.12(Android8%2B).apk",
     "developer": "爅峫",
     "historyVersion": [
       {
-        "version": "1.0.9",
-        "code": 9,
+        "version": "1.0.11",
+        "code": 11,
         "minSdk": 26,
-        "size": "5.41 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.9(Android8%2B).apk"
+        "size": "4.38 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.11(Android8%2B).apk"
       }
     ]
   },
@@ -7274,6 +7371,34 @@
     ]
   },
   {
+    "id": 3088906259,
+    "name": "氢电子书",
+    "package": "com.lowh202.sevennovel",
+    "version": "2.1",
+    "code": 5,
+    "minSdk": 26,
+    "size": "1.96 MB",
+    "icon": "assets/images/qingdianzishu/qingdianzishu_icon.webp",
+    "screenshots": [
+      "assets/images/qingdianzishu/qingdianzishu_1.webp",
+      "assets/images/qingdianzishu/qingdianzishu_2.webp"
+    ],
+    "addedTime": 1780997973463,
+    "updateTime": "2026-06-09",
+    "description": "氢电子书是一个专为手表打造的阅读器，可以免费流畅阅读七猫和番茄的所有小说，支持离线下载，离线阅读，支持导入导出",
+    "category": "学习充电",
+    "keywords": [
+      "阅读器",
+      "七猫小说",
+      "番茄小说",
+      "离线阅读",
+      "yuedu"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.1(Android8%2B).apk",
+    "developer": "mcl0",
+    "historyVersion": []
+  },
+  {
     "id": 2343238057,
     "name": "永雏塔菲 呼呼喵+",
     "package": "com.flyfish233.sleeptaffy",
@@ -7770,6 +7895,34 @@
     ]
   },
   {
+    "id": 3870867934,
+    "name": "离线词典",
+    "package": "com.wear.dict",
+    "version": "1.1",
+    "code": 2,
+    "minSdk": 30,
+    "size": "15.16 MB",
+    "icon": "assets/images/lixiancidian/lixiancidian_icon.webp",
+    "screenshots": [
+      "assets/images/lixiancidian/lixiancidian_1.webp",
+      "assets/images/lixiancidian/lixiancidian_2.webp",
+      "assets/images/lixiancidian/lixiancidian_3.webp",
+      "assets/images/lixiancidian/lixiancidian_4.webp"
+    ],
+    "addedTime": 1780997986606,
+    "updateTime": "2026-06-09",
+    "description": "",
+    "category": "学习充电",
+    "keywords": [
+      "字典",
+      "翻译",
+      "zidian"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%A6%BB%E7%BA%BF%E8%AF%8D%E5%85%B81.1(Android11%2B).apk",
+    "developer": "丁臻",
+    "historyVersion": []
+  },
+  {
     "id": 4195018046,
     "name": "简易录音机",
     "package": "com.coffeebeanventures.easyvoicerecorder",
@@ -8064,10 +8217,10 @@
     "id": 698535126,
     "name": "腕上RSS",
     "package": "com.lightningstudio.watchrss",
-    "version": "1.1",
-    "code": 3,
+    "version": "1.2.0-5",
+    "code": 12,
     "minSdk": 30,
-    "size": "22.60 MB",
+    "size": "22.79 MB",
     "icon": "assets/images/wanshangrss/wanshangrss_icon.webp",
     "screenshots": [
       "assets/images/wanshangrss/wanshangrss_1.webp",
@@ -8075,7 +8228,7 @@
       "assets/images/wanshangrss/wanshangrss_3.webp"
     ],
     "addedTime": 1779785003195,
-    "updateTime": "2026-05-26",
+    "updateTime": "2026-06-09",
     "description": "一款专为可穿戴手表定制的内容聚合应用，聚合哔哩哔哩、抖音轻量化浏览与通用RSS阅读功能。支持关注UP主动态预览、短视频文字摘要、一键收藏（同步手机端），以及自定义RSS源订阅、已读未读标记、分类管理等，旨在提供轻量化、高效化的腕上内容消费体验。",
     "category": "学习充电",
     "keywords": [
@@ -8086,9 +8239,17 @@
       "wanshang rss",
       "yuedu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8ARSS1.1(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8ARSS1.2.0-5(Android11%2B).apk",
     "developer": "闪电工作室",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.1",
+        "code": 3,
+        "minSdk": 30,
+        "size": "22.60 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8ARSS1.1(Android11%2B).apk"
+      }
+    ]
   },
   {
     "id": 1968955834,
@@ -9306,22 +9467,20 @@
     "id": 84101276,
     "name": "零度音乐",
     "package": "ml.sky233.zero.music",
-    "version": "2.2.1-DX",
-    "code": 33,
-    "minSdk": 21,
-    "size": "4.15 MB",
+    "version": "3.0.1",
+    "code": 81,
+    "minSdk": 23,
+    "size": "12.17 MB",
     "icon": "assets/images/lingduyinle/lingduyinle_icon.webp",
     "screenshots": [
       "assets/images/lingduyinle/lingduyinle_1.webp",
       "assets/images/lingduyinle/lingduyinle_2.webp",
       "assets/images/lingduyinle/lingduyinle_3.webp",
-      "assets/images/lingduyinle/lingduyinle_4.webp",
-      "assets/images/lingduyinle/lingduyinle_5.webp",
-      "assets/images/lingduyinle/lingduyinle_6.webp"
+      "assets/images/lingduyinle/lingduyinle_4.webp"
     ],
     "addedTime": 1764730777137,
-    "updateTime": "2025-12-10",
-    "description": "一款专注于本地音乐播放的手表应用，支持多种音频格式、歌词显示与强大的自定义功能，提供纯净的离线听歌体验。",
+    "updateTime": "2026-06-09",
+    "description": "零度音乐是一款专注于智能手表使用体验的本地音乐播放器。应用不提供在线音乐、音乐下载或流媒体服务，只用于播放用户设备中已有的本地音频文件。\n\n你可以在手表上扫描并管理本地音乐，按歌曲、专辑、歌手和歌单浏览音乐库；播放页支持歌词显示、封面背景、播放队列、播放模式切换和定时关闭。针对手表的小屏和圆屏场景，零度音乐重新设计了界面布局，让日常播放、查找和管理歌曲更加顺手。\n\n应用还支持手机端辅助功能，可通过扫码连接手表，将手机音乐上传到手表，并管理手表端音乐库和歌单。传输过程支持分片上传和任务恢复，适合批量导入本地音乐。\n\n主要功能\n\n- 本地音乐扫描与播放\n- 歌曲、专辑、歌手、歌单分类管理\n- 歌词显示与歌词样式设置\n- 播放队列、随机播放、单曲循环等播放模式\n- 均衡器、压限器和应用音量调节\n- 定时关闭、蓝牙线控、滚轮调节音量\n- 自定义主题、字体、背景和界面缩放\n- 手机扫码连接手表，上传音乐并同步歌单\n\n说明\n零度音乐仅支持播放用户已拥有的本地音频文件，不包含任何音乐版权内容，不提供在线搜索、在线播放或下载音乐功能。使用前请确保设备中已有合法来源的音乐文件。",
     "category": "影音娱乐",
     "keywords": [
       "本地音乐",
@@ -9332,9 +9491,17 @@
       "听歌",
       "zeromusic"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%90%202.2.1-DX.apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.0.1(Android6%2B).apk",
     "developer": "sky233",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "2.2.1-DX",
+        "code": 33,
+        "minSdk": 21,
+        "size": "4.15 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%90%202.2.1-DX.apk"
+      }
+    ]
   },
   {
     "id": 3273386591,
