@@ -97,8 +97,9 @@
     "size": "1.37 MB",
     "icon": "assets/images/apec2025korea/apec2025korea_icon.webp",
     "screenshots": [
-      "assets/images/apec2025korea/apec2025korea_1.webp",
-      "assets/images/apec2025korea/apec2025korea_2.webp"
+      "assets/images/apec2025korea/apec2025korea_1.gif",
+      "assets/images/apec2025korea/apec2025korea_2.webp",
+      "assets/images/apec2025korea/apec2025korea_3.webp"
     ],
     "addedTime": 1778945445260,
     "updateTime": "2026-05-16",
@@ -3933,7 +3934,8 @@
     "historyVersion": [],
     "recommendIds": [
       286136756,
-      2388747650
+      2388747650,
+      464807094
     ],
     "modAuthor": "爅峫"
   },
@@ -7237,6 +7239,28 @@
     "historyVersion": []
   },
   {
+    "id": 3613141425,
+    "name": "曼波",
+    "package": "com.bixiao.manbo",
+    "version": "0.2",
+    "code": 2,
+    "minSdk": 30,
+    "size": "2.30 MB",
+    "icon": "assets/images/manbo/manbo_icon.webp",
+    "screenshots": [
+      "assets/images/manbo/manbo_1.webp",
+      "assets/images/manbo/manbo_2.webp"
+    ],
+    "addedTime": 1781169078938,
+    "updateTime": "2026-06-11",
+    "description": "曼波",
+    "category": "影音娱乐",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%9B%BC%E6%B3%A20.2(Android11%2B).apk",
+    "developer": "Sirius745",
+    "historyVersion": []
+  },
+  {
     "id": 1323315513,
     "name": "极氪",
     "package": "com.zeekrlife.mobile.wearoppoos",
@@ -7407,17 +7431,17 @@
     "id": 3088906259,
     "name": "氢电子书",
     "package": "com.lowh202.sevennovel",
-    "version": "2.1",
-    "code": 5,
+    "version": "2.5",
+    "code": 25,
     "minSdk": 26,
-    "size": "1.96 MB",
+    "size": "2.08 MB",
     "icon": "assets/images/qingdianzishu/qingdianzishu_icon.webp",
     "screenshots": [
       "assets/images/qingdianzishu/qingdianzishu_1.webp",
       "assets/images/qingdianzishu/qingdianzishu_2.webp"
     ],
     "addedTime": 1780997973463,
-    "updateTime": "2026-06-09",
+    "updateTime": "2026-06-11",
     "description": "氢电子书是一个专为手表打造的阅读器，可以免费流畅阅读七猫和番茄的所有小说，支持离线下载，离线阅读，支持导入导出",
     "category": "学习充电",
     "keywords": [
@@ -7427,9 +7451,17 @@
       "离线阅读",
       "yuedu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.1(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.5(Android8%2B).apk",
     "developer": "mcl0",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "2.1",
+        "code": 5,
+        "minSdk": 26,
+        "size": "1.96 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.1(Android8%2B).apk"
+      }
+    ]
   },
   {
     "id": 2343238057,
@@ -7901,8 +7933,8 @@
     "id": 1287852515,
     "name": "磨损市场",
     "package": "com.qdz.wearstore",
-    "version": "1.0.20",
-    "code": 20,
+    "version": "1.0.21",
+    "code": 21,
     "minSdk": 26,
     "size": "17.52 MB",
     "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
@@ -7914,13 +7946,13 @@
       "assets/images/mosunshichang/mosunshichang_5.webp"
     ],
     "addedTime": 1770301760137,
-    "updateTime": "2026-06-09",
-    "description": "WearStore官方手表应用商店来了，现在您可以在手表上下载和安装应用。\n\n磨损市场需要安装未知应用权限，WearOS4和5通过以下方式授权：\nadb shell appops set --uid com.qdz.wearstore REQUEST_INSTALL_PACKAGES allow\n\n反馈QQ群聊1077259743\n开发者联系方式dzq8719@gmail.com\n\n近期更新：\n•新增PackageInstaller和ADB两种安装方式\n•支持安装分包应用(split apk)",
+    "updateTime": "2026-06-11",
+    "description": "WearStore官方手表应用商店来了，现在您可以在手表上下载和安装应用。\n\n磨损市场需要安装未知应用权限，WearOS4和5通过以下方式授权：\nadb shell appops set --uid com.qdz.wearstore REQUEST_INSTALL_PACKAGES allow\n\n反馈QQ群聊1077259743\n开发者联系方式dzq8719@gmail.com",
     "category": "系统工具",
     "keywords": [
       "WearSore"
     ],
-    "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E5%B8%82%E5%9C%BA1.0.20.apk",
+    "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E5%B8%82%E5%9C%BA1.0.21.apk",
     "developer": "Qdz",
     "historyVersion": [],
     "recommendIds": [
@@ -9508,8 +9540,8 @@
     "id": 84101276,
     "name": "零度音乐",
     "package": "ml.sky233.zero.music",
-    "version": "3.0.1",
-    "code": 81,
+    "version": "3.0.3",
+    "code": 83,
     "minSdk": 23,
     "size": "12.17 MB",
     "icon": "assets/images/lingduyinle/lingduyinle_icon.webp",
@@ -9520,7 +9552,7 @@
       "assets/images/lingduyinle/lingduyinle_4.webp"
     ],
     "addedTime": 1764730777137,
-    "updateTime": "2026-06-09",
+    "updateTime": "2026-06-11",
     "description": "零度音乐是一款专注于智能手表使用体验的本地音乐播放器。应用不提供在线音乐、音乐下载或流媒体服务，只用于播放用户设备中已有的本地音频文件。\n\n你可以在手表上扫描并管理本地音乐，按歌曲、专辑、歌手和歌单浏览音乐库；播放页支持歌词显示、封面背景、播放队列、播放模式切换和定时关闭。针对手表的小屏和圆屏场景，零度音乐重新设计了界面布局，让日常播放、查找和管理歌曲更加顺手。\n\n应用还支持手机端辅助功能，可通过扫码连接手表，将手机音乐上传到手表，并管理手表端音乐库和歌单。传输过程支持分片上传和任务恢复，适合批量导入本地音乐。\n\n主要功能\n\n- 本地音乐扫描与播放\n- 歌曲、专辑、歌手、歌单分类管理\n- 歌词显示与歌词样式设置\n- 播放队列、随机播放、单曲循环等播放模式\n- 均衡器、压限器和应用音量调节\n- 定时关闭、蓝牙线控、滚轮调节音量\n- 自定义主题、字体、背景和界面缩放\n- 手机扫码连接手表，上传音乐并同步歌单\n\n说明\n零度音乐仅支持播放用户已拥有的本地音频文件，不包含任何音乐版权内容，不提供在线搜索、在线播放或下载音乐功能。使用前请确保设备中已有合法来源的音乐文件。",
     "category": "影音娱乐",
     "keywords": [
@@ -9532,9 +9564,16 @@
       "听歌",
       "zeromusic"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.0.1(Android6%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.0.3(Android6%2B).Apk",
     "developer": "sky233",
     "historyVersion": [
+      {
+        "version": "3.0.1",
+        "code": 81,
+        "minSdk": 23,
+        "size": "12.17 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.0.1(Android6%2B).apk"
+      },
       {
         "version": "2.2.1-DX",
         "code": 33,
