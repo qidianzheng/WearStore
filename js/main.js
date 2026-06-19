@@ -89,6 +89,11 @@ function checkHashLink() {
   const existingModal = activeModals.find(m => {
     if (hash === '#menu') return m.getAttribute('data-type') === 'menu';
 
+    if (decodedHash.startsWith('#wf-category=')) {
+      const subName = decodedHash.split('=')[1];
+      return m.getAttribute('data-type') === 'category' && m.getAttribute('data-name') === subName;
+    }
+
     // 处理分类页
     if (decodedHash.startsWith('#category=')) {
       const catName = getCategoryByHash(hash.split('=')[1]);
@@ -161,13 +166,34 @@ function checkHashLink() {
     }
   }
   else if (decodedHash.startsWith('#category=')) {
-    const catName = getCategoryByHash(hash.split('=')[1]);
+    const key = hash.split('=')[1];
+    const catName = getCategoryByHash(key);
     if (catName) {
       const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
-      const filtered = allApps.filter(a => (a.category || "其他") === catName && isAppGloballyCompatible(a, userApi));
-      renderCategoryModal(catName, filtered);
+
+      if (catName === "表盘美化") {
+        const watchfaces = allApps.filter(a => a.category === "表盘美化" && isAppGloballyCompatible(a, userApi));
+        import('./ui.js').then(ui => ui.renderWatchfaceMainModal(catName, watchfaces));
+      } else {
+        const filtered = allApps.filter(a => {
+          const appCat = (a.category && a.category.trim() !== "") ? a.category : "其他";
+          return appCat === catName && isAppGloballyCompatible(a, userApi);
+        });
+        renderCategoryModal(catName, filtered);
+      }
       setPageTitle(catName);
     }
+  }
+
+  else if (decodedHash.startsWith('#wf-category=')) {
+    const subName = decodedHash.split('=')[1];
+    const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
+    const filtered = allApps.filter(a => {
+      const appWFSub = (a.WFcategory && a.WFcategory.trim() !== "") ? a.WFcategory : "其他";
+      return a.category === "表盘美化" && appWFSub === subName && isAppGloballyCompatible(a, userApi);
+    });
+    renderCategoryModal(subName, filtered);
+    setPageTitle(`表盘 - ${subName}`);
   }
   else if (decodedHash.startsWith('#dev=')) {
     // 提取作者名称

@@ -2,9 +2,6 @@ import { escapeHtml, isAppGloballyCompatible, getBestMatchVersion, apiMap, DEFAU
 
 let globalZIndex = 1350;
 
-/**
- * 智能返回/关闭函数
- */
 function smartBack() {
   const active = document.querySelectorAll('.modal-overlay[data-dynamic="true"].active');
   if (active.length > 1) history.back();
@@ -17,9 +14,6 @@ window.handleImgError = function (img) {
   img.classList.add('image-error');
 };
 
-/**
- * 创建应用卡片
- */
 export function createCard(app, isBig = false) {
   const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
   const bestData = getBestMatchVersion(app, userApi) || app;
@@ -69,10 +63,9 @@ function createWindow(title, list, type, attr) {
   m.setAttribute('data-type', type);
   m.setAttribute(attr, title);
   m.setAttribute('data-dynamic', 'true');
-
-  const isBigMode = (type === 'dev') || (title === '表盘美化');
+  const isWatchface = list.length > 0 && list[0].category === "表盘美化";
+  const isBigMode = (type === 'dev') || (title === '表盘美化') || isWatchface;
   const gridClass = isBigMode ? 'big-cards-grid' : 'cards-grid';
-
   m.innerHTML = `
         <div class="modal">
             <div class="dev-modal-layout">
@@ -88,10 +81,9 @@ function createWindow(title, list, type, attr) {
 
   const container = m.querySelector(`.${gridClass}`);
   if (list.length === 0) {
-    container.innerHTML = '<div class="no-result-tip">暂无相关应用</div>';
+    container.innerHTML = '<div class="no-result-tip">暂无相关内容</div>';
   } else {
     list.forEach(app => {
-      // 传入 isBigMode 参数
       container.appendChild(createCard(app, isBigMode));
     });
   }
@@ -127,29 +119,155 @@ export function openHistoryModal(rootApp) {
 
 export function renderMenuModal(categories) {
   let maxZ = 1300;
-  document.querySelectorAll('.modal-overlay').forEach(el => maxZ = Math.max(maxZ, parseInt(window.getComputedStyle(el).zIndex) || 1300));
+  document.querySelectorAll('.modal-overlay').forEach(el => {
+    const z = parseInt(window.getComputedStyle(el).zIndex) || 1300;
+    if (z > maxZ) maxZ = z;
+  });
+
   const m = document.createElement('div');
-  m.className = 'modal-overlay'; m.style.zIndex = maxZ + 10; m.setAttribute('data-type', 'menu'); m.setAttribute('data-dynamic', 'true');
+  m.className = 'modal-overlay';
+  m.style.zIndex = maxZ + 10;
+  m.setAttribute('data-type', 'menu');
+  m.setAttribute('data-dynamic', 'true');
 
-  const catConfig = { "系统工具": { icon: "build", color: "color-slate" }, "效率办公": { icon: "work", color: "color-blue" }, "健康运动": { icon: "fitness_center", color: "color-red" }, "通讯社交": { icon: "forum", color: "color-green" }, "影音娱乐": { icon: "movie", color: "color-purple" }, "学习充电": { icon: "school", color: "color-orange" }, "生活服务": { icon: "storefront", color: "color-cyan" }, "休闲游戏": { icon: "sports_esports", color: "color-pink" }, "表盘美化": { icon: "watch", color: "color-indigo" }, "其他": { icon: "more_horiz", color: "color-normal" } };
-  const api = localStorage.getItem('userApiLevel'), apiText = api && apiMap[api] ? `Android ${apiMap[api]}` : '点击选择';
+  // 1. 获取当前环境状态
+  const api = localStorage.getItem('userApiLevel');
+  const apiText = api && apiMap[api] ? `Android ${apiMap[api]}` : '点击选择';
   const curTheme = document.documentElement.getAttribute('data-theme') || 'light';
-  const themeIcon = curTheme === 'dark' ? 'brightness_5' : 'dark_mode', themeLabel = curTheme === 'dark' ? '浅色模式' : '深色模式', themeColor = curTheme === 'dark' ? 'color-normal' : 'color-gold';
 
-  m.innerHTML = `<div class="modal"><div class="menu-modal-layout"><div class="window-header"><span>菜单</span><span class="material-symbols-rounded header-close-img">close</span></div><div class="menu-content"><div class="menu-top-grid"><div id="menuVer" class="menu-action-card"><span class="material-symbols-rounded menu-action-icon color-primary">android</span><div class="menu-action-text-group"><span class="menu-action-label">安卓版本</span><span class="menu-action-sub">${apiText}</span></div></div><div id="menuTheme" class="menu-action-card"><span class="material-symbols-rounded menu-action-icon ${themeColor}">${themeIcon}</span><div class="menu-action-text-group"><span class="menu-action-label">${themeLabel}</span><span class="menu-action-sub">切换视觉风格</span></div></div><div class="menu-action-card" onclick="window.location.hash='list=new'"><span class="material-symbols-rounded menu-action-icon color-gold">new_releases</span><div class="menu-action-text-group"><span class="menu-action-label">最新上架</span><span class="menu-action-sub">查看新入库</span></div></div><div class="menu-action-card" onclick="window.location.hash='list=recent'"><span class="material-symbols-rounded menu-action-icon color-blue">update</span><div class="menu-action-text-group"><span class="menu-action-label">最近更新</span><span class="menu-action-sub">查看版本升级</span></div></div><div class="menu-action-card" onclick="window.open('https://wj.qq.com/s2/25513095/8cde/', '_blank')"><span class="material-symbols-rounded menu-action-icon color-purple">rate_review</span><div class="menu-action-text-group"><span class="menu-action-label">综合服务</span><span class="menu-action-sub">软件提交/举报侵权/意见反馈</span></div></div></div><div class="menu-separator"></div><div class="menu-category-grid"></div></div></div></div>`;
+  // 主题图标与文字逻辑
+  const themeIcon = curTheme === 'dark' ? 'brightness_5' : 'dark_mode';
+  const themeLabel = curTheme === 'dark' ? '浅色模式' : '深色模式';
+  const themeColor = curTheme === 'dark' ? 'color-normal' : 'color-gold';
+
+  // 2. 核心 HTML 结构 (不省略)
+  m.innerHTML = `
+        <div class="modal">
+            <div class="menu-modal-layout">
+                <div class="window-header">
+                    <span>菜单</span>
+                    <span class="material-symbols-rounded unified-close-btn header-close-img">close</span>
+                </div>
+                <div class="menu-content">
+                    <div class="menu-top-grid">
+                        <!-- 安卓版本 -->
+                        <div id="menuVer" class="menu-action-card">
+                            <span class="material-symbols-rounded menu-action-icon color-primary">android</span>
+                            <div class="menu-action-text-group">
+                                <span class="menu-action-label">安卓版本</span>
+                                <span class="menu-action-sub">${apiText}</span>
+                            </div>
+                        </div>
+
+                        <!-- 主题切换 -->
+                        <div id="menuTheme" class="menu-action-card">
+                            <span class="material-symbols-rounded menu-action-icon ${themeColor}">${themeIcon}</span>
+                            <div class="menu-action-text-group">
+                                <span class="menu-action-label">${themeLabel}</span>
+                                <span class="menu-action-sub">切换视觉风格</span>
+                            </div>
+                        </div>
+
+                        <!-- 最新上架 -->
+                        <div class="menu-action-card" onclick="window.location.hash='list=new'">
+                            <span class="material-symbols-rounded menu-action-icon color-gold">new_releases</span>
+                            <div class="menu-action-text-group">
+                                <span class="menu-action-label">最新上架</span>
+                                <span class="menu-action-sub">最近 30 天上架</span>
+                            </div>
+                        </div>
+
+                        <!-- 最近更新 -->
+                        <div class="menu-action-card" onclick="window.location.hash='list=recent'">
+                            <span class="material-symbols-rounded menu-action-icon color-blue">update</span>
+                            <div class="menu-action-text-group">
+                                <span class="menu-action-label">最近更新</span>
+                                <span class="menu-action-sub">发现新功能</span>
+                            </div>
+                        </div>
+
+                        <!-- 表盘专区 (已挪至综合服务前) -->
+                        <div class="menu-action-card" onclick="window.location.hash='category=watchface'">
+                            <span class="material-symbols-rounded menu-action-icon color-indigo">watch</span>
+                            <div class="menu-action-text-group">
+                                <span class="menu-action-label">表盘专区</span>
+                                <span class="menu-action-sub">个性化你的手表</span>
+                            </div>
+                        </div>
+
+                        <!-- 综合服务 -->
+                        <div class="menu-action-card" onclick="window.open('https://wj.qq.com/s2/17646552/3592/', '_blank')">
+                            <span class="material-symbols-rounded menu-action-icon color-purple">rate_review</span>
+                            <div class="menu-action-text-group">
+                                <span class="menu-action-label">综合服务</span>
+                                <span class="menu-action-sub">反馈与建议</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-separator"></div>
+
+                    <!-- 分类网格 -->
+                    <div class="menu-category-grid"></div>
+                </div>
+            </div>
+        </div>`;
+
+  // 3. 动态填充下方全部分类
   const catGrid = m.querySelector('.menu-category-grid');
+  const catConfig = {
+    "系统工具": { icon: "build", color: "color-slate" },
+    "效率办公": { icon: "work", color: "color-blue" },
+    "健康运动": { icon: "fitness_center", color: "color-red" },
+    "通讯社交": { icon: "forum", color: "color-green" },
+    "影音娱乐": { icon: "movie", color: "color-purple" },
+    "学习充电": { icon: "school", color: "color-orange" },
+    "生活服务": { icon: "storefront", color: "color-cyan" },
+    "休闲游戏": { icon: "sports_esports", color: "color-pink" },
+    "其他": { icon: "more_horiz", color: "color-normal" }
+  };
+
   categories.forEach(cat => {
+    if (cat === "表盘美化") return;
+
     const config = catConfig[cat] || { icon: "folder", color: "color-normal" };
     const btn = document.createElement('div');
     btn.className = 'category-btn-new';
-    btn.innerHTML = `<span class="material-symbols-rounded category-icon-img ${config.color}">${config.icon}</span><span class="category-text">${escapeHtml(cat)}</span>`;
-    btn.onclick = () => { window.location.hash = `category=${categoryHash[cat] || 'other'}`; };
+    btn.innerHTML = `
+            <span class="material-symbols-rounded category-icon-img ${config.color}">${config.icon}</span>
+            <span class="category-text">${escapeHtml(cat)}</span>
+        `;
+    btn.onclick = () => {
+      window.location.hash = `category=${categoryHash[cat] || 'other'}`;
+    };
     catGrid.appendChild(btn);
   });
+
+  // 4. 绑定功能事件
+  // 关闭按钮
   m.querySelector('.header-close-img').onclick = () => smartBack();
-  m.querySelector('#menuVer').onclick = () => { const w = document.getElementById('welcomeModalOverlay'); w.style.zIndex = parseInt(m.style.zIndex) + 10; w.classList.add('active'); };
-  m.querySelector('#menuTheme').onclick = () => { const next = curTheme === 'dark' ? 'light' : 'dark'; document.documentElement.setAttribute('data-theme', next); localStorage.setItem('theme', next); m.remove(); renderMenuModal(categories); };
-  document.body.appendChild(m); document.body.style.overflow = 'hidden';
+
+  // 版本选择触发
+  m.querySelector('#menuVer').onclick = () => {
+    const welcome = document.getElementById('welcomeModalOverlay');
+    welcome.style.zIndex = parseInt(m.style.zIndex) + 10;
+    welcome.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  };
+
+  // 主题切换逻辑
+  m.querySelector('#menuTheme').onclick = () => {
+    const targetTheme = curTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', targetTheme);
+    localStorage.setItem('theme', targetTheme);
+    // 切换后立即重新渲染菜单，以更新图标状态
+    m.remove();
+    renderMenuModal(categories);
+  };
+
+  // 5. 挂载到页面并显示
+  document.body.appendChild(m);
+  document.body.style.overflow = 'hidden';
   setTimeout(() => m.classList.add('active'), 10);
 }
 
@@ -324,6 +442,75 @@ export function renderAppModal(app) {
     m.querySelectorAll('.scroll-btn').forEach(b => b.style.display = 'none');
   }
 
+  document.body.appendChild(m);
+  document.body.style.overflow = 'hidden';
+  setTimeout(() => m.classList.add('active'), 10);
+}
+
+export function renderWatchfaceMainModal(title, appsList) {
+  let maxZ = 1300;
+  document.querySelectorAll('.modal-overlay').forEach(el => maxZ = Math.max(maxZ, parseInt(window.getComputedStyle(el).zIndex) || 1300));
+
+  const m = document.createElement('div');
+  m.className = 'modal-overlay';
+  m.style.zIndex = maxZ + 10;
+  m.setAttribute('data-type', 'category');
+  m.setAttribute('data-name', title);
+  m.setAttribute('data-dynamic', 'true');
+
+  // 1. 数据分组
+  const groups = {};
+  appsList.forEach(app => {
+    const wfCat = (app.WFcategory && app.WFcategory.trim() !== "") ? app.WFcategory : "其他";
+    if (!groups[wfCat]) groups[wfCat] = [];
+    groups[wfCat].push(app);
+  });
+
+  const sortedCats = Object.keys(groups).sort((a, b) => {
+    if (a === "其他") return 1;
+    if (b === "其他") return -1;
+    return a.localeCompare(b, 'zh');
+  });
+
+  // 2. 构建 HTML
+  let contentHtml = '';
+  sortedCats.forEach(catName => {
+    contentHtml += `
+            <div class="wf-category-card">
+                <div class="wf-category-header" onclick="window.location.hash='wf-category=${encodeURIComponent(catName)}'">
+                    <div class="wf-category-title">${escapeHtml(catName)}</div>
+                    <span class="material-symbols-rounded">arrow_forward</span>
+                </div>
+                <div class="wf-category-grid" id="grid-${catName.replace(/\s+/g, '-')}">
+                    <!-- 大图标卡片将填入此处 -->
+                </div>
+            </div>`;
+  });
+
+  m.innerHTML = `
+        <div class="modal">
+            <div class="dev-modal-layout">
+                <div class="window-header">
+                    <span>${escapeHtml(title)}</span>
+                    <span class="material-symbols-rounded header-close-img">close</span>
+                </div>
+                <div class="dev-content">
+                    ${contentHtml || '<div class="no-result-tip">暂无相关表盘内容</div>'}
+                </div>
+            </div>
+        </div>`;
+
+  // 3. 填充预览卡片
+  sortedCats.forEach(catName => {
+    const grid = m.querySelector(`#grid-${catName.replace(/\s+/g, '-')}`);
+    if (grid) {
+      groups[catName].slice(0, 8).forEach(app => {
+        grid.appendChild(createCard(app, true));
+      });
+    }
+  });
+
+  m.querySelector('.header-close-img').onclick = () => smartBack();
   document.body.appendChild(m);
   document.body.style.overflow = 'hidden';
   setTimeout(() => m.classList.add('active'), 10);
