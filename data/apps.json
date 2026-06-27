@@ -41,7 +41,6 @@
     "updateTime": "2026-01-24",
     "description": "一款采用 LED 点阵风格的 Wear OS 表盘，支持自定义7个复杂功能、多种颜色和AOD息屏样式，设计简约且具科技感。",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [
       "LED风格"
     ],
@@ -55,7 +54,8 @@
         "size": "0.30 MB",
         "downloadUrl": "https://download.wearstore.asia/APK/AD%20Nothing%20Dots%20Basics%203.5%20(Android%2011%20%2B).apk"
       }
-    ]
+    ],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 3609522688,
@@ -106,11 +106,11 @@
     "updateTime": "2026-05-16",
     "description": "[动态效果活动]\n每当激活表盘时，都会出现动态效果，展示 2025 年韩国 APEC 会议的官方徽标。\n动态效果在播放一次后会暂停。\n[主要功能]\n•数字时钟\n•12/24 小时模式\n•日期\n•电池电量\n•心率\n•息屏显示 (Always-on Display)\n•动画效果\n•此表盘支持运行 Wear OS 4 或更高版本的设备。它不兼容运行 Wear OS 4 以下版本或 Tizen OS 的设备。",
     "category": "表盘美化",
-    "WFcategory": "动态表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/SPLITAPK/APEC2025_1_1.0.0_(Android14%2B).zip",
     "developer": "대한민국청와대",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "动态表盘"
   },
   {
     "id": 2056030808,
@@ -204,7 +204,6 @@
     "updateTime": "2026-04-04",
     "description": "一款优雅的经典指针式表盘，清晰展示心率、步数、电量、日期等健康与实用信息，支持息屏显示和点击测量心率。",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [
       "健康信息",
       "心率步数"
@@ -226,7 +225,8 @@
         "size": "0.29 MB",
         "downloadUrl": "https://download.wearstore.asia/APK/Analog%20Watch%20Face-WF1%201.0.0%20(Android%2011%20%2B).apk"
       }
-    ]
+    ],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 4101756128,
@@ -376,13 +376,13 @@
     "updateTime": "2026-01-24",
     "description": "一款为大屏 Wear OS 手表设计的大胆极简表盘，提供3种样式和50多种精选配色方案，信息一目了然，兼顾续航与个性表达。",
     "category": "表盘美化",
-    "WFcategory": "大数字",
     "keywords": [
       "大字体"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Big%20Apple%201.0.3.0%20(Android%2013%20%2B).apk",
     "developer": "Sparkine Labs",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "大数字"
   },
   {
     "id": 690513863,
@@ -428,14 +428,14 @@
     "updateTime": "2026-02-09",
     "description": "一款以Windows蓝屏死机画面为灵感设计的创意表盘。提供30种配色方案和丰富的自定义设置，包括可自定义的叠加层、背光、多种复杂功能以及对低电量、通知的反应。",
     "category": "表盘美化",
-    "WFcategory": "代码风格",
     "keywords": [
       "蓝屏死机",
       "Windows"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Blue%20Screen1.0.1(Android13%2B).apk",
     "developer": "RazorSharp Design Studio",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "代码风格"
   },
   {
     "id": 3881380835,
@@ -508,14 +508,14 @@
     "updateTime": "2026-01-24",
     "description": "一款兼具复古感与现代感的极简指针表盘，提供2种样式、20多种配色和3个可配置的复杂功能区域，设计干净且省电。",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [
       "复古表盘",
       "极简指针"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/CMF%20Analog%201.0.3.0%20(Android%2013%20%2B).apk",
     "developer": "Sparkine Labs",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 268010413,
@@ -649,7 +649,6 @@
     "updateTime": "2026-02-09",
     "description": "一款灵感源自五彩糖果的活力表盘，色彩明亮跳跃。显示数字时间、日期、星期和电池状态，支持多种配色切换和色彩丰富的息屏显示（AOD）。",
     "category": "表盘美化",
-    "WFcategory": "大数字",
     "keywords": [
       "糖果",
       "明亮色彩",
@@ -660,7 +659,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Candy%20Time1.0.0(Android13%2B).apk",
     "developer": "Time Design LLC",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "大数字"
   },
   {
     "id": 555611071,
@@ -870,7 +870,6 @@
     "updateTime": "2026-01-24",
     "description": "一款致敬早期命令行操作系统的怀旧风格表盘，以DOS界面样式显示时间与日期，支持12/24小时制和经典显示器配色（白、绿、橙红）。",
     "category": "表盘美化",
-    "WFcategory": "代码风格",
     "keywords": [
       "命令行表盘",
       "电脑主题",
@@ -879,7 +878,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/DOS%20Style%20Watch%20face%201.5.8%20(Android%2013%20%2B).apk",
     "developer": "MindFabrik UG (haftungsbeschränkt)",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "代码风格"
   },
   {
     "id": 2206526380,
@@ -897,7 +897,6 @@
     "updateTime": "2026-02-09",
     "description": "一款拥有40种颜色可选的四位数显风格表盘。支持12/24小时制（手动设置），提供4个复杂功能插槽，并支持息屏显示（AOD）自定义。",
     "category": "表盘美化",
-    "WFcategory": "大数字",
     "keywords": [
       "四位数显",
       "多色可选",
@@ -908,7 +907,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/DS%20D010_1.1.0_(Android14%2B).apk",
     "developer": "Douglas Silva :: Dect",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "大数字"
   },
   {
     "id": 290104933,
@@ -1382,6 +1382,32 @@
     "modAuthor": "KardchCode"
   },
   {
+    "id": 4060630609,
+    "name": "Hai",
+    "package": "com.h2ai.beta",
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 26,
+    "size": "11.03 MB",
+    "icon": "assets/images/hai/hai_icon.webp",
+    "screenshots": [
+      "assets/images/hai/hai_1.webp",
+      "assets/images/hai/hai_2.webp",
+      "assets/images/hai/hai_3.webp"
+    ],
+    "addedTime": 1782573180028,
+    "updateTime": "2026-06-27",
+    "description": "重构手表端ai体验 使用wear compose构建 支持本地文件操作，网络搜索，深度思考，人格设置，图片上传\n完全免费，无需充值",
+    "category": "效率办公",
+    "keywords": [
+      "AI",
+      "人工智能"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Hai1.0(Android8%2B).apk",
+    "developer": "mcl0",
+    "historyVersion": []
+  },
+  {
     "id": 3222795145,
     "name": "HarmonyOS 39",
     "package": "com.watchfacestudio.Test_49918877911193163637002657408812",
@@ -1547,12 +1573,12 @@
     "updateTime": "2026-01-12",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/Kokomuo%20nothing1.0.0(Android14%2B).apk",
     "developer": "",
     "historyVersion": [],
-    "contributor": "清漓染"
+    "contributor": "清漓染",
+    "WFcategory": "CMF风格"
   },
   {
     "id": 1432542173,
@@ -1658,7 +1684,6 @@
     "updateTime": "2026-02-09",
     "description": "一款受电影《黑客帝国》启发的沉浸式表盘，背景带有标志性的“矩阵代码雨”动画。支持时间颜色自定义，并集成步数进度指示器和电池电量指示器。",
     "category": "表盘美化",
-    "WFcategory": "代码风格",
     "keywords": [
       "黑客帝国",
       "矩阵代码雨",
@@ -1669,7 +1694,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/MATRIX1.0.0(Android11%2B).apk",
     "developer": "Kew-Studio",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "代码风格"
   },
   {
     "id": 3322744350,
@@ -2105,9 +2131,7 @@
     "developer": "深圳市腾讯计算机系统有限公司",
     "historyVersion": [],
     "recommendIds": [
-      2388747650,
-      464807094,
-      2615630529
+      2388747650
     ],
     "modAuthor": "爅峫"
   },
@@ -2193,12 +2217,12 @@
     "updateTime": "2026-01-12",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/Nothing1.0.0(Android11%2B).apk",
     "developer": "",
     "historyVersion": [],
-    "contributor": "清漓染"
+    "contributor": "清漓染",
+    "WFcategory": "CMF风格"
   },
   {
     "id": 568777924,
@@ -2216,7 +2240,6 @@
     "updateTime": "2026-01-24",
     "description": "一款采用柔和撞色设计的数字显示表盘，将极简主义与丰富的马卡龙色系相结合，在腕上呈现柔和而精致的视觉美感。",
     "category": "表盘美化",
-    "WFcategory": "大数字",
     "keywords": [
       "数字表盘",
       "极简主义",
@@ -2224,7 +2247,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Numerals%20Duo%201.0.5%20(Android%2013%20%2B).apk",
     "developer": "Bear By Patagonia",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "大数字"
   },
   {
     "id": 1249363502,
@@ -2334,11 +2358,11 @@
     "updateTime": "2026-04-06",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/P3R%E5%85%A5%E6%B0%B41.0.0(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 61186907,
@@ -2357,11 +2381,11 @@
     "updateTime": "2026-04-06",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/P3R%E5%BE%AA%E7%8E%AF1.0.1(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 517780215,
@@ -2380,11 +2404,11 @@
     "updateTime": "2026-04-06",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/P3R%E6%B7%B1%E8%93%9D%E5%BF%A7%E9%83%811.0.2(Android13%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 1413374326,
@@ -2403,11 +2427,11 @@
     "updateTime": "2026-03-19",
     "description": "红条为步数",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/P5R%E6%AD%A5%E6%95%B01.0.0(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 321505185,
@@ -2426,11 +2450,11 @@
     "updateTime": "2026-03-19",
     "description": "红条为电量",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/P5R%E7%94%B5%E9%87%8F1.0.0(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 1193713198,
@@ -2448,11 +2472,11 @@
     "updateTime": "2026-03-19",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/P5R%E9%BB%91%E7%99%BDaod%E4%B8%BB%E9%A2%981.0.0(Android13%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 790826520,
@@ -2520,11 +2544,11 @@
     "updateTime": "2026-05-16",
     "description": "表盘特性：\n• 12/24 小时数字时间\n• 日期与星期\n• 步数统计\n• 电池百分比\n• 天气温度\n• 支持 AOD\n• 简洁的像素灵感审美",
     "category": "表盘美化",
-    "WFcategory": "大数字",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Pixel%20Digits%20-%20Digital%20Watch2.0.0(Android14%2B).zip",
     "developer": "jigu watchface",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "大数字"
   },
   {
     "id": 3366910039,
@@ -2608,6 +2632,33 @@
     ]
   },
   {
+    "id": 236628805,
+    "name": "QQMax",
+    "package": "com.tencent.qqlite",
+    "version": "M2.2",
+    "code": 2465,
+    "minSdk": 21,
+    "size": "46.77 MB",
+    "icon": "assets/images/qqmax/qqmax_icon.webp",
+    "screenshots": [
+      "assets/images/qqmax/qqmax_1.webp",
+      "assets/images/qqmax/qqmax_2.webp",
+      "assets/images/qqmax/qqmax_3.webp",
+      "assets/images/qqmax/qqmax_4.webp"
+    ],
+    "addedTime": 1782573207224,
+    "updateTime": "2026-06-27",
+    "description": "第三方修改版，可能封号！！！\nQQ Max 是一个面向手表的 QQ 增强改版（基于 NWear-QQ），在原版 QQ 的基础上重做了聊天、空间、联系人、资料卡等界面，补齐了大量手表端被砍掉或体验糟糕的功能，并用 Material 3 风格统一了整套界面。",
+    "category": "通讯社交",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/QQMax_M2.2_(Android5%2B).apk",
+    "developer": "ailife8881",
+    "historyVersion": [],
+    "recommendIds": [
+      2388747650
+    ]
+  },
+  {
     "id": 464807094,
     "name": "QQPro",
     "package": "com.tencent.qqlite",
@@ -2638,9 +2689,7 @@
     "developer": "深圳市腾讯计算机系统有限公司",
     "historyVersion": [],
     "recommendIds": [
-      286136756,
-      2388747650,
-      2615630529
+      2388747650
     ],
     "modAuthor": "呼呼桃"
   },
@@ -2704,11 +2753,11 @@
     "updateTime": "2026-03-19",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/RE9%E6%A0%BC%E8%95%BE%E4%B8%9D1.0.0(Android16%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 430234758,
@@ -2727,11 +2776,11 @@
     "updateTime": "2026-03-19",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/RE9%E6%A0%BC%E8%95%BE%E4%B8%9D%E5%85%BC%E5%AE%B91.0.1(Android13%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 2823498444,
@@ -2750,11 +2799,11 @@
     "updateTime": "2026-03-19",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/RE9%E9%87%8C%E6%98%821.0.1(Android16%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 2090642346,
@@ -2773,11 +2822,11 @@
     "updateTime": "2026-03-19",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/RE9%E9%87%8C%E6%98%82%E5%85%BC%E5%AE%B91.0.0(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 1199103243,
@@ -2858,7 +2907,6 @@
     "updateTime": "2026-02-25",
     "description": "一款向Moto 360致敬的Wear OS表盘，提供20种颜色主题、1个可自定义复杂功能、2种秒针风格，支持常亮显示(AOD)，设计独特且高效节能。",
     "category": "表盘美化",
-    "WFcategory": "动态表盘",
     "keywords": [
       "Moto 360风格",
       "秒针风格",
@@ -2866,7 +2914,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Rotate1.0.6(Android14%2B).apk",
     "developer": "Luka Kilic - Watch Faces",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "动态表盘"
   },
   {
     "id": 438354656,
@@ -2884,11 +2933,11 @@
     "updateTime": "2026-03-14",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/SUN_IBM_(Android13%2B).apk",
     "developer": "飞舞畅想",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 58504821,
@@ -3035,11 +3084,11 @@
     "updateTime": "2026-02-25",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "大数字",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/Simple%20Pop%20Watch%20Face1.0.3(Android13%2B).apk",
     "developer": "Waces",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "大数字"
   },
   {
     "id": 26125163,
@@ -3057,11 +3106,11 @@
     "updateTime": "2026-02-25",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "大数字",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/Simple%20Projected%20Watch%20Face%20v2_1.0.4(Android13%2B).apk",
     "developer": "Waces",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "大数字"
   },
   {
     "id": 3711712971,
@@ -3080,13 +3129,13 @@
     "updateTime": "2026-04-08",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": [
       "星露谷物语"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Stardew%20Valley_1.0.0_(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 2862734064,
@@ -3140,13 +3189,13 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [
       "cmf"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/SunCircle%201.0%20(Android%205%20%2B).apk",
     "developer": "dudu",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 2572503742,
@@ -3242,7 +3291,6 @@
     "updateTime": "2026-02-09",
     "description": "一款模仿命令行终端风格的表盘，以文本形式显示时间、日期、电池百分比、步数百分比、心率和天气等主要数据。提供2个复杂功能插槽和边缘进度条，专为Wear OS 5+设计。",
     "category": "表盘美化",
-    "WFcategory": "代码风格",
     "keywords": [
       "终端",
       "命令行",
@@ -3252,7 +3300,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Terminal1.0.0(Android14%2B).apk",
     "developer": "darkside",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "代码风格"
   },
   {
     "id": 3091417208,
@@ -3270,7 +3319,6 @@
     "updateTime": "2026-02-09",
     "description": "一款受Kali Linux启发的终端风格表盘，采用标志性的黑绿色主题。极简设计，显示时间、日期和步数，旨在致敬开源文化和极客精神。",
     "category": "表盘美化",
-    "WFcategory": "代码风格",
     "keywords": [
       "Kali Linux",
       "黑客",
@@ -3281,7 +3329,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/TerminalKaliLinux1.0.4(Android13%2B).apk",
     "developer": "DavidCV",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "代码风格"
   },
   {
     "id": 3125944892,
@@ -3417,7 +3466,6 @@
     "updateTime": "2026-01-09",
     "description": "一款支持 8 个可自定义复杂功能并拥有夜间模式的模拟指针表盘。",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [
       "模拟表盘",
       "复杂功能",
@@ -3427,7 +3475,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/UltraPro1.0.3(Android11%2B).apk",
     "developer": "",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 2605943762,
@@ -3545,7 +3594,6 @@
     "updateTime": "2026-01-24",
     "description": "一款带有动态涡轮动画的现代数字风格 Wear OS 表盘，设计时尚，支持自定义背景，完美适配 Galaxy Watch 和 Pixel Watch。",
     "category": "表盘美化",
-    "WFcategory": "动态表盘",
     "keywords": [
       "涡轮表盘",
       "动态动画",
@@ -3553,7 +3601,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Vortex%20Time%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "Time Design LLC",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "动态表盘"
   },
   {
     "id": 1312547405,
@@ -3594,7 +3643,6 @@
     "updateTime": "2026-02-09",
     "description": "一款现代且可自定义的数字表盘，设计精美。显示当天步行步数、电池百分比、日期、星期和月份信息，兼容12小时制和24小时制。",
     "category": "表盘美化",
-    "WFcategory": "大数字",
     "keywords": [
       "黑胶唱片",
       "日期星期",
@@ -3606,7 +3654,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/WES12%20-%20Vinyl1.0.2(Android13%2B).apk",
     "developer": "watchfaces.es",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "大数字"
   },
   {
     "id": 2812752373,
@@ -3941,10 +3990,10 @@
     "id": 2615630529,
     "name": "WearQQ Pro",
     "package": "com.tencent.qqlite",
-    "version": "v1",
+    "version": "2.2",
     "code": 2465,
     "minSdk": 21,
-    "size": "38.13 MB",
+    "size": "38.32 MB",
     "icon": "assets/images/wearqqpro/wearqqpro_icon.webp",
     "screenshots": [
       "assets/images/wearqqpro/wearqqpro_1.webp",
@@ -3954,7 +4003,7 @@
       "assets/images/wearqqpro/wearqqpro_5.webp"
     ],
     "addedTime": 1781015489683,
-    "updateTime": "2025-12-28",
+    "updateTime": "2026-06-27",
     "description": "此应用为第三方修改版，WearStore不对因使用此应用导致封号负责。\n\n基于QQ Pro修改",
     "category": "通讯社交",
     "keywords": [
@@ -3964,13 +4013,11 @@
       "扣扣",
       "视频通话"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Pro_v1_(Android5%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearQQPro2.2.apk",
     "developer": "深圳市腾讯计算机系统有限公司",
     "historyVersion": [],
     "recommendIds": [
-      286136756,
-      2388747650,
-      464807094
+      2388747650
     ],
     "modAuthor": "爅峫"
   },
@@ -4224,11 +4271,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/ae%201.0.5%20(Android%2011%20%2B).apk",
     "developer": "",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 579701982,
@@ -4271,11 +4318,11 @@
     "updateTime": "2026-01-09",
     "description": "一款灵感源自 Bell & Ross Desert Type 手表的复刻表盘，支持在步数（左）和电量（右）进度圈上设置快捷功能。",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/bell_ross1.0.0(Android14%2B).apk",
     "developer": "",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 2756721925,
@@ -4314,11 +4361,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf01%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 4227785179,
@@ -4336,11 +4383,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf02%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 1809276564,
@@ -4358,11 +4405,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf04%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 388503851,
@@ -4380,11 +4427,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf04.HRandSTEP%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 1458459413,
@@ -4402,11 +4449,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf05_BATT%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 1123182033,
@@ -4424,11 +4471,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf05_DATE%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 2613928440,
@@ -4446,11 +4493,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf06%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 3629950246,
@@ -4468,11 +4515,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf07_cn%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 1977629194,
@@ -4490,11 +4537,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf08_cn%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 2372832850,
@@ -4512,11 +4559,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf09%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 3791157443,
@@ -4534,11 +4581,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf10%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 3329669969,
@@ -4556,11 +4603,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf11%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 2488116762,
@@ -4578,11 +4625,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf12%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 1772549753,
@@ -4600,11 +4647,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf13%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 281825664,
@@ -4622,11 +4669,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/cmf14%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 3059155087,
@@ -4645,11 +4692,11 @@
     "updateTime": "2026-05-02",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "CMF风格",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/cmf20_1.0.0_(Android16%2B).apk",
     "developer": "saicoND",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "CMF风格"
   },
   {
     "id": 1708181874,
@@ -4788,14 +4835,14 @@
     "updateTime": "2026-01-24",
     "description": "一款名为 “now” 的现代简约风格 Wear OS 表盘，设计干净清晰，支持多种颜色自定义，兼顾优雅外观与低功耗。",
     "category": "表盘美化",
-    "WFcategory": "代码风格",
     "keywords": [
       "code",
       "代码"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/now.json%20-%20JSON%20Watch%20Face%203.0.0%20(Android%2016%20%2B).apk",
     "developer": "Nushio",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "代码风格"
   },
   {
     "id": 1635935105,
@@ -4814,11 +4861,11 @@
     "updateTime": "2026-05-16",
     "description": "戴上这款 Wear OS 表盘，在手腕上感受圆桌骑士时代的法则力量。\n“符文神殿骑士之剑”表盘是力量、荣誉和古老权力的数字印记。专为需要视觉提醒内在韧性的用户设计，这款表盘将您的智能手表转变为个人权威的象征。\n【锻造自传奇与力量】\n该设计汲取了传奇骑士的钢铁、磐石与魔法灵感。时间以粗犷、凿刻般的字体显示，仿佛大盾或神殿墙壁上的铭文。秒针的跳动并非传统的剑形，而是由一个脉动的符文仪表追踪，散发出集中的能量，让您每次查看手腕时都能感受到掌控感与力量。\n【结构与清晰度】\n•可自定义的符文挂件： 您的数据由力量守护。在精美的、刻有符文的圆环和神殿拱门中显示电池寿命、步数、心率或天气。\n•风格变换： 掌控从中世纪骑士到遥远未来的未来骑士的力量。\n•息屏对焦： 针对环境显示（AOD）进行了优化，“符文神殿骑士之剑”确保您的关键信息保持可见，同时不牺牲震撼、强大的美感。\n不要只是“被动”阅读时间，开始“掌控”您的时间。下载“符文神殿骑士之剑”，在现代征途的每一步中，随身携带古代战士坚不可摧的精神。",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/SPLITAPK/runicswords1.0.8(Android14%2B).zip",
     "developer": "GPhoenix Studio",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 1610429666,
@@ -4885,7 +4932,6 @@
     "updateTime": "2026-01-12",
     "description": "一款专为开发者和极客设计的 Wear OS 表盘，采用受 YAML/代码启发的极简风格，清晰显示时间、日期和电池状态。",
     "category": "表盘美化",
-    "WFcategory": "代码风格",
     "keywords": [
       "YAML表盘",
       "开发者表盘",
@@ -4895,7 +4941,8 @@
     "downloadUrl": "https://download.wearstore.asia/APK/time.dev%20yaml%201.4.0%20(Android%2014%20%2B).apk",
     "developer": "Balapp",
     "historyVersion": [],
-    "contributor": "清漓染"
+    "contributor": "清漓染",
+    "WFcategory": "代码风格"
   },
   {
     "id": 1513667669,
@@ -4982,7 +5029,6 @@
     "updateTime": "2026-01-24",
     "description": "一款致敬万国飞行员'小王子'特别版腕表的WearOS表盘,提供双时区(北京,伦敦)显示,并配有经典配色与息屏模式.",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [
       "万国表盘",
       "小王子",
@@ -4993,7 +5039,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%87%E5%9B%BD%E9%A3%9E%E8%A1%8C%E5%91%98%E4%B8%96%E7%95%8C%E6%97%B6%E5%8C%BA%E5%B0%8F%E7%8E%8B%E5%AD%90%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "潮汐表盘",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 1863848067,
@@ -5280,11 +5327,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E4%BC%A0%E5%A5%87%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 4010090360,
@@ -5388,11 +5435,11 @@
     "updateTime": "2026-04-06",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%85%A8%E5%A2%83%E5%B0%81%E9%94%811.0.1(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 3391596823,
@@ -5567,11 +5614,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "动态表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%8D%A1%E7%9A%AE%E5%B7%B4%E6%8B%89%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "-秋禾",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "动态表盘"
   },
   {
     "id": 3409388853,
@@ -5957,14 +6004,14 @@
     "updateTime": "2026-02-28",
     "description": "一款将MIUI著名'四姑娘山'超级壁纸移植到WearOS设备的表盘,呈现雪山的动态视觉效果.",
     "category": "表盘美化",
-    "WFcategory": "动态表盘",
     "keywords": [
       "MIUI壁纸",
       "雪山主题"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%9B%9B%E5%A7%91%E5%A8%98%E5%B1%B11.0.0(Android13%2B).apk",
     "developer": "游园新春",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "动态表盘"
   },
   {
     "id": 1125432974,
@@ -6010,11 +6057,11 @@
     "updateTime": "2026-03-14",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%9C%B0%E9%93%81_%E7%A6%BB%E5%8E%BB1.0.0(Android13%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 2796637367,
@@ -6139,11 +6186,11 @@
     "updateTime": "2026-01-09",
     "description": "一款自制、灵感来源于游戏《天国：拯救》的复古风格表盘，支持基础信息和AOD息屏显示。",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%A4%A9%E5%9B%BD%E6%8B%AF%E6%95%911.0.1(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 1137275107,
@@ -6220,11 +6267,11 @@
     "updateTime": "2026-01-09",
     "description": "一款以游戏《守望先锋》UI风格为灵感设计的个性化表盘。",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%AE%88%E6%9C%9B%E5%85%88%E9%94%8B%EF%BC%9A%E7%A6%BB%E5%8E%BB1.2.0(Android9%2B).apk",
     "developer": "吔車",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 1279641703,
@@ -6242,11 +6289,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%AE%9D%E7%9F%B3%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 3587642666,
@@ -6448,11 +6495,11 @@
     "updateTime": "2026-03-14",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%B7%AB%E5%B8%883_1.0.0_(Android13%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 1979471110,
@@ -6633,11 +6680,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%BF%83%E4%B9%8B%E5%B2%9B%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 3797540381,
@@ -6752,11 +6799,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%80%80%E6%97%A7%E6%97%B6%E5%85%89%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 3525068323,
@@ -7031,11 +7078,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%8E%8C%E8%88%B5%E9%A2%86%E8%88%AA%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 828016250,
@@ -7129,11 +7176,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%96%AF%E6%B2%83%E7%90%AA%E5%9C%B0%E7%9B%B8%E6%AC%BE%20MISSION%20TO%20EARTHPHASE%201.0.0%20(Android%2014%20%2B).apk",
     "developer": "",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 3030937724,
@@ -7215,11 +7262,11 @@
     "updateTime": "2026-04-06",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%97%A0%E4%BA%BA%E6%B7%B1%E7%A9%BA1.0.1(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 3283592267,
@@ -7286,8 +7333,8 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%98%9F%E9%9C%B2%E8%B0%B7%E9%A3%8E%E8%A1%A8%E7%9B%98%201.5%20(Android%2014%20%2B).apk",
     "developer": "西瓜发电机xg",
-    "WFcategory": "游戏爱好者表盘",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 976598253,
@@ -7305,11 +7352,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%9A%97%E5%A4%9C%E6%8C%87%E9%92%88%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 3613141425,
@@ -7326,7 +7373,7 @@
     ],
     "addedTime": 1781169078938,
     "updateTime": "2026-06-11",
-    "description": "曼波",
+    "description": "之前很火的曼波音效，挥手触发",
     "category": "影音娱乐",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%9B%BC%E6%B3%A20.2(Android11%2B).apk",
@@ -7396,11 +7443,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%AC%A7%E7%B1%B3%E8%8C%84%E5%8F%B2%E5%8A%AA%E6%AF%9450%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5%E7%89%88%201.0.0%20(Android%2013%20%2B).apk",
     "developer": "Afton",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 2139439866,
@@ -7419,11 +7466,11 @@
     "updateTime": "2026-03-14",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E6%AD%BB%E4%BA%A1%E7%A9%BA%E9%97%B41.0.0(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 2340922658,
@@ -7506,17 +7553,19 @@
     "id": 3088906259,
     "name": "氢电子书",
     "package": "com.lowh202.sevennovel",
-    "version": "2.5",
-    "code": 25,
+    "version": "2.12",
+    "code": 212,
     "minSdk": 26,
-    "size": "2.08 MB",
+    "size": "2.22 MB",
     "icon": "assets/images/qingdianzishu/qingdianzishu_icon.webp",
     "screenshots": [
       "assets/images/qingdianzishu/qingdianzishu_1.webp",
-      "assets/images/qingdianzishu/qingdianzishu_2.webp"
+      "assets/images/qingdianzishu/qingdianzishu_2.webp",
+      "assets/images/qingdianzishu/qingdianzishu_3.webp",
+      "assets/images/qingdianzishu/qingdianzishu_4.webp"
     ],
     "addedTime": 1780997973463,
-    "updateTime": "2026-06-11",
+    "updateTime": "2026-06-27",
     "description": "氢电子书是一个专为手表打造的阅读器，可以免费流畅阅读七猫和番茄的所有小说，支持离线下载，离线阅读，支持导入导出",
     "category": "学习充电",
     "keywords": [
@@ -7526,15 +7575,15 @@
       "离线阅读",
       "yuedu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.5(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.12(Android8%2B).apk",
     "developer": "mcl0",
     "historyVersion": [
       {
-        "version": "2.1",
-        "code": 5,
+        "version": "2.5",
+        "code": 25,
         "minSdk": 26,
-        "size": "1.96 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.1(Android8%2B).apk"
+        "size": "2.08 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.5(Android8%2B).apk"
       }
     ]
   },
@@ -7554,13 +7603,13 @@
     "updateTime": "2026-01-24",
     "description": "一款以虚拟偶像“永雏塔菲”为主题的动态表盘，使用代码重绘，兼容圆屏与方屏 Wear OS 设备，并优化了电池消耗。",
     "category": "表盘美化",
-    "WFcategory": "动态表盘",
     "keywords": [
       "二次元"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%91%BC%E5%91%BC%E7%8C%AB%2B%201.0%20(Android%204.4%20%2B).apk",
     "developer": "Flyfish233",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "动态表盘"
   },
   {
     "id": 4075175165,
@@ -8000,11 +8049,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E7%A2%B3%E9%BB%91%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 1287852515,
@@ -8265,11 +8314,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E7%BB%8F%E5%85%B8%E6%97%B6%E8%AE%A1%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 2343369545,
@@ -8287,11 +8336,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E7%BB%8F%E5%85%B8%E7%BB%BF%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 883623822,
@@ -8735,6 +8784,31 @@
     "historyVersion": []
   },
   {
+    "id": 1304761613,
+    "name": "腕年历",
+    "package": "com.onekey.calendar",
+    "version": "1.0.0",
+    "code": 1,
+    "minSdk": 26,
+    "size": "4.69 MB",
+    "icon": "assets/images/wannianli/wannianli_icon.webp",
+    "screenshots": [
+      "assets/images/wannianli/wannianli_1.webp"
+    ],
+    "addedTime": 1782573311503,
+    "updateTime": "2026-06-27",
+    "description": "用AI开发的一款腕上万年历应用，腕上看黄历，挑日子，快人一步！",
+    "category": "生活服务",
+    "keywords": [
+      "万年历",
+      "黄历",
+      "日历"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E5%B9%B4%E5%8E%861.0.0(Android8%2B).apk",
+    "developer": "小李要争口气",
+    "historyVersion": []
+  },
+  {
     "id": 3874738606,
     "name": "腕有引力",
     "package": "com.incall.incallwatch",
@@ -8900,11 +8974,11 @@
     "updateTime": "2026-05-26",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E8%89%BE%E5%B0%94%E7%99%BB%E6%B3%95%E7%8E%AF%E6%B6%88%E7%A3%A8%E6%97%B6%E9%97%B41.0.0(Android13%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 3426569943,
@@ -8922,11 +8996,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "动态表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E8%8F%9C%E7%8B%97%201.0.0%20(Android%209%20%2B).apk",
     "developer": "",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "动态表盘"
   },
   {
     "id": 1066735823,
@@ -8944,11 +9018,11 @@
     "updateTime": "2026-01-24",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "模拟表盘",
     "keywords": [],
     "downloadUrl": "https://download.wearstore.asia/APK/%E8%93%9D%E8%89%B2%E5%B9%BB%E5%A2%83%201.0.0%20(Android%2011%20%2B).apk",
     "developer": "广东欢太科技有限公司",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "模拟表盘"
   },
   {
     "id": 2643097069,
@@ -9239,14 +9313,14 @@
     "updateTime": "2026-03-14",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B2077_1.0.0_(Android16%2B).apk",
     "developer": "勤寒",
     "historyVersion": [],
     "recommendIds": [
       2713819169
-    ]
+    ],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 2713819169,
@@ -9265,14 +9339,14 @@
     "updateTime": "2026-03-14",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B2077%E6%97%A0%E5%8A%A8%E7%94%BB%E8%87%AA%E5%AE%9A%E4%B9%89%E7%89%88%E6%9C%AC1.0.0(Android16%2B).apk",
     "developer": "勤寒",
     "historyVersion": [],
     "recommendIds": [
       3836329288
-    ]
+    ],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 509899979,
@@ -9324,11 +9398,11 @@
     "updateTime": "2026-03-14",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E8%BE%90%E5%B0%841.0.0(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 3956258557,
@@ -9374,10 +9448,10 @@
     "id": 2081935439,
     "name": "酷狗概念版",
     "package": "com.kugou.android.watch.lite",
-    "version": "2.4.6",
-    "code": 10603,
+    "version": "2.4.7",
+    "code": 10705,
     "minSdk": 19,
-    "size": "14.01 MB",
+    "size": "13.96 MB",
     "icon": "assets/images/kugougainianban/kugougainianban_icon.webp",
     "screenshots": [
       "assets/images/kugougainianban/kugougainianban_1.webp",
@@ -9388,7 +9462,7 @@
       "assets/images/kugougainianban/kugougainianban_6.webp"
     ],
     "addedTime": 1764730775002,
-    "updateTime": "2026-03-19",
+    "updateTime": "2026-06-27",
     "description": "听歌就在 中国酷狗。\n\n酷狗音乐推出的年轻化、社交化版本。主打清爽简约的无广告体验和创新的 “一起听”、“音乐社区” 等社交功能，通过个性化的视觉皮肤，为年轻用户打造与众不同的音乐空间。",
     "category": "影音娱乐",
     "keywords": [
@@ -9397,9 +9471,17 @@
       "kugou",
       "music"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.6(Android4.4%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.7(Android4.4%2B).apk",
     "developer": "广州酷狗计算机科技有限公司",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "2.4.6",
+        "code": 10603,
+        "minSdk": 19,
+        "size": "14.01 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.6(Android4.4%2B).apk"
+      }
+    ]
   },
   {
     "id": 2195400104,
@@ -9625,10 +9707,10 @@
     "id": 84101276,
     "name": "零度音乐",
     "package": "ml.sky233.zero.music",
-    "version": "3.0.3",
-    "code": 83,
+    "version": "3.1.0-fix1",
+    "code": 86,
     "minSdk": 23,
-    "size": "12.17 MB",
+    "size": "12.46 MB",
     "icon": "assets/images/lingduyinle/lingduyinle_icon.webp",
     "screenshots": [
       "assets/images/lingduyinle/lingduyinle_1.webp",
@@ -9637,7 +9719,7 @@
       "assets/images/lingduyinle/lingduyinle_4.webp"
     ],
     "addedTime": 1764730777137,
-    "updateTime": "2026-06-11",
+    "updateTime": "2026-06-27",
     "description": "零度音乐是一款专注于智能手表使用体验的本地音乐播放器。应用不提供在线音乐、音乐下载或流媒体服务，只用于播放用户设备中已有的本地音频文件。\n\n你可以在手表上扫描并管理本地音乐，按歌曲、专辑、歌手和歌单浏览音乐库；播放页支持歌词显示、封面背景、播放队列、播放模式切换和定时关闭。针对手表的小屏和圆屏场景，零度音乐重新设计了界面布局，让日常播放、查找和管理歌曲更加顺手。\n\n应用还支持手机端辅助功能，可通过扫码连接手表，将手机音乐上传到手表，并管理手表端音乐库和歌单。传输过程支持分片上传和任务恢复，适合批量导入本地音乐。\n\n主要功能\n\n- 本地音乐扫描与播放\n- 歌曲、专辑、歌手、歌单分类管理\n- 歌词显示与歌词样式设置\n- 播放队列、随机播放、单曲循环等播放模式\n- 均衡器、压限器和应用音量调节\n- 定时关闭、蓝牙线控、滚轮调节音量\n- 自定义主题、字体、背景和界面缩放\n- 手机扫码连接手表，上传音乐并同步歌单\n\n说明\n零度音乐仅支持播放用户已拥有的本地音频文件，不包含任何音乐版权内容，不提供在线搜索、在线播放或下载音乐功能。使用前请确保设备中已有合法来源的音乐文件。",
     "category": "影音娱乐",
     "keywords": [
@@ -9649,15 +9731,15 @@
       "听歌",
       "zeromusic"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.0.3(Android6%2B).Apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.1.0-fix1(Android6%2B).apk",
     "developer": "sky233",
     "historyVersion": [
       {
-        "version": "3.0.1",
-        "code": 81,
+        "version": "3.0.3",
+        "code": 83,
         "minSdk": 23,
         "size": "12.17 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.0.1(Android6%2B).apk"
+        "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.0.3(Android6%2B).Apk"
       },
       {
         "version": "2.2.1-DX",
@@ -9779,11 +9861,11 @@
     "updateTime": "2026-05-02",
     "description": "",
     "category": "表盘美化",
-    "WFcategory": "游戏爱好者表盘",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E9%BB%91%E6%9A%97%E4%B9%8B%E9%AD%821.0.0(Android14%2B).apk",
     "developer": "勤寒",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "游戏爱好者表盘"
   },
   {
     "id": 4283870217,

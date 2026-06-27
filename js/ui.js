@@ -173,7 +173,7 @@ export function renderMenuModal(categories) {
                             <span class="material-symbols-rounded menu-action-icon color-gold">new_releases</span>
                             <div class="menu-action-text-group">
                                 <span class="menu-action-label">最新上架</span>
-                                <span class="menu-action-sub">最近 30 天上架</span>
+                                <span class="menu-action-sub">查看最新入库</span>
                             </div>
                         </div>
 
@@ -186,12 +186,12 @@ export function renderMenuModal(categories) {
                             </div>
                         </div>
 
-                        <!-- 表盘专区 (已挪至综合服务前) -->
+                        <!-- 表盘专区  -->
                         <div class="menu-action-card" onclick="window.location.hash='category=watchface'">
                             <span class="material-symbols-rounded menu-action-icon color-indigo">watch</span>
                             <div class="menu-action-text-group">
                                 <span class="menu-action-label">表盘专区</span>
-                                <span class="menu-action-sub">个性化你的手表</span>
+                                <span class="menu-action-sub">你的手表，你的范</span>
                             </div>
                         </div>
 
@@ -200,7 +200,7 @@ export function renderMenuModal(categories) {
                             <span class="material-symbols-rounded menu-action-icon color-purple">rate_review</span>
                             <div class="menu-action-text-group">
                                 <span class="menu-action-label">综合服务</span>
-                                <span class="menu-action-sub">反馈与建议</span>
+                                <span class="menu-action-sub">软件提交/举报侵权/意见反馈</span>
                             </div>
                         </div>
                     </div>
