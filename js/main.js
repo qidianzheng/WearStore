@@ -165,23 +165,29 @@ function checkHashLink() {
       renderCategoryModal("最近更新", sorted.slice(0, 15));
     }
   }
+  /* js/main.js -> checkHashLink 函数内部 */
+
   else if (decodedHash.startsWith('#category=')) {
     const key = hash.split('=')[1];
     const catName = getCategoryByHash(key);
     if (catName) {
       const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
 
+      // 🔥 修改：判断条件保持数据一致，但显示标题改为“表盘专区”
       if (catName === "表盘美化") {
         const watchfaces = allApps.filter(a => a.category === "表盘美化" && isAppGloballyCompatible(a, userApi));
-        import('./ui.js').then(ui => ui.renderWatchfaceMainModal(catName, watchfaces));
+        // 这里传入的第一个参数决定了弹窗顶部的绿色标题
+        import('./ui.js').then(ui => ui.renderWatchfaceMainModal("表盘专区", watchfaces));
+        setPageTitle("表盘专区");
       } else {
+        // 其他分类逻辑保持不变
         const filtered = allApps.filter(a => {
           const appCat = (a.category && a.category.trim() !== "") ? a.category : "其他";
           return appCat === catName && isAppGloballyCompatible(a, userApi);
         });
         renderCategoryModal(catName, filtered);
+        setPageTitle(catName);
       }
-      setPageTitle(catName);
     }
   }
 

@@ -700,30 +700,54 @@ body {
   font-size: 24px;
 }
 
+/* 1. 默认状态（手机/手表）：强制 3 列 */
 .wf-category-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px 10px;
+  width: 100%;
+  justify-content: start;
 }
 
+/* 手机端隐藏：只留前 3 个 */
+.wf-category-grid .card-big:nth-child(n+4) {
+  display: none !important;
+}
+
+/* 2. 平板/小型笔记本（641px - 1023px）：改为 6 列 */
+@media (min-width: 641px) {
+  .wf-category-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 20px 12px;
+  }
+
+  /* 这一档显示前 6 个 */
+  .wf-category-grid .card-big:nth-child(-n+6) {
+    display: flex !important;
+  }
+
+  .wf-category-grid .card-big:nth-child(n+7) {
+    display: none !important;
+  }
+}
+
+/* 3. 电脑模式（1024px 以上）：强制 8 列 */
 @media (min-width: 1024px) {
   .wf-category-grid {
     grid-template-columns: repeat(8, minmax(0, 1fr));
     gap: 25px 15px;
   }
-}
 
-@media (max-width: 1023px) {
-  .wf-category-grid .card-big:nth-child(n+4) {
-    display: none !important;
+  /* 这一档显示前 8 个 */
+  .wf-category-grid .card-big:nth-child(-n+8) {
+    display: flex !important;
   }
-}
 
-@media (min-width: 1024px) {
   .wf-category-grid .card-big:nth-child(n+9) {
     display: none !important;
   }
 }
+
 
 /* 标题行点击态 */
 .wf-category-header {
