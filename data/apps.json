@@ -2118,7 +2118,7 @@
     ],
     "addedTime": 1764730689784,
     "updateTime": "2025-12-28",
-    "description": "此应用为第三方修改版，WearStore不对因使用此应用导致封号负责。\n\n基于 QQ 手表版 9.0.3修改",
+    "description": "第三方修改版，可能封号！！！\n基于 QQ 手表版 9.0.3修改",
     "category": "通讯社交",
     "keywords": [
       "聊天",
@@ -2624,11 +2624,6 @@
         "size": "39.83 MB",
         "downloadUrl": "https://download.wearstore.asia/APK/QQ%E6%89%8B%E8%A1%A8%E7%89%88%209.0.3%20(Android%204.4%20%2B).apk"
       }
-    ],
-    "recommendIds": [
-      286136756,
-      464807094,
-      2615630529
     ]
   },
   {
@@ -2652,11 +2647,12 @@
     "category": "通讯社交",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/QQMax_M2.2_(Android5%2B).apk",
-    "developer": "ailife8881",
+    "developer": "深圳市腾讯计算机系统有限公司",
     "historyVersion": [],
     "recommendIds": [
       2388747650
-    ]
+    ],
+    "modAuthor": "ailife8881"
   },
   {
     "id": 464807094,
@@ -2676,7 +2672,7 @@
     ],
     "addedTime": 1764730689784,
     "updateTime": "2025-12-28",
-    "description": "此应用为第三方修改版，WearStore不对因使用此应用导致封号负责。\n\n基于 NWear-QQ 最终版 2 修改",
+    "description": "第三方修改版，可能封号！！！\n基于 NWear-QQ 最终版 2 修改",
     "category": "通讯社交",
     "keywords": [
       "聊天",
@@ -3990,10 +3986,10 @@
     "id": 2615630529,
     "name": "WearQQ Pro",
     "package": "com.tencent.qqlite",
-    "version": "2.2",
+    "version": "v1",
     "code": 2465,
     "minSdk": 21,
-    "size": "38.32 MB",
+    "size": "38.13 MB",
     "icon": "assets/images/wearqqpro/wearqqpro_icon.webp",
     "screenshots": [
       "assets/images/wearqqpro/wearqqpro_1.webp",
@@ -4004,7 +4000,7 @@
     ],
     "addedTime": 1781015489683,
     "updateTime": "2026-06-27",
-    "description": "此应用为第三方修改版，WearStore不对因使用此应用导致封号负责。\n\n基于QQ Pro修改",
+    "description": "第三方修改版，可能封号！！！\n基于QQ Pro修改",
     "category": "通讯社交",
     "keywords": [
       "聊天",
@@ -4015,7 +4011,15 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/WearQQPro2.2.apk",
     "developer": "深圳市腾讯计算机系统有限公司",
-    "historyVersion": [],
+    "historyVersion": [
+      {
+        "version": "2.2",
+        "code": 2465,
+        "minSdk": 21,
+        "size": "38.32 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/WearQQPro2.2.apk"
+      }
+    ],
     "recommendIds": [
       2388747650
     ],
@@ -6562,7 +6566,7 @@
     ],
     "addedTime": 1764730739684,
     "updateTime": "2025-12-15",
-    "description": "使用此应用前，请确保手机微信版本在8.0.61以下；\n如需使用支付功能，请确保手机微信版本为8.0.20.\n\n微信官方智能手表客户端，支持在手表上查看消息、快捷回复、进行支付及查看动态，让重要的社交与生活服务不离手腕。",
+    "description": "使用此应用前，请确保手机微信版本在8.0.61以下；\n如需使用支付功能，请确保手机微信版本为8.0.20.\n微信官方智能手表客户端，支持在手表上查看消息、快捷回复、进行支付及查看动态，让重要的社交与生活服务不离手腕。",
     "category": "通讯社交",
     "keywords": [
       "聊天",
@@ -9707,7 +9711,7 @@
     "id": 84101276,
     "name": "零度音乐",
     "package": "ml.sky233.zero.music",
-    "version": "3.1.0-fix1",
+    "version": "3.1.0",
     "code": 86,
     "minSdk": 23,
     "size": "12.46 MB",
