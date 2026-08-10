@@ -8080,10 +8080,10 @@
     "id": 1287852515,
     "name": "磨损市场",
     "package": "com.qdz.wearstore",
-    "version": "1.0.21",
-    "code": 21,
+    "version": "23",
+    "code": 23,
     "minSdk": 26,
-    "size": "17.52 MB",
+    "size": "8.32 MB",
     "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
     "screenshots": [
       "assets/images/mosunshichang/mosunshichang_1.webp",
@@ -8093,18 +8093,47 @@
       "assets/images/mosunshichang/mosunshichang_5.webp"
     ],
     "addedTime": 1770301760137,
-    "updateTime": "2026-06-11",
+    "updateTime": "2026-08-10",
     "description": "WearStore官方手表应用商店来了，现在您可以在手表上下载和安装应用。\n\n磨损市场需要安装未知应用权限，WearOS4和5通过以下方式授权：\nadb shell appops set --uid com.qdz.wearstore REQUEST_INSTALL_PACKAGES allow\n\n反馈QQ群聊1077259743\n开发者联系方式dzq8719@gmail.com",
     "category": "系统工具",
     "keywords": [
       "WearSore"
     ],
-    "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E5%B8%82%E5%9C%BA1.0.21.apk",
+    "downloadUrl": "https://download.wearstore.asia/MAIN/WearStore23.apk",
     "developer": "Qdz",
     "historyVersion": [],
     "recommendIds": [
       447281565
     ]
+  },
+  {
+    "id": 2010786753,
+    "name": "磨损相机",
+    "package": "com.qdz.wearcameraremote",
+    "version": "Beta02",
+    "code": 1,
+    "minSdk": 30,
+    "size": "1.98 MB",
+    "icon": "assets/images/mosunxiangji/mosunxiangji_icon.webp",
+    "screenshots": [
+      "assets/images/mosunxiangji/mosunxiangji_1.webp",
+      "assets/images/mosunxiangji/mosunxiangji_2.webp",
+      "assets/images/mosunxiangji/mosunxiangji_3.webp",
+      "assets/images/mosunxiangji/mosunxiangji_4.webp",
+      "assets/images/mosunxiangji/mosunxiangji_5.webp"
+    ],
+    "addedTime": 1786350740944,
+    "updateTime": "2026-08-10",
+    "description": "在手表上控制手机拍照",
+    "category": "系统工具",
+    "keywords": [
+      "相机",
+      "遥控拍照"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E7%9B%B8%E6%9C%BA%E6%89%8B%E8%A1%A8%E7%89%88Beta02.apk",
+    "phoneLink": "https://pan.baidu.com/s/1YsQzARwq2MiuQVzQ0VgNFg?pwd=99v2",
+    "developer": "Qdz",
+    "historyVersion": []
   },
   {
     "id": 3870867934,
