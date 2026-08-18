@@ -165,7 +165,6 @@ function checkHashLink() {
       renderCategoryModal("最近更新", sorted.slice(0, 15));
     }
   }
-  /* js/main.js -> checkHashLink 函数内部 */
 
   else if (decodedHash.startsWith('#category=')) {
     const key = hash.split('=')[1];
@@ -173,7 +172,6 @@ function checkHashLink() {
     if (catName) {
       const userApi = parseInt(localStorage.getItem('userApiLevel')) || 0;
 
-      // 🔥 修改：判断条件保持数据一致，但显示标题改为“表盘专区”
       if (catName === "表盘美化") {
         const watchfaces = allApps.filter(a => a.category === "表盘美化" && isAppGloballyCompatible(a, userApi));
         // 这里传入的第一个参数决定了弹窗顶部的绿色标题

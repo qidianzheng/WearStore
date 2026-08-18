@@ -3,8 +3,8 @@
     "id": 2597816725,
     "name": "2048",
     "package": "com.fastsoft.game2048w",
-    "version": "2.8",
-    "code": 28,
+    "version": "3.2",
+    "code": 32,
     "minSdk": 20,
     "size": "0.04 MB",
     "icon": "assets/images/2048/2048_icon.webp",
@@ -12,7 +12,7 @@
       "assets/images/2048/2048_1.webp"
     ],
     "addedTime": 1769240147335,
-    "updateTime": "2026-01-24",
+    "updateTime": "2026-08-17",
     "description": "一款经典的 2048 数字合并益智游戏，专为 Wear OS 智能手表优化，体积小巧无广告，支持在手机和手表上同步安装运行。",
     "category": "休闲游戏",
     "keywords": [
@@ -21,9 +21,17 @@
       "youxi",
       "game"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/2048%20v2.8(Android%204.4w%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/2048-3.2.apk",
     "developer": "fast-soft",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "2.8",
+        "code": 28,
+        "minSdk": 20,
+        "size": "0.04 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/2048%20v2.8(Android%204.4w%20%2B).apk"
+      }
+    ]
   },
   {
     "id": 1961311035,
@@ -61,10 +69,10 @@
     "id": 3609522688,
     "name": "AIDA64",
     "package": "com.finalwire.aida64",
-    "version": "2.11",
-    "code": 211,
+    "version": "2.21",
+    "code": 221,
     "minSdk": 20,
-    "size": "4.05 MB",
+    "size": "4.01 MB",
     "icon": "assets/images/aida64/aida64_icon.webp",
     "screenshots": [
       "assets/images/aida64/aida64_1.webp",
@@ -73,7 +81,7 @@
       "assets/images/aida64/aida64_4.webp"
     ],
     "addedTime": 1764730653800,
-    "updateTime": "2025-12-10",
+    "updateTime": "2026-08-17",
     "description": "强大的硬件信息检测工具，可详细查看手表的CPU、电池、传感器、存储等实时状态与系统参数。",
     "category": "系统工具",
     "keywords": [
@@ -84,9 +92,17 @@
       "电池",
       "内存"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/AIDA64%202.11%20(Android%204.4W%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/AIDA64-2.21(Android4.4W%2B).apk",
     "developer": "FinalWire Ltd",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "2.11",
+        "code": 211,
+        "minSdk": 20,
+        "size": "4.05 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/AIDA64%202.11%20(Android%204.4W%20%2B).apk"
+      }
+    ]
   },
   {
     "id": 1612916313,
@@ -148,10 +164,10 @@
     "id": 447281565,
     "name": "AnExplorer",
     "package": "dev.dworks.apps.anexplorer",
-    "version": "6.0.1",
-    "code": 60102,
+    "version": "6.0.6",
+    "code": 60602,
     "minSdk": 25,
-    "size": "54.87 MB",
+    "size": "56.32 MB",
     "icon": "assets/images/anexplorer/anexplorer_icon.webp",
     "screenshots": [
       "assets/images/anexplorer/anexplorer_1.webp",
@@ -164,7 +180,7 @@
       "assets/images/anexplorer/anexplorer_8.webp"
     ],
     "addedTime": 1764730656931,
-    "updateTime": "2026-07-03",
+    "updateTime": "2026-08-17",
     "description": "AnExplorer是一款采用Material You设计的全能文件管理器。它不仅能在手机、平板本地高效管理文件，更独具匠心地支持直接管理您的手表（Wear OS）、电视（Android TV）、汽车（Android Auto）乃至VR设备上的存储，并通过Wi-Fi、网络存储和云服务实现无缝的跨设备文件传输与同步，是管理所有Android生态设备的统一文件管理中心。",
     "category": "系统工具",
     "keywords": [
@@ -176,15 +192,15 @@
       "视频",
       "音乐"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/AnExplorer6.0.1(Android7.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/AnExplorer6.0.6(Android7.1%2B).apk",
     "developer": "DWorkS",
     "historyVersion": [
       {
-        "version": "6.0.0",
-        "code": 60002,
+        "version": "6.0.1",
+        "code": 60102,
         "minSdk": 25,
-        "size": "56.36 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/AnExplorer6.0.0(Android7.1%2B).apk"
+        "size": "54.87 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/AnExplorer6.0.1(Android7.1%2B).apk"
       }
     ]
   },
@@ -285,34 +301,43 @@
     "historyVersion": []
   },
   {
-    "id": 3261417376,
+    "id": 1206674815,
     "name": "ArcheryShotCounter",
-    "package": "com.example.archeryshotcounter",
-    "version": "1.0",
-    "code": 1,
+    "package": "com.vemestael.archeryshotcounter",
+    "version": "1.4",
+    "code": 5,
     "minSdk": 30,
-    "size": "20.04 MB",
+    "size": "21.07 MB",
     "icon": "assets/images/archeryshotcounter/archeryshotcounter_icon.webp",
     "screenshots": [
       "assets/images/archeryshotcounter/archeryshotcounter_1.webp",
       "assets/images/archeryshotcounter/archeryshotcounter_2.webp",
       "assets/images/archeryshotcounter/archeryshotcounter_3.webp"
     ],
-    "addedTime": 1779784915219,
-    "updateTime": "2026-05-26",
-    "description": "这是一名为射箭运动员设计的 WearOS 应用程序，利用手腕加速度计自动计算射箭次数——在射箭过程中无需操作任何按键。该应用适用于任何弓种（复合弓、奥林匹克反曲弓、光弓、传统弓），且左右手均可佩戴，只需根据您的器材设置调整灵敏度即可。\n功能特点：\n•自动射击检测——通过手腕加速度计检测放箭时的后坐力冲击。\n•手动调整——如有需要，可点击“+/-”来修正计数。\n•训练环节追踪——支持开始、暂停、恢复和结束训练环节。\n•历史记录查询——浏览过往训练记录，包括日期、时间范围、射箭总数和持续时间。\n•灵敏度可调——提供 高 / 中 / 低 / 自定义阈值设置。\n•支持 12 种界面语言——英语、俄语、西班牙语、法语、德语、葡萄牙语、中文、日语、韩语、阿拉伯语、土耳其语和印地语。\n系统要求：\n•Wear OS 3.0+ 智能手表 (Android API 30+)\n•腕部加速度计（所有 WearOS 手表的标准配置）\n•测试设备：Galaxy Watch 6 Classic（佩戴于持弓手，使用复合弓）",
+    "addedTime": 1786955625852,
+    "updateTime": "2026-08-17",
+    "description": "这是一名为射箭运动员设计的 WearOS 应用程序，利用手腕加速度计自动计算射箭次数——在射箭过程中无需操作任何按键。该应用适用于任何弓种（复合弓、奥林匹克反曲弓、光弓、传统弓），且左右手均可佩戴，只需根据您的器材设置调整灵敏度即可。\n功能特点：\n•自动射击检测——通过手腕加速度计检测放箭时的后坐力冲击。\n•手动调整——如有需要，可点击“+/-”来修正计数。\n•训练环节追踪——支持开始、暂停、恢复和结束训练环节。\n•历史记录查询——浏览过往训练记录，包括日期、时间范围、射箭总数和持续时间。\n•灵敏度可调——提供 高 / 中 / 低 / 自定义阈值设置。\n•支持 12 种界面语言——英语、俄语、西班牙语、法语、德语、葡萄牙语、中文、日语、韩语、阿拉伯语、土耳其语和印地语。\n系统要求：\n•Wear OS 3.0+ 智能手表 (Android API 30+)\n•腕部加速度计（所有 WearOS 手表的标准配置）\n•测试设备：Galaxy Watch 6 Classic（佩戴于持弓手，使用复合弓）\n\n更新内容\n新功能\n•可自定义击发冷却时间：可在“设置”中调节（1–30 秒，默认 10 秒；此前固定为 2 秒）。在冷却期内，传感器监听器将完全注销，而不是保持开启并忽略事件——这不仅降低了功耗，还避免了击发刚结束时的余动被误记。\n•环境模式（Ambient Mode）：当手表支持并开启了“息屏显示”（AoD）时，屏幕在训练过程中会自动降低亮度并转为极简显示，不再全程保持全亮。若 AoD 未开启或不支持，应用将降级使用手动调暗的常亮屏幕；如果手表支持 AoD 但未开启，应用会弹出一次性提示，建议在系统设置中开启该功能。\n•导出/导入训练数据：路径为“设置 → 数据”。由于 Wear OS 没有通用的文件选择器来支持“另存为”对话框，因此导入和导出均使用应用自身外部存储空间下的固定文件（无需 Root 权限即可通过 adb pull / adb push 访问）——导出时会显示准确的文件路径，导入时则会寻找该路径下的 archery-import.json 文件。\n内部改进\n•曾尝试引入传感器批量处理（Sensor batching / maxReportLatencyUs）以进一步省电，但在测试中发现偶发重复计数的问题，因而将其移除；此外，在传感器重新注册后增加了一个短暂的缓冲期（settle window），防止冷却时间刚好结束时尚未停下的手腕动作被误判为一次新的击发。\n•将击发判定（接受/拒绝）逻辑提取到了独立的纯 Kotlin 类 ShotDetectionPolicy 中，实现了脱离 Android Sensor API 的独立单元测试。\n•新增了 androidx.wear:wear（AmbientLifecycleObserver）依赖。",
     "category": "健康运动",
     "keywords": [
       "射箭",
       "射击计数器",
+      "自动检测",
       "运动追踪",
       "archery",
       "shot counter",
       "she jian"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/ArcheryShotCounter1.0(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/ArcheryShotCounter1.4(Android11%2B).apk",
     "developer": "Vladimir Grigoriev",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.0",
+        "code": 1,
+        "minSdk": 30,
+        "size": "20.04 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/ArcheryShotCounter1.0(Android11%2B).apk"
+      }
+    ]
   },
   {
     "id": 2763815218,
@@ -385,6 +410,33 @@
     "WFcategory": "大数字"
   },
   {
+    "id": 3465048003,
+    "name": "BiliClient",
+    "package": "com.RobinNotBad.BiliClient",
+    "version": "2.9.9",
+    "code": 20260726,
+    "minSdk": 15,
+    "size": "5.97 MB",
+    "icon": "assets/images/biliclient/biliclient_icon.webp",
+    "screenshots": [
+      "assets/images/biliclient/biliclient_1.webp",
+      "assets/images/biliclient/biliclient_2.webp",
+      "assets/images/biliclient/biliclient_3.webp"
+    ],
+    "addedTime": 1786955626722,
+    "updateTime": "2026-08-17",
+    "description": "适用于老款和低性能安卓手表的轻量级 Bilibili 客户端的社区维护分支；维护正在进行中。",
+    "category": "影音娱乐",
+    "keywords": [
+      "哔哩哔哩",
+      "b站",
+      "哔哩终端"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/BiliClient2.9.9.apk",
+    "developer": "shuangyue",
+    "historyVersion": []
+  },
+  {
     "id": 690513863,
     "name": "BiliZepam",
     "package": "com.huanli233.bilizepam.compose",
@@ -410,6 +462,38 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/BiliZepam0.2.0%2B6e693e4d(Android5%2B).apk",
     "developer": "huanli233",
+    "historyVersion": []
+  },
+  {
+    "id": 1480728803,
+    "name": "Blackmagic Camera",
+    "package": "com.blackmagicdesign.android.blackmagiccam",
+    "version": "3.4.0.0170",
+    "code": 20004,
+    "minSdk": 33,
+    "size": "4.52 MB",
+    "icon": "assets/images/blackmagiccamera/blackmagiccamera_icon.webp",
+    "screenshots": [
+      "assets/images/blackmagiccamera/blackmagiccamera_1.webp",
+      "assets/images/blackmagiccamera/blackmagiccamera_2.webp",
+      "assets/images/blackmagiccamera/blackmagiccamera_3.webp",
+      "assets/images/blackmagiccamera/blackmagiccamera_4.webp",
+      "assets/images/blackmagiccamera/blackmagiccamera_5.webp"
+    ],
+    "addedTime": 1786955627534,
+    "updateTime": "2026-08-17",
+    "description": "Blackmagic Camera 通过添加 Blackmagic 的数字胶片相机控制和图像处理来解锁手机的强大功能！现在您可以创建与好莱坞故事片相同的电影“外观”。您将获得与 Blackmagic Design 屡获殊荣的相机相同的直观且用户友好的界面。就像使用专业数码相机一样！您只需点击一下即可调整帧速率、快门角度、白平衡和 ISO 等设置。或者，以高达 8K 的行业标准文件直接录制到 Blackmagic Cloud！通过录制到 Blackmagic Cloud Storage，您可以与世界各地的编辑人员同时协作处理 DaVinci Resolve 项目！\n某些功能取决于设备，可能在您的设备上不可用。",
+    "category": "系统工具",
+    "keywords": [
+      "相机控制",
+      "电影效果",
+      "帧率",
+      "ISO",
+      "遥控"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/wear-blackmagic3.4.0.0170.zip",
+    "phoneLink": "https://pan.baidu.com/s/1AVlqRhsrF7fzQU4E9dZ5xw?pwd=z8ib",
+    "developer": "Blackmagic Design Inc.",
     "historyVersion": []
   },
   {
@@ -1065,10 +1149,10 @@
     "id": 3527419090,
     "name": "Favorite Apps",
     "package": "com.rayadams.favapps",
-    "version": "1.4.42",
-    "code": 57,
-    "minSdk": 26,
-    "size": "1.39 MB",
+    "version": "1.5.61",
+    "code": 70,
+    "minSdk": 32,
+    "size": "1.61 MB",
     "icon": "assets/images/favoriteapps/favoriteapps_icon.webp",
     "screenshots": [
       "assets/images/favoriteapps/favoriteapps_1.webp",
@@ -1076,7 +1160,7 @@
       "assets/images/favoriteapps/favoriteapps_3.webp"
     ],
     "addedTime": 1768213610821,
-    "updateTime": "2026-01-12",
+    "updateTime": "2026-08-17",
     "description": "一款便捷的快速启动工具，可将你最常用的应用创建为列表并显示为表盘磁贴，支持自定义图标，实现一键腕上快速启动。",
     "category": "系统工具",
     "keywords": [
@@ -1087,9 +1171,17 @@
       "quick launch",
       "kuaisu qidong"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Favorite%20Apps1.4.42(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Favorite%20Apps1.5.61(Android12L%2B).zip",
     "developer": "Ray Adams",
-    "historyVersion": [],
+    "historyVersion": [
+      {
+        "version": "1.4.42",
+        "code": 57,
+        "minSdk": 26,
+        "size": "1.39 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Favorite%20Apps1.4.42(Android8%2B).apk"
+      }
+    ],
     "contributor": "清漓染"
   },
   {
@@ -1120,17 +1212,17 @@
     "id": 19735701,
     "name": "Finger Gun - Motion Games",
     "package": "com.MustBeFun.FingerGunMotionGame",
-    "version": "0.3.0",
-    "code": 16,
+    "version": "0.4.2",
+    "code": 19,
     "minSdk": 24,
-    "size": "20.10 MB",
+    "size": "19.79 MB",
     "icon": "assets/images/fingergunmotiongames/fingergunmotiongames_icon.webp",
     "screenshots": [
       "assets/images/fingergunmotiongames/fingergunmotiongames_1.webp",
       "assets/images/fingergunmotiongames/fingergunmotiongames_2.webp"
     ],
     "addedTime": 1765598223481,
-    "updateTime": "2025-12-15",
+    "updateTime": "2026-08-17",
     "description": "一款创新的体感互动游戏合集，将智能手表变为虚拟玩具。通过挥动手臂即可体验虚拟钓鱼、挥鞭、拍打和射击等多种趣味游戏，配有逼真音效，是工作学习之余与家人朋友放松互动、释放压力的新奇选择。",
     "category": "影音娱乐",
     "keywords": [
@@ -1141,9 +1233,17 @@
       "放松解压",
       "空气手枪"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/FingerGun-MotionGame%200.3.0%20(Android%207%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/FingerGun-MotionGame0.4.2(Android7%2B).zip",
     "developer": "Must Be Fun",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "0.3.0",
+        "code": 16,
+        "minSdk": 24,
+        "size": "20.10 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/FingerGun-MotionGame%200.3.0%20(Android%207%20%2B).apk"
+      }
+    ]
   },
   {
     "id": 1685273433,
@@ -1317,8 +1417,8 @@
     "id": 3834050182,
     "name": "Gboard",
     "package": "com.google.android.inputmethod.latin",
-    "version": "5.2.03.872026769-release-armeabi-v7a",
-    "code": 2001861,
+    "version": "5.2.06.872026769-release-armeabi-v7a",
+    "code": 2001951,
     "minSdk": 30,
     "size": "25.85 MB",
     "icon": "assets/images/gboard/gboard_icon.webp",
@@ -1330,7 +1430,7 @@
       "assets/images/gboard/gboard_5.webp"
     ],
     "addedTime": 1764730668065,
-    "updateTime": "2026-04-24",
+    "updateTime": "2026-08-17",
     "description": "由 Google 出品的智能输入键盘，支持滑行、语音、手写等多种高效输入方式，并深度整合翻译、表情包与 GIF 搜索功能，输入体验快速且强大。",
     "category": "效率办公",
     "keywords": [
@@ -1341,9 +1441,16 @@
       "多语言",
       "google keyboard"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Gboard5.2.03.872026769(Android%2011%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Gboard5.2.06.872026769-release-armeabi-v7a(Android11%2B).apk",
     "developer": "Google LLC",
     "historyVersion": [
+      {
+        "version": "5.2.03.872026769-release-armeabi-v7a",
+        "code": 2001861,
+        "minSdk": 30,
+        "size": "25.85 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Gboard5.2.03.872026769(Android%2011%2B).apk"
+      },
       {
         "version": "2.0.00.369319503-release-armeabi-v7a",
         "code": 138657,
@@ -1865,10 +1972,10 @@
     "id": 4153928598,
     "name": "Microsoft Outlook",
     "package": "com.microsoft.office.outlook",
-    "version": "5.2615.0",
-    "code": 72615227,
+    "version": "5.2631.0",
+    "code": 72631217,
     "minSdk": 29,
-    "size": "11.03 MB",
+    "size": "11.24 MB",
     "icon": "assets/images/microsoftoutlook/microsoftoutlook_icon.webp",
     "screenshots": [
       "assets/images/microsoftoutlook/microsoftoutlook_1.webp",
@@ -1878,7 +1985,7 @@
       "assets/images/microsoftoutlook/microsoftoutlook_5.webp"
     ],
     "addedTime": 1764730676424,
-    "updateTime": "2026-05-02",
+    "updateTime": "2026-08-17",
     "description": "微软官方邮箱与日历应用，智能管理多个邮箱账户，聚焦重要邮件，并深度集成日程与办公功能。",
     "category": "效率办公",
     "keywords": [
@@ -1889,15 +1996,15 @@
       "email",
       "mail"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Outlook5.2615.0(Android10%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Outlook5.2631.0(Android10%2B).apk",
     "developer": "微软（中国）有限公司",
     "historyVersion": [
       {
-        "version": "5.2604.1",
-        "code": 72604221,
+        "version": "5.2615.0",
+        "code": 72615227,
         "minSdk": 29,
-        "size": "10.93 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/Microsoft%20Outlook5.2604.1(Android10%2B).apk"
+        "size": "11.03 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Outlook5.2615.0(Android10%2B).apk"
       },
       {
         "version": "5.2544.1",
@@ -2316,6 +2423,35 @@
       }
     ],
     "contributor": "清漓染"
+  },
+  {
+    "id": 993156958,
+    "name": "Orbit",
+    "package": "com.qx.orbit.bili",
+    "version": "0.5.21-Alpha-full",
+    "code": 521,
+    "minSdk": 23,
+    "size": "10.10 MB",
+    "icon": "assets/images/orbit/orbit_icon.webp",
+    "screenshots": [
+      "assets/images/orbit/orbit_1.webp",
+      "assets/images/orbit/orbit_2.webp",
+      "assets/images/orbit/orbit_3.webp",
+      "assets/images/orbit/orbit_4.webp"
+    ],
+    "addedTime": 1786955643123,
+    "updateTime": "2026-08-17",
+    "description": "哔哩终端的 Wear OS 重写项目。\nOrbit 是一个运行在 Wear OS 智能手表上的第三方哔哩哔哩客户端，借鉴了哔哩终端的部分 API 接口调用和 UI 设计。\n使用Jetpack Compose + Wear Material 3实现，网络层重构为Retrofit+Okhttp，相比原项目更加现代。\n目前已经实现大部分基本功能，如看视频、浏览弹幕、发送评论、查看动态、观看直播、离线缓存等等。\n内置 Apsis Player, 支持双模播放引擎切换、双模弹幕引擎切换，支持双指缩放平移手势，可开关弹幕、拖动全屏调节进度等，点击标题区域退出。\n拥有一些首创的特色功能，比如推荐页左滑视频可一键净化（隐藏+报告不感兴趣+拉黑UP主），评论区长按评论可隐藏评论+拉黑发送者。",
+    "category": "影音娱乐",
+    "keywords": [
+      "哔哩哔哩",
+      "b站",
+      "哔哩终端",
+      "视频"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Orbit0.5.21-Alpha-full(Android6%2B).apk",
+    "developer": "琴弦上的小医生",
+    "historyVersion": []
   },
   {
     "id": 670180534,
@@ -2934,6 +3070,31 @@
     "developer": "飞舞畅想",
     "historyVersion": [],
     "WFcategory": "CMF风格"
+  },
+  {
+    "id": 765580780,
+    "name": "Saga Keyboard",
+    "package": "com.ark.saga",
+    "version": "1.5",
+    "code": 6,
+    "minSdk": 30,
+    "size": "17.38 MB",
+    "icon": "assets/images/sagakeyboard/sagakeyboard_icon.webp",
+    "screenshots": [
+      "assets/images/sagakeyboard/sagakeyboard_1.webp",
+      "assets/images/sagakeyboard/sagakeyboard_2.webp"
+    ],
+    "addedTime": 1786955652476,
+    "updateTime": "2026-08-17",
+    "description": "手表很小，表达不该受限\n基于Rime引擎，把桌面端高度自由的输入体验完整带到腕上，拼音、双拼、五笔、仓颉——你在电脑上配置好的一切，抬腕即可复用\n下载方案需要下载配套的Saga App\n强烈推荐github.com/iDvel/rime-ice这份方案，受限于GPL协议以及文件大小无法内置\n遇到问题请联系开发者：contact@zephyr-apps.com",
+    "category": "效率办公",
+    "keywords": [
+      "输入法"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Saga%20Keyboard1.5(Android11%2B).apk",
+    "phoneLink": "https://pan.baidu.com/s/1O2s9fG94SllSSKnelXVZbg?pwd=pp26",
+    "developer": "ark2241",
+    "historyVersion": []
   },
   {
     "id": 58504821,
@@ -3731,10 +3892,10 @@
     "id": 2747460821,
     "name": "Wear Music Player",
     "package": "com.windkracht8.wearmusicplayer",
-    "version": "w2.11",
-    "code": 275,
+    "version": "w2.22",
+    "code": 292,
     "minSdk": 32,
-    "size": "1.75 MB",
+    "size": "1.78 MB",
     "icon": "assets/images/wearmusicplayer/wearmusicplayer_icon.webp",
     "screenshots": [
       "assets/images/wearmusicplayer/wearmusicplayer_1.webp",
@@ -3744,7 +3905,7 @@
       "assets/images/wearmusicplayer/wearmusicplayer_5.webp"
     ],
     "addedTime": 1777734205898,
-    "updateTime": "2026-05-02",
+    "updateTime": "2026-08-17",
     "description": "一款专为Wear OS手表设计的音乐播放器，支持离线播放mp3和m4a格式音乐。通过蓝牙或同网络WiFi从手机上传音乐到手表，支持前台媒体服务，确保后台及锻炼时音乐持续播放。",
     "category": "影音娱乐",
     "keywords": [
@@ -3756,8 +3917,49 @@
       "yinyue",
       "bofangqi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Wear%20Music%20Player_w2.11_(Android12L%2B).zip",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Wear%20Music%20Player-w2.22(Android12L%2B).zip",
     "developer": "Windkracht8",
+    "historyVersion": [
+      {
+        "version": "w2.11",
+        "code": 275,
+        "minSdk": 32,
+        "size": "1.75 MB",
+        "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Wear%20Music%20Player_w2.11_(Android12L%2B).zip"
+      }
+    ]
+  },
+  {
+    "id": 2128211668,
+    "name": "Wear OS文件管理器",
+    "package": "com.kelei.filemanagerforwearos",
+    "version": "1.0",
+    "code": 2,
+    "minSdk": 23,
+    "size": "28.74 MB",
+    "icon": "assets/images/wearoswenjianguanliqi/wearoswenjianguanliqi_icon.webp",
+    "screenshots": [
+      "assets/images/wearoswenjianguanliqi/wearoswenjianguanliqi_1.webp",
+      "assets/images/wearoswenjianguanliqi/wearoswenjianguanliqi_2.webp",
+      "assets/images/wearoswenjianguanliqi/wearoswenjianguanliqi_3.webp",
+      "assets/images/wearoswenjianguanliqi/wearoswenjianguanliqi_4.webp",
+      "assets/images/wearoswenjianguanliqi/wearoswenjianguanliqi_5.webp",
+      "assets/images/wearoswenjianguanliqi/wearoswenjianguanliqi_6.webp",
+      "assets/images/wearoswenjianguanliqi/wearoswenjianguanliqi_7.webp"
+    ],
+    "addedTime": 1786955657563,
+    "updateTime": "2026-08-17",
+    "description": "1、支持文件局域网传输，可以传输视频，音乐，小说等文件；\n2、支持小说阅读、视频观看、音频播放；\n3、支持基本的文件管理功能，文件删除新建等;\n4、支持基本的手表状态管理，支持应用管理，支持内存清理等；\n5、支持液态玻璃效果切换",
+    "category": "系统工具",
+    "keywords": [
+      "音乐",
+      "视频",
+      "小说",
+      "应用管理",
+      "内存清理"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Wear%20OS%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A81.0(Android6%2B).apk",
+    "developer": "Ke Lei",
     "historyVersion": []
   },
   {
@@ -3793,10 +3995,10 @@
     "id": 1171572150,
     "name": "WearFiles",
     "package": "com.dertefter.wearfiles",
-    "version": "3.1.3",
-    "code": 60004,
+    "version": "3.1.5",
+    "code": 60008,
     "minSdk": 26,
-    "size": "14.14 MB",
+    "size": "14.32 MB",
     "icon": "assets/images/wearfiles/wearfiles_icon.webp",
     "screenshots": [
       "assets/images/wearfiles/wearfiles_1.webp",
@@ -3804,29 +4006,29 @@
       "assets/images/wearfiles/wearfiles_3.webp"
     ],
     "addedTime": 1767280565881,
-    "updateTime": "2026-07-03",
+    "updateTime": "2026-08-17",
     "description": "一款简洁的开源文件管理器，专为 Wear OS 设计。支持基本的文件查看、删除、复制粘贴操作，并可置顶常用文件/文件夹。使用前需通过ADB手动授予文件权限。\n\nWearFiles需要存储权限，请执行以下adb命令：\nadb shell appops set --uid com.dertefter.wearfiles MANAGE_EXTERNAL_STORAGE allow",
     "category": "系统工具",
     "keywords": [
       "文件管理",
       "wenjianguanli"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/WearFiles3.1.3(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearFiles3.1.5(Android8%2B).apk",
     "developer": "Dertefter Labs",
     "historyVersion": [
+      {
+        "version": "3.1.3",
+        "code": 60004,
+        "minSdk": 26,
+        "size": "14.14 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/WearFiles3.1.3(Android8%2B).apk"
+      },
       {
         "version": "2.1.3",
         "code": 38,
         "minSdk": 32,
         "size": "12.96 MB",
         "downloadUrl": "https://download.wearstore.asia/SPLITAPK/WearFiles2.1.3(Android12L%2B).zip"
-      },
-      {
-        "version": "2.0.5",
-        "code": 34,
-        "minSdk": 26,
-        "size": "13.84 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/WearFiles2.0.5(Android8%2B).apk"
       }
     ]
   },
@@ -4892,9 +5094,9 @@
     "id": 1610429666,
     "name": "score(计分)",
     "package": "net.mxxiv.score",
-    "version": "5.9W",
-    "code": 23,
-    "minSdk": 30,
+    "version": "5.10W",
+    "code": 24,
+    "minSdk": 32,
     "size": "1.05 MB",
     "icon": "assets/images/scorejifen/scorejifen_icon.webp",
     "screenshots": [
@@ -4902,7 +5104,7 @@
       "assets/images/scorejifen/scorejifen_2.webp"
     ],
     "addedTime": 1770301724145,
-    "updateTime": "2026-02-05",
+    "updateTime": "2026-08-17",
     "description": "一款专为Wear OS设计的简易记分牌应用。适用于各种两人或四人的计分场景，如棋牌、运动等。只需点击即可快速增减分数，支持在计分中和编辑模式间切换，是您手腕上的便捷计分工具。",
     "category": "休闲游戏",
     "keywords": [
@@ -4912,9 +5114,17 @@
       "jifen",
       "paiqi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/score5.9w(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/score5.10W(Android12L%2B).zip",
     "developer": "mxxiv",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "5.9W",
+        "code": 23,
+        "minSdk": 30,
+        "size": "1.05 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/score5.9w(Android11%2B).apk"
+      }
+    ]
   },
   {
     "id": 1304963832,
@@ -5000,10 +5210,10 @@
     "id": 1000782090,
     "name": "‎Complications Suite",
     "package": "com.weartools.weekdayutccomp",
-    "version": "4.0.3-wear",
-    "code": 10020403,
+    "version": "4.0.7-wear",
+    "code": 10020407,
     "minSdk": 27,
-    "size": "4.45 MB",
+    "size": "4.80 MB",
     "icon": "assets/images/complicationssuite/complicationssuite_icon.webp",
     "screenshots": [
       "assets/images/complicationssuite/complicationssuite_1.webp",
@@ -5013,7 +5223,7 @@
       "assets/images/complicationssuite/complicationssuite_5.webp"
     ],
     "addedTime": 1767280567619,
-    "updateTime": "2026-02-05",
+    "updateTime": "2026-08-17",
     "description": "一款为 Wear OS 表盘提供丰富自定义复杂功能的扩展应用，包含活动启动器、加密货币价格、月相、自定义目标等数十种默认表盘不具备的增强型信息组件。",
     "category": "系统工具",
     "keywords": [
@@ -5022,15 +5232,15 @@
       "信息扩展",
       "月相"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Complications%20Suite4.0.3-wear(Android8.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Complications%20Suite4.0.7-wear(Android8.1%2B).apk",
     "developer": "amoledwatchfaces™",
     "historyVersion": [
       {
-        "version": "3.9.2-wear",
-        "code": 10020392,
+        "version": "4.0.3-wear",
+        "code": 10020403,
         "minSdk": 27,
-        "size": "5.90 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E2%80%8EComplications%20Suite%203.9.2-wear%20(Android%208.1%20%2B).apk"
+        "size": "4.45 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Complications%20Suite4.0.3-wear(Android8.1%2B).apk"
       }
     ]
   },
@@ -5099,10 +5309,10 @@
     "id": 5318692,
     "name": "三星浏览器",
     "package": "com.sec.android.app.sbrowser",
-    "version": "5.0.00.9",
-    "code": 500009000,
+    "version": "5.2.00.8",
+    "code": 520008000,
     "minSdk": 33,
-    "size": "112.44 MB",
+    "size": "138.05 MB",
     "icon": "assets/images/sanxingliulanqi/sanxingliulanqi_icon.webp",
     "screenshots": [
       "assets/images/sanxingliulanqi/sanxingliulanqi_1.webp",
@@ -5112,7 +5322,7 @@
       "assets/images/sanxingliulanqi/sanxingliulanqi_5.webp"
     ],
     "addedTime": 1764730726372,
-    "updateTime": "2025-12-13",
+    "updateTime": "2026-08-17",
     "description": "让您在智能手表上也能便捷浏览网页，适配小屏幕，支持搜索与书签，满足临时的信息查询需求。",
     "category": "系统工具",
     "keywords": [
@@ -5122,9 +5332,16 @@
       "samsung internet",
       "sanxingliulanqi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%89%E6%98%9F%E6%B5%8F%E8%A7%88%E5%99%A8%205.0.00.9%20(Android%2013%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%89%E6%98%9F%E6%B5%8F%E8%A7%88%E5%99%A85.2.00.8(Android13%2B).apk",
     "developer": "三星电子株式会社",
     "historyVersion": [
+      {
+        "version": "5.0.00.9",
+        "code": 500009000,
+        "minSdk": 33,
+        "size": "112.44 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E4%B8%89%E6%98%9F%E6%B5%8F%E8%A7%88%E5%99%A8%205.0.00.9%20(Android%2013%20%2B).apk"
+      },
       {
         "version": "3.0.00.7",
         "code": 300007000,
@@ -5585,6 +5802,33 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%87%A4%E5%87%B0%E6%96%B0%E9%97%BB%201.0%20(Android%208%20%2B).apk",
     "developer": "北京天盈九州网络技术有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3009553021,
+    "name": "华软天气",
+    "package": "com.huadows.weather",
+    "version": "1.0.2",
+    "code": 4,
+    "minSdk": 21,
+    "size": "2.12 MB",
+    "icon": "assets/images/huaruantianqi/huaruantianqi_icon.webp",
+    "screenshots": [
+      "assets/images/huaruantianqi/huaruantianqi_1.webp",
+      "assets/images/huaruantianqi/huaruantianqi_2.webp",
+      "assets/images/huaruantianqi/huaruantianqi_3.webp",
+      "assets/images/huaruantianqi/huaruantianqi_4.webp"
+    ],
+    "addedTime": 1786955677420,
+    "updateTime": "2026-08-17",
+    "description": "",
+    "category": "生活服务",
+    "keywords": [
+      "天气预报",
+      "温度"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%8D%8E%E8%BD%AF%E5%A4%A9%E6%B0%941.0.2(Android5%2B).apk",
+    "developer": "华软",
     "historyVersion": []
   },
   {
@@ -6392,10 +6636,10 @@
     "id": 4232323806,
     "name": "小牛电动",
     "package": "com.niu.cloud.weara",
-    "version": "1.1.2",
-    "code": 12,
+    "version": "1.1.4",
+    "code": 14,
     "minSdk": 26,
-    "size": "6.47 MB",
+    "size": "6.48 MB",
     "icon": "assets/images/xiaoniudiandong/xiaoniudiandong_icon.webp",
     "screenshots": [
       "assets/images/xiaoniudiandong/xiaoniudiandong_1.webp",
@@ -6403,7 +6647,7 @@
       "assets/images/xiaoniudiandong/xiaoniudiandong_3.webp"
     ],
     "addedTime": 1767927097722,
-    "updateTime": "2026-01-09",
+    "updateTime": "2026-08-17",
     "description": "互联科技，打造个性化出行体验。\n\n小牛电动官方手表应用，用于连接和控制智能电动车，实现便捷的车辆操作与管理。",
     "category": "生活服务",
     "keywords": [
@@ -6414,9 +6658,17 @@
       "diandongche",
       "kongzhi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%B0%8F%E7%89%9B%E7%94%B5%E5%8A%A81.1.2(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%B0%8F%E7%89%9B%E7%94%B5%E5%8A%A81.1.4(Android8%2B).apk",
     "developer": "北京牛电科技有限责任公司",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.1.2",
+        "code": 12,
+        "minSdk": 26,
+        "size": "6.47 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%B0%8F%E7%89%9B%E7%94%B5%E5%8A%A81.1.2(Android8%2B).apk"
+      }
+    ]
   },
   {
     "id": 3936481631,
@@ -6711,10 +6963,10 @@
     "id": 3797540381,
     "name": "快乐便便",
     "package": "com.casadozeps.cocofeliz",
-    "version": "3.14.3",
-    "code": 191,
+    "version": "3.15.6",
+    "code": 206,
     "minSdk": 23,
-    "size": "30.42 MB",
+    "size": "17.83 MB",
     "icon": "assets/images/kuailebianbian/kuailebianbian_icon.webp",
     "screenshots": [
       "assets/images/kuailebianbian/kuailebianbian_1.webp",
@@ -6723,7 +6975,7 @@
       "assets/images/kuailebianbian/kuailebianbian_4.webp"
     ],
     "addedTime": 1769240190081,
-    "updateTime": "2026-01-24",
+    "updateTime": "2026-08-17",
     "description": "一款用于追踪和记录肠道健康状况的趣味应用,支持按布里斯托量表分类记录,可生成图表并与医生分享,旨在提升健康意识.",
     "category": "健康运动",
     "keywords": [
@@ -6734,9 +6986,16 @@
       "happy poop",
       "jiankang"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BF%AB%E4%B9%90%E4%BE%BF%E4%BE%BF%203.14.3%20(Android%206%20%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/%E5%BF%AB%E4%B9%90%E4%BE%BF%E4%BE%BF3.15.6(Android6%2B).zip",
     "developer": "Casa do Zéps",
     "historyVersion": [
+      {
+        "version": "3.14.3",
+        "code": 191,
+        "minSdk": 23,
+        "size": "30.42 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BF%AB%E4%B9%90%E4%BE%BF%E4%BE%BF%203.14.3%20(Android%206%20%2B).apk"
+      },
       {
         "version": "3.9.7",
         "code": 155,
@@ -7574,10 +7833,10 @@
     "id": 3088906259,
     "name": "氢电子书",
     "package": "com.lowh202.sevennovel",
-    "version": "2.12",
-    "code": 212,
+    "version": "2.91",
+    "code": 291,
     "minSdk": 26,
-    "size": "2.22 MB",
+    "size": "2.43 MB",
     "icon": "assets/images/qingdianzishu/qingdianzishu_icon.webp",
     "screenshots": [
       "assets/images/qingdianzishu/qingdianzishu_1.webp",
@@ -7586,7 +7845,7 @@
       "assets/images/qingdianzishu/qingdianzishu_4.webp"
     ],
     "addedTime": 1780997973463,
-    "updateTime": "2026-06-27",
+    "updateTime": "2026-08-17",
     "description": "氢电子书是一个专为手表打造的阅读器，可以免费流畅阅读七猫和番茄的所有小说，支持离线下载，离线阅读，支持导入导出",
     "category": "学习充电",
     "keywords": [
@@ -7596,15 +7855,15 @@
       "离线阅读",
       "yuedu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.12(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.91.apk",
     "developer": "mcl0",
     "historyVersion": [
       {
-        "version": "2.5",
-        "code": 25,
+        "version": "2.12",
+        "code": 212,
         "minSdk": 26,
-        "size": "2.08 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.5(Android8%2B).apk"
+        "size": "2.22 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.12(Android8%2B).apk"
       }
     ]
   },
@@ -8077,6 +8336,32 @@
     "WFcategory": "模拟表盘"
   },
   {
+    "id": 1771518757,
+    "name": "磁音",
+    "package": "com.example.myapp",
+    "version": "1.1-beta",
+    "code": 2,
+    "minSdk": 24,
+    "size": "6.76 MB",
+    "icon": "assets/images/ciyin/ciyin_icon.webp",
+    "screenshots": [
+      "assets/images/ciyin/ciyin_1.webp",
+      "assets/images/ciyin/ciyin_2.webp",
+      "assets/images/ciyin/ciyin_3.webp",
+      "assets/images/ciyin/ciyin_4.webp"
+    ],
+    "addedTime": 1786955708812,
+    "updateTime": "2026-08-17",
+    "description": "在wearOS上运行的手表播放器，适配圆屏\n软件特性\n1.歌词模糊\n2.流光效果自定义\n3.逐字歌词长音歌词有辉光效果\n4.支持Apple Music样式对唱歌词",
+    "category": "影音娱乐",
+    "keywords": [
+      "音乐播放器"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%A3%81%E9%9F%B31.1-beta(Android7%2B).apk",
+    "developer": "kissぅゃsj",
+    "historyVersion": []
+  },
+  {
     "id": 1287852515,
     "name": "磨损市场",
     "package": "com.qdz.wearstore",
@@ -8131,9 +8416,9 @@
       "遥控拍照"
     ],
     "downloadUrl": "https://download.wearstore.asia/MAIN/%E7%A3%A8%E6%8D%9F%E7%9B%B8%E6%9C%BA%E6%89%8B%E8%A1%A8%E7%89%88Beta02.apk",
-    "phoneLink": "https://pan.baidu.com/s/1YsQzARwq2MiuQVzQ0VgNFg?pwd=99v2",
     "developer": "Qdz",
-    "historyVersion": []
+    "historyVersion": [],
+    "phoneLink": "https://pan.baidu.com/s/1YsQzARwq2MiuQVzQ0VgNFg?pwd=99v2"
   },
   {
     "id": 3870867934,
@@ -8167,10 +8452,10 @@
     "id": 4195018046,
     "name": "简易录音机",
     "package": "com.coffeebeanventures.easyvoicerecorder",
-    "version": "2.10.1",
-    "code": 362992402,
+    "version": "2.10.3",
+    "code": 362993202,
     "minSdk": 30,
-    "size": "3.01 MB",
+    "size": "3.06 MB",
     "icon": "assets/images/jianyiluyinji/jianyiluyinji_icon.webp",
     "screenshots": [
       "assets/images/jianyiluyinji/jianyiluyinji_1.webp",
@@ -8180,7 +8465,7 @@
       "assets/images/jianyiluyinji/jianyiluyinji_5.webp"
     ],
     "addedTime": 1764730759544,
-    "updateTime": "2026-05-02",
+    "updateTime": "2026-08-17",
     "description": "专为手表设计的轻便录音工具，高品质录制会议、课堂或灵感瞬间，并支持快速分享，随时随地留存重要声音。",
     "category": "效率办公",
     "keywords": [
@@ -8191,15 +8476,15 @@
       "录音笔",
       "easy voice recorder"
     ],
-    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/%E7%AE%80%E6%98%93%E5%BD%95%E9%9F%B3%E6%9C%BA2.10.1(Android11%2B).zip",
+    "downloadUrl": "https://download.wearstore.asia/SPLITAPK/%E7%AE%80%E6%98%93%E5%BD%95%E9%9F%B3%E6%9C%BA2.10.3(Android11%2B).zip",
     "developer": "Digipom",
     "historyVersion": [
       {
-        "version": "2.10.0",
-        "code": 342991302,
+        "version": "2.10.1",
+        "code": 362992402,
         "minSdk": 30,
-        "size": "3.31 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E7%AE%80%E6%98%93%E5%BD%95%E9%9F%B3%E6%9C%BA2.10.0(Android11%2B).apk"
+        "size": "3.01 MB",
+        "downloadUrl": "https://download.wearstore.asia/SPLITAPK/%E7%AE%80%E6%98%93%E5%BD%95%E9%9F%B3%E6%9C%BA2.10.1(Android11%2B).zip"
       },
       {
         "version": "2.9.4",
@@ -8423,6 +8708,40 @@
       "tuijian"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%903.0.42(Android4.4%2B).apk",
+    "developer": "杭州乐读科技有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 3359458970,
+    "name": "网易云音乐儿童手表版",
+    "package": "com.netease.cloudmusic.watch",
+    "version": "2.9.106",
+    "code": 29106,
+    "minSdk": 19,
+    "size": "20.67 MB",
+    "icon": "assets/images/wangyiyunyinleertongshoubiaoban/wangyiyunyinleertongshoubiaoban_icon.webp",
+    "screenshots": [
+      "assets/images/wangyiyunyinleertongshoubiaoban/wangyiyunyinleertongshoubiaoban_1.webp",
+      "assets/images/wangyiyunyinleertongshoubiaoban/wangyiyunyinleertongshoubiaoban_2.webp",
+      "assets/images/wangyiyunyinleertongshoubiaoban/wangyiyunyinleertongshoubiaoban_3.webp",
+      "assets/images/wangyiyunyinleertongshoubiaoban/wangyiyunyinleertongshoubiaoban_4.webp"
+    ],
+    "addedTime": 1786955713227,
+    "updateTime": "2026-08-17",
+    "description": "",
+    "category": "影音娱乐",
+    "keywords": [
+      "音乐",
+      "音乐推荐",
+      "运动歌单",
+      "会员曲库",
+      "无损音质",
+      "离线畅听",
+      "netease cloud music",
+      "ge dan",
+      "tuijian"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%902.9.106(Android4.4%2B).apk",
     "developer": "杭州乐读科技有限公司",
     "historyVersion": []
   },
@@ -9691,6 +10010,32 @@
     "historyVersion": []
   },
   {
+    "id": 3373217831,
+    "name": "长夜腕阅",
+    "package": "com.shenyue.changyemobiletxt",
+    "version": "1.0.1",
+    "code": 2,
+    "minSdk": 28,
+    "size": "13.58 MB",
+    "icon": "assets/images/changyewanyue/changyewanyue_icon.webp",
+    "screenshots": [
+      "assets/images/changyewanyue/changyewanyue_1.webp",
+      "assets/images/changyewanyue/changyewanyue_2.webp"
+    ],
+    "addedTime": 1786955724507,
+    "updateTime": "2026-08-17",
+    "description": "ChangyeTXT 是一个面向WearOS的电子书阅读器，同时提供Android手机端用于局域网传书。项目目前支持EPUB、TXT电子书格式，并针对手表设备的内存和性能限制进行了适配。项目开发由Google Gemini领衔主演。",
+    "category": "学习充电",
+    "keywords": [
+      "阅读",
+      "电子书",
+      "小说"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%95%BF%E5%A4%9C%E8%85%95%E9%98%851.0.1(Android9%2B).apk",
+    "developer": "shenyue-ge",
+    "historyVersion": []
+  },
+  {
     "id": 2123050680,
     "name": "闪念贝壳",
     "package": "com.roundreddot.ideashell.oppowatch",
@@ -9861,6 +10206,31 @@
         "downloadUrl": "https://download.wearstore.asia/APK/%E9%A3%8E%E8%BD%BB%E9%9F%B3%E4%B9%901.0(Android8%2B).apk"
       }
     ]
+  },
+  {
+    "id": 1346751524,
+    "name": "飞天FM",
+    "package": "com.wonder233.radio.wear",
+    "version": "1.3.1",
+    "code": 5,
+    "minSdk": 26,
+    "size": "4.81 MB",
+    "icon": "assets/images/feitianfm/feitianfm_icon.webp",
+    "screenshots": [
+      "assets/images/feitianfm/feitianfm_1.webp",
+      "assets/images/feitianfm/feitianfm_2.webp"
+    ],
+    "addedTime": 1786955726761,
+    "updateTime": "2026-08-17",
+    "description": "一款专门为手表开发的FM收音机APP，电台数量多，支持收藏喜欢的电台，能自适应圆屏、方屏显示。",
+    "category": "影音娱乐",
+    "keywords": [
+      "电台",
+      "收音机"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%A3%9E%E5%A4%A9FM1.3.1(Android8%2B).apk",
+    "developer": "稽佬233",
+    "historyVersion": []
   },
   {
     "id": 1721875872,
