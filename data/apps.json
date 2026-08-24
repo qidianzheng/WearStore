@@ -1417,10 +1417,10 @@
     "id": 3834050182,
     "name": "Gboard",
     "package": "com.google.android.inputmethod.latin",
-    "version": "5.2.06.872026769-release-armeabi-v7a",
-    "code": 2001951,
+    "version": "5.3.10.932181836-release-armeabi-v7a",
+    "code": 2228061,
     "minSdk": 30,
-    "size": "25.85 MB",
+    "size": "25.96 MB",
     "icon": "assets/images/gboard/gboard_icon.webp",
     "screenshots": [
       "assets/images/gboard/gboard_1.webp",
@@ -1430,7 +1430,7 @@
       "assets/images/gboard/gboard_5.webp"
     ],
     "addedTime": 1764730668065,
-    "updateTime": "2026-08-17",
+    "updateTime": "2026-08-24",
     "description": "由 Google 出品的智能输入键盘，支持滑行、语音、手写等多种高效输入方式，并深度整合翻译、表情包与 GIF 搜索功能，输入体验快速且强大。",
     "category": "效率办公",
     "keywords": [
@@ -1441,15 +1441,15 @@
       "多语言",
       "google keyboard"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Gboard5.2.06.872026769-release-armeabi-v7a(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Gboard5.3.10.932181836-release-armeabi-v7a(Android11%2B).apk",
     "developer": "Google LLC",
     "historyVersion": [
       {
-        "version": "5.2.03.872026769-release-armeabi-v7a",
-        "code": 2001861,
+        "version": "5.2.06.872026769-release-armeabi-v7a",
+        "code": 2001951,
         "minSdk": 30,
         "size": "25.85 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/Gboard5.2.03.872026769(Android%2011%2B).apk"
+        "downloadUrl": "https://download.wearstore.asia/APK/Gboard5.2.06.872026769-release-armeabi-v7a(Android11%2B).apk"
       },
       {
         "version": "2.0.00.369319503-release-armeabi-v7a",
@@ -5866,8 +5866,7 @@
     "screenshots": [
       "assets/images/huaruantianqi/huaruantianqi_1.webp",
       "assets/images/huaruantianqi/huaruantianqi_2.webp",
-      "assets/images/huaruantianqi/huaruantianqi_3.webp",
-      "assets/images/huaruantianqi/huaruantianqi_4.webp"
+      "assets/images/huaruantianqi/huaruantianqi_3.webp"
     ],
     "addedTime": 1786955677420,
     "updateTime": "2026-08-17",
@@ -6828,10 +6827,10 @@
     "id": 1979471110,
     "name": "弦电子书",
     "package": "moye.sine.books",
-    "version": "1.0.12",
-    "code": 12,
+    "version": "1.1.0",
+    "code": 13,
     "minSdk": 26,
-    "size": "4.38 MB",
+    "size": "6.04 MB",
     "icon": "assets/images/xiandianzishu/xiandianzishu_icon.webp",
     "screenshots": [
       "assets/images/xiandianzishu/xiandianzishu_1.webp",
@@ -6840,7 +6839,7 @@
       "assets/images/xiandianzishu/xiandianzishu_4.webp"
     ],
     "addedTime": 1771760724526,
-    "updateTime": "2026-06-09",
+    "updateTime": "2026-08-24",
     "description": "一款专为安卓手表端设计的强大电子书阅读器，支持导入TXT、EPUB、MOBI、NVB格式。具备TXT导入自动分章、书籍分类、书签管理和全文搜索功能。\n\n内置文件选择器授权：\n\n授予读取存储权限：\nadb shell pm grant moye.sine.books android.permission.READ_EXTERNAL_STORAGE\n授予写入存储权限：\nadb shell pm grant moye.sine.books android.permission.WRITE_EXTERNAL_STORAGE\n授予管理所有文件权限（针对 Android 11+）：\nadb shell appops set moye.sine.books MANAGE_EXTERNAL_STORAGE allow",
     "category": "学习充电",
     "keywords": [
@@ -6855,15 +6854,15 @@
       "ebook reader",
       "dianzi shu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A61.0.12(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.1.0(Android8%2B).apk",
     "developer": "爅峫",
     "historyVersion": [
       {
-        "version": "1.0.11",
-        "code": 11,
+        "version": "1.0.12",
+        "code": 12,
         "minSdk": 26,
         "size": "4.38 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.0.11(Android8%2B).apk"
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A61.0.12(Android8%2B).apk"
       }
     ]
   },
@@ -7883,10 +7882,10 @@
     "id": 3088906259,
     "name": "氢电子书",
     "package": "com.lowh202.sevennovel",
-    "version": "2.91",
-    "code": 291,
+    "version": "3.05",
+    "code": 305,
     "minSdk": 26,
-    "size": "2.43 MB",
+    "size": "4.69 MB",
     "icon": "assets/images/qingdianzishu/qingdianzishu_icon.webp",
     "screenshots": [
       "assets/images/qingdianzishu/qingdianzishu_1.webp",
@@ -7905,17 +7904,9 @@
       "离线阅读",
       "yuedu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.91.apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A63.05(Android8%2B).apk",
     "developer": "mcl0",
-    "historyVersion": [
-      {
-        "version": "2.12",
-        "code": 212,
-        "minSdk": 26,
-        "size": "2.22 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A62.12(Android8%2B).apk"
-      }
-    ]
+    "historyVersion": []
   },
   {
     "id": 2343238057,
@@ -8389,10 +8380,10 @@
     "id": 1771518757,
     "name": "磁音",
     "package": "com.example.myapp",
-    "version": "1.1-beta",
-    "code": 2,
+    "version": "1.2.1",
+    "code": 4,
     "minSdk": 24,
-    "size": "6.76 MB",
+    "size": "6.06 MB",
     "icon": "assets/images/ciyin/ciyin_icon.webp",
     "screenshots": [
       "assets/images/ciyin/ciyin_1.webp",
@@ -8401,15 +8392,23 @@
       "assets/images/ciyin/ciyin_4.webp"
     ],
     "addedTime": 1786955708812,
-    "updateTime": "2026-08-17",
-    "description": "在wearOS上运行的手表播放器，适配圆屏\n软件特性\n1.歌词模糊\n2.流光效果自定义\n3.逐字歌词长音歌词有辉光效果\n4.支持Apple Music样式对唱歌词",
+    "updateTime": "2026-08-24",
+    "description": "🎵 磁音 — 专为圆表打造的本地音乐播放器\n核心亮点\n· 逐字歌词：逐词高亮同步，滚轮透镜（中心清晰边缘模糊），支持双语翻译、伴唱/对唱独立渲染\n· 流光背景：封面主色驱动动态流光，可调模糊/漂移速度，自动压暗保文字清晰\n· 辉光效果：长音字触发白色光晕，越长越亮，换字平滑淡出\n· 封面取色：自动提取主色，歌词/进度环/流光同步变色\n播放体验\n· 圆形进度环：全屏封面+环绕进度条，双击拖拽跳转，拖拽时自动压暗背景\n· 智能队列：左滑进入，手势排序，长按删除，滑动操作\n· 实时搜索：按歌名/歌手/专辑匹配本地音乐\n· 音乐库：歌曲/专辑/歌手三维浏览，收藏夹，多种排序\n定时睡眠\n· 定时暂停：预设多档时长，倒计时显示，超时自动暂停\n· 睡眠检测（高级版）：睡眠暂停\n蓝牙音频\n· 搜索附近蓝牙设备，一键切换扬声器/耳机，状态实时监控\n圆表专属\n· 安全区防截断，旋钮滚动歌词带震动，右划返回，全局深色主题",
     "category": "影音娱乐",
     "keywords": [
       "音乐播放器"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E7%A3%81%E9%9F%B31.1-beta(Android7%2B).apk",
     "developer": "kissぅゃsj",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "1.1-beta",
+        "code": 2,
+        "minSdk": 24,
+        "size": "6.76 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E7%A3%81%E9%9F%B31.1-beta(Android7%2B).apk"
+      }
+    ]
   },
   {
     "id": 1287852515,
@@ -9350,10 +9349,10 @@
     "id": 194880826,
     "name": "腕音",
     "package": "com.fishcpy.wanyin",
-    "version": "0.0.2",
-    "code": 1,
+    "version": "0.0.3",
+    "code": 3,
     "minSdk": 30,
-    "size": "4.41 MB",
+    "size": "4.23 MB",
     "icon": "assets/images/wanyin/wanyin_icon.webp",
     "screenshots": [
       "assets/images/wanyin/wanyin_1.webp",
@@ -9362,16 +9361,24 @@
       "assets/images/wanyin/wanyin_4.webp"
     ],
     "addedTime": 1787129466649,
-    "updateTime": "2026-08-19",
-    "description": "material design 3 风格音乐播放器",
+    "updateTime": "2026-08-24",
+    "description": "material design 3 风格音乐播放器\n更新日志：\n\n新增\n- 添加了背景模糊度自定义选项\n- 添加了模糊动画选项\n- 添加了歌词模糊选项\n- 添加了未知的 BUG\n\n优化\n- 支持识别部分翻译歌词\n- 优化了歌单的操作逻辑和 UI\n- 播放列表统一更名为歌单\n\n修复\n- 修复添加歌曲到歌单时的主键冲突问题\n- 修复设置页返回首页时的转场模糊异常\n- 修复媒体项 ID 与进度同步问题\n- 修复 MediaController 绑定泄漏",
     "category": "影音娱乐",
     "keywords": [
       "音乐播放器",
       "本地音乐"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.0.2(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.0.3(Android11%2B).apk",
     "developer": "fishcpy",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "version": "0.0.2",
+        "code": 1,
+        "minSdk": 30,
+        "size": "4.41 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.0.2(Android11%2B).apk"
+      }
+    ]
   },
   {
     "id": 2884761579,
