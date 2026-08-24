@@ -4381,6 +4381,33 @@
     "historyVersion": []
   },
   {
+    "id": 1750027491,
+    "name": "WearQQ Next",
+    "package": "moye.wearqq.ce",
+    "_rawCode": 100000,
+    "version": "1.0.0",
+    "code": 100000,
+    "minSdk": 26,
+    "size": "48.32 MB",
+    "icon": "assets/images/wearqqnext/wearqqnext_icon.webp",
+    "screenshots": [
+      "assets/images/wearqqnext/wearqqnext_1.webp",
+      "assets/images/wearqqnext/wearqqnext_2.webp",
+      "assets/images/wearqqnext/wearqqnext_3.webp",
+      "assets/images/wearqqnext/wearqqnext_4.webp",
+      "assets/images/wearqqnext/wearqqnext_5.webp"
+    ],
+    "addedTime": 1787563122742,
+    "updateTime": "2026-08-24",
+    "description": "WearQQ Next是基于下一代技术全新重构的手表 QQ，拥有所有表Q迄今为止最完美的圆表UI，并同时提供了表Q协议下所有可实现的功能。\n此版本为第一个公开发布的版本，可能存在部分问题，将在之后版本进行处理。\n目前已知问题：\n1. 群公告图片无法正常加载。\n2. 同WearQQ Pro，聊天记录中的部分图片无法加载。",
+    "category": "通讯社交",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.0.0(Android8%2B).apk",
+    "developer": "深圳市腾讯计算机系统有限公司",
+    "modAuthor": "爅峫",
+    "historyVersion": []
+  },
+  {
     "id": 2615630529,
     "name": "WearQQ Pro",
     "package": "com.tencent.qqlite",
@@ -8784,7 +8811,16 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/MAIN/WearStore24.apk",
     "developer": "Qdz",
-    "historyVersion": [],
+    "historyVersion": [
+      {
+        "_rawCode": 23,
+        "version": "23",
+        "code": 23,
+        "minSdk": 26,
+        "size": "8.32 MB",
+        "downloadUrl": ""
+      }
+    ],
     "recommendIds": [
       447281565
     ]
