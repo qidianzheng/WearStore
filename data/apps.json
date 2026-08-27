@@ -840,11 +840,11 @@
     "id": 3193627451,
     "name": "Classing 课程表",
     "package": "com.xtawa.classingtime",
-    "_rawCode": 104,
-    "version": "1.0.4",
-    "code": 104,
+    "_rawCode": 107,
+    "version": "1.0.7",
+    "code": 107,
     "minSdk": 30,
-    "size": "36.06 MB",
+    "size": "6.07 MB",
     "icon": "assets/images/classingkechengbiao/classingkechengbiao_icon.webp",
     "screenshots": [
       "assets/images/classingkechengbiao/classingkechengbiao_1.webp",
@@ -852,7 +852,7 @@
       "assets/images/classingkechengbiao/classingkechengbiao_3.webp"
     ],
     "addedTime": 1774603332137,
-    "updateTime": "2026-04-28",
+    "updateTime": "2026-08-27",
     "description": "一款专为手表端设计的课程表应用，方便学生在手腕上快速查看每日课程安排。",
     "category": "学习充电",
     "keywords": [
@@ -861,16 +861,16 @@
       "kechengbiao",
       "xuexi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%5B%E6%89%8B%E8%A1%A8%5DClassing%20%E8%AF%BE%E7%A8%8B%E8%A1%A81.0.4(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%5B%E6%89%8B%E8%A1%A8%5DClassing%E8%AF%BE%E7%A8%8B%E8%A1%A81.0.7(Android11%2B).apk",
     "developer": "xtawa",
     "historyVersion": [
       {
-        "_rawCode": 1,
-        "version": "1.0.2",
-        "code": 1,
+        "_rawCode": 104,
+        "version": "1.0.4",
+        "code": 104,
         "minSdk": 30,
-        "size": "33.63 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/Classing%20%E8%AF%BE%E7%A8%8B%E8%A1%A8_%E6%89%8B%E8%A1%A8_1.0.2_(Android11%2B).apk"
+        "size": "36.06 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%5B%E6%89%8B%E8%A1%A8%5DClassing%20%E8%AF%BE%E7%A8%8B%E8%A1%A81.0.4(Android11%2B).apk"
       }
     ],
     "phoneLink": "https://pan.baidu.com/s/1vOZMbQY8z5O72PkG6p78Vg?pwd=xvuu"
@@ -3771,6 +3771,35 @@
     "historyVersion": []
   },
   {
+    "id": 2397168672,
+    "name": "T启动(WearOS3+可用)",
+    "package": "com.tanxi.tlauncher",
+    "_rawCode": 33,
+    "version": "2.1233",
+    "code": 33,
+    "minSdk": 23,
+    "size": "3.31 MB",
+    "icon": "assets/images/tqidongwearos3keyong/tqidongwearos3keyong_icon.webp",
+    "screenshots": [
+      "assets/images/tqidongwearos3keyong/tqidongwearos3keyong_1.webp",
+      "assets/images/tqidongwearos3keyong/tqidongwearos3keyong_2.webp"
+    ],
+    "addedTime": 1787820476503,
+    "updateTime": "2026-08-27",
+    "description": "T启动Android11(WearOS3)+可用",
+    "category": "系统工具",
+    "keywords": [
+      "蜂窝启动器",
+      "tqidong",
+      "apple watch",
+      "launcher"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/T%E5%90%AF%E5%8A%A82.1fix.apk",
+    "developer": "Logic昊",
+    "modAuthor": "稽佬233",
+    "historyVersion": []
+  },
+  {
     "id": 1569774101,
     "name": "UltraPro",
     "package": "com.spwatches.ultrapro",
@@ -4384,11 +4413,11 @@
     "id": 1750027491,
     "name": "WearQQ Next",
     "package": "moye.wearqq.ce",
-    "_rawCode": 100000,
-    "version": "1.0.0",
-    "code": 100000,
-    "minSdk": 26,
-    "size": "48.32 MB",
+    "_rawCode": 102000,
+    "version": "1.2.0",
+    "code": 102000,
+    "minSdk": 21,
+    "size": "49.93 MB",
     "icon": "assets/images/wearqqnext/wearqqnext_icon.webp",
     "screenshots": [
       "assets/images/wearqqnext/wearqqnext_1.webp",
@@ -4398,14 +4427,23 @@
       "assets/images/wearqqnext/wearqqnext_5.webp"
     ],
     "addedTime": 1787563122742,
-    "updateTime": "2026-08-24",
+    "updateTime": "2026-08-27",
     "description": "第三方修改版，可能封号！！！\nWearQQ Next是基于下一代技术全新重构的手表 QQ，拥有所有表Q迄今为止最完美的圆表UI，并同时提供了表Q协议下所有可实现的功能。\n此版本为第一个公开发布的版本，可能存在部分问题，将在之后版本进行处理。\n目前已知问题：\n1. 群公告图片无法正常加载。\n2. 同WearQQ Pro，聊天记录中的部分图片无法加载。",
     "category": "通讯社交",
     "keywords": "",
-    "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.0.0(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.2.0(Android5%2B).apk",
     "developer": "深圳市腾讯计算机系统有限公司",
-    "modAuthor": "爅峫",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 100000,
+        "version": "1.0.0",
+        "code": 100000,
+        "minSdk": 26,
+        "size": "48.32 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.0.0(Android8%2B).apk"
+      }
+    ],
+    "modAuthor": "爅峫"
   },
   {
     "id": 2615630529,
@@ -6236,6 +6274,35 @@
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%8F%8D%E6%B3%95%E8%A5%BF%E6%96%AF80%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B51.0.0(Android14%2B).apk",
     "developer": "哈哈氦",
+    "historyVersion": []
+  },
+  {
+    "id": 12621300,
+    "name": "可波世界",
+    "package": "com.yuanye.keboshijie",
+    "_rawCode": 1,
+    "version": "0.0.1",
+    "code": 1,
+    "minSdk": 27,
+    "size": "42.30 MB",
+    "icon": "assets/images/keboshijie/keboshijie_icon.webp",
+    "screenshots": [
+      "assets/images/keboshijie/keboshijie_1.webp",
+      "assets/images/keboshijie/keboshijie_2.webp",
+      "assets/images/keboshijie/keboshijie_3.webp"
+    ],
+    "addedTime": 1787820503735,
+    "updateTime": "2026-08-27",
+    "description": "可波世界是一个像素风格电子宠物游戏，里面包含了常见的喂食、洗澡、玩耍、种地、战斗等玩法，在游戏中需要拜访你的邻居增加友情值，解锁隐藏功能，打工赚钱将宠物养至成熟阶段可将宠物送往可波世界，游戏目前为测试版理论情况下兼容圆屏，方屏手表和常见智能手机，谢谢各位试玩",
+    "category": "休闲游戏",
+    "keywords": [
+      "像素风格",
+      "电子宠物",
+      "养成游戏",
+      "喂食"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%8F%AF%E6%B3%A2%E4%B8%96%E7%95%8C0.0.1(Android8.1%2B).apk",
+    "developer": "烈头屑",
     "historyVersion": []
   },
   {
