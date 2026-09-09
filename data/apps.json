@@ -136,6 +136,31 @@
     "WFcategory": "动态表盘"
   },
   {
+    "id": 270658124,
+    "name": "AboutTime",
+    "package": "com.example.abouttime",
+    "_rawCode": 1,
+    "version": "0.1.0",
+    "code": 1,
+    "minSdk": 36,
+    "size": "5.70 MB",
+    "icon": "assets/images/abouttime/abouttime_icon.webp",
+    "screenshots": [
+      "assets/images/abouttime/abouttime_1.webp",
+      "assets/images/abouttime/abouttime_2.webp",
+      "assets/images/abouttime/abouttime_3.webp",
+      "assets/images/abouttime/abouttime_4.webp"
+    ],
+    "addedTime": 1788964410423,
+    "updateTime": "2026-09-09",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/AboutTime0.1.0(Android16%2B).apk",
+    "developer": "SaigetsuX",
+    "historyVersion": []
+  },
+  {
     "id": 2056030808,
     "name": "Alti-Barometer汉化版",
     "package": "com.lucaboscolomeneguolo.altimeterbarometer",
@@ -2560,6 +2585,28 @@
     "contributor": "清漓染"
   },
   {
+    "id": 2017557869,
+    "name": "OnePlus like",
+    "package": "com.watchfacestudio.oneplus_like",
+    "_rawCode": 10000002,
+    "version": "0.0.1",
+    "code": 10000002,
+    "minSdk": 33,
+    "size": "0.22 MB",
+    "icon": "assets/images/onepluslike/onepluslike_icon.webp",
+    "screenshots": [
+      "assets/images/onepluslike/onepluslike_1.webp"
+    ],
+    "addedTime": 1788964434914,
+    "updateTime": "2026-09-09",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/OnePlus%20like0.0.1(Android13%2B).apk",
+    "developer": "Akichau_Michi",
+    "historyVersion": []
+  },
+  {
     "id": 993156958,
     "name": "Orbit",
     "package": "com.qx.orbit.bili",
@@ -3513,6 +3560,29 @@
         "downloadUrl": "https://download.wearstore.asia/APK/Stopwatch%205.6.0%20(Android%2013%20%2B).apk"
       }
     ]
+  },
+  {
+    "id": 1762114636,
+    "name": "Sun Circle(chaumak)",
+    "package": "com.watchfacestudio.chaumak.suncircle",
+    "_rawCode": 10000016,
+    "version": "0.3.1",
+    "code": 10000016,
+    "minSdk": 33,
+    "size": "0.30 MB",
+    "icon": "assets/images/suncirclechaumak/suncirclechaumak_icon.webp",
+    "screenshots": [
+      "assets/images/suncirclechaumak/suncirclechaumak_1.webp"
+    ],
+    "addedTime": 1788964445841,
+    "updateTime": "2026-09-09",
+    "description": "行为变更：\n6-18时，红色\n19-次日6时，银色\n5-6，18-19时：橙色（疑似）",
+    "category": "表盘美化",
+    "WFcategory": "CMF风格",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/Sun%20Circle(chaumak)0.3.1(Android13%2B).apk",
+    "developer": "Akichau_Michi",
+    "historyVersion": []
   },
   {
     "id": 3277444958,
@@ -5504,6 +5574,30 @@
     "historyVersion": []
   },
   {
+    "id": 2301754410,
+    "name": "summer sale",
+    "package": "com.watchfacestudio.summersale",
+    "_rawCode": 10000001,
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "9.48 MB",
+    "icon": "assets/images/summersale/summersale_icon.webp",
+    "screenshots": [
+      "assets/images/summersale/summersale_1.gif",
+      "assets/images/summersale/summersale_2.webp",
+      "assets/images/summersale/summersale_3.webp"
+    ],
+    "addedTime": 1788964474251,
+    "updateTime": "2026-09-09",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/summer%20sale1.0.0(Android13%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
     "id": 2346061512,
     "name": "time.dev yaml",
     "package": "com.balappfacewatch.dev",
@@ -7020,6 +7114,28 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84%201.0.2%20(Android%205%20%2B).apk",
     "developer": "互诚信息技术（上海）有限公司",
+    "historyVersion": []
+  },
+  {
+    "id": 2562316298,
+    "name": "大迫杰",
+    "package": "com.watchfacestudio.SuguruOsako",
+    "_rawCode": 10000001,
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "0.57 MB",
+    "icon": "assets/images/dapojie/dapojie_icon.webp",
+    "screenshots": [
+      "assets/images/dapojie/dapojie_1.webp"
+    ],
+    "addedTime": 1788964495073,
+    "updateTime": "2026-09-09",
+    "description": "",
+    "category": "表盘美化",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%A4%A7%E8%BF%AB%E6%9D%B01.0.0(Android13%2B).apk",
+    "developer": "丸山茜",
     "historyVersion": []
   },
   {
@@ -8662,6 +8778,31 @@
     "historyVersion": []
   },
   {
+    "id": 3223037964,
+    "name": "深海迷航",
+    "package": "com.watchfacestudio.subnautica2",
+    "_rawCode": 10000001,
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "2.06 MB",
+    "icon": "assets/images/shenhaimihang/shenhaimihang_icon.webp",
+    "screenshots": [
+      "assets/images/shenhaimihang/shenhaimihang_1.gif",
+      "assets/images/shenhaimihang/shenhaimihang_2.webp",
+      "assets/images/shenhaimihang/shenhaimihang_3.webp"
+    ],
+    "addedTime": 1788964512838,
+    "updateTime": "2026-09-09",
+    "description": "黄色进度条步数，绿色进度条心率，蓝色降雨量",
+    "category": "表盘美化",
+    "WFcategory": "游戏爱好者表盘",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B7%B1%E6%B5%B7%E8%BF%B7%E8%88%AA2_1.0.0_(Android14%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
     "id": 96739318,
     "name": "深蓝汽车",
     "package": "deepal.com.cn.watch",
@@ -9008,6 +9149,54 @@
     "historyVersion": []
   },
   {
+    "id": 665769273,
+    "name": "看门狗2基础版",
+    "package": "com.watchfacestudio.watchdogs2Normal",
+    "_rawCode": 10000001,
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "1.13 MB",
+    "icon": "assets/images/kanmengou2jichuban/kanmengou2jichuban_icon.webp",
+    "screenshots": [
+      "assets/images/kanmengou2jichuban/kanmengou2jichuban_1.webp"
+    ],
+    "addedTime": 1788964527090,
+    "updateTime": "2026-09-09",
+    "description": "",
+    "category": "表盘美化",
+    "WFcategory": "游戏爱好者表盘",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%9C%8B%E9%97%A8%E7%8B%972%E5%9F%BA%E7%A1%80%E7%89%881.0.0(Android14%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
+    "id": 1565548013,
+    "name": "看门狗基础版",
+    "package": "com.watchfacestudio.watchdogsNormal",
+    "_rawCode": 10000001,
+    "version": "1.0.0",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "1.42 MB",
+    "icon": "assets/images/kanmengoujichuban/kanmengoujichuban_icon.webp",
+    "screenshots": [
+      "assets/images/kanmengoujichuban/kanmengoujichuban_1.webp",
+      "assets/images/kanmengoujichuban/kanmengoujichuban_2.webp",
+      "assets/images/kanmengoujichuban/kanmengoujichuban_3.webp"
+    ],
+    "addedTime": 1788964527486,
+    "updateTime": "2026-09-09",
+    "description": "三个游戏内动画logo，底部为步数，三种息屏背景",
+    "category": "表盘美化",
+    "WFcategory": "游戏爱好者表盘",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%9C%8B%E9%97%A8%E7%8B%97%E5%9F%BA%E7%A1%80%E7%89%881.0.0(Android14%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
     "id": 269969223,
     "name": "碳黑",
     "package": "com.watchfacestudio.carbonblack",
@@ -9034,11 +9223,11 @@
     "id": 1771518757,
     "name": "磁音",
     "package": "com.example.myapp",
-    "_rawCode": 2,
-    "version": "1.1-beta",
-    "code": 2,
+    "_rawCode": 4,
+    "version": "1.2.1",
+    "code": 4,
     "minSdk": 24,
-    "size": "6.76 MB",
+    "size": "6.06 MB",
     "icon": "assets/images/ciyin/ciyin_icon.webp",
     "screenshots": [
       "assets/images/ciyin/ciyin_1.webp",
@@ -9047,15 +9236,24 @@
       "assets/images/ciyin/ciyin_4.webp"
     ],
     "addedTime": 1786955708812,
-    "updateTime": "2026-08-24",
+    "updateTime": "2026-09-09",
     "description": "🎵 磁音 — 专为圆表打造的本地音乐播放器\n核心亮点\n· 逐字歌词：逐词高亮同步，滚轮透镜（中心清晰边缘模糊），支持双语翻译、伴唱/对唱独立渲染\n· 流光背景：封面主色驱动动态流光，可调模糊/漂移速度，自动压暗保文字清晰\n· 辉光效果：长音字触发白色光晕，越长越亮，换字平滑淡出\n· 封面取色：自动提取主色，歌词/进度环/流光同步变色\n播放体验\n· 圆形进度环：全屏封面+环绕进度条，双击拖拽跳转，拖拽时自动压暗背景\n· 智能队列：左滑进入，手势排序，长按删除，滑动操作\n· 实时搜索：按歌名/歌手/专辑匹配本地音乐\n· 音乐库：歌曲/专辑/歌手三维浏览，收藏夹，多种排序\n定时睡眠\n· 定时暂停：预设多档时长，倒计时显示，超时自动暂停\n· 睡眠检测（高级版）：睡眠暂停\n蓝牙音频\n· 搜索附近蓝牙设备，一键切换扬声器/耳机，状态实时监控\n圆表专属\n· 安全区防截断，旋钮滚动歌词带震动，右划返回，全局深色主题",
     "category": "影音娱乐",
     "keywords": [
       "音乐播放器"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E7%A3%81%E9%9F%B31.1-beta(Android7%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%A3%81%E9%9F%B31.2.1(Android7%2B).apk",
     "developer": "kissぅゃsj",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 2,
+        "version": "1.1-beta",
+        "code": 2,
+        "minSdk": 24,
+        "size": "6.76 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E7%A3%81%E9%9F%B31.1-beta(Android7%2B).apk"
+      }
+    ]
   },
   {
     "id": 1287852515,
@@ -9432,14 +9630,14 @@
     "historyVersion": []
   },
   {
-    "id": 3359458970,
+    "id": 830309200,
     "name": "网易云音乐儿童手表版",
-    "package": "com.netease.cloudmusic.watch",
-    "_rawCode": 29106,
-    "version": "2.9.106",
-    "code": 29106,
+    "package": "com.netease.xtc.cloudmusic",
+    "_rawCode": 29108,
+    "version": "2.9.108",
+    "code": 29108,
     "minSdk": 19,
-    "size": "20.67 MB",
+    "size": "21.10 MB",
     "icon": "assets/images/wangyiyunyinleertongshoubiaoban/wangyiyunyinleertongshoubiaoban_icon.webp",
     "screenshots": [
       "assets/images/wangyiyunyinleertongshoubiaoban/wangyiyunyinleertongshoubiaoban_1.webp",
@@ -9447,24 +9645,23 @@
       "assets/images/wangyiyunyinleertongshoubiaoban/wangyiyunyinleertongshoubiaoban_3.webp",
       "assets/images/wangyiyunyinleertongshoubiaoban/wangyiyunyinleertongshoubiaoban_4.webp"
     ],
-    "addedTime": 1786955713227,
-    "updateTime": "2026-08-17",
+    "addedTime": 1788964535054,
+    "updateTime": "2026-09-09",
     "description": "",
     "category": "影音娱乐",
-    "keywords": [
-      "音乐",
-      "音乐推荐",
-      "运动歌单",
-      "会员曲库",
-      "无损音质",
-      "离线畅听",
-      "netease cloud music",
-      "ge dan",
-      "tuijian"
-    ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%902.9.106(Android4.4%2B).apk",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%902.9.108(Android4.4%2B).apk",
     "developer": "杭州乐读科技有限公司",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 29106,
+        "version": "2.9.106",
+        "code": 29106,
+        "minSdk": 19,
+        "size": "20.67 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%902.9.106(Android4.4%2B).apk"
+      }
+    ]
   },
   {
     "id": 1968807406,
@@ -10467,6 +10664,30 @@
     "historyVersion": []
   },
   {
+    "id": 2041360465,
+    "name": "识质存在",
+    "package": "com.watchfacestudio.pragmatanno",
+    "_rawCode": 10000001,
+    "version": "1.0.1",
+    "code": 10000001,
+    "minSdk": 33,
+    "size": "3.71 MB",
+    "icon": "assets/images/shizhicunzai/shizhicunzai_icon.webp",
+    "screenshots": [
+      "assets/images/shizhicunzai/shizhicunzai_1.webp",
+      "assets/images/shizhicunzai/shizhicunzai_2.webp"
+    ],
+    "addedTime": 1788964545628,
+    "updateTime": "2026-09-09",
+    "description": "中间电量，左边心率，右边步数",
+    "category": "表盘美化",
+    "WFcategory": "游戏爱好者表盘",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%AF%86%E8%B4%A8%E5%AD%98%E5%9C%A81.0.1(Android13%2B).apk",
+    "developer": "勤寒",
+    "historyVersion": []
+  },
+  {
     "id": 4206938256,
     "name": "课程表",
     "package": "com.coursewatch.wear",
@@ -10603,6 +10824,30 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E8%B5%B7%E6%BA%90%E4%BA%91%E7%AC%94%E8%AE%B0%20ver1.0.apk",
     "developer": "LouisonH",
+    "historyVersion": []
+  },
+  {
+    "id": 729697562,
+    "name": "超级模块（免费）",
+    "package": "com.wristlab.supermodule.free",
+    "_rawCode": 17,
+    "version": "1.1.15",
+    "code": 17,
+    "minSdk": 34,
+    "size": "3.15 MB",
+    "icon": "assets/images/chaojimokuaimianfei/chaojimokuaimianfei_icon.webp",
+    "screenshots": [
+      "assets/images/chaojimokuaimianfei/chaojimokuaimianfei_1.webp",
+      "assets/images/chaojimokuaimianfei/chaojimokuaimianfei_2.webp"
+    ],
+    "addedTime": 1788964546597,
+    "updateTime": "2026-09-09",
+    "description": "",
+    "category": "表盘美化",
+    "WFcategory": "",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%B6%85%E7%BA%A7%E6%A8%A1%E5%9D%97%EF%BC%88%E5%85%8D%E8%B4%B9%EF%BC%891.1.15(Android14%2B).apk",
+    "developer": "天云_天生我材",
     "historyVersion": []
   },
   {
