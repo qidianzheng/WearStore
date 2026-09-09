@@ -1,5 +1,29 @@
 [
   {
+    "id": 0,
+    "name": "磨损市场反馈",
+    "package": "com.wearstore",
+    "version": "1.0.0",
+    "code": 1,
+    "minSdk": 14,
+    "size": "0.00 MB",
+    "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
+    "screenshots": [
+      "assets/images/mosunshichang/mosunshichang_icon.webp"
+    ],
+    "addedTime": 1788968079495,
+    "updateTime": "2026-09-09",
+    "description": "如遇到模式市场使用体验问题或者磨损市场内第三方应用无法使用，请加入QQ群反馈：1077259743，入群需要答案，请到上方磨损市场里找",
+    "category": "系统工具",
+    "keywords": "",
+    "downloadUrl": "",
+    "developer": "磨损市场",
+    "historyVersion": [],
+    "recommendIds": [
+      1287852515
+    ]
+  },
+  {
     "id": 2597816725,
     "name": "2048",
     "package": "com.fastsoft.game2048w",
@@ -9182,9 +9206,7 @@
     "size": "1.42 MB",
     "icon": "assets/images/kanmengoujichuban/kanmengoujichuban_icon.webp",
     "screenshots": [
-      "assets/images/kanmengoujichuban/kanmengoujichuban_1.webp",
-      "assets/images/kanmengoujichuban/kanmengoujichuban_2.webp",
-      "assets/images/kanmengoujichuban/kanmengoujichuban_3.webp"
+      "assets/images/kanmengoujichuban/kanmengoujichuban_1.webp"
     ],
     "addedTime": 1788964527486,
     "updateTime": "2026-09-09",
@@ -9237,7 +9259,7 @@
     ],
     "addedTime": 1786955708812,
     "updateTime": "2026-09-09",
-    "description": "🎵 磁音 — 专为圆表打造的本地音乐播放器\n核心亮点\n· 逐字歌词：逐词高亮同步，滚轮透镜（中心清晰边缘模糊），支持双语翻译、伴唱/对唱独立渲染\n· 流光背景：封面主色驱动动态流光，可调模糊/漂移速度，自动压暗保文字清晰\n· 辉光效果：长音字触发白色光晕，越长越亮，换字平滑淡出\n· 封面取色：自动提取主色，歌词/进度环/流光同步变色\n播放体验\n· 圆形进度环：全屏封面+环绕进度条，双击拖拽跳转，拖拽时自动压暗背景\n· 智能队列：左滑进入，手势排序，长按删除，滑动操作\n· 实时搜索：按歌名/歌手/专辑匹配本地音乐\n· 音乐库：歌曲/专辑/歌手三维浏览，收藏夹，多种排序\n定时睡眠\n· 定时暂停：预设多档时长，倒计时显示，超时自动暂停\n· 睡眠检测（高级版）：睡眠暂停\n蓝牙音频\n· 搜索附近蓝牙设备，一键切换扬声器/耳机，状态实时监控\n圆表专属\n· 安全区防截断，旋钮滚动歌词带震动，右划返回，全局深色主题",
+    "description": "🎵 磁音 — 圆表专属音乐播放器\n🎯 核心亮点\n· 逐字歌词：Apple Music 级逐词高亮，精准同步；滚轮透镜效果（中心清晰、边缘模糊），支持双语翻译、伴唱/对唱独立渲染。\n· 流光背景：封面主色驱动动态流光，可调模糊与漂移速度，自动压暗保歌词清晰。\n· 歌词辉光：长音字触发白色光晕，越长越亮，换字平滑淡出。\n· 封面取色：自动提取主色调，歌词、进度环、流光同步变色。\n📱 播放体验\n· 圆形进度环：全屏封面+环绕进度条，双击进度条支持拖拽跳转，拖拽时背景自动压暗。\n· 智能队列：左滑进入，手势拖拽排序，长按删除，滑动操作。\n· 歌曲搜索：实时搜索本地音乐，支持歌名/歌手/专辑匹配。\n· 音乐库：歌曲/专辑/歌手三维浏览，收藏夹，多种排序（默认/名称/歌手/专辑）。\n⏰ 定时睡眠\n· 定时暂停：预设 15/30/45/60/90/120 分钟，倒计时显示于主页闹钟图标旁，超时自动暂停。\n· 睡眠检测（高级版）：智能检测睡眠，省电。\n🔊 蓝牙音频\n· 搜索附近蓝牙设备，一键切换扬声器/耳机，内置连接状态监控。\n🖥️ 圆表专属设计\n· 完美适配圆形表盘，安全区防截断；旋钮滚动歌词带震动反馈；右划返回；全局深色主题，OLED 省电护眼。",
     "category": "影音娱乐",
     "keywords": [
       "音乐播放器"
