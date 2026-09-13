@@ -1,29 +1,5 @@
 [
   {
-    "id": 0,
-    "name": "磨损市场反馈",
-    "package": "com.wearstore",
-    "version": "1.0.0",
-    "code": 1,
-    "minSdk": 14,
-    "size": "0.00 MB",
-    "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
-    "screenshots": [
-      "assets/images/mosunshichang/mosunshichang_icon.webp"
-    ],
-    "addedTime": 1788968079495,
-    "updateTime": "2026-09-09",
-    "description": "如遇到模式市场使用体验问题或者磨损市场内第三方应用无法使用，请加入QQ群反馈：1077259743，入群需要答案，请到上方磨损市场里找",
-    "category": "系统工具",
-    "keywords": "",
-    "downloadUrl": "",
-    "developer": "磨损市场",
-    "historyVersion": [],
-    "recommendIds": [
-      1287852515
-    ]
-  },
-  {
     "id": 2597816725,
     "name": "2048",
     "package": "com.fastsoft.game2048w",
@@ -1473,6 +1449,36 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Flue(%E4%B9%9D%E5%AE%AB%E6%A0%BC)beta1.5(Android8%2B).apk",
     "developer": "MrMoxing",
+    "historyVersion": []
+  },
+  {
+    "id": 202805318,
+    "name": "GOSKI去滑雪",
+    "package": "cn.goski.wearos",
+    "_rawCode": 1,
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 30,
+    "size": "12.90 MB",
+    "icon": "assets/images/goskiquhuaxue/goskiquhuaxue_icon.webp",
+    "screenshots": [
+      "assets/images/goskiquhuaxue/goskiquhuaxue_1.webp",
+      "assets/images/goskiquhuaxue/goskiquhuaxue_2.webp",
+      "assets/images/goskiquhuaxue/goskiquhuaxue_3.webp"
+    ],
+    "addedTime": 1789266875297,
+    "updateTime": "2026-09-13",
+    "description": "滑雪轨迹-用数据记录每个雪季。\nGOSKI去滑雪你的一站式滑雪轨迹APP，点击开始，用数据记录每个雪季。",
+    "category": "健康运动",
+    "keywords": [
+      "轨迹记录",
+      "运动数据",
+      "GOSKI",
+      "huaxue",
+      "guiji"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/GOSKI%E5%8E%BB%E6%BB%91%E9%9B%AA1.0(Android11%2B).apk",
+    "developer": "北京自然力量科技贸易发展有限公司",
     "historyVersion": []
   },
   {
@@ -3430,11 +3436,11 @@
     "updateTime": "2026-05-16",
     "description": "您好。这是一款简约的砖块风格表盘。\n在其中，您可以选择不同的配色方案。",
     "category": "表盘美化",
-    "WFcategory": "大数字",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/SPLITAPK/Simple%20Bricks%20Watch%20Face1.0.3(Android13%2B).zip",
     "developer": "Waces",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "大数字"
   },
   {
     "id": 4251679535,
@@ -3745,6 +3751,39 @@
     "historyVersion": []
   },
   {
+    "id": 4073629904,
+    "name": "Takuku",
+    "package": "com.yuan.takuku.wear",
+    "_rawCode": 133,
+    "version": "1.3.3",
+    "code": 133,
+    "minSdk": 30,
+    "size": "35.97 MB",
+    "icon": "assets/images/takuku/takuku_icon.webp",
+    "screenshots": [
+      "assets/images/takuku/takuku_1.webp",
+      "assets/images/takuku/takuku_2.webp",
+      "assets/images/takuku/takuku_3.webp",
+      "assets/images/takuku/takuku_4.webp",
+      "assets/images/takuku/takuku_5.webp"
+    ],
+    "addedTime": 1789266902773,
+    "updateTime": "2026-09-13",
+    "description": "一款情绪陪伴应用，通过毛茸茸的Taku角色提供每日塔罗运势、心情记录、敲木鱼解压、决策币等功能，并支持与手机端同步，为用户提供情绪安放与陪伴。",
+    "category": "生活服务",
+    "keywords": [
+      "情绪陪伴",
+      "塔罗",
+      "心情记录",
+      "敲木鱼",
+      "决策币",
+      "qingxu"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/Takuku1.3.3(Android11%2B).apk",
+    "developer": "重庆壹诗壹画科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 2540743009,
     "name": "Terminal",
     "package": "com.ds.watchfacestudio.terminal",
@@ -3829,6 +3868,31 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/Timetable0.9.9-268(Android9%2B).apk",
     "developer": "HuFeng943",
+    "historyVersion": []
+  },
+  {
+    "id": 421100152,
+    "name": "Timetable(黑白君)",
+    "package": "com.hufeng943.timetable",
+    "_rawCode": 1,
+    "version": "2.0.01",
+    "code": 1,
+    "minSdk": 28,
+    "size": "5.63 MB",
+    "icon": "assets/images/timetablehufeng943/timetablehufeng943_icon.webp",
+    "screenshots": [
+      "assets/images/timetablehufeng943/timetablehufeng943_1.webp",
+      "assets/images/timetablehufeng943/timetablehufeng943_2.webp",
+      "assets/images/timetablehufeng943/timetablehufeng943_3.webp",
+      "assets/images/timetablehufeng943/timetablehufeng943_4.webp"
+    ],
+    "addedTime": 1789266903008,
+    "updateTime": "2026-09-13",
+    "description": "本项目由黑白君本君维护。\n内部迭代70+个版本，完全重写了UI，新增了互传、主题、卡片等等功能，重构了课程逻辑……",
+    "category": "学习充电",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/%5BWATCH%5DTimetable(hufeng943)2.0.0(Android9%2B).apk",
+    "developer": "黑白君本君",
     "historyVersion": []
   },
   {
@@ -4568,9 +4632,9 @@
     "id": 1750027491,
     "name": "WearQQ Next",
     "package": "moye.wearqq.ce",
-    "_rawCode": 108000,
-    "version": "1.8.0",
-    "code": 108000,
+    "_rawCode": 108010,
+    "version": "1.8.1",
+    "code": 108010,
     "minSdk": 26,
     "size": "48.88 MB",
     "icon": "assets/images/wearqqnext/wearqqnext_icon.webp",
@@ -4582,20 +4646,20 @@
       "assets/images/wearqqnext/wearqqnext_5.webp"
     ],
     "addedTime": 1787563122742,
-    "updateTime": "2026-09-06",
+    "updateTime": "2026-09-13",
     "description": "第三方修改版，可能封号！！！\nWearQQ Next是基于下一代技术全新重构的手表 QQ，拥有所有表Q迄今为止最完美的圆表UI，并同时提供了表Q协议下所有可实现的功能。",
     "category": "通讯社交",
     "keywords": "",
-    "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.8.0.apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.8.1(Android8%2B).apk",
     "developer": "深圳市腾讯计算机系统有限公司",
     "historyVersion": [
       {
-        "_rawCode": 107010,
-        "version": "1.7.1",
-        "code": 107010,
+        "_rawCode": 108000,
+        "version": "1.8.0",
+        "code": 108000,
         "minSdk": 26,
-        "size": "49.73 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.7.1.apk"
+        "size": "48.88 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.8.0.apk"
       },
       {
         "_rawCode": 102000,
@@ -5577,6 +5641,29 @@
     ]
   },
   {
+    "id": 2957788836,
+    "name": "shell表盘",
+    "package": "com.watchfacestudio.code",
+    "_rawCode": 10000001,
+    "version": "1.2.1",
+    "code": 10000001,
+    "minSdk": 34,
+    "size": "0.22 MB",
+    "icon": "assets/images/shellbiaopan/shellbiaopan_icon.webp",
+    "screenshots": [
+      "assets/images/shellbiaopan/shellbiaopan_1.webp"
+    ],
+    "addedTime": 1789266920227,
+    "updateTime": "2026-09-13",
+    "description": "一款简约的shell风格表盘，支持简单的功能跳转。在息屏显示时自动暂停读秒和心率监测，以节省电量。",
+    "category": "表盘美化",
+    "WFcategory": "代码风格",
+    "keywords": "",
+    "downloadUrl": "https://download.wearstore.asia/APK/shell%E8%A1%A8%E7%9B%98(Android14%2B).apk",
+    "developer": "不好了",
+    "historyVersion": []
+  },
+  {
     "id": 1304963832,
     "name": "space x",
     "package": "com.watchfacestudio.falcon9",
@@ -6071,17 +6158,17 @@
     "id": 3805541027,
     "name": "京东金融",
     "package": "com.jd.jrwear",
-    "_rawCode": 1000,
-    "version": "1.0.0",
-    "code": 1000,
+    "_rawCode": 1010,
+    "version": "1.1.0",
+    "code": 1010,
     "minSdk": 28,
-    "size": "31.72 MB",
+    "size": "14.89 MB",
     "icon": "assets/images/jingdongjinrong/jingdongjinrong_icon.webp",
     "screenshots": [
       "assets/images/jingdongjinrong/jingdongjinrong_1.webp"
     ],
     "addedTime": 1780287688014,
-    "updateTime": "2026-06-01",
+    "updateTime": "2026-09-13",
     "description": "3亿人都在用，简单、快捷、安全!\n京东金融手表版一—专为智能手表打造的轻量级金融助手。抬腕即览多家银行实时金价与涨跌动态，超大字号清晰呈现，让黄金行情尽在腕间，随时随地把握每一次投资先机。",
     "category": "生活服务",
     "keywords": [
@@ -6091,9 +6178,18 @@
       "jingdong jinrong",
       "jinjia"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E4%BA%AC%E4%B8%9C%E9%87%91%E8%9E%8D1.0.0(Android9%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E4%BA%AC%E4%B8%9C%E9%87%91%E8%9E%8D1.1.0(Android9%2B).apk",
     "developer": "北京京东叁佰陆拾度电子商务有限公司",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 1000,
+        "version": "1.0.0",
+        "code": 1000,
+        "minSdk": 28,
+        "size": "31.72 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E4%BA%AC%E4%B8%9C%E9%87%91%E8%9E%8D1.0.0(Android9%2B).apk"
+      }
+    ]
   },
   {
     "id": 1673214323,
@@ -8294,6 +8390,38 @@
     "historyVersion": []
   },
   {
+    "id": 148979265,
+    "name": "新浪财经",
+    "package": "cn.com.sina.finance.watch",
+    "_rawCode": 3,
+    "version": "1.1.0",
+    "code": 3,
+    "minSdk": 25,
+    "size": "2.59 MB",
+    "icon": "assets/images/xinlangcaijing/xinlangcaijing_icon.webp",
+    "screenshots": [
+      "assets/images/xinlangcaijing/xinlangcaijing_1.webp",
+      "assets/images/xinlangcaijing/xinlangcaijing_2.webp",
+      "assets/images/xinlangcaijing/xinlangcaijing_3.webp",
+      "assets/images/xinlangcaijing/xinlangcaijing_4.webp",
+      "assets/images/xinlangcaijing/xinlangcaijing_5.webp"
+    ],
+    "addedTime": 1789266946849,
+    "updateTime": "2026-09-13",
+    "description": "新浪财经，随腕掌握全球财经资讯。\n新浪财经手表端是专为智能手表用户打造的轻量级财经资讯应用，让您无需掏出手机，抬腕即可获取全球市场动态。主要功能包括:\n环球指数：实时查看全球主要股市指数行情，紧跟市场脉搏;\n股票热榜：一键掌握当下市场热门股票排行，捕捉投资热点;\n全球财经快讯：聚合海内外权威财经资讯，第一时间推送重要市场消息。",
+    "category": "生活服务",
+    "keywords": [
+      "财经资讯",
+      "股票",
+      "指数",
+      "caijing",
+      "gupiao"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%96%B0%E6%B5%AA%E8%B4%A2%E7%BB%8F1.1.0(Android7.1%2B).apk",
+    "developer": "北京新浪财经信息服务有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 3938204406,
     "name": "新牛津英汉双解大词典",
     "package": "com.haidii.wear.oxford_necdict_17001",
@@ -8527,6 +8655,39 @@
     "historyVersion": []
   },
   {
+    "id": 3443449447,
+    "name": "梨园行戏曲",
+    "package": "com.daoran.lyh.watch",
+    "_rawCode": 10000,
+    "version": "1.0.0",
+    "code": 10000,
+    "minSdk": 27,
+    "size": "14.97 MB",
+    "icon": "assets/images/liyuanhangxiqu/liyuanhangxiqu_icon.webp",
+    "screenshots": [
+      "assets/images/liyuanhangxiqu/liyuanhangxiqu_1.webp",
+      "assets/images/liyuanhangxiqu/liyuanhangxiqu_2.webp",
+      "assets/images/liyuanhangxiqu/liyuanhangxiqu_3.webp"
+    ],
+    "addedTime": 1789266948543,
+    "updateTime": "2026-09-13",
+    "description": "一款汇聚海量传统戏曲正版音频与视频的应用，涵盖京剧、越剧、黄梅戏、豫剧等百种剧种。支持收藏、离线下载、后台播放、倍速播放、定时关闭，并提供名家教学、直播、票友社区等功能，是戏曲爱好者的随身宝库。",
+    "category": "影音娱乐",
+    "keywords": [
+      "戏曲",
+      "京剧",
+      "越剧",
+      "黄梅戏",
+      "豫剧",
+      "梨园行",
+      "xiqu",
+      "yinyuan"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%A2%A8%E5%9B%AD%E8%A1%8C%E6%88%8F%E6%9B%B21.0.0(Android8.1%2B).apk",
+    "developer": "广州道然信息科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 4087368851,
     "name": "欧米茄史努比50周年纪念版",
     "package": "com.next.omega.snoopy",
@@ -8658,11 +8819,11 @@
     "id": 3088906259,
     "name": "氢电子书",
     "package": "com.lowh202.sevennovel",
-    "_rawCode": 305,
-    "version": "3.05",
-    "code": 305,
+    "_rawCode": 4019,
+    "version": "3.99.29",
+    "code": 4019,
     "minSdk": 26,
-    "size": "4.69 MB",
+    "size": "11.16 MB",
     "icon": "assets/images/qingdianzishu/qingdianzishu_icon.webp",
     "screenshots": [
       "assets/images/qingdianzishu/qingdianzishu_1.webp",
@@ -8671,7 +8832,7 @@
       "assets/images/qingdianzishu/qingdianzishu_4.webp"
     ],
     "addedTime": 1780997973463,
-    "updateTime": "2026-08-17",
+    "updateTime": "2026-09-13",
     "description": "氢电子书是一个专为手表打造的阅读器，可以免费流畅阅读七猫和番茄的所有小说，支持离线下载，离线阅读，支持导入导出",
     "category": "学习充电",
     "keywords": [
@@ -8681,9 +8842,18 @@
       "离线阅读",
       "yuedu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A63.05(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A63.99.29(Android8%2B).apk",
     "developer": "mcl0",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 305,
+        "version": "3.05",
+        "code": 305,
+        "minSdk": 26,
+        "size": "4.69 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E6%B0%A2%E7%94%B5%E5%AD%90%E4%B9%A63.05(Android8%2B).apk"
+      }
+    ]
   },
   {
     "id": 2343238057,
@@ -9623,11 +9793,11 @@
     "id": 883623822,
     "name": "网易云音乐",
     "package": "com.netease.cloudmusic.watch",
-    "_rawCode": 3000042,
-    "version": "3.0.42",
-    "code": 3000042,
+    "_rawCode": 3000045,
+    "version": "3.0.45",
+    "code": 3000045,
     "minSdk": 19,
-    "size": "22.69 MB",
+    "size": "23.30 MB",
     "icon": "assets/images/wangyiyunyinle/wangyiyunyinle_icon.webp",
     "screenshots": [
       "assets/images/wangyiyunyinle/wangyiyunyinle_1.webp",
@@ -9637,7 +9807,7 @@
       "assets/images/wangyiyunyinle/wangyiyunyinle_5.webp"
     ],
     "addedTime": 1764730761496,
-    "updateTime": "2026-03-15",
+    "updateTime": "2026-09-13",
     "description": "超8亿用户推荐，口碑爆棚的音乐APP!\n\n网易云音乐官方手表应用，提供个性推荐、运动歌单和会员曲库，支持离线畅听与无损音质，是腕上的高品质音乐伴侣。",
     "category": "影音娱乐",
     "keywords": [
@@ -9650,9 +9820,18 @@
       "ge dan",
       "tuijian"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%903.0.42(Android4.4%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%903.0.45(Android4.4%2B).apk",
     "developer": "杭州乐读科技有限公司",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 3000042,
+        "version": "3.0.42",
+        "code": 3000042,
+        "minSdk": 19,
+        "size": "22.69 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%903.0.42(Android4.4%2B).apk"
+      }
+    ]
   },
   {
     "id": 830309200,
@@ -9687,6 +9866,37 @@
         "downloadUrl": "https://download.wearstore.asia/APK/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%902.9.106(Android4.4%2B).apk"
       }
     ]
+  },
+  {
+    "id": 512766534,
+    "name": "翻译应用软件-沈水翻译",
+    "package": "com.zongyirj.fanyiruanjian",
+    "_rawCode": 1,
+    "version": "1.0.0",
+    "code": 1,
+    "minSdk": 30,
+    "size": "8.69 MB",
+    "icon": "assets/images/fanyiyingyongruanjianshenshuifanyi/fanyiyingyongruanjianshenshuifanyi_icon.webp",
+    "screenshots": [
+      "assets/images/fanyiyingyongruanjianshenshuifanyi/fanyiyingyongruanjianshenshuifanyi_1.webp",
+      "assets/images/fanyiyingyongruanjianshenshuifanyi/fanyiyingyongruanjianshenshuifanyi_2.webp",
+      "assets/images/fanyiyingyongruanjianshenshuifanyi/fanyiyingyongruanjianshenshuifanyi_3.webp",
+      "assets/images/fanyiyingyongruanjianshenshuifanyi/fanyiyingyongruanjianshenshuifanyi_4.webp"
+    ],
+    "addedTime": 1789266968747,
+    "updateTime": "2026-09-13",
+    "description": "精准翻译，您的随身语言助手\n精准翻译：精通百余种语言，理解上下文，输出地道表达。\n全能翻译：支持实时语音对话、摄像头取词、文档全文翻译等多种场景。\n随身助手：无论是出国旅行、外贸商务还是外语学习，都能助您沟通无界。",
+    "category": "效率办公",
+    "keywords": [
+      "语音翻译",
+      "文档翻译",
+      "多语言",
+      "fanyi",
+      "shenshui"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%BF%BB%E8%AF%91%E5%BA%94%E7%94%A8%E8%BD%AF%E4%BB%B6-%E6%B2%88%E6%B0%B4%E7%BF%BB%E8%AF%911.0.0(Android11%2B).apk",
+    "developer": "沈阳纵艺科技有限公司",
+    "historyVersion": []
   },
   {
     "id": 1968807406,
@@ -10299,11 +10509,11 @@
     "id": 194880826,
     "name": "腕音",
     "package": "com.fishcpy.wanyin",
-    "_rawCode": 7,
-    "version": "0.0.7",
-    "code": 7,
+    "_rawCode": 8,
+    "version": "0.0.8",
+    "code": 8,
     "minSdk": 30,
-    "size": "4.40 MB",
+    "size": "4.47 MB",
     "icon": "assets/images/wanyin/wanyin_icon.webp",
     "screenshots": [
       "assets/images/wanyin/wanyin_1.webp",
@@ -10312,23 +10522,23 @@
       "assets/images/wanyin/wanyin_4.webp"
     ],
     "addedTime": 1787129466649,
-    "updateTime": "2026-09-05",
-    "description": "material design 3 风格音乐播放器\n更新日志：\n\n新增\n- 添加了背景模糊度自定义选项\n- 添加了模糊动画选项\n- 添加了歌词模糊选项\n- 添加了未知的 BUG\n\n优化\n- 支持识别部分翻译歌词\n- 优化了歌单的操作逻辑和 UI\n- 播放列表统一更名为歌单\n\n修复\n- 修复添加歌曲到歌单时的主键冲突问题\n- 修复设置页返回首页时的转场模糊异常\n- 修复媒体项 ID 与进度同步问题\n- 修复 MediaController 绑定泄漏",
+    "updateTime": "2026-09-13",
+    "description": "material design 3 风格音乐播放器",
     "category": "影音娱乐",
     "keywords": [
       "音乐播放器",
       "本地音乐"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.0.7(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.0.8(Android11%2B).apk",
     "developer": "fishcpy",
     "historyVersion": [
       {
-        "_rawCode": 3,
-        "version": "0.0.3",
-        "code": 3,
+        "_rawCode": 7,
+        "version": "0.0.7",
+        "code": 7,
         "minSdk": 30,
-        "size": "4.23 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.0.3(Android11%2B).apk"
+        "size": "4.40 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.0.7(Android11%2B).apk"
       }
     ]
   },
@@ -10945,11 +11155,11 @@
     "id": 2081935439,
     "name": "酷狗概念版",
     "package": "com.kugou.android.watch.lite",
-    "_rawCode": 10705,
-    "version": "2.4.7",
-    "code": 10705,
+    "_rawCode": 10801,
+    "version": "2.4.8",
+    "code": 10801,
     "minSdk": 19,
-    "size": "13.96 MB",
+    "size": "14.11 MB",
     "icon": "assets/images/kugougainianban/kugougainianban_icon.webp",
     "screenshots": [
       "assets/images/kugougainianban/kugougainianban_1.webp",
@@ -10960,7 +11170,7 @@
       "assets/images/kugougainianban/kugougainianban_6.webp"
     ],
     "addedTime": 1764730775002,
-    "updateTime": "2026-06-27",
+    "updateTime": "2026-09-13",
     "description": "听歌就在 中国酷狗。\n\n酷狗音乐推出的年轻化、社交化版本。主打清爽简约的无广告体验和创新的 “一起听”、“音乐社区” 等社交功能，通过个性化的视觉皮肤，为年轻用户打造与众不同的音乐空间。",
     "category": "影音娱乐",
     "keywords": [
@@ -10969,16 +11179,16 @@
       "kugou",
       "music"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.7(Android4.4%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.8(Android4.4%2B).apk",
     "developer": "广州酷狗计算机科技有限公司",
     "historyVersion": [
       {
-        "_rawCode": 10603,
-        "version": "2.4.6",
-        "code": 10603,
+        "_rawCode": 10705,
+        "version": "2.4.7",
+        "code": 10705,
         "minSdk": 19,
-        "size": "14.01 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.6(Android4.4%2B).apk"
+        "size": "13.96 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E9%85%B7%E7%8B%97%E6%A6%82%E5%BF%B5%E7%89%882.4.7(Android4.4%2B).apk"
       }
     ]
   },
