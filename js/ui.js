@@ -196,7 +196,7 @@ export function renderMenuModal(categories) {
                         </div>
 
                         <!-- 综合服务 -->
-                        <div class="menu-action-card" onclick="window.open('https://wj.qq.com/s2/17646552/3592/', '_blank')">
+                        <div class="menu-action-card" onclick="window.open('https://wj.qq.com/s2/25513095/8cde/', '_blank')">
                             <span class="material-symbols-rounded menu-action-icon color-purple">rate_review</span>
                             <div class="menu-action-text-group">
                                 <span class="menu-action-label">综合服务</span>
