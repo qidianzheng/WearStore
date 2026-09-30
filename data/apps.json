@@ -1,29 +1,5 @@
 [
   {
-    "id": 0,
-    "name": "磨损市场反馈",
-    "package": "com.wearstore",
-    "version": "1.0.0",
-    "code": 1,
-    "minSdk": 14,
-    "size": "0.00 MB",
-    "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
-    "screenshots": [
-      "assets/images/mosunshichang/mosunshichang_icon.webp"
-    ],
-    "addedTime": 1788968079495,
-    "updateTime": "2026-09-13",
-    "description": "如遇到模式市场使用体验问题或者磨损市场内第三方应用无法使用，请加入QQ群反馈：1077259743，入群需要答案，请到上方磨损市场里找",
-    "category": "系统工具",
-    "keywords": "",
-    "downloadUrl": "",
-    "developer": "磨损市场",
-    "historyVersion": [],
-    "recommendIds": [
-      1287852515
-    ]
-  },
-  {
     "id": 2597816725,
     "name": "2048",
     "package": "com.fastsoft.game2048w",
@@ -1412,11 +1388,11 @@
     "id": 2880562203,
     "name": "Flue",
     "package": "com.flue.launcher",
-    "_rawCode": 24,
-    "version": "2.2.0",
-    "code": 24,
+    "_rawCode": 28,
+    "version": "2.3.3",
+    "code": 28,
     "minSdk": 27,
-    "size": "30.97 MB",
+    "size": "18.93 MB",
     "icon": "assets/images/flue/flue_icon.webp",
     "screenshots": [
       "assets/images/flue/flue_1.webp",
@@ -1425,7 +1401,7 @@
       "assets/images/flue/flue_4.webp"
     ],
     "addedTime": 1777017830878,
-    "updateTime": "2026-09-05",
+    "updateTime": "2026-09-30",
     "description": "Flue 是一个面向 Android 手表的自定义桌面启动器，基于 Kotlin 与 Jetpack Compose 打造，目标是让华强北手表用户拥有接近大厂手表桌面启动器动画的流畅体验。\n目前已支持以下功能\n丝滑流畅的过渡动画与打断动画\n类hyperOS的头部模糊特效\n类似watchOS的应用启动动画\n蜂窝/列表双布局\n副一屏快捷启动\n独立通知中心堆叠效果\n提供内置图片 / 视频表盘与lunch表盘接入\n提供隐藏应用、图标包功能",
     "category": "系统工具",
     "keywords": [
@@ -1433,16 +1409,16 @@
       "自定义桌面",
       "qidong qi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Flue%20Next2.2.0(Android8.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Flue%20Next2.3.3(Android8.1%2B).apk",
     "developer": "柚子柚子皮",
     "historyVersion": [
       {
-        "_rawCode": 14,
-        "version": "beta1.4.1",
-        "code": 14,
+        "_rawCode": 24,
+        "version": "2.2.0",
+        "code": 24,
         "minSdk": 27,
-        "size": "3.93 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/Flue-1.4.1-beta-fixed(Android8.1%2B).apk"
+        "size": "30.97 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Flue%20Next2.2.0(Android8.1%2B).apk"
       }
     ]
   },
@@ -2386,11 +2362,11 @@
     "id": 2688785817,
     "name": "Muread",
     "package": "com.muread",
-    "_rawCode": 2,
-    "version": "0.1.1",
-    "code": 2,
-    "minSdk": 30,
-    "size": "4.47 MB",
+    "_rawCode": 14,
+    "version": "0.2.4",
+    "code": 14,
+    "minSdk": 28,
+    "size": "6.20 MB",
     "icon": "assets/images/muread/muread_icon.webp",
     "screenshots": [
       "assets/images/muread/muread_1.webp",
@@ -2398,7 +2374,7 @@
       "assets/images/muread/muread_3.webp"
     ],
     "addedTime": 1788619281852,
-    "updateTime": "2026-09-05",
+    "updateTime": "2026-09-30",
     "description": "一款支持TXT和EPUB格式的小说阅读器，具备自动分章及自定义正则表达式切分功能。支持WiFi传书、TTS语音朗读（前台服务，息屏继续）、自动翻页，提供便捷的腕上阅读体验。",
     "category": "学习充电",
     "keywords": [
@@ -2409,9 +2385,18 @@
       "自动翻页",
       "WiFi传书"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Muread0.1.1(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Muread0.2.4(Android9%2B).apk",
     "developer": "泡面不要面",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 2,
+        "version": "0.1.1",
+        "code": 2,
+        "minSdk": 30,
+        "size": "4.47 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Muread0.1.1(Android11%2B).apk"
+      }
+    ]
   },
   {
     "id": 286136756,
@@ -2567,6 +2552,33 @@
     "developer": "Bear By Patagonia",
     "historyVersion": [],
     "WFcategory": "大数字"
+  },
+  {
+    "id": 1958109982,
+    "name": "OPPOCourseTable",
+    "package": "com.liyan.coursetable",
+    "_rawCode": 10,
+    "version": "0.8.1",
+    "code": 10,
+    "minSdk": 27,
+    "size": "0.07 MB",
+    "icon": "assets/images/oppocoursetable/oppocoursetable_icon.webp",
+    "screenshots": [
+      "assets/images/oppocoursetable/oppocoursetable_1.webp",
+      "assets/images/oppocoursetable/oppocoursetable_2.webp"
+    ],
+    "addedTime": 1790772120934,
+    "updateTime": "2026-09-30",
+    "description": "适用于OPPO手表的课程表软件，搭配手机端App使用。手机端粘贴AI生成的JSON即可推送课表至手表，支持学期周数、作息时间、课前提醒、配色等设置同步，已测试OPPO Watch X2，理论上支持全系圆表。",
+    "category": "学习充电",
+    "keywords": [
+      "课程表",
+      "腕上课表",
+      "kechengbiao"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%5BWATCH%5DOPPOCourseTable0.8.1(Android8.1%2B).apk",
+    "developer": "xiaogon12",
+    "historyVersion": []
   },
   {
     "id": 1249363502,
@@ -3338,26 +3350,35 @@
     "id": 765580780,
     "name": "Saga Keyboard",
     "package": "com.ark.saga",
-    "_rawCode": 6,
-    "version": "1.5",
-    "code": 6,
+    "_rawCode": 7,
+    "version": "1.6",
+    "code": 7,
     "minSdk": 30,
-    "size": "17.38 MB",
+    "size": "17.48 MB",
     "icon": "assets/images/sagakeyboard/sagakeyboard_icon.webp",
     "screenshots": [
       "assets/images/sagakeyboard/sagakeyboard_1.webp",
       "assets/images/sagakeyboard/sagakeyboard_2.webp"
     ],
     "addedTime": 1786955652476,
-    "updateTime": "2026-08-17",
+    "updateTime": "2026-09-30",
     "description": "手表很小，表达不该受限\n基于Rime引擎，把桌面端高度自由的输入体验完整带到腕上，拼音、双拼、五笔、仓颉——你在电脑上配置好的一切，抬腕即可复用\n下载方案需要下载配套的Saga App\n强烈推荐github.com/iDvel/rime-ice这份方案，受限于GPL协议以及文件大小无法内置\n遇到问题请联系开发者：contact@zephyr-apps.com",
     "category": "效率办公",
     "keywords": [
       "输入法"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Saga%20Keyboard1.5(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Saga%20Keyboard1.6(Android11%2B).apk",
     "developer": "ark2241",
-    "historyVersion": [],
+    "historyVersion": [
+      {
+        "_rawCode": 6,
+        "version": "1.5",
+        "code": 6,
+        "minSdk": 30,
+        "size": "17.38 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Saga%20Keyboard1.5(Android11%2B).apk"
+      }
+    ],
     "phoneLink": "https://pan.baidu.com/s/1O2s9fG94SllSSKnelXVZbg?pwd=pp26"
   },
   {
@@ -3775,6 +3796,34 @@
     "historyVersion": []
   },
   {
+    "id": 3445279024,
+    "name": "TENG计算器",
+    "package": "com.tengwear.jisuanqi",
+    "_rawCode": 1,
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 30,
+    "size": "26.68 MB",
+    "icon": "assets/images/tengjisuanqi/tengjisuanqi_icon.webp",
+    "screenshots": [
+      "assets/images/tengjisuanqi/tengjisuanqi_1.webp",
+      "assets/images/tengjisuanqi/tengjisuanqi_2.webp",
+      "assets/images/tengjisuanqi/tengjisuanqi_3.webp",
+      "assets/images/tengjisuanqi/tengjisuanqi_4.webp"
+    ],
+    "addedTime": 1790772137225,
+    "updateTime": "2026-09-30",
+    "description": "一款功能极其丰富的科学计算器，支持函数绘图、方程求解、方程组、不等式、调性分析、函数求导、定积分、线性回归、进制转换、化学配平、元素周期表等。历史记录可单独插入算式或结果，上下左右滑动触发更多功能。",
+    "category": "效率办公",
+    "keywords": [
+      "科学计算器",
+      "jisuanqi"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/TENG%E8%AE%A1%E7%AE%97%E5%99%A81.0(Android11%2B).apk",
+    "developer": "TENG",
+    "historyVersion": []
+  },
+  {
     "id": 4073629904,
     "name": "Takuku",
     "package": "com.yuan.takuku.wear",
@@ -3898,11 +3947,11 @@
     "id": 421100152,
     "name": "Timetable(黑白君)",
     "package": "com.hufeng943.timetable",
-    "_rawCode": 1,
-    "version": "2.0.01",
-    "code": 1,
+    "_rawCode": 3050800,
+    "version": "3.5.8",
+    "code": 3050800,
     "minSdk": 28,
-    "size": "5.63 MB",
+    "size": "5.11 MB",
     "icon": "assets/images/timetablehufeng943/timetablehufeng943_icon.webp",
     "screenshots": [
       "assets/images/timetablehufeng943/timetablehufeng943_1.webp",
@@ -3911,13 +3960,22 @@
       "assets/images/timetablehufeng943/timetablehufeng943_4.webp"
     ],
     "addedTime": 1789266903008,
-    "updateTime": "2026-09-13",
+    "updateTime": "2026-09-30",
     "description": "本项目由黑白君本君维护。\n内部迭代70+个版本，完全重写了UI，新增了互传、主题、卡片等等功能，重构了课程逻辑……",
     "category": "学习充电",
     "keywords": "",
-    "downloadUrl": "https://download.wearstore.asia/APK/%5BWATCH%5DTimetable(hufeng943)2.0.0(Android9%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%5BWATCH%5DTimetable(850912)3.5.8(Android9%2B).apk",
     "developer": "黑白君本君",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 1,
+        "version": "2.0.01",
+        "code": 1,
+        "minSdk": 28,
+        "size": "5.63 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%5BWATCH%5DTimetable(hufeng943)2.0.0(Android9%2B).apk"
+      }
+    ]
   },
   {
     "id": 857372679,
@@ -4548,6 +4606,37 @@
     "historyVersion": []
   },
   {
+    "id": 2147619904,
+    "name": "WearMusic(shijiuhhh)",
+    "package": "com.shijiu.wearmusic",
+    "_rawCode": 1,
+    "version": "1.0.0",
+    "code": 1,
+    "minSdk": 30,
+    "size": "54.23 MB",
+    "icon": "assets/images/wearmusicshijiuhhh/wearmusicshijiuhhh_icon.webp",
+    "screenshots": [
+      "assets/images/wearmusicshijiuhhh/wearmusicshijiuhhh_1.webp",
+      "assets/images/wearmusicshijiuhhh/wearmusicshijiuhhh_2.webp",
+      "assets/images/wearmusicshijiuhhh/wearmusicshijiuhhh_3.webp"
+    ],
+    "addedTime": 1790772146641,
+    "updateTime": "2026-09-30",
+    "description": "一款为Wear OS打造的第三方网易云音乐播放器，基于Jetpack Compose for Wear OS + Media3构建，接入网易云API网关模块，支持在线播放、每日推荐、私人漫游、音乐云盘等完整功能。",
+    "category": "影音娱乐",
+    "keywords": [
+      "网易云音乐",
+      "音乐播放器",
+      "在线播放",
+      "每日推荐",
+      "WearMusic",
+      "wangyiyun"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/WearMusic(shijiuhhh)1.0.0(Android11%2B).apk",
+    "developer": "shijiuhhh",
+    "historyVersion": []
+  },
+  {
     "id": 621271442,
     "name": "WearNote",
     "package": "cn.wearbbs.note",
@@ -4656,11 +4745,11 @@
     "id": 1750027491,
     "name": "WearQQ Next",
     "package": "moye.wearqq.ce",
-    "_rawCode": 108010,
-    "version": "1.8.1",
-    "code": 108010,
+    "_rawCode": 108020,
+    "version": "1.8.2",
+    "code": 108020,
     "minSdk": 26,
-    "size": "48.88 MB",
+    "size": "48.90 MB",
     "icon": "assets/images/wearqqnext/wearqqnext_icon.webp",
     "screenshots": [
       "assets/images/wearqqnext/wearqqnext_1.webp",
@@ -4670,20 +4759,20 @@
       "assets/images/wearqqnext/wearqqnext_5.webp"
     ],
     "addedTime": 1787563122742,
-    "updateTime": "2026-09-13",
+    "updateTime": "2026-09-30",
     "description": "第三方修改版，可能封号！！！\nWearQQ Next是基于下一代技术全新重构的手表 QQ，拥有所有表Q迄今为止最完美的圆表UI，并同时提供了表Q协议下所有可实现的功能。",
     "category": "通讯社交",
     "keywords": "",
-    "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.8.1(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.8.2(Android8%2B).apk",
     "developer": "深圳市腾讯计算机系统有限公司",
     "historyVersion": [
       {
-        "_rawCode": 108000,
-        "version": "1.8.0",
-        "code": 108000,
+        "_rawCode": 108010,
+        "version": "1.8.1",
+        "code": 108010,
         "minSdk": 26,
         "size": "48.88 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.8.0.apk"
+        "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.8.1(Android8%2B).apk"
       },
       {
         "_rawCode": 102000,
@@ -4799,6 +4888,68 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/WearSend1.0.0(Android8%2B).apk",
     "developer": "琴弦上的小医生",
+    "historyVersion": []
+  },
+  {
+    "id": 3944137457,
+    "name": "WearWaterTracker",
+    "package": "com.debby.wearwatertracker",
+    "_rawCode": 1,
+    "version": "1.2.0",
+    "code": 1,
+    "minSdk": 30,
+    "size": "50.70 MB",
+    "icon": "assets/images/wearwatertracker/wearwatertracker_icon.webp",
+    "screenshots": [
+      "assets/images/wearwatertracker/wearwatertracker_1.webp",
+      "assets/images/wearwatertracker/wearwatertracker_2.webp",
+      "assets/images/wearwatertracker/wearwatertracker_3.webp",
+      "assets/images/wearwatertracker/wearwatertracker_4.webp"
+    ],
+    "addedTime": 1790772157271,
+    "description": "一款用于Wear OS的饮水追踪应用，帮助用户记录每日饮水量，提醒保持水分摄入，维持健康习惯。",
+    "category": "健康运动",
+    "keywords": [
+      "饮水追踪",
+      "喝水提醒",
+      "WaterTracker",
+      "heshui"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/WearWaterTracker2.0(Android11%2B).apk",
+    "developer": "Cheersup",
+    "historyVersion": []
+  },
+  {
+    "id": 369470727,
+    "name": "WordSplash",
+    "package": "com.huixia.wordsplash",
+    "_rawCode": 7,
+    "version": "1.0.7",
+    "code": 7,
+    "minSdk": 21,
+    "size": "0.77 MB",
+    "icon": "assets/images/wordsplash/wordsplash_icon.webp",
+    "screenshots": [
+      "assets/images/wordsplash/wordsplash_1.webp",
+      "assets/images/wordsplash/wordsplash_2.webp",
+      "assets/images/wordsplash/wordsplash_3.webp",
+      "assets/images/wordsplash/wordsplash_4.webp",
+      "assets/images/wordsplash/wordsplash_5.webp"
+    ],
+    "addedTime": 1790772157490,
+    "updateTime": "2026-09-30",
+    "description": "WordSplash是一款专为智能手表设计的英语学习应用，它把'读文章、记单词、做测验'三件事，压进了一块小屏幕，抬手就能学，不用掏手机",
+    "category": "学习充电",
+    "keywords": [
+      "英语学习",
+      "背单词",
+      "阅读",
+      "测验",
+      "yingyu",
+      "danci"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/WordSplash1.0.7(Android5%2B).apk",
+    "developer": "某灰瞎",
     "historyVersion": []
   },
   {
@@ -5681,11 +5832,11 @@
     "updateTime": "2026-09-13",
     "description": "一款简约的shell风格表盘，支持简单的功能跳转。在息屏显示时自动暂停读秒和心率监测，以节省电量。",
     "category": "表盘美化",
-    "WFcategory": "代码风格",
     "keywords": "",
     "downloadUrl": "https://download.wearstore.asia/APK/shell%E8%A1%A8%E7%9B%98(Android14%2B).apk",
     "developer": "不好了",
-    "historyVersion": []
+    "historyVersion": [],
+    "WFcategory": "代码风格"
   },
   {
     "id": 1304963832,
@@ -6540,6 +6691,62 @@
     "historyVersion": []
   },
   {
+    "id": 1505913225,
+    "name": "刻词",
+    "package": "top.southfish.engrave",
+    "_rawCode": 3,
+    "version": "0.21Beta",
+    "code": 3,
+    "minSdk": 28,
+    "size": "7.97 MB",
+    "icon": "assets/images/keci/keci_icon.webp",
+    "screenshots": [
+      "assets/images/keci/keci_1.webp",
+      "assets/images/keci/keci_2.webp",
+      "assets/images/keci/keci_3.webp"
+    ],
+    "addedTime": 1790772185119,
+    "updateTime": "2026-09-30",
+    "description": "一款运行在Wear OS上的背单词和查单词离线软件。具备每日学习计划、间隔复习（SRS）、每日提醒、错题集、离线词典搜索（内置ECDICT 59137条）、词书管理（支持导入自制备JSON词书）、个人资料与学习统计等功能。",
+    "category": "学习充电",
+    "keywords": [
+      "背单词",
+      "离线词典",
+      "词书",
+      "danci"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%88%BB%E8%AF%8D0.21Beta(Android9%2B).apk",
+    "developer": "PlanetPai",
+    "historyVersion": []
+  },
+  {
+    "id": 3770160385,
+    "name": "千词万汇",
+    "package": "com.yangwan.neowords.plus",
+    "_rawCode": 4,
+    "version": "1.0.4-plus",
+    "code": 4,
+    "minSdk": 26,
+    "size": "88.12 MB",
+    "icon": "assets/images/qianciwanhui/qianciwanhui_icon.webp",
+    "screenshots": [
+      "assets/images/qianciwanhui/qianciwanhui_1.webp",
+      "assets/images/qianciwanhui/qianciwanhui_2.webp",
+      "assets/images/qianciwanhui/qianciwanhui_3.webp"
+    ],
+    "addedTime": 1790772185264,
+    "updateTime": "2026-09-30",
+    "description": "https://download.wearstore.asia/APK/%E5%8D%83%E8%AF%8D%E4%B8%87%E6%B1%871.0.4-plus(Android8%2B).apk",
+    "category": "学习充电",
+    "keywords": [
+      "中英词典",
+      "离线词典"
+    ],
+    "downloadUrl": "千词万汇 (AstraDict)，纯本地运行，基于Material 3 Expression设计语言的中英词典，拥有80w超大词库，由ECDICT、english-dictionary强力驱动",
+    "developer": "HyOxygen",
+    "historyVersion": []
+  },
+  {
     "id": 3009553021,
     "name": "华软天气",
     "package": "com.huadows.weather",
@@ -6649,11 +6856,11 @@
     "id": 12621300,
     "name": "可波世界",
     "package": "com.yuanye.keboshijie",
-    "_rawCode": 2,
-    "version": "0.0.2",
-    "code": 2,
+    "_rawCode": 4,
+    "version": "0.0.4",
+    "code": 4,
     "minSdk": 27,
-    "size": "42.32 MB",
+    "size": "46.37 MB",
     "icon": "assets/images/keboshijie/keboshijie_icon.webp",
     "screenshots": [
       "assets/images/keboshijie/keboshijie_1.webp",
@@ -6661,7 +6868,7 @@
       "assets/images/keboshijie/keboshijie_3.webp"
     ],
     "addedTime": 1787820503735,
-    "updateTime": "2026-09-05",
+    "updateTime": "2026-09-30",
     "description": "可波世界是一个像素风格电子宠物游戏，里面包含了常见的喂食、洗澡、玩耍、种地、战斗等玩法，在游戏中需要拜访你的邻居增加友情值，解锁隐藏功能，打工赚钱将宠物养至成熟阶段可将宠物送往可波世界，游戏目前为测试版理论情况下兼容圆屏，方屏手表和常见智能手机，谢谢各位试玩",
     "category": "休闲游戏",
     "keywords": [
@@ -6670,16 +6877,16 @@
       "养成游戏",
       "喂食"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%8F%AF%E6%B3%A2%E4%B8%96%E7%95%8C0.0.2(Android8.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%8F%AF%E6%B3%A2%E4%B8%96%E7%95%8C0.0.4(Android8.1%2B).apk",
     "developer": "烈头屑",
     "historyVersion": [
       {
-        "_rawCode": 1,
-        "version": "0.0.1",
-        "code": 1,
+        "_rawCode": 2,
+        "version": "0.0.2",
+        "code": 2,
         "minSdk": 27,
-        "size": "42.30 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E5%8F%AF%E6%B3%A2%E4%B8%96%E7%95%8C0.0.1(Android8.1%2B).apk"
+        "size": "42.32 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%8F%AF%E6%B3%A2%E4%B8%96%E7%95%8C0.0.2(Android8.1%2B).apk"
       }
     ]
   },
@@ -7640,11 +7847,11 @@
     "id": 1979471110,
     "name": "弦电子书",
     "package": "moye.sine.books",
-    "_rawCode": 13,
-    "version": "1.1.0",
-    "code": 13,
+    "_rawCode": 15,
+    "version": "1.2.0",
+    "code": 15,
     "minSdk": 26,
-    "size": "6.04 MB",
+    "size": "6.58 MB",
     "icon": "assets/images/xiandianzishu/xiandianzishu_icon.webp",
     "screenshots": [
       "assets/images/xiandianzishu/xiandianzishu_1.webp",
@@ -7653,7 +7860,7 @@
       "assets/images/xiandianzishu/xiandianzishu_4.webp"
     ],
     "addedTime": 1771760724526,
-    "updateTime": "2026-08-24",
+    "updateTime": "2026-09-30",
     "description": "一款专为安卓手表端设计的强大电子书阅读器，支持导入TXT、EPUB、MOBI、NVB格式。具备TXT导入自动分章、书籍分类、书签管理和全文搜索功能。\n\n内置文件选择器授权：\n\n授予读取存储权限：\nadb shell pm grant moye.sine.books android.permission.READ_EXTERNAL_STORAGE\n授予写入存储权限：\nadb shell pm grant moye.sine.books android.permission.WRITE_EXTERNAL_STORAGE\n授予管理所有文件权限（针对 Android 11+）：\nadb shell appops set moye.sine.books MANAGE_EXTERNAL_STORAGE allow",
     "category": "学习充电",
     "keywords": [
@@ -7668,16 +7875,16 @@
       "ebook reader",
       "dianzi shu"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.1.0(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.2.0(Android8%2B).apk",
     "developer": "爅峫",
     "historyVersion": [
       {
-        "_rawCode": 12,
-        "version": "1.0.12",
-        "code": 12,
+        "_rawCode": 13,
+        "version": "1.1.0",
+        "code": 13,
         "minSdk": 26,
-        "size": "4.38 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A61.0.12(Android8%2B).apk"
+        "size": "6.04 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%BC%A6%E7%94%B5%E5%AD%90%E4%B9%A6Wear1.1.0(Android8%2B).apk"
       }
     ]
   },
@@ -8601,31 +8808,34 @@
     "id": 3613141425,
     "name": "向生活挥拳吧(之前的 曼波)",
     "package": "com.bixiao.manbo",
-    "_rawCode": 3,
-    "version": "1.0.3",
-    "code": 3,
+    "_rawCode": 11,
+    "version": "1.1.1",
+    "code": 11,
     "minSdk": 30,
-    "size": "2.58 MB",
+    "size": "1.10 MB",
     "icon": "assets/images/manbo/manbo_icon.webp",
     "screenshots": [
       "assets/images/manbo/manbo_1.webp",
       "assets/images/manbo/manbo_2.webp"
     ],
     "addedTime": 1781169078938,
-    "updateTime": "2026-09-05",
-    "description": "之前很火的曼波音效，挥手触发",
-    "category": "影音娱乐",
-    "keywords": "",
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%90%91%E7%94%9F%E6%B4%BB%E6%8C%A5%E6%8B%B3%E5%90%A71.0.3(Android11%2B).apk",
+    "updateTime": "2026-09-30",
+    "description": "一款运行在Wear OS手表上的体感挥拳应用，无需触控屏幕，对空气挥拳即可操作。前三拳蓄力，第四拳触发必杀，配合角色音效与震动反馈。支持自定义角色，图片与音频在手机浏览器内就地处理，不经过外部服务器。",
+    "category": "休闲游戏",
+    "keywords": [
+      "挥拳",
+      "自定义角色"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%90%91%E7%94%9F%E6%B4%BB%E6%8C%A5%E6%8B%B3%E5%90%A71.1.1(Android11%2B).apk",
     "developer": "Sirius745",
     "historyVersion": [
       {
-        "_rawCode": 2,
-        "version": "0.2",
-        "code": 2,
+        "_rawCode": 3,
+        "version": "1.0.3",
+        "code": 3,
         "minSdk": 30,
-        "size": "2.30 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E6%9B%BC%E6%B3%A20.2(Android11%2B).apk"
+        "size": "2.58 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%90%91%E7%94%9F%E6%B4%BB%E6%8C%A5%E6%8B%B3%E5%90%A71.0.3(Android11%2B).apk"
       }
     ]
   },
@@ -9180,20 +9390,19 @@
     "id": 137963304,
     "name": "电子宠物机",
     "package": "com.peggy_cat_hw.phonegt",
-    "_rawCode": 28,
-    "version": "1.28",
-    "code": 28,
+    "_rawCode": 40,
+    "version": "1.40",
+    "code": 40,
     "minSdk": 24,
-    "size": "36.97 MB",
+    "size": "37.32 MB",
     "icon": "assets/images/dianzichongwuji/dianzichongwuji_icon.webp",
     "screenshots": [
       "assets/images/dianzichongwuji/dianzichongwuji_1.webp",
       "assets/images/dianzichongwuji/dianzichongwuji_2.webp",
-      "assets/images/dianzichongwuji/dianzichongwuji_3.webp",
-      "assets/images/dianzichongwuji/dianzichongwuji_4.webp"
+      "assets/images/dianzichongwuji/dianzichongwuji_3.webp"
     ],
     "addedTime": 1766050805503,
-    "updateTime": "2026-04-04",
+    "updateTime": "2026-09-30",
     "description": "一只生活在手表里的小宠物~。\n\n一款在智能手表上领养和照料电子宠物的模拟养成游戏。宠物会从蛋成长到成年，需要喂食、清洁、上学、工作，并可装修房子、购买车辆，体验完整的养成乐趣。",
     "category": "休闲游戏",
     "keywords": [
@@ -9204,16 +9413,16 @@
       "dianzi chongwu",
       "yangcheng youxi"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E7%94%B5%E5%AD%90%E5%AE%A0%E7%89%A9%E6%9C%BA1.28(Android7%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%94%B5%E5%AD%90%E5%AE%A0%E7%89%A9%E6%9C%BA1.40(Android7%2B).apk",
     "developer": "珠海市趣境网络工作室",
     "historyVersion": [
       {
-        "_rawCode": 16,
-        "version": "1.15",
-        "code": 16,
+        "_rawCode": 28,
+        "version": "1.28",
+        "code": 28,
         "minSdk": 24,
-        "size": "40.70 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E7%94%B5%E5%AD%90%E5%AE%A0%E7%89%A9%E6%9C%BA_1.15(Android%207%20%2B).apk"
+        "size": "36.97 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E7%94%B5%E5%AD%90%E5%AE%A0%E7%89%A9%E6%9C%BA1.28(Android7%2B).apk"
       }
     ]
   },
@@ -9416,6 +9625,40 @@
     "WFcategory": "游戏爱好者表盘"
   },
   {
+    "id": 841376671,
+    "name": "知算",
+    "package": "com.watch.zhisuan",
+    "_rawCode": 2,
+    "version": "1.1",
+    "code": 2,
+    "minSdk": 25,
+    "size": "8.96 MB",
+    "icon": "assets/images/zhisuan/zhisuan_icon.webp",
+    "screenshots": [
+      "assets/images/zhisuan/zhisuan_1.webp",
+      "assets/images/zhisuan/zhisuan_2.webp",
+      "assets/images/zhisuan/zhisuan_3.webp"
+    ],
+    "addedTime": 1790772252624,
+    "updateTime": "2026-09-30",
+    "description": "",
+    "category": "学习充电",
+    "keywords": [
+      "学习工具",
+      "知识库",
+      "计算器",
+      "古诗文",
+      "英语词典",
+      "物理公式",
+      "化学计算",
+      "zhisuan",
+      "xuexi"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%9F%A5%E7%AE%971.1(Android7.1%2B).apk",
+    "developer": "秋叶",
+    "historyVersion": []
+  },
+  {
     "id": 269969223,
     "name": "碳黑",
     "package": "com.watchfacestudio.carbonblack",
@@ -9548,11 +9791,11 @@
     "id": 3870867934,
     "name": "离线词典",
     "package": "com.wear.dict",
-    "_rawCode": 2,
-    "version": "1.1",
-    "code": 2,
+    "_rawCode": 3,
+    "version": "1.2",
+    "code": 3,
     "minSdk": 30,
-    "size": "15.16 MB",
+    "size": "15.12 MB",
     "icon": "assets/images/lixiancidian/lixiancidian_icon.webp",
     "screenshots": [
       "assets/images/lixiancidian/lixiancidian_1.webp",
@@ -9561,17 +9804,26 @@
       "assets/images/lixiancidian/lixiancidian_4.webp"
     ],
     "addedTime": 1780997986606,
-    "updateTime": "2026-06-09",
-    "description": "",
+    "updateTime": "2026-09-30",
+    "description": "基于从牛津词典提取和清洗的数据库开发的腕上离线词典，收录超过19000词条",
     "category": "学习充电",
     "keywords": [
       "字典",
       "翻译",
       "zidian"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E7%A6%BB%E7%BA%BF%E8%AF%8D%E5%85%B81.1(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E7%A6%BB%E7%BA%BF%E8%AF%8D%E5%85%B81.2(Android11%2B).apk",
     "developer": "丁臻",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 2,
+        "version": "1.1",
+        "code": 2,
+        "minSdk": 30,
+        "size": "15.16 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E7%A6%BB%E7%BA%BF%E8%AF%8D%E5%85%B81.1(Android11%2B).apk"
+      }
+    ]
   },
   {
     "id": 4195018046,
@@ -10223,6 +10475,39 @@
     "historyVersion": []
   },
   {
+    "id": 2750870917,
+    "name": "腕上易读",
+    "package": "com.nurl.novel",
+    "_rawCode": 5,
+    "version": "1.3",
+    "code": 5,
+    "minSdk": 24,
+    "size": "12.43 MB",
+    "icon": "assets/images/wanshangyidu/wanshangyidu_icon.webp",
+    "screenshots": [
+      "assets/images/wanshangyidu/wanshangyidu_1.webp",
+      "assets/images/wanshangyidu/wanshangyidu_2.webp",
+      "assets/images/wanshangyidu/wanshangyidu_3.webp",
+      "assets/images/wanshangyidu/wanshangyidu_4.webp",
+      "assets/images/wanshangyidu/wanshangyidu_5.webp",
+      "assets/images/wanshangyidu/wanshangyidu_6.webp",
+      "assets/images/wanshangyidu/wanshangyidu_7.webp"
+    ],
+    "addedTime": 1790772275548,
+    "updateTime": "2026-09-30",
+    "description": "腕上易读一款为手表打造的离线阅读文本和离线小说、媒体音频、视频浏览能力工具。 将个人文件从手机传输至手表，在没有网络的情况下查看本地小说、音频和视频内容。 支持智能章节识别、阅读进度同步、自动滚动、翻页阅读以及本地媒体浏览，让手表成为你的随身离线内容设备。 所有内容均来自用户自己的文件，应用仅提供文件管理、阅读和播放功能。无需账号，无需网络，保护你的个人内容隐私。",
+    "category": "学习充电",
+    "keywords": [
+      "离线阅读",
+      "电子书",
+      "小说",
+      "yuedu"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E6%98%93%E8%AF%BB1.3(Android7%2B).apk",
+    "developer": "重庆努优尔科技有限公司",
+    "historyVersion": []
+  },
+  {
     "id": 2036303034,
     "name": "腕上星语",
     "package": "com.sydxky.oww.star",
@@ -10247,6 +10532,61 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E6%98%9F%E8%AF%AD1.0.8(Android%2B).apk",
     "developer": "烤鱼",
+    "historyVersion": []
+  },
+  {
+    "id": 128830950,
+    "name": "腕上星课表",
+    "package": "cc.star0.wear.starschedule",
+    "_rawCode": 4,
+    "version": "0.0.4",
+    "code": 4,
+    "minSdk": 26,
+    "size": "2.15 MB",
+    "icon": "assets/images/wanshangxingkebiao/wanshangxingkebiao_icon.webp",
+    "screenshots": [
+      "assets/images/wanshangxingkebiao/wanshangxingkebiao_1.webp",
+      "assets/images/wanshangxingkebiao/wanshangxingkebiao_2.webp",
+      "assets/images/wanshangxingkebiao/wanshangxingkebiao_3.webp",
+      "assets/images/wanshangxingkebiao/wanshangxingkebiao_4.webp"
+    ],
+    "addedTime": 1790772275892,
+    "updateTime": "2026-09-30",
+    "description": "一款为WearOS和Android手表打造的智能课程表应用，完全离线管理课程，无需手机配套APP。支持多课表管理、课程状态刷新、节假日调课、课前提醒与全屏闹钟、圆形/方形屏幕样式、主题自定义、JSON导入导出、局域网网页管理、MCP服务等。",
+    "category": "学习充电",
+    "keywords": [
+      "课程表"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E6%98%9F%E8%AF%BE%E8%A1%A80.0.4(Android8%2B).apk",
+    "developer": "星澪Star_ZER0",
+    "historyVersion": []
+  },
+  {
+    "id": 593124482,
+    "name": "腕上番茄钟",
+    "package": "cc.star0.wear.pomodoro",
+    "_rawCode": 5,
+    "version": "0.3.2",
+    "code": 5,
+    "minSdk": 25,
+    "size": "1.40 MB",
+    "icon": "assets/images/wanshangfanqiezhong/wanshangfanqiezhong_icon.webp",
+    "screenshots": [
+      "assets/images/wanshangfanqiezhong/wanshangfanqiezhong_1.webp",
+      "assets/images/wanshangfanqiezhong/wanshangfanqiezhong_2.webp",
+      "assets/images/wanshangfanqiezhong/wanshangfanqiezhong_3.webp",
+      "assets/images/wanshangfanqiezhong/wanshangfanqiezhong_4.webp"
+    ],
+    "addedTime": 1790772276034,
+    "updateTime": "2026-09-30",
+    "description": "一款面向Android智能手表的独立番茄钟，使用Kotlin、Jetpack Compose和Wear Compose Material 3构建。支持专注、短休息和长休息节奏，自定义时长，后台计时与提醒，表盘入口，实况动态，圆屏/方屏适配，本地保存，中英双语，体积仅不到2MB。",
+    "category": "效率办公",
+    "keywords": [
+      "时间管理",
+      "专注"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E4%B8%8A%E7%95%AA%E8%8C%84%E9%92%9F0.3.2(Android7.1%2B).apk",
+    "developer": "星澪Star_ZER0",
     "historyVersion": []
   },
   {
@@ -10533,11 +10873,11 @@
     "id": 194880826,
     "name": "腕音",
     "package": "com.fishcpy.wanyin",
-    "_rawCode": 8,
-    "version": "0.0.8",
-    "code": 8,
+    "_rawCode": 15,
+    "version": "0.1.2",
+    "code": 15,
     "minSdk": 30,
-    "size": "4.47 MB",
+    "size": "5.06 MB",
     "icon": "assets/images/wanyin/wanyin_icon.webp",
     "screenshots": [
       "assets/images/wanyin/wanyin_1.webp",
@@ -10546,23 +10886,23 @@
       "assets/images/wanyin/wanyin_4.webp"
     ],
     "addedTime": 1787129466649,
-    "updateTime": "2026-09-13",
+    "updateTime": "2026-09-30",
     "description": "material design 3 风格音乐播放器",
     "category": "影音娱乐",
     "keywords": [
       "音乐播放器",
       "本地音乐"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.0.8(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.1.2(Android11%2B).apk",
     "developer": "fishcpy",
     "historyVersion": [
       {
-        "_rawCode": 7,
-        "version": "0.0.7",
-        "code": 7,
+        "_rawCode": 8,
+        "version": "0.0.8",
+        "code": 8,
         "minSdk": 30,
-        "size": "4.40 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.0.7(Android11%2B).apk"
+        "size": "4.47 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.0.8(Android11%2B).apk"
       }
     ]
   },

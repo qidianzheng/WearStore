@@ -162,7 +162,7 @@ function checkHashLink() {
       renderCategoryModal("最新上架", sorted.slice(0, 15));
     } else {
       sorted.sort((a, b) => new Date(b.updateTime || 0) - new Date(a.updateTime || 0));
-      renderCategoryModal("最近更新", sorted.slice(0, 15));
+      renderCategoryModal("最近更新", sorted.slice(0, 30));
     }
   }
 
