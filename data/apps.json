@@ -1,5 +1,29 @@
 [
   {
+    "id": 0,
+    "name": "磨损市场反馈",
+    "package": "com.wearstore",
+    "version": "1.0.0",
+    "code": 1,
+    "minSdk": 14,
+    "size": "0.00 MB",
+    "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
+    "screenshots": [
+      "assets/images/mosunshichang/mosunshichang_icon.webp"
+    ],
+    "addedTime": 1788968079495,
+    "updateTime": "2026-09-30",
+    "description": "如遇到模式市场使用体验问题或者磨损市场内第三方应用无法使用，请加入QQ群反馈：1077259743，入群需要答案，请到上方磨损市场里找",
+    "category": "系统工具",
+    "keywords": "",
+    "downloadUrl": "",
+    "developer": "磨损市场",
+    "historyVersion": [],
+    "recommendIds": [
+      1287852515
+    ]
+  },
+  {
     "id": 2597816725,
     "name": "2048",
     "package": "com.fastsoft.game2048w",
