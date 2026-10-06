@@ -143,6 +143,22 @@ body {
   object-fit: contain;
 }
 
+.logo-dark {
+  display: none !important;
+}
+
+.logo-light {
+  display: block !important;
+}
+
+[data-theme="dark"] .logo-light {
+  display: none !important;
+}
+
+[data-theme="dark"] .logo-dark {
+  display: block !important;
+}
+
 .logo-text {
   font-size: 1.5rem;
   font-weight: 800;

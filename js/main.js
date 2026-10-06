@@ -311,33 +311,42 @@ function initTheme() {
 function checkUserVersion() {
   const savedApi = localStorage.getItem('userApiLevel');
   elements.versionGrid.innerHTML = '';
-  for (let i = 14; i <= 36; i++) {
+
+  const apiLevels = Object.keys(apiMap).map(Number).sort((a, b) => a - b);
+
+  apiLevels.forEach(i => {
     const btn = document.createElement('div');
     btn.className = `version-btn ${savedApi == i ? 'selected' : ''}`;
     btn.innerHTML = `Android ${apiMap[i] || '?'}<span class="api-tag">API ${i}</span>`;
+
     btn.onclick = () => {
-      // 1. 存储并重置缓存
+      // 1. 存储并清空缓存
       localStorage.setItem('userApiLevel', i);
       homeAppsCache = null;
 
-      // 2. 更新选中样式 (立即反馈)
+      // 2. 更新选中高亮
       Array.from(elements.versionGrid.children).forEach(b => b.classList.remove('selected'));
       btn.classList.add('selected');
 
-      // 3. 更新界面文字 (包括菜单里的安卓版本文字)
+      // 3. 即时更新菜单中的版本文字
       const menuVerText = document.querySelector('#menuVer .menu-action-sub');
       if (menuVerText) menuVerText.textContent = `Android ${apiMap[i]}`;
 
-      // 4. 关闭欢迎页并刷新内容
+      // 4. 关闭弹窗并重新渲染
       setTimeout(() => {
         elements.welcomeModal.classList.remove('active');
         if (elements.searchInput.value) performSearch(); else renderRandomHome();
         document.body.style.overflow = '';
       }, 200);
     };
+
     elements.versionGrid.appendChild(btn);
+  });
+
+  if (!savedApi) {
+    elements.welcomeModal.classList.add('active');
+    document.body.style.overflow = 'hidden';
   }
-  if (!savedApi) { elements.welcomeModal.classList.add('active'); document.body.style.overflow = 'hidden'; }
 }
 
 init();
