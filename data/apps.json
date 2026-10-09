@@ -24,6 +24,27 @@
     ]
   },
   {
+    "id": 1,
+    "name": "[公告]应用关键词征集",
+    "package": "com.wearstore.notice-keywords",
+    "version": "1.0.0",
+    "code": 1,
+    "minSdk": 14,
+    "size": "0.00 MB",
+    "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
+    "screenshots": [
+      "assets/images/mosunshichang/mosunshichang_icon.webp"
+    ],
+    "addedTime": 1791513366998,
+    "updateTime": "2026-10-09",
+    "description": "为改善搜索体验，现向广大磨损市场用户征集应用关键词。\n什么是关键词？\n通过搜索关键词，用户可用快速找到某个应用。\n如：为哔哩终端设置关键词“b站”，搜索“b站”时可搜索到哔哩终端。\n如何投稿关键词？\n方式一：菜单-综合服务，扫描二维码后选择意见反馈填写。\n方式二：发送邮件到dzq8719@gmail.com\n格式：应用（关键词1，关键词2……）\n注意：关键词不要和应用名称重复",
+    "category": "系统工具",
+    "keywords": "",
+    "downloadUrl": "",
+    "developer": "磨损市场",
+    "historyVersion": []
+  },
+  {
     "id": 2597816725,
     "name": "2048",
     "package": "com.fastsoft.game2048w",
