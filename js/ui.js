@@ -203,6 +203,15 @@ export function renderMenuModal(categories) {
                                 <span class="menu-action-sub">软件提交/举报侵权/意见反馈</span>
                             </div>
                         </div>
+
+                        <div class="menu-action-card" onclick="window.location.hash='donate'">
+                            <span class="material-symbols-rounded menu-action-icon color-pink">volunteer_activism</span>
+                            <div class="menu-action-text-group">
+                                <span class="menu-action-label">支持与捐赠</span>
+                                <span class="menu-action-sub">助力网站长期维护</span>
+                            </div>
+                        </div>
+
                     </div>
 
                     <div class="menu-separator"></div>
@@ -509,6 +518,60 @@ export function renderWatchfaceMainModal(title, appsList) {
       });
     }
   });
+
+  m.querySelector('.header-close-img').onclick = () => smartBack();
+  document.body.appendChild(m);
+  document.body.style.overflow = 'hidden';
+  setTimeout(() => m.classList.add('active'), 10);
+}
+
+export function renderDonateModal() {
+  let maxZ = 1300;
+  document.querySelectorAll('.modal-overlay').forEach(el => maxZ = Math.max(maxZ, parseInt(window.getComputedStyle(el).zIndex) || 1300));
+
+  const m = document.createElement('div');
+  m.className = 'modal-overlay';
+  m.style.zIndex = maxZ + 10;
+  m.setAttribute('data-type', 'donate');
+  m.setAttribute('data-dynamic', 'true');
+
+  m.innerHTML = `
+        <div class="modal">
+            <div class="dev-modal-layout">
+                <div class="window-header">
+                    <span>支持与捐赠</span>
+                    <span class="material-symbols-rounded header-close-img">close</span>
+                </div>
+                <div class="dev-content">
+                    <div class="donate-container">
+                        <!-- 站长寄语与说明文案 -->
+                        <div class="donate-desc-box">
+                            <p><strong>感谢您访问并使用 WearStore！</strong></p>
+                            <p>本站是一个由站长个人独立建立、运营的智能手表应用商店。为了让大家能用上稳定、可靠的手表软件，站内绝大部分应用均由站长在业余时间<span class="donate-highlight">逐一收集、实测、分包打包并长期跟进维护</span>。</p>
+                            <p>若本站为您带来了便利，欢迎赞助支持！您的每一笔赞助无论多少，都将用于<span class="donate-highlight">手表应用的维护与更新</span>，非常感谢您的认可与陪伴！❤️</p>
+                        </div>
+
+                        <!-- 两张收款码图片 -->
+                        <div class="donate-qr-grid">
+                            <div class="donate-qr-card">
+                                <img src="./assets/wechat-pay.png" class="donate-qr-img" alt="微信赞助码" onerror="handleImgError(this)">
+                                <div class="donate-qr-label">
+                                    <span class="material-symbols-rounded color-green" style="font-size:20px;">qr_code_2</span>
+                                    <span>微信支付</span>
+                                </div>
+                            </div>
+                            <div class="donate-qr-card">
+                                <img src="./assets/alipay.jpg" class="donate-qr-img" alt="支付宝赞助码" onerror="handleImgError(this)">
+                                <div class="donate-qr-label">
+                                    <span class="material-symbols-rounded color-blue" style="font-size:20px;">qr_code_2</span>
+                                    <span>支付宝</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>`;
 
   m.querySelector('.header-close-img').onclick = () => smartBack();
   document.body.appendChild(m);

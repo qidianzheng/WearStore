@@ -1,5 +1,5 @@
 import { fetchApps } from './data.js';
-import { renderCardList, renderAppModal, renderIncompatibleCard, openHistoryModal, renderDevModal, renderCategoryModal, renderMenuModal } from './ui.js';
+import { renderCardList, renderAppModal, renderIncompatibleCard, openHistoryModal, renderDevModal, renderCategoryModal, renderMenuModal, renderDonateModal } from './ui.js';
 import { isAppGloballyCompatible, apiMap, escapeHtml, categoryHash, getCategoryByHash, findAppByPrecision, setPageTitle, calculateMatchRatio } from './utils.js';
 import Fuse from './fuse.mjs';
 
@@ -88,7 +88,7 @@ function checkHashLink() {
 
   const existingModal = activeModals.find(m => {
     if (hash === '#menu') return m.getAttribute('data-type') === 'menu';
-
+    if (hash === '#donate') return m.getAttribute('data-type') === 'donate';
     if (decodedHash.startsWith('#wf-category=')) {
       const subName = decodedHash.split('=')[1];
       return m.getAttribute('data-type') === 'category' && m.getAttribute('data-name') === subName;
@@ -138,11 +138,14 @@ function checkHashLink() {
     return;
   }
 
-  // --- 以下为渲染新页面的逻辑 ---
   if (hash === '#menu') {
     const categories = Array.from(new Set(allApps.map(app => app.category || "其他"))).sort();
     renderMenuModal(categories);
     setPageTitle("WearStore - 菜单");
+  }
+  else if (hash === '#donate') {
+    renderDonateModal();
+    setPageTitle("WearStore - 支持与捐赠");
   }
   else if (hash.startsWith('#app=')) {
     const parts = hash.substring(5).split('+');

@@ -725,7 +725,6 @@ body {
   justify-content: start;
 }
 
-/* 手机端隐藏：只留前 3 个 */
 .wf-category-grid .card-big:nth-child(n+4) {
   display: none !important;
 }
@@ -754,7 +753,6 @@ body {
     gap: 25px 15px;
   }
 
-  /* 这一档显示前 8 个 */
   .wf-category-grid .card-big:nth-child(-n+8) {
     display: flex !important;
   }
@@ -789,6 +787,99 @@ body {
 .wf-category-grid .card-big {
   width: 100%;
   max-width: 160px;
+}
+
+/* =========================================
+   捐赠页面样式
+   ========================================= */
+
+.donate-container {
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 10px 5px;
+}
+
+.donate-desc-box {
+  background: var(--card-glass);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  box-shadow: var(--shadow-sm);
+  line-height: 1.8;
+  color: var(--text-main);
+  font-size: 0.95rem;
+}
+
+.donate-desc-box p {
+  margin-bottom: 12px;
+}
+
+.donate-desc-box p:last-child {
+  margin-bottom: 0;
+}
+
+.donate-highlight {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.donate-qr-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.donate-qr-card {
+  background: var(--card-glass);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+}
+
+.donate-qr-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.donate-qr-img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  box-sizing: border-box;
+}
+
+.donate-qr-label {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 4px;
+}
+
+@media (max-width: 520px) {
+  .donate-qr-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* =========================================
