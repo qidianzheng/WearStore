@@ -1,51 +1,5 @@
 [
   {
-    "id": 0,
-    "name": "磨损市场反馈",
-    "package": "com.wearstore",
-    "version": "1.0.0",
-    "code": 1,
-    "minSdk": 14,
-    "size": "0.00 MB",
-    "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
-    "screenshots": [
-      "assets/images/mosunshichang/mosunshichang_icon.webp"
-    ],
-    "addedTime": 1788968079495,
-    "updateTime": "2026-10-15",
-    "description": "如遇到模式市场使用体验问题或者磨损市场内第三方应用无法使用，请加入QQ群反馈：1077259743，入群需要答案，请到上方磨损市场里找",
-    "category": "系统工具",
-    "keywords": "",
-    "downloadUrl": "",
-    "developer": "磨损市场",
-    "historyVersion": [],
-    "recommendIds": [
-      1287852515,
-      1
-    ]
-  },
-  {
-    "id": 1,
-    "name": "[公告]应用关键词征集",
-    "package": "com.wearstore.notice-keywords",
-    "version": "1.0.0",
-    "code": 1,
-    "minSdk": 14,
-    "size": "0.00 MB",
-    "icon": "assets/images/mosunshichang/mosunshichang_icon.webp",
-    "screenshots": [
-      "assets/images/mosunshichang/mosunshichang_icon.webp"
-    ],
-    "addedTime": 1791513366998,
-    "updateTime": "2026-10-09",
-    "description": "为改善搜索体验，现向广大磨损市场用户征集应用关键词。\n什么是关键词？\n通过搜索关键词，用户可用快速找到某个应用。\n如：为哔哩终端设置关键词“b站”，搜索“b站”时可搜索到哔哩终端。\n如何投稿关键词？\n方式一：菜单-综合服务，扫描二维码后选择意见反馈填写。\n方式二：发送邮件到dzq8719@gmail.com\n格式：应用（关键词1，关键词2……）\n注意：关键词不要和应用名称重复",
-    "category": "系统工具",
-    "keywords": "",
-    "downloadUrl": "",
-    "developer": "磨损市场",
-    "historyVersion": []
-  },
-  {
     "id": 2597816725,
     "name": "2048",
     "package": "com.fastsoft.game2048w",
@@ -2139,6 +2093,38 @@
     "developer": "emersoft",
     "historyVersion": [],
     "contributor": "清漓染"
+  },
+  {
+    "id": 2432208332,
+    "name": "MeoWearLauncher",
+    "package": "com.hyperwear.launcher",
+    "_rawCode": 105,
+    "version": "0.1.104",
+    "code": 105,
+    "minSdk": 30,
+    "size": "4.15 MB",
+    "icon": "assets/images/meowearlauncher/meowearlauncher_icon.webp",
+    "screenshots": [
+      "assets/images/meowearlauncher/meowearlauncher_1.webp",
+      "assets/images/meowearlauncher/meowearlauncher_2.webp",
+      "assets/images/meowearlauncher/meowearlauncher_3.webp",
+      "assets/images/meowearlauncher/meowearlauncher_4.webp"
+    ],
+    "addedTime": 1792594350561,
+    "updateTime": "2026-10-21",
+    "description": "一款手表端桌面启动器，支持图标、图标文字、列表三种布局切换。提供动态常用网格，可进入完整应用列表；支持触摸拖动、惯性滚动、边缘缩放、松手回弹和表冠滚动。支持应用拖动排序、隐藏应用和卸载应用，可调整背景、桌面熄屏显示和滚轮震动。",
+    "category": "系统工具",
+    "keywords": [
+      "启动器",
+      "桌面",
+      "应用管理",
+      "表冠滚动",
+      "Launcher",
+      "qidongqi"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/MeoWearLauncher0.1.104(Android11%2B).apk",
+    "developer": "KcyKu",
+    "historyVersion": []
   },
   {
     "id": 3099280595,
@@ -5127,6 +5113,35 @@
     "historyVersion": []
   },
   {
+    "id": 2071815982,
+    "name": "WhaleChat",
+    "package": "com.naoh.whalechat",
+    "_rawCode": 1976,
+    "version": "1.976",
+    "code": 1976,
+    "minSdk": 30,
+    "size": "3.23 MB",
+    "icon": "assets/images/whalechat/whalechat_icon.webp",
+    "screenshots": [
+      "assets/images/whalechat/whalechat_1.webp",
+      "assets/images/whalechat/whalechat_2.webp",
+      "assets/images/whalechat/whalechat_3.webp"
+    ],
+    "addedTime": 1792594369751,
+    "updateTime": "2026-10-21",
+    "description": "Wear OS 上跟 DeepSeek 聊天的非官方客户端，支持一次性问答和虚拟人设角色扮演，纯手表端运行。具备流式输出、快答/深度思考两档回答、手机扫码修改凭证与角色人设、语音输入、会话管理、Token 用量统计等功能，数据仅存本机。",
+    "category": "效率办公",
+    "keywords": [
+      "DeepSeek",
+      "AI聊天",
+      "角色扮演",
+      "zhineng duihua"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/WhaleChat1.976(Android11%2B).apk",
+    "developer": "NaOH_aminuosi",
+    "historyVersion": []
+  },
+  {
     "id": 369470727,
     "name": "WordSplash",
     "package": "com.huixia.wordsplash",
@@ -5157,6 +5172,41 @@
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/WordSplash1.0.7(Android5%2B).apk",
     "developer": "某灰瞎",
+    "historyVersion": []
+  },
+  {
+    "id": 1671760545,
+    "name": "WristAM",
+    "package": "com.applemusic.lyricstool.wear",
+    "_rawCode": 1,
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 30,
+    "size": "7.60 MB",
+    "icon": "assets/images/wristam/wristam_icon.webp",
+    "screenshots": [
+      "assets/images/wristam/wristam_1.webp",
+      "assets/images/wristam/wristam_2.webp",
+      "assets/images/wristam/wristam_3.webp",
+      "assets/images/wristam/wristam_4.webp"
+    ],
+    "addedTime": 1792594370047,
+    "updateTime": "2026-10-21",
+    "description": "一款手表端音乐应用，实现了搜歌、个性电台和逐字歌词功能，提供腕上音乐播放体验。",
+    "category": "影音娱乐",
+    "keywords": [
+      "音乐",
+      "搜歌",
+      "个性电台",
+      "逐字歌词",
+      "WristAM",
+      "yinyue",
+      "geci",
+      "apple music"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%5BWATCH%5DWristAM1.0(Android11%2B).apk",
+    "phoneLink": "https://pan.baidu.com/s/1YQRc-jsMweOAwc0qBNsUNA?pwd=6z9a",
+    "developer": "辞啊",
     "historyVersion": []
   },
   {
@@ -6717,11 +6767,11 @@
     "id": 3288272047,
     "name": "倒数日",
     "package": "com.Lucas.countdown",
-    "_rawCode": 426,
-    "version": "1.1.550_xiaofeng",
-    "code": 426,
+    "_rawCode": 520,
+    "version": "1.2.003_xiaofeng",
+    "code": 520,
     "minSdk": 16,
-    "size": "5.60 MB",
+    "size": "12.90 MB",
     "icon": "assets/images/daoshuri/daoshuri_icon.webp",
     "screenshots": [
       "assets/images/daoshuri/daoshuri_1.webp",
@@ -6730,7 +6780,7 @@
       "assets/images/daoshuri/daoshuri_4.webp"
     ],
     "addedTime": 1791881654733,
-    "updateTime": "2026-10-13",
+    "updateTime": "2026-10-21",
     "description": "一款功能全面的倒数日应用，支持正/倒数日卡片管理、自定义公历/农历、重复周期、节假日卡片、日历视图、农历换算、液态玻璃交互效果、数据备份导入导出、穿戴设备表冠/表圈适配、主题设置等。",
     "category": "生活服务",
     "keywords": [
@@ -6738,8 +6788,48 @@
       "日历",
       "农历"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%80%92%E6%95%B0%E6%97%A51.1.550_xiaofeng(Android4.1%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%80%92%E6%95%B0%E6%97%A51.2.003_xiaofeng(Android4.1%2B).apk",
     "developer": "万Lucas",
+    "historyVersion": [
+      {
+        "_rawCode": 426,
+        "version": "1.1.550_xiaofeng",
+        "code": 426,
+        "minSdk": 16,
+        "size": "5.60 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%80%92%E6%95%B0%E6%97%A51.1.550_xiaofeng(Android4.1%2B).apk"
+      }
+    ]
+  },
+  {
+    "id": 447456923,
+    "name": "倒数日(Andy)",
+    "package": "com.dsh.daysmatter",
+    "_rawCode": 1,
+    "version": "1.0",
+    "code": 1,
+    "minSdk": 30,
+    "size": "0.10 MB",
+    "icon": "assets/images/daoshuriandy/daoshuriandy_icon.webp",
+    "screenshots": [
+      "assets/images/daoshuriandy/daoshuriandy_1.webp",
+      "assets/images/daoshuriandy/daoshuriandy_2.webp",
+      "assets/images/daoshuriandy/daoshuriandy_3.webp",
+      "assets/images/daoshuriandy/daoshuriandy_4.webp",
+      "assets/images/daoshuriandy/daoshuriandy_5.webp"
+    ],
+    "addedTime": 1792594378827,
+    "updateTime": "2026-10-21",
+    "description": "一款专为手表屏幕重新设计的纪念日工具，同时支持“还有”与“已经”——未来目标日倒着数，过去日子正着数，同一条事件随时间自动切换。支持公历与农历双向换算、每年重复、分类、置顶与自定义颜色图标，首次启动可选圆屏或方屏并自动重新排版。安装包仅104.6 KB，无图片资源，秒开省电。",
+    "category": "生活服务",
+    "keywords": [
+      "纪念日",
+      "农历",
+      "daoshu ri",
+      "jinianri"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%80%92%E6%95%B0%E6%97%A51.0(Android11%2B).apk",
+    "developer": "Andy",
     "historyVersion": []
   },
   {
@@ -7508,26 +7598,70 @@
     "historyVersion": []
   },
   {
+    "id": 2707285277,
+    "name": "嗷呜文件",
+    "package": "com.nickwoluff.wearfiles",
+    "_rawCode": 3,
+    "version": "1.0.2",
+    "code": 3,
+    "minSdk": 25,
+    "size": "1.68 MB",
+    "icon": "assets/images/aowuwenjian/aowuwenjian_icon.webp",
+    "screenshots": [
+      "assets/images/aowuwenjian/aowuwenjian_1.webp",
+      "assets/images/aowuwenjian/aowuwenjian_2.webp",
+      "assets/images/aowuwenjian/aowuwenjian_3.webp",
+      "assets/images/aowuwenjian/aowuwenjian_4.webp"
+    ],
+    "addedTime": 1792594384957,
+    "updateTime": "2026-10-21",
+    "description": "专为智能手表打造的文件管理器，首次启动自动识别屏幕形状，也可手动切换。首页显示存储占用与可用容量，提供下载、图片、音乐和文档快捷入口。支持文件浏览、排序、隐藏文件显示、新建文件夹、重命名、移动与删除，调用设备应用打开和分享文件。提供六种强调色、六种调色板风格及显示缩放调整。",
+    "category": "系统工具",
+    "keywords": [
+      "文件管理器",
+      "存储管理",
+      "文件操作",
+      "wenjian guanli",
+      "explorer",
+      "file"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%97%B7%E5%91%9C%E6%96%87%E4%BB%B61.0.2(Android7.1%2B).apk",
+    "developer": "尼克狼唔",
+    "historyVersion": []
+  },
+  {
     "id": 4240791335,
     "name": "嗷呜计算器",
     "package": "com.nickwoluff.wearcalculator",
-    "_rawCode": 5,
-    "version": "1.1.1",
-    "code": 5,
-    "minSdk": 24,
-    "size": "5.47 MB",
+    "_rawCode": 8,
+    "version": "1.2.2",
+    "code": 8,
+    "minSdk": 25,
+    "size": "6.61 MB",
     "icon": "assets/images/aowujisuanqi/aowujisuanqi_icon.webp",
     "screenshots": [
-      "assets/images/aowujisuanqi/aowujisuanqi_1.webp"
+      "assets/images/aowujisuanqi/aowujisuanqi_1.webp",
+      "assets/images/aowujisuanqi/aowujisuanqi_2.webp"
     ],
     "addedTime": 1777017863108,
-    "updateTime": "2026-04-24",
+    "updateTime": "2026-10-21",
     "description": "专为智能手表打造的高精度计算器，嗷呜！\n·多类屏幕适配：深度适配方屏、圆屏，根据手表屏幕类型自动适配应用界面。\n·超高精度计算：底层重构为纯 BigDecimal 高精度数学引擎，彻底消除二进制浮点运算误差。\n·丝滑无界滚动：当算式或结果过长时，旋转表冠或左右滑动即可查看完整数据，再也不怕屏幕装不下。\n·防呆纠错逻辑：内置严谨的输入互锁机制，拒绝无意义的 Error 崩溃。\n·现代交互界面：遵循 Material Design 极简美学，美观易用。",
     "category": "效率办公",
-    "keywords": [],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E5%97%B7%E5%91%9C%E8%AE%A1%E7%AE%97%E5%99%A81.1.1(Android7%2B).apk",
+    "keywords": [
+      "calculator"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E5%97%B7%E5%91%9C%E8%AE%A1%E7%AE%97%E5%99%A81.2.2(Android7.1%2B).apk",
     "developer": "Nick Woluff",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 5,
+        "version": "1.1.1",
+        "code": 5,
+        "minSdk": 24,
+        "size": "5.47 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E5%97%B7%E5%91%9C%E8%AE%A1%E7%AE%97%E5%99%A81.1.1(Android7%2B).apk"
+      }
+    ]
   },
   {
     "id": 1430084048,
@@ -9378,6 +9512,35 @@
     "historyVersion": []
   },
   {
+    "id": 102722252,
+    "name": "查词方版",
+    "package": "com.example.watchdict.square",
+    "_rawCode": 14,
+    "version": "2.1-square",
+    "code": 14,
+    "minSdk": 26,
+    "size": "35.76 MB",
+    "icon": "assets/images/chacifangban/chacifangban_icon.webp",
+    "screenshots": [
+      "assets/images/chacifangban/chacifangban_1.webp"
+    ],
+    "addedTime": 1792594393753,
+    "updateTime": "2026-10-21",
+    "description": "一款戴在手腕上的离线词典，专为智能手表深度打造，纯黑高对比排版、方/圆屏自动适配、表冠一键滚阅，抬腕即查。内置5.7万精选词条，完整覆盖牛津3000、四六级、考研、雅思托福核心词汇，全程离线运行，不联网、不登录、零广告。支持英汉双向互译，显示音标、词性释义、词形变化与中英对照例句。",
+    "category": "学习充电",
+    "keywords": [
+      "离线词典",
+      "英汉互译",
+      "背单词",
+      "手表词典",
+      "chaci",
+      "cidian"
+    ],
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%9F%A5%E8%AF%8D%E6%96%B9%E7%89%882.1-square(Android8%2B).apk",
+    "developer": "zkb",
+    "historyVersion": []
+  },
+  {
     "id": 2519917340,
     "name": "核心显示",
     "package": "com.watchfacestudio.dh",
@@ -9750,18 +9913,18 @@
     "id": 3339071882,
     "name": "海拔气压计(Lucas)",
     "package": "com.Lucas.altitude.barometer",
-    "_rawCode": 20,
-    "version": "1.0.6_xiaofeng",
-    "code": 20,
-    "minSdk": 30,
-    "size": "0.23 MB",
+    "_rawCode": 21,
+    "version": "1.0.7_xiaofeng",
+    "code": 21,
+    "minSdk": 21,
+    "size": "0.22 MB",
     "icon": "assets/images/haibaqiyajilucas/haibaqiyajilucas_icon.webp",
     "screenshots": [
       "assets/images/haibaqiyajilucas/haibaqiyajilucas_1.webp",
       "assets/images/haibaqiyajilucas/haibaqiyajilucas_2.webp"
     ],
     "addedTime": 1791881678394,
-    "updateTime": "2026-10-13",
+    "updateTime": "2026-10-21",
     "description": "自己结合AI制作的海拔气压计软件，内部迭代16个版本，复刻官方版本UI样式。",
     "category": "生活服务",
     "keywords": [
@@ -9770,9 +9933,18 @@
       "haiba",
       "qiya"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B5%B7%E6%8B%94%E6%B0%94%E5%8E%8B%E8%AE%A11.0.6_xiaofeng(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E6%B5%B7%E6%8B%94%E6%B0%94%E5%8E%8B%E8%AE%A11.0.7_xiaofeng(Android5%2B).apk",
     "developer": "Lucas",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 20,
+        "version": "1.0.6_xiaofeng",
+        "code": 20,
+        "minSdk": 30,
+        "size": "0.23 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E6%B5%B7%E6%8B%94%E6%B0%94%E5%8E%8B%E8%AE%A11.0.6_xiaofeng(Android11%2B).apk"
+      }
+    ]
   },
   {
     "id": 3223037964,
@@ -11483,11 +11655,11 @@
     "id": 194880826,
     "name": "腕音",
     "package": "com.fishcpy.wanyin",
-    "_rawCode": 15,
-    "version": "0.1.2",
-    "code": 15,
-    "minSdk": 30,
-    "size": "5.06 MB",
+    "_rawCode": 20,
+    "version": "0.1.4",
+    "code": 20,
+    "minSdk": 26,
+    "size": "2.89 MB",
     "icon": "assets/images/wanyin/wanyin_icon.webp",
     "screenshots": [
       "assets/images/wanyin/wanyin_1.webp",
@@ -11496,23 +11668,23 @@
       "assets/images/wanyin/wanyin_4.webp"
     ],
     "addedTime": 1787129466649,
-    "updateTime": "2026-09-30",
+    "updateTime": "2026-10-21",
     "description": "material design 3 风格音乐播放器",
     "category": "影音娱乐",
     "keywords": [
       "音乐播放器",
       "本地音乐"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.1.2(Android11%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.1.4(Android8%2B).apk",
     "developer": "fishcpy",
     "historyVersion": [
       {
-        "_rawCode": 8,
-        "version": "0.0.8",
-        "code": 8,
+        "_rawCode": 15,
+        "version": "0.1.2",
+        "code": 15,
         "minSdk": 30,
-        "size": "4.47 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.0.8(Android11%2B).apk"
+        "size": "5.06 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.1.2(Android11%2B).apk"
       }
     ]
   },
