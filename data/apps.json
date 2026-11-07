@@ -2096,7 +2096,7 @@
   },
   {
     "id": 2432208332,
-    "name": "MeoWearLauncher",
+    "name": "妙腕桌面",
     "package": "com.hyperwear.launcher",
     "_rawCode": 115,
     "version": "1.0.47",
@@ -2123,6 +2123,7 @@
       "qidongqi"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/MeoWearLauncher1.0.47(Android11%2B).apk",
+    "phoneLink": "https://pan.baidu.com/s/1_YPtiSWTA62dnm1SoXFwoQ?pwd=9f8y",
     "developer": "KcyKu",
     "historyVersion": [
       {
