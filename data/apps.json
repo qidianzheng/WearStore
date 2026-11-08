@@ -2123,7 +2123,6 @@
       "qidongqi"
     ],
     "downloadUrl": "https://download.wearstore.asia/APK/MeoWearLauncher1.0.47(Android11%2B).apk",
-    "phoneLink": "https://pan.baidu.com/s/1_YPtiSWTA62dnm1SoXFwoQ?pwd=9f8y",
     "developer": "KcyKu",
     "historyVersion": [
       {
@@ -2134,7 +2133,8 @@
         "size": "4.15 MB",
         "downloadUrl": "https://download.wearstore.asia/APK/MeoWearLauncher0.1.104(Android11%2B).apk"
       }
-    ]
+    ],
+    "phoneLink": "https://pan.baidu.com/s/1_YPtiSWTA62dnm1SoXFwoQ?pwd=9f8y"
   },
   {
     "id": 3099280595,
@@ -2796,11 +2796,11 @@
     "id": 993156958,
     "name": "Orbit",
     "package": "com.qx.orbit.bili",
-    "_rawCode": 521,
-    "version": "0.5.21-Alpha-full",
-    "code": 521,
+    "_rawCode": 522,
+    "version": "0.5.22-Alpha-full",
+    "code": 522,
     "minSdk": 23,
-    "size": "10.10 MB",
+    "size": "10.18 MB",
     "icon": "assets/images/orbit/orbit_icon.webp",
     "screenshots": [
       "assets/images/orbit/orbit_1.webp",
@@ -2809,7 +2809,7 @@
       "assets/images/orbit/orbit_4.webp"
     ],
     "addedTime": 1786955643123,
-    "updateTime": "2026-08-17",
+    "updateTime": "2026-11-08",
     "description": "哔哩终端的 Wear OS 重写项目。\nOrbit 是一个运行在 Wear OS 智能手表上的第三方哔哩哔哩客户端，借鉴了哔哩终端的部分 API 接口调用和 UI 设计。\n使用Jetpack Compose + Wear Material 3实现，网络层重构为Retrofit+Okhttp，相比原项目更加现代。\n目前已经实现大部分基本功能，如看视频、浏览弹幕、发送评论、查看动态、观看直播、离线缓存等等。\n内置 Apsis Player, 支持双模播放引擎切换、双模弹幕引擎切换，支持双指缩放平移手势，可开关弹幕、拖动全屏调节进度等，点击标题区域退出。\n拥有一些首创的特色功能，比如推荐页左滑视频可一键净化（隐藏+报告不感兴趣+拉黑UP主），评论区长按评论可隐藏评论+拉黑发送者。",
     "category": "影音娱乐",
     "keywords": [
@@ -2818,9 +2818,18 @@
       "哔哩终端",
       "视频"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/Orbit0.5.21-Alpha-full(Android6%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/Orbit0.5.22-Alpha-full(Android6%2B).apk",
     "developer": "琴弦上的小医生",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 521,
+        "version": "0.5.21-Alpha-full",
+        "code": 521,
+        "minSdk": 23,
+        "size": "10.10 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/Orbit0.5.21-Alpha-full(Android6%2B).apk"
+      }
+    ]
   },
   {
     "id": 670180534,
@@ -4938,11 +4947,11 @@
     "id": 1750027491,
     "name": "WearQQ Next",
     "package": "moye.wearqq.ce",
-    "_rawCode": 108020,
-    "version": "1.8.2",
-    "code": 108020,
+    "_rawCode": 108030,
+    "version": "1.8.3",
+    "code": 108030,
     "minSdk": 26,
-    "size": "48.90 MB",
+    "size": "48.91 MB",
     "icon": "assets/images/wearqqnext/wearqqnext_icon.webp",
     "screenshots": [
       "assets/images/wearqqnext/wearqqnext_1.webp",
@@ -4952,20 +4961,20 @@
       "assets/images/wearqqnext/wearqqnext_5.webp"
     ],
     "addedTime": 1787563122742,
-    "updateTime": "2026-09-30",
+    "updateTime": "2026-11-08",
     "description": "第三方修改版，可能封号！！！\nWearQQ Next是基于下一代技术全新重构的手表 QQ，拥有所有表Q迄今为止最完美的圆表UI，并同时提供了表Q协议下所有可实现的功能。",
     "category": "通讯社交",
     "keywords": "",
-    "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.8.2(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.8.3(Android8%2B).apk",
     "developer": "深圳市腾讯计算机系统有限公司",
     "historyVersion": [
       {
-        "_rawCode": 108010,
-        "version": "1.8.1",
-        "code": 108010,
+        "_rawCode": 108020,
+        "version": "1.8.2",
+        "code": 108020,
         "minSdk": 26,
-        "size": "48.88 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.8.1(Android8%2B).apk"
+        "size": "48.90 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/WearQQ%20Next1.8.2(Android8%2B).apk"
       },
       {
         "_rawCode": 102000,
@@ -11665,36 +11674,35 @@
     "id": 194880826,
     "name": "腕音",
     "package": "com.fishcpy.wanyin",
-    "_rawCode": 20,
-    "version": "0.1.4",
-    "code": 20,
+    "_rawCode": 185,
+    "version": "0.1.8",
+    "code": 185,
     "minSdk": 26,
-    "size": "2.89 MB",
+    "size": "3.18 MB",
     "icon": "assets/images/wanyin/wanyin_icon.webp",
     "screenshots": [
       "assets/images/wanyin/wanyin_1.webp",
       "assets/images/wanyin/wanyin_2.webp",
-      "assets/images/wanyin/wanyin_3.webp",
-      "assets/images/wanyin/wanyin_4.webp"
+      "assets/images/wanyin/wanyin_3.webp"
     ],
     "addedTime": 1787129466649,
-    "updateTime": "2026-10-21",
+    "updateTime": "2026-11-08",
     "description": "material design 3 风格音乐播放器",
     "category": "影音娱乐",
     "keywords": [
       "音乐播放器",
       "本地音乐"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.1.4(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.1.8(Android8%2B).apk",
     "developer": "fishcpy",
     "historyVersion": [
       {
-        "_rawCode": 15,
-        "version": "0.1.2",
-        "code": 15,
-        "minSdk": 30,
-        "size": "5.06 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.1.2(Android11%2B).apk"
+        "_rawCode": 20,
+        "version": "0.1.4",
+        "code": 20,
+        "minSdk": 26,
+        "size": "2.89 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E8%85%95%E9%9F%B30.1.4(Android8%2B).apk"
       }
     ]
   },
@@ -12634,11 +12642,11 @@
     "id": 84101276,
     "name": "零度音乐",
     "package": "ml.sky233.zero.music",
-    "_rawCode": 86,
-    "version": "3.1.0",
-    "code": 86,
+    "_rawCode": 105,
+    "version": "3.2.0-fix8",
+    "code": 105,
     "minSdk": 23,
-    "size": "12.46 MB",
+    "size": "11.36 MB",
     "icon": "assets/images/lingduyinle/lingduyinle_icon.webp",
     "screenshots": [
       "assets/images/lingduyinle/lingduyinle_1.webp",
@@ -12647,7 +12655,7 @@
       "assets/images/lingduyinle/lingduyinle_4.webp"
     ],
     "addedTime": 1764730777137,
-    "updateTime": "2026-06-27",
+    "updateTime": "2026-11-08",
     "description": "零度音乐是一款专注于智能手表使用体验的本地音乐播放器。应用不提供在线音乐、音乐下载或流媒体服务，只用于播放用户设备中已有的本地音频文件。\n\n你可以在手表上扫描并管理本地音乐，按歌曲、专辑、歌手和歌单浏览音乐库；播放页支持歌词显示、封面背景、播放队列、播放模式切换和定时关闭。针对手表的小屏和圆屏场景，零度音乐重新设计了界面布局，让日常播放、查找和管理歌曲更加顺手。\n\n应用还支持手机端辅助功能，可通过扫码连接手表，将手机音乐上传到手表，并管理手表端音乐库和歌单。传输过程支持分片上传和任务恢复，适合批量导入本地音乐。\n\n主要功能\n\n- 本地音乐扫描与播放\n- 歌曲、专辑、歌手、歌单分类管理\n- 歌词显示与歌词样式设置\n- 播放队列、随机播放、单曲循环等播放模式\n- 均衡器、压限器和应用音量调节\n- 定时关闭、蓝牙线控、滚轮调节音量\n- 自定义主题、字体、背景和界面缩放\n- 手机扫码连接手表，上传音乐并同步歌单\n\n说明\n零度音乐仅支持播放用户已拥有的本地音频文件，不包含任何音乐版权内容，不提供在线搜索、在线播放或下载音乐功能。使用前请确保设备中已有合法来源的音乐文件。",
     "category": "影音娱乐",
     "keywords": [
@@ -12659,16 +12667,16 @@
       "听歌",
       "zeromusic"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.1.0-fix1(Android6%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.2.0-fix8(Android6%2B).apk",
     "developer": "sky233",
     "historyVersion": [
       {
-        "_rawCode": 83,
-        "version": "3.0.3",
-        "code": 83,
+        "_rawCode": 86,
+        "version": "3.1.0",
+        "code": 86,
         "minSdk": 23,
-        "size": "12.17 MB",
-        "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.0.3(Android6%2B).Apk"
+        "size": "12.46 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E9%9B%B6%E5%BA%A6%E9%9F%B3%E4%B9%903.1.0-fix1(Android6%2B).apk"
       },
       {
         "_rawCode": 33,
@@ -12753,11 +12761,11 @@
     "id": 1721875872,
     "name": "高德地图",
     "package": "com.autonavi.minimap.watch",
-    "_rawCode": 1101,
-    "version": "1.1.1",
-    "code": 1101,
+    "_rawCode": 1102,
+    "version": "1.1.2",
+    "code": 1102,
     "minSdk": 26,
-    "size": "15.68 MB",
+    "size": "12.87 MB",
     "icon": "assets/images/gaodeditu/gaodeditu_icon.webp",
     "screenshots": [
       "assets/images/gaodeditu/gaodeditu_1.webp",
@@ -12768,7 +12776,7 @@
       "assets/images/gaodeditu/gaodeditu_6.webp"
     ],
     "addedTime": 1764730777683,
-    "updateTime": "2025-12-21",
+    "updateTime": "2026-11-08",
     "description": "国民级的专业导航App。以精准的驾车导航和实时路况为核心，聚合全网打车平台，提供高性价比出行选择。创新的 “扫街榜” 基于真实出行数据，帮你发现周边热门好店。",
     "category": "生活服务",
     "keywords": [
@@ -12778,9 +12786,18 @@
       "出行",
       "map"
     ],
-    "downloadUrl": "https://download.wearstore.asia/APK/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE1.1.1(Android8%2B).apk",
+    "downloadUrl": "https://download.wearstore.asia/APK/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE-%E6%89%8B%E8%A1%A8%E7%89%881.1.2(Android8%2B).apk",
     "developer": "北京高德图强科技有限公司",
-    "historyVersion": []
+    "historyVersion": [
+      {
+        "_rawCode": 1101,
+        "version": "1.1.1",
+        "code": 1101,
+        "minSdk": 26,
+        "size": "15.68 MB",
+        "downloadUrl": "https://download.wearstore.asia/APK/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE1.1.1(Android8%2B).apk"
+      }
+    ]
   },
   {
     "id": 3211569384,
