@@ -984,6 +984,176 @@ body {
 }
 
 /* =========================================
+   最高优先级公告/换站提示弹窗样式
+   ========================================= */
+
+.notice-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 确保优先级高于所有详情页、菜单页和 Toast */
+  z-index: 99999 !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.notice-modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.notice-modal-card {
+  background: var(--modal-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  width: 100%;
+  max-width: 420px;
+  padding: 24px 22px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  transform: scale(0.92);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  color: var(--text-main);
+  box-sizing: border-box;
+}
+
+.notice-modal-overlay.active .notice-modal-card {
+  transform: scale(1);
+}
+
+/* 顶部标签行 */
+.notice-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notice-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+.notice-close-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-size: 22px;
+  padding: 4px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, color 0.2s;
+}
+
+.notice-close-btn:hover {
+  background: var(--menu-item-bg);
+  color: var(--text-main);
+}
+
+/* 提示文案内容 */
+.notice-body-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-main);
+  margin: 4px 0 6px;
+}
+
+.notice-highlight-url {
+  color: var(--primary-color);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.notice-highlight-ver {
+  color: #ef4444;
+  font-weight: 800;
+}
+
+/* 按钮组 */
+.notice-btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+/* 前往新网址（主要操作按钮） */
+.btn-notice-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--primary-color);
+  color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.25);
+}
+
+.btn-notice-primary:hover {
+  background: var(--primary-hover);
+}
+
+.btn-notice-primary:active {
+  transform: scale(0.98);
+}
+
+/* 跳转更新应用（次要操作按钮） */
+.btn-notice-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--menu-item-bg);
+  color: var(--text-main);
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+  transition: background 0.2s, border-color 0.2s, transform 0.1s;
+}
+
+.btn-notice-secondary:hover {
+  background: var(--card-glass);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-notice-secondary:active {
+  transform: scale(0.98);
+}
+
+/* =========================================
    7. 新版应用详情页
    ========================================= */
 

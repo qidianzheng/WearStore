@@ -579,6 +579,79 @@ export function renderDonateModal() {
   setTimeout(() => m.classList.add('active'), 10);
 }
 
+export function showNoticeModal() {
+  const overlay = document.createElement('div');
+  overlay.className = 'notice-modal-overlay';
+  overlay.id = 'noticeModalOverlay';
+
+  overlay.innerHTML = `
+    <div class="notice-modal-card">
+      <div class="notice-header-row">
+        <div class="notice-badge">
+          <span class="material-symbols-rounded" style="font-size: 18px;">campaign</span>
+          <span>网站迁移公告</span>
+        </div>
+        <button class="notice-close-btn" id="closeNoticeBtn" title="关闭公告">
+          <span class="material-symbols-rounded">close</span>
+        </button>
+      </div>
+
+      <div class="notice-body-text">
+        我们已更换网址，新网址为 <span class="notice-highlight-url">wearstore.top</span>，<br>请尽快将手表上的磨损市场更新到 <span class="notice-highlight-ver">V26</span> 版本。
+      </div>
+
+      <div class="notice-btn-group">
+        <!-- 按钮 1：跳转到新网址 -->
+        <button class="btn-notice-primary" id="btnGoNewSite">
+          <span class="material-symbols-rounded">open_in_new</span>
+          <span>前往新网址 (wearstore.top)</span>
+        </button>
+
+        <!-- 按钮 2：跳转到应用 ID 1287852515 -->
+        <button class="btn-notice-secondary" id="btnGoTargetApp">
+          <span class="material-symbols-rounded">system_update</span>
+          <span>前往更新磨损市场 (V26)</span>
+        </button>
+      </div>
+    </div>
+  `;
+
+  // 关闭逻辑
+  const closeNotice = () => {
+    overlay.classList.remove('active');
+    setTimeout(() => {
+      if (overlay.parentElement) overlay.remove();
+    }, 300);
+  };
+
+  // 1. 关闭按钮
+  overlay.querySelector('#closeNoticeBtn').onclick = closeNotice;
+
+  // 2. 按钮 1：直接跳转到新网址
+  overlay.querySelector('#btnGoNewSite').onclick = () => {
+    window.location.href = 'https://wearstore.top';
+  };
+
+  // 3. 按钮 2：跳转至 ID 为 1287852515 的磨损市场应用详情
+  overlay.querySelector('#btnGoTargetApp').onclick = () => {
+    closeNotice();
+    const targetId = "1287852515";
+    const app = window.allApps ? window.allApps.find(a => String(a.id) === targetId) : null;
+    if (app) {
+      const code = app.code ? app.code : '0';
+      const ver = app.version ? encodeURIComponent(app.version) : 'unknown';
+      window.location.hash = `app=${app.package}+${ver}+${code}`;
+    } else {
+      // 兜底直接按 ID 寻找路由
+      window.location.hash = `app=com.qdz.wearmarket`;
+    }
+  };
+
+  document.body.appendChild(overlay);
+  // 微小延迟触发淡入和缩放动画
+  setTimeout(() => overlay.classList.add('active'), 50);
+}
+
 function showToast(msg) {
   const container = document.getElementById('toast-container');
   if (!container) return;

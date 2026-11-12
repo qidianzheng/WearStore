@@ -1,5 +1,5 @@
 import { fetchApps } from './data.js';
-import { renderCardList, renderAppModal, renderIncompatibleCard, openHistoryModal, renderDevModal, renderCategoryModal, renderMenuModal, renderDonateModal } from './ui.js';
+import { renderCardList, renderAppModal, renderIncompatibleCard, openHistoryModal, renderDevModal, renderCategoryModal, renderMenuModal, renderDonateModal, showNoticeModal } from './ui.js';
 import { isAppGloballyCompatible, apiMap, escapeHtml, categoryHash, getCategoryByHash, findAppByPrecision, setPageTitle, calculateMatchRatio } from './utils.js';
 import Fuse from './fuse.mjs';
 
@@ -27,6 +27,7 @@ async function init() {
   checkHashLink();
   checkUserVersion(); // 初始化版本按钮
   if (!window.location.hash && elements.searchInput.value === '') renderRandomHome();
+  showNoticeModal();
 }
 
 function initFuse() {
